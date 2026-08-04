@@ -1,0 +1,142 @@
+- generic [ref=f15e2]:
+  - generic [ref=f15e3]:
+    - generic [ref=f15e5]:
+      - generic [ref=f15e6]:
+        - link "Logo" [ref=f15e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f15e8]
+        - text: 
+      - list [ref=f15e9]:
+        - listitem [ref=f15e10]:
+          - link " Dashboard" [ref=f15e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f15e12]: 
+            - text: Dashboard
+        - listitem [ref=f15e13]:
+          - link " Batches" [ref=f15e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f15e15]: 
+            - text: Batches
+        - listitem [ref=f15e16]:
+          - link " My Courses" [ref=f15e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f15e18]: 
+            - text: My Courses
+        - listitem [ref=f15e19]:
+          - link " eBooks" [ref=f15e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f15e21]: 
+            - text: eBooks
+        - listitem [ref=f15e22]:
+          - link " Wishlist" [ref=f15e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f15e24]: 
+            - text: Wishlist
+        - listitem [ref=f15e25]:
+          - link " Audiobook" [ref=f15e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f15e27]: 
+            - text: Audiobook
+        - listitem [ref=f15e28]:
+          - link " Resources" [ref=f15e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f15e30]: 
+            - text: Resources
+        - listitem [ref=f15e31]:
+          - link " Current Affairs" [ref=f15e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f15e33]: 
+            - text: Current Affairs
+        - listitem [ref=f15e34]:
+          - link " Test" [ref=f15e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f15e36]: 
+            - text: Test
+        - listitem [ref=f15e37]:
+          - link " Settings" [ref=f15e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f15e39]: 
+            - text: Settings
+        - listitem [ref=f15e40]:
+          - link " Call Reminders" [ref=f15e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f15e42]: 
+            - text: Call Reminders
+        - listitem [ref=f15e43]:
+          - link " Leaderboard" [ref=f15e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f15e45]: 
+            - text: Leaderboard
+        - listitem [ref=f15e46]:
+          - button " APL " [ref=f15e47] [cursor=pointer]:
+            - generic [ref=f15e48]:
+              - generic [ref=f15e49]: 
+              - text: APL
+            - generic [ref=f15e50]: 
+          - text:    
+        - listitem [ref=f15e51]:
+          - link " Notification" [ref=f15e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f15e53]: 
+            - text: Notification
+        - listitem [ref=f15e54]:
+          - button " Logout" [ref=f15e56] [cursor=pointer]:
+            - generic [ref=f15e57]: 
+            - text: Logout
+    - generic [ref=f15e59]:
+      - banner [ref=f15e60]:
+        - text: 
+        - generic [ref=f15e61]:
+          - generic [ref=f15e62]:
+            - generic [ref=f15e63]: 
+            - textbox "Search Course" [ref=f15e64]
+            - text: 
+          - link "" [ref=f15e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f15e68]: 
+          - link "Profile qatestusera0731" [ref=f15e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f15e71]
+            - generic [ref=f15e72]: qatestusera0731
+      - generic [ref=f15e78]:
+        - generic [ref=f15e79]:
+          - img "APL Q20 Explanation Course" [ref=f15e80]
+          - generic [ref=f15e82]:
+            - heading "APL Q20 Explanation Course" [level=5] [ref=f15e83]
+            - generic [ref=f15e84]:
+              - generic [ref=f15e85] [cursor=pointer]: APL-01
+              - generic [ref=f15e86] [cursor=pointer]: 40 Hours
+              - generic [ref=f15e87] [cursor=pointer]: APL Q20
+            - generic [ref=f15e88]:
+              - generic [ref=f15e89]:
+                - text: ₹7999.00 INR
+                - generic [ref=f15e90]: GST 18% (Inclusive)
+              - button "Alternate Text Join Now" [ref=f15e92] [cursor=pointer]:
+                - img "Alternate Text" [ref=f15e93]
+                - text: Join Now
+        - generic [ref=f15e95]:
+          - heading "Course Overview" [level=4] [ref=f15e96]
+          - generic [ref=f15e98]: சமூக அறிவியல் தேர்விற்கான முழுமையான பாடப்பிரிவுகள் மற்றும் ஆழமான பயிற்சி பொருட்கள் தொகுப்பு (Social Science Complete Study Materials and Practice Modules)
+          - generic [ref=f15e99]:
+            - heading "Course Duration:" [level=6] [ref=f15e100]
+            - paragraph [ref=f15e101]:
+              - generic [ref=f15e102]: 
+              - text: Jul 31, 2026 – Aug 08, 2026
+            - paragraph [ref=f15e103]:
+              - generic [ref=f15e104]: 
+              - text: 40 hours of content
+  - generic "Ask a doubt" [ref=f15e105]:
+    - generic [ref=f15e106]: 
+  - text:      
+  - contentinfo [ref=f15e107]:
+    - generic [ref=f15e108]:
+      - paragraph [ref=f15e110]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f15e111]:
+        - link "About Us" [ref=f15e112] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f15e113] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f15e114] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f15e115] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

@@ -1,0 +1,327 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e7]:
+    - generic [ref=f2e8]:
+      - generic [ref=f2e9]:
+        - heading "Assessment" [level=4] [ref=f2e10]
+        - navigation [ref=f2e11]:
+          - list [ref=f2e12]:
+            - listitem [ref=f2e13]:
+              - link [ref=f2e14] [cursor=pointer]:
+                - /url: /Assessment/CourseAssessment
+                - img [ref=f2e15]
+            - listitem [ref=f2e18]: / Course
+      - generic [ref=f2e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f2e22]:
+          - text: 
+          - listitem [ref=f2e23] [cursor=pointer]:
+            - generic [ref=f2e24]:
+              - img "Profile" [ref=f2e25]
+              - generic [ref=f2e26]:
+                - generic [ref=f2e27]: superadmin@gmail.com
+                - paragraph [ref=f2e28]:
+                  - text: SuperAdmin
+                  - generic [ref=f2e29]: 
+    - generic [ref=f2e30]:
+      - generic [ref=f2e32]:
+        - generic [ref=f2e33]:
+          - link [ref=f2e34] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f2e36] [cursor=pointer]
+        - navigation [ref=f2e38]:
+          - list [ref=f2e40]:
+            - generic [ref=f2e45]:
+              - text: 
+              - listitem [ref=f2e46]:
+                - heading "Applications" [level=6] [ref=f2e48]
+              - listitem [ref=f2e49]:
+                - link "Dashboard" [ref=f2e50] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f2e51]
+                  - generic [ref=f2e53]: Dashboard
+                  - text: 
+              - listitem [ref=f2e54]:
+                - link "Enrollment " [ref=f2e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e56]
+                  - generic [ref=f2e58]: Enrollment
+                  - generic [ref=f2e60]: 
+              - listitem [ref=f2e61]:
+                - link "Website Settings " [ref=f2e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e63]
+                  - generic [ref=f2e65]: Website Settings
+                  - generic [ref=f2e67]: 
+              - listitem [ref=f2e68]:
+                - link "Membership " [ref=f2e69] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e70]
+                  - generic [ref=f2e72]: Membership
+                  - generic [ref=f2e74]: 
+              - listitem [ref=f2e75]:
+                - link "Course " [ref=f2e76] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e77]
+                  - generic [ref=f2e79]: Course
+                  - generic [ref=f2e81]: 
+              - listitem [ref=f2e82]:
+                - link " Self Host " [ref=f2e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f2e84]: 
+                  - generic [ref=f2e85]: Self Host
+                  - generic [ref=f2e87]: 
+              - listitem [ref=f2e88]:
+                - link "Assessment " [ref=f2e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e90]
+                  - generic [ref=f2e92]: Assessment
+                  - generic [ref=f2e94]: 
+                - list [ref=f2e95]:
+                  - listitem [ref=f2e96]:
+                    - link "Course" [ref=f2e97] [cursor=pointer]:
+                      - /url: /Assessment/CourseAssessment
+                  - listitem [ref=f2e98]:
+                    - link "Unit" [ref=f2e99] [cursor=pointer]:
+                      - /url: /Assessment/Index
+                  - listitem [ref=f2e100]:
+                    - link "Topic" [ref=f2e101] [cursor=pointer]:
+                      - /url: /Assessment/TopicAssessment
+                  - listitem [ref=f2e102]:
+                    - link "Prompt Config" [ref=f2e103] [cursor=pointer]:
+                      - /url: /PromptConfig/Index
+              - listitem [ref=f2e104]:
+                - link "Email Draft " [ref=f2e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e106]
+                  - generic [ref=f2e108]: Email Draft
+                  - generic [ref=f2e110]: 
+              - listitem [ref=f2e111]:
+                - link "Admin " [ref=f2e112] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e113]
+                  - generic [ref=f2e115]: Admin
+                  - generic [ref=f2e117]: 
+              - listitem [ref=f2e118]:
+                - link "general icon General " [ref=f2e119] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f2e120]
+                  - generic [ref=f2e121]: General
+                  - generic [ref=f2e123]: 
+              - listitem [ref=f2e124]:
+                - link "Leaderboard" [ref=f2e125] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f2e126]
+                  - generic [ref=f2e128]: Leaderboard
+                  - text: 
+              - listitem [ref=f2e129]:
+                - heading "E-Commerce" [level=6] [ref=f2e131]
+              - listitem [ref=f2e132]:
+                - link "Dashboard" [ref=f2e133] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f2e134]
+                  - generic [ref=f2e136]: Dashboard
+                  - text: 
+              - listitem [ref=f2e137]:
+                - link "product icon Product " [ref=f2e138] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f2e139]
+                  - generic [ref=f2e140]: Product
+                  - generic [ref=f2e142]: 
+              - listitem [ref=f2e143]:
+                - link "Order " [ref=f2e144] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e145]
+                  - generic [ref=f2e147]: Order
+                  - generic [ref=f2e149]: 
+              - listitem [ref=f2e150]:
+                - link "Customer" [ref=f2e151] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f2e152]
+                  - generic [ref=f2e154]: Customer
+                  - text: 
+              - listitem [ref=f2e155]:
+                - heading "Payments" [level=6] [ref=f2e157]
+              - listitem [ref=f2e158]:
+                - link "Transactions " [ref=f2e159] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e160]
+                  - generic [ref=f2e162]: Transactions
+                  - generic [ref=f2e164]: 
+              - listitem [ref=f2e165]:
+                - heading "Notifcations" [level=6] [ref=f2e167]
+              - listitem [ref=f2e168]:
+                - link "notify-ico Notifications " [ref=f2e169] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f2e170]
+                  - generic [ref=f2e171]: Notifications
+                  - generic [ref=f2e173]: 
+              - listitem [ref=f2e174]:
+                - heading "Job Management" [level=6] [ref=f2e176]
+              - listitem [ref=f2e177]:
+                - link "notify-ico Jobs " [ref=f2e178] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f2e179]
+                  - generic [ref=f2e180]: Jobs
+                  - generic [ref=f2e182]: 
+      - main [ref=f2e184]:
+        - generic [ref=f2e185]:
+          - generic [ref=f2e186]:
+            - heading "Course Assessment" [level=4] [ref=f2e187]
+            - generic [ref=f2e188]: "Select Course:"
+            - combobox "Select Course:" [ref=f2e189] [cursor=pointer]:
+              - option "-- Select Course --"
+              - option "QA Test Course"
+              - option "TNPSC Group 4 Complete Preparation Course 2026" [selected]
+              - option "Jt Release Course"
+              - option "TNPSC Foundation Course"
+              - option "Post office exam- Tamil nadu 2026"
+              - option "TNUSRB Police Constable"
+              - option "Free course 2"
+              - option "Bank course"
+              - option "Indian Railways- Batch 1,2,3,4- Tnpsc-இந்தியாவி..."
+              - option "Jtcourse 2"
+              - option "JtCourse"
+              - option "MultipleFolderType"
+              - option "Multiplecardtypefolder"
+              - option "Singlefoldercourse"
+              - option "Singlecourse"
+              - option "TNPSC GROUP-4 FOLDER"
+              - option "SelfHost Course"
+              - option "JT Phase 3"
+              - option "Assessment course 01"
+              - option "Railway course 3"
+              - option "Railway course 2"
+              - option "Political Polity"
+              - option "Railway course"
+              - option "Banking course"
+              - option "Group 2A"
+              - option "Group A course"
+              - option "Test0025"
+              - option "Group 6 course"
+              - option "Group 5 course"
+              - option "Group 4 Course"
+              - option "Group 3 course"
+              - option "Pongal Special Course"
+              - option "JT Batch-2026 Course"
+              - option "Software Testing"
+              - option "12TH ECONOMICS"
+              - option "TNPSC_Group1new 008"
+              - option "Group 2 course"
+              - option "tEST"
+              - option "Silver membership"
+              - option "Paid membership"
+              - option "Group 1 course"
+              - option "Social"
+              - option "Software Testing Course"
+              - option "Kingdom - 2026"
+            - button "Switch to English" [ref=f2e240] [cursor=pointer]:
+              - img [ref=f2e241]:
+                - generic [ref=f2e248]: அ
+                - generic [ref=f2e251]: A
+          - text: ↑ ↓ ↑ ↓ ↑ ↓ ↑ ↓ ↑ ↓ ↑ ↓
+          - generic [ref=f2e253]:
+            - generic [ref=f2e254]:
+              - generic [ref=f2e255]:
+                - generic [ref=f2e256]:
+                  - strong [ref=f2e259]: Folders
+                  - button "" [ref=f2e260] [cursor=pointer]:
+                    - generic [ref=f2e261]: 
+                - generic [ref=f2e262]: Select a folder to view assessments
+              - tree [ref=f2e264]:
+                - treeitem " பொது ஆங்கிலம்" [ref=f2e366]:
+                  - generic [ref=f2e367] [cursor=pointer]:
+                    - button "" [ref=f2e368]:
+                      - generic [ref=f2e369]: 
+                    - img [ref=f2e371]
+                    - generic "பொது ஆங்கிலம்" [ref=f2e378]
+                  - text:   
+                - treeitem " கணிதம் மற்றும் மனத்திறன்" [ref=f2e379]:
+                  - generic [ref=f2e380] [cursor=pointer]:
+                    - button "" [ref=f2e381]:
+                      - generic [ref=f2e382]: 
+                    - img [ref=f2e384]
+                    - generic "கணிதம் மற்றும் மனத்திறன்" [ref=f2e391]
+                  - text:  
+                - treeitem " பொது அறிவியல்" [ref=f2e392]:
+                  - generic [ref=f2e393] [cursor=pointer]:
+                    - button "" [ref=f2e394]:
+                      - generic [ref=f2e395]: 
+                    - img [ref=f2e397]
+                    - generic "பொது அறிவியல்" [ref=f2e404]
+                  - text:   
+                - treeitem " வரலாறு" [ref=f2e405]:
+                  - generic [ref=f2e406] [cursor=pointer]:
+                    - button "" [ref=f2e407]:
+                      - generic [ref=f2e408]: 
+                    - img [ref=f2e410]
+                    - generic "வரலாறு" [ref=f2e417]
+                  - text:  
+                - treeitem " மாதிரி தேர்வுகள்" [ref=f2e418]:
+                  - generic [ref=f2e419] [cursor=pointer]:
+                    - button "" [ref=f2e420]:
+                      - generic [ref=f2e421]: 
+                    - img [ref=f2e423]
+                    - generic "மாதிரி தேர்வுகள்" [ref=f2e430]
+                - treeitem " புவியியல்" [ref=f2e431]:
+                  - generic [ref=f2e432] [cursor=pointer]:
+                    - button "" [ref=f2e433]:
+                      - generic [ref=f2e434]: 
+                    - img [ref=f2e436]
+                    - generic "புவியியல்" [ref=f2e443]
+                  - text:  
+                - treeitem " இந்திய அரசியல்" [ref=f2e444]:
+                  - generic [ref=f2e445] [cursor=pointer]:
+                    - button "" [ref=f2e446]:
+                      - generic [ref=f2e447]: 
+                    - img [ref=f2e449]
+                    - generic "இந்திய அரசியல்" [ref=f2e456]
+                - treeitem " கணினி அறிவு" [ref=f2e457]:
+                  - generic [ref=f2e458] [cursor=pointer]:
+                    - button "" [ref=f2e459]:
+                      - generic [ref=f2e460]: 
+                    - img [ref=f2e462]
+                    - generic "கணினி அறிவு" [ref=f2e469]
+                - treeitem " பொது தமிழ்" [ref=f2e470]:
+                  - generic [ref=f2e471] [cursor=pointer]:
+                    - button "" [ref=f2e472]:
+                      - generic [ref=f2e473]: 
+                    - img [ref=f2e475]
+                    - generic "பொது தமிழ்" [ref=f2e482]
+                  - text:   
+                - treeitem " இந்திய பொருளாதாரம்" [ref=f2e483]:
+                  - generic [ref=f2e484] [cursor=pointer]:
+                    - button "" [ref=f2e485]:
+                      - generic [ref=f2e486]: 
+                    - img [ref=f2e488]
+                    - generic "இந்திய பொருளாதாரம்" [ref=f2e495]
+            - generic [ref=f2e269]:
+              - generic [ref=f2e496]:
+                - img [ref=f2e498]
+                - generic [ref=f2e504]:
+                  - strong [ref=f2e505]: மாதிரி தேர்வுகள்
+                  - generic [ref=f2e506]: 0 Assessments
+                - link " Add Assessment" [ref=f2e507] [cursor=pointer]:
+                  - /url: /Assessment/CreateCourseAssessment?courseId=135&folderId=336
+                  - generic [ref=f2e508]: 
+                  - text: Add Assessment
+              - generic [ref=f2e510]:
+                - generic [ref=f2e512]: 
+                - strong [ref=f2e513]: No assessments yet
+                - generic [ref=f2e514]: Add the first assessment to this folder.
+                - link " Add Assessment" [ref=f2e515] [cursor=pointer]:
+                  - /url: /Assessment/CreateCourseAssessment?courseId=135&folderId=336
+                  - generic [ref=f2e516]: 
+                  - text: Add Assessment
+      - contentinfo [ref=f2e220]:
+        - paragraph [ref=f2e224]:
+          - text: Copyright
+          - generic [ref=f2e225]: "2026"
+          - text: © Jeshwar Teaching
+  - img

@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── CSS Variables ─────────────────────────────────────── */
+:root {
+  --bg:             #050514;
+  --navy:           #0a0a2e;
+  --cyan:           #00d4ff;
+  --cyan-dim:       rgba(0,212,255,0.12);
+  --cyan-glow:      rgba(0,212,255,0.3);
+  --purple:         #7c3aed;
+  --purple-dim:     rgba(124,58,237,0.12);
+  --purple-light:   #a855f7;
+  --neon:           #00ff88;
+  --pink:           #ff2d78;
+  --text:           #e2e8f0;
+  --muted:          #8892b0;
+  --glass:          rgba(255,255,255,0.04);
+  --glass-strong:   rgba(255,255,255,0.07);
+  --border:         rgba(255,255,255,0.08);
+  --border-cyan:    rgba(0,212,255,0.25);
+}
+
+/* ── Reset ─────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+  cursor: none;
+}
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; display: block; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--cyan); border-radius: 2px; }
+
+/* ── Custom Cursor ──────────────────────────────────────── */
+.cursor-dot {
+  position: fixed;
+  width: 8px; height: 8px;
+  background: var(--cyan);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.05s linear, opacity 0.2s;
+  box-shadow: 0 0 10px var(--cyan), 0 0 20px var(--cyan);
+}
+.cursor-ring {
+  position: fixed;
+  width: 36px; height: 36px;
+  border: 1.5px solid rgba(0,212,255,0.5);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99998;
+  transform: translate(-50%, -50%);
+  transition: transform 0.12s ease-out, width 0.2s, height 0.2s, border-color 0.2s;
+}
+.cursor-ring.hovering {
+  width: 56px; height: 56px;
+  border-color: var(--cyan);
+}
+
+/* ── Glass morphism ─────────────────────────────────────── */
+.glass {
+  background: var(--glass);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.glass-strong {
+  background: var(--glass-strong);
+  border: 1px solid var(--border-cyan);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+
+/* ── Gradient text ──────────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, var(--cyan) 0%, var(--purple-light) 50%, var(--cyan) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 200% 200%;
+  animation: gradientShift 4s ease infinite;
+}
+.gradient-text-warm {
+  background: linear-gradient(135deg, #ff2d78, #7c3aed, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+@keyframes gradientShift {
+  0%,100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+
+/* ── Glow effects ───────────────────────────────────────── */
+.glow-cyan  { box-shadow: 0 0 20px var(--cyan-glow), 0 0 40px rgba(0,212,255,0.15); }
+.glow-text  { text-shadow: 0 0 20px var(--cyan), 0 0 40px rgba(0,212,255,0.5); }
+.glow-purple { box-shadow: 0 0 20px rgba(124,58,237,0.4), 0 0 40px rgba(124,58,237,0.2); }
+
+/* ── Neon border ────────────────────────────────────────── */
+.neon-border {
+  position: relative;
+  border: 1px solid transparent;
+  background-clip: padding-box;
+}
+.neon-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, var(--cyan), var(--purple), var(--cyan));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  background-size: 200% 200%;
+  animation: gradientShift 4s ease infinite;
+}
+
+/* ── Section ────────────────────────────────────────────── */
+.section-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--cyan);
+  margin-bottom: 1rem;
+}
+.section-tag::before {
+  content: '';
+  width: 24px; height: 1px;
+  background: var(--cyan);
+}
+.section-title {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+/* ── Grid background ────────────────────────────────────── */
+.bg-grid {
+  background-image: var(--tw-gradient-from, linear-gradient(rgba(0,212,255,0.04) 1px,transparent 1px)),
+                    linear-gradient(90deg, rgba(0,212,255,0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* ── Scan line animation ────────────────────────────────── */
+.scan-container { position: relative; overflow: hidden; }
+.scan-container::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+  animation: scan 3s linear infinite;
+  opacity: 0.6;
+  pointer-events: none;
+}
+@keyframes scan {
+  0%   { top: -2px; }
+  100% { top: 100%; }
+}
+
+/* ── Hologram flicker ───────────────────────────────────── */
+.hologram {
+  animation: hologram 6s ease-in-out infinite;
+}
+@keyframes hologram {
+  0%,89%,100% { opacity: 1; filter: none; }
+  90% { opacity: 0.2; filter: hue-rotate(90deg); }
+  91% { opacity: 1; }
+  93% { opacity: 0.4; }
+  94% { opacity: 1; }
+}
+
+/* ── 3D tilt card ───────────────────────────────────────── */
+.tilt-card {
+  transform-style: preserve-3d;
+  transition: transform 0.05s linear;
+}
+
+/* ── Loader ─────────────────────────────────────────────── */
+.loader-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #000008;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.loader-circuit {
+  position: absolute;
+  inset: 0;
+  opacity: 0.06;
+  background-image:
+    linear-gradient(rgba(0,212,255,1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,212,255,1) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* ── Mission timeline ───────────────────────────────────── */
+.mission-line {
+  position: absolute;
+  left: 50%;
+  top: 0; bottom: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, transparent, var(--cyan), var(--purple), transparent);
+  transform: translateX(-50%);
+}
+
+/* ── Terminal input ─────────────────────────────────────── */
+.terminal-cursor {
+  display: inline-block;
+  width: 2px; height: 1.2em;
+  background: var(--cyan);
+  margin-left: 2px;
+  vertical-align: middle;
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+/* ── Project card shimmer ───────────────────────────────── */
+.card-shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    transparent 40%,
+    rgba(255,255,255,0.04) 50%,
+    transparent 60%
+  );
+  background-size: 200% 200%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.card-shimmer:hover::after {
+  opacity: 1;
+  animation: shimmer 1.5s ease infinite;
+}
+@keyframes shimmer {
+  0%   { background-position: -200% -200%; }
+  100% { background-position: 200% 200%; }
+}
+
+/* ── Orb float ──────────────────────────────────────────── */
+@keyframes orbFloat {
+  0%,100% { transform: translateY(0) scale(1); }
+  50%      { transform: translateY(-16px) scale(1.04); }
+}
+
+/* ── Responsive helpers ─────────────────────────────────── */
+@media (max-width: 768px) {
+  body { cursor: auto; }
+  .cursor-dot, .cursor-ring { display: none; }
+}

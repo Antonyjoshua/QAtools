@@ -1,0 +1,707 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e7]:
+    - generic [ref=f3e8]:
+      - generic [ref=f3e9]:
+        - heading "Dashboard" [level=4] [ref=f3e10]
+        - navigation [ref=f3e11]:
+          - list [ref=f3e12]:
+            - listitem [ref=f3e13]:
+              - link [ref=f3e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f3e15]
+            - listitem [ref=f3e18]: / Index
+      - generic [ref=f3e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f3e22]:
+          - listitem [ref=f3e23]:
+            - generic [ref=f3e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f3e26]:
+      - generic [ref=f3e28]:
+        - text: 
+        - link [ref=f3e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f3e31]:
+          - list [ref=f3e33]:
+            - generic [ref=f3e38]:
+              - text: 
+              - listitem [ref=f3e39]:
+                - link [ref=f3e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f3e41]
+                  - text: 
+              - listitem [ref=f3e43]:
+                - link [ref=f3e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e45]
+                  - text: 
+              - listitem [ref=f3e47]:
+                - link [ref=f3e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e49]
+                  - text: 
+              - listitem [ref=f3e51]:
+                - link [ref=f3e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e53]
+                  - text: 
+              - listitem [ref=f3e55]:
+                - link [ref=f3e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e57]
+                  - text: 
+              - listitem [ref=f3e59]:
+                - link [ref=f3e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e61]
+                  - text: 
+              - listitem [ref=f3e63]:
+                - link "" [ref=f3e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f3e65]: 
+                  - text: 
+              - listitem [ref=f3e66]:
+                - link [ref=f3e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e68]
+                  - text: 
+              - listitem [ref=f3e70]:
+                - link [ref=f3e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e72]
+                  - text: 
+              - listitem [ref=f3e74]:
+                - link [ref=f3e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e76]
+                  - text: 
+              - listitem [ref=f3e78]:
+                - link [ref=f3e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e80]
+                  - text: 
+              - listitem [ref=f3e82]:
+                - link [ref=f3e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e84]
+                  - text: 
+              - listitem [ref=f3e86]:
+                - link [ref=f3e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e88]
+                  - text: 
+              - listitem [ref=f3e90]:
+                - link "general icon" [ref=f3e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f3e92]
+                  - text: 
+              - listitem [ref=f3e93]:
+                - link [ref=f3e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f3e95]
+                  - text: 
+              - listitem [ref=f3e97]:
+                - link [ref=f3e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f3e99]
+                  - text: 
+              - listitem [ref=f3e101]:
+                - link "product icon" [ref=f3e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f3e103]
+                  - text: 
+              - listitem [ref=f3e104]:
+                - link [ref=f3e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e106]
+                  - text: 
+              - listitem [ref=f3e108]:
+                - link [ref=f3e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e110]
+                  - text: 
+              - listitem [ref=f3e112]:
+                - link [ref=f3e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f3e114]
+                  - text: 
+              - listitem [ref=f3e116]:
+                - link [ref=f3e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e118]
+                  - text: 
+              - listitem [ref=f3e120]:
+                - link [ref=f3e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e122]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f3e124]:
+                - link [ref=f3e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f3e126]
+              - listitem [ref=f3e128]:
+                - link [ref=f3e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e130]
+                  - text: 
+              - listitem [ref=f3e132]:
+                - link "notify-ico" [ref=f3e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f3e134]
+                  - text: 
+              - listitem [ref=f3e135]:
+                - link "notify-ico" [ref=f3e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f3e137]
+                  - text: 
+      - main [ref=f3e139]:
+        - generic [ref=f3e143]:
+          - generic [ref=f3e144]:
+            - heading "Book Sales Report" [level=5] [ref=f3e145]
+            - button " Export Excel" [ref=f3e146] [cursor=pointer]:
+              - generic [ref=f3e147]: 
+              - text: Export Excel
+          - generic [ref=f3e148]:
+            - generic [ref=f3e150]:
+              - generic [ref=f3e151]:
+                - generic [ref=f3e152]: From Date
+                - textbox [ref=f3e153] [cursor=pointer]
+              - generic [ref=f3e154]:
+                - generic [ref=f3e155]: To Date
+                - textbox [ref=f3e156] [cursor=pointer]
+              - generic [ref=f3e157]:
+                - generic [ref=f3e158]: Customer
+                - textbox "Search customer..." [ref=f3e159] [cursor=pointer]
+              - generic [ref=f3e160]:
+                - generic [ref=f3e161]: Product Title
+                - textbox "Search product..." [ref=f3e162] [cursor=pointer]
+              - generic [ref=f3e163]:
+                - generic [ref=f3e164]: Product Type
+                - combobox [ref=f3e165] [cursor=pointer]:
+                  - option "All Types" [selected]
+                  - option "Books"
+                  - option "Product Type"
+                  - option "Stationary"
+                  - option "New Book"
+                  - option "New books"
+                  - option "Books no 01"
+                  - option "Miscellaneous"
+                  - option "JT special store"
+                  - option "Multiple/Combo"
+                  - option "Combo"
+                  - option "New Book"
+                  - option "New product"
+              - generic [ref=f3e166]:
+                - generic [ref=f3e167]: Order Status
+                - combobox [ref=f3e168] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "Pending"
+                  - option "Shipped"
+                  - option "Delivered"
+                  - option "Cancelled"
+                  - option "Refunded"
+              - generic [ref=f3e169]:
+                - generic [ref=f3e170]: Payment Status
+                - combobox [ref=f3e171] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "Pending"
+                  - option "Success"
+                  - option "Failed"
+              - generic [ref=f3e174]:
+                - checkbox "Combo Products Only" [ref=f3e175] [cursor=pointer]
+                - generic [ref=f3e176]: Combo Products Only
+              - generic [ref=f3e177]:
+                - button "Apply" [ref=f3e178] [cursor=pointer]
+                - button "Clear" [ref=f3e179] [cursor=pointer]
+            - generic [ref=f3e180]:
+              - generic [ref=f3e181]:
+                - generic [ref=f3e182]:
+                  - generic [ref=f3e183]: Total Sales
+                  - heading "₹15,74,675.19" [level=3] [ref=f3e231] [cursor=pointer]
+                - generic [ref=f3e186]: 
+              - generic [ref=f3e187]:
+                - generic [ref=f3e188]:
+                  - generic [ref=f3e189]: Number of Orders
+                  - heading "3080" [level=3] [ref=f3e232] [cursor=pointer]
+                - generic [ref=f3e192]: 
+              - generic [ref=f3e193]:
+                - generic [ref=f3e194]:
+                  - generic [ref=f3e195]: Average Order Value
+                  - heading "₹511.26" [level=3] [ref=f3e233] [cursor=pointer]
+                - generic [ref=f3e198]: 
+              - generic [ref=f3e199]:
+                - generic [ref=f3e200]:
+                  - generic [ref=f3e201]: Total Discounts Given
+                  - heading "₹6,11,789.30" [level=3] [ref=f3e234] [cursor=pointer]
+                - generic [ref=f3e204]: 
+            - generic [ref=f3e206]:
+              - grid [ref=f3e209]:
+                - rowgroup [ref=f3e210]:
+                  - 'row "Order #: activate to sort column ascending Date: activate to sort column ascending Customer: activate to sort column ascending Products: activate to sort column ascending Type: activate to sort column ascending Items: activate to sort column ascending Sub Total: activate to sort column ascending Discount: activate to sort column ascending GST: activate to sort column ascending Total: activate to sort column ascending Order Status: activate to sort column ascending Payment: activate to sort column descending Method: activate to sort column ascending" [ref=f3e5507]':
+                    - 'columnheader "Order #: activate to sort column ascending" [ref=f3e1124] [cursor=pointer]': "Order # "
+                    - 'columnheader "Date: activate to sort column ascending" [ref=f3e1562] [cursor=pointer]': Date 
+                    - 'columnheader "Customer: activate to sort column ascending" [ref=f3e2000] [cursor=pointer]': Customer 
+                    - 'columnheader "Products: activate to sort column ascending" [ref=f3e2438] [cursor=pointer]': Products 
+                    - 'columnheader "Type: activate to sort column ascending" [ref=f3e2876] [cursor=pointer]': Type 
+                    - 'columnheader "Items: activate to sort column ascending" [ref=f3e3314] [cursor=pointer]': Items 
+                    - 'columnheader "Sub Total: activate to sort column ascending" [ref=f3e3752] [cursor=pointer]': Sub Total 
+                    - 'columnheader "Discount: activate to sort column ascending" [ref=f3e4190] [cursor=pointer]': Discount 
+                    - 'columnheader "GST: activate to sort column ascending" [ref=f3e4628] [cursor=pointer]': GST 
+                    - 'columnheader "Total: activate to sort column ascending" [ref=f3e5066] [cursor=pointer]': Total 
+                    - 'columnheader "Order Status: activate to sort column ascending" [ref=f3e5508] [cursor=pointer]': Order Status 
+                    - 'columnheader "Payment: activate to sort column descending" [ref=f3e5509] [cursor=pointer]': Payment 
+                    - 'columnheader "Method: activate to sort column ascending" [ref=f3e248] [cursor=pointer]': Method 
+                - rowgroup [ref=f3e249]:
+                  - row "2289 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5510]:
+                    - gridcell "2289" [ref=f3e5511]
+                    - gridcell "9/9/2025" [ref=f3e5512]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5513]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5514]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5515]
+                    - gridcell "Books" [ref=f3e5516]
+                    - gridcell "1" [ref=f3e5517]
+                    - gridcell "₹450.00" [ref=f3e5518]
+                    - gridcell "₹85.01" [ref=f3e5519]
+                    - gridcell "₹0.00" [ref=f3e5520]
+                    - gridcell "₹365.00" [ref=f3e5521]
+                    - gridcell "Pending" [ref=f3e5522]:
+                      - generic [ref=f3e5523]: Pending
+                    - gridcell "Pending" [ref=f3e5524]:
+                      - generic [ref=f3e5525]: Pending
+                    - gridcell [ref=f3e5526]
+                  - row "2291 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5527]:
+                    - gridcell "2291" [ref=f3e5528]
+                    - gridcell "9/9/2025" [ref=f3e5529]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5530]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5531]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5532]
+                    - gridcell "Books" [ref=f3e5533]
+                    - gridcell "1" [ref=f3e5534]
+                    - gridcell "₹450.00" [ref=f3e5535]
+                    - gridcell "₹85.01" [ref=f3e5536]
+                    - gridcell "₹0.00" [ref=f3e5537]
+                    - gridcell "₹365.00" [ref=f3e5538]
+                    - gridcell "Pending" [ref=f3e5539]:
+                      - generic [ref=f3e5540]: Pending
+                    - gridcell "Pending" [ref=f3e5541]:
+                      - generic [ref=f3e5542]: Pending
+                    - gridcell [ref=f3e5543]
+                  - row "2292 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5544]:
+                    - gridcell "2292" [ref=f3e5545]
+                    - gridcell "9/9/2025" [ref=f3e5546]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5547]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5548]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5549]
+                    - gridcell "Books" [ref=f3e5550]
+                    - gridcell "1" [ref=f3e5551]
+                    - gridcell "₹450.00" [ref=f3e5552]
+                    - gridcell "₹85.01" [ref=f3e5553]
+                    - gridcell "₹0.00" [ref=f3e5554]
+                    - gridcell "₹365.00" [ref=f3e5555]
+                    - gridcell "Pending" [ref=f3e5556]:
+                      - generic [ref=f3e5557]: Pending
+                    - gridcell "Pending" [ref=f3e5558]:
+                      - generic [ref=f3e5559]: Pending
+                    - gridcell [ref=f3e5560]
+                  - row "2293 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5561]:
+                    - gridcell "2293" [ref=f3e5562]
+                    - gridcell "9/9/2025" [ref=f3e5563]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5564]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5565]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5566]
+                    - gridcell "Books" [ref=f3e5567]
+                    - gridcell "1" [ref=f3e5568]
+                    - gridcell "₹450.00" [ref=f3e5569]
+                    - gridcell "₹85.01" [ref=f3e5570]
+                    - gridcell "₹0.00" [ref=f3e5571]
+                    - gridcell "₹365.00" [ref=f3e5572]
+                    - gridcell "Pending" [ref=f3e5573]:
+                      - generic [ref=f3e5574]: Pending
+                    - gridcell "Pending" [ref=f3e5575]:
+                      - generic [ref=f3e5576]: Pending
+                    - gridcell [ref=f3e5577]
+                  - row "2294 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5578]:
+                    - gridcell "2294" [ref=f3e5579]
+                    - gridcell "9/9/2025" [ref=f3e5580]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5581]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5582]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5583]
+                    - gridcell "Books" [ref=f3e5584]
+                    - gridcell "1" [ref=f3e5585]
+                    - gridcell "₹450.00" [ref=f3e5586]
+                    - gridcell "₹85.01" [ref=f3e5587]
+                    - gridcell "₹0.00" [ref=f3e5588]
+                    - gridcell "₹365.00" [ref=f3e5589]
+                    - gridcell "Pending" [ref=f3e5590]:
+                      - generic [ref=f3e5591]: Pending
+                    - gridcell "Pending" [ref=f3e5592]:
+                      - generic [ref=f3e5593]: Pending
+                    - gridcell [ref=f3e5594]
+                  - row "2295 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5595]:
+                    - gridcell "2295" [ref=f3e5596]
+                    - gridcell "9/9/2025" [ref=f3e5597]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5598]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5599]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5600]
+                    - gridcell "Books" [ref=f3e5601]
+                    - gridcell "1" [ref=f3e5602]
+                    - gridcell "₹450.00" [ref=f3e5603]
+                    - gridcell "₹85.01" [ref=f3e5604]
+                    - gridcell "₹0.00" [ref=f3e5605]
+                    - gridcell "₹365.00" [ref=f3e5606]
+                    - gridcell "Pending" [ref=f3e5607]:
+                      - generic [ref=f3e5608]: Pending
+                    - gridcell "Pending" [ref=f3e5609]:
+                      - generic [ref=f3e5610]: Pending
+                    - gridcell [ref=f3e5611]
+                  - row "2296 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5612]:
+                    - gridcell "2296" [ref=f3e5613]
+                    - gridcell "9/9/2025" [ref=f3e5614]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5615]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5616]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5617]
+                    - gridcell "Books" [ref=f3e5618]
+                    - gridcell "1" [ref=f3e5619]
+                    - gridcell "₹450.00" [ref=f3e5620]
+                    - gridcell "₹85.01" [ref=f3e5621]
+                    - gridcell "₹0.00" [ref=f3e5622]
+                    - gridcell "₹365.00" [ref=f3e5623]
+                    - gridcell "Pending" [ref=f3e5624]:
+                      - generic [ref=f3e5625]: Pending
+                    - gridcell "Pending" [ref=f3e5626]:
+                      - generic [ref=f3e5627]: Pending
+                    - gridcell [ref=f3e5628]
+                  - row "2297 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5629]:
+                    - gridcell "2297" [ref=f3e5630]
+                    - gridcell "9/9/2025" [ref=f3e5631]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5632]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5633]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5634]
+                    - gridcell "Books" [ref=f3e5635]
+                    - gridcell "1" [ref=f3e5636]
+                    - gridcell "₹450.00" [ref=f3e5637]
+                    - gridcell "₹85.01" [ref=f3e5638]
+                    - gridcell "₹0.00" [ref=f3e5639]
+                    - gridcell "₹365.00" [ref=f3e5640]
+                    - gridcell "Pending" [ref=f3e5641]:
+                      - generic [ref=f3e5642]: Pending
+                    - gridcell "Pending" [ref=f3e5643]:
+                      - generic [ref=f3e5644]: Pending
+                    - gridcell [ref=f3e5645]
+                  - row "2298 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5646]:
+                    - gridcell "2298" [ref=f3e5647]
+                    - gridcell "9/9/2025" [ref=f3e5648]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5649]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5650]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5651]
+                    - gridcell "Books" [ref=f3e5652]
+                    - gridcell "1" [ref=f3e5653]
+                    - gridcell "₹450.00" [ref=f3e5654]
+                    - gridcell "₹85.01" [ref=f3e5655]
+                    - gridcell "₹0.00" [ref=f3e5656]
+                    - gridcell "₹365.00" [ref=f3e5657]
+                    - gridcell "Pending" [ref=f3e5658]:
+                      - generic [ref=f3e5659]: Pending
+                    - gridcell "Pending" [ref=f3e5660]:
+                      - generic [ref=f3e5661]: Pending
+                    - gridcell [ref=f3e5662]
+                  - row "2300 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5663]:
+                    - gridcell "2300" [ref=f3e5664]
+                    - gridcell "9/9/2025" [ref=f3e5665]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5666]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5667]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5668]
+                    - gridcell "Books" [ref=f3e5669]
+                    - gridcell "1" [ref=f3e5670]
+                    - gridcell "₹450.00" [ref=f3e5671]
+                    - gridcell "₹85.01" [ref=f3e5672]
+                    - gridcell "₹0.00" [ref=f3e5673]
+                    - gridcell "₹365.00" [ref=f3e5674]
+                    - gridcell "Pending" [ref=f3e5675]:
+                      - generic [ref=f3e5676]: Pending
+                    - gridcell "Pending" [ref=f3e5677]:
+                      - generic [ref=f3e5678]: Pending
+                    - gridcell [ref=f3e5679]
+                  - row "2301 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5680]:
+                    - gridcell "2301" [ref=f3e5681]
+                    - gridcell "9/9/2025" [ref=f3e5682]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5683]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5684]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5685]
+                    - gridcell "Books" [ref=f3e5686]
+                    - gridcell "1" [ref=f3e5687]
+                    - gridcell "₹450.00" [ref=f3e5688]
+                    - gridcell "₹85.01" [ref=f3e5689]
+                    - gridcell "₹0.00" [ref=f3e5690]
+                    - gridcell "₹365.00" [ref=f3e5691]
+                    - gridcell "Pending" [ref=f3e5692]:
+                      - generic [ref=f3e5693]: Pending
+                    - gridcell "Pending" [ref=f3e5694]:
+                      - generic [ref=f3e5695]: Pending
+                    - gridcell [ref=f3e5696]
+                  - row "2302 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5697]:
+                    - gridcell "2302" [ref=f3e5698]
+                    - gridcell "9/9/2025" [ref=f3e5699]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5700]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5701]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5702]
+                    - gridcell "Books" [ref=f3e5703]
+                    - gridcell "1" [ref=f3e5704]
+                    - gridcell "₹450.00" [ref=f3e5705]
+                    - gridcell "₹85.01" [ref=f3e5706]
+                    - gridcell "₹0.00" [ref=f3e5707]
+                    - gridcell "₹365.00" [ref=f3e5708]
+                    - gridcell "Pending" [ref=f3e5709]:
+                      - generic [ref=f3e5710]: Pending
+                    - gridcell "Pending" [ref=f3e5711]:
+                      - generic [ref=f3e5712]: Pending
+                    - gridcell [ref=f3e5713]
+                  - row "2303 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5714]:
+                    - gridcell "2303" [ref=f3e5715]
+                    - gridcell "9/9/2025" [ref=f3e5716]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5717]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5718]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5719]
+                    - gridcell "Books" [ref=f3e5720]
+                    - gridcell "1" [ref=f3e5721]
+                    - gridcell "₹450.00" [ref=f3e5722]
+                    - gridcell "₹85.01" [ref=f3e5723]
+                    - gridcell "₹0.00" [ref=f3e5724]
+                    - gridcell "₹365.00" [ref=f3e5725]
+                    - gridcell "Pending" [ref=f3e5726]:
+                      - generic [ref=f3e5727]: Pending
+                    - gridcell "Pending" [ref=f3e5728]:
+                      - generic [ref=f3e5729]: Pending
+                    - gridcell [ref=f3e5730]
+                  - row "2304 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5731]:
+                    - gridcell "2304" [ref=f3e5732]
+                    - gridcell "9/9/2025" [ref=f3e5733]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5734]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5735]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5736]
+                    - gridcell "Books" [ref=f3e5737]
+                    - gridcell "1" [ref=f3e5738]
+                    - gridcell "₹450.00" [ref=f3e5739]
+                    - gridcell "₹85.01" [ref=f3e5740]
+                    - gridcell "₹0.00" [ref=f3e5741]
+                    - gridcell "₹365.00" [ref=f3e5742]
+                    - gridcell "Pending" [ref=f3e5743]:
+                      - generic [ref=f3e5744]: Pending
+                    - gridcell "Pending" [ref=f3e5745]:
+                      - generic [ref=f3e5746]: Pending
+                    - gridcell [ref=f3e5747]
+                  - row "2311 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5748]:
+                    - gridcell "2311" [ref=f3e5749]
+                    - gridcell "9/9/2025" [ref=f3e5750]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5751]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5752]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5753]
+                    - gridcell "Books" [ref=f3e5754]
+                    - gridcell "1" [ref=f3e5755]
+                    - gridcell "₹450.00" [ref=f3e5756]
+                    - gridcell "₹85.01" [ref=f3e5757]
+                    - gridcell "₹0.00" [ref=f3e5758]
+                    - gridcell "₹365.00" [ref=f3e5759]
+                    - gridcell "Pending" [ref=f3e5760]:
+                      - generic [ref=f3e5761]: Pending
+                    - gridcell "Pending" [ref=f3e5762]:
+                      - generic [ref=f3e5763]: Pending
+                    - gridcell [ref=f3e5764]
+                  - row "2312 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5765]:
+                    - gridcell "2312" [ref=f3e5766]
+                    - gridcell "9/9/2025" [ref=f3e5767]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5768]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5769]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5770]
+                    - gridcell "Books" [ref=f3e5771]
+                    - gridcell "1" [ref=f3e5772]
+                    - gridcell "₹450.00" [ref=f3e5773]
+                    - gridcell "₹85.01" [ref=f3e5774]
+                    - gridcell "₹0.00" [ref=f3e5775]
+                    - gridcell "₹365.00" [ref=f3e5776]
+                    - gridcell "Pending" [ref=f3e5777]:
+                      - generic [ref=f3e5778]: Pending
+                    - gridcell "Pending" [ref=f3e5779]:
+                      - generic [ref=f3e5780]: Pending
+                    - gridcell [ref=f3e5781]
+                  - row "2313 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5782]:
+                    - gridcell "2313" [ref=f3e5783]
+                    - gridcell "9/9/2025" [ref=f3e5784]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5785]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5786]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5787]
+                    - gridcell "Books" [ref=f3e5788]
+                    - gridcell "1" [ref=f3e5789]
+                    - gridcell "₹450.00" [ref=f3e5790]
+                    - gridcell "₹85.01" [ref=f3e5791]
+                    - gridcell "₹0.00" [ref=f3e5792]
+                    - gridcell "₹365.00" [ref=f3e5793]
+                    - gridcell "Pending" [ref=f3e5794]:
+                      - generic [ref=f3e5795]: Pending
+                    - gridcell "Pending" [ref=f3e5796]:
+                      - generic [ref=f3e5797]: Pending
+                    - gridcell [ref=f3e5798]
+                  - row "2315 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5799]:
+                    - gridcell "2315" [ref=f3e5800]
+                    - gridcell "9/9/2025" [ref=f3e5801]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5802]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5803]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5804]
+                    - gridcell "Books" [ref=f3e5805]
+                    - gridcell "1" [ref=f3e5806]
+                    - gridcell "₹450.00" [ref=f3e5807]
+                    - gridcell "₹85.01" [ref=f3e5808]
+                    - gridcell "₹0.00" [ref=f3e5809]
+                    - gridcell "₹365.00" [ref=f3e5810]
+                    - gridcell "Pending" [ref=f3e5811]:
+                      - generic [ref=f3e5812]: Pending
+                    - gridcell "Pending" [ref=f3e5813]:
+                      - generic [ref=f3e5814]: Pending
+                    - gridcell [ref=f3e5815]
+                  - row "2316 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5816]:
+                    - gridcell "2316" [ref=f3e5817]
+                    - gridcell "9/9/2025" [ref=f3e5818]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5819]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5820]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5821]
+                    - gridcell "Books" [ref=f3e5822]
+                    - gridcell "1" [ref=f3e5823]
+                    - gridcell "₹450.00" [ref=f3e5824]
+                    - gridcell "₹85.01" [ref=f3e5825]
+                    - gridcell "₹0.00" [ref=f3e5826]
+                    - gridcell "₹365.00" [ref=f3e5827]
+                    - gridcell "Pending" [ref=f3e5828]:
+                      - generic [ref=f3e5829]: Pending
+                    - gridcell "Pending" [ref=f3e5830]:
+                      - generic [ref=f3e5831]: Pending
+                    - gridcell [ref=f3e5832]
+                  - row "2317 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5833]:
+                    - gridcell "2317" [ref=f3e5834]
+                    - gridcell "9/9/2025" [ref=f3e5835]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5836]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5837]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5838]
+                    - gridcell "Books" [ref=f3e5839]
+                    - gridcell "1" [ref=f3e5840]
+                    - gridcell "₹450.00" [ref=f3e5841]
+                    - gridcell "₹85.01" [ref=f3e5842]
+                    - gridcell "₹0.00" [ref=f3e5843]
+                    - gridcell "₹365.00" [ref=f3e5844]
+                    - gridcell "Pending" [ref=f3e5845]:
+                      - generic [ref=f3e5846]: Pending
+                    - gridcell "Pending" [ref=f3e5847]:
+                      - generic [ref=f3e5848]: Pending
+                    - gridcell [ref=f3e5849]
+                  - row "2318 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5850]:
+                    - gridcell "2318" [ref=f3e5851]
+                    - gridcell "9/9/2025" [ref=f3e5852]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5853]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5854]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5855]
+                    - gridcell "Books" [ref=f3e5856]
+                    - gridcell "1" [ref=f3e5857]
+                    - gridcell "₹450.00" [ref=f3e5858]
+                    - gridcell "₹85.01" [ref=f3e5859]
+                    - gridcell "₹0.00" [ref=f3e5860]
+                    - gridcell "₹365.00" [ref=f3e5861]
+                    - gridcell "Pending" [ref=f3e5862]:
+                      - generic [ref=f3e5863]: Pending
+                    - gridcell "Pending" [ref=f3e5864]:
+                      - generic [ref=f3e5865]: Pending
+                    - gridcell [ref=f3e5866]
+                  - row "2319 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5867]:
+                    - gridcell "2319" [ref=f3e5868]
+                    - gridcell "9/9/2025" [ref=f3e5869]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5870]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5871]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5872]
+                    - gridcell "Books" [ref=f3e5873]
+                    - gridcell "1" [ref=f3e5874]
+                    - gridcell "₹450.00" [ref=f3e5875]
+                    - gridcell "₹85.01" [ref=f3e5876]
+                    - gridcell "₹0.00" [ref=f3e5877]
+                    - gridcell "₹365.00" [ref=f3e5878]
+                    - gridcell "Pending" [ref=f3e5879]:
+                      - generic [ref=f3e5880]: Pending
+                    - gridcell "Pending" [ref=f3e5881]:
+                      - generic [ref=f3e5882]: Pending
+                    - gridcell [ref=f3e5883]
+                  - row "2320 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5884]:
+                    - gridcell "2320" [ref=f3e5885]
+                    - gridcell "9/9/2025" [ref=f3e5886]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5887]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5888]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5889]
+                    - gridcell "Books" [ref=f3e5890]
+                    - gridcell "1" [ref=f3e5891]
+                    - gridcell "₹450.00" [ref=f3e5892]
+                    - gridcell "₹85.01" [ref=f3e5893]
+                    - gridcell "₹0.00" [ref=f3e5894]
+                    - gridcell "₹365.00" [ref=f3e5895]
+                    - gridcell "Pending" [ref=f3e5896]:
+                      - generic [ref=f3e5897]: Pending
+                    - gridcell "Pending" [ref=f3e5898]:
+                      - generic [ref=f3e5899]: Pending
+                    - gridcell [ref=f3e5900]
+                  - row "2322 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5901]:
+                    - gridcell "2322" [ref=f3e5902]
+                    - gridcell "9/9/2025" [ref=f3e5903]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5904]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5905]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5906]
+                    - gridcell "Books" [ref=f3e5907]
+                    - gridcell "1" [ref=f3e5908]
+                    - gridcell "₹450.00" [ref=f3e5909]
+                    - gridcell "₹85.01" [ref=f3e5910]
+                    - gridcell "₹0.00" [ref=f3e5911]
+                    - gridcell "₹365.00" [ref=f3e5912]
+                    - gridcell "Pending" [ref=f3e5913]:
+                      - generic [ref=f3e5914]: Pending
+                    - gridcell "Pending" [ref=f3e5915]:
+                      - generic [ref=f3e5916]: Pending
+                    - gridcell [ref=f3e5917]
+                  - row "2323 9/9/2025 SUNDARI B SUNDARI Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 1 ₹450.00 ₹85.01 ₹0.00 ₹365.00 Pending Pending" [ref=f3e5918]:
+                    - gridcell "2323" [ref=f3e5919]
+                    - gridcell "9/9/2025" [ref=f3e5920]
+                    - gridcell "SUNDARI B SUNDARI" [ref=f3e5921]
+                    - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5922]:
+                      - generic "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f3e5923]
+                    - gridcell "Books" [ref=f3e5924]
+                    - gridcell "1" [ref=f3e5925]
+                    - gridcell "₹450.00" [ref=f3e5926]
+                    - gridcell "₹85.01" [ref=f3e5927]
+                    - gridcell "₹0.00" [ref=f3e5928]
+                    - gridcell "₹365.00" [ref=f3e5929]
+                    - gridcell "Pending" [ref=f3e5930]:
+                      - generic [ref=f3e5931]: Pending
+                    - gridcell "Pending" [ref=f3e5932]:
+                      - generic [ref=f3e5933]: Pending
+                    - gridcell [ref=f3e5934]
+              - generic [ref=f3e675]:
+                - generic [ref=f3e5935]: Previous
+                - generic [ref=f3e5936]:
+                  - generic [ref=f3e5937] [cursor=pointer]: "1"
+                  - generic [ref=f3e5938] [cursor=pointer]: "2"
+                  - generic [ref=f3e5939] [cursor=pointer]: "3"
+                  - generic [ref=f3e5940] [cursor=pointer]: "4"
+                  - generic [ref=f3e5941] [cursor=pointer]: "5"
+                  - generic [ref=f3e5942]: …
+                  - generic [ref=f3e5943] [cursor=pointer]: "124"
+                - generic [ref=f3e5944] [cursor=pointer]: Next
+      - contentinfo [ref=f3e225]:
+        - paragraph [ref=f3e229]:
+          - text: Copyright
+          - generic [ref=f3e230]: "2026"
+          - text: © Jeshwar Teaching
+  - img

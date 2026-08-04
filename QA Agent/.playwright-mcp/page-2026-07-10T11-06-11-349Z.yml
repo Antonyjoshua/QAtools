@@ -1,0 +1,524 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e7]:
+    - generic [ref=f8e8]:
+      - generic [ref=f8e9]:
+        - heading "Dashboard" [level=4] [ref=f8e10]
+        - navigation [ref=f8e11]:
+          - list [ref=f8e12]:
+            - listitem [ref=f8e13]:
+              - link [ref=f8e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f8e15]
+            - listitem [ref=f8e18]: / Index
+      - generic [ref=f8e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f8e22]:
+          - listitem [ref=f8e23]:
+            - generic [ref=f8e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f8e26]:
+      - generic [ref=f8e28]:
+        - text: 
+        - link [ref=f8e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f8e31]:
+          - list [ref=f8e33]:
+            - generic [ref=f8e38]:
+              - text: 
+              - listitem [ref=f8e39]:
+                - link [ref=f8e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f8e41]
+                  - text: 
+              - listitem [ref=f8e43]:
+                - link [ref=f8e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e45]
+                  - text: 
+              - listitem [ref=f8e47]:
+                - link [ref=f8e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e49]
+                  - text: 
+              - listitem [ref=f8e51]:
+                - link [ref=f8e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e53]
+                  - text: 
+              - listitem [ref=f8e55]:
+                - link [ref=f8e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e57]
+                  - text: 
+              - listitem [ref=f8e59]:
+                - link "" [ref=f8e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f8e61]: 
+                  - text: 
+              - listitem [ref=f8e62]:
+                - link [ref=f8e63] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e64]
+                  - text: 
+              - listitem [ref=f8e66]:
+                - link [ref=f8e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e68]
+                  - text: 
+              - listitem [ref=f8e70]:
+                - link [ref=f8e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e72]
+                  - text: 
+              - listitem [ref=f8e74]:
+                - link [ref=f8e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e76]
+                  - text: 
+              - listitem [ref=f8e78]:
+                - link "general icon" [ref=f8e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f8e80]
+                  - text: 
+              - listitem [ref=f8e81]:
+                - link [ref=f8e82] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f8e83]
+                  - text: 
+              - listitem [ref=f8e85]:
+                - link [ref=f8e86] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f8e87]
+                  - text: 
+              - listitem [ref=f8e89]:
+                - link "product icon" [ref=f8e90] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f8e91]
+                  - text: 
+              - listitem [ref=f8e92]:
+                - link [ref=f8e93] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e94]
+                  - text: 
+              - listitem [ref=f8e96]:
+                - link [ref=f8e97] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f8e98]
+                  - text: 
+              - listitem [ref=f8e100]:
+                - link [ref=f8e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e102]
+                  - text: 
+              - listitem [ref=f8e104]:
+                - link [ref=f8e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e106]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f8e108]:
+                - link [ref=f8e109] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f8e110]
+              - listitem [ref=f8e112]:
+                - link [ref=f8e113] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e114]
+                  - text: 
+              - listitem [ref=f8e116]:
+                - link "notify-ico" [ref=f8e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f8e118]
+                  - text: 
+              - listitem [ref=f8e119]:
+                - link "notify-ico" [ref=f8e120] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f8e121]
+                  - text: 
+      - main [ref=f8e123]:
+        - generic [ref=f8e127]:
+          - generic [ref=f8e128]:
+            - heading "Inventory Report" [level=5] [ref=f8e129]
+            - button " Export Excel" [ref=f8e130] [cursor=pointer]:
+              - generic [ref=f8e131]: 
+              - text: Export Excel
+          - generic [ref=f8e132]:
+            - generic [ref=f8e134]:
+              - generic [ref=f8e135]:
+                - generic [ref=f8e136]: From Date
+                - textbox [ref=f8e137] [cursor=pointer]
+              - generic [ref=f8e138]:
+                - generic [ref=f8e139]: To Date
+                - textbox [ref=f8e140] [cursor=pointer]
+              - generic [ref=f8e141]:
+                - generic [ref=f8e142]: Product Title
+                - textbox "Search product..." [ref=f8e143] [cursor=pointer]
+              - generic [ref=f8e144]:
+                - generic [ref=f8e145]: Product Type
+                - combobox [ref=f8e146] [cursor=pointer]:
+                  - option "All Types"
+                  - option "Books" [selected]
+                  - option "Product Type"
+                  - option "Stationary"
+                  - option "Study Products"
+                  - option "Notes"
+                  - option "Exam Kit"
+                  - option "Miscellaneous"
+                  - option "Notes"
+                  - option "JT special store"
+                  - option "Multiple/Combo"
+                  - option "Combo"
+              - generic [ref=f8e147]:
+                - generic [ref=f8e148]: Transaction Type
+                - combobox [ref=f8e149] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "IN"
+                  - option "OUT"
+                  - option "ADJUSTMENT"
+              - generic [ref=f8e150]:
+                - generic [ref=f8e151]: Customer
+                - textbox "Search customer..." [ref=f8e152] [cursor=pointer]
+              - generic [ref=f8e153]:
+                - button "Apply" [active] [ref=f8e154] [cursor=pointer]
+                - button "Clear" [ref=f8e155] [cursor=pointer]
+            - generic [ref=f8e156]:
+              - generic [ref=f8e157]:
+                - generic [ref=f8e158]:
+                  - generic [ref=f8e159]: Total Stock IN
+                  - heading "23454" [level=3] [ref=f8e1976]
+                - generic [ref=f8e162]: 
+              - generic [ref=f8e163]:
+                - generic [ref=f8e164]:
+                  - generic [ref=f8e165]: Total Stock OUT
+                  - heading "3373" [level=3] [ref=f8e1977]
+                - generic [ref=f8e168]: 
+              - generic [ref=f8e169]:
+                - generic [ref=f8e170]:
+                  - generic [ref=f8e171]: Current Total Stock
+                  - heading "465" [level=3] [ref=f8e210]
+                - generic [ref=f8e174]: 
+              - generic [ref=f8e175]:
+                - generic [ref=f8e176]:
+                  - generic [ref=f8e177]: Low / Out of Stock
+                  - heading "23" [level=3] [ref=f8e211]
+                - generic [ref=f8e180]: 
+            - tablist [ref=f8e181]:
+              - tab "Transaction Detail" [selected] [ref=f8e182] [cursor=pointer]
+              - tab "Product Summary" [ref=f8e183] [cursor=pointer]
+            - tabpanel "Transaction Detail" [ref=f8e185]:
+              - generic [ref=f8e187]:
+                - grid [ref=f8e190]:
+                  - rowgroup [ref=f8e191]:
+                    - 'row "Date: activate to sort column ascending Product: activate to sort column ascending Type: activate to sort column ascending Txn Type: activate to sort column ascending Qty Changed: activate to sort column ascending Stock After: activate to sort column ascending Customer: activate to sort column ascending Order #: activate to sort column ascending Reason: activate to sort column ascending" [ref=f8e212]':
+                      - 'columnheader "Date: activate to sort column ascending" [ref=f8e213] [cursor=pointer]': Date
+                      - 'columnheader "Product: activate to sort column ascending" [ref=f8e214] [cursor=pointer]': Product
+                      - 'columnheader "Type: activate to sort column ascending" [ref=f8e215] [cursor=pointer]': Type
+                      - 'columnheader "Txn Type: activate to sort column ascending" [ref=f8e216] [cursor=pointer]': Txn Type
+                      - 'columnheader "Qty Changed: activate to sort column ascending" [ref=f8e217] [cursor=pointer]': Qty Changed
+                      - 'columnheader "Stock After: activate to sort column ascending" [ref=f8e218] [cursor=pointer]': Stock After
+                      - 'columnheader "Customer: activate to sort column ascending" [ref=f8e219] [cursor=pointer]': Customer
+                      - 'columnheader "Order #: activate to sort column ascending" [ref=f8e220] [cursor=pointer]': "Order #"
+                      - 'columnheader "Reason: activate to sort column ascending" [ref=f8e221] [cursor=pointer]': Reason
+                  - rowgroup [ref=f8e222]:
+                    - 'row "10/07/26, 2:39 pm Test Book K1 Books OUT 2 2 Manual Purchase #MP-20260710-102916-748 (edited) — Fayaze Mohammed" [ref=f8e1978]':
+                      - gridcell "10/07/26, 2:39 pm" [ref=f8e1979]
+                      - gridcell "Test Book K1" [ref=f8e1980]
+                      - gridcell "Books" [ref=f8e1981]
+                      - gridcell "OUT" [ref=f8e1982]:
+                        - generic [ref=f8e1983]: OUT
+                      - gridcell "2" [ref=f8e1984]
+                      - gridcell "2" [ref=f8e1985]
+                      - gridcell [ref=f8e1986]
+                      - gridcell [ref=f8e1987]
+                      - 'gridcell "Manual Purchase #MP-20260710-102916-748 (edited) — Fayaze Mohammed" [ref=f8e1988]'
+                    - 'row "10/07/26, 2:39 pm Test Book K1 Books IN 2 4 Stock restored: Manual Purchase #MP-20260710-102916-748 edit" [ref=f8e1989]':
+                      - gridcell "10/07/26, 2:39 pm" [ref=f8e1990]
+                      - gridcell "Test Book K1" [ref=f8e1991]
+                      - gridcell "Books" [ref=f8e1992]
+                      - gridcell "IN" [ref=f8e1993]:
+                        - generic [ref=f8e1994]: IN
+                      - gridcell "2" [ref=f8e1995]
+                      - gridcell "4" [ref=f8e1996]
+                      - gridcell [ref=f8e1997]
+                      - gridcell [ref=f8e1998]
+                      - 'gridcell "Stock restored: Manual Purchase #MP-20260710-102916-748 edit" [ref=f8e1999]'
+                    - 'row "10/07/26, 2:38 pm Test Book K1 Books OUT 1 2 Manual Purchase #MP-20260710-111426-529 (edited) — Karthik" [ref=f8e2000]':
+                      - gridcell "10/07/26, 2:38 pm" [ref=f8e2001]
+                      - gridcell "Test Book K1" [ref=f8e2002]
+                      - gridcell "Books" [ref=f8e2003]
+                      - gridcell "OUT" [ref=f8e2004]:
+                        - generic [ref=f8e2005]: OUT
+                      - gridcell "1" [ref=f8e2006]
+                      - gridcell "2" [ref=f8e2007]
+                      - gridcell [ref=f8e2008]
+                      - gridcell [ref=f8e2009]
+                      - 'gridcell "Manual Purchase #MP-20260710-111426-529 (edited) — Karthik" [ref=f8e2010]'
+                    - 'row "10/07/26, 2:38 pm Test Book K1 Books IN 1 3 Stock restored: Manual Purchase #MP-20260710-111426-529 edit" [ref=f8e2011]':
+                      - gridcell "10/07/26, 2:38 pm" [ref=f8e2012]
+                      - gridcell "Test Book K1" [ref=f8e2013]
+                      - gridcell "Books" [ref=f8e2014]
+                      - gridcell "IN" [ref=f8e2015]:
+                        - generic [ref=f8e2016]: IN
+                      - gridcell "1" [ref=f8e2017]
+                      - gridcell "3" [ref=f8e2018]
+                      - gridcell [ref=f8e2019]
+                      - gridcell [ref=f8e2020]
+                      - 'gridcell "Stock restored: Manual Purchase #MP-20260710-111426-529 edit" [ref=f8e2021]'
+                    - 'row "10/07/26, 2:37 pm Test Book K1 Books OUT 1 2 Manual Purchase #MP-20260710-111426-529 (edited) — Karthik" [ref=f8e2022]':
+                      - gridcell "10/07/26, 2:37 pm" [ref=f8e2023]
+                      - gridcell "Test Book K1" [ref=f8e2024]
+                      - gridcell "Books" [ref=f8e2025]
+                      - gridcell "OUT" [ref=f8e2026]:
+                        - generic [ref=f8e2027]: OUT
+                      - gridcell "1" [ref=f8e2028]
+                      - gridcell "2" [ref=f8e2029]
+                      - gridcell [ref=f8e2030]
+                      - gridcell [ref=f8e2031]
+                      - 'gridcell "Manual Purchase #MP-20260710-111426-529 (edited) — Karthik" [ref=f8e2032]'
+                    - 'row "10/07/26, 2:37 pm Test Book K1 Books IN 1 3 Stock restored: Manual Purchase #MP-20260710-111426-529 edit" [ref=f8e2033]':
+                      - gridcell "10/07/26, 2:37 pm" [ref=f8e2034]
+                      - gridcell "Test Book K1" [ref=f8e2035]
+                      - gridcell "Books" [ref=f8e2036]
+                      - gridcell "IN" [ref=f8e2037]:
+                        - generic [ref=f8e2038]: IN
+                      - gridcell "1" [ref=f8e2039]
+                      - gridcell "3" [ref=f8e2040]
+                      - gridcell [ref=f8e2041]
+                      - gridcell [ref=f8e2042]
+                      - 'gridcell "Stock restored: Manual Purchase #MP-20260710-111426-529 edit" [ref=f8e2043]'
+                    - 'row "10/07/26, 2:31 pm Test Book K1 Books OUT 1 2 Manual Purchase #MP-20260710-111426-529 (edited) — Karthik" [ref=f8e2044]':
+                      - gridcell "10/07/26, 2:31 pm" [ref=f8e2045]
+                      - gridcell "Test Book K1" [ref=f8e2046]
+                      - gridcell "Books" [ref=f8e2047]
+                      - gridcell "OUT" [ref=f8e2048]:
+                        - generic [ref=f8e2049]: OUT
+                      - gridcell "1" [ref=f8e2050]
+                      - gridcell "2" [ref=f8e2051]
+                      - gridcell [ref=f8e2052]
+                      - gridcell [ref=f8e2053]
+                      - 'gridcell "Manual Purchase #MP-20260710-111426-529 (edited) — Karthik" [ref=f8e2054]'
+                    - 'row "10/07/26, 2:31 pm Test Book K1 Books IN 1 3 Stock restored: Manual Purchase #MP-20260710-111426-529 edit" [ref=f8e2055]':
+                      - gridcell "10/07/26, 2:31 pm" [ref=f8e2056]
+                      - gridcell "Test Book K1" [ref=f8e2057]
+                      - gridcell "Books" [ref=f8e2058]
+                      - gridcell "IN" [ref=f8e2059]:
+                        - generic [ref=f8e2060]: IN
+                      - gridcell "1" [ref=f8e2061]
+                      - gridcell "3" [ref=f8e2062]
+                      - gridcell [ref=f8e2063]
+                      - gridcell [ref=f8e2064]
+                      - 'gridcell "Stock restored: Manual Purchase #MP-20260710-111426-529 edit" [ref=f8e2065]'
+                    - 'row "10/07/26, 2:31 pm Test Book K1 Books IN 1 2 Stock restored: Manual Purchase #MP-20260710-111426-529 edit" [ref=f8e2066]':
+                      - gridcell "10/07/26, 2:31 pm" [ref=f8e2067]
+                      - gridcell "Test Book K1" [ref=f8e2068]
+                      - gridcell "Books" [ref=f8e2069]
+                      - gridcell "IN" [ref=f8e2070]:
+                        - generic [ref=f8e2071]: IN
+                      - gridcell "1" [ref=f8e2072]
+                      - gridcell "2" [ref=f8e2073]
+                      - gridcell [ref=f8e2074]
+                      - gridcell [ref=f8e2075]
+                      - 'gridcell "Stock restored: Manual Purchase #MP-20260710-111426-529 edit" [ref=f8e2076]'
+                    - 'row "10/07/26, 2:30 pm Test Book K1 Books ADJUSTMENT 1 1 Added as combo product: Test-REs" [ref=f8e2077]':
+                      - gridcell "10/07/26, 2:30 pm" [ref=f8e2078]
+                      - gridcell "Test Book K1" [ref=f8e2079]
+                      - gridcell "Books" [ref=f8e2080]
+                      - gridcell "ADJUSTMENT" [ref=f8e2081]:
+                        - generic [ref=f8e2082]: ADJUSTMENT
+                      - gridcell "1" [ref=f8e2083]
+                      - gridcell "1" [ref=f8e2084]
+                      - gridcell [ref=f8e2085]
+                      - gridcell [ref=f8e2086]
+                      - 'gridcell "Added as combo product: Test-REs" [ref=f8e2087]'
+                    - 'row "10/07/26, 2:21 pm Test Book K1 Books OUT 1 2 Manual Purchase #MP-20260710-111426-529 (edited) — Karthik" [ref=f8e2088]':
+                      - gridcell "10/07/26, 2:21 pm" [ref=f8e2089]
+                      - gridcell "Test Book K1" [ref=f8e2090]
+                      - gridcell "Books" [ref=f8e2091]
+                      - gridcell "OUT" [ref=f8e2092]:
+                        - generic [ref=f8e2093]: OUT
+                      - gridcell "1" [ref=f8e2094]
+                      - gridcell "2" [ref=f8e2095]
+                      - gridcell [ref=f8e2096]
+                      - gridcell [ref=f8e2097]
+                      - 'gridcell "Manual Purchase #MP-20260710-111426-529 (edited) — Karthik" [ref=f8e2098]'
+                    - 'row "10/07/26, 2:21 pm Test Book K1 Books OUT 1 3 Manual Purchase #MP-20260710-111426-529 (edited) — Karthik" [ref=f8e2099]':
+                      - gridcell "10/07/26, 2:21 pm" [ref=f8e2100]
+                      - gridcell "Test Book K1" [ref=f8e2101]
+                      - gridcell "Books" [ref=f8e2102]
+                      - gridcell "OUT" [ref=f8e2103]:
+                        - generic [ref=f8e2104]: OUT
+                      - gridcell "1" [ref=f8e2105]
+                      - gridcell "3" [ref=f8e2106]
+                      - gridcell [ref=f8e2107]
+                      - gridcell [ref=f8e2108]
+                      - 'gridcell "Manual Purchase #MP-20260710-111426-529 (edited) — Karthik" [ref=f8e2109]'
+                    - 'row "10/07/26, 1:01 pm Test Book K1 Books ADJUSTMENT 2 4 Added as combo product: ehrbgfrb" [ref=f8e2110]':
+                      - gridcell "10/07/26, 1:01 pm" [ref=f8e2111]
+                      - gridcell "Test Book K1" [ref=f8e2112]
+                      - gridcell "Books" [ref=f8e2113]
+                      - gridcell "ADJUSTMENT" [ref=f8e2114]:
+                        - generic [ref=f8e2115]: ADJUSTMENT
+                      - gridcell "2" [ref=f8e2116]
+                      - gridcell "4" [ref=f8e2117]
+                      - gridcell [ref=f8e2118]
+                      - gridcell [ref=f8e2119]
+                      - 'gridcell "Added as combo product: ehrbgfrb" [ref=f8e2120]'
+                    - row "10/07/26, 12:38 pm Test Book K1 Books ADJUSTMENT 1 6 Damage" [ref=f8e2121]:
+                      - gridcell "10/07/26, 12:38 pm" [ref=f8e2122]
+                      - gridcell "Test Book K1" [ref=f8e2123]
+                      - gridcell "Books" [ref=f8e2124]
+                      - gridcell "ADJUSTMENT" [ref=f8e2125]:
+                        - generic [ref=f8e2126]: ADJUSTMENT
+                      - gridcell "1" [ref=f8e2127]
+                      - gridcell "6" [ref=f8e2128]
+                      - gridcell [ref=f8e2129]
+                      - gridcell [ref=f8e2130]
+                      - gridcell "Damage" [ref=f8e2131]
+                    - row "10/07/26, 12:38 pm Test Book K1 Books IN 1 7 test" [ref=f8e2132]:
+                      - gridcell "10/07/26, 12:38 pm" [ref=f8e2133]
+                      - gridcell "Test Book K1" [ref=f8e2134]
+                      - gridcell "Books" [ref=f8e2135]
+                      - gridcell "IN" [ref=f8e2136]:
+                        - generic [ref=f8e2137]: IN
+                      - gridcell "1" [ref=f8e2138]
+                      - gridcell "7" [ref=f8e2139]
+                      - gridcell [ref=f8e2140]
+                      - gridcell [ref=f8e2141]
+                      - gridcell "test" [ref=f8e2142]
+                    - 'row "10/07/26, 12:26 pm Test Book K1 Books ADJUSTMENT 2 6 Added as combo product: Combo 2" [ref=f8e2143]':
+                      - gridcell "10/07/26, 12:26 pm" [ref=f8e2144]
+                      - gridcell "Test Book K1" [ref=f8e2145]
+                      - gridcell "Books" [ref=f8e2146]
+                      - gridcell "ADJUSTMENT" [ref=f8e2147]:
+                        - generic [ref=f8e2148]: ADJUSTMENT
+                      - gridcell "2" [ref=f8e2149]
+                      - gridcell "6" [ref=f8e2150]
+                      - gridcell [ref=f8e2151]
+                      - gridcell [ref=f8e2152]
+                      - 'gridcell "Added as combo product: Combo 2" [ref=f8e2153]'
+                    - 'row "10/07/26, 11:51 am Test Book K1 Books ADJUSTMENT 1 8 Combo stock restored: fhrsjgg" [ref=f8e2154]':
+                      - gridcell "10/07/26, 11:51 am" [ref=f8e2155]
+                      - gridcell "Test Book K1" [ref=f8e2156]
+                      - gridcell "Books" [ref=f8e2157]
+                      - gridcell "ADJUSTMENT" [ref=f8e2158]:
+                        - generic [ref=f8e2159]: ADJUSTMENT
+                      - gridcell "1" [ref=f8e2160]
+                      - gridcell "8" [ref=f8e2161]
+                      - gridcell [ref=f8e2162]
+                      - gridcell [ref=f8e2163]
+                      - 'gridcell "Combo stock restored: fhrsjgg" [ref=f8e2164]'
+                    - 'row "10/07/26, 11:50 am Test Book K1 Books ADJUSTMENT 2 7 Added as combo product: Books Combo 1" [ref=f8e2165]':
+                      - gridcell "10/07/26, 11:50 am" [ref=f8e2166]
+                      - gridcell "Test Book K1" [ref=f8e2167]
+                      - gridcell "Books" [ref=f8e2168]
+                      - gridcell "ADJUSTMENT" [ref=f8e2169]:
+                        - generic [ref=f8e2170]: ADJUSTMENT
+                      - gridcell "2" [ref=f8e2171]
+                      - gridcell "7" [ref=f8e2172]
+                      - gridcell [ref=f8e2173]
+                      - gridcell [ref=f8e2174]
+                      - 'gridcell "Added as combo product: Books Combo 1" [ref=f8e2175]'
+                    - 'row "10/07/26, 10:30 am Test Book K1 Books OUT 2 9 Manual Purchase #MP-20260710-102916-748 (edited) — Fayaze Mohammed" [ref=f8e2176]':
+                      - gridcell "10/07/26, 10:30 am" [ref=f8e2177]
+                      - gridcell "Test Book K1" [ref=f8e2178]
+                      - gridcell "Books" [ref=f8e2179]
+                      - gridcell "OUT" [ref=f8e2180]:
+                        - generic [ref=f8e2181]: OUT
+                      - gridcell "2" [ref=f8e2182]
+                      - gridcell "9" [ref=f8e2183]
+                      - gridcell [ref=f8e2184]
+                      - gridcell [ref=f8e2185]
+                      - 'gridcell "Manual Purchase #MP-20260710-102916-748 (edited) — Fayaze Mohammed" [ref=f8e2186]'
+                    - 'row "10/07/26, 10:30 am Test Book K1 Books IN 1 11 Stock restored: Manual Purchase #MP-20260710-102916-748 edit" [ref=f8e2187]':
+                      - gridcell "10/07/26, 10:30 am" [ref=f8e2188]
+                      - gridcell "Test Book K1" [ref=f8e2189]
+                      - gridcell "Books" [ref=f8e2190]
+                      - gridcell "IN" [ref=f8e2191]:
+                        - generic [ref=f8e2192]: IN
+                      - gridcell "1" [ref=f8e2193]
+                      - gridcell "11" [ref=f8e2194]
+                      - gridcell [ref=f8e2195]
+                      - gridcell [ref=f8e2196]
+                      - 'gridcell "Stock restored: Manual Purchase #MP-20260710-102916-748 edit" [ref=f8e2197]'
+                    - 'row "10/07/26, 10:29 am Test Book K1 Books OUT 1 10 Manual Purchase #MP-20260710-102916-748 — Fayaze" [ref=f8e2198]':
+                      - gridcell "10/07/26, 10:29 am" [ref=f8e2199]
+                      - gridcell "Test Book K1" [ref=f8e2200]
+                      - gridcell "Books" [ref=f8e2201]
+                      - gridcell "OUT" [ref=f8e2202]:
+                        - generic [ref=f8e2203]: OUT
+                      - gridcell "1" [ref=f8e2204]
+                      - gridcell "10" [ref=f8e2205]
+                      - gridcell [ref=f8e2206]
+                      - gridcell [ref=f8e2207]
+                      - 'gridcell "Manual Purchase #MP-20260710-102916-748 — Fayaze" [ref=f8e2208]'
+                    - row "10/07/26, 10:28 am Test Book K1 Books IN 5 11 found hidden stock" [ref=f8e2209]:
+                      - gridcell "10/07/26, 10:28 am" [ref=f8e2210]
+                      - gridcell "Test Book K1" [ref=f8e2211]
+                      - gridcell "Books" [ref=f8e2212]
+                      - gridcell "IN" [ref=f8e2213]:
+                        - generic [ref=f8e2214]: IN
+                      - gridcell "5" [ref=f8e2215]
+                      - gridcell "11" [ref=f8e2216]
+                      - gridcell [ref=f8e2217]
+                      - gridcell [ref=f8e2218]
+                      - gridcell "found hidden stock" [ref=f8e2219]
+                    - row "10/07/26, 10:27 am Test Book K1 Books ADJUSTMENT 2 6 Damage" [ref=f8e2220]:
+                      - gridcell "10/07/26, 10:27 am" [ref=f8e2221]
+                      - gridcell "Test Book K1" [ref=f8e2222]
+                      - gridcell "Books" [ref=f8e2223]
+                      - gridcell "ADJUSTMENT" [ref=f8e2224]:
+                        - generic [ref=f8e2225]: ADJUSTMENT
+                      - gridcell "2" [ref=f8e2226]
+                      - gridcell "6" [ref=f8e2227]
+                      - gridcell [ref=f8e2228]
+                      - gridcell [ref=f8e2229]
+                      - gridcell "Damage" [ref=f8e2230]
+                    - row "10/07/26, 10:27 am Test Book K1 Books IN 1 8 test" [ref=f8e2231]:
+                      - gridcell "10/07/26, 10:27 am" [ref=f8e2232]
+                      - gridcell "Test Book K1" [ref=f8e2233]
+                      - gridcell "Books" [ref=f8e2234]
+                      - gridcell "IN" [ref=f8e2235]:
+                        - generic [ref=f8e2236]: IN
+                      - gridcell "1" [ref=f8e2237]
+                      - gridcell "8" [ref=f8e2238]
+                      - gridcell [ref=f8e2239]
+                      - gridcell [ref=f8e2240]
+                      - gridcell "test" [ref=f8e2241]
+                    - row "09/07/26, 10:05 pm Test Book K1 Books IN 1 7 Damage" [ref=f8e2242]:
+                      - gridcell "09/07/26, 10:05 pm" [ref=f8e2243]
+                      - gridcell "Test Book K1" [ref=f8e2244]
+                      - gridcell "Books" [ref=f8e2245]
+                      - gridcell "IN" [ref=f8e2246]:
+                        - generic [ref=f8e2247]: IN
+                      - gridcell "1" [ref=f8e2248]
+                      - gridcell "7" [ref=f8e2249]
+                      - gridcell [ref=f8e2250]
+                      - gridcell [ref=f8e2251]
+                      - gridcell "Damage" [ref=f8e2252]
+                - generic [ref=f8e498]:
+                  - generic [ref=f8e2253]: Previous
+                  - generic [ref=f8e2254]:
+                    - generic [ref=f8e2255] [cursor=pointer]: "1"
+                    - generic [ref=f8e2256] [cursor=pointer]: "2"
+                    - generic [ref=f8e2257] [cursor=pointer]: "3"
+                    - generic [ref=f8e2258] [cursor=pointer]: "4"
+                    - generic [ref=f8e2259] [cursor=pointer]: "5"
+                    - generic [ref=f8e2260]: …
+                    - generic [ref=f8e2261] [cursor=pointer]: "209"
+                  - generic [ref=f8e2262] [cursor=pointer]: Next
+      - contentinfo [ref=f8e202]:
+        - paragraph [ref=f8e206]:
+          - text: Copyright
+          - generic [ref=f8e207]: "2026"
+          - text: © Jeshwar Teaching
+  - img

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0540"/>
+      <stop offset="100%" stop-color="#071526"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="32" height="32" rx="7" fill="url(#bg)"/>
+
+  <!-- Subtle border -->
+  <rect x="0.75" y="0.75" width="30.5" height="30.5" rx="6.5"
+        fill="none" stroke="url(#txt)" stroke-width="0.75" opacity="0.45"/>
+
+  <!-- AJ initials -->
+  <text
+    x="16" y="22"
+    font-family="'Arial Black', 'Arial', sans-serif"
+    font-weight="900"
+    font-size="15"
+    letter-spacing="-0.5"
+    fill="url(#txt)"
+    text-anchor="middle"
+    filter="url(#glow)">AJ</text>
+
+  <!-- Small accent dot (QA / precision motif) -->
+  <circle cx="26" cy="7" r="2" fill="#06b6d4" opacity="0.75"/>
+  <circle cx="26" cy="7" r="1" fill="#a855f7"/>
+</svg>

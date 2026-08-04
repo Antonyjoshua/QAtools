@@ -1,0 +1,228 @@
+- generic [ref=f64e2]:
+  - generic [ref=f64e3]:
+    - generic [ref=f64e5]:
+      - generic [ref=f64e6]:
+        - link "Logo" [ref=f64e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f64e8]
+        - text: 
+      - list [ref=f64e9]:
+        - listitem [ref=f64e10]:
+          - link " Dashboard" [ref=f64e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f64e12]: 
+            - text: Dashboard
+        - listitem [ref=f64e13]:
+          - link " Batches" [ref=f64e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f64e15]: 
+            - text: Batches
+        - listitem [ref=f64e16]:
+          - link " My Courses" [ref=f64e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f64e18]: 
+            - text: My Courses
+        - listitem [ref=f64e19]:
+          - link " Ebooks" [ref=f64e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f64e21]: 
+            - text: Ebooks
+        - listitem [ref=f64e22]:
+          - link " Wishlist" [ref=f64e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f64e24]: 
+            - text: Wishlist
+        - listitem [ref=f64e25]:
+          - link " Audiobook" [ref=f64e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f64e27]: 
+            - text: Audiobook
+        - listitem [ref=f64e28]:
+          - link " Resources" [ref=f64e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f64e30]: 
+            - text: Resources
+        - listitem [ref=f64e31]:
+          - link " Current Affairs" [ref=f64e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f64e33]: 
+            - text: Current Affairs
+        - listitem [ref=f64e34]:
+          - link " Test" [ref=f64e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f64e36]: 
+            - text: Test
+        - listitem [ref=f64e37]:
+          - link " Settings" [ref=f64e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f64e39]: 
+            - text: Settings
+        - listitem [ref=f64e40]:
+          - link " Call Reminders" [ref=f64e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f64e42]: 
+            - text: Call Reminders
+        - listitem [ref=f64e43]:
+          - link " Leaderboard" [ref=f64e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f64e45]: 
+            - text: Leaderboard
+        - listitem [ref=f64e46]:
+          - button " APL " [ref=f64e47] [cursor=pointer]:
+            - generic [ref=f64e48]:
+              - generic [ref=f64e49]: 
+              - text: APL
+            - generic [ref=f64e50]: 
+          - text:   
+        - listitem [ref=f64e51]:
+          - link " Notification" [ref=f64e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f64e53]: 
+            - text: Notification
+        - listitem [ref=f64e54]:
+          - button " Logout" [ref=f64e56] [cursor=pointer]:
+            - generic [ref=f64e57]: 
+            - text: Logout
+    - generic [ref=f64e59]:
+      - banner [ref=f64e60]:
+        - text: 
+        - generic [ref=f64e61]:
+          - generic [ref=f64e62]:
+            - generic [ref=f64e63]: 
+            - textbox "Search Course" [ref=f64e64]
+            - text: 
+          - link "" [ref=f64e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f64e68]: 
+          - link "Profile qatestpromo20260721" [ref=f64e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f64e71]
+            - generic [ref=f64e72]: qatestpromo20260721
+      - generic [ref=f64e74]:
+        - heading "Checkout" [level=3] [ref=f64e75]
+        - generic [ref=f64e76]:
+          - generic [ref=f64e77]:
+            - generic [ref=f64e79]:
+              - img "GST Inclu" [ref=f64e80]
+              - generic [ref=f64e81]:
+                - heading "GST Inclu" [level=5] [ref=f64e82]
+                - generic [ref=f64e84]: GST membership (inclu)
+            - generic [ref=f64e85]:
+              - generic [ref=f64e86]:
+                - heading "Have a promo code?" [level=5] [ref=f64e87]
+                - button "Hide Promo Codes ▲" [ref=f64e119] [cursor=pointer]
+              - generic [ref=f64e89]:
+                - textbox "Enter promo code" [ref=f64e90]
+                - button "Apply" [ref=f64e91] [cursor=pointer]
+              - generic [ref=f64e120]:
+                - generic [ref=f64e121]:
+                  - generic [ref=f64e123]:
+                    - text: ANTO30
+                    - generic [ref=f64e124]: Flat ₹2000 OFF
+                  - button "Apply" [ref=f64e125] [cursor=pointer]
+                - generic [ref=f64e126]:
+                  - generic [ref=f64e128]:
+                    - text: EXTRA10
+                    - generic [ref=f64e129]: 10% OFF
+                  - button "Apply" [ref=f64e130] [cursor=pointer]
+                - generic [ref=f64e131]:
+                  - generic [ref=f64e132]:
+                    - generic [ref=f64e133]:
+                      - text: QATEST_100PCT
+                      - generic [ref=f64e134]: 100% OFF
+                    - generic [ref=f64e135]: QA test - 100% discount edge case
+                  - button "Apply" [ref=f64e136] [cursor=pointer]
+                - generic [ref=f64e137]:
+                  - generic [ref=f64e139]:
+                    - text: QATEST_12345
+                    - generic [ref=f64e140]: 10% OFF
+                  - button "Apply" [ref=f64e141] [cursor=pointer]
+                - generic [ref=f64e142]:
+                  - generic [ref=f64e144]:
+                    - text: QATEST_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                    - generic [ref=f64e145]: 10% OFF
+                  - button "Apply" [ref=f64e146] [cursor=pointer]
+                - generic [ref=f64e147]:
+                  - generic [ref=f64e148]:
+                    - generic [ref=f64e149]:
+                      - text: QATEST_FLAT100
+                      - generic [ref=f64e150]: Flat ₹100 OFF
+                    - generic [ref=f64e151]: QA test - flat 100 off
+                  - button "Apply" [ref=f64e152] [cursor=pointer]
+                - generic [ref=f64e153]:
+                  - generic [ref=f64e154]:
+                    - generic [ref=f64e155]:
+                      - text: QATEST_MINORDER
+                      - generic [ref=f64e156]: 15% OFF
+                    - generic [ref=f64e157]: QA test - 15% off, min order 500
+                  - button "Apply" [ref=f64e158] [cursor=pointer]
+                - generic [ref=f64e159]:
+                  - generic [ref=f64e161]:
+                    - text: QATEST_MIXEDCASE
+                    - generic [ref=f64e162]: 10% OFF
+                  - button "Apply" [ref=f64e163] [cursor=pointer]
+                - generic [ref=f64e164]:
+                  - generic [ref=f64e165]:
+                    - generic [ref=f64e166]:
+                      - text: QATEST_PERCENT10
+                      - generic [ref=f64e167]: 15% OFF
+                    - generic [ref=f64e168]: QA test - 10% off all courses
+                  - button "Apply" [ref=f64e169] [cursor=pointer]
+                - generic [ref=f64e170]:
+                  - generic [ref=f64e171]:
+                    - generic [ref=f64e172]:
+                      - text: QATEST_SINGLEUSE
+                      - generic [ref=f64e173]: 20% OFF
+                    - generic [ref=f64e174]: QA test - single use only
+                  - button "Apply" [ref=f64e175] [cursor=pointer]
+                - generic [ref=f64e176]:
+                  - generic [ref=f64e178]:
+                    - text: QATEST_SPECIAL !@#$%
+                    - generic [ref=f64e179]: 10% OFF
+                  - button "Apply" [ref=f64e180] [cursor=pointer]
+                - generic [ref=f64e181]:
+                  - generic [ref=f64e182]:
+                    - generic [ref=f64e183]:
+                      - text: QATEST_SPECIFICBATCH
+                      - generic [ref=f64e184]: 20% OFF
+                    - generic [ref=f64e185]: QA test - restricted to GST Inclu course only
+                  - button "Apply" [ref=f64e186] [cursor=pointer]
+                - generic [ref=f64e187]:
+                  - generic [ref=f64e188]:
+                    - generic [ref=f64e189]:
+                      - text: QATEST_TODAYEXPIRY
+                      - generic [ref=f64e190]: 10% OFF
+                    - generic [ref=f64e191]: QA test - expires end of today
+                  - button "Apply" [ref=f64e192] [cursor=pointer]
+          - generic [ref=f64e93]:
+            - heading "Order Summary" [level=5] [ref=f64e94]
+            - generic [ref=f64e95]:
+              - generic [ref=f64e96]: Course Fee
+              - generic [ref=f64e97]: ₹1000
+            - generic [ref=f64e98]:
+              - generic [ref=f64e99]: GST
+              - generic [ref=f64e100]: 10% (Inclusive)
+            - separator [ref=f64e101]
+            - generic [ref=f64e102]:
+              - generic [ref=f64e103]: Total
+              - generic [ref=f64e104]: ₹1000
+            - button "Pay ₹ 1000" [ref=f64e200] [cursor=pointer]:
+              - text: Pay ₹
+              - generic [ref=f64e106]: "1000"
+            - link "Back to course" [ref=f64e107] [cursor=pointer]:
+              - /url: /Purchase/Index?courseId=138
+  - generic "Ask a doubt" [ref=f64e108]:
+    - generic [ref=f64e109]: 
+  - text:      
+  - contentinfo [ref=f64e110]:
+    - generic [ref=f64e111]:
+      - paragraph [ref=f64e113]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f64e114]:
+        - link "About Us" [ref=f64e115] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f64e116] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f64e117] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f64e118] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

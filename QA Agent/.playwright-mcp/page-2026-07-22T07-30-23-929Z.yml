@@ -1,0 +1,145 @@
+- generic [ref=f11e2]:
+  - generic [ref=f11e3]:
+    - generic [ref=f11e5]:
+      - generic [ref=f11e6]:
+        - link "Logo" [ref=f11e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f11e8]
+        - text: 
+      - list [ref=f11e9]:
+        - listitem [ref=f11e10]:
+          - link " Dashboard" [ref=f11e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f11e12]: 
+            - text: Dashboard
+        - listitem [ref=f11e13]:
+          - link " Batches" [ref=f11e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f11e15]: 
+            - text: Batches
+        - listitem [ref=f11e16]:
+          - link " My Courses" [ref=f11e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f11e18]: 
+            - text: My Courses
+        - listitem [ref=f11e19]:
+          - link " Ebooks" [ref=f11e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f11e21]: 
+            - text: Ebooks
+        - listitem [ref=f11e22]:
+          - link " Wishlist" [ref=f11e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f11e24]: 
+            - text: Wishlist
+        - listitem [ref=f11e25]:
+          - link " Audiobook" [ref=f11e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f11e27]: 
+            - text: Audiobook
+        - listitem [ref=f11e28]:
+          - link " Resources" [ref=f11e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f11e30]: 
+            - text: Resources
+        - listitem [ref=f11e31]:
+          - link " Current Affairs" [ref=f11e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f11e33]: 
+            - text: Current Affairs
+        - listitem [ref=f11e34]:
+          - link " Test" [ref=f11e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f11e36]: 
+            - text: Test
+        - listitem [ref=f11e37]:
+          - link " Settings" [ref=f11e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f11e39]: 
+            - text: Settings
+        - listitem [ref=f11e40]:
+          - link " Call Reminders" [ref=f11e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f11e42]: 
+            - text: Call Reminders
+        - listitem [ref=f11e43]:
+          - link " Leaderboard" [ref=f11e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f11e45]: 
+            - text: Leaderboard
+        - listitem [ref=f11e46]:
+          - button " APL " [ref=f11e47] [cursor=pointer]:
+            - generic [ref=f11e48]:
+              - generic [ref=f11e49]: 
+              - text: APL
+            - generic [ref=f11e50]: 
+          - text:   
+        - listitem [ref=f11e51]:
+          - link " Notification" [ref=f11e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f11e53]: 
+            - text: Notification
+        - listitem [ref=f11e54]:
+          - button " Logout" [ref=f11e56] [cursor=pointer]:
+            - generic [ref=f11e57]: 
+            - text: Logout
+    - generic [ref=f11e59]:
+      - banner [ref=f11e60]:
+        - text: 
+        - generic [ref=f11e61]:
+          - generic [ref=f11e62]:
+            - generic [ref=f11e63]: 
+            - textbox "Search Course" [ref=f11e64]
+            - text: 
+          - link "" [ref=f11e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f11e68]: 
+          - link "Profile qatestpromo20260721" [ref=f11e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f11e71]
+            - generic [ref=f11e72]: qatestpromo20260721
+      - generic [ref=f11e74]:
+        - heading "Checkout" [level=3] [ref=f11e75]
+        - generic [ref=f11e76]:
+          - generic [ref=f11e77]:
+            - generic [ref=f11e79]:
+              - img "GST Multil inclu" [ref=f11e80]
+              - generic [ref=f11e81]:
+                - heading "GST Multil inclu" [level=5] [ref=f11e82]
+                - generic [ref=f11e84]: GST membership (inclu-multiple)
+            - generic [ref=f11e85]:
+              - generic [ref=f11e86]:
+                - heading "Have a promo code?" [level=5] [ref=f11e87]
+                - button "View Promo Codes ▼" [ref=f11e88] [cursor=pointer]
+              - generic [ref=f11e89]:
+                - textbox "Enter promo code" [ref=f11e90]
+                - button "Apply" [ref=f11e91] [cursor=pointer]
+          - generic [ref=f11e93]:
+            - heading "Order Summary" [level=5] [ref=f11e94]
+            - generic [ref=f11e95]:
+              - generic [ref=f11e96]: Course Fee
+              - generic [ref=f11e97]: ₹0
+            - separator [ref=f11e98]
+            - generic [ref=f11e99]:
+              - generic [ref=f11e100]: Total
+              - generic [ref=f11e101]: ₹0
+            - button "Pay ₹ 0" [ref=f11e102] [cursor=pointer]:
+              - text: Pay ₹
+              - generic [ref=f11e103]: "0"
+            - link "Back to course" [ref=f11e104] [cursor=pointer]:
+              - /url: /Purchase/Index?courseId=140
+  - generic "Ask a doubt" [ref=f11e105]:
+    - generic [ref=f11e106]: 
+  - text:      
+  - contentinfo [ref=f11e107]:
+    - generic [ref=f11e108]:
+      - paragraph [ref=f11e110]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f11e111]:
+        - link "About Us" [ref=f11e112] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f11e113] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f11e114] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f11e115] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

@@ -1,0 +1,258 @@
+- generic [active] [ref=f10e1]:
+  - img [ref=f10e224] [cursor=pointer]
+  - generic [ref=f10e2]:
+    - generic [ref=f10e3]:
+      - generic [ref=f10e4]:
+        - heading "AI Generated Questions - Preview" [level=4] [ref=f10e5]
+        - navigation [ref=f10e6]:
+          - list [ref=f10e7]:
+            - listitem [ref=f10e8]:
+              - link [ref=f10e9] [cursor=pointer]:
+                - /url: /Question/Index
+                - img [ref=f10e10]
+            - listitem [ref=f10e13]: / AI Generated Questions - Preview
+      - generic [ref=f10e15]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - img [ref=f10e18] [cursor=pointer]
+        - list [ref=f10e21]:
+          - listitem [ref=f10e22]:
+            - generic [ref=f10e24] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f10e25]:
+      - generic [ref=f10e27]:
+        - text: 
+        - link [ref=f10e29] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f10e30]:
+          - list [ref=f10e32]:
+            - generic [ref=f10e37]:
+              - text: 
+              - listitem [ref=f10e38]:
+                - link [ref=f10e39] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f10e40]
+                  - text: 
+              - listitem [ref=f10e42]:
+                - link [ref=f10e43] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e44]
+                  - text: 
+              - listitem [ref=f10e46]:
+                - link [ref=f10e47] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e48]
+                  - text: 
+              - listitem [ref=f10e50]:
+                - link [ref=f10e51] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e52]
+                  - text: 
+              - listitem [ref=f10e54]:
+                - link [ref=f10e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e56]
+                  - text: 
+              - listitem [ref=f10e58]:
+                - link "" [ref=f10e59] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f10e60]: 
+                  - text: 
+              - listitem [ref=f10e61]:
+                - link [ref=f10e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e63]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f10e65]:
+                - link [ref=f10e66] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e67]
+                  - text: 
+              - listitem [ref=f10e69]:
+                - link [ref=f10e70] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e71]
+                  - text: 
+              - listitem [ref=f10e73]:
+                - link "general icon" [ref=f10e74] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f10e75]
+                  - text: 
+              - listitem [ref=f10e76]:
+                - link [ref=f10e77] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f10e78]
+                  - text: 
+              - listitem [ref=f10e80]:
+                - link [ref=f10e81] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f10e82]
+                  - text: 
+              - listitem [ref=f10e84]:
+                - link "product icon" [ref=f10e85] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f10e86]
+                  - text: 
+              - listitem [ref=f10e87]:
+                - link [ref=f10e88] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e89]
+                  - text: 
+              - listitem [ref=f10e91]:
+                - link [ref=f10e92] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f10e93]
+                  - text: 
+              - listitem [ref=f10e95]:
+                - link [ref=f10e96] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e97]
+                  - text: 
+              - listitem [ref=f10e99]:
+                - link "notify-ico" [ref=f10e100] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f10e101]
+                  - text: 
+              - listitem [ref=f10e102]:
+                - link "notify-ico" [ref=f10e103] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f10e104]
+                  - text: 
+      - main [ref=f10e106]:
+        - generic [ref=f10e108]:
+          - generic [ref=f10e109]:
+            - heading "AI Generated Questions - Preview" [level=4] [ref=f10e110]
+            - generic [ref=f10e111]:
+              - button " Regenerate" [ref=f10e112] [cursor=pointer]:
+                - generic [ref=f10e113]: 
+                - text: Regenerate
+              - link " Back" [ref=f10e114] [cursor=pointer]:
+                - /url: /Question/Index?assessmentId=1172
+                - generic [ref=f10e115]: 
+                - text: Back
+          - generic [ref=f10e116]:
+            - generic [ref=f10e117]:
+              - generic [ref=f10e118]: 
+              - strong [ref=f10e119]: "Assessment:"
+              - text: QA Test Assessment - 2026-07-08 |
+              - strong [ref=f10e120]: "Questions Generated:"
+              - text: "1"
+            - generic [ref=f10e122]:
+              - generic [ref=f10e123]: 
+              - strong [ref=f10e124]: "Total Required:"
+              - generic [ref=f10e125]: "5"
+              - text: "|"
+              - strong [ref=f10e126]: "Already in DB:"
+              - generic [ref=f10e127]: "0"
+              - text: "|"
+              - strong [ref=f10e128]: "Remaining to Add:"
+              - generic [ref=f10e129]: "5"
+              - text: "|"
+              - strong [ref=f10e130]: "Generated in this batch:"
+              - text: "1"
+            - table [ref=f10e132]:
+              - rowgroup [ref=f10e133]:
+                - 'row "Select All / Deselect All # Question Option A Option B Option C Option D Answer Solution Marks" [ref=f10e134]':
+                  - columnheader "Select All / Deselect All" [ref=f10e135]:
+                    - checkbox "Select All / Deselect All" [ref=f10e136] [cursor=pointer]
+                  - columnheader "#" [ref=f10e137]
+                  - columnheader "Question" [ref=f10e138]
+                  - columnheader "Option A" [ref=f10e139]
+                  - columnheader "Option B" [ref=f10e140]
+                  - columnheader "Option C" [ref=f10e141]
+                  - columnheader "Option D" [ref=f10e142]
+                  - columnheader "Answer" [ref=f10e143]
+                  - columnheader "Solution" [ref=f10e144]
+                  - columnheader "Marks" [ref=f10e145]
+              - rowgroup [ref=f10e146]:
+                - row "1 TA இந்திய தேசியக் கொடி அரசியலமைப்பு சபையால் எப்போது ஏற்றுக்கொள்ளப்பட்டது? 26 நவம்பர் 1949 22 ஜூலை 1947 26 ஜனவரி 1950 9 டிசம்பர் 1946 22 ஜூலை 1947 • இந்திய தேசியக் கொடி அரசியலமைப்பு சபையால் 22 ஜூலை 1947 அன்று ஏற்றுக்கொள்ளப்பட்டது. • இந்திய அரசியலமைப்பு 26 நவம்பர் 1949 அன்று அரசியலமைப்பு சபையால் ஏற்றுக்கொள்ளப்பட்டது. • அரசியலமைப்பு 26 ஜனவரி 1950 அன்று நடைமுறைக்கு வந்தது, இந்த நாள் குடியரசு தினமாக கொண்டாடப்படுகிறது. • அரசியலமைப்பு சபையின் முதல் கூட்டம் 9 டிசம்பர் 1946 அன்று நடைபெற்றது. 20" [ref=f10e147]:
+                  - cell [ref=f10e148]:
+                    - checkbox [ref=f10e149] [cursor=pointer]
+                  - cell "1" [ref=f10e150]
+                  - cell "TA இந்திய தேசியக் கொடி அரசியலமைப்பு சபையால் எப்போது ஏற்றுக்கொள்ளப்பட்டது?" [ref=f10e151]:
+                    - generic [ref=f10e152]: TA
+                    - paragraph [ref=f10e153]:
+                      - strong [ref=f10e154]: இந்திய தேசியக் கொடி அரசியலமைப்பு சபையால் எப்போது ஏற்றுக்கொள்ளப்பட்டது?
+                  - cell "26 நவம்பர் 1949" [ref=f10e155]:
+                    - paragraph [ref=f10e156]:
+                      - strong [ref=f10e157]: 26 நவம்பர் 1949
+                  - cell "22 ஜூலை 1947" [ref=f10e158]:
+                    - paragraph [ref=f10e159]:
+                      - strong [ref=f10e160]: 22 ஜூலை 1947
+                  - cell "26 ஜனவரி 1950" [ref=f10e161]:
+                    - paragraph [ref=f10e162]:
+                      - strong [ref=f10e163]: 26 ஜனவரி 1950
+                  - cell "9 டிசம்பர் 1946" [ref=f10e164]:
+                    - paragraph [ref=f10e165]:
+                      - strong [ref=f10e166]: 9 டிசம்பர் 1946
+                  - cell "22 ஜூலை 1947" [ref=f10e167]:
+                    - paragraph [ref=f10e168]:
+                      - strong [ref=f10e169]: 22 ஜூலை 1947
+                  - cell "• இந்திய தேசியக் கொடி அரசியலமைப்பு சபையால் 22 ஜூலை 1947 அன்று ஏற்றுக்கொள்ளப்பட்டது. • இந்திய அரசியலமைப்பு 26 நவம்பர் 1949 அன்று அரசியலமைப்பு சபையால் ஏற்றுக்கொள்ளப்பட்டது. • அரசியலமைப்பு 26 ஜனவரி 1950 அன்று நடைமுறைக்கு வந்தது, இந்த நாள் குடியரசு தினமாக கொண்டாடப்படுகிறது. • அரசியலமைப்பு சபையின் முதல் கூட்டம் 9 டிசம்பர் 1946 அன்று நடைபெற்றது." [ref=f10e170]:
+                    - paragraph [ref=f10e171]:
+                      - strong [ref=f10e172]: • இந்திய தேசியக் கொடி அரசியலமைப்பு சபையால் 22 ஜூலை 1947 அன்று ஏற்றுக்கொள்ளப்பட்டது.
+                    - paragraph [ref=f10e173]:
+                      - strong [ref=f10e174]: • இந்திய அரசியலமைப்பு 26 நவம்பர் 1949 அன்று அரசியலமைப்பு சபையால் ஏற்றுக்கொள்ளப்பட்டது.
+                    - paragraph [ref=f10e175]:
+                      - strong [ref=f10e176]: • அரசியலமைப்பு 26 ஜனவரி 1950 அன்று நடைமுறைக்கு வந்தது, இந்த நாள் குடியரசு தினமாக கொண்டாடப்படுகிறது.
+                    - paragraph [ref=f10e177]:
+                      - strong [ref=f10e178]: • அரசியலமைப்பு சபையின் முதல் கூட்டம் 9 டிசம்பர் 1946 அன்று நடைபெற்றது.
+                  - cell "20" [ref=f10e179]
+                - row "EN When was the National Flag of India adopted by the Constituent Assembly? 26 November 1949 22 July 1947 26 January 1950 9 December 1946 22 July 1947 • The National Flag of India was adopted by the Constituent Assembly on 22 July 1947. • The Constitution of India was adopted by the Constituent Assembly on 26 November 1949. • The Constitution came into force on 26 January 1950, which is celebrated as Republic Day. • The first meeting of the Constituent Assembly was held on 9 December 1946." [ref=f10e180]:
+                  - cell "EN When was the National Flag of India adopted by the Constituent Assembly?" [ref=f10e181]:
+                    - generic [ref=f10e182]: EN
+                    - paragraph [ref=f10e183]:
+                      - strong [ref=f10e184]: When was the National Flag of India adopted by the Constituent Assembly?
+                  - cell "26 November 1949" [ref=f10e185]:
+                    - paragraph [ref=f10e186]:
+                      - strong [ref=f10e187]: 26 November 1949
+                  - cell "22 July 1947" [ref=f10e188]:
+                    - paragraph [ref=f10e189]:
+                      - strong [ref=f10e190]: 22 July 1947
+                  - cell "26 January 1950" [ref=f10e191]:
+                    - paragraph [ref=f10e192]:
+                      - strong [ref=f10e193]: 26 January 1950
+                  - cell "9 December 1946" [ref=f10e194]:
+                    - paragraph [ref=f10e195]:
+                      - strong [ref=f10e196]: 9 December 1946
+                  - cell "22 July 1947" [ref=f10e197]:
+                    - paragraph [ref=f10e198]:
+                      - strong [ref=f10e199]: 22 July 1947
+                  - cell "• The National Flag of India was adopted by the Constituent Assembly on 22 July 1947. • The Constitution of India was adopted by the Constituent Assembly on 26 November 1949. • The Constitution came into force on 26 January 1950, which is celebrated as Republic Day. • The first meeting of the Constituent Assembly was held on 9 December 1946." [ref=f10e200]:
+                    - paragraph [ref=f10e201]:
+                      - strong [ref=f10e202]: • The National Flag of India was adopted by the Constituent Assembly on 22 July 1947.
+                    - paragraph [ref=f10e203]:
+                      - strong [ref=f10e204]: • The Constitution of India was adopted by the Constituent Assembly on 26 November 1949.
+                    - paragraph [ref=f10e205]:
+                      - strong [ref=f10e206]: • The Constitution came into force on 26 January 1950, which is celebrated as Republic Day.
+                    - paragraph [ref=f10e207]:
+                      - strong [ref=f10e208]: • The first meeting of the Constituent Assembly was held on 9 December 1946.
+            - generic [ref=f10e209]:
+              - button " Add Selected to Database" [ref=f10e210] [cursor=pointer]:
+                - generic [ref=f10e211]: 
+                - text: Add Selected to Database
+              - generic [ref=f10e212]: 0 of 1 questions selected
+              - button " Regenerate" [ref=f10e213] [cursor=pointer]:
+                - generic [ref=f10e214]: 
+                - text: Regenerate
+              - link " Back" [ref=f10e215] [cursor=pointer]:
+                - /url: /Question/Index?assessmentId=1172
+                - generic [ref=f10e216]: 
+                - text: Back
+        - text:   
+      - contentinfo [ref=f10e217]:
+        - paragraph [ref=f10e221]:
+          - text: Copyright
+          - generic [ref=f10e222]: "2026"
+          - text: © Jeshwar Teaching
+  - img

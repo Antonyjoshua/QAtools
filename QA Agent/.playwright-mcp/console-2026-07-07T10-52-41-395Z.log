@@ -1,0 +1,61 @@
+[     856ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://jt-admin.scopethinkers.com/:0
+[   22035ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[   22908ms] [LOG] Current Path: /dashboard/index @ https://jt-admin.scopethinkers.com/Dashboard/Index:1993
+[   22909ms] [LOG] Matched: /dashboard/index {menu: Dashboard, submenu: null} @ https://jt-admin.scopethinkers.com/Dashboard/Index:2188
+[   22910ms] [LOG] Activating menu: Dashboard Submenu: null @ https://jt-admin.scopethinkers.com/Dashboard/Index:2200
+[   22911ms] [LOG] Found menu: Dashboard @ https://jt-admin.scopethinkers.com/Dashboard/Index:2209
+[   51001ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[   51790ms] [LOG] Current Path: /dashboard/index @ https://jt-admin.scopethinkers.com/Dashboard/Index:1993
+[   51791ms] [LOG] Matched: /dashboard/index {menu: Dashboard, submenu: null} @ https://jt-admin.scopethinkers.com/Dashboard/Index:2188
+[   51792ms] [LOG] Activating menu: Dashboard Submenu: null @ https://jt-admin.scopethinkers.com/Dashboard/Index:2200
+[   51792ms] [LOG] Found menu: Dashboard @ https://jt-admin.scopethinkers.com/Dashboard/Index:2209
+[  146564ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[  147431ms] [LOG] Current Path: /membership/index @ https://jt-admin.scopethinkers.com/Membership/Index:797
+[  147432ms] [LOG] Matched: /membership/index {menu: Membership, submenu: Membership} @ https://jt-admin.scopethinkers.com/Membership/Index:992
+[  147433ms] [LOG] Activating menu: Membership Submenu: Membership @ https://jt-admin.scopethinkers.com/Membership/Index:1004
+[  147434ms] [LOG] Found menu: Membership @ https://jt-admin.scopethinkers.com/Membership/Index:1013
+[  147435ms] [LOG] Activated submenu: Membership @ https://jt-admin.scopethinkers.com/Membership/Index:1034
+[  164360ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[  164506ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[  165102ms] [LOG] Current Path: /membership/create @ https://jt-admin.scopethinkers.com/Membership/Create:811
+[  165103ms] [LOG] Matched: /membership/create {menu: Membership, submenu: Membership} @ https://jt-admin.scopethinkers.com/Membership/Create:1006
+[  165103ms] [LOG] Activating menu: Membership Submenu: Membership @ https://jt-admin.scopethinkers.com/Membership/Create:1018
+[  165104ms] [LOG] Found menu: Membership @ https://jt-admin.scopethinkers.com/Membership/Create:1027
+[  165106ms] [LOG] Activated submenu: Membership @ https://jt-admin.scopethinkers.com/Membership/Create:1048
+[  295309ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[  296063ms] [LOG] Current Path: /membership/index @ https://jt-admin.scopethinkers.com/Membership/Index:797
+[  296064ms] [LOG] Matched: /membership/index {menu: Membership, submenu: Membership} @ https://jt-admin.scopethinkers.com/Membership/Index:992
+[  296065ms] [LOG] Activating menu: Membership Submenu: Membership @ https://jt-admin.scopethinkers.com/Membership/Index:1004
+[  296065ms] [LOG] Found menu: Membership @ https://jt-admin.scopethinkers.com/Membership/Index:1013
+[  296066ms] [LOG] Activated submenu: Membership @ https://jt-admin.scopethinkers.com/Membership/Index:1034
+[  381116ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[  382037ms] [LOG] Current Path: /master/course @ https://jt-admin.scopethinkers.com/Master/Course:976
+[  382039ms] [LOG] Matched: /master/course {menu: Course, submenu: Course} @ https://jt-admin.scopethinkers.com/Master/Course:1171
+[  382039ms] [LOG] Activating menu: Course Submenu: Course @ https://jt-admin.scopethinkers.com/Master/Course:1183
+[  382040ms] [LOG] Found menu: Course @ https://jt-admin.scopethinkers.com/Master/Course:1192
+[  382041ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Master/Course:1213
+[  417367ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[  417493ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[  417663ms] [WARNING] The following deprecated features are currently enabled and have been removed in TinyMCE 7.0. These features will no longer work and should be removed from the TinyMCE configuration. See https://www.tiny.cloud/docs/tinymce/7/migration-from-6x/ for more information.
+
+Plugins:
+- textcolor @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[  417763ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/plugins/textcolor/plugin.min.js:0
+[  417768ms] [ERROR] Failed to load plugin: textcolor from url plugins/textcolor/plugin.min.js @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[  418303ms] [LOG] Current Path: /master/create @ https://jt-admin.scopethinkers.com/Master/Create:1076
+[  418305ms] [LOG] Matched: /master/create {menu: Course, submenu: Course} @ https://jt-admin.scopethinkers.com/Master/Create:1271
+[  418306ms] [LOG] Activating menu: Course Submenu: Course @ https://jt-admin.scopethinkers.com/Master/Create:1283
+[  418309ms] [LOG] Found menu: Course @ https://jt-admin.scopethinkers.com/Master/Create:1292
+[  418311ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Master/Create:1313
+[  418565ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[  579075ms] [WARNING] The specified value "07/07/2026" does not conform to the required format, "yyyy-MM-dd". @ :7247
+[  819850ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[  820546ms] [LOG] Current Path: /master/course @ https://jt-admin.scopethinkers.com/Master/Course:976
+[  820555ms] [LOG] Matched: /master/course {menu: Course, submenu: Course} @ https://jt-admin.scopethinkers.com/Master/Course:1171
+[  820555ms] [LOG] Activating menu: Course Submenu: Course @ https://jt-admin.scopethinkers.com/Master/Course:1183
+[  820556ms] [LOG] Found menu: Course @ https://jt-admin.scopethinkers.com/Master/Course:1192
+[  820557ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Master/Course:1213

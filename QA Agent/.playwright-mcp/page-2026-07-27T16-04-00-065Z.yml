@@ -1,0 +1,281 @@
+- generic [ref=f26e1]:
+  - generic [ref=f26e7]:
+    - generic [ref=f26e8]:
+      - generic [ref=f26e9]:
+        - heading "Dashboard" [level=4] [ref=f26e10]
+        - navigation [ref=f26e11]:
+          - list [ref=f26e12]:
+            - listitem [ref=f26e13]:
+              - link [ref=f26e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f26e15]
+            - listitem [ref=f26e18]: / Index
+      - generic [ref=f26e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f26e22]:
+          - listitem [ref=f26e23]:
+            - generic [ref=f26e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f26e26]:
+      - generic [ref=f26e28]:
+        - text: 
+        - link [ref=f26e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f26e31]:
+          - list [ref=f26e33]:
+            - generic [ref=f26e38]:
+              - text: 
+              - listitem [ref=f26e39]:
+                - link [ref=f26e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f26e41]
+                  - text: 
+              - listitem [ref=f26e43]:
+                - link [ref=f26e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e45]
+                  - text: 
+              - listitem [ref=f26e47]:
+                - link [ref=f26e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e49]
+                  - text: 
+              - listitem [ref=f26e51]:
+                - link [ref=f26e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e53]
+                  - text: 
+              - listitem [ref=f26e55]:
+                - link [ref=f26e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e57]
+                  - text: 
+              - listitem [ref=f26e59]:
+                - link [ref=f26e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e61]
+                  - text: 
+              - listitem [ref=f26e63]:
+                - link "" [ref=f26e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f26e65]: 
+                  - text: 
+              - listitem [ref=f26e66]:
+                - link [ref=f26e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e68]
+                  - text: 
+              - listitem [ref=f26e70]:
+                - link [ref=f26e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e72]
+                  - text: 
+              - listitem [ref=f26e74]:
+                - link [ref=f26e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e76]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f26e78]:
+                - link [ref=f26e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e80]
+                  - text: 
+              - listitem [ref=f26e82]:
+                - link [ref=f26e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e84]
+                  - text: 
+              - listitem [ref=f26e86]:
+                - link [ref=f26e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e88]
+                  - text: 
+              - listitem [ref=f26e90]:
+                - link "general icon" [ref=f26e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f26e92]
+                  - text: 
+              - listitem [ref=f26e93]:
+                - link [ref=f26e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f26e95]
+                  - text: 
+              - listitem [ref=f26e97]:
+                - link [ref=f26e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f26e99]
+                  - text: 
+              - listitem [ref=f26e101]:
+                - link "product icon" [ref=f26e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f26e103]
+                  - text: 
+              - listitem [ref=f26e104]:
+                - link [ref=f26e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e106]
+                  - text: 
+              - listitem [ref=f26e108]:
+                - link [ref=f26e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e110]
+                  - text: 
+              - listitem [ref=f26e112]:
+                - link [ref=f26e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f26e114]
+                  - text: 
+              - listitem [ref=f26e116]:
+                - link [ref=f26e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e118]
+                  - text: 
+              - listitem [ref=f26e120]:
+                - link [ref=f26e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e122]
+                  - text: 
+              - listitem [ref=f26e124]:
+                - link [ref=f26e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f26e126]
+              - listitem [ref=f26e128]:
+                - link [ref=f26e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f26e130]
+                  - text: 
+              - listitem [ref=f26e132]:
+                - link "notify-ico" [ref=f26e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f26e134]
+                  - text: 
+              - listitem [ref=f26e135]:
+                - link "notify-ico" [ref=f26e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f26e137]
+                  - text: 
+      - main [ref=f26e139]:
+        - generic [ref=f26e141]:
+          - generic [ref=f26e143]:
+            - heading "Announcement Page Card Settings" [level=5] [ref=f26e144]
+            - generic [ref=f26e145]: Configure how long each card stays on screen before rotating — each card saves on its own
+          - generic [ref=f26e146]:
+            - tablist [ref=f26e147]:
+              - button "KPI / Mini Cards" [ref=f26e148] [cursor=pointer]
+              - button "Side Panel Carousels" [ref=f26e149] [cursor=pointer]
+              - button "Final Results" [ref=f26e150] [cursor=pointer]
+            - generic [ref=f26e152]:
+              - generic [ref=f26e155]:
+                - generic [ref=f26e156]:
+                  - generic [ref=f26e158]: 
+                  - generic [ref=f26e159]: Total Participants / Live Participation
+                - generic [ref=f26e160]: Rotation Interval (sec)
+                - generic [ref=f26e161]:
+                  - spinbutton [ref=f26e162] [cursor=pointer]: "5"
+                  - button "" [ref=f26e163] [cursor=pointer]:
+                    - generic [ref=f26e164]: 
+              - generic [ref=f26e167]:
+                - generic [ref=f26e168]:
+                  - generic [ref=f26e170]: 
+                  - generic [ref=f26e171]: Correct Answers / Coins Awarded
+                - generic [ref=f26e172]: Rotation Interval (sec)
+                - generic [ref=f26e173]:
+                  - spinbutton [ref=f26e174] [cursor=pointer]: "5"
+                  - button "" [ref=f26e175] [cursor=pointer]:
+                    - generic [ref=f26e176]: 
+              - generic [ref=f26e179]:
+                - generic [ref=f26e180]:
+                  - generic [ref=f26e182]: 
+                  - generic [ref=f26e183]: Incorrect Answers / Slowest Correct
+                - generic [ref=f26e184]: Rotation Interval (sec)
+                - generic [ref=f26e185]:
+                  - spinbutton [ref=f26e186] [cursor=pointer]: "5"
+                  - button "" [ref=f26e187] [cursor=pointer]:
+                    - generic [ref=f26e188]: 
+              - generic [ref=f26e191]:
+                - generic [ref=f26e192]:
+                  - generic [ref=f26e194]: 
+                  - generic [ref=f26e195]: Missed / Not Attempted / Fastest Correct
+                - generic [ref=f26e196]: Rotation Interval (sec)
+                - generic [ref=f26e197]:
+                  - spinbutton [ref=f26e198] [cursor=pointer]: "5"
+                  - button "" [ref=f26e199] [cursor=pointer]:
+                    - generic [ref=f26e200]: 
+              - generic [ref=f26e203]:
+                - generic [ref=f26e204]:
+                  - generic [ref=f26e206]: 
+                  - generic [ref=f26e207]: Accuracy Percentage / Top District (Accuracy)
+                - generic [ref=f26e208]: Rotation Interval (sec)
+                - generic [ref=f26e209]:
+                  - spinbutton [ref=f26e210] [cursor=pointer]: "5"
+                  - button "" [ref=f26e211] [cursor=pointer]:
+                    - generic [ref=f26e212]: 
+              - generic [ref=f26e215]:
+                - generic [ref=f26e216]:
+                  - generic [ref=f26e218]: 
+                  - generic [ref=f26e219]: Overall / Fastest / Streak / District Top 3 (Mini Leaderboard)
+                - generic [ref=f26e220]: Rotation Interval (sec)
+                - generic [ref=f26e221]:
+                  - spinbutton [ref=f26e222] [cursor=pointer]: "5"
+                  - button "" [ref=f26e223] [cursor=pointer]:
+                    - generic [ref=f26e224]: 
+              - generic [ref=f26e227]:
+                - generic [ref=f26e228]:
+                  - generic [ref=f26e230]: 
+                  - generic [ref=f26e231]: Longest Streak / Top Performer / Biggest Rank Gain
+                - generic [ref=f26e232]: Rotation Interval (sec)
+                - generic [ref=f26e233]:
+                  - spinbutton [ref=f26e234] [cursor=pointer]: "5"
+                  - button "" [ref=f26e235] [cursor=pointer]:
+                    - generic [ref=f26e236]: 
+              - generic [ref=f26e239]:
+                - generic [ref=f26e240]:
+                  - generic [ref=f26e242]: 
+                  - generic [ref=f26e243]: Question Difficulty / Most Active District
+                - generic [ref=f26e244]: Rotation Interval (sec)
+                - generic [ref=f26e245]:
+                  - spinbutton [ref=f26e246] [cursor=pointer]: "5"
+                  - button "" [ref=f26e247] [cursor=pointer]:
+                    - generic [ref=f26e248]: 
+              - generic [ref=f26e251]:
+                - generic [ref=f26e252]:
+                  - generic [ref=f26e254]: 
+                  - generic [ref=f26e255]: Active Players / Highest Overall Score
+                - generic [ref=f26e256]: Rotation Interval (sec)
+                - generic [ref=f26e257]:
+                  - spinbutton [ref=f26e258] [cursor=pointer]: "5"
+                  - button "" [ref=f26e259] [cursor=pointer]:
+                    - generic [ref=f26e260]: 
+              - generic [ref=f26e263]:
+                - generic [ref=f26e264]:
+                  - generic [ref=f26e266]: 
+                  - generic [ref=f26e267]: Best Performing District / Fastest Responder / Biggest Rank Drop
+                - generic [ref=f26e268]: Rotation Interval (sec)
+                - generic [ref=f26e269]:
+                  - spinbutton [ref=f26e270] [cursor=pointer]: "5"
+                  - button "" [ref=f26e271] [cursor=pointer]:
+                    - generic [ref=f26e272]: 
+            - text:            
+      - contentinfo [ref=f26e273]:
+        - paragraph [ref=f26e277]:
+          - text: Copyright
+          - generic [ref=f26e278]: "2026"
+          - text: © Jeshwar Teaching
+  - img

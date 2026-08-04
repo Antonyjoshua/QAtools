@@ -1,0 +1,237 @@
+- generic [ref=f14e1]:
+  - generic [ref=f14e7]:
+    - generic [ref=f14e8]:
+      - generic [ref=f14e9]:
+        - heading "Assessments" [level=4] [ref=f14e10]
+        - navigation [ref=f14e11]:
+          - list [ref=f14e12]:
+            - listitem [ref=f14e13]:
+              - link [ref=f14e14] [cursor=pointer]:
+                - /url: /Assessment/CourseAssessment
+                - img [ref=f14e15]
+            - listitem [ref=f14e18]: / Edit Assessment
+      - generic [ref=f14e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f14e22]:
+          - listitem [ref=f14e23]:
+            - generic [ref=f14e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f14e26]:
+      - generic [ref=f14e28]:
+        - text: 
+        - link [ref=f14e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f14e31]:
+          - list [ref=f14e33]:
+            - generic [ref=f14e38]:
+              - text: 
+              - listitem [ref=f14e39]:
+                - link [ref=f14e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f14e41]
+                  - text: 
+              - listitem [ref=f14e43]:
+                - link [ref=f14e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f14e45]
+                  - text: 
+              - listitem [ref=f14e47]:
+                - link [ref=f14e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f14e49]
+                  - text: 
+              - listitem [ref=f14e51]:
+                - link [ref=f14e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f14e53]
+                  - text: 
+              - listitem [ref=f14e55]:
+                - link [ref=f14e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f14e57]
+                  - text: 
+              - listitem [ref=f14e59]:
+                - link "" [ref=f14e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f14e61]: 
+                  - text: 
+              - listitem [ref=f14e62]:
+                - link [ref=f14e63] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f14e64]
+                  - text: 
+              - listitem [ref=f14e66]:
+                - link [ref=f14e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f14e68]
+                  - text: 
+              - listitem [ref=f14e70]:
+                - link [ref=f14e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f14e72]
+                  - text: 
+              - listitem [ref=f14e74]:
+                - link "general icon" [ref=f14e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f14e76]
+                  - text: 
+              - listitem [ref=f14e77]:
+                - link [ref=f14e78] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f14e79]
+                  - text: 
+              - listitem [ref=f14e81]:
+                - link [ref=f14e82] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f14e83]
+                  - text: 
+              - listitem [ref=f14e85]:
+                - link "product icon" [ref=f14e86] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f14e87]
+                  - text: 
+              - listitem [ref=f14e88]:
+                - link [ref=f14e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f14e90]
+                  - text: 
+              - listitem [ref=f14e92]:
+                - link [ref=f14e93] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f14e94]
+                  - text: 
+              - listitem [ref=f14e96]:
+                - link [ref=f14e97] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f14e98]
+                  - text: 
+              - listitem [ref=f14e100]:
+                - link "notify-ico" [ref=f14e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f14e102]
+                  - text: 
+              - listitem [ref=f14e103]:
+                - link "notify-ico" [ref=f14e104] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f14e105]
+                  - text: 
+      - main [ref=f14e107]:
+        - generic [ref=f14e111]:
+          - heading "Edit Assessment" [level=5] [ref=f14e113]
+          - generic [ref=f14e115]:
+            - generic [ref=f14e116]:
+              - generic [ref=f14e117]:
+                - generic [ref=f14e118]:
+                  - generic [ref=f14e119]: Course
+                  - combobox [ref=f14e120] [cursor=pointer]:
+                    - option "-- Select Course --"
+                    - option "QA Test Course" [selected]
+                    - option "TNPSC-G1"
+                    - option "Multiplecardtypefolder"
+                    - option "Singlecourse"
+                    - option "SelfHost Course"
+                    - option "Assessment Free Course"
+                    - option "JT Phase 3"
+                    - option "Assessment course 01"
+                    - option "Railway course 3"
+                    - option "Railway course 2"
+                    - option "Political Polity"
+                    - option "Railway course"
+                    - option "Banking course"
+                    - option "Group 2A"
+                    - option "Group A course"
+                    - option "Test0025"
+                    - option "Group 6 course"
+                    - option "Group 5 course"
+                    - option "Group 4 Course"
+                    - option "Group 3 course"
+                    - option "Pongal Special Course"
+                    - option "JT Batch-2026 Course"
+                    - option "Software Testing"
+                    - option "12TH ECONOMICS"
+                    - option "TNPSC_Group1new 008"
+                    - option "Group 2 course"
+                    - option "tEST"
+                    - option "Silver membership"
+                    - option "Paid membership"
+                    - option "Group 1 course"
+                    - option "Social"
+                    - option "Automation Testing"
+                    - option "Software Testing Course"
+                    - option "Kingdom - 2026"
+                - text:  
+                - generic [ref=f14e121]:
+                  - generic [ref=f14e122]: Title
+                  - textbox [ref=f14e123] [cursor=pointer]: QA Test Assessment - 2026-07-08
+                - generic [ref=f14e125]: Description
+              - generic [ref=f14e126]:
+                - generic [ref=f14e127]:
+                  - generic [ref=f14e128]: Type
+                  - combobox [ref=f14e129] [cursor=pointer]:
+                    - option "Exam" [selected]
+                    - option "Quiz"
+                    - option "Assignment"
+                    - option "PracticeTest"
+                    - option "FinalExam"
+                - generic [ref=f14e130]:
+                  - generic [ref=f14e131]: Number Of Questions
+                  - spinbutton [ref=f14e132] [cursor=pointer]: "5"
+                - generic [ref=f14e133]:
+                  - generic [ref=f14e134]: Total Marks
+                  - spinbutton [ref=f14e135] [cursor=pointer]: "100.00"
+                - generic [ref=f14e136]:
+                  - generic [ref=f14e137]: Passing Marks
+                  - spinbutton [ref=f14e138] [cursor=pointer]: "40.00"
+                - generic [ref=f14e139]:
+                  - generic [ref=f14e140]: Duration (Minutes)
+                  - spinbutton [ref=f14e141] [cursor=pointer]: "30"
+                - generic [ref=f14e142]:
+                  - generic [ref=f14e143]: Assessment Image
+                  - button "Assessment Image" [ref=f14e144] [cursor=pointer]
+                  - text: "Supported: JPG, JPEG, PNG, GIF, WEBP. Max size: 5MB"
+                - generic [ref=f14e145]:
+                  - generic [ref=f14e146]: Random Question Order
+                  - checkbox [ref=f14e148] [cursor=pointer]
+                - generic [ref=f14e149]:
+                  - generic [ref=f14e150]: Result Display Type
+                  - generic [ref=f14e151]:
+                    - generic [ref=f14e152]:
+                      - radio "PDF Download" [checked] [ref=f14e153] [cursor=pointer]
+                      - generic [ref=f14e154]: PDF Download
+                    - generic [ref=f14e155]:
+                      - radio "Screen (Answer Key)" [ref=f14e156] [cursor=pointer]
+                      - generic [ref=f14e157]: Screen (Answer Key)
+                  - text: "PDF: students download their result. Screen: students view the answer key on screen."
+              - generic [ref=f14e158]:
+                - generic [ref=f14e159]:
+                  - generic [ref=f14e160]: Status
+                  - combobox [ref=f14e161] [cursor=pointer]:
+                    - option "Draft" [selected]
+                    - option "Active"
+                    - option "Archived"
+                    - option "Expired"
+                - generic [ref=f14e162]:
+                  - generic [ref=f14e163]: Attempts Allowed
+                  - generic [ref=f14e164]:
+                    - button "-" [ref=f14e165] [cursor=pointer]
+                    - textbox [ref=f14e166] [cursor=pointer]: "1"
+                    - button "+" [ref=f14e167] [cursor=pointer]
+            - generic [ref=f14e168]:
+              - generic [ref=f14e171]: Instructions
+              - generic [ref=f14e174]: Syllabus
+            - generic [ref=f14e175]:
+              - button "Save" [ref=f14e176] [cursor=pointer]
+              - link "Back" [ref=f14e177] [cursor=pointer]:
+                - /url: /Assessment/CourseAssessment
+      - contentinfo [ref=f14e178]:
+        - paragraph [ref=f14e182]:
+          - text: Copyright
+          - generic [ref=f14e183]: "2026"
+          - text: © Jeshwar Teaching
+  - img

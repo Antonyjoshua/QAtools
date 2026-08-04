@@ -1,0 +1,304 @@
+- generic [ref=f6e1]:
+  - generic [ref=f6e7]:
+    - generic [ref=f6e8]:
+      - generic [ref=f6e9]:
+        - heading "Dashboard" [level=4] [ref=f6e10]
+        - navigation [ref=f6e11]:
+          - list [ref=f6e12]:
+            - listitem [ref=f6e13]:
+              - link [ref=f6e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f6e15]
+            - listitem [ref=f6e18]: / Sales Dashboard
+      - generic [ref=f6e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f6e22]:
+          - listitem [ref=f6e23]:
+            - generic [ref=f6e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f6e26]:
+      - generic [ref=f6e28]:
+        - text: 
+        - link [ref=f6e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f6e31]:
+          - list [ref=f6e33]:
+            - generic [ref=f6e38]:
+              - text: 
+              - listitem [ref=f6e39]:
+                - link [ref=f6e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f6e41]
+                  - text: 
+              - listitem [ref=f6e43]:
+                - link [ref=f6e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f6e45]
+                  - text: 
+              - listitem [ref=f6e47]:
+                - link [ref=f6e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f6e49]
+                  - text: 
+              - listitem [ref=f6e51]:
+                - link [ref=f6e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f6e53]
+                  - text: 
+              - listitem [ref=f6e55]:
+                - link [ref=f6e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f6e57]
+                  - text: 
+              - listitem [ref=f6e59]:
+                - link [ref=f6e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f6e61]
+                  - text: 
+              - listitem [ref=f6e63]:
+                - link "" [ref=f6e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f6e65]: 
+                  - text: 
+              - listitem [ref=f6e66]:
+                - link [ref=f6e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f6e68]
+                  - text: 
+              - listitem [ref=f6e70]:
+                - link [ref=f6e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f6e72]
+                  - text: 
+              - listitem [ref=f6e74]:
+                - link [ref=f6e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f6e76]
+                  - text: 
+              - listitem [ref=f6e78]:
+                - link [ref=f6e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f6e80]
+                  - text: 
+              - listitem [ref=f6e82]:
+                - link "general icon" [ref=f6e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f6e84]
+                  - text: 
+              - listitem [ref=f6e85]:
+                - link [ref=f6e86] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f6e87]
+                  - text: 
+              - listitem [ref=f6e89]:
+                - link [ref=f6e90] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f6e91]
+                  - text: 
+              - listitem [ref=f6e93]:
+                - link "product icon" [ref=f6e94] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f6e95]
+                  - text: 
+              - listitem [ref=f6e96]:
+                - link [ref=f6e97] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f6e98]
+                  - text: 
+              - listitem [ref=f6e100]:
+                - link [ref=f6e101] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f6e102]
+                  - text: 
+              - listitem [ref=f6e104]:
+                - link [ref=f6e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f6e106]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f6e108]:
+                - link [ref=f6e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f6e110]
+                  - text: 
+              - listitem [ref=f6e112]:
+                - link [ref=f6e113] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f6e114]
+              - listitem [ref=f6e116]:
+                - link [ref=f6e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f6e118]
+                  - text: 
+              - listitem [ref=f6e120]:
+                - link "notify-ico" [ref=f6e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f6e122]
+                  - text: 
+              - listitem [ref=f6e123]:
+                - link "notify-ico" [ref=f6e124] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f6e125]
+                  - text: 
+      - main [ref=f6e127]:
+        - generic [ref=f6e128]:
+          - generic [ref=f6e130]:
+            - generic [ref=f6e131]:
+              - heading "Sales Overview" [level=3] [ref=f6e132]
+              - paragraph [ref=f6e133]: Track total revenue, tutor earnings, and categories
+            - generic [ref=f6e135]:
+              - generic [ref=f6e136]:
+                - generic [ref=f6e137]:
+                  - generic [ref=f6e138]: 
+                  - generic [ref=f6e139]: From
+                  - textbox [ref=f6e140] [cursor=pointer]: 2026-06-15
+                - generic [ref=f6e141]: to
+                - textbox [ref=f6e143] [cursor=pointer]: 2026-07-14
+              - button " Apply" [ref=f6e144] [cursor=pointer]:
+                - generic [ref=f6e145]: 
+                - text: Apply
+              - button " Reset" [ref=f6e146] [cursor=pointer]:
+                - generic [ref=f6e147]: 
+                - text: Reset
+          - generic [ref=f6e149]:
+            - generic [ref=f6e151]:
+              - heading "Net Revenue" [level=4] [ref=f6e154]
+              - generic [ref=f6e156]:
+                - img [ref=f6e158]
+                - generic [ref=f6e159]:
+                  - heading "₹15,743" [level=2] [ref=f6e160]
+                  - generic [ref=f6e161]: ▲ This period
+            - generic [ref=f6e163]:
+              - heading "Orders" [level=4] [ref=f6e166]
+              - generic [ref=f6e168]:
+                - img [ref=f6e170]
+                - generic [ref=f6e171]:
+                  - heading "22" [level=2] [ref=f6e172]
+                  - generic [ref=f6e173]: ▲ Active
+            - generic [ref=f6e175]:
+              - heading "Units Sold" [level=4] [ref=f6e178]
+              - generic [ref=f6e180]:
+                - img [ref=f6e182]
+                - generic [ref=f6e183]:
+                  - heading "29" [level=2] [ref=f6e184]
+                  - generic [ref=f6e185]: ▲ Books
+            - generic [ref=f6e187]:
+              - heading "Avg Order Value" [level=4] [ref=f6e190]
+              - generic [ref=f6e192]:
+                - img [ref=f6e194]
+                - generic [ref=f6e195]:
+                  - heading "₹716" [level=2] [ref=f6e196]
+                  - generic [ref=f6e197]: per order
+            - generic [ref=f6e199]:
+              - heading "Refund Rate" [level=4] [ref=f6e202]
+              - generic [ref=f6e204]:
+                - img [ref=f6e206]
+                - generic [ref=f6e207]:
+                  - heading "0%" [level=2] [ref=f6e208]
+                  - generic [ref=f6e209]: Healthy
+            - generic [ref=f6e211]:
+              - heading "Discounts Given" [level=4] [ref=f6e214]
+              - generic [ref=f6e216]:
+                - img [ref=f6e218]
+                - generic [ref=f6e219]:
+                  - heading "₹2,139" [level=2] [ref=f6e220]
+                  - generic [ref=f6e221]: deducted
+          - generic [ref=f6e222]:
+            - generic [ref=f6e223]:
+              - generic [ref=f6e224]:
+                - text: Revenue Trend
+                - generic [ref=f6e225]: Daily Net Revenue · Selected Period
+              - img [ref=f6e228]:
+                - generic [ref=f6e231]:
+                  - generic "19 Jun" [ref=f6e232]
+                  - generic "20 Jun" [ref=f6e233]
+                  - generic "24 Jun" [ref=f6e234]
+                  - generic "27 Jun" [ref=f6e235]
+                  - generic "30 Jun" [ref=f6e236]
+                  - generic "01 Jul" [ref=f6e237]
+                  - generic "02 Jul" [ref=f6e238]
+                  - generic "09 Jul" [ref=f6e239]
+                  - generic "10 Jul" [ref=f6e240]
+                  - generic "13 Jul" [ref=f6e241]
+                  - generic "14 Jul" [ref=f6e242]
+                - generic [ref=f6e249]:
+                  - generic "₹10,000" [ref=f6e250]
+                  - generic "₹8,000" [ref=f6e251]
+                  - generic "₹6,000" [ref=f6e252]
+                  - generic "₹4,000" [ref=f6e253]
+                  - generic "₹2,000" [ref=f6e254]
+                  - generic "₹0" [ref=f6e255]
+            - generic [ref=f6e256]:
+              - generic [ref=f6e257]:
+                - text: Top Selling Products
+                - generic [ref=f6e258]: By Units
+              - generic [ref=f6e259]:
+                - generic [ref=f6e260]:
+                  - generic "Test Book K1" [ref=f6e261]
+                  - generic [ref=f6e264]: "5"
+                - generic [ref=f6e265]:
+                  - generic "Manual book" [ref=f6e266]
+                  - generic [ref=f6e269]: "4"
+                - generic [ref=f6e270]:
+                  - generic "Books combo" [ref=f6e271]
+                  - generic [ref=f6e274]: "3"
+                - generic [ref=f6e275]:
+                  - generic "Hand written tamil notes" [ref=f6e276]
+                  - generic [ref=f6e279]: "3"
+                - generic [ref=f6e280]:
+                  - generic "BookComboK001" [ref=f6e281]
+                  - generic [ref=f6e284]: "3"
+          - generic [ref=f6e285]:
+            - generic [ref=f6e286]:
+              - generic [ref=f6e287]:
+                - text: Profit by Category
+                - generic [ref=f6e288]: Net Profit ₹
+              - img [ref=f6e291]:
+                - generic [ref=f6e294]:
+                  - generic "Books" [ref=f6e295]
+                  - generic "Combo" [ref=f6e296]
+                  - generic "Notes" [ref=f6e297]
+                  - generic "Miscellaneous" [ref=f6e298]
+                  - generic "JT special store" [ref=f6e299]
+                - generic [ref=f6e307]:
+                  - generic "₹3,500" [ref=f6e308]
+                  - generic "₹2,800" [ref=f6e309]
+                  - generic "₹2,100" [ref=f6e310]
+                  - generic "₹1,400" [ref=f6e311]
+                  - generic "₹700" [ref=f6e312]
+                  - generic "₹0" [ref=f6e313]
+            - generic [ref=f6e314]:
+              - generic [ref=f6e315]:
+                - text: Units Sold by Category
+                - generic [ref=f6e316]: By Count
+              - generic [ref=f6e317]:
+                - generic [ref=f6e318]:
+                  - generic [ref=f6e319]: Books
+                  - generic [ref=f6e322]: 7 units
+                - generic [ref=f6e323]:
+                  - generic [ref=f6e324]: Combo
+                  - generic [ref=f6e327]: 7 units
+                - generic [ref=f6e328]:
+                  - generic [ref=f6e329]: Notes
+                  - generic [ref=f6e332]: 4 units
+                - generic [ref=f6e333]:
+                  - generic [ref=f6e334]: Miscellaneous
+                  - generic [ref=f6e337]: 3 units
+                - generic [ref=f6e338]:
+                  - generic [ref=f6e339]: JT special store
+                  - generic [ref=f6e342]: 4 units
+      - contentinfo [ref=f6e343]:
+        - paragraph [ref=f6e347]:
+          - text: Copyright
+          - generic [ref=f6e348]: "2026"
+          - text: © Jeshwar Teaching
+  - img

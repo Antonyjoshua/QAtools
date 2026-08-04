@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "node",
+      "args": ["./playwright-mcp/cli.js"]
+    },
+    "browserstack": {
+      "command": "npx",
+      "args": ["-y", "@browserstack/mcp-server"],
+      "env": {
+        "BROWSERSTACK_USERNAME": "YOUR_BROWSERSTACK_USERNAME",
+        "BROWSERSTACK_ACCESS_KEY": "YOUR_BROWSERSTACK_ACCESS_KEY"
+      }
+    }
+  }
+}

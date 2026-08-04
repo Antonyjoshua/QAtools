@@ -1,0 +1,417 @@
+- generic [ref=f17e1]:
+  - generic [ref=f17e7]:
+    - generic [ref=f17e8]:
+      - generic [ref=f17e9]:
+        - heading "Course" [level=4] [ref=f17e10]
+        - navigation [ref=f17e11]:
+          - list [ref=f17e12]:
+            - listitem [ref=f17e13]:
+              - link [ref=f17e14] [cursor=pointer]:
+                - /url: /Topic/Index
+                - img [ref=f17e15]
+            - listitem [ref=f17e18]: / Topics
+      - generic [ref=f17e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f17e22]:
+          - text: 
+          - listitem [ref=f17e23] [cursor=pointer]:
+            - generic [ref=f17e24]:
+              - img "Profile" [ref=f17e25]
+              - generic [ref=f17e26]:
+                - generic [ref=f17e27]: superadmin@gmail.com
+                - paragraph [ref=f17e28]:
+                  - text: SuperAdmin
+                  - generic [ref=f17e29]: 
+    - generic [ref=f17e30]:
+      - generic [ref=f17e32]:
+        - generic [ref=f17e33]:
+          - link [ref=f17e34] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f17e36] [cursor=pointer]
+        - navigation [ref=f17e38]:
+          - list [ref=f17e40]:
+            - generic [ref=f17e45]:
+              - text: 
+              - listitem [ref=f17e46]:
+                - heading "Applications" [level=6] [ref=f17e48]
+              - listitem [ref=f17e49]:
+                - link "Dashboard" [ref=f17e50] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f17e51]
+                  - generic [ref=f17e53]: Dashboard
+                  - text: 
+              - listitem [ref=f17e54]:
+                - link "Enrollment " [ref=f17e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e56]
+                  - generic [ref=f17e58]: Enrollment
+                  - generic [ref=f17e60]: 
+              - listitem [ref=f17e61]:
+                - link "Website Settings " [ref=f17e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e63]
+                  - generic [ref=f17e65]: Website Settings
+                  - generic [ref=f17e67]: 
+              - listitem [ref=f17e68]:
+                - link "Membership " [ref=f17e69] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e70]
+                  - generic [ref=f17e72]: Membership
+                  - generic [ref=f17e74]: 
+              - listitem [ref=f17e75]:
+                - link "Course " [ref=f17e76] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e77]
+                  - generic [ref=f17e79]: Course
+                  - generic [ref=f17e81]: 
+                - list [ref=f17e82]:
+                  - listitem [ref=f17e83]:
+                    - link "Course" [ref=f17e84] [cursor=pointer]:
+                      - /url: /Master/Course
+                  - listitem [ref=f17e85]:
+                    - link "Unit" [ref=f17e86] [cursor=pointer]:
+                      - /url: /Unit/Index
+                  - listitem [ref=f17e87]:
+                    - link "Topics" [ref=f17e88] [cursor=pointer]:
+                      - /url: /Topic/Index
+                  - listitem [ref=f17e89]:
+                    - link "Live" [ref=f17e90] [cursor=pointer]:
+                      - /url: /CourseLive/Index
+                  - listitem [ref=f17e91]:
+                    - link "Doubt Inbox" [ref=f17e92] [cursor=pointer]:
+                      - /url: /Doubt/Inbox
+                  - listitem [ref=f17e93]:
+                    - link "Topic Ratings" [ref=f17e94] [cursor=pointer]:
+                      - /url: /TopicRating/Index
+                  - listitem [ref=f17e95]:
+                    - link "Admin Ratings" [ref=f17e96] [cursor=pointer]:
+                      - /url: /AdminTopicRating/Index
+              - listitem [ref=f17e97]:
+                - link " Self Host " [ref=f17e98] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f17e99]: 
+                  - generic [ref=f17e100]: Self Host
+                  - generic [ref=f17e102]: 
+              - listitem [ref=f17e103]:
+                - link "Assessment " [ref=f17e104] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e105]
+                  - generic [ref=f17e107]: Assessment
+                  - generic [ref=f17e109]: 
+              - listitem [ref=f17e110]:
+                - link "Email Draft " [ref=f17e111] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e112]
+                  - generic [ref=f17e114]: Email Draft
+                  - generic [ref=f17e116]: 
+              - listitem [ref=f17e117]:
+                - link "Admin " [ref=f17e118] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e119]
+                  - generic [ref=f17e121]: Admin
+                  - generic [ref=f17e123]: 
+              - listitem [ref=f17e124]:
+                - link "general icon General " [ref=f17e125] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f17e126]
+                  - generic [ref=f17e127]: General
+                  - generic [ref=f17e129]: 
+              - listitem [ref=f17e130]:
+                - link "Leaderboard" [ref=f17e131] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f17e132]
+                  - generic [ref=f17e134]: Leaderboard
+                  - text: 
+              - listitem [ref=f17e135]:
+                - heading "E-Commerce" [level=6] [ref=f17e137]
+              - listitem [ref=f17e138]:
+                - link "Dashboard" [ref=f17e139] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f17e140]
+                  - generic [ref=f17e142]: Dashboard
+                  - text: 
+              - listitem [ref=f17e143]:
+                - link "product icon Product " [ref=f17e144] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f17e145]
+                  - generic [ref=f17e146]: Product
+                  - generic [ref=f17e148]: 
+              - listitem [ref=f17e149]:
+                - link "Order " [ref=f17e150] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e151]
+                  - generic [ref=f17e153]: Order
+                  - generic [ref=f17e155]: 
+              - listitem [ref=f17e156]:
+                - link "Customer" [ref=f17e157] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f17e158]
+                  - generic [ref=f17e160]: Customer
+                  - text: 
+              - listitem [ref=f17e161]:
+                - heading "Payments" [level=6] [ref=f17e163]
+              - listitem [ref=f17e164]:
+                - link "Transactions " [ref=f17e165] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e166]
+                  - generic [ref=f17e168]: Transactions
+                  - generic [ref=f17e170]: 
+              - listitem [ref=f17e171]:
+                - heading "Notifcations" [level=6] [ref=f17e173]
+              - listitem [ref=f17e174]:
+                - link "notify-ico Notifications " [ref=f17e175] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f17e176]
+                  - generic [ref=f17e177]: Notifications
+                  - generic [ref=f17e179]: 
+              - listitem [ref=f17e180]:
+                - heading "Job Management" [level=6] [ref=f17e182]
+              - listitem [ref=f17e183]:
+                - link "notify-ico Jobs " [ref=f17e184] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f17e185]
+                  - generic [ref=f17e186]: Jobs
+                  - generic [ref=f17e188]: 
+      - main [ref=f17e190]:
+        - generic [ref=f17e191]:
+          - generic [ref=f17e192]:
+            - heading "Course Hierarchy" [level=4] [ref=f17e193]
+            - generic [ref=f17e194]: "Select Course:"
+            - combobox "Select Course:" [ref=f17e195] [cursor=pointer]:
+              - option "-- Select Course --"
+              - option "12TH ECONOMICS"
+              - option "Assessment course 01"
+              - option "Bank course"
+              - option "Banking course"
+              - option "Free course 2"
+              - option "Group 1 course"
+              - option "Group 2 course"
+              - option "Group 2A"
+              - option "Group 3 course"
+              - option "Group 4 Course"
+              - option "Group 5 course"
+              - option "Group 6 course"
+              - option "Group A course"
+              - option "Indian Railways- Batch 1,2,3,4- Tnpsc-இந்தியாவி..."
+              - option "JT Batch-2026 Course"
+              - option "JT Phase 3"
+              - option "Jt Release Course"
+              - option "JtCourse"
+              - option "Jtcourse 2"
+              - option "Kingdom - 2026"
+              - option "Multiplecardtypefolder"
+              - option "MultipleFolderType"
+              - option "Paid membership"
+              - option "Political Polity"
+              - option "Pongal Special Course"
+              - option "Post office exam- Tamil nadu 2026"
+              - option "QA Test Course" [selected]
+              - option "Railway course"
+              - option "Railway course 2"
+              - option "Railway course 3"
+              - option "SelfHost Course"
+              - option "Silver membership"
+              - option "Singlecourse"
+              - option "Singlefoldercourse"
+              - option "Social"
+              - option "Software Testing"
+              - option "Software Testing Course"
+              - option "tEST"
+              - option "Test0025"
+              - option "TNPSC Foundation Course"
+              - option "TNPSC Group 4 Complete Preparation Course 2026"
+              - option "TNPSC GROUP-4 FOLDER"
+              - option "TNPSC_Group1new 008"
+              - option "TNUSRB Police Constable"
+          - text:   
+          - generic [ref=f17e243]:
+            - heading "Units" [level=5] [ref=f17e244]:
+              - generic [ref=f17e245]: Units
+            - generic [ref=f17e247]:
+              - generic [ref=f17e249]:
+                - text: Show
+                - combobox "Show entries" [ref=f17e250] [cursor=pointer]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: entries
+              - generic [ref=f17e252]:
+                - text: "Search:"
+                - searchbox "Search:" [ref=f17e253] [cursor=pointer]
+              - grid [ref=f17e254]:
+                - rowgroup [ref=f17e255]:
+                  - 'row "Unit Name: activate to sort column descending Description: activate to sort column ascending Duration (Minutes): activate to sort column ascending" [ref=f17e256]':
+                    - 'columnheader "Unit Name: activate to sort column descending" [ref=f17e257] [cursor=pointer]': ↑ Unit Name ↓
+                    - 'columnheader "Description: activate to sort column ascending" [ref=f17e258] [cursor=pointer]': ↑ Description 
+                    - 'columnheader "Duration (Minutes): activate to sort column ascending" [ref=f17e259] [cursor=pointer]': ↑ Duration (Minutes) 
+                - rowgroup [ref=f17e260]:
+                  - row " QA Test Unit - 15" [ref=f17e274]:
+                    - gridcell " QA Test Unit" [ref=f17e275] [cursor=pointer]:
+                      - generic [ref=f17e263]:
+                        - generic [ref=f17e264]: 
+                        - strong [ref=f17e265]: QA Test Unit
+                    - gridcell "-" [ref=f17e266] [cursor=pointer]
+                    - gridcell "15" [ref=f17e267] [cursor=pointer]
+                  - row "Topics  Add Topic No topics found." [ref=f17e276]:
+                    - gridcell "Topics  Add Topic No topics found." [ref=f17e277]:
+                      - generic [ref=f17e278]:
+                        - generic [ref=f17e279]:
+                          - heading "Topics" [level=6] [ref=f17e280]
+                          - link " Add Topic" [ref=f17e281] [cursor=pointer]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f17e282]: 
+                            - text: Add Topic
+                        - paragraph [ref=f17e283]: No topics found.
+              - status [ref=f17e268]: Showing 1 to 1 of 1 entries
+              - generic [ref=f17e269]:
+                - generic [ref=f17e270]: Previous
+                - generic [ref=f17e272] [cursor=pointer]: "1"
+                - generic [ref=f17e273]: Next
+        - dialog "Add Topic" [ref=f17e284]:
+          - generic [ref=f17e285]:
+            - generic [ref=f17e286]:
+              - heading "Add Topic" [level=5] [ref=f17e287]
+              - button "Close" [ref=f17e288] [cursor=pointer]
+            - generic [ref=f17e290]:
+              - text: 
+              - generic [ref=f17e291]:
+                - generic [ref=f17e293]:
+                  - generic [ref=f17e294]: Course
+                  - combobox "Course" [disabled] [ref=f17e295] [cursor=pointer]:
+                    - option "QA Test Course" [selected]
+                - generic [ref=f17e297]:
+                  - generic [ref=f17e298]: Unit
+                  - combobox "Unit" [disabled] [ref=f17e299] [cursor=pointer]:
+                    - option "QA Test Unit" [selected]
+                - generic [ref=f17e301]:
+                  - generic [ref=f17e302]: Topic Title
+                  - textbox [ref=f17e303] [cursor=pointer]
+                  - generic [ref=f17e457]: Topic Title is required.
+                - generic [ref=f17e305]:
+                  - generic [ref=f17e306]: Video URL
+                  - textbox [ref=f17e307] [cursor=pointer]
+                - generic [ref=f17e309]:
+                  - generic [ref=f17e310]: Video URL 1080p (HD)
+                  - textbox "https://youtube.com/..." [ref=f17e311] [cursor=pointer]
+                - generic [ref=f17e313]:
+                  - generic [ref=f17e314]: Video URL 720p (HD)
+                  - textbox "https://youtube.com/..." [ref=f17e315] [cursor=pointer]
+                - generic [ref=f17e317]:
+                  - generic [ref=f17e318]: Video URL 480p (SD)
+                  - textbox "https://youtube.com/..." [ref=f17e319] [cursor=pointer]
+                - generic [ref=f17e321]:
+                  - generic [ref=f17e322]: Video URL 360p (SD)
+                  - textbox "https://youtube.com/..." [ref=f17e323] [cursor=pointer]
+                - generic [ref=f17e325]:
+                  - generic [ref=f17e326]: Video URL 240p (LD)
+                  - textbox "https://youtube.com/..." [ref=f17e327] [cursor=pointer]
+                - generic [ref=f17e329]:
+                  - generic [ref=f17e330]: Video URL 144p (LD)
+                  - textbox "https://youtube.com/..." [ref=f17e331] [cursor=pointer]
+                - generic [ref=f17e333]:
+                  - generic [ref=f17e334]: Resource
+                  - button "Choose File" [ref=f17e335] [cursor=pointer]
+                - generic [ref=f17e337]:
+                  - generic [ref=f17e338]: File Upload
+                  - button "Choose File" [ref=f17e339] [cursor=pointer]
+                - generic [ref=f17e341]:
+                  - generic [ref=f17e342]: Estimated Duration (Minutes)
+                  - spinbutton [ref=f17e343] [cursor=pointer]
+                  - generic [ref=f17e458]: Estimated Duration is required.
+                - generic [ref=f17e345]:
+                  - generic [ref=f17e346]: Status
+                  - combobox [ref=f17e347] [cursor=pointer]:
+                    - option "-- Select Status --" [selected]
+                    - option "Draft"
+                    - option "Active"
+                    - option "Archived"
+                    - option "Expired"
+                  - generic [ref=f17e459]: Please select a status.
+              - generic [ref=f17e349]:
+                - generic [ref=f17e350]: Enable Vimeo
+                - generic [ref=f17e351]:
+                  - checkbox "Use Vimeo instead of YouTube" [ref=f17e352] [cursor=pointer]
+                  - generic [ref=f17e353]: Use Vimeo instead of YouTube
+              - generic [ref=f17e355]:
+                - generic [ref=f17e356]: Vimeo URL
+                - textbox "https://vimeo.com/..." [ref=f17e357] [cursor=pointer]
+              - generic [ref=f17e359]:
+                - generic [ref=f17e360]: Enable Self host
+                - generic [ref=f17e361]:
+                  - checkbox "Use self-hosted HLS instead of YouTube / Vimeo" [ref=f17e362] [cursor=pointer]
+                  - generic [ref=f17e363]: Use self-hosted HLS instead of YouTube / Vimeo
+              - generic [ref=f17e365]:
+                - generic [ref=f17e366]: Self host URL
+                - textbox "https://example.com/path/master.m3u8" [ref=f17e367] [cursor=pointer]
+                - text: Paste a direct HLS (.m3u8) URL.
+              - generic [ref=f17e368]:
+                - generic [ref=f17e369]: Content Text
+                - application [ref=f17e370]:
+                  - generic [ref=f17e371]:
+                    - group [ref=f17e373]:
+                      - group [ref=f17e374]:
+                        - toolbar [ref=f17e375]:
+                          - button "Undo" [disabled] [ref=f17e376]:
+                            - img [ref=f17e378]
+                          - button "Redo" [disabled] [ref=f17e380]:
+                            - img [ref=f17e382]
+                        - toolbar [ref=f17e384]:
+                          - button "Bold" [ref=f17e385] [cursor=pointer]:
+                            - img [ref=f17e387]
+                          - button "Italic" [ref=f17e389] [cursor=pointer]:
+                            - img [ref=f17e391]
+                          - button "Underline" [ref=f17e393] [cursor=pointer]:
+                            - img [ref=f17e395]
+                        - toolbar [ref=f17e397]:
+                          - button "Bullet list" [ref=f17e398]:
+                            - img [ref=f17e400]
+                            - img [ref=f17e402]
+                          - button "Numbered list" [ref=f17e404]:
+                            - img [ref=f17e406]
+                            - img [ref=f17e408]
+                        - toolbar [ref=f17e410]:
+                          - button "Insert/edit link" [ref=f17e411] [cursor=pointer]:
+                            - img [ref=f17e413]
+                        - toolbar [ref=f17e415]:
+                          - button "Source code" [ref=f17e416] [cursor=pointer]:
+                            - img [ref=f17e418]
+                    - iframe [ref=f17e423]:
+                      - generic "Rich Text Area. Press ALT-0 for help." [active] [ref=f18e1]:
+                        - paragraph [ref=f18e2]
+                  - generic [ref=f17e424]:
+                    - generic [ref=f17e425]:
+                      - navigation [ref=f17e426]:
+                        - button "p" [ref=f17e427]
+                      - link "Build with TinyMCE" [ref=f17e430]:
+                        - /url: https://www.tiny.cloud/powered-by-tiny?utm_campaign=poweredby&utm_source=tiny&utm_medium=referral&utm_content=v7
+                        - text: Build with
+                        - img [ref=f17e431]
+                    - generic "Press the Up and Down arrow keys to resize the editor." [ref=f17e437]:
+                      - img [ref=f17e438]
+              - generic [ref=f17e442]:
+                - generic [ref=f17e443]: Download
+                - generic [ref=f17e444]:
+                  - checkbox "Enable Download" [ref=f17e445] [cursor=pointer]
+                  - generic [ref=f17e446]: Enable Download
+              - generic [ref=f17e448]:
+                - generic [ref=f17e449]: Show in Recently Added Topics
+                - generic [ref=f17e450]:
+                  - checkbox "Display this topic in the recently added topics section" [checked] [ref=f17e451] [cursor=pointer]
+                  - generic [ref=f17e452]: Display this topic in the recently added topics section
+              - generic [ref=f17e453]:
+                - button "Save" [active] [ref=f17e454] [cursor=pointer]
+                - button "Cancel" [ref=f17e455] [cursor=pointer]
+      - contentinfo [ref=f17e196]:
+        - paragraph [ref=f17e200]:
+          - text: Copyright
+          - generic [ref=f17e201]: "2026"
+          - text: © Jeshwar Teaching
+  - img

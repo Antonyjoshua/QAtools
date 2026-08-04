@@ -1,0 +1,8 @@
+[     353ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[     925ms] [LOG] Current Path: /promocode/create @ https://jt-admin.scopethinkers.com/PromoCode/Create:1027
+[     926ms] [LOG] Matched: /promocode/create {menu: Membership, submenu: Promo Codes} @ https://jt-admin.scopethinkers.com/PromoCode/Create:1262
+[     926ms] [LOG] Activating menu: Membership Submenu: Promo Codes @ https://jt-admin.scopethinkers.com/PromoCode/Create:1274
+[     927ms] [LOG] Found menu: Membership @ https://jt-admin.scopethinkers.com/PromoCode/Create:1283
+[     928ms] [LOG] Activated submenu: Promo Codes @ https://jt-admin.scopethinkers.com/PromoCode/Create:1304

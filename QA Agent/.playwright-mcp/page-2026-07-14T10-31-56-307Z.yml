@@ -1,0 +1,228 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e7]:
+    - generic [ref=f4e8]:
+      - generic [ref=f4e9]:
+        - heading "Product" [level=4] [ref=f4e10]
+        - navigation [ref=f4e11]:
+          - list [ref=f4e12]:
+            - listitem [ref=f4e13]:
+              - link [ref=f4e14] [cursor=pointer]:
+                - /url: /Inventory/Inventory
+                - img [ref=f4e15]
+            - listitem [ref=f4e18]: / Inventory Management
+      - generic [ref=f4e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f4e22]:
+          - listitem [ref=f4e23]:
+            - generic [ref=f4e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f4e26]:
+      - generic [ref=f4e28]:
+        - text: 
+        - link [ref=f4e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f4e31]:
+          - list [ref=f4e33]:
+            - generic [ref=f4e38]:
+              - text: 
+              - listitem [ref=f4e39]:
+                - link [ref=f4e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f4e41]
+                  - text: 
+              - listitem [ref=f4e43]:
+                - link [ref=f4e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e45]
+                  - text: 
+              - listitem [ref=f4e47]:
+                - link [ref=f4e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e49]
+                  - text: 
+              - listitem [ref=f4e51]:
+                - link [ref=f4e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e53]
+                  - text: 
+              - listitem [ref=f4e55]:
+                - link [ref=f4e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e57]
+                  - text: 
+              - listitem [ref=f4e59]:
+                - link [ref=f4e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e61]
+                  - text: 
+              - listitem [ref=f4e63]:
+                - link "" [ref=f4e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f4e65]: 
+                  - text: 
+              - listitem [ref=f4e66]:
+                - link [ref=f4e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e68]
+                  - text: 
+              - listitem [ref=f4e70]:
+                - link [ref=f4e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e72]
+                  - text: 
+              - listitem [ref=f4e74]:
+                - link [ref=f4e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e76]
+                  - text: 
+              - listitem [ref=f4e78]:
+                - link [ref=f4e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e80]
+                  - text: 
+              - listitem [ref=f4e82]:
+                - link "general icon" [ref=f4e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f4e84]
+                  - text: 
+              - listitem [ref=f4e85]:
+                - link [ref=f4e86] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f4e87]
+                  - text: 
+              - listitem [ref=f4e89]:
+                - link [ref=f4e90] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f4e91]
+                  - text: 
+              - listitem [ref=f4e93]:
+                - link "product icon" [ref=f4e94] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f4e95]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f4e96]:
+                - link [ref=f4e97] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e98]
+                  - text: 
+              - listitem [ref=f4e100]:
+                - link [ref=f4e101] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f4e102]
+                  - text: 
+              - listitem [ref=f4e104]:
+                - link [ref=f4e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e106]
+                  - text: 
+              - listitem [ref=f4e108]:
+                - link [ref=f4e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e110]
+                  - text: 
+              - listitem [ref=f4e112]:
+                - link [ref=f4e113] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f4e114]
+              - listitem [ref=f4e116]:
+                - link [ref=f4e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e118]
+                  - text: 
+              - listitem [ref=f4e120]:
+                - link "notify-ico" [ref=f4e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f4e122]
+                  - text: 
+              - listitem [ref=f4e123]:
+                - link "notify-ico" [ref=f4e124] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f4e125]
+                  - text: 
+      - main [ref=f4e127]:
+        - generic [ref=f4e129]:
+          - generic [ref=f4e130]:
+            - heading "Inventory Transactions" [level=5] [ref=f4e131]
+            - button " Set / Adjust Stock" [ref=f4e133] [cursor=pointer]:
+              - generic [ref=f4e134]: 
+              - text: Set / Adjust Stock
+          - generic [ref=f4e135]:
+            - generic [ref=f4e137]:
+              - generic [ref=f4e138]:
+                - generic [ref=f4e139]: Product
+                - combobox [ref=f4e140] [cursor=pointer]:
+                  - option "All Products" [selected]
+                  - option "Tamil Book - TNPSC New Syllabus"
+                  - option "TNPSC Tamil Book & Indian Polity (one Liner)"
+                  - option "Product"
+                  - option "Product 2"
+                  - option "Ink bottle"
+                  - option "Study lamp"
+                  - option "Tamil notes"
+                  - option "Pen combo"
+                  - option "Books combo"
+                  - option "Manual book"
+                  - option "Test Book K1"
+                  - option "Books Combo 1"
+                  - option "Combo 2"
+                  - option "ehrbgfrb"
+                  - option "ehrbgfrb"
+                  - option "ehrbgfrb"
+                  - option "Test-REs"
+                  - option "UI UX"
+                  - option "Combo product 1"
+                  - option "TEstKArthik1"
+                  - option "LastTest1"
+                  - option "BookComboK001"
+                  - option "BooInkCombo1"
+                  - option "Books Bag"
+              - generic [ref=f4e141]:
+                - generic [ref=f4e142]: Transaction Type
+                - combobox [ref=f4e143] [cursor=pointer]:
+                  - option "All Types" [selected]
+                  - option "IN"
+                  - option "OUT"
+                  - option "ADJUSTMENT"
+              - generic [ref=f4e144]:
+                - button "Apply" [ref=f4e145] [cursor=pointer]
+                - button "Clear" [ref=f4e146] [cursor=pointer]
+            - generic [ref=f4e148]:
+              - generic [ref=f4e150]:
+                - text: Show
+                - combobox "Show entries" [ref=f4e151] [cursor=pointer]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: entries
+              - generic [ref=f4e153]:
+                - text: "Search:"
+                - searchbox "Search:" [ref=f4e154] [cursor=pointer]
+              - grid [ref=f4e155]:
+                - rowgroup [ref=f4e156]:
+                  - row "↑ Date ↓ ↑ Product ↓ ↑ Customer ↓ ↑ Reason ↓ ↑ Quantity ↓ ↑ Type ↓ ↑ Total Stock ↓" [ref=f4e157]:
+                    - columnheader "↑ Date ↓" [ref=f4e158] [cursor=pointer]
+                    - columnheader "↑ Product ↓" [ref=f4e159] [cursor=pointer]
+                    - columnheader "↑ Customer ↓" [ref=f4e160] [cursor=pointer]
+                    - columnheader "↑ Reason ↓" [ref=f4e161] [cursor=pointer]
+                    - columnheader "↑ Quantity ↓" [ref=f4e162] [cursor=pointer]
+                    - columnheader "↑ Type ↓" [ref=f4e163] [cursor=pointer]
+                    - columnheader "↑ Total Stock ↓" [ref=f4e164] [cursor=pointer]
+                - rowgroup
+              - status
+      - contentinfo [ref=f4e166]:
+        - paragraph [ref=f4e170]:
+          - text: Copyright
+          - generic [ref=f4e171]: "2026"
+          - text: © Jeshwar Teaching
+  - img

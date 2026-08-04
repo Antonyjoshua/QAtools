@@ -1,0 +1,456 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e7]:
+    - generic [ref=f2e8]:
+      - generic [ref=f2e9]:
+        - heading "Product" [level=4] [ref=f2e605]
+        - navigation [ref=f2e11]:
+          - list [ref=f2e12]:
+            - listitem [ref=f2e13]:
+              - link [ref=f2e14] [cursor=pointer]:
+                - /url: /Inventory/Inventory
+                - img [ref=f2e15]
+            - listitem [ref=f2e18]: / Inventory Management
+      - generic [ref=f2e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f2e22]:
+          - text: 
+          - listitem [ref=f2e23] [cursor=pointer]:
+            - generic [ref=f2e24]:
+              - img "Profile" [ref=f2e606]
+              - generic [ref=f2e26]:
+                - generic [ref=f2e27]: superadmin@gmail.com
+                - paragraph [ref=f2e28]:
+                  - text: SuperAdmin
+                  - generic [ref=f2e29]: 
+    - generic [ref=f2e30]:
+      - generic [ref=f2e32]:
+        - generic [ref=f2e33]:
+          - link [ref=f2e34] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f2e36] [cursor=pointer]
+        - navigation [ref=f2e38]:
+          - list [ref=f2e40]:
+            - generic [ref=f2e45]:
+              - text: 
+              - listitem [ref=f2e46]:
+                - heading "Applications" [level=6] [ref=f2e607]
+              - listitem [ref=f2e49]:
+                - link "Dashboard" [ref=f2e608] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f2e51]
+                  - generic [ref=f2e53]: Dashboard
+                  - text: 
+              - listitem [ref=f2e54]:
+                - link "Enrollment " [ref=f2e609] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e56]
+                  - generic [ref=f2e58]: Enrollment
+                  - generic [ref=f2e60]: 
+              - listitem [ref=f2e61]:
+                - link "Website Settings " [ref=f2e610] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e63]
+                  - generic [ref=f2e65]: Website Settings
+                  - generic [ref=f2e67]: 
+              - listitem [ref=f2e68]:
+                - link "Membership " [ref=f2e611] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e70]
+                  - generic [ref=f2e72]: Membership
+                  - generic [ref=f2e74]: 
+              - listitem [ref=f2e75]:
+                - link "IVR " [ref=f2e612] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e77]
+                  - generic [ref=f2e79]: IVR
+                  - generic [ref=f2e81]: 
+              - listitem [ref=f2e82]:
+                - link "Course " [ref=f2e613] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e84]
+                  - generic [ref=f2e86]: Course
+                  - generic [ref=f2e88]: 
+              - listitem [ref=f2e89]:
+                - link " Self Host " [ref=f2e614] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f2e91]: 
+                  - generic [ref=f2e92]: Self Host
+                  - generic [ref=f2e94]: 
+              - listitem [ref=f2e95]:
+                - link "Assessment " [ref=f2e615] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e97]
+                  - generic [ref=f2e99]: Assessment
+                  - generic [ref=f2e101]: 
+              - listitem [ref=f2e102]:
+                - link "Student Activity " [ref=f2e616] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e104]
+                  - generic [ref=f2e106]: Student Activity
+                  - generic [ref=f2e108]: 
+              - listitem [ref=f2e109]:
+                - link "APL " [ref=f2e617] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e111]
+                  - generic [ref=f2e113]: APL
+                  - generic [ref=f2e115]: 
+              - listitem [ref=f2e116]:
+                - link "Email Draft " [ref=f2e618] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e118]
+                  - generic [ref=f2e120]: Email Draft
+                  - generic [ref=f2e122]: 
+              - listitem [ref=f2e123]:
+                - link "Admin " [ref=f2e619] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e125]
+                  - generic [ref=f2e127]: Admin
+                  - generic [ref=f2e129]: 
+              - listitem [ref=f2e130]:
+                - link "GST Report " [ref=f2e620] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e132]
+                  - generic [ref=f2e134]: GST Report
+                  - generic [ref=f2e136]: 
+              - listitem [ref=f2e137]:
+                - link "general icon General " [ref=f2e621] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f2e622]
+                  - generic [ref=f2e140]: General
+                  - generic [ref=f2e142]: 
+              - listitem [ref=f2e143]:
+                - link "Leaderboard" [ref=f2e623] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f2e145]
+                  - generic [ref=f2e147]: Leaderboard
+                  - text: 
+              - listitem [ref=f2e148]:
+                - heading "E-Commerce" [level=6] [ref=f2e624]
+              - listitem [ref=f2e151]:
+                - link "Dashboard" [ref=f2e625] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f2e153]
+                  - generic [ref=f2e155]: Dashboard
+                  - text: 
+              - listitem [ref=f2e156]:
+                - link "product icon Product " [ref=f2e626] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f2e627]
+                  - generic [ref=f2e159]: Product
+                  - generic [ref=f2e161]: 
+                - list [ref=f2e162]:
+                  - listitem [ref=f2e163]:
+                    - link "Product Types" [ref=f2e628] [cursor=pointer]:
+                      - /url: /Master/ProductTypes
+                  - listitem [ref=f2e165]:
+                    - link "Products" [ref=f2e629] [cursor=pointer]:
+                      - /url: /Product/Products
+                  - listitem [ref=f2e167]:
+                    - link "Inventory Management" [ref=f2e630] [cursor=pointer]:
+                      - /url: /Inventory/Inventory
+              - listitem [ref=f2e169]:
+                - link "Ebooks " [ref=f2e631] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e171]
+                  - generic [ref=f2e173]: Ebooks
+                  - generic [ref=f2e175]: 
+              - listitem [ref=f2e176]:
+                - link "Order " [ref=f2e632] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e178]
+                  - generic [ref=f2e180]: Order
+                  - generic [ref=f2e182]: 
+              - listitem [ref=f2e183]:
+                - link "Customer" [ref=f2e633] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f2e185]
+                  - generic [ref=f2e187]: Customer
+                  - text: 
+              - listitem [ref=f2e188]:
+                - link "Dashboards " [ref=f2e634] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e190]
+                  - generic [ref=f2e192]: Dashboards
+                  - generic [ref=f2e194]: 
+              - listitem [ref=f2e195]:
+                - link "Reports " [ref=f2e635] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e197]
+                  - generic [ref=f2e199]: Reports
+                  - generic [ref=f2e201]: 
+              - listitem [ref=f2e202]:
+                - link "Manual Purchase" [ref=f2e636] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f2e204]
+                  - generic [ref=f2e206]: Manual Purchase
+              - listitem [ref=f2e207]:
+                - heading "Payments" [level=6] [ref=f2e637]
+              - listitem [ref=f2e210]:
+                - link "Transactions " [ref=f2e638] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f2e212]
+                  - generic [ref=f2e214]: Transactions
+                  - generic [ref=f2e216]: 
+              - listitem [ref=f2e217]:
+                - heading "Notifcations" [level=6] [ref=f2e639]
+              - listitem [ref=f2e220]:
+                - link "notify-ico Notifications " [ref=f2e640] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f2e641]
+                  - generic [ref=f2e223]: Notifications
+                  - generic [ref=f2e225]: 
+              - listitem [ref=f2e226]:
+                - heading "Job Management" [level=6] [ref=f2e642]
+              - listitem [ref=f2e229]:
+                - link "notify-ico Jobs " [ref=f2e643] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f2e644]
+                  - generic [ref=f2e232]: Jobs
+                  - generic [ref=f2e234]: 
+      - main [ref=f2e236]:
+        - generic [ref=f2e238]:
+          - generic [ref=f2e239]:
+            - heading "Inventory Transactions" [level=5] [ref=f2e645]
+            - button " Set / Adjust Stock" [ref=f2e646] [cursor=pointer]:
+              - generic [ref=f2e243]: 
+              - text: Set / Adjust Stock
+          - generic [ref=f2e244]:
+            - generic [ref=f2e246]:
+              - generic [ref=f2e247]:
+                - generic [ref=f2e248]: Product
+                - combobox [ref=f2e249] [cursor=pointer]:
+                  - option "All Products" [selected]
+                  - option "Tamil Book - TNPSC New Syllabus"
+                  - option "TNPSC Tamil Book & Indian Polity (one Liner)"
+                  - option "Product"
+                  - option "Product 2"
+                  - option "Study lamp"
+                  - option "Tamil notes"
+                  - option "Pen combo"
+                  - option "Books combo"
+                  - option "Manual book"
+                  - option "Test Book K1"
+                  - option "UI UX"
+                  - option "Books Bag"
+                  - option "Book Purchase report Test"
+                  - option "Jeshwar book 1"
+                  - option "Jeshwar product 2"
+                  - option "Jeshwar book 3"
+                  - option "Jeshwar Book 4"
+                  - option "Jeshwar final book"
+                  - option "test"
+                  - option "Book without GST and Discount"
+              - generic [ref=f2e250]:
+                - generic [ref=f2e251]: Transaction Type
+                - combobox [ref=f2e252] [cursor=pointer]:
+                  - option "All Types" [selected]
+                  - option "IN"
+                  - option "OUT"
+                  - option "ADJUSTMENT"
+              - generic [ref=f2e253]:
+                - button "Apply" [ref=f2e647] [cursor=pointer]
+                - button "Clear" [ref=f2e648] [cursor=pointer]
+            - generic [ref=f2e257]:
+              - generic [ref=f2e259]:
+                - text: Show
+                - combobox "Show entries" [ref=f2e649] [cursor=pointer]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: entries
+              - generic [ref=f2e262]:
+                - text: "Search:"
+                - searchbox "Search:" [ref=f2e650] [cursor=pointer]
+              - grid [ref=f2e264]:
+                - rowgroup [ref=f2e265]:
+                  - 'row "Date: activate to sort column ascending Product: activate to sort column ascending Customer: activate to sort column ascending Reason: activate to sort column ascending Quantity: activate to sort column ascending Type: activate to sort column ascending Total Stock: activate to sort column ascending" [ref=f2e651]':
+                    - 'columnheader "Date: activate to sort column ascending" [ref=f2e652] [cursor=pointer]': ↑ Date ↓
+                    - 'columnheader "Product: activate to sort column ascending" [ref=f2e653] [cursor=pointer]': ↑ Product ↓
+                    - 'columnheader "Customer: activate to sort column ascending" [ref=f2e654] [cursor=pointer]': ↑ Customer ↓
+                    - 'columnheader "Reason: activate to sort column ascending" [ref=f2e655] [cursor=pointer]': ↑ Reason ↓
+                    - 'columnheader "Quantity: activate to sort column ascending" [ref=f2e656] [cursor=pointer]': ↑ Quantity ↓
+                    - 'columnheader "Type: activate to sort column ascending" [ref=f2e657] [cursor=pointer]': ↑ Type ↓
+                    - 'columnheader "Total Stock: activate to sort column ascending" [ref=f2e658] [cursor=pointer]': ↑ Total Stock ↓
+                - rowgroup [ref=f2e289]:
+                  - row "23/7/2026, 6:24:35 pm Book without GST and Discount — Correction +1 ADJUSTMENT 9" [ref=f2e659]:
+                    - gridcell "23/7/2026, 6:24:35 pm" [ref=f2e660]
+                    - gridcell "Book without GST and Discount" [ref=f2e661]
+                    - gridcell "—" [ref=f2e662]
+                    - gridcell "Correction" [ref=f2e663]
+                    - gridcell "+1" [ref=f2e664]:
+                      - generic [ref=f2e490]: "+1"
+                    - gridcell "ADJUSTMENT" [ref=f2e665]:
+                      - generic [ref=f2e492]: ADJUSTMENT
+                    - gridcell "9" [ref=f2e666]
+                  - row "23/7/2026, 6:19:18 pm Book without GST and Discount — increase −2 ADJUSTMENT 8" [ref=f2e667]:
+                    - gridcell "23/7/2026, 6:19:18 pm" [ref=f2e668]
+                    - gridcell "Book without GST and Discount" [ref=f2e669]
+                    - gridcell "—" [ref=f2e670]
+                    - gridcell "increase" [ref=f2e671]
+                    - gridcell "−2" [ref=f2e672]:
+                      - generic [ref=f2e500]: −2
+                    - gridcell "ADJUSTMENT" [ref=f2e673]:
+                      - generic [ref=f2e502]: ADJUSTMENT
+                    - gridcell "8" [ref=f2e674]
+                  - row "23/7/2026, 6:18:39 pm Book without GST and Discount — Local Sale −2 ADJUSTMENT 10" [ref=f2e675]:
+                    - gridcell "23/7/2026, 6:18:39 pm" [ref=f2e676]
+                    - gridcell "Book without GST and Discount" [ref=f2e677]
+                    - gridcell "—" [ref=f2e678]
+                    - gridcell "Local Sale" [ref=f2e679]
+                    - gridcell "−2" [ref=f2e680]:
+                      - generic [ref=f2e510]: −2
+                    - gridcell "ADJUSTMENT" [ref=f2e681]:
+                      - generic [ref=f2e512]: ADJUSTMENT
+                    - gridcell "10" [ref=f2e682]
+                  - row "23/7/2026, 6:18:10 pm Book without GST and Discount — Loss +2 ADJUSTMENT 12" [ref=f2e683]:
+                    - gridcell "23/7/2026, 6:18:10 pm" [ref=f2e684]
+                    - gridcell "Book without GST and Discount" [ref=f2e685]
+                    - gridcell "—" [ref=f2e686]
+                    - gridcell "Loss" [ref=f2e687]
+                    - gridcell "+2" [ref=f2e688]:
+                      - generic [ref=f2e520]: "+2"
+                    - gridcell "ADJUSTMENT" [ref=f2e689]:
+                      - generic [ref=f2e522]: ADJUSTMENT
+                    - gridcell "12" [ref=f2e690]
+                  - row "23/7/2026, 6:17:27 pm Book without GST and Discount — increase +2 ADJUSTMENT 10" [ref=f2e691]:
+                    - gridcell "23/7/2026, 6:17:27 pm" [ref=f2e692]
+                    - gridcell "Book without GST and Discount" [ref=f2e693]
+                    - gridcell "—" [ref=f2e694]
+                    - gridcell "increase" [ref=f2e695]
+                    - gridcell "+2" [ref=f2e696]:
+                      - generic [ref=f2e530]: "+2"
+                    - gridcell "ADJUSTMENT" [ref=f2e697]:
+                      - generic [ref=f2e532]: ADJUSTMENT
+                    - gridcell "10" [ref=f2e698]
+                  - 'row "23/7/2026, 6:13:56 pm Book without GST and Discount Vivek Pandian Order placed: #4307 −1 OUT 8" [ref=f2e699]':
+                    - gridcell "23/7/2026, 6:13:56 pm" [ref=f2e700]
+                    - gridcell "Book without GST and Discount" [ref=f2e701]
+                    - gridcell "Vivek Pandian" [ref=f2e702]
+                    - 'gridcell "Order placed: #4307" [ref=f2e703]'
+                    - gridcell "−1" [ref=f2e704]:
+                      - generic [ref=f2e540]: −1
+                    - gridcell "OUT" [ref=f2e705]:
+                      - generic [ref=f2e542]: OUT
+                    - gridcell "8" [ref=f2e706]
+                  - 'row "23/7/2026, 6:11:44 pm Tamil Book - TNPSC New Syllabus Funtown chennai Order placed: #4306 −1 OUT 6" [ref=f2e707]':
+                    - gridcell "23/7/2026, 6:11:44 pm" [ref=f2e708]
+                    - gridcell "Tamil Book - TNPSC New Syllabus" [ref=f2e709]
+                    - gridcell "Funtown chennai" [ref=f2e710]
+                    - 'gridcell "Order placed: #4306" [ref=f2e711]'
+                    - gridcell "−1" [ref=f2e712]:
+                      - generic [ref=f2e550]: −1
+                    - gridcell "OUT" [ref=f2e713]:
+                      - generic [ref=f2e552]: OUT
+                    - gridcell "6" [ref=f2e714]
+                  - 'row "23/7/2026, 6:09:27 pm Book without GST and Discount Funtown chennai Order placed: #4305 −1 OUT 9" [ref=f2e715]':
+                    - gridcell "23/7/2026, 6:09:27 pm" [ref=f2e716]
+                    - gridcell "Book without GST and Discount" [ref=f2e717]
+                    - gridcell "Funtown chennai" [ref=f2e718]
+                    - 'gridcell "Order placed: #4305" [ref=f2e719]'
+                    - gridcell "−1" [ref=f2e720]:
+                      - generic [ref=f2e560]: −1
+                    - gridcell "OUT" [ref=f2e721]:
+                      - generic [ref=f2e562]: OUT
+                    - gridcell "9" [ref=f2e722]
+                  - row "23/7/2026, 6:06:33 pm Book without GST and Discount — New Product Created +10 IN 10" [ref=f2e723]:
+                    - gridcell "23/7/2026, 6:06:33 pm" [ref=f2e724]
+                    - gridcell "Book without GST and Discount" [ref=f2e725]
+                    - gridcell "—" [ref=f2e726]
+                    - gridcell "New Product Created" [ref=f2e727]
+                    - gridcell "+10" [ref=f2e728]:
+                      - generic [ref=f2e570]: "+10"
+                    - gridcell "IN" [ref=f2e729]:
+                      - generic [ref=f2e572]: IN
+                    - gridcell "10" [ref=f2e730]
+                  - 'row "22/7/2026, 9:45:05 pm Jeshwar product 2 Vivek Pandian Stock restored: payment timeout (Order #3310) +1 IN 7" [ref=f2e731]':
+                    - gridcell "22/7/2026, 9:45:05 pm" [ref=f2e732]
+                    - gridcell "Jeshwar product 2" [ref=f2e733]
+                    - gridcell "Vivek Pandian" [ref=f2e734]
+                    - 'gridcell "Stock restored: payment timeout (Order #3310)" [ref=f2e735]'
+                    - gridcell "+1" [ref=f2e736]:
+                      - generic [ref=f2e580]: "+1"
+                    - gridcell "IN" [ref=f2e737]:
+                      - generic [ref=f2e582]: IN
+                    - gridcell "7" [ref=f2e738]
+              - status [ref=f2e390]: Showing 1 to 10 of 5,719 entries
+              - generic [ref=f2e274]:
+                - generic [ref=f2e584]: ‹
+                - generic [ref=f2e585]:
+                  - generic [ref=f2e586] [cursor=pointer]: "1"
+                  - generic [ref=f2e587] [cursor=pointer]: "2"
+                  - generic [ref=f2e588] [cursor=pointer]: "3"
+                  - generic [ref=f2e589] [cursor=pointer]: "4"
+                  - generic [ref=f2e590] [cursor=pointer]: "5"
+                  - generic [ref=f2e591]: …
+                  - generic [ref=f2e592] [cursor=pointer]: "572"
+                - generic [ref=f2e593] [cursor=pointer]: ›
+        - dialog "Set / Adjust Stock" [ref=f2e401]:
+          - generic [ref=f2e402]:
+            - generic [ref=f2e403]:
+              - heading "Set / Adjust Stock" [level=5] [ref=f2e404]
+              - button [ref=f2e405] [cursor=pointer]
+            - generic [ref=f2e407]:
+              - generic [ref=f2e408]:
+                - generic [ref=f2e409]:
+                  - text: Product
+                  - generic [ref=f2e410]: "*"
+                - combobox [ref=f2e411] [cursor=pointer]:
+                  - option "Select product..."
+                  - 'option "Tamil Book - TNPSC New Syllabus (Stock: 6)"'
+                  - 'option "TNPSC Tamil Book & Indian Polity (one Liner) (Stock: 13)"'
+                  - 'option "Product (Stock: 1)"'
+                  - 'option "Product 2 (Stock: 0)"'
+                  - 'option "Study lamp (Stock: 0)"'
+                  - 'option "Tamil notes (Stock: 21)"'
+                  - 'option "Pen combo (Stock: 0)"'
+                  - 'option "Books combo (Stock: 5)"'
+                  - 'option "Manual book (Stock: 0)"'
+                  - 'option "Test Book K1 (Stock: 18)"'
+                  - 'option "UI UX (Stock: 5)"'
+                  - 'option "Books Bag (Stock: 5)"'
+                  - 'option "Book Purchase report Test (Stock: 6)"'
+                  - 'option "Jeshwar book 1 (Stock: 7)"'
+                  - 'option "Jeshwar product 2 (Stock: 7)"'
+                  - 'option "Jeshwar book 3 (Stock: 10)"'
+                  - 'option "Jeshwar Book 4 (Stock: 10)"'
+                  - 'option "Jeshwar final book (Stock: 10)"'
+                  - 'option "test (Stock: 3)"'
+                  - 'option "Book without GST and Discount (Stock: 9)" [selected]'
+                - generic [ref=f2e428]: "Current stock: 9 units"
+              - generic [ref=f2e412]:
+                - generic [ref=f2e413]: New Stock Count
+                - generic [ref=f2e414]:
+                  - button "" [active] [ref=f2e415] [cursor=pointer]:
+                    - generic [ref=f2e416]: 
+                  - spinbutton [ref=f2e417] [cursor=pointer]: "8"
+                  - button "" [ref=f2e418] [cursor=pointer]:
+                    - generic [ref=f2e419]: 
+                - generic [ref=f2e429]: −1 (from 9 to 8)
+              - generic [ref=f2e420]:
+                - generic [ref=f2e421]:
+                  - text: Reason
+                  - generic [ref=f2e422]: "*"
+                - combobox [ref=f2e423] [cursor=pointer]:
+                  - option "Select reason..." [selected]
+                  - option "Damage — stock physically damaged"
+                  - option "Loss — stock lost or missing"
+                  - option "Local Sale — given to friends / sold locally"
+                  - option "Correction — fixing a data entry error"
+                  - option "Other"
+            - generic [ref=f2e424]:
+              - button "Cancel" [ref=f2e425] [cursor=pointer]
+              - button "Save" [ref=f2e426] [cursor=pointer]
+      - contentinfo [ref=f2e275]:
+        - paragraph [ref=f2e279]:
+          - text: Copyright
+          - generic [ref=f2e280]: "2026"
+          - text: © Jeshwar Teaching
+  - img

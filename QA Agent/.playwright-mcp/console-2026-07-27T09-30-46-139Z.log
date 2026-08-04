@@ -1,0 +1,13 @@
+[    1025ms] Unexpected string
+[   12693ms] TypeError: Cannot read properties of undefined (reading 'contains')
+    at HTMLDocument.<anonymous> (https://jt-admin.scopethinkers.com/Admin/StudentActivity/Assessments:888:27)
+    at HTMLDocument.dispatch (https://code.jquery.com/jquery-3.6.0.min.js:2:43064)
+    at v.handle (https://code.jquery.com/jquery-3.6.0.min.js:2:41048)
+[   30866ms] TypeError: Cannot read properties of undefined (reading 'contains')
+    at HTMLDocument.<anonymous> (https://jt-admin.scopethinkers.com/Admin/StudentActivity/Assessments:888:27)
+    at HTMLDocument.dispatch (https://code.jquery.com/jquery-3.6.0.min.js:2:43064)
+    at v.handle (https://code.jquery.com/jquery-3.6.0.min.js:2:41048)
+[   41369ms] TypeError: Cannot read properties of undefined (reading 'contains')
+    at HTMLDocument.<anonymous> (https://jt-admin.scopethinkers.com/Admin/StudentActivity/Assessments:888:27)
+    at HTMLDocument.dispatch (https://code.jquery.com/jquery-3.6.0.min.js:2:43064)
+    at v.handle (https://code.jquery.com/jquery-3.6.0.min.js:2:41048)

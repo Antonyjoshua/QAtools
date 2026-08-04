@@ -1,0 +1,453 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e7]:
+    - generic [ref=f5e8]:
+      - generic [ref=f5e9]:
+        - heading "Product" [level=4] [ref=f5e10]
+        - navigation [ref=f5e11]:
+          - list [ref=f5e12]:
+            - listitem [ref=f5e13]:
+              - link [ref=f5e14] [cursor=pointer]:
+                - /url: /Product/Products
+                - img [ref=f5e15]
+            - listitem [ref=f5e18]: / Products
+      - generic [ref=f5e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f5e22]:
+          - text: 
+          - listitem [ref=f5e23] [cursor=pointer]:
+            - generic [ref=f5e25]:
+              - generic [ref=f5e26]: superadmin@gmail.com
+              - paragraph [ref=f5e27]:
+                - text: SuperAdmin
+                - generic [ref=f5e28]: 
+    - generic [ref=f5e29]:
+      - generic [ref=f5e31]:
+        - generic [ref=f5e32]:
+          - link [ref=f5e33] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f5e35] [cursor=pointer]
+        - navigation [ref=f5e37]:
+          - list [ref=f5e39]:
+            - generic [ref=f5e44]:
+              - text: 
+              - listitem [ref=f5e45]:
+                - heading "Applications" [level=6] [ref=f5e47]
+              - listitem [ref=f5e48]:
+                - link "Dashboard" [ref=f5e49] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f5e50]
+                  - generic [ref=f5e52]: Dashboard
+                  - text: 
+              - listitem [ref=f5e53]:
+                - link "Enrollment " [ref=f5e54] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e55]
+                  - generic [ref=f5e57]: Enrollment
+                  - generic [ref=f5e59]: 
+              - listitem [ref=f5e60]:
+                - link "Website Settings " [ref=f5e61] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e62]
+                  - generic [ref=f5e64]: Website Settings
+                  - generic [ref=f5e66]: 
+              - listitem [ref=f5e67]:
+                - link "Membership " [ref=f5e68] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e69]
+                  - generic [ref=f5e71]: Membership
+                  - generic [ref=f5e73]: 
+              - listitem [ref=f5e74]:
+                - link "IVR " [ref=f5e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e76]
+                  - generic [ref=f5e78]: IVR
+                  - generic [ref=f5e80]: 
+              - listitem [ref=f5e81]:
+                - link "Course " [ref=f5e82] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e83]
+                  - generic [ref=f5e85]: Course
+                  - generic [ref=f5e87]: 
+              - listitem [ref=f5e88]:
+                - link " Self Host " [ref=f5e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f5e90]: 
+                  - generic [ref=f5e91]: Self Host
+                  - generic [ref=f5e93]: 
+              - listitem [ref=f5e94]:
+                - link "Assessment " [ref=f5e95] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e96]
+                  - generic [ref=f5e98]: Assessment
+                  - generic [ref=f5e100]: 
+              - listitem [ref=f5e101]:
+                - link "Student Activity " [ref=f5e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e103]
+                  - generic [ref=f5e105]: Student Activity
+                  - generic [ref=f5e107]: 
+              - listitem [ref=f5e108]:
+                - link "APL " [ref=f5e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e110]
+                  - generic [ref=f5e112]: APL
+                  - generic [ref=f5e114]: 
+              - listitem [ref=f5e115]:
+                - link "Email Draft " [ref=f5e116] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e117]
+                  - generic [ref=f5e119]: Email Draft
+                  - generic [ref=f5e121]: 
+              - listitem [ref=f5e122]:
+                - link "Admin " [ref=f5e123] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e124]
+                  - generic [ref=f5e126]: Admin
+                  - generic [ref=f5e128]: 
+              - listitem [ref=f5e129]:
+                - link "GST Report " [ref=f5e130] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e131]
+                  - generic [ref=f5e133]: GST Report
+                  - generic [ref=f5e135]: 
+              - listitem [ref=f5e136]:
+                - link "general icon General " [ref=f5e137] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f5e138]
+                  - generic [ref=f5e139]: General
+                  - generic [ref=f5e141]: 
+              - listitem [ref=f5e142]:
+                - link "Leaderboard" [ref=f5e143] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f5e144]
+                  - generic [ref=f5e146]: Leaderboard
+                  - text: 
+              - listitem [ref=f5e147]:
+                - heading "E-Commerce" [level=6] [ref=f5e149]
+              - listitem [ref=f5e150]:
+                - link "Dashboard" [ref=f5e151] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f5e152]
+                  - generic [ref=f5e154]: Dashboard
+                  - text: 
+              - listitem [ref=f5e155]:
+                - link "product icon Product " [ref=f5e156] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f5e157]
+                  - generic [ref=f5e158]: Product
+                  - generic [ref=f5e160]: 
+                - list [ref=f5e161]:
+                  - listitem [ref=f5e162]:
+                    - link "Product Types" [ref=f5e163] [cursor=pointer]:
+                      - /url: /Master/ProductTypes
+                  - listitem [ref=f5e164]:
+                    - link "Products" [ref=f5e165] [cursor=pointer]:
+                      - /url: /Product/Products
+                  - listitem [ref=f5e166]:
+                    - link "Inventory Management" [ref=f5e167] [cursor=pointer]:
+                      - /url: /Inventory/Inventory
+              - listitem [ref=f5e168]:
+                - link "Ebooks " [ref=f5e169] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e170]
+                  - generic [ref=f5e172]: Ebooks
+                  - generic [ref=f5e174]: 
+              - listitem [ref=f5e175]:
+                - link "Order " [ref=f5e176] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e177]
+                  - generic [ref=f5e179]: Order
+                  - generic [ref=f5e181]: 
+              - listitem [ref=f5e182]:
+                - link "Customer" [ref=f5e183] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f5e184]
+                  - generic [ref=f5e186]: Customer
+                  - text: 
+              - listitem [ref=f5e187]:
+                - link "Dashboards " [ref=f5e188] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e189]
+                  - generic [ref=f5e191]: Dashboards
+                  - generic [ref=f5e193]: 
+              - listitem [ref=f5e194]:
+                - link "Reports " [ref=f5e195] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e196]
+                  - generic [ref=f5e198]: Reports
+                  - generic [ref=f5e200]: 
+              - listitem [ref=f5e201]:
+                - link "Manual Purchase" [ref=f5e202] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f5e203]
+                  - generic [ref=f5e205]: Manual Purchase
+              - listitem [ref=f5e206]:
+                - heading "Payments" [level=6] [ref=f5e208]
+              - listitem [ref=f5e209]:
+                - link "Transactions " [ref=f5e210] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e211]
+                  - generic [ref=f5e213]: Transactions
+                  - generic [ref=f5e215]: 
+              - listitem [ref=f5e216]:
+                - heading "Notifcations" [level=6] [ref=f5e218]
+              - listitem [ref=f5e219]:
+                - link "notify-ico Notifications " [ref=f5e220] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f5e221]
+                  - generic [ref=f5e222]: Notifications
+                  - generic [ref=f5e224]: 
+              - listitem [ref=f5e225]:
+                - heading "Job Management" [level=6] [ref=f5e227]
+              - listitem [ref=f5e228]:
+                - link "notify-ico Jobs " [ref=f5e229] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f5e230]
+                  - generic [ref=f5e231]: Jobs
+                  - generic [ref=f5e233]: 
+      - main [ref=f5e235]:
+        - generic [ref=f5e237]:
+          - link "Create Product" [ref=f5e239] [cursor=pointer]:
+            - /url: /Product/Create
+          - generic [ref=f5e240]:
+            - generic [ref=f5e241]:
+              - button "All" [ref=f5e242] [cursor=pointer]
+              - button "Single" [ref=f5e243] [cursor=pointer]
+              - button "Combo" [ref=f5e244] [cursor=pointer]
+            - generic [ref=f5e246]:
+              - generic [ref=f5e248]:
+                - text: Show
+                - combobox "Show entries" [ref=f5e249] [cursor=pointer]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: entries
+              - generic [ref=f5e251]:
+                - text: "Search:"
+                - searchbox "Search:" [ref=f5e252] [cursor=pointer]
+              - grid [ref=f5e253]:
+                - rowgroup [ref=f5e254]:
+                  - 'row "Title: activate to sort column descending Product Type: activate to sort column ascending Author: activate to sort column ascending ISBN: activate to sort column ascending Publisher: activate to sort column ascending Price: activate to sort column ascending Quantity: activate to sort column ascending Actions" [ref=f5e255]':
+                    - 'columnheader "Title: activate to sort column descending" [ref=f5e256] [cursor=pointer]': ↑ Title ↓
+                    - 'columnheader "Product Type: activate to sort column ascending" [ref=f5e257] [cursor=pointer]': ↑ Product Type ↓
+                    - 'columnheader "Author: activate to sort column ascending" [ref=f5e258] [cursor=pointer]': ↑ Author ↓
+                    - 'columnheader "ISBN: activate to sort column ascending" [ref=f5e259] [cursor=pointer]': ↑ ISBN ↓
+                    - 'columnheader "Publisher: activate to sort column ascending" [ref=f5e260] [cursor=pointer]': ↑ Publisher ↓
+                    - 'columnheader "Price: activate to sort column ascending" [ref=f5e261] [cursor=pointer]': ↑ Price ↓
+                    - 'columnheader "Quantity: activate to sort column ascending" [ref=f5e262] [cursor=pointer]': ↑ Quantity ↓
+                    - columnheader "Actions" [ref=f5e263]
+                - rowgroup [ref=f5e264]:
+                  - row "Book Purchase report Test Books Hashwath ₹1,100.00 6  " [ref=f5e265]:
+                    - gridcell "Book Purchase report Test" [ref=f5e266]:
+                      - generic [ref=f5e267]: Book Purchase report Test
+                    - gridcell "Books" [ref=f5e268]
+                    - gridcell "Hashwath" [ref=f5e269]
+                    - gridcell [ref=f5e270]
+                    - gridcell [ref=f5e271]
+                    - gridcell "₹1,100.00" [ref=f5e272]
+                    - gridcell "6" [ref=f5e273]
+                    - gridcell " " [ref=f5e274]:
+                      - list [ref=f5e275]:
+                        - listitem [ref=f5e276] [cursor=pointer]:
+                          - link "" [ref=f5e277]:
+                            - /url: /Product/Edit/41
+                            - generic [ref=f5e278]: 
+                        - listitem [ref=f5e279] [cursor=pointer]:
+                          - link "" [ref=f5e280]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f5e281]: 
+                  - row "Book with discount no gst New product Antony ₹399.00 16  " [ref=f5e282]:
+                    - gridcell "Book with discount no gst" [ref=f5e283]:
+                      - generic [ref=f5e284]: Book with discount no gst
+                    - gridcell "New product" [ref=f5e285]
+                    - gridcell "Antony" [ref=f5e286]
+                    - gridcell [ref=f5e287]
+                    - gridcell [ref=f5e288]
+                    - gridcell "₹399.00" [ref=f5e289]
+                    - gridcell "16" [ref=f5e290]
+                    - gridcell " " [ref=f5e291]:
+                      - list [ref=f5e292]:
+                        - listitem [ref=f5e293] [cursor=pointer]:
+                          - link "" [ref=f5e294]:
+                            - /url: /Product/Edit/53
+                            - generic [ref=f5e295]: 
+                        - listitem [ref=f5e296] [cursor=pointer]:
+                          - link "" [ref=f5e297]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f5e298]: 
+                  - row "Book with gst and discount New product Antony ₹600.00 5  " [ref=f5e299]:
+                    - gridcell "Book with gst and discount" [ref=f5e300]:
+                      - generic [ref=f5e301]: Book with gst and discount
+                    - gridcell "New product" [ref=f5e302]
+                    - gridcell "Antony" [ref=f5e303]
+                    - gridcell [ref=f5e304]
+                    - gridcell [ref=f5e305]
+                    - gridcell "₹600.00" [ref=f5e306]
+                    - gridcell "5" [ref=f5e307]
+                    - gridcell " " [ref=f5e308]:
+                      - list [ref=f5e309]:
+                        - listitem [ref=f5e310] [cursor=pointer]:
+                          - link "" [ref=f5e311]:
+                            - /url: /Product/Edit/54
+                            - generic [ref=f5e312]: 
+                        - listitem [ref=f5e313] [cursor=pointer]:
+                          - link "" [ref=f5e314]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f5e315]: 
+                  - row "Book with only GST New product Antony ₹400.00 6  " [ref=f5e316]:
+                    - gridcell "Book with only GST" [ref=f5e317]:
+                      - generic [ref=f5e318]: Book with only GST
+                    - gridcell "New product" [ref=f5e319]
+                    - gridcell "Antony" [ref=f5e320]
+                    - gridcell [ref=f5e321]
+                    - gridcell [ref=f5e322]
+                    - gridcell "₹400.00" [ref=f5e323]
+                    - gridcell "6" [ref=f5e324]
+                    - gridcell " " [ref=f5e325]:
+                      - list [ref=f5e326]:
+                        - listitem [ref=f5e327] [cursor=pointer]:
+                          - link "" [ref=f5e328]:
+                            - /url: /Product/Edit/52
+                            - generic [ref=f5e329]: 
+                        - listitem [ref=f5e330] [cursor=pointer]:
+                          - link "" [ref=f5e331]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f5e332]: 
+                  - row "Book without GST and Discount New product Antony ₹200.00 8  " [ref=f5e333]:
+                    - gridcell "Book without GST and Discount" [ref=f5e334]:
+                      - generic [ref=f5e335]: Book without GST and Discount
+                    - gridcell "New product" [ref=f5e336]
+                    - gridcell "Antony" [ref=f5e337]
+                    - gridcell [ref=f5e338]
+                    - gridcell [ref=f5e339]
+                    - gridcell "₹200.00" [ref=f5e340]
+                    - gridcell "8" [ref=f5e341]
+                    - gridcell " " [ref=f5e342]:
+                      - list [ref=f5e343]:
+                        - listitem [ref=f5e344] [cursor=pointer]:
+                          - link "" [ref=f5e345]:
+                            - /url: /Product/Edit/51
+                            - generic [ref=f5e346]: 
+                        - listitem [ref=f5e347] [cursor=pointer]:
+                          - link "" [ref=f5e348]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f5e349]: 
+                  - row "Books Bag Stationary Fayaze ISBN2104723729343 K2 ₹1,030.00 5  " [ref=f5e350]:
+                    - gridcell "Books Bag" [ref=f5e351]:
+                      - generic [ref=f5e352]: Books Bag
+                    - gridcell "Stationary" [ref=f5e353]
+                    - gridcell "Fayaze" [ref=f5e354]
+                    - gridcell "ISBN2104723729343" [ref=f5e355]
+                    - gridcell "K2" [ref=f5e356]
+                    - gridcell "₹1,030.00" [ref=f5e357]
+                    - gridcell "5" [ref=f5e358]
+                    - gridcell " " [ref=f5e359]:
+                      - list [ref=f5e360]:
+                        - listitem [ref=f5e361] [cursor=pointer]:
+                          - link "" [ref=f5e362]:
+                            - /url: /Product/Edit/40
+                            - generic [ref=f5e363]: 
+                        - listitem [ref=f5e364] [cursor=pointer]:
+                          - link "" [ref=f5e365]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f5e366]: 
+                  - row "Books combo Miscellaneous Antony 1234567890876 john ₹150.00 5  " [ref=f5e367]:
+                    - gridcell "Books combo" [ref=f5e368]:
+                      - generic [ref=f5e369]: Books combo
+                    - gridcell "Miscellaneous" [ref=f5e370]
+                    - gridcell "Antony" [ref=f5e371]
+                    - gridcell "1234567890876" [ref=f5e372]
+                    - gridcell "john" [ref=f5e373]
+                    - gridcell "₹150.00" [ref=f5e374]
+                    - gridcell "5" [ref=f5e375]
+                    - gridcell " " [ref=f5e376]:
+                      - list [ref=f5e377]:
+                        - listitem [ref=f5e378] [cursor=pointer]:
+                          - link "" [ref=f5e379]:
+                            - /url: /Product/Edit/19
+                            - generic [ref=f5e380]: 
+                        - listitem [ref=f5e381] [cursor=pointer]:
+                          - link "" [ref=f5e382]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f5e383]: 
+                  - row "Combo 2 Combo Combo Karthik ISBN72582345635 Karthik1 ₹412.00 17  " [ref=f5e384]:
+                    - gridcell "Combo 2 Combo" [ref=f5e385]:
+                      - generic [ref=f5e386]:
+                        - text: Combo 2
+                        - generic "Combo Product" [ref=f5e387]: Combo
+                    - gridcell "Combo" [ref=f5e388]
+                    - gridcell "Karthik" [ref=f5e389]
+                    - gridcell "ISBN72582345635" [ref=f5e390]
+                    - gridcell "Karthik1" [ref=f5e391]
+                    - gridcell "₹412.00" [ref=f5e392]
+                    - gridcell "17" [ref=f5e393]
+                    - gridcell " " [ref=f5e394]:
+                      - list [ref=f5e395]:
+                        - listitem [ref=f5e396] [cursor=pointer]:
+                          - link "" [ref=f5e397]:
+                            - /url: /Product/Edit/25
+                            - generic [ref=f5e398]: 
+                        - listitem [ref=f5e399] [cursor=pointer]:
+                          - link "" [ref=f5e400]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f5e401]: 
+                  - row "Jeshwar book 1 New product Antony ISBN123456789 ₹110.00 7  " [ref=f5e402]:
+                    - gridcell "Jeshwar book 1" [ref=f5e403]:
+                      - generic [ref=f5e404]: Jeshwar book 1
+                    - gridcell "New product" [ref=f5e405]
+                    - gridcell "Antony" [ref=f5e406]
+                    - gridcell "ISBN123456789" [ref=f5e407]
+                    - gridcell [ref=f5e408]
+                    - gridcell "₹110.00" [ref=f5e409]
+                    - gridcell "7" [ref=f5e410]
+                    - gridcell " " [ref=f5e411]:
+                      - list [ref=f5e412]:
+                        - listitem [ref=f5e413] [cursor=pointer]:
+                          - link "" [ref=f5e414]:
+                            - /url: /Product/Edit/43
+                            - generic [ref=f5e415]: 
+                        - listitem [ref=f5e416] [cursor=pointer]:
+                          - link "" [ref=f5e417]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f5e418]: 
+                  - row "Jeshwar book 3 New product ₹410.97 10  " [ref=f5e419]:
+                    - gridcell "Jeshwar book 3" [ref=f5e420]:
+                      - generic [ref=f5e421]: Jeshwar book 3
+                    - gridcell "New product" [ref=f5e422]
+                    - gridcell [ref=f5e423]
+                    - gridcell [ref=f5e424]
+                    - gridcell [ref=f5e425]
+                    - gridcell "₹410.97" [ref=f5e426]
+                    - gridcell "10" [ref=f5e427]
+                    - gridcell " " [ref=f5e428]:
+                      - list [ref=f5e429]:
+                        - listitem [ref=f5e430] [cursor=pointer]:
+                          - link "" [ref=f5e431]:
+                            - /url: /Product/Edit/45
+                            - generic [ref=f5e432]: 
+                        - listitem [ref=f5e433] [cursor=pointer]:
+                          - link "" [ref=f5e434]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f5e435]: 
+              - status [ref=f5e436]: Showing 1 to 10 of 26 entries
+              - generic [ref=f5e437]:
+                - generic [ref=f5e438]: Previous
+                - generic [ref=f5e439]:
+                  - generic [ref=f5e440] [cursor=pointer]: "1"
+                  - generic [ref=f5e441] [cursor=pointer]: "2"
+                  - generic [ref=f5e442] [cursor=pointer]: "3"
+                - generic [ref=f5e443] [cursor=pointer]: Next
+      - contentinfo [ref=f5e444]:
+        - paragraph [ref=f5e448]:
+          - text: Copyright
+          - generic [ref=f5e449]: "2026"
+          - text: © Jeshwar Teaching
+  - img

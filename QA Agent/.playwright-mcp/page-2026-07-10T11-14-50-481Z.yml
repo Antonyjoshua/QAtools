@@ -1,0 +1,430 @@
+- generic [ref=f9e1]:
+  - generic [ref=f9e7]:
+    - generic [ref=f9e8]:
+      - generic [ref=f9e9]:
+        - heading "Dashboard" [level=4] [ref=f9e10]
+        - navigation [ref=f9e11]:
+          - list [ref=f9e12]:
+            - listitem [ref=f9e13]:
+              - link [ref=f9e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f9e15]
+            - listitem [ref=f9e18]: / Index
+      - generic [ref=f9e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f9e22]:
+          - listitem [ref=f9e23]:
+            - generic [ref=f9e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f9e26]:
+      - generic [ref=f9e28]:
+        - text: 
+        - link [ref=f9e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f9e31]:
+          - list [ref=f9e33]:
+            - generic [ref=f9e38]:
+              - text: 
+              - listitem [ref=f9e39]:
+                - link [ref=f9e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f9e41]
+                  - text: 
+              - listitem [ref=f9e43]:
+                - link [ref=f9e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e45]
+                  - text: 
+              - listitem [ref=f9e47]:
+                - link [ref=f9e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e49]
+                  - text: 
+              - listitem [ref=f9e51]:
+                - link [ref=f9e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e53]
+                  - text: 
+              - listitem [ref=f9e55]:
+                - link [ref=f9e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e57]
+                  - text: 
+              - listitem [ref=f9e59]:
+                - link "" [ref=f9e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f9e61]: 
+                  - text: 
+              - listitem [ref=f9e62]:
+                - link [ref=f9e63] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e64]
+                  - text: 
+              - listitem [ref=f9e66]:
+                - link [ref=f9e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e68]
+                  - text: 
+              - listitem [ref=f9e70]:
+                - link [ref=f9e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e72]
+                  - text: 
+              - listitem [ref=f9e74]:
+                - link [ref=f9e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e76]
+                  - text: 
+              - listitem [ref=f9e78]:
+                - link "general icon" [ref=f9e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f9e80]
+                  - text: 
+              - listitem [ref=f9e81]:
+                - link [ref=f9e82] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f9e83]
+                  - text: 
+              - listitem [ref=f9e85]:
+                - link [ref=f9e86] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f9e87]
+                  - text: 
+              - listitem [ref=f9e89]:
+                - link "product icon" [ref=f9e90] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f9e91]
+                  - text: 
+              - listitem [ref=f9e92]:
+                - link [ref=f9e93] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e94]
+                  - text: 
+              - listitem [ref=f9e96]:
+                - link [ref=f9e97] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f9e98]
+                  - text: 
+              - listitem [ref=f9e100]:
+                - link [ref=f9e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e102]
+                  - text: 
+              - listitem [ref=f9e104]:
+                - link [ref=f9e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e106]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f9e108]:
+                - link [ref=f9e109] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f9e110]
+              - listitem [ref=f9e112]:
+                - link [ref=f9e113] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e114]
+                  - text: 
+              - listitem [ref=f9e116]:
+                - link "notify-ico" [ref=f9e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f9e118]
+                  - text: 
+              - listitem [ref=f9e119]:
+                - link "notify-ico" [ref=f9e120] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f9e121]
+                  - text: 
+      - main [ref=f9e123]:
+        - generic [ref=f9e127]:
+          - generic [ref=f9e128]:
+            - heading "Book Purchase Report" [level=5] [ref=f9e129]
+            - button " Export Excel" [ref=f9e130] [cursor=pointer]:
+              - generic [ref=f9e131]: 
+              - text: Export Excel
+          - generic [ref=f9e132]:
+            - generic [ref=f9e134]:
+              - generic [ref=f9e135]:
+                - generic [ref=f9e136]: From Date
+                - textbox [ref=f9e137] [cursor=pointer]: 2026-06-01
+              - generic [ref=f9e138]:
+                - generic [ref=f9e139]: To Date
+                - textbox [ref=f9e140] [cursor=pointer]: 2026-06-30
+              - generic [ref=f9e141]:
+                - generic [ref=f9e142]: Customer
+                - textbox "Search customer..." [ref=f9e143] [cursor=pointer]
+              - generic [ref=f9e144]:
+                - generic [ref=f9e145]: Product Title
+                - textbox "Search product..." [ref=f9e146] [cursor=pointer]
+              - generic [ref=f9e147]:
+                - generic [ref=f9e148]: Product Type
+                - combobox [ref=f9e149] [cursor=pointer]:
+                  - option "All Types" [selected]
+                  - option "Books"
+                  - option "Product Type"
+                  - option "Stationary"
+                  - option "Study Products"
+                  - option "Notes"
+                  - option "Exam Kit"
+                  - option "Miscellaneous"
+                  - option "Notes"
+                  - option "JT special store"
+                  - option "Multiple/Combo"
+                  - option "Combo"
+              - generic [ref=f9e150]:
+                - generic [ref=f9e151]: "Invoice #"
+                - textbox "INV-..." [ref=f9e152] [cursor=pointer]
+              - generic [ref=f9e153]:
+                - generic [ref=f9e154]: Order Status
+                - combobox [ref=f9e155] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "Pending"
+                  - option "Shipped"
+                  - option "Delivered"
+                  - option "Cancelled"
+                  - option "Refunded"
+              - generic [ref=f9e156]:
+                - generic [ref=f9e157]: Payment Status
+                - combobox [ref=f9e158] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "Pending"
+                  - option "Success"
+                  - option "Failed"
+              - generic [ref=f9e159]:
+                - button "Apply" [active] [ref=f9e160] [cursor=pointer]
+                - button "Clear" [ref=f9e161] [cursor=pointer]
+            - generic [ref=f9e162]:
+              - generic [ref=f9e163]:
+                - generic [ref=f9e164]:
+                  - generic [ref=f9e165]: Total Purchases
+                  - heading "6" [level=3] [ref=f9e811]
+                - generic [ref=f9e168]: 
+              - generic [ref=f9e169]:
+                - generic [ref=f9e170]:
+                  - generic [ref=f9e171]: Total Revenue
+                  - heading "₹1,050.00" [level=3] [ref=f9e812]
+                - generic [ref=f9e174]: 
+              - generic [ref=f9e175]:
+                - generic [ref=f9e176]:
+                  - generic [ref=f9e177]: Total Books Sold
+                  - heading "11" [level=3] [ref=f9e813]
+                - generic [ref=f9e180]: 
+              - generic [ref=f9e181]:
+                - generic [ref=f9e182]:
+                  - generic [ref=f9e183]: Total GST Collected
+                  - heading "₹0.53" [level=3] [ref=f9e814]
+                - generic [ref=f9e186]: 
+            - generic [ref=f9e188]:
+              - grid [ref=f9e191]:
+                - rowgroup [ref=f9e192]:
+                  - 'row "Order #: activate to sort column ascending Invoice #: activate to sort column ascending Date: activate to sort column ascending Customer: activate to sort column ascending Product: activate to sort column ascending Type: activate to sort column ascending Qty: activate to sort column ascending Unit Price: activate to sort column ascending Discount: activate to sort column ascending GST: activate to sort column ascending Sub Total: activate to sort column ascending Order Status: activate to sort column ascending Payment: activate to sort column ascending" [ref=f9e217]':
+                    - 'columnheader "Order #: activate to sort column ascending" [ref=f9e218] [cursor=pointer]': "Order #"
+                    - 'columnheader "Invoice #: activate to sort column ascending" [ref=f9e219] [cursor=pointer]': "Invoice #"
+                    - 'columnheader "Date: activate to sort column ascending" [ref=f9e220] [cursor=pointer]': Date
+                    - 'columnheader "Customer: activate to sort column ascending" [ref=f9e221] [cursor=pointer]': Customer
+                    - 'columnheader "Product: activate to sort column ascending" [ref=f9e222] [cursor=pointer]': Product
+                    - 'columnheader "Type: activate to sort column ascending" [ref=f9e223] [cursor=pointer]': Type
+                    - 'columnheader "Qty: activate to sort column ascending" [ref=f9e224] [cursor=pointer]': Qty
+                    - 'columnheader "Unit Price: activate to sort column ascending" [ref=f9e225] [cursor=pointer]': Unit Price
+                    - 'columnheader "Discount: activate to sort column ascending" [ref=f9e226] [cursor=pointer]': Discount
+                    - 'columnheader "GST: activate to sort column ascending" [ref=f9e227] [cursor=pointer]': GST
+                    - 'columnheader "Sub Total: activate to sort column ascending" [ref=f9e228] [cursor=pointer]': Sub Total
+                    - 'columnheader "Order Status: activate to sort column ascending" [ref=f9e229] [cursor=pointer]': Order Status
+                    - 'columnheader "Payment: activate to sort column ascending" [ref=f9e230] [cursor=pointer]': Payment
+                - rowgroup [ref=f9e231]:
+                  - row "4217 30/6/2026 vivek pandian Books combo Miscellaneous 1 ₹150.00 ₹7.50 ₹0.00 ₹150.00 Pending Success" [ref=f9e815]:
+                    - gridcell "4217" [ref=f9e816]
+                    - gridcell [ref=f9e817]
+                    - gridcell "30/6/2026" [ref=f9e818]
+                    - gridcell "vivek pandian" [ref=f9e819]
+                    - gridcell "Books combo" [ref=f9e820]
+                    - gridcell "Miscellaneous" [ref=f9e821]
+                    - gridcell "1" [ref=f9e822]
+                    - gridcell "₹150.00" [ref=f9e823]
+                    - gridcell "₹7.50" [ref=f9e824]
+                    - gridcell "₹0.00" [ref=f9e825]
+                    - gridcell "₹150.00" [ref=f9e826]
+                    - gridcell "Pending" [ref=f9e827]:
+                      - generic [ref=f9e828]: Pending
+                    - gridcell "Success" [ref=f9e829]:
+                      - generic [ref=f9e830]: Success
+                  - row "4217 30/6/2026 vivek pandian Manual book JT special store 1 ₹100.00 ₹10.00 ₹0.00 ₹100.00 Pending Success" [ref=f9e831]:
+                    - gridcell "4217" [ref=f9e832]
+                    - gridcell [ref=f9e833]
+                    - gridcell "30/6/2026" [ref=f9e834]
+                    - gridcell "vivek pandian" [ref=f9e835]
+                    - gridcell "Manual book" [ref=f9e836]
+                    - gridcell "JT special store" [ref=f9e837]
+                    - gridcell "1" [ref=f9e838]
+                    - gridcell "₹100.00" [ref=f9e839]
+                    - gridcell "₹10.00" [ref=f9e840]
+                    - gridcell "₹0.00" [ref=f9e841]
+                    - gridcell "₹100.00" [ref=f9e842]
+                    - gridcell "Pending" [ref=f9e843]:
+                      - generic [ref=f9e844]: Pending
+                    - gridcell "Success" [ref=f9e845]:
+                      - generic [ref=f9e846]: Success
+                  - row "4216 27/6/2026 Vivek Pandian Manual book JT special store 1 ₹100.00 ₹10.00 ₹0.00 ₹100.00 Delivered Success" [ref=f9e847]:
+                    - gridcell "4216" [ref=f9e848]
+                    - gridcell [ref=f9e849]
+                    - gridcell "27/6/2026" [ref=f9e850]
+                    - gridcell "Vivek Pandian" [ref=f9e851]
+                    - gridcell "Manual book" [ref=f9e852]
+                    - gridcell "JT special store" [ref=f9e853]
+                    - gridcell "1" [ref=f9e854]
+                    - gridcell "₹100.00" [ref=f9e855]
+                    - gridcell "₹10.00" [ref=f9e856]
+                    - gridcell "₹0.00" [ref=f9e857]
+                    - gridcell "₹100.00" [ref=f9e858]
+                    - gridcell "Delivered" [ref=f9e859]:
+                      - generic [ref=f9e860]: Delivered
+                    - gridcell "Success" [ref=f9e861]:
+                      - generic [ref=f9e862]: Success
+                  - row "4216 27/6/2026 Vivek Pandian Books combo Miscellaneous 1 ₹150.00 ₹7.50 ₹0.00 ₹150.00 Delivered Success" [ref=f9e863]:
+                    - gridcell "4216" [ref=f9e864]
+                    - gridcell [ref=f9e865]
+                    - gridcell "27/6/2026" [ref=f9e866]
+                    - gridcell "Vivek Pandian" [ref=f9e867]
+                    - gridcell "Books combo" [ref=f9e868]
+                    - gridcell "Miscellaneous" [ref=f9e869]
+                    - gridcell "1" [ref=f9e870]
+                    - gridcell "₹150.00" [ref=f9e871]
+                    - gridcell "₹7.50" [ref=f9e872]
+                    - gridcell "₹0.00" [ref=f9e873]
+                    - gridcell "₹150.00" [ref=f9e874]
+                    - gridcell "Delivered" [ref=f9e875]:
+                      - generic [ref=f9e876]: Delivered
+                    - gridcell "Success" [ref=f9e877]:
+                      - generic [ref=f9e878]: Success
+                  - row "4215 24/6/2026 s r Hand written tamil notes Notes 1 ₹200.00 ₹20.00 ₹0.00 ₹200.00 Pending Pending" [ref=f9e879]:
+                    - gridcell "4215" [ref=f9e880]
+                    - gridcell [ref=f9e881]
+                    - gridcell "24/6/2026" [ref=f9e882]
+                    - gridcell "s r" [ref=f9e883]
+                    - gridcell "Hand written tamil notes" [ref=f9e884]
+                    - gridcell "Notes" [ref=f9e885]
+                    - gridcell "1" [ref=f9e886]
+                    - gridcell "₹200.00" [ref=f9e887]
+                    - gridcell "₹20.00" [ref=f9e888]
+                    - gridcell "₹0.00" [ref=f9e889]
+                    - gridcell "₹200.00" [ref=f9e890]
+                    - gridcell "Pending" [ref=f9e891]:
+                      - generic [ref=f9e892]: Pending
+                    - gridcell "Pending" [ref=f9e893]:
+                      - generic [ref=f9e894]: Pending
+                  - row "4214 INV-274 20/6/2026 ScopeThinkers g Manual book JT special store 1 ₹100.00 ₹10.00 ₹0.00 ₹100.00 Delivered Success" [ref=f9e895]:
+                    - gridcell "4214" [ref=f9e896]
+                    - gridcell "INV-274" [ref=f9e897]
+                    - gridcell "20/6/2026" [ref=f9e898]
+                    - gridcell "ScopeThinkers g" [ref=f9e899]
+                    - gridcell "Manual book" [ref=f9e900]
+                    - gridcell "JT special store" [ref=f9e901]
+                    - gridcell "1" [ref=f9e902]
+                    - gridcell "₹100.00" [ref=f9e903]
+                    - gridcell "₹10.00" [ref=f9e904]
+                    - gridcell "₹0.00" [ref=f9e905]
+                    - gridcell "₹100.00" [ref=f9e906]
+                    - gridcell "Delivered" [ref=f9e907]:
+                      - generic [ref=f9e908]: Delivered
+                    - gridcell "Success" [ref=f9e909]:
+                      - generic [ref=f9e910]: Success
+                  - row "4214 INV-274 20/6/2026 ScopeThinkers g Pen combo Exam Kit 1 ₹50.00 ₹5.00 ₹0.15 ₹50.00 Delivered Success" [ref=f9e911]:
+                    - gridcell "4214" [ref=f9e912]
+                    - gridcell "INV-274" [ref=f9e913]
+                    - gridcell "20/6/2026" [ref=f9e914]
+                    - gridcell "ScopeThinkers g" [ref=f9e915]
+                    - gridcell "Pen combo" [ref=f9e916]
+                    - gridcell "Exam Kit" [ref=f9e917]
+                    - gridcell "1" [ref=f9e918]
+                    - gridcell "₹50.00" [ref=f9e919]
+                    - gridcell "₹5.00" [ref=f9e920]
+                    - gridcell "₹0.15" [ref=f9e921]
+                    - gridcell "₹50.00" [ref=f9e922]
+                    - gridcell "Delivered" [ref=f9e923]:
+                      - generic [ref=f9e924]: Delivered
+                    - gridcell "Success" [ref=f9e925]:
+                      - generic [ref=f9e926]: Success
+                  - row "4213 INV-273 19/6/2026 Vivek Pandian Pen combo Exam Kit 1 ₹50.00 ₹5.00 ₹0.15 ₹50.00 Shipped Success" [ref=f9e927]:
+                    - gridcell "4213" [ref=f9e928]
+                    - gridcell "INV-273" [ref=f9e929]
+                    - gridcell "19/6/2026" [ref=f9e930]
+                    - gridcell "Vivek Pandian" [ref=f9e931]
+                    - gridcell "Pen combo" [ref=f9e932]
+                    - gridcell "Exam Kit" [ref=f9e933]
+                    - gridcell "1" [ref=f9e934]
+                    - gridcell "₹50.00" [ref=f9e935]
+                    - gridcell "₹5.00" [ref=f9e936]
+                    - gridcell "₹0.15" [ref=f9e937]
+                    - gridcell "₹50.00" [ref=f9e938]
+                    - gridcell "Shipped" [ref=f9e939]:
+                      - generic [ref=f9e940]: Shipped
+                    - gridcell "Success" [ref=f9e941]:
+                      - generic [ref=f9e942]: Success
+                  - row "4213 INV-273 19/6/2026 Vivek Pandian Ink bottle Stationary 1 ₹100.00 ₹10.00 ₹0.04 ₹100.00 Shipped Success" [ref=f9e943]:
+                    - gridcell "4213" [ref=f9e944]
+                    - gridcell "INV-273" [ref=f9e945]
+                    - gridcell "19/6/2026" [ref=f9e946]
+                    - gridcell "Vivek Pandian" [ref=f9e947]
+                    - gridcell "Ink bottle" [ref=f9e948]
+                    - gridcell "Stationary" [ref=f9e949]
+                    - gridcell "1" [ref=f9e950]
+                    - gridcell "₹100.00" [ref=f9e951]
+                    - gridcell "₹10.00" [ref=f9e952]
+                    - gridcell "₹0.04" [ref=f9e953]
+                    - gridcell "₹100.00" [ref=f9e954]
+                    - gridcell "Shipped" [ref=f9e955]:
+                      - generic [ref=f9e956]: Shipped
+                    - gridcell "Success" [ref=f9e957]:
+                      - generic [ref=f9e958]: Success
+                  - row "4212 11/6/2026 Vivek Pandian Pen combo Exam Kit 1 ₹50.00 ₹5.00 ₹0.15 ₹50.00 Pending Success" [ref=f9e959]:
+                    - gridcell "4212" [ref=f9e960]
+                    - gridcell [ref=f9e961]
+                    - gridcell "11/6/2026" [ref=f9e962]
+                    - gridcell "Vivek Pandian" [ref=f9e963]
+                    - gridcell "Pen combo" [ref=f9e964]
+                    - gridcell "Exam Kit" [ref=f9e965]
+                    - gridcell "1" [ref=f9e966]
+                    - gridcell "₹50.00" [ref=f9e967]
+                    - gridcell "₹5.00" [ref=f9e968]
+                    - gridcell "₹0.15" [ref=f9e969]
+                    - gridcell "₹50.00" [ref=f9e970]
+                    - gridcell "Pending" [ref=f9e971]:
+                      - generic [ref=f9e972]: Pending
+                    - gridcell "Success" [ref=f9e973]:
+                      - generic [ref=f9e974]: Success
+                  - row "4212 11/6/2026 Vivek Pandian Ink bottle Stationary 1 ₹100.00 ₹10.00 ₹0.04 ₹100.00 Pending Success" [ref=f9e975]:
+                    - gridcell "4212" [ref=f9e976]
+                    - gridcell [ref=f9e977]
+                    - gridcell "11/6/2026" [ref=f9e978]
+                    - gridcell "Vivek Pandian" [ref=f9e979]
+                    - gridcell "Ink bottle" [ref=f9e980]
+                    - gridcell "Stationary" [ref=f9e981]
+                    - gridcell "1" [ref=f9e982]
+                    - gridcell "₹100.00" [ref=f9e983]
+                    - gridcell "₹10.00" [ref=f9e984]
+                    - gridcell "₹0.04" [ref=f9e985]
+                    - gridcell "₹100.00" [ref=f9e986]
+                    - gridcell "Pending" [ref=f9e987]:
+                      - generic [ref=f9e988]: Pending
+                    - gridcell "Success" [ref=f9e989]:
+                      - generic [ref=f9e990]: Success
+              - generic [ref=f9e632]:
+                - generic [ref=f9e991]: Previous
+                - generic [ref=f9e993] [cursor=pointer]: "1"
+                - generic [ref=f9e994]: Next
+      - contentinfo [ref=f9e207]:
+        - paragraph [ref=f9e211]:
+          - text: Copyright
+          - generic [ref=f9e212]: "2026"
+          - text: © Jeshwar Teaching
+  - img

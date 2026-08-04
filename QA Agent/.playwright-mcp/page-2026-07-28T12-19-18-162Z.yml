@@ -1,0 +1,196 @@
+- generic [ref=f18e2]:
+  - generic [ref=f18e3]:
+    - generic [ref=f18e5]:
+      - generic [ref=f18e6]:
+        - link "Logo" [ref=f18e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f18e8]
+        - text: 
+      - list [ref=f18e9]:
+        - listitem [ref=f18e10]:
+          - link " Dashboard" [ref=f18e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f18e12]: 
+            - text: Dashboard
+        - listitem [ref=f18e13]:
+          - link " Batches" [ref=f18e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f18e15]: 
+            - text: Batches
+        - listitem [ref=f18e16]:
+          - link " My Courses" [ref=f18e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f18e18]: 
+            - text: My Courses
+        - listitem [ref=f18e19]:
+          - link " eBooks" [ref=f18e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f18e21]: 
+            - text: eBooks
+        - listitem [ref=f18e22]:
+          - link " Wishlist" [ref=f18e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f18e24]: 
+            - text: Wishlist
+        - listitem [ref=f18e25]:
+          - link " Audiobook" [ref=f18e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f18e27]: 
+            - text: Audiobook
+        - listitem [ref=f18e28]:
+          - link " Resources" [ref=f18e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f18e30]: 
+            - text: Resources
+        - listitem [ref=f18e31]:
+          - link " Current Affairs" [ref=f18e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f18e33]: 
+            - text: Current Affairs
+        - listitem [ref=f18e34]:
+          - link " Test" [ref=f18e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f18e36]: 
+            - text: Test
+        - listitem [ref=f18e37]:
+          - link " Settings" [ref=f18e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f18e39]: 
+            - text: Settings
+        - listitem [ref=f18e40]:
+          - link " Call Reminders" [ref=f18e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f18e42]: 
+            - text: Call Reminders
+        - listitem [ref=f18e43]:
+          - link " Leaderboard" [ref=f18e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f18e45]: 
+            - text: Leaderboard
+        - listitem [ref=f18e46]:
+          - button " APL " [expanded] [ref=f18e47] [cursor=pointer]:
+            - generic [ref=f18e48]:
+              - generic [ref=f18e49]: 
+              - text: APL
+            - generic [ref=f18e50]: 
+          - list [ref=f18e51]:
+            - listitem [ref=f18e52]:
+              - link " Live APL" [ref=f18e53] [cursor=pointer]:
+                - /url: /LiveApl/Index
+                - generic [ref=f18e54]: 
+                - text: Live APL
+            - listitem [ref=f18e55]:
+              - link " APL Q20" [ref=f18e56] [cursor=pointer]:
+                - /url: /TestRoom/Index
+                - generic [ref=f18e57]: 
+                - text: APL Q20
+            - listitem [ref=f18e58]:
+              - link " APL Q20 Series" [ref=f18e59] [cursor=pointer]:
+                - /url: /FolderApl/Index
+                - generic [ref=f18e60]: 
+                - text: APL Q20 Series
+            - listitem [ref=f18e61]:
+              - link " Coin History" [ref=f18e62] [cursor=pointer]:
+                - /url: /CoinHistory/Index
+                - generic [ref=f18e63]: 
+                - text: Coin History
+        - listitem [ref=f18e64]:
+          - link " Notification" [ref=f18e65] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f18e66]: 
+            - text: Notification
+        - listitem [ref=f18e67]:
+          - button " Logout" [ref=f18e69] [cursor=pointer]:
+            - generic [ref=f18e70]: 
+            - text: Logout
+    - generic [ref=f18e72]:
+      - banner [ref=f18e73]:
+        - text: 
+        - generic [ref=f18e74]:
+          - generic [ref=f18e75]:
+            - generic [ref=f18e76]: 
+            - textbox "Search Course" [ref=f18e77]
+            - text: 
+          - link "" [ref=f18e79] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f18e81]: 
+          - link "Profile qatestapluser2" [ref=f18e83] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f18e84]
+            - generic [ref=f18e85]: qatestapluser2
+      - generic [ref=f18e86]:
+        - img "JT Logo" [ref=f18e88]
+        - link " Exit" [ref=f18e89] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - generic [ref=f18e90]: 
+          - text: Exit
+        - generic [ref=f18e93]:
+          - generic [ref=f18e94]:
+            - generic [ref=f18e96]: 
+            - generic [ref=f18e97]:
+              - generic [ref=f18e98]: 
+              - text: Upcoming
+          - generic [ref=f18e99]:
+            - generic [ref=f18e101]:
+              - generic [ref=f18e104]: UPCOMING SESSION
+              - heading "QATEST_APL_2026-07-28" [level=1] [ref=f18e105]:
+                - generic [ref=f18e106]: QATEST_APL_2026-07-28
+              - generic [ref=f18e107]:
+                - generic [ref=f18e108]:
+                  - generic [ref=f18e110]: 
+                  - generic [ref=f18e111]:
+                    - generic [ref=f18e112]: 28 Jul 2026, 06:10 PM
+                    - generic [ref=f18e113]: Starts At
+                - generic [ref=f18e114]:
+                  - generic [ref=f18e116]: 
+                  - generic [ref=f18e117]:
+                    - generic [ref=f18e118]: 28 Jul 2026, 06:14 PM
+                    - generic [ref=f18e119]: Ends At
+                - generic [ref=f18e120]:
+                  - generic [ref=f18e122]: 
+                  - generic [ref=f18e123]:
+                    - generic [ref=f18e124]: "3"
+                    - generic [ref=f18e125]: Questions
+                - generic [ref=f18e126]:
+                  - generic [ref=f18e128]: 
+                  - generic [ref=f18e129]:
+                    - generic [ref=f18e130]: 90s
+                    - generic [ref=f18e131]: Per Question
+              - tablist [ref=f18e132]:
+                - button " Description" [ref=f18e133] [cursor=pointer]:
+                  - generic [ref=f18e134]: 
+                  - text: Description
+                - button " Instructions" [ref=f18e135] [cursor=pointer]:
+                  - generic [ref=f18e136]: 
+                  - text: Instructions
+                - button " Syllabus" [ref=f18e137] [cursor=pointer]:
+                  - generic [ref=f18e138]: 
+                  - text: Syllabus
+              - generic [ref=f18e139]:
+                - generic [ref=f18e141]:
+                  - generic [ref=f18e142]: 
+                  - generic [ref=f18e143]: No description yet.
+                - text:  
+            - generic [ref=f18e144]:
+              - generic [ref=f18e145]:
+                - generic [ref=f18e146]: 
+                - text: Live rankings — register to play in real-time
+              - button " Register & Join" [ref=f18e147] [cursor=pointer]:
+                - generic [ref=f18e148]: 
+                - text: Register & Join
+      - text:    
+  - generic "Ask a doubt" [ref=f18e149]:
+    - generic [ref=f18e150]: 
+  - text:      
+  - contentinfo [ref=f18e151]:
+    - generic [ref=f18e152]:
+      - paragraph [ref=f18e154]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f18e155]:
+        - link "About Us" [ref=f18e156] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f18e157] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f18e158] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f18e159] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

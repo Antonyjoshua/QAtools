@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #030309;
+  --surface: #0d0d1e;
+  --surface-2: #111128;
+  --border: rgba(255,255,255,0.06);
+  --border-active: rgba(99,102,241,0.4);
+  --indigo: #6366f1;
+  --purple: #a855f7;
+  --cyan: #06b6d4;
+  --neon: #10b981;
+  --ember: #f97316;
+  --text: #f8fafc;
+  --text-muted: #94a3b8;
+  --glass: rgba(255,255,255,0.03);
+  --glass-strong: rgba(255,255,255,0.06);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--indigo); border-radius: 2px; }
+
+/* ── Glass ── */
+.glass {
+  background: var(--glass);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+}
+
+.glass-strong {
+  background: var(--glass-strong);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* ── Gradient text ── */
+.gradient-text {
+  background: linear-gradient(135deg, #6366f1, #a855f7, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-warm {
+  background: linear-gradient(135deg, #f97316, #ef4444, #f59e0b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Section label ── */
+.section-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--indigo);
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+/* ── Card shimmer ── */
+.card-shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.04) 50%, transparent 60%);
+  background-size: 200% 100%;
+  animation: shimmer 3s linear infinite;
+}
+
+/* ── Glow utilities ── */
+.glow-indigo  { box-shadow: 0 0 30px rgba(99,102,241,0.2); }
+.glow-purple  { box-shadow: 0 0 30px rgba(168,85,247,0.2); }
+.glow-cyan    { box-shadow: 0 0 30px rgba(6,182,212,0.2); }
+.glow-ember   { box-shadow: 0 0 30px rgba(249,115,22,0.2); }
+
+/* ── Neon border ── */
+.neon-border-indigo {
+  border: 1px solid rgba(99,102,241,0.35);
+  box-shadow: inset 0 0 20px rgba(99,102,241,0.05), 0 0 20px rgba(99,102,241,0.1);
+}
+
+/* ── Price badge ── */
+.price-badge {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+}
+
+/* ── Terminal cursor ── */
+.terminal-cursor::after {
+  content: '▊';
+  animation: blink 1s step-end infinite;
+  color: var(--indigo);
+  margin-left: 2px;
+}
+
+@keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+
+/* ── Preview iframe ── */
+.preview-frame {
+  border: none;
+  display: block;
+  width: 1440px;
+  height: 900px;
+  transform-origin: top left;
+  pointer-events: none;
+}
+
+/* ── Viewport previews ── */
+.device-frame {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* ── Badge ── */
+.badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.badge-new      { background: rgba(16,185,129,0.15); color: #10b981; border: 1px solid rgba(16,185,129,0.3); }
+.badge-popular  { background: rgba(99,102,241,0.15); color: #818cf8; border: 1px solid rgba(99,102,241,0.3); }
+.badge-featured { background: rgba(168,85,247,0.15); color: #c084fc; border: 1px solid rgba(168,85,247,0.3); }
+.badge-hot      { background: rgba(249,115,22,0.15);  color: #fb923c; border: 1px solid rgba(249,115,22,0.3);  }
+
+/* ── Star rating ── */
+.star { color: #fbbf24; }
+.star-empty { color: rgba(251,191,36,0.2); }
+
+/* ── Pill button ── */
+.pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 22px;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-family: 'Outfit', sans-serif;
+}
+
+.pill-btn-primary {
+  background: linear-gradient(135deg, #6366f1, #a855f7);
+  color: #fff;
+  border: none;
+}
+.pill-btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 30px rgba(99,102,241,0.4);
+}
+
+.pill-btn-outline {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.pill-btn-outline:hover {
+  border-color: rgba(99,102,241,0.5);
+  color: #818cf8;
+  background: rgba(99,102,241,0.05);
+}
+
+/* ── Input ── */
+.input {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 10px 14px;
+  color: var(--text);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+  width: 100%;
+}
+.input:focus { border-color: rgba(99,102,241,0.5); background: rgba(99,102,241,0.04); }
+.input::placeholder { color: var(--text-muted); }
+
+/* ── Smooth scroll container ── */
+html.lenis { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }

@@ -1,0 +1,225 @@
+- generic [ref=f9e1]:
+  - generic [ref=f9e7]:
+    - generic [ref=f9e8]:
+      - generic [ref=f9e9]:
+        - heading "AI Question Generator" [level=4] [ref=f9e10]
+        - navigation [ref=f9e11]:
+          - list [ref=f9e12]:
+            - listitem [ref=f9e13]:
+              - link [ref=f9e14] [cursor=pointer]:
+                - /url: /Question/Index
+                - img [ref=f9e15]
+            - listitem [ref=f9e18]: / AI Question Generator
+      - generic [ref=f9e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - img [ref=f9e23] [cursor=pointer]
+        - list [ref=f9e26]:
+          - listitem [ref=f9e27]:
+            - generic [ref=f9e29] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f9e30]:
+      - generic [ref=f9e32]:
+        - text: 
+        - link [ref=f9e34] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f9e35]:
+          - list [ref=f9e37]:
+            - generic [ref=f9e42]:
+              - text: 
+              - listitem [ref=f9e43]:
+                - link [ref=f9e44] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f9e45]
+                  - text: 
+              - listitem [ref=f9e47]:
+                - link [ref=f9e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e49]
+                  - text: 
+              - listitem [ref=f9e51]:
+                - link [ref=f9e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e53]
+                  - text: 
+              - listitem [ref=f9e55]:
+                - link [ref=f9e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e57]
+                  - text: 
+              - listitem [ref=f9e59]:
+                - link [ref=f9e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e61]
+                  - text: 
+              - listitem [ref=f9e63]:
+                - link "" [ref=f9e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f9e65]: 
+                  - text: 
+              - listitem [ref=f9e66]:
+                - link [ref=f9e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e68]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f9e70]:
+                - link [ref=f9e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e72]
+                  - text: 
+              - listitem [ref=f9e74]:
+                - link [ref=f9e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e76]
+                  - text: 
+              - listitem [ref=f9e78]:
+                - link "general icon" [ref=f9e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f9e80]
+                  - text: 
+              - listitem [ref=f9e81]:
+                - link [ref=f9e82] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f9e83]
+                  - text: 
+              - listitem [ref=f9e85]:
+                - link [ref=f9e86] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f9e87]
+                  - text: 
+              - listitem [ref=f9e89]:
+                - link "product icon" [ref=f9e90] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f9e91]
+                  - text: 
+              - listitem [ref=f9e92]:
+                - link [ref=f9e93] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e94]
+                  - text: 
+              - listitem [ref=f9e96]:
+                - link [ref=f9e97] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f9e98]
+                  - text: 
+              - listitem [ref=f9e100]:
+                - link [ref=f9e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e102]
+                  - text: 
+              - listitem [ref=f9e104]:
+                - link "notify-ico" [ref=f9e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f9e106]
+                  - text: 
+              - listitem [ref=f9e107]:
+                - link "notify-ico" [ref=f9e108] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f9e109]
+                  - text: 
+      - main [ref=f9e111]:
+        - generic [ref=f9e113]:
+          - generic [ref=f9e114]:
+            - heading "AI Question Generator" [level=4] [ref=f9e115]
+            - generic [ref=f9e116]:
+              - button " Generate Questions" [disabled]:
+                - generic: 
+                - text: Generate Questions
+              - link " Back to Questions" [ref=f9e117] [cursor=pointer]:
+                - /url: /Question/Index?assessmentId=1172
+                - generic [ref=f9e118]: 
+                - text: Back to Questions
+          - generic [ref=f9e119]:
+            - generic [ref=f9e122]:
+              - generic [ref=f9e123]: 
+              - strong [ref=f9e124]: "Assessment:"
+              - text: QA Test Assessment - 2026-07-08 |
+              - strong [ref=f9e125]: "Max Questions:"
+              - text: 5 |
+              - strong [ref=f9e126]: "Existing:"
+              - text: 0 |
+              - strong [ref=f9e127]: "Remaining Slots:"
+              - text: "5"
+            - generic [ref=f9e128]:
+              - generic [ref=f9e129]:
+                - generic [ref=f9e130]:
+                  - generic [ref=f9e131]:
+                    - text: Upload Files
+                    - generic [ref=f9e132]: "*"
+                  - generic [ref=f9e133] [cursor=pointer]:
+                    - generic [ref=f9e134]: 
+                    - paragraph [ref=f9e135]: Drag & drop PDF, Word, or image files here, or click to browse
+                - generic [ref=f9e136]:
+                  - generic [ref=f9e137]: Number of Questions
+                  - spinbutton [ref=f9e138]: "5"
+                - generic [ref=f9e139]:
+                  - generic [ref=f9e140]: Marks per Question
+                  - spinbutton [ref=f9e141]: "20"
+              - generic [ref=f9e142]:
+                - generic [ref=f9e143]:
+                  - generic [ref=f9e144]: Difficulty Level
+                  - combobox [ref=f9e145] [cursor=pointer]:
+                    - option "Easy"
+                    - option "Medium" [selected]
+                    - option "Hard"
+                - generic [ref=f9e146]:
+                  - generic [ref=f9e147]:
+                    - text: Prompt Configuration
+                    - generic [ref=f9e148]: "*"
+                  - combobox [ref=f9e149] [cursor=pointer]:
+                    - option "-- Select Prompt Config --"
+                    - option "Assertion Reason Question (Google / gemini-2.5-flash)"
+                    - option "Match the following (Google / gemini-2.5-flash)"
+                    - option "Match The Following001 (Google / gemini-2.5-flash)"
+                    - option "Maths (Google / gemini-2.5-flash)"
+                    - option "Migration Prompt (Google / gemini-2.5-flash)"
+                    - option "pdf to text maths (Google / gemini-2.5-flash)"
+                    - option "pyq-roman,direct (Google / gemini-2.5-flash)" [selected]
+                    - option "Tamil (Google / gemini-2.5-flash)"
+                  - text: Select the AI provider and model configuration to use
+              - generic [ref=f9e175]:
+                - generic [ref=f9e176]: 
+                - strong [ref=f9e177]: "Provider:"
+                - generic [ref=f9e178]: Google
+                - text: "|"
+                - strong [ref=f9e179]: "Model:"
+                - generic [ref=f9e180]: gemini-2.5-flash
+                - text: "|"
+                - strong [ref=f9e181]: "Temperature:"
+                - generic [ref=f9e182]: "0.70"
+              - generic [ref=f9e151]:
+                - generic [ref=f9e152]: Languages to generate
+                - generic [ref=f9e153]:
+                  - generic [ref=f9e154]:
+                    - checkbox "Tamil (always included)" [checked] [disabled]
+                    - generic [ref=f9e155]:
+                      - text: Tamil
+                      - generic [ref=f9e156]: (always included)
+                  - generic [ref=f9e157]:
+                    - checkbox "English" [checked] [ref=f9e158] [cursor=pointer]
+                    - generic [ref=f9e159]: English
+                - text: Tamil is saved into the main Questions tables; English (when checked) is saved into the QuestionTranslations tables for the same QuestionId.
+              - generic [ref=f9e161]:
+                - generic [ref=f9e162]: Rules / Instructions
+                - textbox "Select a prompt config above to load its rules, or type your own..." [ref=f9e163]: "### MATCH THE FOLLOWING LAYOUT (STRICT) If the uploaded question is a \"Match the Following\" question, NEVER convert it into a normal vertical list. Preserve the original two-column layout exactly as shown. The output must visually resemble the original question paper. நான் Upload செய்யும் Image / PDF / Screenshot / Video Frame-ல் உள்ள Questions-ஐ மட்டும் எடுத்துக் கொள்ள வேண்டும். Extra Question உருவாக்கக்கூடாது.Sample Question சேர்க்கக்கூடாது.Uploaded Content-ல் இல்லாத எந்த Question-யும் சேர்க்கக்கூடாது. ### Question Format Question-ஐ Mobile App-க்கு Clear-ஆ தெரியும் Format-ல் மாற்றி கொடுக்க வேண்டும். Statement Question என்றால்: Question Heading I. Statement 1 II. Statement 2 III. Statement 3 IV. Statement 4 Options:(A) Option A(B) Option B(C) Option C(D) Option D ### Match the Following Question என்றால் இந்த Format மட்டும் பயன்படுத்த வேண்டும்: Question Heading List I (a) Item 1(b) Item 2(c) Item 3(d) Item 4 List II 1. Item 12. Item 23. Item 34. Item 4 Options:(A) (a)-4 (b)-3 (c)-2 (d)-1(B) (a)-1 (b)-2 (c)-3 (d)-4(C) (a)-2 (b)-3 (c)-4 (d)-1(D) (a)-3 (b)-2 (c)-1 (d)-4 ### Bilingual Rule முதலில் Tamil Question கொடுக்க வேண்டும்.அதற்கு கீழே English Question கொடுக்க வேண்டும். Tamil மற்றும் English இரண்டிலும் ஒரே Format இருக்க வேண்டும். ### Option Rule Options-ஐ தனித்தனி Option A, Option B, Option C, Option D ஆக கொடுக்க வேண்டும். Option Text-ஐ மாற்றக்கூடாது.Option Order-ஐ மாற்றக்கூடாது. ### Answer Correct Answer-ஐ தெளிவாக கொடுக்க வேண்டும். ### Solution Rule Solution Paragraph ஆக இருக்கக்கூடாது. Solution 4 முதல் 6 Bullet Points மட்டும் இருக்க வேண்டும். ஒவ்வொரு Point-மும் தனித்தனி Line-ல் இருக்க வேண்டும். Solution Format: • Correct Answer ஏன் சரி என்பதை சொல்ல வேண்டும்.• Question-க்கு தொடர்பான முக்கிய Concept சொல்ல வேண்டும்.• தேவையான Year / Article / Person / Institution இருந்தால் குறிப்பிட வேண்டும்.• மற்ற Options ஏன் தவறு என்பதை சுருக்கமாக சொல்ல வேண்டும்.• Exam Point of View-ல் நினைவில் வைத்துக்கொள்ள வேண்டிய முக்கிய தகவலை சொல்ல வேண்டும். ### Strict Rule Question-ல் உள்ள I, II, III, IV Statements எல்லாம் Question Field-க்குள் வர வேண்டும். Match the Following Questions-ல் List I மற்றும் List II Mobile-friendly Format-ல் வர வேண்டும். Do not use two-column layout for Match the Following. Do not create extra questions. Do not skip any visible question. Do not write long paragraph solutions. Output clean, neat, app-friendly and easy to read. ### SOLUTION FORMATTING RULE (STRICT) Solution MUST NOT be written as a paragraph. Every explanation must be on a separate bullet point. Each bullet point must contain only ONE idea. Leave one blank line between every bullet point for better readability. ### SOLUTION FORMAT (STRICT) The solution must contain ONLY important factual points related to the correct answer. Do NOT use headings such as: ❌ Why is it correct?❌ Concept❌ Why are the other options wrong?❌ Conclusion❌ Exam Point❌ Notes❌ Explanation Instead, generate ONLY 4 to 6 short bullet points. Each bullet point must contain one important fact. Every bullet point must be independent. Do not repeat the same information in different words. Do not explain the question again. Do not explain why the wrong options are wrong unless absolutely necessary. Focus only on the most important exam-related facts connected to the correct answer. Each bullet point should be one or two short lines only. Example: • இந்திய அரசியலமைப்பின் Article 64 படி, துணைக் குடியரசுத் தலைவர் மாநிலங்களவையின் பதவிவழித் தலைவராக செயல்படுகிறார். • Article 89(1) மாநிலங்களவையின் தலைவராக துணைக் குடியரசுத் தலைவர் செயல்படுவதை உறுதி செய்கிறது. • துணைக் குடியரசுத் தலைவர் Article 66-ன் படி, நாடாளுமன்றத்தின் இரு அவைகளின் தேர்ந்தெடுக்கப்பட்ட உறுப்பினர்களைக் கொண்ட தேர்தல் கல்லூரியால் தேர்ந்தெடுக்கப்படுகிறார். • மாநிலங்களவை உறுப்பினர்களால் மட்டும் அவர் தேர்ந்தெடுக்கப்படுவதில்லை. • TNPSC தேர்வில் Article 64, 66 மற்றும் 89(1) அடிக்கடி கேட்கப்படும் முக்கிய அரசியலமைப்பு பிரிவுகளாகும். ### SOLUTION ORGANIZATION (STRICT) Do NOT write the solution as a continuous paragraph. Split the solution into logical reading points. Each point must contain only one complete idea. Leave one blank line after every point. Do NOT merge multiple concepts into a single paragraph. Arrange the explanation in the following logical order: • Correct answer • First important fact • Second important fact • Third important fact • Related Article / Year / Person (if applicable) • Final conclusion Every point must be short, clean, and easy to read on a mobile screen. The solution should look like organized study notes, not like a paragraph from a textbook. சரியான விடை : (A) • கூற்று (A) சரியானது. • இந்திய அரசியலமைப்பின் Article 64-ன் படி, துணைக் குடியரசுத் தலைவர் மாநிலங்களவையின் பதவிவழித் தலைவராக செயல்படுகிறார். • Article 89(1)-ம் இதையே உறுதிப்படுத்துகிறது. • காரணம் (R) தவறானது. • துணைக் குடியரசுத் தலைவர் மாநிலங்களவை உறுப்பினர்களால் மட்டும் தேர்ந்தெடுக்கப்படுவதில்லை. • Article 66-ன் படி, நாடாளுமன்றத்தின் இரு அவைகளின் தேர்ந்தெடுக்கப்பட்ட உறுப்பினர்களைக் கொண்ட தேர்தல் கல்லூரியால் தேர்ந்தெடுக்கப்படுகிறார். • எனவே, கூற்று (A) சரியானது; ஆனால் காரணம் (R) தவறானது."
+                - text: " Rules from the selected prompt config are loaded here. You can edit or add more instructions. Note: structural rules (clean MCQ format, bilingual JSON shape) are enforced automatically and cannot be overridden here."
+              - generic [ref=f9e165]:
+                - button " Generate Questions" [disabled]:
+                  - generic: 
+                  - text: Generate Questions
+      - contentinfo [ref=f9e166]:
+        - paragraph [ref=f9e170]:
+          - text: Copyright
+          - generic [ref=f9e171]: "2026"
+          - text: © Jeshwar Teaching
+  - img

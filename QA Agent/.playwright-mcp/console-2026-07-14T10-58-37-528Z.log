@@ -1,0 +1,16 @@
+[     258ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[     832ms] [LOG] Current Path: /admin/books/manualpurchase/create @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Create:1179
+[     834ms] [LOG] Matched: /admin/books/manualpurchase/create {menu: Manual Purchase, submenu: null} @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Create:1394
+[     836ms] [LOG] Activating menu: Manual Purchase Submenu: null @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Create:1406
+[     840ms] [LOG] Found menu: Manual Purchase @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Create:1415
+[   44096ms] [LOG] Current Path: /admin/books/manualpurchase/index @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Index:855
+[   44098ms] [LOG] Matched: /admin/books/manualpurchase/index {menu: Manual Purchase, submenu: null} @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Index:1070
+[   44100ms] [LOG] Activating menu: Manual Purchase Submenu: null @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Index:1082
+[   44104ms] [LOG] Found menu: Manual Purchase @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Index:1091
+[   58336ms] [LOG] Current Path: /inventory/inventory @ https://jt-admin.scopethinkers.com/Inventory/Inventory:1083
+[   58337ms] [LOG] Matched: /inventory/inventory {menu: Product, submenu: Inventory Management} @ https://jt-admin.scopethinkers.com/Inventory/Inventory:1298
+[   58337ms] [LOG] Activating menu: Product Submenu: Inventory Management @ https://jt-admin.scopethinkers.com/Inventory/Inventory:1310
+[   58338ms] [LOG] Found menu: Product @ https://jt-admin.scopethinkers.com/Inventory/Inventory:1319
+[   58338ms] [LOG] Activated submenu: Inventory Management @ https://jt-admin.scopethinkers.com/Inventory/Inventory:1340

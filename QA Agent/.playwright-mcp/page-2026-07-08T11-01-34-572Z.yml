@@ -1,0 +1,878 @@
+- generic [ref=f12e1]:
+  - generic [ref=f12e2]:
+    - generic [ref=f12e3]:
+      - generic [ref=f12e4]:
+        - heading "AI Generated Questions - Preview" [level=4] [ref=f12e5]
+        - navigation [ref=f12e6]:
+          - list [ref=f12e7]:
+            - listitem [ref=f12e8]:
+              - link [ref=f12e9] [cursor=pointer]:
+                - /url: /Question/Index
+                - img [ref=f12e10]
+            - listitem [ref=f12e13]: / AI Generated Questions - Preview
+      - generic [ref=f12e15]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - img [ref=f12e18] [cursor=pointer]
+        - list [ref=f12e21]:
+          - listitem [ref=f12e22]:
+            - generic [ref=f12e24] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f12e25]:
+      - generic [ref=f12e27]:
+        - text: 
+        - link [ref=f12e29] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f12e30]:
+          - list [ref=f12e32]:
+            - generic [ref=f12e37]:
+              - text: 
+              - listitem [ref=f12e38]:
+                - link [ref=f12e39] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f12e40]
+                  - text: 
+              - listitem [ref=f12e42]:
+                - link [ref=f12e43] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e44]
+                  - text: 
+              - listitem [ref=f12e46]:
+                - link [ref=f12e47] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e48]
+                  - text: 
+              - listitem [ref=f12e50]:
+                - link [ref=f12e51] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e52]
+                  - text: 
+              - listitem [ref=f12e54]:
+                - link [ref=f12e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e56]
+                  - text: 
+              - listitem [ref=f12e58]:
+                - link "" [ref=f12e59] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f12e60]: 
+                  - text: 
+              - listitem [ref=f12e61]:
+                - link [ref=f12e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e63]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f12e65]:
+                - link [ref=f12e66] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e67]
+                  - text: 
+              - listitem [ref=f12e69]:
+                - link [ref=f12e70] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e71]
+                  - text: 
+              - listitem [ref=f12e73]:
+                - link "general icon" [ref=f12e74] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f12e75]
+                  - text: 
+              - listitem [ref=f12e76]:
+                - link [ref=f12e77] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f12e78]
+                  - text: 
+              - listitem [ref=f12e80]:
+                - link [ref=f12e81] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f12e82]
+                  - text: 
+              - listitem [ref=f12e84]:
+                - link "product icon" [ref=f12e85] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f12e86]
+                  - text: 
+              - listitem [ref=f12e87]:
+                - link [ref=f12e88] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e89]
+                  - text: 
+              - listitem [ref=f12e91]:
+                - link [ref=f12e92] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f12e93]
+                  - text: 
+              - listitem [ref=f12e95]:
+                - link [ref=f12e96] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e97]
+                  - text: 
+              - listitem [ref=f12e99]:
+                - link "notify-ico" [ref=f12e100] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f12e101]
+                  - text: 
+              - listitem [ref=f12e102]:
+                - link "notify-ico" [ref=f12e103] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f12e104]
+                  - text: 
+      - main [ref=f12e106]:
+        - generic [ref=f12e108]:
+          - generic [ref=f12e109]:
+            - heading "AI Generated Questions - Preview" [level=4] [ref=f12e110]
+            - generic [ref=f12e111]:
+              - button " Regenerate" [ref=f12e112] [cursor=pointer]:
+                - generic [ref=f12e113]: 
+                - text: Regenerate
+              - link " Back" [ref=f12e114] [cursor=pointer]:
+                - /url: /Question/Index?assessmentId=1172
+                - generic [ref=f12e115]: 
+                - text: Back
+          - generic [ref=f12e116]:
+            - generic [ref=f12e117]:
+              - generic [ref=f12e118]: 
+              - strong [ref=f12e119]: "Assessment:"
+              - text: QA Test Assessment - 2026-07-08 |
+              - strong [ref=f12e120]: "Questions Generated:"
+              - text: "1"
+            - generic [ref=f12e122]:
+              - generic [ref=f12e123]: 
+              - strong [ref=f12e124]: "Total Required:"
+              - generic [ref=f12e125]: "5"
+              - text: "|"
+              - strong [ref=f12e126]: "Already in DB:"
+              - generic [ref=f12e127]: "0"
+              - text: "|"
+              - strong [ref=f12e128]: "Remaining to Add:"
+              - generic [ref=f12e129]: "5"
+              - text: "|"
+              - strong [ref=f12e130]: "Generated in this batch:"
+              - text: "1"
+            - generic [ref=f12e282]:
+              - text: 10 question(s) regenerated successfully.
+              - button [ref=f12e283] [cursor=pointer]
+            - table [ref=f12e132]:
+              - rowgroup [ref=f12e133]:
+                - 'row "Select All / Deselect All # Question Option A Option B Option C Option D Answer Solution Marks" [ref=f12e134]':
+                  - columnheader "Select All / Deselect All" [ref=f12e135]:
+                    - checkbox "Select All / Deselect All" [checked] [active] [ref=f12e136] [cursor=pointer]
+                  - columnheader "#" [ref=f12e137]
+                  - columnheader "Question" [ref=f12e138]
+                  - columnheader "Option A" [ref=f12e139]
+                  - columnheader "Option B" [ref=f12e140]
+                  - columnheader "Option C" [ref=f12e141]
+                  - columnheader "Option D" [ref=f12e142]
+                  - columnheader "Answer" [ref=f12e143]
+                  - columnheader "Solution" [ref=f12e144]
+                  - columnheader "Marks" [ref=f12e145]
+              - rowgroup [ref=f12e146]:
+                - row [ref=f12e284]:
+                  - cell [ref=f12e285]:
+                    - checkbox [checked] [ref=f12e286] [cursor=pointer]
+                  - cell "1" [ref=f12e287]
+                  - 'cell "TA கூற்று: இந்திய அரசியலமைப்பை உருவாக்குவதில் டாக்டர் பி.ஆர். அம்பேத்கர் ஒரு முக்கிய பங்கை வகித்தார். காரணம்: அவர் இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தார்." [ref=f12e288]':
+                    - generic [ref=f12e289]: TA
+                    - paragraph [ref=f12e290]:
+                      - strong [ref=f12e291]:
+                        - text: "கூற்று:"
+                        - text: இந்திய அரசியலமைப்பை உருவாக்குவதில் டாக்டர் பி.ஆர். அம்பேத்கர் ஒரு முக்கிய பங்கை வகித்தார்.
+                        - text: "காரணம்:"
+                        - text: அவர் இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தார்.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e292]:
+                    - paragraph [ref=f12e293]:
+                      - strong [ref=f12e294]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e295]:
+                      - strong [ref=f12e296]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e297]:
+                    - paragraph [ref=f12e298]:
+                      - strong [ref=f12e299]: கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல.
+                    - paragraph [ref=f12e300]:
+                      - strong [ref=f12e301]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "கூற்று சரி; காரணம் தவறு. Assertion is correct, but Reason is incorrect." [ref=f12e302]:
+                    - paragraph [ref=f12e303]:
+                      - strong [ref=f12e304]: கூற்று சரி; காரணம் தவறு.
+                    - paragraph [ref=f12e305]:
+                      - strong [ref=f12e306]: Assertion is correct, but Reason is incorrect.
+                  - cell "கூற்று தவறு; காரணம் சரி. Assertion is incorrect, but Reason is correct." [ref=f12e307]:
+                    - paragraph [ref=f12e308]:
+                      - strong [ref=f12e309]: கூற்று தவறு; காரணம் சரி.
+                    - paragraph [ref=f12e310]:
+                      - strong [ref=f12e311]: Assertion is incorrect, but Reason is correct.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e312]:
+                    - paragraph [ref=f12e313]:
+                      - strong [ref=f12e314]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e315]:
+                      - strong [ref=f12e316]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "டாக்டர் பி.ஆர். அம்பேத்கர் இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தார், இது இந்திய அரசியலமைப்பை உருவாக்குவதில் அவரது மையப் பங்கிற்கு நேரடி காரணமாகும். எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்." [ref=f12e317]:
+                    - paragraph [ref=f12e318]:
+                      - strong [ref=f12e319]: டாக்டர் பி.ஆர். அம்பேத்கர் இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தார், இது இந்திய அரசியலமைப்பை உருவாக்குவதில் அவரது மையப் பங்கிற்கு நேரடி காரணமாகும். எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்.
+                  - cell "20" [ref=f12e320]
+                - 'row "EN Assertion: Dr. B.R. Ambedkar played a pivotal role in the making of the Indian Constitution. Reason: He was the Chairman of the Drafting Committee of the Indian Constitution. Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion. Assertion is correct, but Reason is incorrect. Assertion is incorrect, but Reason is correct. Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion. Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution, which directly accounts for his central role in its making. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e321]':
+                  - 'cell "EN Assertion: Dr. B.R. Ambedkar played a pivotal role in the making of the Indian Constitution. Reason: He was the Chairman of the Drafting Committee of the Indian Constitution." [ref=f12e322]':
+                    - generic [ref=f12e323]: EN
+                    - paragraph [ref=f12e324]:
+                      - strong [ref=f12e325]:
+                        - text: "Assertion:"
+                        - text: Dr. B.R. Ambedkar played a pivotal role in the making of the Indian Constitution.
+                        - text: "Reason:"
+                        - text: He was the Chairman of the Drafting Committee of the Indian Constitution.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e326]:
+                    - paragraph [ref=f12e327]:
+                      - strong [ref=f12e328]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e329]:
+                    - paragraph [ref=f12e330]:
+                      - strong [ref=f12e331]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "Assertion is correct, but Reason is incorrect." [ref=f12e332]:
+                    - paragraph [ref=f12e333]:
+                      - strong [ref=f12e334]: Assertion is correct, but Reason is incorrect.
+                  - cell "Assertion is incorrect, but Reason is correct." [ref=f12e335]:
+                    - paragraph [ref=f12e336]:
+                      - strong [ref=f12e337]: Assertion is incorrect, but Reason is correct.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e338]:
+                    - paragraph [ref=f12e339]:
+                      - strong [ref=f12e340]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution, which directly accounts for his central role in its making. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e341]:
+                    - paragraph [ref=f12e342]:
+                      - strong [ref=f12e343]: Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution, which directly accounts for his central role in its making. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                - row [ref=f12e344]:
+                  - cell [ref=f12e345]:
+                    - checkbox [checked] [ref=f12e346] [cursor=pointer]
+                  - cell "2" [ref=f12e347]
+                  - 'cell "TA கூற்று: இந்திய அரசியலமைப்பு 1949 நவம்பர் 26 அன்று ஏற்றுக்கொள்ளப்பட்டது, ஆனால் 1950 ஜனவரி 26 அன்று நடைமுறைக்கு வந்தது. காரணம்: 1930 ஆம் ஆண்டின் பூர்ண சுயராஜ்ய தினத்தை நினைவுகூரும் வகையில் ஜனவரி 26 நடைமுறைக்கு வரும் தேதியாகத் தேர்ந்தெடுக்கப்பட்டது." [ref=f12e348]':
+                    - generic [ref=f12e349]: TA
+                    - paragraph [ref=f12e350]:
+                      - strong [ref=f12e351]:
+                        - text: "கூற்று:"
+                        - text: இந்திய அரசியலமைப்பு 1949 நவம்பர் 26 அன்று ஏற்றுக்கொள்ளப்பட்டது, ஆனால் 1950 ஜனவரி 26 அன்று நடைமுறைக்கு வந்தது.
+                        - text: "காரணம்:"
+                        - text: 1930 ஆம் ஆண்டின் பூர்ண சுயராஜ்ய தினத்தை நினைவுகூரும் வகையில் ஜனவரி 26 நடைமுறைக்கு வரும் தேதியாகத் தேர்ந்தெடுக்கப்பட்டது.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e352]:
+                    - paragraph [ref=f12e353]:
+                      - strong [ref=f12e354]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e355]:
+                      - strong [ref=f12e356]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e357]:
+                    - paragraph [ref=f12e358]:
+                      - strong [ref=f12e359]: கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல.
+                    - paragraph [ref=f12e360]:
+                      - strong [ref=f12e361]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "கூற்று சரி; காரணம் தவறு. Assertion is correct, but Reason is incorrect." [ref=f12e362]:
+                    - paragraph [ref=f12e363]:
+                      - strong [ref=f12e364]: கூற்று சரி; காரணம் தவறு.
+                    - paragraph [ref=f12e365]:
+                      - strong [ref=f12e366]: Assertion is correct, but Reason is incorrect.
+                  - cell "கூற்று தவறு; காரணம் சரி. Assertion is incorrect, but Reason is correct." [ref=f12e367]:
+                    - paragraph [ref=f12e368]:
+                      - strong [ref=f12e369]: கூற்று தவறு; காரணம் சரி.
+                    - paragraph [ref=f12e370]:
+                      - strong [ref=f12e371]: Assertion is incorrect, but Reason is correct.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e372]:
+                    - paragraph [ref=f12e373]:
+                      - strong [ref=f12e374]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e375]:
+                      - strong [ref=f12e376]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "இந்திய அரசியலமைப்பு 1949 நவம்பர் 26 அன்று ஏற்றுக்கொள்ளப்பட்டது. இருப்பினும், 1930 ஜனவரி 26 அன்று அறிவிக்கப்பட்ட பூர்ண சுயராஜ்ய தினத்தின் வரலாற்று முக்கியத்துவத்தை முன்னிட்டு, அரசியலமைப்பை 1950 ஜனவரி 26 அன்று நடைமுறைப்படுத்துவது என முடிவு செய்யப்பட்டது. எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்." [ref=f12e377]:
+                    - paragraph [ref=f12e378]:
+                      - strong [ref=f12e379]: இந்திய அரசியலமைப்பு 1949 நவம்பர் 26 அன்று ஏற்றுக்கொள்ளப்பட்டது. இருப்பினும், 1930 ஜனவரி 26 அன்று அறிவிக்கப்பட்ட பூர்ண சுயராஜ்ய தினத்தின் வரலாற்று முக்கியத்துவத்தை முன்னிட்டு, அரசியலமைப்பை 1950 ஜனவரி 26 அன்று நடைமுறைப்படுத்துவது என முடிவு செய்யப்பட்டது. எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்.
+                  - cell "20" [ref=f12e380]
+                - row [ref=f12e381]:
+                  - 'cell "EN Assertion: The Constitution of India was adopted on 26 November 1949, but came into force on 26 January 1950. Reason: 26 January was chosen as the date of enforcement to commemorate the Purna Swaraj Declaration of 1930." [ref=f12e382]':
+                    - generic [ref=f12e383]: EN
+                    - paragraph [ref=f12e384]:
+                      - strong [ref=f12e385]:
+                        - text: "Assertion:"
+                        - text: The Constitution of India was adopted on 26 November 1949, but came into force on 26 January 1950.
+                        - text: "Reason:"
+                        - text: 26 January was chosen as the date of enforcement to commemorate the Purna Swaraj Declaration of 1930.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e386]:
+                    - paragraph [ref=f12e387]:
+                      - strong [ref=f12e388]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e389]:
+                    - paragraph [ref=f12e390]:
+                      - strong [ref=f12e391]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "Assertion is correct, but Reason is incorrect." [ref=f12e392]:
+                    - paragraph [ref=f12e393]:
+                      - strong [ref=f12e394]: Assertion is correct, but Reason is incorrect.
+                  - cell "Assertion is incorrect, but Reason is correct." [ref=f12e395]:
+                    - paragraph [ref=f12e396]:
+                      - strong [ref=f12e397]: Assertion is incorrect, but Reason is correct.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e398]:
+                    - paragraph [ref=f12e399]:
+                      - strong [ref=f12e400]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "The Constitution of India was adopted on 26 November 1949. However, to commemorate the historic significance of Purna Swaraj Day, declared on 26 January 1930, it was decided to bring the Constitution into force on 26 January 1950. Thus, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e401]:
+                    - paragraph [ref=f12e402]:
+                      - strong [ref=f12e403]: The Constitution of India was adopted on 26 November 1949. However, to commemorate the historic significance of Purna Swaraj Day, declared on 26 January 1930, it was decided to bring the Constitution into force on 26 January 1950. Thus, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                - row [ref=f12e404]:
+                  - cell [ref=f12e405]:
+                    - checkbox [checked] [ref=f12e406] [cursor=pointer]
+                  - cell "3" [ref=f12e407]
+                  - 'cell "TA கூற்று: டாக்டர் சச்சிதானந்த சின்ஹா அரசியல் நிர்ணய சபையின் தற்காலிக தலைவராக தேர்ந்தெடுக்கப்பட்டார். காரணம்: அவர் சபையின் மிக மூத்த உறுப்பினராக இருந்தார், மேலும் அவரது தேர்வு பிரெஞ்சு நடைமுறையைப் பின்பற்றியது." [ref=f12e408]':
+                    - generic [ref=f12e409]: TA
+                    - paragraph [ref=f12e410]:
+                      - strong [ref=f12e411]:
+                        - text: "கூற்று:"
+                        - text: டாக்டர் சச்சிதானந்த சின்ஹா அரசியல் நிர்ணய சபையின் தற்காலிக தலைவராக தேர்ந்தெடுக்கப்பட்டார்.
+                        - text: "காரணம்:"
+                        - text: அவர் சபையின் மிக மூத்த உறுப்பினராக இருந்தார், மேலும் அவரது தேர்வு பிரெஞ்சு நடைமுறையைப் பின்பற்றியது.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e412]:
+                    - paragraph [ref=f12e413]:
+                      - strong [ref=f12e414]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e415]:
+                      - strong [ref=f12e416]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e417]:
+                    - paragraph [ref=f12e418]:
+                      - strong [ref=f12e419]: கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல.
+                    - paragraph [ref=f12e420]:
+                      - strong [ref=f12e421]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "கூற்று சரி; காரணம் தவறு. Assertion is correct, but Reason is incorrect." [ref=f12e422]:
+                    - paragraph [ref=f12e423]:
+                      - strong [ref=f12e424]: கூற்று சரி; காரணம் தவறு.
+                    - paragraph [ref=f12e425]:
+                      - strong [ref=f12e426]: Assertion is correct, but Reason is incorrect.
+                  - cell "கூற்று தவறு; காரணம் சரி. Assertion is incorrect, but Reason is correct." [ref=f12e427]:
+                    - paragraph [ref=f12e428]:
+                      - strong [ref=f12e429]: கூற்று தவறு; காரணம் சரி.
+                    - paragraph [ref=f12e430]:
+                      - strong [ref=f12e431]: Assertion is incorrect, but Reason is correct.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e432]:
+                    - paragraph [ref=f12e433]:
+                      - strong [ref=f12e434]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e435]:
+                      - strong [ref=f12e436]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "டாக்டர் சச்சிதானந்த சின்ஹா அரசியல் நிர்ணய சபையின் முதல் கூட்டத்தில் தற்காலிக தலைவராக தேர்ந்தெடுக்கப்பட்டார். இது சபையின் மூத்த உறுப்பினரை தலைவராக தேர்ந்தெடுக்கும் பிரெஞ்சு நடைமுறையைப் பின்பற்றியது. எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்." [ref=f12e437]:
+                    - paragraph [ref=f12e438]:
+                      - strong [ref=f12e439]: டாக்டர் சச்சிதானந்த சின்ஹா அரசியல் நிர்ணய சபையின் முதல் கூட்டத்தில் தற்காலிக தலைவராக தேர்ந்தெடுக்கப்பட்டார். இது சபையின் மூத்த உறுப்பினரை தலைவராக தேர்ந்தெடுக்கும் பிரெஞ்சு நடைமுறையைப் பின்பற்றியது. எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்.
+                  - cell "20" [ref=f12e440]
+                - 'row "EN Assertion: Dr. Sachchidananda Sinha was elected as the interim President of the Constituent Assembly. Reason: He was the oldest member of the assembly, and his election followed the French practice. Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion. Assertion is correct, but Reason is incorrect. Assertion is incorrect, but Reason is correct. Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion. Dr. Sachchidananda Sinha was elected as the interim President at the first sitting of the Constituent Assembly. This followed the French practice of electing the oldest member of the assembly as the temporary president. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e441]':
+                  - 'cell "EN Assertion: Dr. Sachchidananda Sinha was elected as the interim President of the Constituent Assembly. Reason: He was the oldest member of the assembly, and his election followed the French practice." [ref=f12e442]':
+                    - generic [ref=f12e443]: EN
+                    - paragraph [ref=f12e444]:
+                      - strong [ref=f12e445]:
+                        - text: "Assertion:"
+                        - text: Dr. Sachchidananda Sinha was elected as the interim President of the Constituent Assembly.
+                        - text: "Reason:"
+                        - text: He was the oldest member of the assembly, and his election followed the French practice.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e446]:
+                    - paragraph [ref=f12e447]:
+                      - strong [ref=f12e448]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e449]:
+                    - paragraph [ref=f12e450]:
+                      - strong [ref=f12e451]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "Assertion is correct, but Reason is incorrect." [ref=f12e452]:
+                    - paragraph [ref=f12e453]:
+                      - strong [ref=f12e454]: Assertion is correct, but Reason is incorrect.
+                  - cell "Assertion is incorrect, but Reason is correct." [ref=f12e455]:
+                    - paragraph [ref=f12e456]:
+                      - strong [ref=f12e457]: Assertion is incorrect, but Reason is correct.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e458]:
+                    - paragraph [ref=f12e459]:
+                      - strong [ref=f12e460]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "Dr. Sachchidananda Sinha was elected as the interim President at the first sitting of the Constituent Assembly. This followed the French practice of electing the oldest member of the assembly as the temporary president. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e461]:
+                    - paragraph [ref=f12e462]:
+                      - strong [ref=f12e463]: Dr. Sachchidananda Sinha was elected as the interim President at the first sitting of the Constituent Assembly. This followed the French practice of electing the oldest member of the assembly as the temporary president. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                - row [ref=f12e464]:
+                  - cell [ref=f12e465]:
+                    - checkbox [checked] [ref=f12e466] [cursor=pointer]
+                  - cell "4" [ref=f12e467]
+                  - 'cell "TA கூற்று: இந்தியாவின் தேசியக் கொடி 1947 ஜூலை 22 அன்று, இந்தியா சுதந்திரம் அடைவதற்கு சற்று முன்பு, அரசியல் நிர்ணய சபையால் ஏற்றுக்கொள்ளப்பட்டது. காரணம்: சுதந்திரம் மற்றும் அதிகாரப் பரிமாற்றத்திற்கு முன்னதாக நாட்டின் தேசிய அடையாளங்களை இறுதி செய்ய அரசியல் நிர்ணய சபை விரும்பியது." [ref=f12e468]':
+                    - generic [ref=f12e469]: TA
+                    - paragraph [ref=f12e470]:
+                      - strong [ref=f12e471]:
+                        - text: "கூற்று:"
+                        - text: இந்தியாவின் தேசியக் கொடி 1947 ஜூலை 22 அன்று, இந்தியா சுதந்திரம் அடைவதற்கு சற்று முன்பு, அரசியல் நிர்ணய சபையால் ஏற்றுக்கொள்ளப்பட்டது.
+                        - text: "காரணம்:"
+                        - text: சுதந்திரம் மற்றும் அதிகாரப் பரிமாற்றத்திற்கு முன்னதாக நாட்டின் தேசிய அடையாளங்களை இறுதி செய்ய அரசியல் நிர்ணய சபை விரும்பியது.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e472]:
+                    - paragraph [ref=f12e473]:
+                      - strong [ref=f12e474]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e475]:
+                      - strong [ref=f12e476]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e477]:
+                    - paragraph [ref=f12e478]:
+                      - strong [ref=f12e479]: கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல.
+                    - paragraph [ref=f12e480]:
+                      - strong [ref=f12e481]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "கூற்று சரி; காரணம் தவறு. Assertion is correct, but Reason is incorrect." [ref=f12e482]:
+                    - paragraph [ref=f12e483]:
+                      - strong [ref=f12e484]: கூற்று சரி; காரணம் தவறு.
+                    - paragraph [ref=f12e485]:
+                      - strong [ref=f12e486]: Assertion is correct, but Reason is incorrect.
+                  - cell "கூற்று தவறு; காரணம் சரி. Assertion is incorrect, but Reason is correct." [ref=f12e487]:
+                    - paragraph [ref=f12e488]:
+                      - strong [ref=f12e489]: கூற்று தவறு; காரணம் சரி.
+                    - paragraph [ref=f12e490]:
+                      - strong [ref=f12e491]: Assertion is incorrect, but Reason is correct.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e492]:
+                    - paragraph [ref=f12e493]:
+                      - strong [ref=f12e494]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e495]:
+                      - strong [ref=f12e496]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "இந்தியாவின் தேசியக் கொடி 1947 ஜூலை 22 அன்று, அதாவது 1947 ஆகஸ்ட் 15 அன்று இந்தியா சுதந்திரம் அடைவதற்கு சில வாரங்களுக்கு முன்பு ஏற்றுக்கொள்ளப்பட்டது. இது புதிதாக சுதந்திரம் பெறவிருந்த நாட்டிற்கான முக்கியமான அடையாளங்களை சரியான நேரத்தில் நிறுவ சபையின் நோக்கத்தை பிரதிபலிக்கிறது. எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்." [ref=f12e497]:
+                    - paragraph [ref=f12e498]:
+                      - strong [ref=f12e499]: இந்தியாவின் தேசியக் கொடி 1947 ஜூலை 22 அன்று, அதாவது 1947 ஆகஸ்ட் 15 அன்று இந்தியா சுதந்திரம் அடைவதற்கு சில வாரங்களுக்கு முன்பு ஏற்றுக்கொள்ளப்பட்டது. இது புதிதாக சுதந்திரம் பெறவிருந்த நாட்டிற்கான முக்கியமான அடையாளங்களை சரியான நேரத்தில் நிறுவ சபையின் நோக்கத்தை பிரதிபலிக்கிறது. எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்.
+                  - cell "20" [ref=f12e500]
+                - row [ref=f12e501]:
+                  - 'cell "EN Assertion: The National Flag of India was adopted by the Constituent Assembly on 22 July 1947, shortly before India''s independence. Reason: The Constituent Assembly wanted to finalize the national symbols prior to the formal transfer of power and independence." [ref=f12e502]':
+                    - generic [ref=f12e503]: EN
+                    - paragraph [ref=f12e504]:
+                      - strong [ref=f12e505]:
+                        - text: "Assertion:"
+                        - text: The National Flag of India was adopted by the Constituent Assembly on 22 July 1947, shortly before India's independence.
+                        - text: "Reason:"
+                        - text: The Constituent Assembly wanted to finalize the national symbols prior to the formal transfer of power and independence.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e506]:
+                    - paragraph [ref=f12e507]:
+                      - strong [ref=f12e508]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e509]:
+                    - paragraph [ref=f12e510]:
+                      - strong [ref=f12e511]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "Assertion is correct, but Reason is incorrect." [ref=f12e512]:
+                    - paragraph [ref=f12e513]:
+                      - strong [ref=f12e514]: Assertion is correct, but Reason is incorrect.
+                  - cell "Assertion is incorrect, but Reason is correct." [ref=f12e515]:
+                    - paragraph [ref=f12e516]:
+                      - strong [ref=f12e517]: Assertion is incorrect, but Reason is correct.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e518]:
+                    - paragraph [ref=f12e519]:
+                      - strong [ref=f12e520]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "The National Flag of India was adopted on 22 July 1947, just weeks before India gained independence on 15 August 1947. This timing reflects the Assembly's intention to establish key national symbols in time for the newly independent nation. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e521]:
+                    - paragraph [ref=f12e522]:
+                      - strong [ref=f12e523]: The National Flag of India was adopted on 22 July 1947, just weeks before India gained independence on 15 August 1947. This timing reflects the Assembly's intention to establish key national symbols in time for the newly independent nation. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                - row [ref=f12e524]:
+                  - cell [ref=f12e525]:
+                    - checkbox [checked] [ref=f12e526] [cursor=pointer]
+                  - cell "5" [ref=f12e527]
+                  - 'cell "TA கூற்று: தேசிய கீதமான \"ஜன கண மன\" அரசியல் நிர்ணய சபையால் 1950 ஜனவரி 24 அன்று ஏற்றுக்கொள்ளப்பட்டது. காரணம்: இந்த தேதி இந்தியா குடியரசாக மாறுவதற்கு இரண்டு நாட்களுக்கு முன்பு தேர்ந்தெடுக்கப்பட்டது." [ref=f12e528]':
+                    - generic [ref=f12e529]: TA
+                    - paragraph [ref=f12e530]:
+                      - strong [ref=f12e531]:
+                        - text: "கூற்று:"
+                        - text: தேசிய கீதமான "ஜன கண மன" அரசியல் நிர்ணய சபையால் 1950 ஜனவரி 24 அன்று ஏற்றுக்கொள்ளப்பட்டது.
+                        - text: "காரணம்:"
+                        - text: இந்த தேதி இந்தியா குடியரசாக மாறுவதற்கு இரண்டு நாட்களுக்கு முன்பு தேர்ந்தெடுக்கப்பட்டது.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e532]:
+                    - paragraph [ref=f12e533]:
+                      - strong [ref=f12e534]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e535]:
+                      - strong [ref=f12e536]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e537]:
+                    - paragraph [ref=f12e538]:
+                      - strong [ref=f12e539]: கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல.
+                    - paragraph [ref=f12e540]:
+                      - strong [ref=f12e541]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "கூற்று சரி; காரணம் தவறு. Assertion is correct, but Reason is incorrect." [ref=f12e542]:
+                    - paragraph [ref=f12e543]:
+                      - strong [ref=f12e544]: கூற்று சரி; காரணம் தவறு.
+                    - paragraph [ref=f12e545]:
+                      - strong [ref=f12e546]: Assertion is correct, but Reason is incorrect.
+                  - cell "கூற்று தவறு; காரணம் சரி. Assertion is incorrect, but Reason is correct." [ref=f12e547]:
+                    - paragraph [ref=f12e548]:
+                      - strong [ref=f12e549]: கூற்று தவறு; காரணம் சரி.
+                    - paragraph [ref=f12e550]:
+                      - strong [ref=f12e551]: Assertion is incorrect, but Reason is correct.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e552]:
+                    - paragraph [ref=f12e553]:
+                      - strong [ref=f12e554]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e555]:
+                      - strong [ref=f12e556]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "தேசிய கீதமான \"ஜன கண மன\" 1950 ஜனவரி 24 அன்று அரசியல் நிர்ணய சபையால் ஏற்றுக்கொள்ளப்பட்டது. இந்தியா 1950 ஜனவரி 26 அன்று குடியரசாக மாறியது, அதாவது தேசிய கீதம் ஏற்றுக்கொள்ளப்பட்ட இரண்டு நாட்களுக்குப் பிறகு. இந்த நெருங்கிய காலக்கோடு, குடியரசு தினக் கொண்டாட்டங்களுக்கு முன்னதாக தேசிய அடையாளங்களை இறுதி செய்வதற்கான நோக்கத்தை பிரதிபலிக்கிறது. எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்." [ref=f12e557]:
+                    - paragraph [ref=f12e558]:
+                      - strong [ref=f12e559]: தேசிய கீதமான "ஜன கண மன" 1950 ஜனவரி 24 அன்று அரசியல் நிர்ணய சபையால் ஏற்றுக்கொள்ளப்பட்டது. இந்தியா 1950 ஜனவரி 26 அன்று குடியரசாக மாறியது, அதாவது தேசிய கீதம் ஏற்றுக்கொள்ளப்பட்ட இரண்டு நாட்களுக்குப் பிறகு. இந்த நெருங்கிய காலக்கோடு, குடியரசு தினக் கொண்டாட்டங்களுக்கு முன்னதாக தேசிய அடையாளங்களை இறுதி செய்வதற்கான நோக்கத்தை பிரதிபலிக்கிறது. எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்.
+                  - cell "20" [ref=f12e560]
+                - row [ref=f12e561]:
+                  - 'cell "EN Assertion: The National Anthem \"Jana Gana Mana\" was adopted by the Constituent Assembly on 24 January 1950. Reason: This date was chosen as it was just two days before India became a Republic." [ref=f12e562]':
+                    - generic [ref=f12e563]: EN
+                    - paragraph [ref=f12e564]:
+                      - strong [ref=f12e565]:
+                        - text: "Assertion:"
+                        - text: The National Anthem "Jana Gana Mana" was adopted by the Constituent Assembly on 24 January 1950.
+                        - text: "Reason:"
+                        - text: This date was chosen as it was just two days before India became a Republic.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e566]:
+                    - paragraph [ref=f12e567]:
+                      - strong [ref=f12e568]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e569]:
+                    - paragraph [ref=f12e570]:
+                      - strong [ref=f12e571]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "Assertion is correct, but Reason is incorrect." [ref=f12e572]:
+                    - paragraph [ref=f12e573]:
+                      - strong [ref=f12e574]: Assertion is correct, but Reason is incorrect.
+                  - cell "Assertion is incorrect, but Reason is correct." [ref=f12e575]:
+                    - paragraph [ref=f12e576]:
+                      - strong [ref=f12e577]: Assertion is incorrect, but Reason is correct.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e578]:
+                    - paragraph [ref=f12e579]:
+                      - strong [ref=f12e580]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "The National Anthem \"Jana Gana Mana\" was adopted by the Constituent Assembly on 24 January 1950. India became a Republic on 26 January 1950, just two days after the adoption of the National Anthem. This close timing reflects the intent to finalize national symbols ahead of the Republic Day celebrations. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e581]:
+                    - paragraph [ref=f12e582]:
+                      - strong [ref=f12e583]: The National Anthem "Jana Gana Mana" was adopted by the Constituent Assembly on 24 January 1950. India became a Republic on 26 January 1950, just two days after the adoption of the National Anthem. This close timing reflects the intent to finalize national symbols ahead of the Republic Day celebrations. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                - row [ref=f12e584]:
+                  - cell [ref=f12e585]:
+                    - checkbox [checked] [ref=f12e586] [cursor=pointer]
+                  - cell "6" [ref=f12e587]
+                  - 'cell "TA கூற்று: ஜவஹர்லால் நேரு இந்திய அரசியலமைப்பின் உருவாக்கத்தில், குறிக்கோள் தீர்மானத்தை முன்மொழிந்தது உட்பட, ஒரு குறிப்பிடத்தக்க பங்கை வகித்தார். காரணம்: அவர் இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தார்." [ref=f12e588]':
+                    - generic [ref=f12e589]: TA
+                    - paragraph [ref=f12e590]:
+                      - strong [ref=f12e591]:
+                        - text: "கூற்று:"
+                        - text: ஜவஹர்லால் நேரு இந்திய அரசியலமைப்பின் உருவாக்கத்தில், குறிக்கோள் தீர்மானத்தை முன்மொழிந்தது உட்பட, ஒரு குறிப்பிடத்தக்க பங்கை வகித்தார்.
+                        - text: "காரணம்:"
+                        - text: அவர் இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தார்.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e592]:
+                    - paragraph [ref=f12e593]:
+                      - strong [ref=f12e594]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e595]:
+                      - strong [ref=f12e596]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e597]:
+                    - paragraph [ref=f12e598]:
+                      - strong [ref=f12e599]: கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல.
+                    - paragraph [ref=f12e600]:
+                      - strong [ref=f12e601]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "கூற்று சரி; காரணம் தவறு. Assertion is correct, but Reason is incorrect." [ref=f12e602]:
+                    - paragraph [ref=f12e603]:
+                      - strong [ref=f12e604]: கூற்று சரி; காரணம் தவறு.
+                    - paragraph [ref=f12e605]:
+                      - strong [ref=f12e606]: Assertion is correct, but Reason is incorrect.
+                  - cell "கூற்று தவறு; காரணம் சரி. Assertion is incorrect, but Reason is correct." [ref=f12e607]:
+                    - paragraph [ref=f12e608]:
+                      - strong [ref=f12e609]: கூற்று தவறு; காரணம் சரி.
+                    - paragraph [ref=f12e610]:
+                      - strong [ref=f12e611]: Assertion is incorrect, but Reason is correct.
+                  - cell "கூற்று சரி; காரணம் தவறு. Assertion is correct, but Reason is incorrect." [ref=f12e612]:
+                    - paragraph [ref=f12e613]:
+                      - strong [ref=f12e614]: கூற்று சரி; காரணம் தவறு.
+                    - paragraph [ref=f12e615]:
+                      - strong [ref=f12e616]: Assertion is correct, but Reason is incorrect.
+                  - cell "ஜவஹர்லால் நேரு அரசியலமைப்பு நிர்ணய சபையில் குறிக்கோள் தீர்மானத்தை முன்மொழிந்து, அரசியலமைப்பு உருவாக்கத்தில் முக்கிய பங்காற்றினார். எனவே, கூற்று சரியானது. ஆனால், இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக டாக்டர் பி.ஆர். அம்பேத்கர் இருந்தார், ஜவஹர்லால் நேரு அல்ல. எனவே, காரணம் தவறானது." [ref=f12e617]:
+                    - paragraph [ref=f12e618]:
+                      - strong [ref=f12e619]: ஜவஹர்லால் நேரு அரசியலமைப்பு நிர்ணய சபையில் குறிக்கோள் தீர்மானத்தை முன்மொழிந்து, அரசியலமைப்பு உருவாக்கத்தில் முக்கிய பங்காற்றினார். எனவே, கூற்று சரியானது. ஆனால், இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக டாக்டர் பி.ஆர். அம்பேத்கர் இருந்தார், ஜவஹர்லால் நேரு அல்ல. எனவே, காரணம் தவறானது.
+                  - cell "20" [ref=f12e620]
+                - 'row "EN Assertion: Jawaharlal Nehru played a significant role in the Indian Constitution''s formulation, including moving the Objective Resolution. Reason: He was the Chairman of the Drafting Committee of the Indian Constitution. Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion. Assertion is correct, but Reason is incorrect. Assertion is incorrect, but Reason is correct. Assertion is correct, but Reason is incorrect. Jawaharlal Nehru played a significant role in the constitution-making process, notably by moving the Objective Resolution in the Constituent Assembly. So, the Assertion is correct. However, Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution, not Jawaharlal Nehru. Therefore, the Reason is incorrect." [ref=f12e621]':
+                  - 'cell "EN Assertion: Jawaharlal Nehru played a significant role in the Indian Constitution''s formulation, including moving the Objective Resolution. Reason: He was the Chairman of the Drafting Committee of the Indian Constitution." [ref=f12e622]':
+                    - generic [ref=f12e623]: EN
+                    - paragraph [ref=f12e624]:
+                      - strong [ref=f12e625]:
+                        - text: "Assertion:"
+                        - text: Jawaharlal Nehru played a significant role in the Indian Constitution's formulation, including moving the Objective Resolution.
+                        - text: "Reason:"
+                        - text: He was the Chairman of the Drafting Committee of the Indian Constitution.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e626]:
+                    - paragraph [ref=f12e627]:
+                      - strong [ref=f12e628]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e629]:
+                    - paragraph [ref=f12e630]:
+                      - strong [ref=f12e631]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "Assertion is correct, but Reason is incorrect." [ref=f12e632]:
+                    - paragraph [ref=f12e633]:
+                      - strong [ref=f12e634]: Assertion is correct, but Reason is incorrect.
+                  - cell "Assertion is incorrect, but Reason is correct." [ref=f12e635]:
+                    - paragraph [ref=f12e636]:
+                      - strong [ref=f12e637]: Assertion is incorrect, but Reason is correct.
+                  - cell "Assertion is correct, but Reason is incorrect." [ref=f12e638]:
+                    - paragraph [ref=f12e639]:
+                      - strong [ref=f12e640]: Assertion is correct, but Reason is incorrect.
+                  - cell "Jawaharlal Nehru played a significant role in the constitution-making process, notably by moving the Objective Resolution in the Constituent Assembly. So, the Assertion is correct. However, Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution, not Jawaharlal Nehru. Therefore, the Reason is incorrect." [ref=f12e641]:
+                    - paragraph [ref=f12e642]:
+                      - strong [ref=f12e643]: Jawaharlal Nehru played a significant role in the constitution-making process, notably by moving the Objective Resolution in the Constituent Assembly. So, the Assertion is correct. However, Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution, not Jawaharlal Nehru. Therefore, the Reason is incorrect.
+                - row [ref=f12e644]:
+                  - cell [ref=f12e645]:
+                    - checkbox [checked] [ref=f12e646] [cursor=pointer]
+                  - cell "7" [ref=f12e647]
+                  - 'cell "TA கூற்று: டாக்டர் ராஜேந்திர பிரசாத் அரசியல் நிர்ணய சபையின் நிரந்தர தலைவராக தேர்ந்தெடுக்கப்பட்டார். காரணம்: தற்காலிக கட்டத்திற்குப் பிறகு அவர் ஒருமனதாக இந்த பதவிக்கு தேர்ந்தெடுக்கப்பட்டார்." [ref=f12e648]':
+                    - generic [ref=f12e649]: TA
+                    - paragraph [ref=f12e650]:
+                      - strong [ref=f12e651]:
+                        - text: "கூற்று:"
+                        - text: டாக்டர் ராஜேந்திர பிரசாத் அரசியல் நிர்ணய சபையின் நிரந்தர தலைவராக தேர்ந்தெடுக்கப்பட்டார்.
+                        - text: "காரணம்:"
+                        - text: தற்காலிக கட்டத்திற்குப் பிறகு அவர் ஒருமனதாக இந்த பதவிக்கு தேர்ந்தெடுக்கப்பட்டார்.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e652]:
+                    - paragraph [ref=f12e653]:
+                      - strong [ref=f12e654]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e655]:
+                      - strong [ref=f12e656]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e657]:
+                    - paragraph [ref=f12e658]:
+                      - strong [ref=f12e659]: கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல.
+                    - paragraph [ref=f12e660]:
+                      - strong [ref=f12e661]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "கூற்று சரி; காரணம் தவறு. Assertion is correct, but Reason is incorrect." [ref=f12e662]:
+                    - paragraph [ref=f12e663]:
+                      - strong [ref=f12e664]: கூற்று சரி; காரணம் தவறு.
+                    - paragraph [ref=f12e665]:
+                      - strong [ref=f12e666]: Assertion is correct, but Reason is incorrect.
+                  - cell "கூற்று தவறு; காரணம் சரி. Assertion is incorrect, but Reason is correct." [ref=f12e667]:
+                    - paragraph [ref=f12e668]:
+                      - strong [ref=f12e669]: கூற்று தவறு; காரணம் சரி.
+                    - paragraph [ref=f12e670]:
+                      - strong [ref=f12e671]: Assertion is incorrect, but Reason is correct.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e672]:
+                    - paragraph [ref=f12e673]:
+                      - strong [ref=f12e674]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e675]:
+                      - strong [ref=f12e676]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "டாக்டர் ராஜேந்திர பிரசாத் 1946 டிசம்பர் 11 அன்று அரசியல் நிர்ணய சபையின் நிரந்தர தலைவராக தேர்ந்தெடுக்கப்பட்டார். தற்காலிக தலைவரான டாக்டர் சச்சிதானந்த சின்ஹாவுக்குப் பிறகு அவர் ஒருமனதாக தேர்ந்தெடுக்கப்பட்டார். எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்." [ref=f12e677]:
+                    - paragraph [ref=f12e678]:
+                      - strong [ref=f12e679]: டாக்டர் ராஜேந்திர பிரசாத் 1946 டிசம்பர் 11 அன்று அரசியல் நிர்ணய சபையின் நிரந்தர தலைவராக தேர்ந்தெடுக்கப்பட்டார். தற்காலிக தலைவரான டாக்டர் சச்சிதானந்த சின்ஹாவுக்குப் பிறகு அவர் ஒருமனதாக தேர்ந்தெடுக்கப்பட்டார். எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்.
+                  - cell "20" [ref=f12e680]
+                - 'row "EN Assertion: Dr. Rajendra Prasad was elected as the permanent President of the Constituent Assembly. Reason: He was unanimously elected to this position after the interim phase. Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion. Assertion is correct, but Reason is incorrect. Assertion is incorrect, but Reason is correct. Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion. Dr. Rajendra Prasad was elected as the permanent President of the Constituent Assembly on December 11, 1946. He was unanimously chosen after the interim presidency of Dr. Sachchidananda Sinha. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e681]':
+                  - 'cell "EN Assertion: Dr. Rajendra Prasad was elected as the permanent President of the Constituent Assembly. Reason: He was unanimously elected to this position after the interim phase." [ref=f12e682]':
+                    - generic [ref=f12e683]: EN
+                    - paragraph [ref=f12e684]:
+                      - strong [ref=f12e685]:
+                        - text: "Assertion:"
+                        - text: Dr. Rajendra Prasad was elected as the permanent President of the Constituent Assembly.
+                        - text: "Reason:"
+                        - text: He was unanimously elected to this position after the interim phase.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e686]:
+                    - paragraph [ref=f12e687]:
+                      - strong [ref=f12e688]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e689]:
+                    - paragraph [ref=f12e690]:
+                      - strong [ref=f12e691]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "Assertion is correct, but Reason is incorrect." [ref=f12e692]:
+                    - paragraph [ref=f12e693]:
+                      - strong [ref=f12e694]: Assertion is correct, but Reason is incorrect.
+                  - cell "Assertion is incorrect, but Reason is correct." [ref=f12e695]:
+                    - paragraph [ref=f12e696]:
+                      - strong [ref=f12e697]: Assertion is incorrect, but Reason is correct.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e698]:
+                    - paragraph [ref=f12e699]:
+                      - strong [ref=f12e700]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "Dr. Rajendra Prasad was elected as the permanent President of the Constituent Assembly on December 11, 1946. He was unanimously chosen after the interim presidency of Dr. Sachchidananda Sinha. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e701]:
+                    - paragraph [ref=f12e702]:
+                      - strong [ref=f12e703]: Dr. Rajendra Prasad was elected as the permanent President of the Constituent Assembly on December 11, 1946. He was unanimously chosen after the interim presidency of Dr. Sachchidananda Sinha. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                - row [ref=f12e704]:
+                  - cell [ref=f12e705]:
+                    - checkbox [checked] [ref=f12e706] [cursor=pointer]
+                  - cell "8" [ref=f12e707]
+                  - 'cell "TA கூற்று: இந்தியாவில் நவம்பர் 26 அரசியலமைப்பு தினமாக கொண்டாடப்படுகிறது. காரணம்: இந்த தேதியில், அரசியல் நிர்ணய சபை இந்திய அரசியலமைப்பை ஏற்றுக்கொண்டது." [ref=f12e708]':
+                    - generic [ref=f12e709]: TA
+                    - paragraph [ref=f12e710]:
+                      - strong [ref=f12e711]:
+                        - text: "கூற்று:"
+                        - text: இந்தியாவில் நவம்பர் 26 அரசியலமைப்பு தினமாக கொண்டாடப்படுகிறது.
+                        - text: "காரணம்:"
+                        - text: இந்த தேதியில், அரசியல் நிர்ணய சபை இந்திய அரசியலமைப்பை ஏற்றுக்கொண்டது.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e712]:
+                    - paragraph [ref=f12e713]:
+                      - strong [ref=f12e714]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e715]:
+                      - strong [ref=f12e716]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e717]:
+                    - paragraph [ref=f12e718]:
+                      - strong [ref=f12e719]: கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல.
+                    - paragraph [ref=f12e720]:
+                      - strong [ref=f12e721]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "கூற்று சரி; காரணம் தவறு. Assertion is correct, but Reason is incorrect." [ref=f12e722]:
+                    - paragraph [ref=f12e723]:
+                      - strong [ref=f12e724]: கூற்று சரி; காரணம் தவறு.
+                    - paragraph [ref=f12e725]:
+                      - strong [ref=f12e726]: Assertion is correct, but Reason is incorrect.
+                  - cell "கூற்று தவறு; காரணம் சரி. Assertion is incorrect, but Reason is correct." [ref=f12e727]:
+                    - paragraph [ref=f12e728]:
+                      - strong [ref=f12e729]: கூற்று தவறு; காரணம் சரி.
+                    - paragraph [ref=f12e730]:
+                      - strong [ref=f12e731]: Assertion is incorrect, but Reason is correct.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e732]:
+                    - paragraph [ref=f12e733]:
+                      - strong [ref=f12e734]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e735]:
+                      - strong [ref=f12e736]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "இந்திய அரசியலமைப்பு 1949 நவம்பர் 26 அன்று அரசியல் நிர்ணய சபையால் ஏற்றுக்கொள்ளப்பட்டது. இந்த வரலாற்று நிகழ்வை நினைவுகூரும் வகையில், 2015 முதல் நவம்பர் 26 அரசியலமைப்பு தினமாக கொண்டாடப்படுகிறது. எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்." [ref=f12e737]:
+                    - paragraph [ref=f12e738]:
+                      - strong [ref=f12e739]: இந்திய அரசியலமைப்பு 1949 நவம்பர் 26 அன்று அரசியல் நிர்ணய சபையால் ஏற்றுக்கொள்ளப்பட்டது. இந்த வரலாற்று நிகழ்வை நினைவுகூரும் வகையில், 2015 முதல் நவம்பர் 26 அரசியலமைப்பு தினமாக கொண்டாடப்படுகிறது. எனவே, கூற்று மற்றும் காரணம் இரண்டும் சரி, மற்றும் காரணம் கூற்றிற்கான சரியான விளக்கம்.
+                  - cell "20" [ref=f12e740]
+                - 'row "EN Assertion: 26 November is celebrated as Constitution Day in India. Reason: On this date, the Constituent Assembly adopted the Constitution of India. Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion. Assertion is correct, but Reason is incorrect. Assertion is incorrect, but Reason is correct. Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion. The Constitution of India was adopted by the Constituent Assembly on 26 November 1949. To commemorate this historic event, 26 November has been celebrated as Constitution Day since 2015. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e741]':
+                  - 'cell "EN Assertion: 26 November is celebrated as Constitution Day in India. Reason: On this date, the Constituent Assembly adopted the Constitution of India." [ref=f12e742]':
+                    - generic [ref=f12e743]: EN
+                    - paragraph [ref=f12e744]:
+                      - strong [ref=f12e745]:
+                        - text: "Assertion:"
+                        - text: 26 November is celebrated as Constitution Day in India.
+                        - text: "Reason:"
+                        - text: On this date, the Constituent Assembly adopted the Constitution of India.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e746]:
+                    - paragraph [ref=f12e747]:
+                      - strong [ref=f12e748]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e749]:
+                    - paragraph [ref=f12e750]:
+                      - strong [ref=f12e751]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "Assertion is correct, but Reason is incorrect." [ref=f12e752]:
+                    - paragraph [ref=f12e753]:
+                      - strong [ref=f12e754]: Assertion is correct, but Reason is incorrect.
+                  - cell "Assertion is incorrect, but Reason is correct." [ref=f12e755]:
+                    - paragraph [ref=f12e756]:
+                      - strong [ref=f12e757]: Assertion is incorrect, but Reason is correct.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e758]:
+                    - paragraph [ref=f12e759]:
+                      - strong [ref=f12e760]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "The Constitution of India was adopted by the Constituent Assembly on 26 November 1949. To commemorate this historic event, 26 November has been celebrated as Constitution Day since 2015. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e761]:
+                    - paragraph [ref=f12e762]:
+                      - strong [ref=f12e763]: The Constitution of India was adopted by the Constituent Assembly on 26 November 1949. To commemorate this historic event, 26 November has been celebrated as Constitution Day since 2015. Therefore, both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                - row [ref=f12e764]:
+                  - cell [ref=f12e765]:
+                    - checkbox [checked] [ref=f12e766] [cursor=pointer]
+                  - cell "9" [ref=f12e767]
+                  - 'cell "TA கூற்று: சர்தார் வல்லபாய் படேல் இந்திய யூனியனுடன் சுதேச அரசுகளை ஒருங்கிணைப்பதில் முக்கிய பங்கு வகித்தார். காரணம்: அவர் இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தார்." [ref=f12e768]':
+                    - generic [ref=f12e769]: TA
+                    - paragraph [ref=f12e770]:
+                      - strong [ref=f12e771]:
+                        - text: "கூற்று:"
+                        - text: சர்தார் வல்லபாய் படேல் இந்திய யூனியனுடன் சுதேச அரசுகளை ஒருங்கிணைப்பதில் முக்கிய பங்கு வகித்தார்.
+                        - text: "காரணம்:"
+                        - text: அவர் இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தார்.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e772]:
+                    - paragraph [ref=f12e773]:
+                      - strong [ref=f12e774]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e775]:
+                      - strong [ref=f12e776]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e777]:
+                    - paragraph [ref=f12e778]:
+                      - strong [ref=f12e779]: கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல.
+                    - paragraph [ref=f12e780]:
+                      - strong [ref=f12e781]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "கூற்று சரி; காரணம் தவறு. Assertion is correct, but Reason is incorrect." [ref=f12e782]:
+                    - paragraph [ref=f12e783]:
+                      - strong [ref=f12e784]: கூற்று சரி; காரணம் தவறு.
+                    - paragraph [ref=f12e785]:
+                      - strong [ref=f12e786]: Assertion is correct, but Reason is incorrect.
+                  - cell "கூற்று தவறு; காரணம் சரி. Assertion is incorrect, but Reason is correct." [ref=f12e787]:
+                    - paragraph [ref=f12e788]:
+                      - strong [ref=f12e789]: கூற்று தவறு; காரணம் சரி.
+                    - paragraph [ref=f12e790]:
+                      - strong [ref=f12e791]: Assertion is incorrect, but Reason is correct.
+                  - cell "கூற்று சரி; காரணம் தவறு. Assertion is correct, but Reason is incorrect." [ref=f12e792]:
+                    - paragraph [ref=f12e793]:
+                      - strong [ref=f12e794]: கூற்று சரி; காரணம் தவறு.
+                    - paragraph [ref=f12e795]:
+                      - strong [ref=f12e796]: Assertion is correct, but Reason is incorrect.
+                  - cell "சர்தார் வல்லபாய் படேல் இந்திய யூனியனுடன் சுதேச அரசுகளை ஒருங்கிணைப்பதில் ஒரு முக்கிய பங்கை வகித்தார், இது இந்தியாவின் அரசியல் ஒருங்கிணைப்புக்கு வழிவகுத்தது. எனவே, கூற்று சரியானது. ஆனால், இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக டாக்டர் பி.ஆர். அம்பேத்கர் இருந்தார், சர்தார் படேல் அல்ல. எனவே, காரணம் தவறானது." [ref=f12e797]:
+                    - paragraph [ref=f12e798]:
+                      - strong [ref=f12e799]: சர்தார் வல்லபாய் படேல் இந்திய யூனியனுடன் சுதேச அரசுகளை ஒருங்கிணைப்பதில் ஒரு முக்கிய பங்கை வகித்தார், இது இந்தியாவின் அரசியல் ஒருங்கிணைப்புக்கு வழிவகுத்தது. எனவே, கூற்று சரியானது. ஆனால், இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக டாக்டர் பி.ஆர். அம்பேத்கர் இருந்தார், சர்தார் படேல் அல்ல. எனவே, காரணம் தவறானது.
+                  - cell "20" [ref=f12e800]
+                - 'row "EN Assertion: Sardar Vallabhbhai Patel was instrumental in the integration of princely states into the Indian Union. Reason: He chaired the Drafting Committee of the Indian Constitution. Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion. Assertion is correct, but Reason is incorrect. Assertion is incorrect, but Reason is correct. Assertion is correct, but Reason is incorrect. Sardar Vallabhbhai Patel played a crucial role in the integration of princely states into the Indian Union, leading to India''s political consolidation. So, the Assertion is correct. However, Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution, not Sardar Patel. Therefore, the Reason is incorrect." [ref=f12e801]':
+                  - 'cell "EN Assertion: Sardar Vallabhbhai Patel was instrumental in the integration of princely states into the Indian Union. Reason: He chaired the Drafting Committee of the Indian Constitution." [ref=f12e802]':
+                    - generic [ref=f12e803]: EN
+                    - paragraph [ref=f12e804]:
+                      - strong [ref=f12e805]:
+                        - text: "Assertion:"
+                        - text: Sardar Vallabhbhai Patel was instrumental in the integration of princely states into the Indian Union.
+                        - text: "Reason:"
+                        - text: He chaired the Drafting Committee of the Indian Constitution.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e806]:
+                    - paragraph [ref=f12e807]:
+                      - strong [ref=f12e808]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e809]:
+                    - paragraph [ref=f12e810]:
+                      - strong [ref=f12e811]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "Assertion is correct, but Reason is incorrect." [ref=f12e812]:
+                    - paragraph [ref=f12e813]:
+                      - strong [ref=f12e814]: Assertion is correct, but Reason is incorrect.
+                  - cell "Assertion is incorrect, but Reason is correct." [ref=f12e815]:
+                    - paragraph [ref=f12e816]:
+                      - strong [ref=f12e817]: Assertion is incorrect, but Reason is correct.
+                  - cell "Assertion is correct, but Reason is incorrect." [ref=f12e818]:
+                    - paragraph [ref=f12e819]:
+                      - strong [ref=f12e820]: Assertion is correct, but Reason is incorrect.
+                  - cell "Sardar Vallabhbhai Patel played a crucial role in the integration of princely states into the Indian Union, leading to India's political consolidation. So, the Assertion is correct. However, Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution, not Sardar Patel. Therefore, the Reason is incorrect." [ref=f12e821]:
+                    - paragraph [ref=f12e822]:
+                      - strong [ref=f12e823]: Sardar Vallabhbhai Patel played a crucial role in the integration of princely states into the Indian Union, leading to India's political consolidation. So, the Assertion is correct. However, Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution, not Sardar Patel. Therefore, the Reason is incorrect.
+                - row [ref=f12e824]:
+                  - cell [ref=f12e825]:
+                    - checkbox [checked] [ref=f12e826] [cursor=pointer]
+                  - cell "10" [ref=f12e827]
+                  - 'cell "TA கூற்று: இந்திய அரசியலமைப்பு 1950 ஜனவரி 26 அன்று நடைமுறைக்கு வந்தது, இது பூர்ண சுயராஜ்ய பிரகடனத்துடன் தொடர்புடைய ஒரு தேதி. காரணம்: பூர்ண சுயராஜ்ய பிரகடனம் மகாத்மா காந்தியால் 1942 இல் செய்யப்பட்டது." [ref=f12e828]':
+                    - generic [ref=f12e829]: TA
+                    - paragraph [ref=f12e830]:
+                      - strong [ref=f12e831]:
+                        - text: "கூற்று:"
+                        - text: இந்திய அரசியலமைப்பு 1950 ஜனவரி 26 அன்று நடைமுறைக்கு வந்தது, இது பூர்ண சுயராஜ்ய பிரகடனத்துடன் தொடர்புடைய ஒரு தேதி.
+                        - text: "காரணம்:"
+                        - text: பூர்ண சுயராஜ்ய பிரகடனம் மகாத்மா காந்தியால் 1942 இல் செய்யப்பட்டது.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம். Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e832]:
+                    - paragraph [ref=f12e833]:
+                      - strong [ref=f12e834]: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                    - paragraph [ref=f12e835]:
+                      - strong [ref=f12e836]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல. Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e837]:
+                    - paragraph [ref=f12e838]:
+                      - strong [ref=f12e839]: கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல.
+                    - paragraph [ref=f12e840]:
+                      - strong [ref=f12e841]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "கூற்று சரி; காரணம் தவறு. Assertion is correct, but Reason is incorrect." [ref=f12e842]:
+                    - paragraph [ref=f12e843]:
+                      - strong [ref=f12e844]: கூற்று சரி; காரணம் தவறு.
+                    - paragraph [ref=f12e845]:
+                      - strong [ref=f12e846]: Assertion is correct, but Reason is incorrect.
+                  - cell "கூற்று தவறு; காரணம் சரி. Assertion is incorrect, but Reason is correct." [ref=f12e847]:
+                    - paragraph [ref=f12e848]:
+                      - strong [ref=f12e849]: கூற்று தவறு; காரணம் சரி.
+                    - paragraph [ref=f12e850]:
+                      - strong [ref=f12e851]: Assertion is incorrect, but Reason is correct.
+                  - cell "கூற்று சரி; காரணம் தவறு. Assertion is correct, but Reason is incorrect." [ref=f12e852]:
+                    - paragraph [ref=f12e853]:
+                      - strong [ref=f12e854]: கூற்று சரி; காரணம் தவறு.
+                    - paragraph [ref=f12e855]:
+                      - strong [ref=f12e856]: Assertion is correct, but Reason is incorrect.
+                  - cell "இந்திய அரசியலமைப்பு 1950 ஜனவரி 26 அன்று நடைமுறைக்கு வந்தது, இது 1930 ஜனவரி 26 அன்று அறிவிக்கப்பட்ட பூர்ண சுயராஜ்ய பிரகடனத்தின் வரலாற்று முக்கியத்துவத்தை நினைவுகூரும் வகையில் தேர்ந்தெடுக்கப்பட்டது. எனவே, கூற்று சரியானது. ஆனால், பூர்ண சுயராஜ்ய பிரகடனம் 1929 இல் லாகூர் அமர்வில் இந்திய தேசிய காங்கிரஸால் நிறைவேற்றப்பட்டது மற்றும் 1930 ஜனவரி 26 அன்று அறிவிக்கப்பட்டது, மகாத்மா காந்தியால் 1942 இல் அல்ல. எனவே, காரணம் தவறானது." [ref=f12e857]:
+                    - paragraph [ref=f12e858]:
+                      - strong [ref=f12e859]: இந்திய அரசியலமைப்பு 1950 ஜனவரி 26 அன்று நடைமுறைக்கு வந்தது, இது 1930 ஜனவரி 26 அன்று அறிவிக்கப்பட்ட பூர்ண சுயராஜ்ய பிரகடனத்தின் வரலாற்று முக்கியத்துவத்தை நினைவுகூரும் வகையில் தேர்ந்தெடுக்கப்பட்டது. எனவே, கூற்று சரியானது. ஆனால், பூர்ண சுயராஜ்ய பிரகடனம் 1929 இல் லாகூர் அமர்வில் இந்திய தேசிய காங்கிரஸால் நிறைவேற்றப்பட்டது மற்றும் 1930 ஜனவரி 26 அன்று அறிவிக்கப்பட்டது, மகாத்மா காந்தியால் 1942 இல் அல்ல. எனவே, காரணம் தவறானது.
+                  - cell "20" [ref=f12e860]
+                - row [ref=f12e861]:
+                  - 'cell "EN Assertion: The Constitution of India came into force on 26 January 1950, a date associated with the Purna Swaraj Declaration. Reason: The Purna Swaraj Declaration was made by Mahatma Gandhi in 1942." [ref=f12e862]':
+                    - generic [ref=f12e863]: EN
+                    - paragraph [ref=f12e864]:
+                      - strong [ref=f12e865]:
+                        - text: "Assertion:"
+                        - text: The Constitution of India came into force on 26 January 1950, a date associated with the Purna Swaraj Declaration.
+                        - text: "Reason:"
+                        - text: The Purna Swaraj Declaration was made by Mahatma Gandhi in 1942.
+                  - cell "Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion." [ref=f12e866]:
+                    - paragraph [ref=f12e867]:
+                      - strong [ref=f12e868]: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                  - cell "Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion." [ref=f12e869]:
+                    - paragraph [ref=f12e870]:
+                      - strong [ref=f12e871]: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                  - cell "Assertion is correct, but Reason is incorrect." [ref=f12e872]:
+                    - paragraph [ref=f12e873]:
+                      - strong [ref=f12e874]: Assertion is correct, but Reason is incorrect.
+                  - cell "Assertion is incorrect, but Reason is correct." [ref=f12e875]:
+                    - paragraph [ref=f12e876]:
+                      - strong [ref=f12e877]: Assertion is incorrect, but Reason is correct.
+                  - cell "Assertion is correct, but Reason is incorrect." [ref=f12e878]:
+                    - paragraph [ref=f12e879]:
+                      - strong [ref=f12e880]: Assertion is correct, but Reason is incorrect.
+                  - cell "The Constitution of India came into force on 26 January 1950, a date chosen to commemorate the historical significance of the Purna Swaraj Declaration. So, the Assertion is correct. However, the Purna Swaraj Declaration was passed by the Indian National Congress at its Lahore session in 1929 and proclaimed on 26 January 1930, not made by Mahatma Gandhi in 1942. Therefore, the Reason is incorrect." [ref=f12e881]:
+                    - paragraph [ref=f12e882]:
+                      - strong [ref=f12e883]: The Constitution of India came into force on 26 January 1950, a date chosen to commemorate the historical significance of the Purna Swaraj Declaration. So, the Assertion is correct. However, the Purna Swaraj Declaration was passed by the Indian National Congress at its Lahore session in 1929 and proclaimed on 26 January 1930, not made by Mahatma Gandhi in 1942. Therefore, the Reason is incorrect.
+            - generic [ref=f12e213]:
+              - button " Add Selected to Database" [ref=f12e214] [cursor=pointer]:
+                - generic [ref=f12e884]: 
+                - text: Add Selected to Database
+              - generic [ref=f12e216]: 10 of 10 questions selected
+              - button " Regenerate" [ref=f12e217] [cursor=pointer]:
+                - generic [ref=f12e218]: 
+                - text: Regenerate
+              - link " Back" [ref=f12e219] [cursor=pointer]:
+                - /url: /Question/Index?assessmentId=1172
+                - generic [ref=f12e220]: 
+                - text: Back
+        - text:   
+      - contentinfo [ref=f12e221]:
+        - paragraph [ref=f12e225]:
+          - text: Copyright
+          - generic [ref=f12e226]: "2026"
+          - text: © Jeshwar Teaching
+  - img

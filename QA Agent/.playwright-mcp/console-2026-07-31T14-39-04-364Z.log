@@ -1,0 +1,18 @@
+[     920ms] [LOG] Current Path: /promocode/index @ https://jt-admin.scopethinkers.com/PromoCode/Index:897
+[     921ms] [LOG] Matched: /promocode/index {menu: Membership, submenu: Promo Codes} @ https://jt-admin.scopethinkers.com/PromoCode/Index:1155
+[     922ms] [LOG] Activating menu: Membership Submenu: Promo Codes @ https://jt-admin.scopethinkers.com/PromoCode/Index:1167
+[     923ms] [LOG] Found menu: Membership @ https://jt-admin.scopethinkers.com/PromoCode/Index:1176
+[     923ms] [LOG] Activated submenu: Promo Codes @ https://jt-admin.scopethinkers.com/PromoCode/Index:1197
+[   10956ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[   11525ms] [LOG] Current Path: /promocode/create @ https://jt-admin.scopethinkers.com/PromoCode/Create:1036
+[   11526ms] [LOG] Matched: /promocode/create {menu: Membership, submenu: Promo Codes} @ https://jt-admin.scopethinkers.com/PromoCode/Create:1294
+[   11526ms] [LOG] Activating menu: Membership Submenu: Promo Codes @ https://jt-admin.scopethinkers.com/PromoCode/Create:1306
+[   11527ms] [LOG] Found menu: Membership @ https://jt-admin.scopethinkers.com/PromoCode/Create:1315
+[   11527ms] [LOG] Activated submenu: Promo Codes @ https://jt-admin.scopethinkers.com/PromoCode/Create:1336
+[  154386ms] [LOG] Current Path: /promocode/index @ https://jt-admin.scopethinkers.com/PromoCode/Index:897
+[  154388ms] [LOG] Matched: /promocode/index {menu: Membership, submenu: Promo Codes} @ https://jt-admin.scopethinkers.com/PromoCode/Index:1155
+[  154388ms] [LOG] Activating menu: Membership Submenu: Promo Codes @ https://jt-admin.scopethinkers.com/PromoCode/Index:1167
+[  154388ms] [LOG] Found menu: Membership @ https://jt-admin.scopethinkers.com/PromoCode/Index:1176
+[  154389ms] [LOG] Activated submenu: Promo Codes @ https://jt-admin.scopethinkers.com/PromoCode/Index:1197

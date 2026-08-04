@@ -1,0 +1,250 @@
+- generic [ref=f82e1]:
+  - generic [ref=f82e7]:
+    - generic [ref=f82e8]:
+      - generic [ref=f82e9]:
+        - heading "Dashboard" [level=4] [ref=f82e10]
+        - navigation [ref=f82e11]:
+          - list [ref=f82e12]:
+            - listitem [ref=f82e13]:
+              - link [ref=f82e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f82e15]
+            - listitem [ref=f82e18]: / Index
+      - generic [ref=f82e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f82e22]:
+          - text: 
+          - listitem [ref=f82e23] [cursor=pointer]:
+            - generic [ref=f82e25]:
+              - generic [ref=f82e26]: superadmin@gmail.com
+              - paragraph [ref=f82e27]:
+                - text: SuperAdmin
+                - generic [ref=f82e28]: 
+    - generic [ref=f82e29]:
+      - generic [ref=f82e31]:
+        - generic [ref=f82e32]:
+          - link [ref=f82e33] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f82e35] [cursor=pointer]
+        - navigation [ref=f82e37]:
+          - list [ref=f82e39]:
+            - generic [ref=f82e44]:
+              - text: 
+              - listitem [ref=f82e45]:
+                - heading "Applications" [level=6] [ref=f82e47]
+              - listitem [ref=f82e48]:
+                - link "Dashboard" [ref=f82e49] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f82e50]
+                  - generic [ref=f82e52]: Dashboard
+                  - text: 
+              - listitem [ref=f82e53]:
+                - link "Enrollment " [ref=f82e54] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e55]
+                  - generic [ref=f82e57]: Enrollment
+                  - generic [ref=f82e59]: 
+              - listitem [ref=f82e60]:
+                - link "Website Settings " [ref=f82e61] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e62]
+                  - generic [ref=f82e64]: Website Settings
+                  - generic [ref=f82e66]: 
+              - listitem [ref=f82e67]:
+                - link "Membership " [ref=f82e68] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e69]
+                  - generic [ref=f82e71]: Membership
+                  - generic [ref=f82e73]: 
+                - list [ref=f82e74]:
+                  - listitem [ref=f82e75]:
+                    - link "Membership" [ref=f82e76] [cursor=pointer]:
+                      - /url: /Membership/Index
+                  - listitem [ref=f82e77]:
+                    - link "Pricing Plan" [ref=f82e78] [cursor=pointer]:
+                      - /url: /PricingPlan/Index
+                  - listitem [ref=f82e79]:
+                    - link "Promo Codes" [ref=f82e80] [cursor=pointer]:
+                      - /url: /PromoCode/Index
+              - listitem [ref=f82e81]:
+                - link "IVR " [ref=f82e82] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e83]
+                  - generic [ref=f82e85]: IVR
+                  - generic [ref=f82e87]: 
+              - listitem [ref=f82e88]:
+                - link "Course " [ref=f82e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e90]
+                  - generic [ref=f82e92]: Course
+                  - generic [ref=f82e94]: 
+              - listitem [ref=f82e95]:
+                - link " Self Host " [ref=f82e96] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f82e97]: 
+                  - generic [ref=f82e98]: Self Host
+                  - generic [ref=f82e100]: 
+              - listitem [ref=f82e101]:
+                - link "Assessment " [ref=f82e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e103]
+                  - generic [ref=f82e105]: Assessment
+                  - generic [ref=f82e107]: 
+              - listitem [ref=f82e108]:
+                - link "Student Activity " [ref=f82e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e110]
+                  - generic [ref=f82e112]: Student Activity
+                  - generic [ref=f82e114]: 
+              - listitem [ref=f82e115]:
+                - link "APL " [ref=f82e116] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e117]
+                  - generic [ref=f82e119]: APL
+                  - generic [ref=f82e121]: 
+              - listitem [ref=f82e122]:
+                - link "Email Draft " [ref=f82e123] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e124]
+                  - generic [ref=f82e126]: Email Draft
+                  - generic [ref=f82e128]: 
+              - listitem [ref=f82e129]:
+                - link "Admin " [ref=f82e130] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e131]
+                  - generic [ref=f82e133]: Admin
+                  - generic [ref=f82e135]: 
+              - listitem [ref=f82e136]:
+                - link "Gst Report " [ref=f82e137] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e138]
+                  - generic [ref=f82e140]: Gst Report
+                  - generic [ref=f82e142]: 
+              - listitem [ref=f82e143]:
+                - link "general icon General " [ref=f82e144] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f82e145]
+                  - generic [ref=f82e146]: General
+                  - generic [ref=f82e148]: 
+              - listitem [ref=f82e149]:
+                - link "Leaderboard" [ref=f82e150] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f82e151]
+                  - generic [ref=f82e153]: Leaderboard
+                  - text: 
+              - listitem [ref=f82e154]:
+                - heading "E-Commerce" [level=6] [ref=f82e156]
+              - listitem [ref=f82e157]:
+                - link "Dashboard" [ref=f82e158] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f82e159]
+                  - generic [ref=f82e161]: Dashboard
+                  - text: 
+              - listitem [ref=f82e162]:
+                - link "product icon Product " [ref=f82e163] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f82e164]
+                  - generic [ref=f82e165]: Product
+                  - generic [ref=f82e167]: 
+              - listitem [ref=f82e168]:
+                - link "Ebooks " [ref=f82e169] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e170]
+                  - generic [ref=f82e172]: Ebooks
+                  - generic [ref=f82e174]: 
+              - listitem [ref=f82e175]:
+                - link "Order " [ref=f82e176] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e177]
+                  - generic [ref=f82e179]: Order
+                  - generic [ref=f82e181]: 
+              - listitem [ref=f82e182]:
+                - link "Customer" [ref=f82e183] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f82e184]
+                  - generic [ref=f82e186]: Customer
+                  - text: 
+              - listitem [ref=f82e187]:
+                - link "Dashboards " [ref=f82e188] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e189]
+                  - generic [ref=f82e191]: Dashboards
+                  - generic [ref=f82e193]: 
+              - listitem [ref=f82e194]:
+                - link "Reports " [ref=f82e195] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e196]
+                  - generic [ref=f82e198]: Reports
+                  - generic [ref=f82e200]: 
+              - listitem [ref=f82e201]:
+                - link "Manual Purchase" [ref=f82e202] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f82e203]
+                  - generic [ref=f82e205]: Manual Purchase
+              - listitem [ref=f82e206]:
+                - heading "Payments" [level=6] [ref=f82e208]
+              - listitem [ref=f82e209]:
+                - link "Transactions " [ref=f82e210] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f82e211]
+                  - generic [ref=f82e213]: Transactions
+                  - generic [ref=f82e215]: 
+              - listitem [ref=f82e216]:
+                - heading "Notifcations" [level=6] [ref=f82e218]
+              - listitem [ref=f82e219]:
+                - link "notify-ico Notifications " [ref=f82e220] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f82e221]
+                  - generic [ref=f82e222]: Notifications
+                  - generic [ref=f82e224]: 
+              - listitem [ref=f82e225]:
+                - heading "Job Management" [level=6] [ref=f82e227]
+              - listitem [ref=f82e228]:
+                - link "notify-ico Jobs " [ref=f82e229] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f82e230]
+                  - generic [ref=f82e231]: Jobs
+                  - generic [ref=f82e233]: 
+      - main [ref=f82e235]:
+        - generic [ref=f82e237]:
+          - generic [ref=f82e238]:
+            - heading "Promo Codes" [level=5] [ref=f82e239]
+            - link "Add Promo Code" [ref=f82e240] [cursor=pointer]:
+              - /url: /PromoCode/Create
+          - generic [ref=f82e243]:
+            - generic [ref=f82e245]:
+              - text: Show
+              - combobox "Show entries" [ref=f82e246] [cursor=pointer]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: entries
+            - generic [ref=f82e248]:
+              - text: "Search:"
+              - searchbox "Search:" [ref=f82e249] [cursor=pointer]
+            - grid [ref=f82e250]:
+              - rowgroup [ref=f82e251]:
+                - row "↑ Code  Discount Scope Validity Redemptions ↑ Status  Action" [ref=f82e252]:
+                  - columnheader "↑ Code " [ref=f82e253] [cursor=pointer]
+                  - columnheader "Discount" [ref=f82e254]
+                  - columnheader "Scope" [ref=f82e255]
+                  - columnheader "Validity" [ref=f82e256]
+                  - columnheader "Redemptions" [ref=f82e257]
+                  - columnheader "↑ Status " [ref=f82e258] [cursor=pointer]
+                  - columnheader "Action" [ref=f82e259]
+              - rowgroup
+            - status
+      - contentinfo [ref=f82e261]:
+        - paragraph [ref=f82e265]:
+          - text: Copyright
+          - generic [ref=f82e266]: "2026"
+          - text: © Jeshwar Teaching
+  - img

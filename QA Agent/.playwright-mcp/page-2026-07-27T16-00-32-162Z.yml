@@ -1,0 +1,218 @@
+- generic [ref=f24e1]:
+  - generic [ref=f24e7]:
+    - generic [ref=f24e8]:
+      - generic [ref=f24e9]:
+        - heading "Dashboard" [level=4] [ref=f24e499]
+        - navigation [ref=f24e11]:
+          - list [ref=f24e12]:
+            - listitem [ref=f24e13]:
+              - link [ref=f24e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f24e15]
+            - listitem [ref=f24e18]: / Index
+      - generic [ref=f24e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f24e22]:
+          - listitem [ref=f24e23]:
+            - generic [ref=f24e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f24e26]:
+      - generic [ref=f24e28]:
+        - text: 
+        - link [ref=f24e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f24e31]:
+          - list [ref=f24e33]:
+            - generic [ref=f24e38]:
+              - text: 
+              - listitem [ref=f24e39]:
+                - link [ref=f24e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f24e41]
+                  - text: 
+              - listitem [ref=f24e43]:
+                - link [ref=f24e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e45]
+                  - text: 
+              - listitem [ref=f24e47]:
+                - link [ref=f24e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e49]
+                  - text: 
+              - listitem [ref=f24e51]:
+                - link [ref=f24e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e53]
+                  - text: 
+              - listitem [ref=f24e55]:
+                - link [ref=f24e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e57]
+                  - text: 
+              - listitem [ref=f24e59]:
+                - link [ref=f24e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e61]
+                  - text: 
+              - listitem [ref=f24e63]:
+                - link "" [ref=f24e500] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f24e65]: 
+                  - text: 
+              - listitem [ref=f24e66]:
+                - link [ref=f24e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e68]
+                  - text: 
+              - listitem [ref=f24e70]:
+                - link [ref=f24e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e72]
+                  - text: 
+              - listitem [ref=f24e74]:
+                - link [ref=f24e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e76]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f24e78]:
+                - link [ref=f24e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e80]
+                  - text: 
+              - listitem [ref=f24e82]:
+                - link [ref=f24e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e84]
+                  - text: 
+              - listitem [ref=f24e86]:
+                - link [ref=f24e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e88]
+                  - text: 
+              - listitem [ref=f24e90]:
+                - link "general icon" [ref=f24e501] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f24e502]
+                  - text: 
+              - listitem [ref=f24e93]:
+                - link [ref=f24e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f24e95]
+                  - text: 
+              - listitem [ref=f24e97]:
+                - link [ref=f24e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f24e99]
+                  - text: 
+              - listitem [ref=f24e101]:
+                - link "product icon" [ref=f24e503] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f24e504]
+                  - text: 
+              - listitem [ref=f24e104]:
+                - link [ref=f24e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e106]
+                  - text: 
+              - listitem [ref=f24e108]:
+                - link [ref=f24e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e110]
+                  - text: 
+              - listitem [ref=f24e112]:
+                - link [ref=f24e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f24e114]
+                  - text: 
+              - listitem [ref=f24e116]:
+                - link [ref=f24e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e118]
+                  - text: 
+              - listitem [ref=f24e120]:
+                - link [ref=f24e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e122]
+                  - text: 
+              - listitem [ref=f24e124]:
+                - link [ref=f24e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f24e126]
+              - listitem [ref=f24e128]:
+                - link [ref=f24e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e130]
+                  - text: 
+              - listitem [ref=f24e132]:
+                - link "notify-ico" [ref=f24e505] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f24e506]
+                  - text: 
+              - listitem [ref=f24e135]:
+                - link "notify-ico" [ref=f24e507] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f24e508]
+                  - text: 
+      - main [ref=f24e139]:
+        - generic [ref=f24e141]:
+          - generic [ref=f24e143]:
+            - heading "Announcement Page Card Settings" [level=5] [ref=f24e509]
+            - generic [ref=f24e145]: Configure how long each card stays on screen before rotating — each card saves on its own
+          - generic [ref=f24e146]:
+            - tablist [ref=f24e147]:
+              - button "KPI / Mini Cards" [ref=f24e510] [cursor=pointer]
+              - button "Side Panel Carousels" [active] [ref=f24e511] [cursor=pointer]
+              - button "Final Results" [ref=f24e512] [cursor=pointer]
+            - text:                    
+            - generic [ref=f24e524]:
+              - generic [ref=f24e525]:
+                - heading " Left Side Panel" [level=6] [ref=f24e526]:
+                  - generic [ref=f24e527]: 
+                  - text: Left Side Panel
+                - generic [ref=f24e528]:
+                  - generic [ref=f24e530]:
+                    - generic [ref=f24e531]: 
+                    - text: Left Side Panel
+                  - generic [ref=f24e533]:
+                    - generic [ref=f24e534]: Rotation Interval (sec)
+                    - spinbutton [ref=f24e535] [cursor=pointer]: "13.8"
+                    - button "" [ref=f24e536] [cursor=pointer]:
+                      - generic [ref=f24e537]: 
+              - generic [ref=f24e538]:
+                - heading "Right Side Panel " [level=6] [ref=f24e539]:
+                  - text: Right Side Panel
+                  - generic [ref=f24e540]: 
+                - generic [ref=f24e541]:
+                  - generic [ref=f24e543]:
+                    - generic [ref=f24e544]: 
+                    - text: Right Side Panel
+                  - generic [ref=f24e546]:
+                    - generic [ref=f24e547]: Rotation Interval (sec)
+                    - spinbutton [ref=f24e548] [cursor=pointer]: "3.8"
+                    - button "" [ref=f24e549] [cursor=pointer]:
+                      - generic [ref=f24e550]: 
+            - text:      
+      - contentinfo [ref=f24e273]:
+        - paragraph [ref=f24e277]:
+          - text: Copyright
+          - generic [ref=f24e278]: "2026"
+          - text: © Jeshwar Teaching
+  - img

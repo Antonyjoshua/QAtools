@@ -1,0 +1,255 @@
+- generic [ref=f20e1]:
+  - generic [ref=f20e7]:
+    - generic [ref=f20e8]:
+      - generic [ref=f20e9]:
+        - heading "Dashboard" [level=4] [ref=f20e10]
+        - navigation [ref=f20e11]:
+          - list [ref=f20e12]:
+            - listitem [ref=f20e13]:
+              - link [ref=f20e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f20e15]
+            - listitem [ref=f20e18]: / Index
+      - generic [ref=f20e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f20e22]:
+          - listitem [ref=f20e23]:
+            - generic [ref=f20e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f20e26]:
+      - generic [ref=f20e28]:
+        - text: 
+        - link [ref=f20e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f20e31]:
+          - list [ref=f20e33]:
+            - generic [ref=f20e38]:
+              - text: 
+              - listitem [ref=f20e39]:
+                - link [ref=f20e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f20e41]
+                  - text: 
+              - listitem [ref=f20e43]:
+                - link [ref=f20e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e45]
+                  - text: 
+              - listitem [ref=f20e47]:
+                - link [ref=f20e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e49]
+                  - text: 
+              - listitem [ref=f20e51]:
+                - link [ref=f20e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e53]
+                  - text: 
+              - listitem [ref=f20e55]:
+                - link [ref=f20e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e57]
+                  - text: 
+              - listitem [ref=f20e59]:
+                - link [ref=f20e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e61]
+                  - text: 
+              - listitem [ref=f20e63]:
+                - link "" [ref=f20e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f20e65]: 
+                  - text: 
+              - listitem [ref=f20e66]:
+                - link [ref=f20e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e68]
+                  - text: 
+              - listitem [ref=f20e70]:
+                - link [ref=f20e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e72]
+                  - text: 
+              - listitem [ref=f20e74]:
+                - link [ref=f20e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e76]
+                  - text: 
+              - listitem [ref=f20e78]:
+                - link [ref=f20e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e80]
+                  - text: 
+              - listitem [ref=f20e82]:
+                - link "general icon" [ref=f20e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f20e84]
+                  - text: 
+              - listitem [ref=f20e85]:
+                - link [ref=f20e86] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f20e87]
+                  - text: 
+              - listitem [ref=f20e89]:
+                - link [ref=f20e90] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f20e91]
+                  - text: 
+              - listitem [ref=f20e93]:
+                - link "product icon" [ref=f20e94] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f20e95]
+                  - text: 
+              - listitem [ref=f20e96]:
+                - link [ref=f20e97] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e98]
+                  - text: 
+              - listitem [ref=f20e100]:
+                - link [ref=f20e101] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f20e102]
+                  - text: 
+              - listitem [ref=f20e104]:
+                - link [ref=f20e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e106]
+                  - text: 
+              - listitem [ref=f20e108]:
+                - link [ref=f20e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e110]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f20e112]:
+                - link [ref=f20e113] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f20e114]
+              - listitem [ref=f20e116]:
+                - link [ref=f20e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e118]
+                  - text: 
+              - listitem [ref=f20e120]:
+                - link "notify-ico" [ref=f20e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f20e122]
+                  - text: 
+              - listitem [ref=f20e123]:
+                - link "notify-ico" [ref=f20e124] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f20e125]
+                  - text: 
+      - main [ref=f20e127]:
+        - generic [ref=f20e131]:
+          - generic [ref=f20e132]:
+            - heading "Book Purchase Report" [level=5] [ref=f20e133]
+            - button " Export Excel" [ref=f20e134] [cursor=pointer]:
+              - generic [ref=f20e135]: 
+              - text: Export Excel
+          - generic [ref=f20e136]:
+            - generic [ref=f20e138]:
+              - generic [ref=f20e139]:
+                - generic [ref=f20e140]: From Date
+                - textbox [ref=f20e141] [cursor=pointer]
+              - generic [ref=f20e142]:
+                - generic [ref=f20e143]: To Date
+                - textbox [ref=f20e144] [cursor=pointer]
+              - generic [ref=f20e145]:
+                - generic [ref=f20e146]: Customer
+                - textbox "Search customer..." [ref=f20e147] [cursor=pointer]
+              - generic [ref=f20e148]:
+                - generic [ref=f20e149]: Product Title
+                - textbox "Search product..." [ref=f20e150] [cursor=pointer]
+              - generic [ref=f20e151]:
+                - generic [ref=f20e152]: Product Type
+                - combobox [ref=f20e153] [cursor=pointer]:
+                  - option "All Types" [selected]
+                  - option "Books"
+                  - option "Product Type"
+                  - option "Stationary"
+                  - option "Study Products"
+                  - option "Notes"
+                  - option "Exam Kit"
+                  - option "Miscellaneous"
+                  - option "Notes"
+                  - option "JT special store"
+                  - option "Multiple/Combo"
+                  - option "Combo"
+                  - option "Combo"
+              - generic [ref=f20e154]:
+                - generic [ref=f20e155]: "Invoice #"
+                - textbox "INV-..." [ref=f20e156] [cursor=pointer]
+              - generic [ref=f20e157]:
+                - generic [ref=f20e158]: Order Status
+                - combobox [ref=f20e159] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "Pending"
+                  - option "Shipped"
+                  - option "Delivered"
+                  - option "Cancelled"
+                  - option "Refunded"
+              - generic [ref=f20e160]:
+                - generic [ref=f20e161]: Payment Status
+                - combobox [ref=f20e162] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "Pending"
+                  - option "Success"
+                  - option "Failed"
+              - generic [ref=f20e163]:
+                - button "Apply" [ref=f20e164] [cursor=pointer]
+                - button "Clear" [ref=f20e165] [cursor=pointer]
+            - generic [ref=f20e166]:
+              - generic [ref=f20e167]:
+                - generic [ref=f20e168]:
+                  - generic [ref=f20e169]: Total Purchases
+                  - heading "—" [level=3] [ref=f20e170]
+                - generic [ref=f20e172]: 
+              - generic [ref=f20e173]:
+                - generic [ref=f20e174]:
+                  - generic [ref=f20e175]: Total Revenue
+                  - heading "—" [level=3] [ref=f20e176]
+                - generic [ref=f20e178]: 
+              - generic [ref=f20e179]:
+                - generic [ref=f20e180]:
+                  - generic [ref=f20e181]: Total Books Sold
+                  - heading "—" [level=3] [ref=f20e182]
+                - generic [ref=f20e184]: 
+              - generic [ref=f20e185]:
+                - generic [ref=f20e186]:
+                  - generic [ref=f20e187]: Total GST Collected
+                  - heading "—" [level=3] [ref=f20e188]
+                - generic [ref=f20e190]: 
+            - grid [ref=f20e195]:
+              - rowgroup [ref=f20e196]:
+                - 'row "Order #  Invoice #  Date  Customer  Product  Type  Qty  Unit Price  Discount  GST  Sub Total  Order Status  Payment " [ref=f20e197]':
+                  - 'columnheader "Order # " [ref=f20e198] [cursor=pointer]'
+                  - 'columnheader "Invoice # " [ref=f20e199] [cursor=pointer]'
+                  - columnheader "Date " [ref=f20e200] [cursor=pointer]
+                  - columnheader "Customer " [ref=f20e201] [cursor=pointer]
+                  - columnheader "Product " [ref=f20e202] [cursor=pointer]
+                  - columnheader "Type " [ref=f20e203] [cursor=pointer]
+                  - columnheader "Qty " [ref=f20e204] [cursor=pointer]
+                  - columnheader "Unit Price " [ref=f20e205] [cursor=pointer]
+                  - columnheader "Discount " [ref=f20e206] [cursor=pointer]
+                  - columnheader "GST " [ref=f20e207] [cursor=pointer]
+                  - columnheader "Sub Total " [ref=f20e208] [cursor=pointer]
+                  - columnheader "Order Status " [ref=f20e209] [cursor=pointer]
+                  - columnheader "Payment " [ref=f20e210] [cursor=pointer]
+              - rowgroup
+      - contentinfo [ref=f20e211]:
+        - paragraph [ref=f20e215]:
+          - text: Copyright
+          - generic [ref=f20e216]: "2026"
+          - text: © Jeshwar Teaching
+  - img

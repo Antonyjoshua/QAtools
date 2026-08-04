@@ -1,0 +1,64 @@
+# Jenkins Pipeline Configuration for Selenium Automation Tests
+# Save this as Jenkinsfile in project root
+
+pipeline {
+    agent any
+    
+    options {
+        timestamps()
+        timeout(time: 1, unit: 'HOURS')
+        buildDiscarder(logRotator(numToKeepStr: '10'))
+    }
+    
+    environment {
+        MAVEN_HOME = '/usr/local/maven'
+        JAVA_HOME = '/usr/lib/jvm/java-11-openjdk'
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                echo 'Checking out code...'
+                checkout scm
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                echo 'Building project...'
+                sh 'mvn clean compile'
+            }
+        }
+        
+        stage('Run Tests') {
+            steps {
+                echo 'Running Selenium tests...'
+                sh 'mvn test'
+            }
+        }
+        
+        stage('Generate Reports') {
+            steps {
+                echo 'Generating test reports...'
+                sh 'mvn surefire-report:report'
+            }
+        }
+    }
+    
+    post {
+        always {
+            echo 'Archiving test results...'
+            archiveArtifacts artifacts: 'target/surefire-reports/**', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'test-output/screenshots/**', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'logs/**', allowEmptyArchive: true
+        }
+        
+        success {
+            echo 'Tests passed successfully!'
+        }
+        
+        failure {
+            echo 'Tests failed!'
+        }
+    }
+}

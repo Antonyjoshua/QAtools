@@ -1,0 +1,422 @@
+- generic [ref=f8e7]:
+  - generic [ref=f8e8]:
+    - generic [ref=f8e9]:
+      - heading "Dashboard" [level=4] [ref=f8e10]
+      - navigation [ref=f8e11]:
+        - list [ref=f8e12]:
+          - listitem:
+            - link:
+              - /url: /Dashboard/Index
+          - listitem [ref=f8e13]: / Index
+    - generic [ref=f8e15]:
+      - generic:
+        - generic:
+          - text: 
+          - generic:
+            - generic:
+              - textbox "Search .." [active]
+      - list [ref=f8e17]:
+        - text: 
+        - listitem [ref=f8e18] [cursor=pointer]:
+          - generic [ref=f8e19]:
+            - img "Profile" [ref=f8e20]
+            - generic [ref=f8e21]:
+              - generic [ref=f8e22]: superadmin@gmail.com
+              - paragraph [ref=f8e23]:
+                - text: SuperAdmin
+                - generic [ref=f8e24]: 
+  - generic [ref=f8e25]:
+    - generic [ref=f8e27]:
+      - generic [ref=f8e28]:
+        - link [ref=f8e29] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - text: 
+        - img [ref=f8e31] [cursor=pointer]
+      - navigation [ref=f8e33]:
+        - list [ref=f8e35]:
+          - listitem [ref=f8e36]:
+            - link [ref=f8e37] [cursor=pointer]:
+              - /url: /Dashboard/Index
+            - generic [ref=f8e38] [cursor=pointer]:
+              - generic [ref=f8e39]: Back
+              - generic [ref=f8e40]: 
+          - listitem [ref=f8e41]:
+            - heading "Applications" [level=6] [ref=f8e43]
+          - listitem [ref=f8e44]:
+            - link "Dashboard" [ref=f8e45] [cursor=pointer]:
+              - /url: /Dashboard/Index
+              - img [ref=f8e46]
+              - generic [ref=f8e48]: Dashboard
+          - listitem [ref=f8e49]:
+            - link "Enrollment" [ref=f8e50] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f8e51]
+              - generic [ref=f8e53]: Enrollment
+            - list [ref=f8e54]:
+              - listitem [ref=f8e55]:
+                - link "User" [ref=f8e56] [cursor=pointer]:
+                  - /url: /User/UserDetails
+              - listitem [ref=f8e57]:
+                - link "Today Present Users" [ref=f8e58] [cursor=pointer]:
+                  - /url: /User/PresentUsers
+              - listitem [ref=f8e59]:
+                - link "Course Purchases" [ref=f8e60] [cursor=pointer]:
+                  - /url: /Membership/CoursePurchased
+              - listitem [ref=f8e61]:
+                - link "Deleted Users History" [ref=f8e62] [cursor=pointer]:
+                  - /url: /User/DeletedUsers
+          - listitem [ref=f8e63]:
+            - link "Website Settings" [ref=f8e64] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f8e65]
+              - generic [ref=f8e67]: Website Settings
+            - list [ref=f8e68]:
+              - listitem [ref=f8e69]:
+                - link "Content" [ref=f8e70] [cursor=pointer]:
+                  - /url: /Master/About
+              - listitem [ref=f8e71]:
+                - link "Settings" [ref=f8e72] [cursor=pointer]:
+                  - /url: /EmailDraft/WebsiteSettings
+              - listitem [ref=f8e73]:
+                - link "AI Providers" [ref=f8e74] [cursor=pointer]:
+                  - /url: /AiProvider/Index
+              - listitem [ref=f8e75]:
+                - link "PDF Frame Template" [ref=f8e76] [cursor=pointer]:
+                  - /url: /LetterTemplate/Index
+              - listitem [ref=f8e77]:
+                - link "PDF Template" [ref=f8e78] [cursor=pointer]:
+                  - /url: /PdfManager/Index
+              - listitem [ref=f8e79]:
+                - link "Section Types" [ref=f8e80] [cursor=pointer]:
+                  - /url: /PdfManager/SectionTypes
+              - listitem [ref=f8e81]:
+                - link "Reviews" [ref=f8e82] [cursor=pointer]:
+                  - /url: /Review/Index
+          - listitem [ref=f8e83]:
+            - link "Membership" [ref=f8e84] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f8e85]
+              - generic [ref=f8e87]: Membership
+            - list [ref=f8e88]:
+              - listitem [ref=f8e89]:
+                - link "Membership" [ref=f8e90] [cursor=pointer]:
+                  - /url: /Membership/Index
+              - listitem [ref=f8e91]:
+                - link "Pricing Plan" [ref=f8e92] [cursor=pointer]:
+                  - /url: /PricingPlan/Index
+          - listitem [ref=f8e93]:
+            - link "Course" [ref=f8e94] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f8e95]
+              - generic [ref=f8e97]: Course
+            - list [ref=f8e98]:
+              - listitem [ref=f8e99]:
+                - link "Course" [ref=f8e100] [cursor=pointer]:
+                  - /url: /Master/Course
+              - listitem [ref=f8e101]:
+                - link "Unit" [ref=f8e102] [cursor=pointer]:
+                  - /url: /Unit/Index
+              - listitem [ref=f8e103]:
+                - link "Topics" [ref=f8e104] [cursor=pointer]:
+                  - /url: /Topic/Index
+              - listitem [ref=f8e105]:
+                - link "Live" [ref=f8e106] [cursor=pointer]:
+                  - /url: /CourseLive/Index
+              - listitem [ref=f8e107]:
+                - link "Doubt Inbox" [ref=f8e108] [cursor=pointer]:
+                  - /url: /Doubt/Inbox
+              - listitem [ref=f8e109]:
+                - link "Topic Ratings" [ref=f8e110] [cursor=pointer]:
+                  - /url: /TopicRating/Index
+              - listitem [ref=f8e111]:
+                - link "Admin Ratings" [ref=f8e112] [cursor=pointer]:
+                  - /url: /AdminTopicRating/Index
+          - listitem [ref=f8e113]:
+            - link " Self Host" [ref=f8e114] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=f8e115]: 
+              - generic [ref=f8e116]: Self Host
+            - list [ref=f8e117]:
+              - listitem [ref=f8e118]:
+                - link "Upload" [ref=f8e119] [cursor=pointer]:
+                  - /url: /VOD/Index
+              - listitem [ref=f8e120]:
+                - link "Shorts" [ref=f8e121] [cursor=pointer]:
+                  - /url: /Shorts/Index
+              - listitem [ref=f8e122]:
+                - link "Live" [ref=f8e123] [cursor=pointer]:
+                  - /url: /Live/Index
+          - listitem [ref=f8e124]:
+            - link "Assessment" [ref=f8e125] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f8e126]
+              - generic [ref=f8e128]: Assessment
+            - list [ref=f8e129]:
+              - listitem [ref=f8e130]:
+                - link "Course" [ref=f8e131] [cursor=pointer]:
+                  - /url: /Assessment/CourseAssessment
+              - listitem [ref=f8e132]:
+                - link "Unit" [ref=f8e133] [cursor=pointer]:
+                  - /url: /Assessment/Index
+              - listitem [ref=f8e134]:
+                - link "Topic" [ref=f8e135] [cursor=pointer]:
+                  - /url: /Assessment/TopicAssessment
+              - listitem [ref=f8e136]:
+                - link "Prompt Config" [ref=f8e137] [cursor=pointer]:
+                  - /url: /PromptConfig/Index
+          - listitem [ref=f8e138]:
+            - link "Email Draft" [ref=f8e139] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f8e140]
+              - generic [ref=f8e142]: Email Draft
+            - list [ref=f8e143]:
+              - listitem [ref=f8e144]:
+                - link "EmailDraft" [ref=f8e145] [cursor=pointer]:
+                  - /url: /EmailDraft/EmailDraftType
+          - listitem [ref=f8e146]:
+            - link "Admin" [ref=f8e147] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f8e148]
+              - generic [ref=f8e150]: Admin
+            - list [ref=f8e151]:
+              - listitem [ref=f8e152]:
+                - link "Admin User" [ref=f8e153] [cursor=pointer]:
+                  - /url: /User/AdminUser
+              - listitem [ref=f8e154]:
+                - link "Role" [ref=f8e155] [cursor=pointer]:
+                  - /url: /Role/Index
+              - listitem [ref=f8e156]:
+                - link "Menu" [ref=f8e157] [cursor=pointer]:
+                  - /url: /Menu/Index
+              - listitem [ref=f8e158]:
+                - link "Manage Permissions" [ref=f8e159] [cursor=pointer]:
+                  - /url: /AssignRolePermission/Index
+              - listitem [ref=f8e160]:
+                - link "Folder Map" [ref=f8e161] [cursor=pointer]:
+                  - /url: /FolderStructure/Index
+              - listitem [ref=f8e162]:
+                - link "Master Folder Map" [ref=f8e163] [cursor=pointer]:
+                  - /url: /MasterFolderStructure/Index
+          - listitem [ref=f8e164]:
+            - link "general icon General" [ref=f8e165] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img "general icon" [ref=f8e166]
+              - generic [ref=f8e167]: General
+            - list [ref=f8e168]:
+              - listitem [ref=f8e169]:
+                - link "General Resource" [ref=f8e170] [cursor=pointer]:
+                  - /url: /Resource/Index
+              - listitem [ref=f8e171]:
+                - link "Audiobook" [ref=f8e172] [cursor=pointer]:
+                  - /url: /Podcast/Index
+              - listitem [ref=f8e173]:
+                - link "Current Affairs" [ref=f8e174] [cursor=pointer]:
+                  - /url: /CurrentAffairs/Index
+              - listitem [ref=f8e175]:
+                - link "Shorts" [ref=f8e176] [cursor=pointer]:
+                  - /url: /ShortVideo/Index
+              - listitem [ref=f8e177]:
+                - link "Offers" [ref=f8e178] [cursor=pointer]:
+                  - /url: /Offers/Index
+          - listitem [ref=f8e179]:
+            - link "Leaderboard" [ref=f8e180] [cursor=pointer]:
+              - /url: /Leaderboard/Index
+              - img [ref=f8e181]
+              - generic [ref=f8e183]: Leaderboard
+          - listitem [ref=f8e184]:
+            - heading "E-Commerce" [level=6] [ref=f8e186]
+          - listitem [ref=f8e187]:
+            - link "Dashboard" [ref=f8e188] [cursor=pointer]:
+              - /url: /Ecommerce/Index
+              - img [ref=f8e189]
+              - generic [ref=f8e191]: Dashboard
+          - listitem [ref=f8e192]:
+            - link "product icon Product" [ref=f8e193] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img "product icon" [ref=f8e194]
+              - generic [ref=f8e195]: Product
+            - list [ref=f8e196]:
+              - listitem [ref=f8e197]:
+                - link "Product Types" [ref=f8e198] [cursor=pointer]:
+                  - /url: /Master/ProductTypes
+              - listitem [ref=f8e199]:
+                - link "Products" [ref=f8e200] [cursor=pointer]:
+                  - /url: /Product/Products
+              - listitem [ref=f8e201]:
+                - link "Inventory Management" [ref=f8e202] [cursor=pointer]:
+                  - /url: /Inventory/Inventory
+          - listitem [ref=f8e203]:
+            - link "Order" [ref=f8e204] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f8e205]
+              - generic [ref=f8e207]: Order
+            - list [ref=f8e208]:
+              - listitem [ref=f8e209]:
+                - link "Pending" [ref=f8e210] [cursor=pointer]:
+                  - /url: /Order/Pending
+              - listitem [ref=f8e211]:
+                - link "Shipped" [ref=f8e212] [cursor=pointer]:
+                  - /url: /Order/Shipped
+              - listitem [ref=f8e213]:
+                - link "Failed" [ref=f8e214] [cursor=pointer]:
+                  - /url: /Order/OrderFailed
+              - listitem [ref=f8e215]:
+                - link "Order History" [ref=f8e216] [cursor=pointer]:
+                  - /url: /Order/Index
+          - listitem [ref=f8e217]:
+            - link "Customer" [ref=f8e218] [cursor=pointer]:
+              - /url: /Customer/CustomerDetails
+              - img [ref=f8e219]
+              - generic [ref=f8e221]: Customer
+          - listitem [ref=f8e222]:
+            - heading "Payments" [level=6] [ref=f8e224]
+          - listitem [ref=f8e225]:
+            - link "Transactions" [ref=f8e226] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f8e227]
+              - generic [ref=f8e229]: Transactions
+            - list [ref=f8e230]:
+              - listitem [ref=f8e231]:
+                - link "Membership" [ref=f8e232] [cursor=pointer]:
+                  - /url: /Payment/Transactions
+              - listitem [ref=f8e233]:
+                - link "Order Purchase" [ref=f8e234] [cursor=pointer]:
+                  - /url: /Payment/OrderPurchaseTransactions
+          - listitem [ref=f8e235]:
+            - heading "Notifcations" [level=6] [ref=f8e237]
+          - listitem [ref=f8e238]:
+            - link "notify-ico Notifications" [ref=f8e239] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img "notify-ico" [ref=f8e240]
+              - generic [ref=f8e241]: Notifications
+            - list [ref=f8e242]:
+              - listitem [ref=f8e243]:
+                - link "Notifications" [ref=f8e244] [cursor=pointer]:
+                  - /url: /Notifications/AllNotifications
+          - listitem [ref=f8e245]:
+            - heading "Job Management" [level=6] [ref=f8e247]
+          - listitem [ref=f8e248]:
+            - link "notify-ico Jobs" [ref=f8e249] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img "notify-ico" [ref=f8e250]
+              - generic [ref=f8e251]: Jobs
+            - list [ref=f8e252]:
+              - listitem [ref=f8e253]:
+                - link "Applied Jobs" [ref=f8e254] [cursor=pointer]:
+                  - /url: /AppliedJobManagement/Index
+              - listitem [ref=f8e255]:
+                - link "Job Post" [ref=f8e256] [cursor=pointer]:
+                  - /url: /JobPostManagement/Index
+    - main [ref=f8e258]:
+      - generic [ref=f8e262]:
+        - heading "Create Assessment" [level=5] [ref=f8e264]
+        - generic [ref=f8e266]:
+          - generic [ref=f8e267]:
+            - generic [ref=f8e268]:
+              - generic [ref=f8e269]:
+                - generic [ref=f8e270]: Course
+                - combobox [ref=f8e271] [cursor=pointer]:
+                  - option "-- Select Course --" [selected]
+                  - option "QA Test Course"
+                  - option "Multiplecardtypefolder"
+                  - option "Singlecourse"
+                  - option "SelfHost Course"
+                  - option "JT Phase 3"
+                  - option "Assessment course 01"
+                  - option "Railway course 3"
+                  - option "Railway course 2"
+                  - option "Political Polity"
+                  - option "Railway course"
+                  - option "Banking course"
+                  - option "Group 2A"
+                  - option "Group A course"
+                  - option "Test0025"
+                  - option "Group 6 course"
+                  - option "Group 5 course"
+                  - option "Group 4 Course"
+                  - option "Group 3 course"
+                  - option "Pongal Special Course"
+                  - option "JT Batch-2026 Course"
+                  - option "Software Testing"
+                  - option "12TH ECONOMICS"
+                  - option "TNPSC_Group1new 008"
+                  - option "Group 2 course"
+                  - option "tEST"
+                  - option "Silver membership"
+                  - option "Paid membership"
+                  - option "Group 1 course"
+                  - option "Social"
+                  - option "Software Testing Course"
+                  - option "Kingdom - 2026"
+              - text:  
+              - generic [ref=f8e272]:
+                - generic [ref=f8e273]: Title
+                - textbox [ref=f8e274] [cursor=pointer]
+              - generic [ref=f8e275]:
+                - generic [ref=f8e276]: Description
+                - textbox "Enter description" [ref=f8e277]
+            - generic [ref=f8e278]:
+              - generic [ref=f8e279]:
+                - generic [ref=f8e280]: Type
+                - combobox [ref=f8e281] [cursor=pointer]:
+                  - option "Exam" [selected]
+                  - option "Quiz"
+                  - option "Assignment"
+                  - option "PracticeTest"
+                  - option "FinalExam"
+              - generic [ref=f8e282]:
+                - generic [ref=f8e283]: Number Of Questions
+                - spinbutton [ref=f8e284] [cursor=pointer]
+              - generic [ref=f8e285]:
+                - generic [ref=f8e286]: Total Marks
+                - spinbutton [ref=f8e287] [cursor=pointer]: "100.00"
+              - generic [ref=f8e288]:
+                - generic [ref=f8e289]: Passing Marks
+                - spinbutton [ref=f8e290] [cursor=pointer]: "40.00"
+              - generic [ref=f8e291]:
+                - generic [ref=f8e292]: Duration (Minutes)
+                - spinbutton [ref=f8e293] [cursor=pointer]: "0"
+              - generic [ref=f8e294]:
+                - generic [ref=f8e295]: Assessment Image
+                - button "Assessment Image" [ref=f8e296] [cursor=pointer]
+                - text: "Supported: JPG, JPEG, PNG, GIF, WEBP. Max size: 5MB"
+              - generic [ref=f8e297]:
+                - generic [ref=f8e298]: Random Question Order
+                - checkbox [ref=f8e300] [cursor=pointer]
+              - generic [ref=f8e301]:
+                - generic [ref=f8e302]: Result Display Type
+                - generic [ref=f8e303]:
+                  - generic [ref=f8e304]:
+                    - radio "PDF Download" [ref=f8e305] [cursor=pointer]
+                    - generic [ref=f8e306]: PDF Download
+                  - generic [ref=f8e307]:
+                    - radio "Screen (Answer Key)" [ref=f8e308] [cursor=pointer]
+                    - generic [ref=f8e309]: Screen (Answer Key)
+                - text: "PDF: students download their result. Screen: students view the answer key on screen."
+            - generic [ref=f8e310]:
+              - generic [ref=f8e311]:
+                - generic [ref=f8e312]: Status
+                - combobox [disabled] [ref=f8e313] [cursor=pointer]:
+                  - option "Draft" [selected]
+                  - option "Active"
+                  - option "Archived"
+                  - option "Expired"
+              - generic [ref=f8e314]:
+                - generic [ref=f8e315]: Attempts Allowed
+                - generic [ref=f8e316]:
+                  - button "-" [ref=f8e317] [cursor=pointer]
+                  - textbox [ref=f8e318] [cursor=pointer]
+                  - button "+" [ref=f8e319] [cursor=pointer]
+          - generic [ref=f8e320]:
+            - generic [ref=f8e322]:
+              - generic [ref=f8e323]: Instructions
+              - textbox "Instructions" [ref=f8e324]:
+                - /placeholder: Enter instructions
+            - generic [ref=f8e326]:
+              - generic [ref=f8e327]: Syllabus
+              - textbox "Syllabus" [ref=f8e328]:
+                - /placeholder: Enter syllabus
+          - generic [ref=f8e329]:
+            - button "Save" [ref=f8e330] [cursor=pointer]
+            - link "Back" [ref=f8e331] [cursor=pointer]:
+              - /url: /Assessment/CourseAssessment

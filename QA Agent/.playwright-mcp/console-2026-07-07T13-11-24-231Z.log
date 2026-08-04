@@ -1,0 +1,15 @@
+[     125ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[     759ms] [LOG] Current Path: /resource/index @ https://jt-admin.scopethinkers.com/Resource/Index:1329
+[     761ms] [LOG] Matched: /resource/index {menu: General, submenu: General Resource} @ https://jt-admin.scopethinkers.com/Resource/Index:1524
+[     762ms] [LOG] Activating menu: General Submenu: General Resource @ https://jt-admin.scopethinkers.com/Resource/Index:1536
+[     763ms] [LOG] Found menu: General @ https://jt-admin.scopethinkers.com/Resource/Index:1545
+[     765ms] [LOG] Activated submenu: General Resource @ https://jt-admin.scopethinkers.com/Resource/Index:1566
+[   18658ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[   18686ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[   19251ms] [LOG] Current Path: /resource/create @ https://jt-admin.scopethinkers.com/Resource/Create?folderId=222&folderPath=%2F%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81%E0%AE%A3%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D-E:1387
+[   19251ms] [LOG] Matched: /resource/create {menu: General, submenu: General Resource} @ https://jt-admin.scopethinkers.com/Resource/Create?folderId=222&folderPath=%2F%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81%E0%AE%A3%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D-E:1582
+[   19252ms] [LOG] Activating menu: General Submenu: General Resource @ https://jt-admin.scopethinkers.com/Resource/Create?folderId=222&folderPath=%2F%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81%E0%AE%A3%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D-E:1594
+[   19252ms] [LOG] Found menu: General @ https://jt-admin.scopethinkers.com/Resource/Create?folderId=222&folderPath=%2F%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81%E0%AE%A3%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D-E:1603
+[   19253ms] [LOG] Activated submenu: General Resource @ https://jt-admin.scopethinkers.com/Resource/Create?folderId=222&folderPath=%2F%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81%E0%AE%A3%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D-E:1624

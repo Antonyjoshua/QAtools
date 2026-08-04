@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meet the Bug — Antony Joshua S</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:     #050505;
+      --card:   #0c0c0c;
+      --border: rgba(0,255,136,.14);
+      --accent: #00ff88;
+      --muted:  #4a4a4a;
+      --text:   #ffffff;
+      --fh: 'Orbitron', sans-serif;
+      --fb: 'Space Grotesk', sans-serif;
+      --fm: 'JetBrains Mono', monospace;
+    }
+
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--fb);
+      overflow-x: hidden;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* ── BACK BUTTON ── */
+    .back {
+      position: fixed; top: 22px; left: 24px; z-index: 99;
+      display: flex; align-items: center; gap: 8px;
+      font-family: var(--fm); font-size: 9px; letter-spacing: .2em; color: var(--muted);
+      border: 1px solid var(--border); border-radius: 40px; padding: 9px 16px;
+      transition: color .2s, border-color .2s;
+    }
+    .back:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* ── HEADER ── */
+    header {
+      text-align: center;
+      padding: 80px 24px 32px;
+    }
+    .chip {
+      display: inline-block;
+      font-family: var(--fm); font-size: 9px; letter-spacing: .22em;
+      color: var(--accent); border: 1px solid rgba(0,255,136,.2);
+      padding: 5px 16px; border-radius: 40px;
+      background: rgba(0,255,136,.05); margin-bottom: 18px;
+    }
+    h1 {
+      font-family: var(--fh); font-weight: 900;
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      letter-spacing: .07em; line-height: 1.1; margin-bottom: 12px;
+    }
+    h1 span { color: var(--accent); }
+    .sub {
+      font-family: var(--fm); font-size: 10.5px; letter-spacing: .14em; color: var(--muted);
+    }
+
+    /* ── LAYOUT ── */
+    .layout {
+      display: grid;
+      grid-template-columns: 250px 1fr 220px;
+      gap: 24px;
+      max-width: 1220px;
+      margin: 0 auto;
+      padding: 24px 24px 80px;
+      align-items: center;
+    }
+
+    /* ── INFO PANEL (left) ── */
+    .panel-left { display: flex; flex-direction: column; }
+
+    .info-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px 24px;
+      display: flex; flex-direction: column; gap: 14px;
+      min-height: 220px; transition: border-color .3s, box-shadow .3s;
+    }
+    .info-card.lit {
+      border-color: var(--accent);
+      box-shadow: 0 0 28px rgba(0,255,136,.10);
+    }
+    .i-icon { font-size: 38px; }
+    .i-title {
+      font-family: var(--fh); font-size: 12px; font-weight: 700;
+      color: var(--accent); letter-spacing: .09em; line-height: 1.4;
+    }
+    .i-text {
+      font-size: 12.5px; color: var(--muted); line-height: 1.75;
+    }
+
+    /* ── SPIDER CENTER ── */
+    .bug-center {
+      display: flex; flex-direction: column; align-items: center;
+      gap: 16px; position: relative;
+    }
+    .bg-glow {
+      position: absolute; width: 460px; height: 460px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(0,255,136,.09) 0%, transparent 68%);
+      pointer-events: none;
+      animation: bgPulse 3.5s ease-in-out infinite;
+    }
+    @keyframes bgPulse {
+      0%,100% { transform: scale(1); opacity: .7; }
+      50%      { transform: scale(1.06); opacity: 1; }
+    }
+    .bug-svg {
+      width: 100%; max-width: 480px; position: relative; z-index: 1;
+      filter: drop-shadow(0 8px 50px rgba(0,255,136,.16));
+      animation: bugFloat 5s ease-in-out infinite;
+    }
+    @keyframes bugFloat {
+      0%,100% { transform: translateY(0);    }
+      50%      { transform: translateY(-14px); }
+    }
+    .hint {
+      font-family: var(--fm); font-size: 9px; letter-spacing: .18em; color: var(--muted);
+      animation: dim 2.5s ease-in-out infinite;
+    }
+    @keyframes dim { 0%,100%{opacity:.45} 50%{opacity:.9} }
+
+    /* ── PARTS LIST (right) ── */
+    .panel-right { display: flex; flex-direction: column; gap: 8px; }
+    .pl-label {
+      font-family: var(--fm); font-size: 9px; letter-spacing: .22em;
+      color: var(--muted); margin-bottom: 6px;
+    }
+    .pl-item {
+      display: flex; align-items: center; gap: 10px;
+      font-family: var(--fm); font-size: 10px; letter-spacing: .12em; color: var(--muted);
+      padding: 9px 14px; border-radius: 8px; border: 1px solid transparent;
+      cursor: pointer; transition: all .2s;
+    }
+    .pl-item:hover, .pl-item.active {
+      color: var(--accent); background: rgba(0,255,136,.06); border-color: var(--border);
+    }
+    .pl-dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      border: 1.5px solid var(--muted); flex-shrink: 0; transition: all .2s;
+    }
+    .pl-item:hover .pl-dot, .pl-item.active .pl-dot {
+      border-color: var(--accent); background: var(--accent);
+      box-shadow: 0 0 8px var(--accent);
+    }
+
+    /* ── SVG ZONES ── */
+    .zone { cursor: pointer; }
+    .zone, .zone * { transition: filter .22s; }
+    .zone:hover { filter: drop-shadow(0 0 16px rgba(0,255,136,.75)) brightness(1.25); }
+    .zone.active { filter: drop-shadow(0 0 26px rgba(0,255,136,.95)) brightness(1.4); }
+
+    /* Eye pulse */
+    #zEyes { animation: eyePulse 2.6s ease-in-out infinite; }
+    @keyframes eyePulse { 0%,100%{opacity:1} 50%{opacity:.55} }
+    #zEyes:hover, #zEyes.active { animation: none; filter: drop-shadow(0 0 26px rgba(0,255,136,.95)) brightness(1.4); }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center; padding: 28px 24px;
+      border-top: 1px solid var(--border);
+      font-family: var(--fm); font-size: 9.5px; letter-spacing: .14em; color: var(--muted);
+    }
+    footer span { color: var(--accent); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 1fr; }
+      .bug-center { order: 0; }
+      .panel-left  { order: 1; }
+      .panel-right { order: 2; flex-direction: row; flex-wrap: wrap; gap: 6px; }
+      .pl-item { font-size: 9px; padding: 7px 10px; }
+      .bug-svg { max-width: 340px; }
+      .bg-glow { width: 320px; height: 320px; }
+    }
+  </style>
+</head>
+<body>
+
+  <a href="index.html" class="back">← BACK TO PORTFOLIO</a>
+
+  <header>
+    <div class="chip">INTERACTIVE EXPERIENCE</div>
+    <h1>MEET THE <span>BUG</span></h1>
+    <p class="sub">3+ years · 2500+ defects · 8 domains · hover each body part</p>
+  </header>
+
+  <div class="layout">
+
+    <!-- ── LEFT INFO PANEL ── -->
+    <div class="panel-left">
+      <div class="info-card" id="infoCard">
+        <span class="i-icon" id="iIcon">🕷️</span>
+        <h3 class="i-title" id="iTitle">Explore the Spider</h3>
+        <p class="i-text" id="iText">Hover or tap any body part to discover the QA superpower behind Antony Joshua S — Quality Analyst &amp; Bug Hunter.</p>
+      </div>
+    </div>
+
+    <!-- ── SPIDER SVG CENTER ── -->
+    <div class="bug-center">
+      <div class="bg-glow"></div>
+
+      <!--
+        Spider anatomy (top = head, bottom = rear):
+          · Cephalothorax  — small oval, top segment
+          · Peduncle       — narrow waist connecting the two
+          · Abdomen        — large dominant oval, bottom segment
+          · Legs L1–L4 (left) + R1–R4 (right)
+              Each leg = 2 straight segments (femur + tibia) with angular knee joint
+              L1/R1: front legs — knee arches UP above body (inverted-V)
+              L2/R2: second pair — knee slightly above body level
+              L3/R3: third pair — knee roughly horizontal
+              L4/R4: rear legs  — knee sweeps DOWN below body
+          · Eyes (6): 2 large + 4 smaller on cephalothorax
+          · Chelicerae: downward-pointing fangs front of cephalothorax
+          · Spinnerets: two nubs at very rear of abdomen
+          · Magnifier: floating QA prop top-right
+      -->
+      <svg id="bugSvg" class="bug-svg"
+           viewBox="0 0 700 640"
+           xmlns="http://www.w3.org/2000/svg">
+
+        <defs>
+          <!-- Small glow -->
+          <filter id="gs" x="-55%" y="-55%" width="210%" height="210%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+          <!-- Large glow -->
+          <filter id="gl" x="-90%" y="-90%" width="280%" height="280%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+
+          <!-- Abdomen — dark green sphere, highlight upper-left -->
+          <radialGradient id="gAbd" cx="36%" cy="26%" r="70%">
+            <stop offset="0%"   stop-color="#1c3a1c"/>
+            <stop offset="28%"  stop-color="#0e1e0e"/>
+            <stop offset="62%"  stop-color="#060d06"/>
+            <stop offset="100%" stop-color="#010201"/>
+          </radialGradient>
+
+          <!-- Cephalothorax — slightly lighter, smaller highlight -->
+          <radialGradient id="gCeph" cx="40%" cy="30%" r="62%">
+            <stop offset="0%"   stop-color="#183018"/>
+            <stop offset="38%"  stop-color="#0c1a0c"/>
+            <stop offset="100%" stop-color="#020302"/>
+          </radialGradient>
+
+          <!-- Eyes — bright glowing green -->
+          <radialGradient id="gEye" cx="34%" cy="30%" r="54%">
+            <stop offset="0%"   stop-color="#ffffff"/>
+            <stop offset="16%"  stop-color="#aaffd4"/>
+            <stop offset="38%"  stop-color="#00ff88"/>
+            <stop offset="68%"  stop-color="#00aa55"/>
+            <stop offset="100%" stop-color="#001a0a"/>
+          </radialGradient>
+
+          <!-- Magnifier glass fill -->
+          <radialGradient id="gMag" cx="40%" cy="36%" r="55%">
+            <stop offset="0%"   stop-color="#00ff88" stop-opacity=".18"/>
+            <stop offset="100%" stop-color="#00ff88" stop-opacity=".02"/>
+          </radialGradient>
+        </defs>
+
+        <!-- Ground shadow -->
+        <ellipse cx="350" cy="628" rx="218" ry="12" fill="rgba(0,255,136,0.05)"/>
+
+        <!-- ══════════════════════════════════════════
+             ZONE: LEGS  (drawn first — behind body)
+             8 legs · 2 segments each (femur + tibia)
+             Femur: thicker dark + thin neon
+             Tibia: thinner dark + thin neon
+             Knee:  glowing circle joint
+             Foot:  glowing dot tip
+        ══════════════════════════════════════════ -->
+        <g class="zone" id="zLegs" data-part="legs">
+
+          <!-- L1 — front-left: knee arches above body level (y=70 < y=186) -->
+          <line x1="286" y1="186" x2="124" y2="70"  stroke="#0f230f" stroke-width="11"  stroke-linecap="round"/>
+          <line x1="286" y1="186" x2="124" y2="70"  stroke="#00ff88" stroke-width="2.1" stroke-linecap="round" opacity=".58"/>
+          <line x1="124" y1="70"  x2="38"  y2="132" stroke="#0c1a0c" stroke-width="7.5" stroke-linecap="round"/>
+          <line x1="124" y1="70"  x2="38"  y2="132" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round" opacity=".50"/>
+          <circle cx="124" cy="70"  r="9.5" fill="#0e1e0e" stroke="#00ff88" stroke-width="2"   filter="url(#gs)"/>
+          <circle cx="38"  cy="132" r="5.5" fill="#00ff88"                                      filter="url(#gs)" opacity=".90"/>
+
+          <!-- L2 — second-left: knee still above body but less extreme -->
+          <line x1="268" y1="218" x2="78"  y2="154" stroke="#0f230f" stroke-width="10.5" stroke-linecap="round"/>
+          <line x1="268" y1="218" x2="78"  y2="154" stroke="#00ff88" stroke-width="2.0"  stroke-linecap="round" opacity=".56"/>
+          <line x1="78"  y1="154" x2="10"  y2="238" stroke="#0c1a0c" stroke-width="7"    stroke-linecap="round"/>
+          <line x1="78"  y1="154" x2="10"  y2="238" stroke="#00ff88" stroke-width="1.4"  stroke-linecap="round" opacity=".48"/>
+          <circle cx="78"  cy="154" r="9"   fill="#0e1e0e" stroke="#00ff88" stroke-width="1.9" filter="url(#gs)"/>
+          <circle cx="10"  cy="238" r="5.5" fill="#00ff88"                                      filter="url(#gs)" opacity=".90"/>
+
+          <!-- L3 — third-left: knee roughly at body height (horizontal) -->
+          <line x1="268" y1="252" x2="74"  y2="266" stroke="#0f230f" stroke-width="10.5" stroke-linecap="round"/>
+          <line x1="268" y1="252" x2="74"  y2="266" stroke="#00ff88" stroke-width="2.0"  stroke-linecap="round" opacity=".56"/>
+          <line x1="74"  y1="266" x2="10"  y2="350" stroke="#0c1a0c" stroke-width="7"    stroke-linecap="round"/>
+          <line x1="74"  y1="266" x2="10"  y2="350" stroke="#00ff88" stroke-width="1.4"  stroke-linecap="round" opacity=".48"/>
+          <circle cx="74"  cy="266" r="9"   fill="#0e1e0e" stroke="#00ff88" stroke-width="1.9" filter="url(#gs)"/>
+          <circle cx="10"  cy="350" r="5.5" fill="#00ff88"                                      filter="url(#gs)" opacity=".90"/>
+
+          <!-- L4 — rear-left: knee sweeps DOWN below body (y=392 > y=278) -->
+          <line x1="284" y1="278" x2="128" y2="392" stroke="#0f230f" stroke-width="10"  stroke-linecap="round"/>
+          <line x1="284" y1="278" x2="128" y2="392" stroke="#00ff88" stroke-width="1.9" stroke-linecap="round" opacity=".54"/>
+          <line x1="128" y1="392" x2="60"  y2="506" stroke="#0c1a0c" stroke-width="6.5" stroke-linecap="round"/>
+          <line x1="128" y1="392" x2="60"  y2="506" stroke="#00ff88" stroke-width="1.3" stroke-linecap="round" opacity=".44"/>
+          <circle cx="128" cy="392" r="8.5" fill="#0e1e0e" stroke="#00ff88" stroke-width="1.8" filter="url(#gs)"/>
+          <circle cx="60"  cy="506" r="5.5" fill="#00ff88"                                      filter="url(#gs)" opacity=".90"/>
+
+          <!-- R1 — front-right (mirror of L1) -->
+          <line x1="414" y1="186" x2="576" y2="70"  stroke="#0f230f" stroke-width="11"  stroke-linecap="round"/>
+          <line x1="414" y1="186" x2="576" y2="70"  stroke="#00ff88" stroke-width="2.1" stroke-linecap="round" opacity=".58"/>
+          <line x1="576" y1="70"  x2="662" y2="132" stroke="#0c1a0c" stroke-width="7.5" stroke-linecap="round"/>
+          <line x1="576" y1="70"  x2="662" y2="132" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round" opacity=".50"/>
+          <circle cx="576" cy="70"  r="9.5" fill="#0e1e0e" stroke="#00ff88" stroke-width="2"   filter="url(#gs)"/>
+          <circle cx="662" cy="132" r="5.5" fill="#00ff88"                                      filter="url(#gs)" opacity=".90"/>
+
+          <!-- R2 — second-right -->
+          <line x1="432" y1="218" x2="622" y2="154" stroke="#0f230f" stroke-width="10.5" stroke-linecap="round"/>
+          <line x1="432" y1="218" x2="622" y2="154" stroke="#00ff88" stroke-width="2.0"  stroke-linecap="round" opacity=".56"/>
+          <line x1="622" y1="154" x2="690" y2="238" stroke="#0c1a0c" stroke-width="7"    stroke-linecap="round"/>
+          <line x1="622" y1="154" x2="690" y2="238" stroke="#00ff88" stroke-width="1.4"  stroke-linecap="round" opacity=".48"/>
+          <circle cx="622" cy="154" r="9"   fill="#0e1e0e" stroke="#00ff88" stroke-width="1.9" filter="url(#gs)"/>
+          <circle cx="690" cy="238" r="5.5" fill="#00ff88"                                      filter="url(#gs)" opacity=".90"/>
+
+          <!-- R3 — third-right -->
+          <line x1="432" y1="252" x2="626" y2="266" stroke="#0f230f" stroke-width="10.5" stroke-linecap="round"/>
+          <line x1="432" y1="252" x2="626" y2="266" stroke="#00ff88" stroke-width="2.0"  stroke-linecap="round" opacity=".56"/>
+          <line x1="626" y1="266" x2="690" y2="350" stroke="#0c1a0c" stroke-width="7"    stroke-linecap="round"/>
+          <line x1="626" y1="266" x2="690" y2="350" stroke="#00ff88" stroke-width="1.4"  stroke-linecap="round" opacity=".48"/>
+          <circle cx="626" cy="266" r="9"   fill="#0e1e0e" stroke="#00ff88" stroke-width="1.9" filter="url(#gs)"/>
+          <circle cx="690" cy="350" r="5.5" fill="#00ff88"                                      filter="url(#gs)" opacity=".90"/>
+
+          <!-- R4 — rear-right -->
+          <line x1="416" y1="278" x2="572" y2="392" stroke="#0f230f" stroke-width="10"  stroke-linecap="round"/>
+          <line x1="416" y1="278" x2="572" y2="392" stroke="#00ff88" stroke-width="1.9" stroke-linecap="round" opacity=".54"/>
+          <line x1="572" y1="392" x2="640" y2="506" stroke="#0c1a0c" stroke-width="6.5" stroke-linecap="round"/>
+          <line x1="572" y1="392" x2="640" y2="506" stroke="#00ff88" stroke-width="1.3" stroke-linecap="round" opacity=".44"/>
+          <circle cx="572" cy="392" r="8.5" fill="#0e1e0e" stroke="#00ff88" stroke-width="1.8" filter="url(#gs)"/>
+          <circle cx="640" cy="506" r="5.5" fill="#00ff88"                                      filter="url(#gs)" opacity=".90"/>
+        </g>
+
+        <!-- ══════════════════════════════════════════
+             ZONE: ABDOMEN  (large rear segment)
+        ══════════════════════════════════════════ -->
+        <g class="zone" id="zAbdomen" data-part="abdomen">
+          <!-- Main body -->
+          <ellipse cx="350" cy="448" rx="148" ry="170" fill="url(#gAbd)"/>
+          <!-- 3D highlight (specular) — upper-left quadrant -->
+          <ellipse cx="302" cy="382" rx="62" ry="82" fill="rgba(0,255,136,.085)" transform="rotate(-20,302,382)"/>
+          <!-- Soft inner highlight -->
+          <ellipse cx="292" cy="372" rx="26" ry="34" fill="rgba(255,255,255,.045)" transform="rotate(-20,292,372)"/>
+          <!-- Rim glow -->
+          <ellipse cx="350" cy="448" rx="149" ry="171" fill="none" stroke="#00ff88" stroke-width="1.3" stroke-opacity=".26"/>
+          <!-- Segment bands (anatomical markings) -->
+          <ellipse cx="350" cy="380" rx="52"  ry="28" fill="none" stroke="#00ff88" stroke-width=".7"  stroke-opacity=".18"/>
+          <ellipse cx="350" cy="448" rx="66"  ry="38" fill="none" stroke="#00ff88" stroke-width=".65" stroke-opacity=".14"/>
+          <ellipse cx="350" cy="516" rx="56"  ry="30" fill="none" stroke="#00ff88" stroke-width=".6"  stroke-opacity=".10"/>
+          <line   x1="350" y1="286" x2="350" y2="612" stroke="#00ff88" stroke-width=".8" stroke-opacity=".14"/>
+        </g>
+
+        <!-- ══════════════════════════════════════════
+             ZONE: SPINNERETS  (silk glands at rear)
+        ══════════════════════════════════════════ -->
+        <g class="zone" id="zSpinnerets" data-part="spinnerets">
+          <ellipse cx="336" cy="612" rx="18" ry="11" fill="#091409" stroke="#00ff88" stroke-width="1.3" opacity=".80"/>
+          <ellipse cx="364" cy="612" rx="18" ry="11" fill="#091409" stroke="#00ff88" stroke-width="1.3" opacity=".80"/>
+          <text x="350" y="617" text-anchor="middle"
+                fill="#00ff88" font-size="7.5" font-family="monospace"
+                font-weight="600" opacity=".70">2500+</text>
+        </g>
+
+        <!-- Peduncle / waist — structural (not a zone) -->
+        <ellipse cx="350" cy="292" rx="24" ry="16"
+                 fill="#0a160a" stroke="#00ff88" stroke-width=".9" stroke-opacity=".40"/>
+
+        <!-- Cephalothorax — structural (not a zone) -->
+        <ellipse cx="350" cy="214" rx="74" ry="66" fill="url(#gCeph)"/>
+        <!-- Specular highlight upper-left -->
+        <ellipse cx="316" cy="180" rx="36" ry="30" fill="rgba(0,255,136,.085)" transform="rotate(-15,316,180)"/>
+        <ellipse cx="308" cy="172" rx="15" ry="12" fill="rgba(255,255,255,.055)" transform="rotate(-15,308,172)"/>
+        <!-- Rim -->
+        <ellipse cx="350" cy="214" rx="75" ry="67" fill="none" stroke="#00ff88" stroke-width="1.1" stroke-opacity=".30"/>
+
+        <!-- ══════════════════════════════════════════
+             ZONE: EYES  (6 eyes — 2 large AME + 4 secondary)
+        ══════════════════════════════════════════ -->
+        <g class="zone" id="zEyes" data-part="eyes">
+          <!-- 2 large anterior median eyes (AME) -->
+          <circle cx="312" cy="200" r="20" fill="url(#gEye)" filter="url(#gl)"/>
+          <circle cx="312" cy="200" r="13" fill="#00ff88"/>
+          <circle cx="312" cy="200" r="5.5" fill="#ccffee"/>
+          <circle cx="305" cy="193" r="4"   fill="rgba(255,255,255,.88)"/>
+
+          <circle cx="388" cy="200" r="20" fill="url(#gEye)" filter="url(#gl)"/>
+          <circle cx="388" cy="200" r="13" fill="#00ff88"/>
+          <circle cx="388" cy="200" r="5.5" fill="#ccffee"/>
+          <circle cx="381" cy="193" r="4"   fill="rgba(255,255,255,.88)"/>
+
+          <!-- 2 anterior lateral eyes (ALE) — slightly smaller -->
+          <circle cx="280" cy="212" r="11" fill="url(#gEye)" filter="url(#gs)" opacity=".88"/>
+          <circle cx="280" cy="212" r="6.5" fill="#00ff88"/>
+          <circle cx="420" cy="212" r="11" fill="url(#gEye)" filter="url(#gs)" opacity=".88"/>
+          <circle cx="420" cy="212" r="6.5" fill="#00ff88"/>
+
+          <!-- 2 posterior eyes — upper row, smaller -->
+          <circle cx="324" cy="178" r="9"  fill="url(#gEye)" filter="url(#gs)" opacity=".76"/>
+          <circle cx="324" cy="178" r="5"  fill="#00ff88"/>
+          <circle cx="376" cy="178" r="9"  fill="url(#gEye)" filter="url(#gs)" opacity=".76"/>
+          <circle cx="376" cy="178" r="5"  fill="#00ff88"/>
+        </g>
+
+        <!-- ══════════════════════════════════════════
+             ZONE: CHELICERAE  (fangs below cephalothorax)
+        ══════════════════════════════════════════ -->
+        <g class="zone" id="zChelicerae" data-part="chelicerae">
+          <!-- Left chelicera -->
+          <path d="M 324,270 Q 308,296 298,326 Q 292,344 296,360"
+                stroke="#0f230f" stroke-width="12" fill="none" stroke-linecap="round"/>
+          <path d="M 324,270 Q 308,296 298,326 Q 292,344 296,360"
+                stroke="#00ff88" stroke-width="1.7" fill="none" stroke-linecap="round" opacity=".52"/>
+          <circle cx="295" cy="362" r="6" fill="#00ff88" filter="url(#gs)" opacity=".85"/>
+
+          <!-- Right chelicera -->
+          <path d="M 376,270 Q 392,296 402,326 Q 408,344 404,360"
+                stroke="#0f230f" stroke-width="12" fill="none" stroke-linecap="round"/>
+          <path d="M 376,270 Q 392,296 402,326 Q 408,344 404,360"
+                stroke="#00ff88" stroke-width="1.7" fill="none" stroke-linecap="round" opacity=".52"/>
+          <circle cx="405" cy="362" r="6" fill="#00ff88" filter="url(#gs)" opacity=".85"/>
+        </g>
+
+        <!-- Pedipalps — structural sense appendages (not a zone) -->
+        <path d="M 316,262 Q 294,278 278,298"
+              stroke="#0d1e0d" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <path d="M 316,262 Q 294,278 278,298"
+              stroke="#00ff88" stroke-width="1.1" fill="none" stroke-linecap="round" opacity=".42"/>
+        <circle cx="276" cy="300" r="4" fill="#00ff88" filter="url(#gs)" opacity=".70"/>
+
+        <path d="M 384,262 Q 406,278 422,298"
+              stroke="#0d1e0d" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <path d="M 384,262 Q 406,278 422,298"
+              stroke="#00ff88" stroke-width="1.1" fill="none" stroke-linecap="round" opacity=".42"/>
+        <circle cx="424" cy="300" r="4" fill="#00ff88" filter="url(#gs)" opacity=".70"/>
+
+        <!-- ══════════════════════════════════════════
+             ZONE: MAGNIFIER  (QA prop, top-right)
+        ══════════════════════════════════════════ -->
+        <g class="zone" id="zMagnifier" data-part="magnifier"
+           transform="translate(568,108) rotate(22)">
+          <!-- Handle -->
+          <rect x="-4" y="50" width="8" height="48" rx="4" fill="#00ff88" opacity=".50"/>
+          <!-- Lens ring -->
+          <circle cx="0" cy="18" r="36" fill="none" stroke="#00ff88" stroke-width="3" opacity=".60"/>
+          <!-- Lens fill -->
+          <circle cx="0" cy="18" r="33" fill="url(#gMag)"/>
+          <!-- Lens glare -->
+          <ellipse cx="-10" cy="4" rx="11" ry="8" fill="rgba(255,255,255,.055)"/>
+          <!-- Cross hairs -->
+          <line x1="-30" y1="18" x2="30" y2="18" stroke="#00ff88" stroke-width=".85" opacity=".32"/>
+          <line x1="0"   y1="-14" x2="0"  y2="52" stroke="#00ff88" stroke-width=".85" opacity=".32"/>
+          <!-- Code label -->
+          <text x="0" y="24" text-anchor="middle"
+                fill="#00ff88" font-size="17" font-family="monospace"
+                font-weight="bold" opacity=".72">&lt;/&gt;</text>
+        </g>
+
+      </svg><!-- end SVG -->
+
+      <p class="hint">← hover or tap each part →</p>
+    </div><!-- end bug-center -->
+
+    <!-- ── RIGHT PARTS LIST ── -->
+    <div class="panel-right">
+      <p class="pl-label">BODY PARTS</p>
+      <div class="pl-item" data-zone="zEyes">       <span class="pl-dot"></span>Eyes</div>
+      <div class="pl-item" data-zone="zChelicerae"> <span class="pl-dot"></span>Chelicerae (Fangs)</div>
+      <div class="pl-item" data-zone="zLegs">       <span class="pl-dot"></span>Legs &times;8</div>
+      <div class="pl-item" data-zone="zAbdomen">    <span class="pl-dot"></span>Abdomen</div>
+      <div class="pl-item" data-zone="zSpinnerets"> <span class="pl-dot"></span>Spinnerets</div>
+      <div class="pl-item" data-zone="zMagnifier">  <span class="pl-dot"></span>Magnifier</div>
+    </div>
+
+  </div><!-- end layout -->
+
+  <footer>
+    &copy; 2024 <span>ANTONY JOSHUA S</span> &nbsp;&middot;&nbsp; Quality Analyst &amp; Bug Hunter &nbsp;&middot;&nbsp; Chennai, India
+  </footer>
+
+  <script>
+    const DATA = {
+      eyes: {
+        icon:  '👁️',
+        title: 'Eyes — The Detector',
+        text:  'Six eyes, zero blind spots. I spot defects others miss — pixel misalignments, race conditions, AI hallucinations, broken edge cases. My visual acuity catches what automated scanners skip.',
+      },
+      chelicerae: {
+        icon:  '⚡',
+        title: 'Chelicerae — Precision Strike',
+        text:  'When I find a bug, I capture it decisively. Clear reproduction steps, exact severity, root cause hypothesis, environment details. Every defect report is a precision strike — no ambiguity.',
+      },
+      legs: {
+        icon:  '🕷️',
+        title: 'Legs — Agile & Adaptive',
+        text:  '8 legs, 8 domains: EdTech, VR gaming, EEG hardware, AI assistants, Finance, Hospitality, HR portals, eCommerce. I move fast across technology stacks and always bring cross-domain quality perspective.',
+      },
+      abdomen: {
+        icon:  '🛡️',
+        title: 'Abdomen — Quality Core',
+        text:  'My core drives everything: end-to-end test strategy, BDD frameworks with Cucumber, Playwright & Selenium automation, CI/CD integration with Jenkins. Quality built from the inside out.',
+      },
+      spinnerets: {
+        icon:  '📊',
+        title: 'Spinnerets — The Score',
+        text:  '2500+ defects identified across 9 projects and 5 companies. Every bug caught is a crash prevented, data loss avoided, frustrated user spared. This is the web I spin — and I\'m not done spinning.',
+      },
+      magnifier: {
+        icon:  '🔍',
+        title: 'Magnifier — Deep Dive',
+        text:  'I never stop at "bug found". Root cause analysis, log forensics, SQL queries, network traffic inspection — I ask WHY until the answer is unambiguous. Quality demands it. Users deserve it.',
+      },
+    };
+
+    const zones   = document.querySelectorAll('.zone');
+    const plItems = document.querySelectorAll('.pl-item');
+    const card    = document.getElementById('infoCard');
+    const iIcon   = document.getElementById('iIcon');
+    const iTitle  = document.getElementById('iTitle');
+    const iText   = document.getElementById('iText');
+
+    function activate(part, zoneId) {
+      const d = DATA[part];
+      if (!d) return;
+
+      /* update info panel */
+      iIcon.textContent  = d.icon;
+      iTitle.textContent = d.title;
+      iText.textContent  = d.text;
+      card.classList.add('lit');
+
+      /* highlight zone in SVG */
+      zones.forEach(z => z.classList.remove('active'));
+      const el = document.getElementById(zoneId);
+      if (el) el.classList.add('active');
+
+      /* highlight row in parts list */
+      plItems.forEach(li => li.classList.toggle('active', li.dataset.zone === zoneId));
+    }
+
+    /* SVG zone events */
+    zones.forEach(z => {
+      z.addEventListener('mouseenter', () => activate(z.dataset.part, z.id));
+      z.addEventListener('click',      () => activate(z.dataset.part, z.id));
+    });
+
+    /* parts list click */
+    plItems.forEach(li => {
+      li.addEventListener('click', () => {
+        const z = document.getElementById(li.dataset.zone);
+        if (z) activate(z.dataset.part, li.dataset.zone);
+      });
+    });
+  </script>
+
+</body>
+</html>

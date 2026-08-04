@@ -1,0 +1,269 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e7]:
+    - generic [ref=f7e8]:
+      - generic [ref=f7e9]:
+        - heading "Assessment" [level=4] [ref=f7e10]
+        - navigation [ref=f7e11]:
+          - list [ref=f7e12]:
+            - listitem [ref=f7e13]:
+              - link [ref=f7e14] [cursor=pointer]:
+                - /url: /Assessment/CourseAssessment
+                - img [ref=f7e15]
+            - listitem [ref=f7e18]: / Course
+      - generic [ref=f7e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f7e22]:
+          - text: 
+          - listitem [ref=f7e23] [cursor=pointer]:
+            - generic [ref=f7e24]:
+              - img "Profile" [ref=f7e25]
+              - generic [ref=f7e26]:
+                - generic [ref=f7e27]: superadmin@gmail.com
+                - paragraph [ref=f7e28]:
+                  - text: SuperAdmin
+                  - generic [ref=f7e29]: 
+    - generic [ref=f7e30]:
+      - generic [ref=f7e32]:
+        - generic [ref=f7e33]:
+          - link [ref=f7e34] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f7e36] [cursor=pointer]
+        - navigation [ref=f7e38]:
+          - list [ref=f7e40]:
+            - generic [ref=f7e45]:
+              - text: 
+              - listitem [ref=f7e46]:
+                - heading "Applications" [level=6] [ref=f7e48]
+              - listitem [ref=f7e49]:
+                - link "Dashboard" [ref=f7e50] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f7e51]
+                  - generic [ref=f7e53]: Dashboard
+                  - text: 
+              - listitem [ref=f7e54]:
+                - link "Enrollment " [ref=f7e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e56]
+                  - generic [ref=f7e58]: Enrollment
+                  - generic [ref=f7e60]: 
+              - listitem [ref=f7e61]:
+                - link "Website Settings " [ref=f7e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e63]
+                  - generic [ref=f7e65]: Website Settings
+                  - generic [ref=f7e67]: 
+              - listitem [ref=f7e68]:
+                - link "Membership " [ref=f7e69] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e70]
+                  - generic [ref=f7e72]: Membership
+                  - generic [ref=f7e74]: 
+              - listitem [ref=f7e75]:
+                - link "Course " [ref=f7e76] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e77]
+                  - generic [ref=f7e79]: Course
+                  - generic [ref=f7e81]: 
+              - listitem [ref=f7e82]:
+                - link " Self Host " [ref=f7e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f7e84]: 
+                  - generic [ref=f7e85]: Self Host
+                  - generic [ref=f7e87]: 
+              - listitem [ref=f7e88]:
+                - link "Assessment " [ref=f7e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e90]
+                  - generic [ref=f7e92]: Assessment
+                  - generic [ref=f7e94]: 
+                - list [ref=f7e95]:
+                  - listitem [ref=f7e96]:
+                    - link "Course" [ref=f7e97] [cursor=pointer]:
+                      - /url: /Assessment/CourseAssessment
+                  - listitem [ref=f7e98]:
+                    - link "Unit" [ref=f7e99] [cursor=pointer]:
+                      - /url: /Assessment/Index
+                  - listitem [ref=f7e100]:
+                    - link "Topic" [ref=f7e101] [cursor=pointer]:
+                      - /url: /Assessment/TopicAssessment
+                  - listitem [ref=f7e102]:
+                    - link "Prompt Config" [ref=f7e103] [cursor=pointer]:
+                      - /url: /PromptConfig/Index
+              - listitem [ref=f7e104]:
+                - link "Email Draft " [ref=f7e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e106]
+                  - generic [ref=f7e108]: Email Draft
+                  - generic [ref=f7e110]: 
+              - listitem [ref=f7e111]:
+                - link "Admin " [ref=f7e112] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e113]
+                  - generic [ref=f7e115]: Admin
+                  - generic [ref=f7e117]: 
+              - listitem [ref=f7e118]:
+                - link "general icon General " [ref=f7e119] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f7e120]
+                  - generic [ref=f7e121]: General
+                  - generic [ref=f7e123]: 
+              - listitem [ref=f7e124]:
+                - link "Leaderboard" [ref=f7e125] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f7e126]
+                  - generic [ref=f7e128]: Leaderboard
+                  - text: 
+              - listitem [ref=f7e129]:
+                - heading "E-Commerce" [level=6] [ref=f7e131]
+              - listitem [ref=f7e132]:
+                - link "Dashboard" [ref=f7e133] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f7e134]
+                  - generic [ref=f7e136]: Dashboard
+                  - text: 
+              - listitem [ref=f7e137]:
+                - link "product icon Product " [ref=f7e138] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f7e139]
+                  - generic [ref=f7e140]: Product
+                  - generic [ref=f7e142]: 
+              - listitem [ref=f7e143]:
+                - link "Order " [ref=f7e144] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e145]
+                  - generic [ref=f7e147]: Order
+                  - generic [ref=f7e149]: 
+              - listitem [ref=f7e150]:
+                - link "Customer" [ref=f7e151] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f7e152]
+                  - generic [ref=f7e154]: Customer
+                  - text: 
+              - listitem [ref=f7e155]:
+                - heading "Payments" [level=6] [ref=f7e157]
+              - listitem [ref=f7e158]:
+                - link "Transactions " [ref=f7e159] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e160]
+                  - generic [ref=f7e162]: Transactions
+                  - generic [ref=f7e164]: 
+              - listitem [ref=f7e165]:
+                - heading "Notifcations" [level=6] [ref=f7e167]
+              - listitem [ref=f7e168]:
+                - link "notify-ico Notifications " [ref=f7e169] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f7e170]
+                  - generic [ref=f7e171]: Notifications
+                  - generic [ref=f7e173]: 
+              - listitem [ref=f7e174]:
+                - heading "Job Management" [level=6] [ref=f7e176]
+              - listitem [ref=f7e177]:
+                - link "notify-ico Jobs " [ref=f7e178] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f7e179]
+                  - generic [ref=f7e180]: Jobs
+                  - generic [ref=f7e182]: 
+      - main [ref=f7e184]:
+        - generic [ref=f7e185]:
+          - generic [ref=f7e186]:
+            - heading "Course Assessment" [level=4] [ref=f7e187]
+            - generic [ref=f7e188]: "Select Course:"
+            - combobox "Select Course:" [ref=f7e189] [cursor=pointer]:
+              - option "-- Select Course --" [selected]
+              - option "QA Test Course"
+              - option "TNPSC Group 4 Complete Preparation Course 2026"
+              - option "Jt Release Course"
+              - option "TNPSC Foundation Course"
+              - option "Post office exam- Tamil nadu 2026"
+              - option "TNUSRB Police Constable"
+              - option "Free course 2"
+              - option "Bank course"
+              - option "Indian Railways- Batch 1,2,3,4- Tnpsc-இந்தியாவி..."
+              - option "Jtcourse 2"
+              - option "JtCourse"
+              - option "MultipleFolderType"
+              - option "Multiplecardtypefolder"
+              - option "Singlefoldercourse"
+              - option "Singlecourse"
+              - option "TNPSC GROUP-4 FOLDER"
+              - option "SelfHost Course"
+              - option "JT Phase 3"
+              - option "Assessment course 01"
+              - option "Railway course 3"
+              - option "Railway course 2"
+              - option "Political Polity"
+              - option "Railway course"
+              - option "Banking course"
+              - option "Group 2A"
+              - option "Group A course"
+              - option "Test0025"
+              - option "Group 6 course"
+              - option "Group 5 course"
+              - option "Group 4 Course"
+              - option "Group 3 course"
+              - option "Pongal Special Course"
+              - option "JT Batch-2026 Course"
+              - option "Software Testing"
+              - option "12TH ECONOMICS"
+              - option "TNPSC_Group1new 008"
+              - option "Group 2 course"
+              - option "tEST"
+              - option "Silver membership"
+              - option "Paid membership"
+              - option "Group 1 course"
+              - option "Social"
+              - option "Software Testing Course"
+              - option "Kingdom - 2026"
+            - link "Create Assessment" [ref=f7e191] [cursor=pointer]:
+              - /url: /Assessment/CreateCourseAssessment
+          - generic [ref=f7e196]:
+            - generic [ref=f7e198]:
+              - text: Show
+              - combobox "Show entries" [ref=f7e199] [cursor=pointer]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: entries
+            - generic [ref=f7e201]:
+              - text: "Search:"
+              - searchbox "Search:" [ref=f7e202] [cursor=pointer]
+            - grid [ref=f7e203]:
+              - rowgroup [ref=f7e204]:
+                - 'row "Title: activate to sort column descending Type: activate to sort column ascending Number Of Questions: activate to sort column ascending Total Marks: activate to sort column ascending Folder: activate to sort column ascending Status: activate to sort column ascending Action" [ref=f7e205]':
+                  - 'columnheader "Title: activate to sort column descending" [ref=f7e206] [cursor=pointer]': ↑ Title ↓
+                  - 'columnheader "Type: activate to sort column ascending" [ref=f7e207] [cursor=pointer]': ↑ Type ↓
+                  - 'columnheader "Number Of Questions: activate to sort column ascending" [ref=f7e208] [cursor=pointer]': ↑ Number Of Questions ↓
+                  - 'columnheader "Total Marks: activate to sort column ascending" [ref=f7e209] [cursor=pointer]': ↑ Total Marks ↓
+                  - 'columnheader "Folder: activate to sort column ascending" [ref=f7e210] [cursor=pointer]': ↑ Folder ↓
+                  - 'columnheader "Status: activate to sort column ascending" [ref=f7e211] [cursor=pointer]': ↑ Status ↓
+                  - columnheader "Action" [ref=f7e212]
+              - rowgroup [ref=f7e213]:
+                - row "No assessments found" [ref=f7e214]:
+                  - gridcell [ref=f7e215]
+                  - gridcell [ref=f7e216]
+                  - gridcell "No assessments found" [ref=f7e217]:
+                    - generic [ref=f7e218]: No assessments found
+                  - gridcell [ref=f7e219]
+                  - gridcell [ref=f7e220]
+                  - gridcell [ref=f7e221]
+                  - gridcell [ref=f7e222]
+            - status [ref=f7e223]: Showing 1 to 1 of 1 entries
+            - generic [ref=f7e224]:
+              - generic [ref=f7e225]: Previous
+              - generic [ref=f7e227] [cursor=pointer]: "1"
+              - generic [ref=f7e228]: Next
+          - text:   
+      - contentinfo [ref=f7e229]:
+        - paragraph [ref=f7e233]:
+          - text: Copyright
+          - generic [ref=f7e234]: "2026"
+          - text: © Jeshwar Teaching
+  - img

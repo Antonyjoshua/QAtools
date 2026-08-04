@@ -1,0 +1,377 @@
+- generic [active] [ref=f15e1]:
+  - generic [ref=f15e7]:
+    - generic [ref=f15e8]:
+      - generic [ref=f15e9]:
+        - heading "Course" [level=4] [ref=f15e10]
+        - navigation [ref=f15e11]:
+          - list [ref=f15e12]:
+            - listitem [ref=f15e13]:
+              - link [ref=f15e14] [cursor=pointer]:
+                - /url: /Unit/Index
+                - img [ref=f15e15]
+            - listitem [ref=f15e18]: / Units
+      - generic [ref=f15e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f15e22]:
+          - text: 
+          - listitem [ref=f15e23] [cursor=pointer]:
+            - generic [ref=f15e24]:
+              - img "Profile" [ref=f15e25]
+              - generic [ref=f15e26]:
+                - generic [ref=f15e27]: superadmin@gmail.com
+                - paragraph [ref=f15e28]:
+                  - text: SuperAdmin
+                  - generic [ref=f15e29]: 
+    - generic [ref=f15e30]:
+      - generic [ref=f15e32]:
+        - generic [ref=f15e33]:
+          - link [ref=f15e34] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f15e36] [cursor=pointer]
+        - navigation [ref=f15e38]:
+          - list [ref=f15e40]:
+            - generic [ref=f15e45]:
+              - text: 
+              - listitem [ref=f15e46]:
+                - heading "Applications" [level=6] [ref=f15e48]
+              - listitem [ref=f15e49]:
+                - link "Dashboard" [ref=f15e50] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f15e51]
+                  - generic [ref=f15e53]: Dashboard
+                  - text: 
+              - listitem [ref=f15e54]:
+                - link "Enrollment " [ref=f15e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e56]
+                  - generic [ref=f15e58]: Enrollment
+                  - generic [ref=f15e60]: 
+              - listitem [ref=f15e61]:
+                - link "Website Settings " [ref=f15e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e63]
+                  - generic [ref=f15e65]: Website Settings
+                  - generic [ref=f15e67]: 
+              - listitem [ref=f15e68]:
+                - link "Membership " [ref=f15e69] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e70]
+                  - generic [ref=f15e72]: Membership
+                  - generic [ref=f15e74]: 
+              - listitem [ref=f15e75]:
+                - link "Course " [ref=f15e76] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e77]
+                  - generic [ref=f15e79]: Course
+                  - generic [ref=f15e81]: 
+                - list [ref=f15e82]:
+                  - listitem [ref=f15e83]:
+                    - link "Course" [ref=f15e84] [cursor=pointer]:
+                      - /url: /Master/Course
+                  - listitem [ref=f15e85]:
+                    - link "Unit" [ref=f15e86] [cursor=pointer]:
+                      - /url: /Unit/Index
+                  - listitem [ref=f15e87]:
+                    - link "Topics" [ref=f15e88] [cursor=pointer]:
+                      - /url: /Topic/Index
+                  - listitem [ref=f15e89]:
+                    - link "Live" [ref=f15e90] [cursor=pointer]:
+                      - /url: /CourseLive/Index
+                  - listitem [ref=f15e91]:
+                    - link "Doubt Inbox" [ref=f15e92] [cursor=pointer]:
+                      - /url: /Doubt/Inbox
+                  - listitem [ref=f15e93]:
+                    - link "Topic Ratings" [ref=f15e94] [cursor=pointer]:
+                      - /url: /TopicRating/Index
+                  - listitem [ref=f15e95]:
+                    - link "Admin Ratings" [ref=f15e96] [cursor=pointer]:
+                      - /url: /AdminTopicRating/Index
+              - listitem [ref=f15e97]:
+                - link " Self Host " [ref=f15e98] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f15e99]: 
+                  - generic [ref=f15e100]: Self Host
+                  - generic [ref=f15e102]: 
+              - listitem [ref=f15e103]:
+                - link "Assessment " [ref=f15e104] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e105]
+                  - generic [ref=f15e107]: Assessment
+                  - generic [ref=f15e109]: 
+              - listitem [ref=f15e110]:
+                - link "Email Draft " [ref=f15e111] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e112]
+                  - generic [ref=f15e114]: Email Draft
+                  - generic [ref=f15e116]: 
+              - listitem [ref=f15e117]:
+                - link "Admin " [ref=f15e118] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e119]
+                  - generic [ref=f15e121]: Admin
+                  - generic [ref=f15e123]: 
+              - listitem [ref=f15e124]:
+                - link "general icon General " [ref=f15e125] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f15e126]
+                  - generic [ref=f15e127]: General
+                  - generic [ref=f15e129]: 
+              - listitem [ref=f15e130]:
+                - link "Leaderboard" [ref=f15e131] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f15e132]
+                  - generic [ref=f15e134]: Leaderboard
+                  - text: 
+              - listitem [ref=f15e135]:
+                - heading "E-Commerce" [level=6] [ref=f15e137]
+              - listitem [ref=f15e138]:
+                - link "Dashboard" [ref=f15e139] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f15e140]
+                  - generic [ref=f15e142]: Dashboard
+                  - text: 
+              - listitem [ref=f15e143]:
+                - link "product icon Product " [ref=f15e144] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f15e145]
+                  - generic [ref=f15e146]: Product
+                  - generic [ref=f15e148]: 
+              - listitem [ref=f15e149]:
+                - link "Order " [ref=f15e150] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e151]
+                  - generic [ref=f15e153]: Order
+                  - generic [ref=f15e155]: 
+              - listitem [ref=f15e156]:
+                - link "Customer" [ref=f15e157] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f15e158]
+                  - generic [ref=f15e160]: Customer
+                  - text: 
+              - listitem [ref=f15e161]:
+                - heading "Payments" [level=6] [ref=f15e163]
+              - listitem [ref=f15e164]:
+                - link "Transactions " [ref=f15e165] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e166]
+                  - generic [ref=f15e168]: Transactions
+                  - generic [ref=f15e170]: 
+              - listitem [ref=f15e171]:
+                - heading "Notifcations" [level=6] [ref=f15e173]
+              - listitem [ref=f15e174]:
+                - link "notify-ico Notifications " [ref=f15e175] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f15e176]
+                  - generic [ref=f15e177]: Notifications
+                  - generic [ref=f15e179]: 
+              - listitem [ref=f15e180]:
+                - heading "Job Management" [level=6] [ref=f15e182]
+              - listitem [ref=f15e183]:
+                - link "notify-ico Jobs " [ref=f15e184] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f15e185]
+                  - generic [ref=f15e186]: Jobs
+                  - generic [ref=f15e188]: 
+      - main [ref=f15e190]:
+        - generic [ref=f15e195]:
+          - generic [ref=f15e197]:
+            - text: Show
+            - combobox "Show entries" [ref=f15e198] [cursor=pointer]:
+              - option "10" [selected]
+              - option "25"
+              - option "50"
+              - option "100"
+            - text: entries
+          - generic [ref=f15e200]:
+            - text: "Search:"
+            - searchbox "Search:" [ref=f15e201] [cursor=pointer]
+          - grid [ref=f15e202]:
+            - rowgroup [ref=f15e203]:
+              - 'row "Course Code: activate to sort column descending Title: activate to sort column ascending Description: activate to sort column ascending Duration (Hours): activate to sort column ascending Status: activate to sort column ascending Created Date: activate to sort column ascending" [ref=f15e204]':
+                - 'columnheader "Course Code: activate to sort column descending" [ref=f15e205] [cursor=pointer]': ↑ Course Code ↓
+                - 'columnheader "Title: activate to sort column ascending" [ref=f15e206] [cursor=pointer]': ↑ Title ↓
+                - 'columnheader "Description: activate to sort column ascending" [ref=f15e207] [cursor=pointer]': ↑ Description ↓
+                - 'columnheader "Duration (Hours): activate to sort column ascending" [ref=f15e208] [cursor=pointer]': ↑ Duration (Hours) ↓
+                - 'columnheader "Status: activate to sort column ascending" [ref=f15e209] [cursor=pointer]': ↑ Status ↓
+                - 'columnheader "Created Date: activate to sort column ascending" [ref=f15e210] [cursor=pointer]': ↑ Created Date ↓
+            - rowgroup [ref=f15e211]:
+              - row " 0005 Kingdom - 2026 இந்த Batch குரூப் 1 மற்றும் குரூப் 2 ஆகியவற்றின் Prelims மற்றும் குரூப் 4 தேர்வுகளுக்கான திருத்தி அமைக்கப்பட்ட புதிய பாடத்திட்டத்தின்படி நடத்தப்படும். இந்த Batchல் வகுப்புகள் Recorded வீடியோக்களாக வழங்கப்படும்; வாரத்திற்கு நான்கு நாட்கள் வகுப்புகள் இருக்கும். வார இறுதியில் 100 கேள்விகளுக்கான வார இறுதி தேர்வு நடத்தப்படும். வகுப்புகள் மற்றும் தேர்வுகள் bilingual ஆக நடத்தப்படும். ஒவ்வொரு மாதமும் மாத இறுதியில் அம்மாதத்திற்கான தேர்வு 200 கேள்விகளுக்கு நடைபெறும். ஒவ்வொரு மாதத்திற்கான நடப்பு நிகழ்வுகளும் (Current Affairs) அம்மாத இறுதியில் வழங்கப்படும். இந்த Batch தொடர்பான கால அட்டவணைகள் மாறுதலுக்கு உட்பட்டவை (Tentative). இந்த Batch ஆறு மாதம் வரை நடத்தப்படும். இந்த பேட்சின் வீடியோக்களை மாணவர்கள் ஒரு வருடம் வரை பயன்படுத்திக் கொள்ளலாம். இந்த பேட்ச் இன் வகுப்புகள் டிஜிட்டல் PDFஆக வழங்கப்படும். 300 Active 31/10/2025" [ref=f15e212] [cursor=pointer]:
+                - gridcell " 0005" [ref=f15e213]:
+                  - generic [ref=f15e214]: 
+                  - text: "0005"
+                - gridcell "Kingdom - 2026" [ref=f15e215]
+                - gridcell "இந்த Batch குரூப் 1 மற்றும் குரூப் 2 ஆகியவற்றின் Prelims மற்றும் குரூப் 4 தேர்வுகளுக்கான திருத்தி அமைக்கப்பட்ட புதிய பாடத்திட்டத்தின்படி நடத்தப்படும். இந்த Batchல் வகுப்புகள் Recorded வீடியோக்களாக வழங்கப்படும்; வாரத்திற்கு நான்கு நாட்கள் வகுப்புகள் இருக்கும். வார இறுதியில் 100 கேள்விகளுக்கான வார இறுதி தேர்வு நடத்தப்படும். வகுப்புகள் மற்றும் தேர்வுகள் bilingual ஆக நடத்தப்படும். ஒவ்வொரு மாதமும் மாத இறுதியில் அம்மாதத்திற்கான தேர்வு 200 கேள்விகளுக்கு நடைபெறும். ஒவ்வொரு மாதத்திற்கான நடப்பு நிகழ்வுகளும் (Current Affairs) அம்மாத இறுதியில் வழங்கப்படும். இந்த Batch தொடர்பான கால அட்டவணைகள் மாறுதலுக்கு உட்பட்டவை (Tentative). இந்த Batch ஆறு மாதம் வரை நடத்தப்படும். இந்த பேட்சின் வீடியோக்களை மாணவர்கள் ஒரு வருடம் வரை பயன்படுத்திக் கொள்ளலாம். இந்த பேட்ச் இன் வகுப்புகள் டிஜிட்டல் PDFஆக வழங்கப்படும்." [ref=f15e216]
+                - gridcell "300" [ref=f15e217]
+                - gridcell "Active" [ref=f15e218]:
+                  - generic [ref=f15e219]: Active
+                - gridcell "31/10/2025" [ref=f15e220]
+              - row " 100 Social Hii 2 Active 06/01/2026" [ref=f15e221] [cursor=pointer]:
+                - gridcell " 100" [ref=f15e222]:
+                  - generic [ref=f15e223]: 
+                  - text: "100"
+                - gridcell "Social" [ref=f15e224]
+                - gridcell "Hii" [ref=f15e225]
+                - gridcell "2" [ref=f15e226]
+                - gridcell "Active" [ref=f15e227]:
+                  - generic [ref=f15e228]: Active
+                - gridcell "06/01/2026" [ref=f15e229]
+              - row " 12-Eco 12TH ECONOMICS 12 Active 12/01/2026" [ref=f15e230] [cursor=pointer]:
+                - gridcell " 12-Eco" [ref=f15e231]:
+                  - generic [ref=f15e232]: 
+                  - text: 12-Eco
+                - gridcell "12TH ECONOMICS" [ref=f15e233]
+                - gridcell [ref=f15e234]
+                - gridcell "12" [ref=f15e235]
+                - gridcell "Active" [ref=f15e236]:
+                  - generic [ref=f15e237]: Active
+                - gridcell "12/01/2026" [ref=f15e238]
+              - row [ref=f15e317] [cursor=pointer]:
+                - gridcell " Assessment-01" [ref=f15e318]:
+                  - generic [ref=f15e241]: 
+                  - text: Assessment-01
+                - gridcell "Assessment course 01" [ref=f15e242]
+                - 'gridcell "Assessment tests measure knowledge, skills, personality, or cognitive abilities to evaluate job candidates or student progress. Common types include aptitude (numerical/verbal reasoning), personality questionnaires, and skill-based tests. Often taken online, these tools provide employers with objective data to make hiring decisions. Common Types of Assessment Tests Cognitive Ability/Aptitude: Measures logical reasoning, numerical ability, and verbal comprehension (e.g., IQ tests, spatial awareness). Personality Questionnaires: Evaluates behavioral traits like conscientiousness, teamwork, and ambition. Situational Judgment Tests (SJT) : Assesses how a candidate handles specific workplace scenarios . Skills/Technical Knowledge Tests: Measures proficiency in a specific area, such as coding, typing, or engineering. Behavioral Assessment: Analyzes work-related behaviors and competencies." [ref=f15e243]'
+                - gridcell "12" [ref=f15e244]
+                - gridcell "Active" [ref=f15e245]:
+                  - generic [ref=f15e246]: Active
+                - gridcell "10/03/2026" [ref=f15e247]
+              - row "Units  Add Unit Image Unit Name Description Duration (Minutes) Actions  Unit 1 Unit 1 Unit 1 10    Unit 2 with no image Unit 2 with no image Unit 2 description 8  " [ref=f15e319]:
+                - gridcell "Units  Add Unit Image Unit Name Description Duration (Minutes) Actions  Unit 1 Unit 1 Unit 1 10    Unit 2 with no image Unit 2 with no image Unit 2 description 8  " [ref=f15e320]:
+                  - generic [ref=f15e322]:
+                    - generic [ref=f15e323]:
+                      - paragraph [ref=f15e324]: Units
+                      - link " Add Unit" [ref=f15e325] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=f15e326]: 
+                        - text: Add Unit
+                    - table [ref=f15e329]:
+                      - rowgroup [ref=f15e330]:
+                        - row "Image Unit Name Description Duration (Minutes) Actions" [ref=f15e331]:
+                          - columnheader [ref=f15e332]
+                          - columnheader "Image" [ref=f15e333]
+                          - columnheader "Unit Name" [ref=f15e334]
+                          - columnheader "Description" [ref=f15e335]
+                          - columnheader "Duration (Minutes)" [ref=f15e336]
+                          - columnheader "Actions" [ref=f15e337]
+                      - rowgroup [ref=f15e338]:
+                        - row " Unit 1 Unit 1 Unit 1 10  " [ref=f15e339]:
+                          - cell "" [ref=f15e340]:
+                            - generic [ref=f15e341]: 
+                          - cell "Unit 1" [ref=f15e342]:
+                            - img "Unit 1" [ref=f15e343]
+                          - cell "Unit 1" [ref=f15e344]
+                          - cell "Unit 1" [ref=f15e345]:
+                            - paragraph [ref=f15e346]: Unit 1
+                          - cell "10" [ref=f15e347]
+                          - cell " " [ref=f15e348]:
+                            - list [ref=f15e349]:
+                              - listitem [ref=f15e350] [cursor=pointer]:
+                                - link "" [ref=f15e351]:
+                                  - /url: javascript:void(0);
+                                  - generic [ref=f15e352]: 
+                              - listitem [ref=f15e353] [cursor=pointer]:
+                                - link "" [ref=f15e354]:
+                                  - /url: javascript:void(0);
+                                  - generic [ref=f15e355]: 
+                        - row " Unit 2 with no image Unit 2 with no image Unit 2 description 8  " [ref=f15e356]:
+                          - cell "" [ref=f15e357]:
+                            - generic [ref=f15e358]: 
+                          - cell "Unit 2 with no image" [ref=f15e359]:
+                            - img "Unit 2 with no image" [ref=f15e360]
+                          - cell "Unit 2 with no image" [ref=f15e361]
+                          - cell "Unit 2 description" [ref=f15e362]:
+                            - paragraph [ref=f15e363]: Unit 2 description
+                          - cell "8" [ref=f15e364]
+                          - cell " " [ref=f15e365]:
+                            - list [ref=f15e366]:
+                              - listitem [ref=f15e367] [cursor=pointer]:
+                                - link "" [ref=f15e368]:
+                                  - /url: javascript:void(0);
+                                  - generic [ref=f15e369]: 
+                              - listitem [ref=f15e370] [cursor=pointer]:
+                                - link "" [ref=f15e371]:
+                                  - /url: javascript:void(0);
+                                  - generic [ref=f15e372]: 
+              - 'row " Bank-001 Banking course Banking courses cover essential skills for the financial sector, ranging from retail operations to investment banking and risk management. Key options include PG Diplomas in Banking (e.g., IMT, Manipal), certifications from IIBF, and online programs from Coursera/Udemy covering Fintech, AML, and credit analysis, often featuring placement assistance. Top Banking Courses & Specializations Investment Banking: Focused on mergers, acquisitions, and financial modeling (e.g., Imarticus Learning, Coursera). Retail & Commercial Banking: Covers branch operations, relationship management, and customer service (e.g., NIIT''s PGP in Banking). Risk Management & Compliance: Covers Anti-Money Laundering (AML), credit risk, and fraud detection (e.g., IIBF certifications). Digital Banking & Fintech: Focuses on modern banking technology and digital payments. 10 Active 09/02/2026" [ref=f15e248] [cursor=pointer]':
+                - gridcell " Bank-001" [ref=f15e249]:
+                  - generic [ref=f15e250]: 
+                  - text: Bank-001
+                - gridcell "Banking course" [ref=f15e251]
+                - 'gridcell "Banking courses cover essential skills for the financial sector, ranging from retail operations to investment banking and risk management. Key options include PG Diplomas in Banking (e.g., IMT, Manipal), certifications from IIBF, and online programs from Coursera/Udemy covering Fintech, AML, and credit analysis, often featuring placement assistance. Top Banking Courses & Specializations Investment Banking: Focused on mergers, acquisitions, and financial modeling (e.g., Imarticus Learning, Coursera). Retail & Commercial Banking: Covers branch operations, relationship management, and customer service (e.g., NIIT''s PGP in Banking). Risk Management & Compliance: Covers Anti-Money Laundering (AML), credit risk, and fraud detection (e.g., IIBF certifications). Digital Banking & Fintech: Focuses on modern banking technology and digital payments." [ref=f15e252]'
+                - gridcell "10" [ref=f15e253]
+                - gridcell "Active" [ref=f15e254]:
+                  - generic [ref=f15e255]: Active
+                - gridcell "09/02/2026" [ref=f15e256]
+              - 'row " Batch-003 Group 6 course Group 6\" most commonly refers to the IUPAC-style chemical group containing transition metals: Chromium (Cr), Molybdenum (Mo), Tungsten (W), and Seaborgium (Sg). These elements are known for being refractory metals with high melting points. 60 Active 05/02/2026" [ref=f15e257] [cursor=pointer]':
+                - gridcell " Batch-003" [ref=f15e258]:
+                  - generic [ref=f15e259]: 
+                  - text: Batch-003
+                - gridcell "Group 6 course" [ref=f15e260]
+                - 'gridcell "Group 6\" most commonly refers to the IUPAC-style chemical group containing transition metals: Chromium (Cr), Molybdenum (Mo), Tungsten (W), and Seaborgium (Sg). These elements are known for being refractory metals with high melting points." [ref=f15e261]'
+                - gridcell "60" [ref=f15e262]
+                - gridcell "Active" [ref=f15e263]:
+                  - generic [ref=f15e264]: Active
+                - gridcell "05/02/2026" [ref=f15e265]
+              - row " course-mm Multiplecardtypefolder 40 Active 09/06/2026" [ref=f15e266] [cursor=pointer]:
+                - gridcell " course-mm" [ref=f15e267]:
+                  - generic [ref=f15e268]: 
+                  - text: course-mm
+                - gridcell "Multiplecardtypefolder" [ref=f15e269]
+                - gridcell [ref=f15e270]
+                - gridcell "40" [ref=f15e271]
+                - gridcell "Active" [ref=f15e272]:
+                  - generic [ref=f15e273]: Active
+                - gridcell "09/06/2026" [ref=f15e274]
+              - 'row " Free-01 Assessment Free Course Free online course content is widely available through top platforms like Coursera, Udemy, and university initiatives 0.5.1, 0.5.2. Learners can access materials on AI, business, and technology from institutions like Harvard and Google 0.5.6, 0.5.12, often with options for free certificates, particularly through providers like HubSpot Academy 0.5.11. [1, 2, 3] Tamil: சென்னை – தமிழ்நாட்டின் தலைநகர் English: Chennai – Capital of Tamil Nadu Tamil: எழுத்துரு சோதனை – முக்கியமானது English: Font testing – Very important Tamil: மொபைல் மற்றும் வலைத்தளங்களில் சோதிக்க English: Test on mobile and web platforms- edited 40 Expired 12/05/2026" [ref=f15e275] [cursor=pointer]':
+                - gridcell " Free-01" [ref=f15e276]:
+                  - generic [ref=f15e277]: 
+                  - text: Free-01
+                - gridcell "Assessment Free Course" [ref=f15e278]
+                - 'gridcell "Free online course content is widely available through top platforms like Coursera, Udemy, and university initiatives 0.5.1, 0.5.2. Learners can access materials on AI, business, and technology from institutions like Harvard and Google 0.5.6, 0.5.12, often with options for free certificates, particularly through providers like HubSpot Academy 0.5.11. [1, 2, 3] Tamil: சென்னை – தமிழ்நாட்டின் தலைநகர் English: Chennai – Capital of Tamil Nadu Tamil: எழுத்துரு சோதனை – முக்கியமானது English: Font testing – Very important Tamil: மொபைல் மற்றும் வலைத்தளங்களில் சோதிக்க English: Test on mobile and web platforms- edited" [ref=f15e279]'
+                - gridcell "40" [ref=f15e280]
+                - gridcell "Expired" [ref=f15e281]:
+                  - generic [ref=f15e282]: Expired
+                - gridcell "12/05/2026" [ref=f15e283]
+              - row " Group 5 Group 5 course பகத்சிங் 1907ஆம் ஆண்டு செப்டம்பர் மாதம் 28ஆம் நாள், பஞ்சாப் மாநிலத்தில் லயால்பூர் மாவட்டத்திலுள்ள 'பங்கா' என்ற கிராமத்தில், சர்தார் கிசன் சிங் என்பவருக்கும், வித்தியாவதிக்கும் இரண்டாவது மகனாக பிறந்தவர். \"இந்திய விடுதலையே என் லட்சியம்\" என்று சிறு வயதிலேயே தூக்குமேடையை முத்தமிட்ட இந்திய சுதந்திர போராட்டத்தின் இளைய மகன் பகத்சிங். \"என்னைக் கொல்லலாம், என் சிந்தனைகளைக் கொல்ல முடியாது. என் உடலை நசுக்கலாம், என் ஆத்மாவை ஒன்றும் செய்ய முடியாது\" என்றவரின் வாழ்க்கையை நோக்கி இந்த காணொளி வழி அழைத்துச் செல்கிறார் ஆசிரியர்.இது வரலாறு பேசும் வரலாறு...! . 45 Active 28/01/2026" [ref=f15e284] [cursor=pointer]:
+                - gridcell " Group 5" [ref=f15e285]:
+                  - generic [ref=f15e286]: 
+                  - text: Group 5
+                - gridcell "Group 5 course" [ref=f15e287]
+                - gridcell "பகத்சிங் 1907ஆம் ஆண்டு செப்டம்பர் மாதம் 28ஆம் நாள், பஞ்சாப் மாநிலத்தில் லயால்பூர் மாவட்டத்திலுள்ள 'பங்கா' என்ற கிராமத்தில், சர்தார் கிசன் சிங் என்பவருக்கும், வித்தியாவதிக்கும் இரண்டாவது மகனாக பிறந்தவர். \"இந்திய விடுதலையே என் லட்சியம்\" என்று சிறு வயதிலேயே தூக்குமேடையை முத்தமிட்ட இந்திய சுதந்திர போராட்டத்தின் இளைய மகன் பகத்சிங். \"என்னைக் கொல்லலாம், என் சிந்தனைகளைக் கொல்ல முடியாது. என் உடலை நசுக்கலாம், என் ஆத்மாவை ஒன்றும் செய்ய முடியாது\" என்றவரின் வாழ்க்கையை நோக்கி இந்த காணொளி வழி அழைத்துச் செல்கிறார் ஆசிரியர்.இது வரலாறு பேசும் வரலாறு...! ." [ref=f15e288]
+                - gridcell "45" [ref=f15e289]
+                - gridcell "Active" [ref=f15e290]:
+                  - generic [ref=f15e291]: Active
+                - gridcell "28/01/2026" [ref=f15e292]
+              - row [ref=f15e293] [cursor=pointer]:
+                - gridcell " Group-1" [ref=f15e294]:
+                  - generic [ref=f15e295]: 
+                  - text: Group-1
+                - gridcell "Group 1 course" [ref=f15e296]
+                - gridcell [ref=f15e297]
+                - gridcell "20" [ref=f15e298]
+                - gridcell "Active" [ref=f15e299]:
+                  - generic [ref=f15e300]: Active
+                - gridcell "09/01/2026" [ref=f15e301]
+          - status [ref=f15e302]: Showing 1 to 10 of 34 entries
+          - generic [ref=f15e303]:
+            - generic [ref=f15e304]: Previous
+            - generic [ref=f15e305]:
+              - generic [ref=f15e306] [cursor=pointer]: "1"
+              - generic [ref=f15e307] [cursor=pointer]: "2"
+              - generic [ref=f15e308] [cursor=pointer]: "3"
+              - generic [ref=f15e309] [cursor=pointer]: "4"
+            - generic [ref=f15e310] [cursor=pointer]: Next
+        - text: 
+      - contentinfo [ref=f15e311]:
+        - paragraph [ref=f15e315]:
+          - text: Copyright
+          - generic [ref=f15e316]: "2026"
+          - text: © Jeshwar Teaching
+  - img

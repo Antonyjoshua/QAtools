@@ -1,0 +1,22 @@
+[    1524ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[    2157ms] [LOG] Current Path: /master/course @ https://jt-admin.scopethinkers.com/Master/Course:976
+[    2159ms] [LOG] Matched: /master/course {menu: Course, submenu: Course} @ https://jt-admin.scopethinkers.com/Master/Course:1171
+[    2160ms] [LOG] Activating menu: Course Submenu: Course @ https://jt-admin.scopethinkers.com/Master/Course:1183
+[    2160ms] [LOG] Found menu: Course @ https://jt-admin.scopethinkers.com/Master/Course:1192
+[    2161ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Master/Course:1213
+[   28047ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[   28508ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[   28541ms] [WARNING] The following deprecated features are currently enabled and have been removed in TinyMCE 7.0. These features will no longer work and should be removed from the TinyMCE configuration. See https://www.tiny.cloud/docs/tinymce/7/migration-from-6x/ for more information.
+
+Plugins:
+- textcolor @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[   29013ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/plugins/textcolor/plugin.min.js:0
+[   29014ms] [ERROR] Failed to load plugin: textcolor from url plugins/textcolor/plugin.min.js @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[   29093ms] [LOG] Current Path: /master/editcourse/136 @ https://jt-admin.scopethinkers.com/Master/EditCourse/136:1237
+[   29095ms] [LOG] Matched: /master/editcourse {menu: Course, submenu: Course} @ https://jt-admin.scopethinkers.com/Master/EditCourse/136:1432
+[   29095ms] [LOG] Activating menu: Course Submenu: Course @ https://jt-admin.scopethinkers.com/Master/EditCourse/136:1444
+[   29096ms] [LOG] Found menu: Course @ https://jt-admin.scopethinkers.com/Master/EditCourse/136:1453
+[   29097ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Master/EditCourse/136:1474
+[   29161ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3

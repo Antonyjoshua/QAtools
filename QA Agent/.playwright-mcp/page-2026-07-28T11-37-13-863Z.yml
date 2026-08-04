@@ -1,0 +1,28 @@
+- generic [ref=f3e4]:
+  - heading "Never Give Up is more important than Success!" [level=2] [ref=f3e8]
+  - generic [ref=f3e10]:
+    - img "Logo" [ref=f3e11]
+    - generic [ref=f3e12]:
+      - heading "Sign In" [level=2] [ref=f3e13]
+      - paragraph [ref=f3e14]:
+        - text: New user?
+        - link "Create an account" [ref=f3e15] [cursor=pointer]:
+          - /url: /Account/Register
+      - generic [ref=f3e16]:
+        - generic [ref=f3e17]: Email or Username
+        - textbox "Email or Username" [ref=f3e19]:
+          - /placeholder: Enter your email or username
+        - generic [ref=f3e20]: Password
+        - generic [ref=f3e21]:
+          - textbox "Password" [ref=f3e22]:
+            - /placeholder: Enter your password
+          - generic [ref=f3e23] [cursor=pointer]: 👁
+        - generic [ref=f3e24]:
+          - generic [ref=f3e25]:
+            - checkbox "Remember me" [ref=f3e26] [cursor=pointer]
+            - text: Remember me
+          - link "Forgot password?" [ref=f3e27] [cursor=pointer]:
+            - /url: /Account/ForgotPassword
+        - button "Sign In" [ref=f3e28] [cursor=pointer]
+      - generic [ref=f3e29]: or
+      - button "Login Using OTP" [ref=f3e30] [cursor=pointer]

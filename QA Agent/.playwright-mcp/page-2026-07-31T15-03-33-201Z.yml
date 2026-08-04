@@ -1,0 +1,256 @@
+- generic [ref=f103e2]:
+  - generic [ref=f103e3]:
+    - generic [ref=f103e5]:
+      - generic [ref=f103e6]:
+        - link "Logo" [ref=f103e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f103e8]
+        - text: 
+      - list [ref=f103e9]:
+        - listitem [ref=f103e10]:
+          - link " Dashboard" [ref=f103e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f103e12]: 
+            - text: Dashboard
+        - listitem [ref=f103e13]:
+          - link " Batches" [ref=f103e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f103e15]: 
+            - text: Batches
+        - listitem [ref=f103e16]:
+          - link " My Courses" [ref=f103e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f103e18]: 
+            - text: My Courses
+        - listitem [ref=f103e19]:
+          - link " eBooks" [ref=f103e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f103e21]: 
+            - text: eBooks
+        - listitem [ref=f103e22]:
+          - link " Wishlist" [ref=f103e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f103e24]: 
+            - text: Wishlist
+        - listitem [ref=f103e25]:
+          - link " Audiobook" [ref=f103e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f103e27]: 
+            - text: Audiobook
+        - listitem [ref=f103e28]:
+          - link " Resources" [ref=f103e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f103e30]: 
+            - text: Resources
+        - listitem [ref=f103e31]:
+          - link " Current Affairs" [ref=f103e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f103e33]: 
+            - text: Current Affairs
+        - listitem [ref=f103e34]:
+          - link " Test" [ref=f103e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f103e36]: 
+            - text: Test
+        - listitem [ref=f103e37]:
+          - link " Settings" [ref=f103e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f103e39]: 
+            - text: Settings
+        - listitem [ref=f103e40]:
+          - link " Call Reminders" [ref=f103e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f103e42]: 
+            - text: Call Reminders
+        - listitem [ref=f103e43]:
+          - link " Leaderboard" [ref=f103e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f103e45]: 
+            - text: Leaderboard
+        - listitem [ref=f103e46]:
+          - button " APL " [ref=f103e47] [cursor=pointer]:
+            - generic [ref=f103e48]:
+              - generic [ref=f103e49]: 
+              - text: APL
+            - generic [ref=f103e50]: 
+          - text:    
+        - listitem [ref=f103e51]:
+          - link " Notification" [ref=f103e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f103e53]: 
+            - text: Notification
+        - listitem [ref=f103e54]:
+          - button " Logout" [ref=f103e56] [cursor=pointer]:
+            - generic [ref=f103e57]: 
+            - text: Logout
+    - generic [ref=f103e59]:
+      - banner [ref=f103e60]:
+        - text: 
+        - generic [ref=f103e61]:
+          - generic [ref=f103e62]:
+            - generic [ref=f103e63]: 
+            - textbox "Search Course" [ref=f103e64]
+            - text: 
+          - link "" [ref=f103e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f103e68]: 
+          - link "Profile qatestuserb2731" [ref=f103e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f103e71]
+            - generic [ref=f103e72]: qatestuserb2731
+      - generic [ref=f103e73]:
+        - generic [ref=f103e75]:
+          - generic [ref=f103e78]:
+            - generic [ref=f103e79]:
+              - generic [ref=f103e80]: Course Enrolled
+              - generic [ref=f103e81]: "3"
+              - generic [ref=f103e82]:
+                - generic [ref=f103e83]: ↑ 12.5%
+                - generic [ref=f103e84]: last month
+            - img "courses completed" [ref=f103e86]
+          - generic [ref=f103e89]:
+            - generic [ref=f103e90]:
+              - generic [ref=f103e91]: Assessment
+              - generic [ref=f103e92]: "0"
+              - generic [ref=f103e93]:
+                - generic [ref=f103e94]: ↑ 8.2%
+                - generic [ref=f103e95]: last month
+            - img "assessments" [ref=f103e97]
+          - generic [ref=f103e100]:
+            - generic [ref=f103e101]:
+              - generic [ref=f103e102]: Hours Watched
+              - generic [ref=f103e103]: 0.00 Hours
+              - generic [ref=f103e104]:
+                - generic [ref=f103e105]: ↑ 15.3%
+                - generic [ref=f103e106]: last month
+            - img "hours spent" [ref=f103e108]
+          - generic [ref=f103e111]:
+            - generic [ref=f103e112]:
+              - generic [ref=f103e113]: Topics Completed
+              - generic [ref=f103e114]: 0/5
+              - generic [ref=f103e115]:
+                - generic [ref=f103e116]: ↔ 0.5%
+                - generic [ref=f103e117]: last month
+            - img "topics in progress" [ref=f103e119]
+        - generic [ref=f103e120]:
+          - generic [ref=f103e121]:
+            - generic [ref=f103e122]:
+              - heading "Total Watched Hours" [level=4] [ref=f103e123]
+              - combobox [ref=f103e125] [cursor=pointer]:
+                - option "All"
+                - option "Last 7 Days"
+                - option "This Month" [selected]
+                - option "Previous Month"
+            - generic [ref=f103e128]: No watched hours available
+          - generic [ref=f103e129]:
+            - generic [ref=f103e131]:
+              - generic [ref=f103e132]:
+                - heading "Total Topic" [level=4] [ref=f103e133]
+                - generic [ref=f103e134]: "0"
+              - generic [ref=f103e136]: No course data available
+            - generic [ref=f103e138]:
+              - heading "Topics Progress" [level=4] [ref=f103e140]
+              - generic [ref=f103e142]:
+                - generic [ref=f103e143]: 
+                - paragraph [ref=f103e144]: No topics in progress yet
+            - generic [ref=f103e146]:
+              - generic [ref=f103e148]:
+                - heading "Live Meeting" [level=4] [ref=f103e151]
+                - paragraph [ref=f103e154]: No upcoming live classes.
+              - generic [ref=f103e156]:
+                - heading "COURSES" [level=5] [ref=f103e157]
+                - paragraph [ref=f103e158]: Industry Ready Training to get you placed
+                - link "View Courses " [ref=f103e159] [cursor=pointer]:
+                  - /url: /Batches/Index
+                  - button "View Courses " [ref=f103e160]:
+                    - text: View Courses
+                    - generic [ref=f103e162]: 
+        - generic [ref=f103e163]:
+          - generic [ref=f103e164]:
+            - heading "Recently Added Topics" [level=3] [ref=f103e165]
+            - generic [ref=f103e166]:
+              - generic [ref=f103e168] [cursor=pointer]: 
+              - generic [ref=f103e170] [cursor=pointer]: 
+          - generic [ref=f103e172]:
+            - generic [ref=f103e173]:
+              - img "Free course topic" [ref=f103e176]
+              - generic [ref=f103e177]:
+                - generic [ref=f103e178]:
+                  - generic [ref=f103e179]:
+                    - generic [ref=f103e180]: 
+                    - generic [ref=f103e181]: 4 Min
+                  - generic [ref=f103e183]: Newly Added
+                - generic [ref=f103e185]:
+                  - heading "Free course topic" [level=6] [ref=f103e186]
+                  - paragraph [ref=f103e187]: Explore this topic to enhance your learning experience.
+              - generic [ref=f103e188]:
+                - generic [ref=f103e189]: 4 days ago
+                - link "Watch Now" [ref=f103e190] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=89&topicId=227
+            - generic [ref=f103e191]:
+              - img "QA Test Topic" [ref=f103e194]
+              - generic [ref=f103e195]:
+                - generic [ref=f103e197]:
+                  - generic [ref=f103e198]: 
+                  - generic [ref=f103e199]: 5 Min
+                - generic [ref=f103e201]:
+                  - heading "QA Test Topic" [level=6] [ref=f103e202]
+                  - paragraph [ref=f103e203]: Explore this topic to enhance your learning experience.
+              - generic [ref=f103e204]:
+                - generic [ref=f103e205]: 24 days ago
+                - link "Watch Now" [ref=f103e206] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=136&topicId=446
+            - generic [ref=f103e207]:
+              - img "Card type 2" [ref=f103e210]
+              - generic [ref=f103e211]:
+                - generic [ref=f103e213]:
+                  - generic [ref=f103e214]: 
+                  - generic [ref=f103e215]: 25 Min
+                - generic [ref=f103e217]:
+                  - heading "Card type 2" [level=6] [ref=f103e218]
+                  - paragraph [ref=f103e219]: Explore this topic to enhance your learning experience.
+              - generic [ref=f103e220]:
+                - generic [ref=f103e221]: 1 month ago
+                - link "Watch Now" [ref=f103e222] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=89&topicId=314
+            - generic [ref=f103e223]:
+              - img "Card type topic" [ref=f103e226]
+              - generic [ref=f103e227]:
+                - generic [ref=f103e229]:
+                  - generic [ref=f103e230]: 
+                  - generic [ref=f103e231]: 30 Min
+                - generic [ref=f103e233]:
+                  - heading "Card type topic" [level=6] [ref=f103e234]
+                  - paragraph [ref=f103e235]: Explore this topic to enhance your learning experience.
+              - generic [ref=f103e236]:
+                - generic [ref=f103e237]: 1 month ago
+                - link "Watch Now" [ref=f103e238] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=89&topicId=260
+            - generic [ref=f103e239]:
+              - img "Free course topic 2" [ref=f103e242]
+              - generic [ref=f103e243]:
+                - generic [ref=f103e245]:
+                  - generic [ref=f103e246]: 
+                  - generic [ref=f103e247]: 35 Min
+                - generic [ref=f103e249]:
+                  - heading "Free course topic 2" [level=6] [ref=f103e250]
+                  - paragraph [ref=f103e251]: Explore this topic to enhance your learning experience.
+              - generic [ref=f103e252]:
+                - generic [ref=f103e253]: 1 month ago
+                - link "Watch Now" [ref=f103e254] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=89&topicId=297
+  - generic "Ask a doubt" [ref=f103e255]:
+    - generic [ref=f103e256]: 
+  - text:      
+  - contentinfo [ref=f103e257]:
+    - generic [ref=f103e258]:
+      - paragraph [ref=f103e260]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f103e261]:
+        - link "About Us" [ref=f103e262] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f103e263] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f103e264] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f103e265] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

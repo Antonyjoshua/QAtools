@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.2.dtd">
+<suite name="Account Creation Suite" verbose="2">
+
+    <!-- false = visible browser window, true = run in background -->
+    <parameter name="headless" value="false"/>
+
+    <listeners>
+        <listener class-name="com.automation.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Account Creation Test">
+        <classes>
+            <class name="com.automation.tests.AccountCreationTest">
+                <methods>
+                    <include name="testCreateAccountAndLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

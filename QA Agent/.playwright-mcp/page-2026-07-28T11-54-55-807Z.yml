@@ -1,0 +1,222 @@
+- generic [active] [ref=f57e1]:
+  - generic [ref=f57e7]:
+    - generic [ref=f57e8]:
+      - generic [ref=f57e9]:
+        - heading "Dashboard" [level=4] [ref=f57e10]
+        - navigation [ref=f57e11]:
+          - list [ref=f57e12]:
+            - listitem [ref=f57e13]:
+              - link [ref=f57e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f57e15]
+            - listitem [ref=f57e18]: / Index
+      - generic [ref=f57e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f57e22]:
+          - listitem [ref=f57e23]:
+            - generic [ref=f57e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f57e26]:
+      - generic [ref=f57e28]:
+        - text: 
+        - link [ref=f57e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f57e31]:
+          - list [ref=f57e33]:
+            - generic [ref=f57e38]:
+              - text: 
+              - listitem [ref=f57e39]:
+                - link [ref=f57e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f57e41]
+                  - text: 
+              - listitem [ref=f57e43]:
+                - link [ref=f57e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e45]
+                  - text: 
+              - listitem [ref=f57e47]:
+                - link [ref=f57e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e49]
+                  - text: 
+              - listitem [ref=f57e51]:
+                - link [ref=f57e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e53]
+                  - text: 
+              - listitem [ref=f57e55]:
+                - link [ref=f57e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e57]
+                  - text: 
+              - listitem [ref=f57e59]:
+                - link [ref=f57e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e61]
+                  - text: 
+              - listitem [ref=f57e63]:
+                - link "" [ref=f57e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f57e65]: 
+                  - text: 
+              - listitem [ref=f57e66]:
+                - link [ref=f57e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e68]
+                  - text: 
+              - listitem [ref=f57e70]:
+                - link [ref=f57e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e72]
+                  - text: 
+              - listitem [ref=f57e74]:
+                - link [ref=f57e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e76]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f57e78]:
+                - link [ref=f57e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e80]
+                  - text: 
+              - listitem [ref=f57e82]:
+                - link [ref=f57e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e84]
+                  - text: 
+              - listitem [ref=f57e86]:
+                - link [ref=f57e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e88]
+                  - text: 
+              - listitem [ref=f57e90]:
+                - link "general icon" [ref=f57e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f57e92]
+                  - text: 
+              - listitem [ref=f57e93]:
+                - link [ref=f57e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f57e95]
+                  - text: 
+              - listitem [ref=f57e97]:
+                - link [ref=f57e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f57e99]
+                  - text: 
+              - listitem [ref=f57e101]:
+                - link "product icon" [ref=f57e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f57e103]
+                  - text: 
+              - listitem [ref=f57e104]:
+                - link [ref=f57e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e106]
+                  - text: 
+              - listitem [ref=f57e108]:
+                - link [ref=f57e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e110]
+                  - text: 
+              - listitem [ref=f57e112]:
+                - link [ref=f57e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f57e114]
+                  - text: 
+              - listitem [ref=f57e116]:
+                - link [ref=f57e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e118]
+                  - text: 
+              - listitem [ref=f57e120]:
+                - link [ref=f57e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e122]
+                  - text: 
+              - listitem [ref=f57e124]:
+                - link [ref=f57e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f57e126]
+              - listitem [ref=f57e128]:
+                - link [ref=f57e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f57e130]
+                  - text: 
+              - listitem [ref=f57e132]:
+                - link "notify-ico" [ref=f57e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f57e134]
+                  - text: 
+              - listitem [ref=f57e135]:
+                - link "notify-ico" [ref=f57e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f57e137]
+                  - text: 
+      - main [ref=f57e139]:
+        - generic [ref=f57e143]:
+          - generic [ref=f57e144]:
+            - heading "Live APL" [level=5] [ref=f57e145]
+            - generic [ref=f57e146]:
+              - generic [ref=f57e147]: "Status:"
+              - combobox "Status:" [ref=f57e148] [cursor=pointer]:
+                - option "All" [selected]
+                - option "Scheduled"
+                - option "Live"
+                - option "Completed"
+                - option "Cancelled"
+              - link " Create Live APL" [ref=f57e149] [cursor=pointer]:
+                - /url: /LiveApl/Create
+                - generic [ref=f57e150]: 
+                - text: Create Live APL
+          - generic [ref=f57e153]:
+            - generic [ref=f57e155]:
+              - text: Show
+              - combobox "Show entries" [ref=f57e156] [cursor=pointer]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: entries
+            - generic [ref=f57e158]:
+              - text: "Search:"
+              - searchbox "Search:" [ref=f57e159] [cursor=pointer]
+            - grid [ref=f57e160]:
+              - rowgroup [ref=f57e161]:
+                - row "Image ↑ Title  Course ↑ Start Date  ↑ Max Participants  ↑ No of Qn/Player  Questions Added Result Message ↑ Status  Actions" [ref=f57e162]:
+                  - columnheader "Image" [ref=f57e163]
+                  - columnheader "↑ Title " [ref=f57e164] [cursor=pointer]
+                  - columnheader "Course" [ref=f57e165]
+                  - columnheader "↑ Start Date " [ref=f57e166] [cursor=pointer]
+                  - columnheader "↑ Max Participants " [ref=f57e167] [cursor=pointer]
+                  - columnheader "↑ No of Qn/Player " [ref=f57e168] [cursor=pointer]
+                  - columnheader "Questions Added" [ref=f57e169]
+                  - columnheader "Result Message" [ref=f57e170]
+                  - columnheader "↑ Status " [ref=f57e171] [cursor=pointer]
+                  - columnheader "Actions" [ref=f57e172]
+              - rowgroup
+            - status
+      - contentinfo [ref=f57e174]:
+        - paragraph [ref=f57e178]:
+          - text: Copyright
+          - generic [ref=f57e179]: "2026"
+          - text: © Jeshwar Teaching
+  - img

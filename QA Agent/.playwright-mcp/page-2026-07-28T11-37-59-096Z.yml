@@ -1,0 +1,75 @@
+- generic [ref=e4]:
+  - heading "Never Give Up is more important than Success!" [level=2] [ref=e8]
+  - generic [ref=e10]:
+    - img "Logo" [ref=e11]
+    - generic [ref=e12]:
+      - heading "Create An Account" [level=2] [ref=e13]
+      - paragraph [ref=e14]:
+        - text: Already have an account?
+        - link "Login" [ref=e15] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: First Name *
+            - textbox "First Name *" [ref=e20]:
+              - /placeholder: Enter your first name
+          - generic [ref=e21]:
+            - generic [ref=e22]: Last Name *
+            - textbox "Last Name *" [ref=e23]:
+              - /placeholder: Enter your last name
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - generic [ref=e26]: Username *
+            - textbox "Username *" [ref=e27]:
+              - /placeholder: Enter your username
+            - paragraph [ref=e28]: e.g., rajesh, rajesh1995 (3-20 chars, letters, numbers)
+          - generic [ref=e29]:
+            - generic [ref=e30]: Email Address *
+            - textbox "Email Address *" [ref=e31]:
+              - /placeholder: Enter your email
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Phone Number *
+            - textbox "Phone Number *" [ref=e35]:
+              - /placeholder: Enter your phone number
+          - generic [ref=e36]:
+            - generic [ref=e37]: Date of Birth(Optional)
+            - textbox "Date of Birth(Optional)" [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: Password *
+            - textbox "Password *" [ref=e42]:
+              - /placeholder: Enter your password
+            - paragraph [ref=e43]: e.g.,Rajesh@123 (min 8 chars with uppercase, lowercase, number & special char)
+          - generic [ref=e44]:
+            - generic [ref=e45]: Confirm Password *
+            - textbox "Confirm Password *" [ref=e46]:
+              - /placeholder: Confirm your password
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]: City
+            - textbox "City" [ref=e50]:
+              - /placeholder: Enter your City
+          - generic [ref=e51]:
+            - generic [ref=e52]: Gender
+            - generic [ref=e53]:
+              - generic [ref=e54]:
+                - radio "Male" [ref=e55]
+                - generic [ref=e56] [cursor=pointer]: Male
+              - generic [ref=e57]:
+                - radio "Female" [ref=e58]
+                - generic [ref=e59] [cursor=pointer]: Female
+              - generic [ref=e60]:
+                - radio "Others" [ref=e61]
+                - generic [ref=e62] [cursor=pointer]: Others
+        - generic [ref=e63]:
+          - checkbox "By clicking Create account, I agree that I have read and accepted the Terms of Use and Privacy Policy" [ref=e64] [cursor=pointer]
+          - generic [ref=e65] [cursor=pointer]:
+            - text: By clicking Create account, I agree that I have read and accepted the
+            - link "Terms of Use" [ref=e66]:
+              - /url: javascript:void(0)
+            - text: and
+            - link "Privacy Policy" [ref=e67]:
+              - /url: javascript:void(0)
+        - button "Create Account" [ref=e68] [cursor=pointer]

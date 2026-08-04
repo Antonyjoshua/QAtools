@@ -1,0 +1,468 @@
+- generic [ref=f39e1]:
+  - generic [ref=f39e7]:
+    - generic [ref=f39e8]:
+      - generic [ref=f39e9]:
+        - heading "Dashboard" [level=4] [ref=f39e10]
+        - navigation [ref=f39e11]:
+          - list [ref=f39e12]:
+            - listitem [ref=f39e13]:
+              - link [ref=f39e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f39e15]
+            - listitem [ref=f39e18]: / Index
+      - generic [ref=f39e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f39e22]:
+          - listitem [ref=f39e23]:
+            - generic [ref=f39e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f39e26]:
+      - generic [ref=f39e28]:
+        - text: 
+        - link [ref=f39e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f39e31]:
+          - list [ref=f39e33]:
+            - generic [ref=f39e38]:
+              - text: 
+              - listitem [ref=f39e39]:
+                - link [ref=f39e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f39e41]
+                  - text: 
+              - listitem [ref=f39e43]:
+                - link [ref=f39e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e45]
+                  - text: 
+              - listitem [ref=f39e47]:
+                - link [ref=f39e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e49]
+                  - text: 
+              - listitem [ref=f39e51]:
+                - link [ref=f39e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e53]
+                  - text: 
+              - listitem [ref=f39e55]:
+                - link [ref=f39e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e57]
+                  - text: 
+              - listitem [ref=f39e59]:
+                - link [ref=f39e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e61]
+                  - text: 
+              - listitem [ref=f39e63]:
+                - link "" [ref=f39e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f39e65]: 
+                  - text: 
+              - listitem [ref=f39e66]:
+                - link [ref=f39e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e68]
+                  - text: 
+              - listitem [ref=f39e70]:
+                - link [ref=f39e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e72]
+                  - text: 
+              - listitem [ref=f39e74]:
+                - link [ref=f39e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e76]
+                  - text: 
+              - listitem [ref=f39e78]:
+                - link [ref=f39e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e80]
+                  - text: 
+              - listitem [ref=f39e82]:
+                - link [ref=f39e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e84]
+                  - text: 
+              - listitem [ref=f39e86]:
+                - link [ref=f39e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e88]
+                  - text: 
+              - listitem [ref=f39e90]:
+                - link "general icon" [ref=f39e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f39e92]
+                  - text: 
+              - listitem [ref=f39e93]:
+                - link [ref=f39e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f39e95]
+                  - text: 
+              - listitem [ref=f39e97]:
+                - link [ref=f39e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f39e99]
+                  - text: 
+              - listitem [ref=f39e101]:
+                - link "product icon" [ref=f39e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f39e103]
+                  - text: 
+              - listitem [ref=f39e104]:
+                - link [ref=f39e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e106]
+                  - text: 
+              - listitem [ref=f39e108]:
+                - link [ref=f39e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e110]
+                  - text: 
+              - listitem [ref=f39e112]:
+                - link [ref=f39e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f39e114]
+                  - text: 
+              - listitem [ref=f39e116]:
+                - link [ref=f39e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e118]
+                  - text: 
+              - listitem [ref=f39e120]:
+                - link [ref=f39e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e122]
+                  - text: 
+              - listitem [ref=f39e124]:
+                - link [ref=f39e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f39e126]
+              - listitem [ref=f39e128]:
+                - link [ref=f39e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f39e130]
+                  - text: 
+              - listitem [ref=f39e132]:
+                - link "notify-ico" [ref=f39e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f39e134]
+                  - text: 
+              - listitem [ref=f39e135]:
+                - link "notify-ico" [ref=f39e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f39e137]
+                  - text: 
+      - main [ref=f39e139]:
+        - generic [ref=f39e143]:
+          - heading "Edit Live APL" [level=5] [ref=f39e145]
+          - generic [ref=f39e146]:
+            - generic [ref=f39e147]:
+              - generic [ref=f39e149]:
+                - generic [ref=f39e150]:
+                  - text: Title
+                  - generic [ref=f39e151]: "*"
+                - textbox "Enter Live APL title" [ref=f39e152] [cursor=pointer]: QA Test Live APL Session
+              - generic [ref=f39e154]:
+                - generic [ref=f39e155]:
+                  - text: Course
+                  - generic [ref=f39e156]: "*"
+                - button "QA-TEST-01 - QA Test Course " [ref=f39e158] [cursor=pointer]:
+                  - generic [ref=f39e159]: QA-TEST-01 - QA Test Course
+                  - generic [ref=f39e160]: 
+              - generic [ref=f39e162]:
+                - generic [ref=f39e163]:
+                  - text: Status
+                  - generic [ref=f39e164]: "*"
+                - combobox [ref=f39e165] [cursor=pointer]:
+                  - option "Scheduled" [selected]
+                  - option "Live"
+                  - option "Completed"
+                  - option "Cancelled"
+              - generic [ref=f39e167]:
+                - generic [ref=f39e168]:
+                  - text: Start Date & Time
+                  - generic [ref=f39e169]: "*"
+                - textbox [ref=f39e170] [cursor=pointer]: 2026-07-27T18:20
+              - generic [ref=f39e172]:
+                - generic [ref=f39e173]: Join Before (minutes)
+                - spinbutton [ref=f39e174] [cursor=pointer]: "5"
+              - generic [ref=f39e176]:
+                - generic [ref=f39e177]:
+                  - text: No of Questions per Player
+                  - generic [ref=f39e178]: "*"
+                - spinbutton [ref=f39e179] [cursor=pointer]: "5"
+              - generic [ref=f39e181]:
+                - generic [ref=f39e182]:
+                  - text: Coins Per Question
+                  - generic [ref=f39e183]: "*"
+                - spinbutton [ref=f39e184] [cursor=pointer]: "1"
+              - generic [ref=f39e186]:
+                - generic [ref=f39e187]:
+                  - text: Time Per Question (seconds)
+                  - generic [ref=f39e188]: "*"
+                - spinbutton [ref=f39e189] [cursor=pointer]: "30"
+              - generic [ref=f39e191]:
+                - generic [ref=f39e192]: Max Participants
+                - spinbutton "0 = unlimited" [ref=f39e193] [cursor=pointer]: "100"
+              - generic [ref=f39e195]:
+                - generic [ref=f39e196]: Result Display Type
+                - generic [ref=f39e197]:
+                  - generic [ref=f39e198]:
+                    - radio "PDF Download" [ref=f39e199] [cursor=pointer]
+                    - generic [ref=f39e200]: PDF Download
+                  - generic [ref=f39e201]:
+                    - radio "Screen (Answer Key)" [checked] [ref=f39e202] [cursor=pointer]
+                    - generic [ref=f39e203]: Screen (Answer Key)
+              - generic [ref=f39e206]:
+                - checkbox "Leaderboard Enabled" [checked] [ref=f39e207] [cursor=pointer]
+                - generic [ref=f39e208]: Leaderboard Enabled
+              - generic [ref=f39e210]:
+                - generic [ref=f39e211]: Thumbnail Image
+                - button "Choose File" [ref=f39e212] [cursor=pointer]
+              - generic [ref=f39e214]:
+                - generic [ref=f39e215]: Result Announcement Message
+                - application [ref=f39e216]:
+                  - generic [ref=f39e217]:
+                    - group [ref=f39e219]:
+                      - group [ref=f39e220]:
+                        - toolbar [ref=f39e221]:
+                          - button "Undo" [disabled] [ref=f39e222]:
+                            - img [ref=f39e224]
+                          - button "Redo" [disabled] [ref=f39e226]:
+                            - img [ref=f39e228]
+                        - toolbar [ref=f39e230]:
+                          - button "Bold" [pressed] [ref=f39e231] [cursor=pointer]:
+                            - img [ref=f39e233]
+                          - button "Italic" [ref=f39e235] [cursor=pointer]:
+                            - img [ref=f39e237]
+                          - button "Underline" [ref=f39e239] [cursor=pointer]:
+                            - img [ref=f39e241]
+                        - toolbar [ref=f39e243]:
+                          - button "Text color Black" [ref=f39e244]:
+                            - img [ref=f39e246]
+                            - img [ref=f39e250]
+                        - toolbar [ref=f39e252]:
+                          - button "Align left" [ref=f39e253] [cursor=pointer]:
+                            - img [ref=f39e255]
+                          - button "Align center" [ref=f39e257] [cursor=pointer]:
+                            - img [ref=f39e259]
+                          - button "Align right" [ref=f39e261] [cursor=pointer]:
+                            - img [ref=f39e263]
+                        - toolbar [ref=f39e265]:
+                          - button "Bullet list" [ref=f39e266]:
+                            - img [ref=f39e268]
+                            - img [ref=f39e270]
+                          - button "Numbered list" [ref=f39e272]:
+                            - img [ref=f39e274]
+                            - img [ref=f39e276]
+                        - toolbar [ref=f39e278]:
+                          - button "Clear formatting" [ref=f39e279] [cursor=pointer]:
+                            - img [ref=f39e281]
+                        - toolbar [ref=f39e283]:
+                          - button "Source code" [ref=f39e284] [cursor=pointer]:
+                            - img [ref=f39e286]
+                    - iframe [ref=f39e291]:
+                      - generic "Rich Text Area. Press ALT-0 for help." [active] [ref=f40e1]:
+                        - paragraph [ref=f40e2]:
+                          - strong [ref=f40e3]: Results announced at 6 PM today.
+                  - generic [ref=f39e292]:
+                    - generic [ref=f39e293]:
+                      - navigation [ref=f39e294]:
+                        - button "p" [ref=f39e295]
+                        - generic [ref=f39e296]: ›
+                        - button "strong" [ref=f39e297]
+                      - link "Build with TinyMCE" [ref=f39e300]:
+                        - /url: https://www.tiny.cloud/powered-by-tiny?utm_campaign=poweredby&utm_source=tiny&utm_medium=referral&utm_content=v7
+                        - text: Build with
+                        - img [ref=f39e301]
+                    - generic "Press the Up and Down arrow keys to resize the editor." [ref=f39e307]:
+                      - img [ref=f39e308]
+                - text: Shown to students so they know when to expect their results.
+              - generic [ref=f39e312]:
+                - generic [ref=f39e313]: Description
+                - application [ref=f39e314]:
+                  - generic [ref=f39e315]:
+                    - group [ref=f39e317]:
+                      - group [ref=f39e318]:
+                        - toolbar [ref=f39e319]:
+                          - button "Undo" [disabled] [ref=f39e320]:
+                            - img [ref=f39e322]
+                          - button "Redo" [disabled] [ref=f39e324]:
+                            - img [ref=f39e326]
+                        - toolbar [ref=f39e328]:
+                          - button "Bold" [pressed] [ref=f39e329] [cursor=pointer]:
+                            - img [ref=f39e331]
+                          - button "Italic" [ref=f39e333] [cursor=pointer]:
+                            - img [ref=f39e335]
+                          - button "Underline" [ref=f39e337] [cursor=pointer]:
+                            - img [ref=f39e339]
+                        - toolbar [ref=f39e341]:
+                          - button "Text color Black" [ref=f39e342]:
+                            - img [ref=f39e344]
+                            - img [ref=f39e348]
+                        - toolbar [ref=f39e350]:
+                          - button "Align left" [ref=f39e351] [cursor=pointer]:
+                            - img [ref=f39e353]
+                          - button "Align center" [ref=f39e355] [cursor=pointer]:
+                            - img [ref=f39e357]
+                          - button "Align right" [ref=f39e359] [cursor=pointer]:
+                            - img [ref=f39e361]
+                        - toolbar [ref=f39e363]:
+                          - button "Bullet list" [ref=f39e364]:
+                            - img [ref=f39e366]
+                            - img [ref=f39e368]
+                          - button "Numbered list" [ref=f39e370]:
+                            - img [ref=f39e372]
+                            - img [ref=f39e374]
+                        - toolbar [ref=f39e376]:
+                          - button "Clear formatting" [ref=f39e377] [cursor=pointer]:
+                            - img [ref=f39e379]
+                        - toolbar [ref=f39e381]:
+                          - button "Source code" [ref=f39e382] [cursor=pointer]:
+                            - img [ref=f39e384]
+                    - iframe [ref=f39e389]:
+                      - generic "Rich Text Area. Press ALT-0 for help." [active] [ref=f41e1]:
+                        - paragraph [ref=f41e2]:
+                          - strong [ref=f41e3]: This is a QA formatting test.
+                  - generic [ref=f39e390]:
+                    - generic [ref=f39e391]:
+                      - navigation [ref=f39e392]:
+                        - button "p" [ref=f39e393]
+                        - generic [ref=f39e394]: ›
+                        - button "strong" [ref=f39e395]
+                      - link "Build with TinyMCE" [ref=f39e398]:
+                        - /url: https://www.tiny.cloud/powered-by-tiny?utm_campaign=poweredby&utm_source=tiny&utm_medium=referral&utm_content=v7
+                        - text: Build with
+                        - img [ref=f39e399]
+                    - generic "Press the Up and Down arrow keys to resize the editor." [ref=f39e405]:
+                      - img [ref=f39e406]
+              - generic [ref=f39e410]:
+                - generic [ref=f39e411]: Instructions
+                - application [ref=f39e412]:
+                  - generic [ref=f39e413]:
+                    - group [ref=f39e415]:
+                      - group [ref=f39e416]:
+                        - toolbar [ref=f39e417]:
+                          - button "Undo" [disabled] [ref=f39e418]:
+                            - img [ref=f39e420]
+                          - button "Redo" [disabled] [ref=f39e422]:
+                            - img [ref=f39e424]
+                        - toolbar [ref=f39e426]:
+                          - button "Bold" [ref=f39e427] [cursor=pointer]:
+                            - img [ref=f39e429]
+                          - button "Italic" [ref=f39e431] [cursor=pointer]:
+                            - img [ref=f39e433]
+                          - button "Underline" [ref=f39e435] [cursor=pointer]:
+                            - img [ref=f39e437]
+                        - toolbar [ref=f39e439]:
+                          - button "Text color Black" [ref=f39e440]:
+                            - img [ref=f39e442]
+                            - img [ref=f39e446]
+                        - toolbar [ref=f39e448]:
+                          - button "Align left" [ref=f39e449] [cursor=pointer]:
+                            - img [ref=f39e451]
+                          - button "Align center" [ref=f39e453] [cursor=pointer]:
+                            - img [ref=f39e455]
+                          - button "Align right" [ref=f39e457] [cursor=pointer]:
+                            - img [ref=f39e459]
+                        - toolbar [ref=f39e461]:
+                          - button "Bullet list" [ref=f39e462]:
+                            - img [ref=f39e464]
+                            - img [ref=f39e466]
+                          - button "Numbered list" [ref=f39e468]:
+                            - img [ref=f39e470]
+                            - img [ref=f39e472]
+                        - toolbar [ref=f39e474]:
+                          - button "Clear formatting" [ref=f39e475] [cursor=pointer]:
+                            - img [ref=f39e477]
+                        - toolbar [ref=f39e479]:
+                          - button "Source code" [ref=f39e480] [cursor=pointer]:
+                            - img [ref=f39e482]
+                    - iframe [ref=f39e487]:
+                      - generic "Rich Text Area. Press ALT-0 for help." [active] [ref=f42e1]:
+                        - paragraph [ref=f42e2]
+                  - generic [ref=f39e488]:
+                    - generic [ref=f39e489]:
+                      - navigation [ref=f39e490]:
+                        - button "p" [ref=f39e491]
+                      - link "Build with TinyMCE" [ref=f39e494]:
+                        - /url: https://www.tiny.cloud/powered-by-tiny?utm_campaign=poweredby&utm_source=tiny&utm_medium=referral&utm_content=v7
+                        - text: Build with
+                        - img [ref=f39e495]
+                    - generic "Press the Up and Down arrow keys to resize the editor." [ref=f39e501]:
+                      - img [ref=f39e502]
+              - generic [ref=f39e506]:
+                - generic [ref=f39e507]: Syllabus
+                - application [ref=f39e508]:
+                  - generic [ref=f39e509]:
+                    - group [ref=f39e511]:
+                      - group [ref=f39e512]:
+                        - toolbar [ref=f39e513]:
+                          - button "Undo" [disabled] [ref=f39e514]:
+                            - img [ref=f39e516]
+                          - button "Redo" [disabled] [ref=f39e518]:
+                            - img [ref=f39e520]
+                        - toolbar [ref=f39e522]:
+                          - button "Bold" [ref=f39e523] [cursor=pointer]:
+                            - img [ref=f39e525]
+                          - button "Italic" [ref=f39e527] [cursor=pointer]:
+                            - img [ref=f39e529]
+                          - button "Underline" [ref=f39e531] [cursor=pointer]:
+                            - img [ref=f39e533]
+                        - toolbar [ref=f39e535]:
+                          - button "Text color Black" [ref=f39e536]:
+                            - img [ref=f39e538]
+                            - img [ref=f39e542]
+                        - toolbar [ref=f39e544]:
+                          - button "Align left" [ref=f39e545] [cursor=pointer]:
+                            - img [ref=f39e547]
+                          - button "Align center" [ref=f39e549] [cursor=pointer]:
+                            - img [ref=f39e551]
+                          - button "Align right" [ref=f39e553] [cursor=pointer]:
+                            - img [ref=f39e555]
+                        - toolbar [ref=f39e557]:
+                          - button "Bullet list" [ref=f39e558]:
+                            - img [ref=f39e560]
+                            - img [ref=f39e562]
+                          - button "Numbered list" [ref=f39e564]:
+                            - img [ref=f39e566]
+                            - img [ref=f39e568]
+                        - toolbar [ref=f39e570]:
+                          - button "Clear formatting" [ref=f39e571] [cursor=pointer]:
+                            - img [ref=f39e573]
+                        - toolbar [ref=f39e575]:
+                          - button "Source code" [ref=f39e576] [cursor=pointer]:
+                            - img [ref=f39e578]
+                    - iframe [ref=f39e583]:
+                      - generic "Rich Text Area. Press ALT-0 for help." [active] [ref=f43e1]:
+                        - paragraph [ref=f43e2]
+                  - generic [ref=f39e584]:
+                    - generic [ref=f39e585]:
+                      - navigation [ref=f39e586]:
+                        - button "p" [ref=f39e587]
+                      - link "Build with TinyMCE" [ref=f39e590]:
+                        - /url: https://www.tiny.cloud/powered-by-tiny?utm_campaign=poweredby&utm_source=tiny&utm_medium=referral&utm_content=v7
+                        - text: Build with
+                        - img [ref=f39e591]
+                    - generic "Press the Up and Down arrow keys to resize the editor." [ref=f39e597]:
+                      - img [ref=f39e598]
+            - generic [ref=f39e602]:
+              - button " Update Live APL" [ref=f39e603] [cursor=pointer]:
+                - generic [ref=f39e604]: 
+                - text: Update Live APL
+              - link "Cancel" [ref=f39e605] [cursor=pointer]:
+                - /url: /LiveApl/Index
+      - contentinfo [ref=f39e606]:
+        - paragraph [ref=f39e610]:
+          - text: Copyright
+          - generic [ref=f39e611]: "2026"
+          - text: © Jeshwar Teaching
+  - img

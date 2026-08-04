@@ -1,0 +1,543 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e7]:
+    - generic [ref=f8e8]:
+      - generic [ref=f8e9]:
+        - heading "Dashboard" [level=4] [ref=f8e10]
+        - navigation [ref=f8e11]:
+          - list [ref=f8e12]:
+            - listitem [ref=f8e13]:
+              - link [ref=f8e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f8e15]
+            - listitem [ref=f8e18]: / Index
+      - generic [ref=f8e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f8e22]:
+          - listitem [ref=f8e23]:
+            - generic [ref=f8e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f8e26]:
+      - generic [ref=f8e28]:
+        - text: 
+        - link [ref=f8e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f8e31]:
+          - list [ref=f8e33]:
+            - generic [ref=f8e38]:
+              - text: 
+              - listitem [ref=f8e39]:
+                - link [ref=f8e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f8e41]
+                  - text: 
+              - listitem [ref=f8e43]:
+                - link [ref=f8e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e45]
+                  - text: 
+              - listitem [ref=f8e47]:
+                - link [ref=f8e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e49]
+                  - text: 
+              - listitem [ref=f8e51]:
+                - link [ref=f8e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e53]
+                  - text: 
+              - listitem [ref=f8e55]:
+                - link [ref=f8e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e57]
+                  - text: 
+              - listitem [ref=f8e59]:
+                - link "" [ref=f8e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f8e61]: 
+                  - text: 
+              - listitem [ref=f8e62]:
+                - link [ref=f8e63] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e64]
+                  - text: 
+              - listitem [ref=f8e66]:
+                - link [ref=f8e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e68]
+                  - text: 
+              - listitem [ref=f8e70]:
+                - link [ref=f8e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e72]
+                  - text: 
+              - listitem [ref=f8e74]:
+                - link [ref=f8e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e76]
+                  - text: 
+              - listitem [ref=f8e78]:
+                - link "general icon" [ref=f8e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f8e80]
+                  - text: 
+              - listitem [ref=f8e81]:
+                - link [ref=f8e82] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f8e83]
+                  - text: 
+              - listitem [ref=f8e85]:
+                - link [ref=f8e86] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f8e87]
+                  - text: 
+              - listitem [ref=f8e89]:
+                - link "product icon" [ref=f8e90] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f8e91]
+                  - text: 
+              - listitem [ref=f8e92]:
+                - link [ref=f8e93] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e94]
+                  - text: 
+              - listitem [ref=f8e96]:
+                - link [ref=f8e97] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f8e98]
+                  - text: 
+              - listitem [ref=f8e100]:
+                - link [ref=f8e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e102]
+                  - text: 
+              - listitem [ref=f8e104]:
+                - link [ref=f8e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e106]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f8e108]:
+                - link [ref=f8e109] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f8e110]
+              - listitem [ref=f8e112]:
+                - link [ref=f8e113] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e114]
+                  - text: 
+              - listitem [ref=f8e116]:
+                - link "notify-ico" [ref=f8e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f8e118]
+                  - text: 
+              - listitem [ref=f8e119]:
+                - link "notify-ico" [ref=f8e120] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f8e121]
+                  - text: 
+      - main [ref=f8e123]:
+        - generic [ref=f8e127]:
+          - generic [ref=f8e128]:
+            - heading "Inventory Report" [level=5] [ref=f8e129]
+            - button " Export Excel" [ref=f8e130] [cursor=pointer]:
+              - generic [ref=f8e131]: 
+              - text: Export Excel
+          - generic [ref=f8e132]:
+            - generic [ref=f8e134]:
+              - generic [ref=f8e135]:
+                - generic [ref=f8e136]: From Date
+                - textbox [ref=f8e137] [cursor=pointer]
+              - generic [ref=f8e138]:
+                - generic [ref=f8e139]: To Date
+                - textbox [ref=f8e140] [cursor=pointer]
+              - generic [ref=f8e141]:
+                - generic [ref=f8e142]: Product Title
+                - textbox "Search product..." [ref=f8e143] [cursor=pointer]
+              - generic [ref=f8e144]:
+                - generic [ref=f8e145]: Product Type
+                - combobox [ref=f8e146] [cursor=pointer]:
+                  - option "All Types" [selected]
+                  - option "Books"
+                  - option "Product Type"
+                  - option "Stationary"
+                  - option "Study Products"
+                  - option "Notes"
+                  - option "Exam Kit"
+                  - option "Miscellaneous"
+                  - option "Notes"
+                  - option "JT special store"
+                  - option "Multiple/Combo"
+                  - option "Combo"
+              - generic [ref=f8e147]:
+                - generic [ref=f8e148]: Transaction Type
+                - combobox [ref=f8e149] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "IN"
+                  - option "OUT"
+                  - option "ADJUSTMENT"
+              - generic [ref=f8e150]:
+                - generic [ref=f8e151]: Customer
+                - textbox "Search customer..." [ref=f8e152] [cursor=pointer]
+              - generic [ref=f8e153]:
+                - button "Apply" [ref=f8e154] [cursor=pointer]
+                - button "Clear" [active] [ref=f8e155] [cursor=pointer]
+            - generic [ref=f8e156]:
+              - generic [ref=f8e157]:
+                - generic [ref=f8e158]:
+                  - generic [ref=f8e159]: Total Stock IN
+                  - heading "23648" [level=3] [ref=f8e2319]
+                - generic [ref=f8e162]: 
+              - generic [ref=f8e163]:
+                - generic [ref=f8e164]:
+                  - generic [ref=f8e165]: Total Stock OUT
+                  - heading "3511" [level=3] [ref=f8e2320]
+                - generic [ref=f8e168]: 
+              - generic [ref=f8e169]:
+                - generic [ref=f8e170]:
+                  - generic [ref=f8e171]: Current Total Stock
+                  - heading "465" [level=3] [ref=f8e210]
+                - generic [ref=f8e174]: 
+              - generic [ref=f8e175]:
+                - generic [ref=f8e176]:
+                  - generic [ref=f8e177]: Low / Out of Stock
+                  - heading "23" [level=3] [ref=f8e211]
+                - generic [ref=f8e180]: 
+            - tablist [ref=f8e181]:
+              - tab "Transaction Detail" [ref=f8e182] [cursor=pointer]
+              - tab "Product Summary" [selected] [ref=f8e183] [cursor=pointer]
+            - tabpanel "Product Summary" [ref=f8e1654]:
+              - generic [ref=f8e1656]:
+                - grid [ref=f8e1657]:
+                  - rowgroup [ref=f8e1658]:
+                    - 'row "Product: activate to sort column descending Type: activate to sort column ascending Current Stock: activate to sort column ascending Reorder Level: activate to sort column ascending Status: activate to sort column ascending Stock IN: activate to sort column ascending Stock OUT: activate to sort column ascending Adjustments: activate to sort column ascending Cost Price: activate to sort column ascending Unit Price: activate to sort column ascending Last Updated: activate to sort column ascending" [ref=f8e1659]':
+                      - 'columnheader "Product: activate to sort column descending" [ref=f8e1660] [cursor=pointer]': Product
+                      - 'columnheader "Type: activate to sort column ascending" [ref=f8e1661] [cursor=pointer]': Type
+                      - 'columnheader "Current Stock: activate to sort column ascending" [ref=f8e1662] [cursor=pointer]': Current Stock
+                      - 'columnheader "Reorder Level: activate to sort column ascending" [ref=f8e1663] [cursor=pointer]': Reorder Level
+                      - 'columnheader "Status: activate to sort column ascending" [ref=f8e1664] [cursor=pointer]': Status
+                      - 'columnheader "Stock IN: activate to sort column ascending" [ref=f8e1665] [cursor=pointer]': Stock IN
+                      - 'columnheader "Stock OUT: activate to sort column ascending" [ref=f8e1666] [cursor=pointer]': Stock OUT
+                      - 'columnheader "Adjustments: activate to sort column ascending" [ref=f8e1667] [cursor=pointer]': Adjustments
+                      - 'columnheader "Cost Price: activate to sort column ascending" [ref=f8e1668] [cursor=pointer]': Cost Price
+                      - 'columnheader "Unit Price: activate to sort column ascending" [ref=f8e1669] [cursor=pointer]': Unit Price
+                      - 'columnheader "Last Updated: activate to sort column ascending" [ref=f8e1670] [cursor=pointer]': Last Updated
+                  - rowgroup [ref=f8e1671]:
+                    - row "Books combo Miscellaneous 7 20 Low Stock 12 5 0 ₹150.00 10/7/2026" [ref=f8e2321]:
+                      - gridcell "Books combo" [ref=f8e2322]
+                      - gridcell "Miscellaneous" [ref=f8e2323]
+                      - gridcell "7" [ref=f8e2324]
+                      - gridcell "20" [ref=f8e2325]
+                      - gridcell "Low Stock" [ref=f8e2326]:
+                        - generic [ref=f8e2327]: Low Stock
+                      - gridcell "12" [ref=f8e2328]
+                      - gridcell "5" [ref=f8e2329]
+                      - gridcell "0" [ref=f8e2330]
+                      - gridcell [ref=f8e2331]
+                      - gridcell "₹150.00" [ref=f8e2332]
+                      - gridcell "10/7/2026" [ref=f8e2333]
+                    - row "Books Combo 1 Combo 1 20 Low Stock 2 1 0 ₹700.00" [ref=f8e2334]:
+                      - gridcell "Books Combo 1" [ref=f8e2335]
+                      - gridcell "Combo" [ref=f8e2336]
+                      - gridcell "1" [ref=f8e2337]
+                      - gridcell "20" [ref=f8e2338]
+                      - gridcell "Low Stock" [ref=f8e2339]:
+                        - generic [ref=f8e2340]: Low Stock
+                      - gridcell "2" [ref=f8e2341]
+                      - gridcell "1" [ref=f8e2342]
+                      - gridcell "0" [ref=f8e2343]
+                      - gridcell [ref=f8e2344]
+                      - gridcell "₹700.00" [ref=f8e2345]
+                      - gridcell [ref=f8e2346]
+                    - row "Combo 2 Combo 2 20 Low Stock 2 0 0 ₹400.00" [ref=f8e2347]:
+                      - gridcell "Combo 2" [ref=f8e2348]
+                      - gridcell "Combo" [ref=f8e2349]
+                      - gridcell "2" [ref=f8e2350]
+                      - gridcell "20" [ref=f8e2351]
+                      - gridcell "Low Stock" [ref=f8e2352]:
+                        - generic [ref=f8e2353]: Low Stock
+                      - gridcell "2" [ref=f8e2354]
+                      - gridcell "0" [ref=f8e2355]
+                      - gridcell "0" [ref=f8e2356]
+                      - gridcell [ref=f8e2357]
+                      - gridcell "₹400.00" [ref=f8e2358]
+                      - gridcell [ref=f8e2359]
+                    - row "ehrbgfrb Combo 6 20 Low Stock 6 0 0 ₹400.00" [ref=f8e2360]:
+                      - gridcell "ehrbgfrb" [ref=f8e2361]
+                      - gridcell "Combo" [ref=f8e2362]
+                      - gridcell "6" [ref=f8e2363]
+                      - gridcell "20" [ref=f8e2364]
+                      - gridcell "Low Stock" [ref=f8e2365]:
+                        - generic [ref=f8e2366]: Low Stock
+                      - gridcell "6" [ref=f8e2367]
+                      - gridcell "0" [ref=f8e2368]
+                      - gridcell "0" [ref=f8e2369]
+                      - gridcell [ref=f8e2370]
+                      - gridcell "₹400.00" [ref=f8e2371]
+                      - gridcell [ref=f8e2372]
+                    - row "ehrbgfrb Combo 7 20 Low Stock 7 0 0 ₹400.00" [ref=f8e2373]:
+                      - gridcell "ehrbgfrb" [ref=f8e2374]
+                      - gridcell "Combo" [ref=f8e2375]
+                      - gridcell "7" [ref=f8e2376]
+                      - gridcell "20" [ref=f8e2377]
+                      - gridcell "Low Stock" [ref=f8e2378]:
+                        - generic [ref=f8e2379]: Low Stock
+                      - gridcell "7" [ref=f8e2380]
+                      - gridcell "0" [ref=f8e2381]
+                      - gridcell "0" [ref=f8e2382]
+                      - gridcell [ref=f8e2383]
+                      - gridcell "₹400.00" [ref=f8e2384]
+                      - gridcell [ref=f8e2385]
+                    - row "ehrbgfrb Combo 6 20 Low Stock 6 0 0 ₹400.00" [ref=f8e2386]:
+                      - gridcell "ehrbgfrb" [ref=f8e2387]
+                      - gridcell "Combo" [ref=f8e2388]
+                      - gridcell "6" [ref=f8e2389]
+                      - gridcell "20" [ref=f8e2390]
+                      - gridcell "Low Stock" [ref=f8e2391]:
+                        - generic [ref=f8e2392]: Low Stock
+                      - gridcell "6" [ref=f8e2393]
+                      - gridcell "0" [ref=f8e2394]
+                      - gridcell "0" [ref=f8e2395]
+                      - gridcell [ref=f8e2396]
+                      - gridcell "₹400.00" [ref=f8e2397]
+                      - gridcell [ref=f8e2398]
+                    - row "ehrbgfrb Combo 7 20 Low Stock 7 0 0 ₹400.00" [ref=f8e2399]:
+                      - gridcell "ehrbgfrb" [ref=f8e2400]
+                      - gridcell "Combo" [ref=f8e2401]
+                      - gridcell "7" [ref=f8e2402]
+                      - gridcell "20" [ref=f8e2403]
+                      - gridcell "Low Stock" [ref=f8e2404]:
+                        - generic [ref=f8e2405]: Low Stock
+                      - gridcell "7" [ref=f8e2406]
+                      - gridcell "0" [ref=f8e2407]
+                      - gridcell "0" [ref=f8e2408]
+                      - gridcell [ref=f8e2409]
+                      - gridcell "₹400.00" [ref=f8e2410]
+                      - gridcell [ref=f8e2411]
+                    - row "ehrbgfrb Combo 2 20 Low Stock 2 0 0 ₹400.00" [ref=f8e2412]:
+                      - gridcell "ehrbgfrb" [ref=f8e2413]
+                      - gridcell "Combo" [ref=f8e2414]
+                      - gridcell "2" [ref=f8e2415]
+                      - gridcell "20" [ref=f8e2416]
+                      - gridcell "Low Stock" [ref=f8e2417]:
+                        - generic [ref=f8e2418]: Low Stock
+                      - gridcell "2" [ref=f8e2419]
+                      - gridcell "0" [ref=f8e2420]
+                      - gridcell "0" [ref=f8e2421]
+                      - gridcell [ref=f8e2422]
+                      - gridcell "₹400.00" [ref=f8e2423]
+                      - gridcell [ref=f8e2424]
+                    - row "ehrbgfrb Combo 7 20 Low Stock 7 0 0 ₹400.00" [ref=f8e2425]:
+                      - gridcell "ehrbgfrb" [ref=f8e2426]
+                      - gridcell "Combo" [ref=f8e2427]
+                      - gridcell "7" [ref=f8e2428]
+                      - gridcell "20" [ref=f8e2429]
+                      - gridcell "Low Stock" [ref=f8e2430]:
+                        - generic [ref=f8e2431]: Low Stock
+                      - gridcell "7" [ref=f8e2432]
+                      - gridcell "0" [ref=f8e2433]
+                      - gridcell "0" [ref=f8e2434]
+                      - gridcell [ref=f8e2435]
+                      - gridcell "₹400.00" [ref=f8e2436]
+                      - gridcell [ref=f8e2437]
+                    - row "ehrbgfrb Combo 1 20 Low Stock 1 0 0 ₹400.00" [ref=f8e2438]:
+                      - gridcell "ehrbgfrb" [ref=f8e2439]
+                      - gridcell "Combo" [ref=f8e2440]
+                      - gridcell "1" [ref=f8e2441]
+                      - gridcell "20" [ref=f8e2442]
+                      - gridcell "Low Stock" [ref=f8e2443]:
+                        - generic [ref=f8e2444]: Low Stock
+                      - gridcell "1" [ref=f8e2445]
+                      - gridcell "0" [ref=f8e2446]
+                      - gridcell "0" [ref=f8e2447]
+                      - gridcell [ref=f8e2448]
+                      - gridcell "₹400.00" [ref=f8e2449]
+                      - gridcell [ref=f8e2450]
+                    - row "Hand written tamil notes Notes 7 20 Low Stock 13 6 0 ₹200.00 12/5/2026" [ref=f8e2451]:
+                      - gridcell "Hand written tamil notes" [ref=f8e2452]
+                      - gridcell "Notes" [ref=f8e2453]
+                      - gridcell "7" [ref=f8e2454]
+                      - gridcell "20" [ref=f8e2455]
+                      - gridcell "Low Stock" [ref=f8e2456]:
+                        - generic [ref=f8e2457]: Low Stock
+                      - gridcell "13" [ref=f8e2458]
+                      - gridcell "6" [ref=f8e2459]
+                      - gridcell "0" [ref=f8e2460]
+                      - gridcell [ref=f8e2461]
+                      - gridcell "₹200.00" [ref=f8e2462]
+                      - gridcell "12/5/2026" [ref=f8e2463]
+                    - row "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles) Books 0 20 Out of Stock 13016 1886 1166 ₹520.00 19/2/2026" [ref=f8e2464]:
+                      - gridcell "Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles)" [ref=f8e2465]
+                      - gridcell "Books" [ref=f8e2466]
+                      - gridcell "0" [ref=f8e2467]
+                      - gridcell "20" [ref=f8e2468]
+                      - gridcell "Out of Stock" [ref=f8e2469]:
+                        - generic [ref=f8e2470]: Out of Stock
+                      - gridcell "13016" [ref=f8e2471]
+                      - gridcell "1886" [ref=f8e2472]
+                      - gridcell "1166" [ref=f8e2473]
+                      - gridcell [ref=f8e2474]
+                      - gridcell "₹520.00" [ref=f8e2475]
+                      - gridcell "19/2/2026" [ref=f8e2476]
+                    - row "Ink bottle Stationary 0 20 Out of Stock 19 31 12 ₹100.00 22/1/2026" [ref=f8e2477]:
+                      - gridcell "Ink bottle" [ref=f8e2478]
+                      - gridcell "Stationary" [ref=f8e2479]
+                      - gridcell "0" [ref=f8e2480]
+                      - gridcell "20" [ref=f8e2481]
+                      - gridcell "Out of Stock" [ref=f8e2482]:
+                        - generic [ref=f8e2483]: Out of Stock
+                      - gridcell "19" [ref=f8e2484]
+                      - gridcell "31" [ref=f8e2485]
+                      - gridcell "12" [ref=f8e2486]
+                      - gridcell [ref=f8e2487]
+                      - gridcell "₹100.00" [ref=f8e2488]
+                      - gridcell "22/1/2026" [ref=f8e2489]
+                    - row "Manual book JT special store 2 20 Low Stock 10 4 6 ₹100.00 10/7/2026" [ref=f8e2490]:
+                      - gridcell "Manual book" [ref=f8e2491]
+                      - gridcell "JT special store" [ref=f8e2492]
+                      - gridcell "2" [ref=f8e2493]
+                      - gridcell "20" [ref=f8e2494]
+                      - gridcell "Low Stock" [ref=f8e2495]:
+                        - generic [ref=f8e2496]: Low Stock
+                      - gridcell "10" [ref=f8e2497]
+                      - gridcell "4" [ref=f8e2498]
+                      - gridcell "6" [ref=f8e2499]
+                      - gridcell [ref=f8e2500]
+                      - gridcell "₹100.00" [ref=f8e2501]
+                      - gridcell "10/7/2026" [ref=f8e2502]
+                    - row "Pen combo Exam Kit 0 20 Out of Stock 17 17 0 ₹50.00" [ref=f8e2503]:
+                      - gridcell "Pen combo" [ref=f8e2504]
+                      - gridcell "Exam Kit" [ref=f8e2505]
+                      - gridcell "0" [ref=f8e2506]
+                      - gridcell "20" [ref=f8e2507]
+                      - gridcell "Out of Stock" [ref=f8e2508]:
+                        - generic [ref=f8e2509]: Out of Stock
+                      - gridcell "17" [ref=f8e2510]
+                      - gridcell "17" [ref=f8e2511]
+                      - gridcell "0" [ref=f8e2512]
+                      - gridcell [ref=f8e2513]
+                      - gridcell "₹50.00" [ref=f8e2514]
+                      - gridcell [ref=f8e2515]
+                    - row "Product Product Type 0 20 Out of Stock 22 24 2 ₹100.00 12/1/2026" [ref=f8e2516]:
+                      - gridcell "Product" [ref=f8e2517]
+                      - gridcell "Product Type" [ref=f8e2518]
+                      - gridcell "0" [ref=f8e2519]
+                      - gridcell "20" [ref=f8e2520]
+                      - gridcell "Out of Stock" [ref=f8e2521]:
+                        - generic [ref=f8e2522]: Out of Stock
+                      - gridcell "22" [ref=f8e2523]
+                      - gridcell "24" [ref=f8e2524]
+                      - gridcell "2" [ref=f8e2525]
+                      - gridcell [ref=f8e2526]
+                      - gridcell "₹100.00" [ref=f8e2527]
+                      - gridcell "12/1/2026" [ref=f8e2528]
+                    - row "Product 2 Product Type 0 20 Out of Stock 12 12 0 ₹100.00" [ref=f8e2529]:
+                      - gridcell "Product 2" [ref=f8e2530]
+                      - gridcell "Product Type" [ref=f8e2531]
+                      - gridcell "0" [ref=f8e2532]
+                      - gridcell "20" [ref=f8e2533]
+                      - gridcell "Out of Stock" [ref=f8e2534]:
+                        - generic [ref=f8e2535]: Out of Stock
+                      - gridcell "12" [ref=f8e2536]
+                      - gridcell "12" [ref=f8e2537]
+                      - gridcell "0" [ref=f8e2538]
+                      - gridcell [ref=f8e2539]
+                      - gridcell "₹100.00" [ref=f8e2540]
+                      - gridcell [ref=f8e2541]
+                    - row "Study lamp Study Products 0 20 Out of Stock 30 33 3 ₹399.00 14/1/2026" [ref=f8e2542]:
+                      - gridcell "Study lamp" [ref=f8e2543]
+                      - gridcell "Study Products" [ref=f8e2544]
+                      - gridcell "0" [ref=f8e2545]
+                      - gridcell "20" [ref=f8e2546]
+                      - gridcell "Out of Stock" [ref=f8e2547]:
+                        - generic [ref=f8e2548]: Out of Stock
+                      - gridcell "30" [ref=f8e2549]
+                      - gridcell "33" [ref=f8e2550]
+                      - gridcell "3" [ref=f8e2551]
+                      - gridcell [ref=f8e2552]
+                      - gridcell "₹399.00" [ref=f8e2553]
+                      - gridcell "14/1/2026" [ref=f8e2554]
+                    - row "Tamil Book - TNPSC New Syllabus Books 4 20 Low Stock 966 292 344 ₹640.00 28/1/2026" [ref=f8e2555]:
+                      - gridcell "Tamil Book - TNPSC New Syllabus" [ref=f8e2556]
+                      - gridcell "Books" [ref=f8e2557]
+                      - gridcell "4" [ref=f8e2558]
+                      - gridcell "20" [ref=f8e2559]
+                      - gridcell "Low Stock" [ref=f8e2560]:
+                        - generic [ref=f8e2561]: Low Stock
+                      - gridcell "966" [ref=f8e2562]
+                      - gridcell "292" [ref=f8e2563]
+                      - gridcell "344" [ref=f8e2564]
+                      - gridcell [ref=f8e2565]
+                      - gridcell "₹640.00" [ref=f8e2566]
+                      - gridcell "28/1/2026" [ref=f8e2567]
+                    - row "Tamil notes Notes 1 20 Low Stock 15 6 2 ₹200.00 10/7/2026" [ref=f8e2568]:
+                      - gridcell "Tamil notes" [ref=f8e2569]
+                      - gridcell "Notes" [ref=f8e2570]
+                      - gridcell "1" [ref=f8e2571]
+                      - gridcell "20" [ref=f8e2572]
+                      - gridcell "Low Stock" [ref=f8e2573]:
+                        - generic [ref=f8e2574]: Low Stock
+                      - gridcell "15" [ref=f8e2575]
+                      - gridcell "6" [ref=f8e2576]
+                      - gridcell "2" [ref=f8e2577]
+                      - gridcell [ref=f8e2578]
+                      - gridcell "₹200.00" [ref=f8e2579]
+                      - gridcell "10/7/2026" [ref=f8e2580]
+                    - row "Test Book K1 Books 2 20 Low Stock 24 9 13 ₹400.00 10/7/2026" [ref=f8e2581]:
+                      - gridcell "Test Book K1" [ref=f8e2582]
+                      - gridcell "Books" [ref=f8e2583]
+                      - gridcell "2" [ref=f8e2584]
+                      - gridcell "20" [ref=f8e2585]
+                      - gridcell "Low Stock" [ref=f8e2586]:
+                        - generic [ref=f8e2587]: Low Stock
+                      - gridcell "24" [ref=f8e2588]
+                      - gridcell "9" [ref=f8e2589]
+                      - gridcell "13" [ref=f8e2590]
+                      - gridcell [ref=f8e2591]
+                      - gridcell "₹400.00" [ref=f8e2592]
+                      - gridcell "10/7/2026" [ref=f8e2593]
+                    - row "Test-REs Combo 1 20 Low Stock 1 0 0 ₹590.00" [ref=f8e2594]:
+                      - gridcell "Test-REs" [ref=f8e2595]
+                      - gridcell "Combo" [ref=f8e2596]
+                      - gridcell "1" [ref=f8e2597]
+                      - gridcell "20" [ref=f8e2598]
+                      - gridcell "Low Stock" [ref=f8e2599]:
+                        - generic [ref=f8e2600]: Low Stock
+                      - gridcell "1" [ref=f8e2601]
+                      - gridcell "0" [ref=f8e2602]
+                      - gridcell "0" [ref=f8e2603]
+                      - gridcell [ref=f8e2604]
+                      - gridcell "₹590.00" [ref=f8e2605]
+                      - gridcell [ref=f8e2606]
+                    - row "TNPSC Tamil Book & Indian Polity (one Liner) Books 9 20 Low Stock 87 119 41 ₹831.00 14/1/2026" [ref=f8e2607]:
+                      - gridcell "TNPSC Tamil Book & Indian Polity (one Liner)" [ref=f8e2608]
+                      - gridcell "Books" [ref=f8e2609]
+                      - gridcell "9" [ref=f8e2610]
+                      - gridcell "20" [ref=f8e2611]
+                      - gridcell "Low Stock" [ref=f8e2612]:
+                        - generic [ref=f8e2613]: Low Stock
+                      - gridcell "87" [ref=f8e2614]
+                      - gridcell "119" [ref=f8e2615]
+                      - gridcell "41" [ref=f8e2616]
+                      - gridcell [ref=f8e2617]
+                      - gridcell "₹831.00" [ref=f8e2618]
+                      - gridcell "14/1/2026" [ref=f8e2619]
+                - generic [ref=f8e1971]:
+                  - generic [ref=f8e2620]: Previous
+                  - generic [ref=f8e2622] [cursor=pointer]: "1"
+                  - generic [ref=f8e2623]: Next
+      - contentinfo [ref=f8e202]:
+        - paragraph [ref=f8e206]:
+          - text: Copyright
+          - generic [ref=f8e207]: "2026"
+          - text: © Jeshwar Teaching
+  - img

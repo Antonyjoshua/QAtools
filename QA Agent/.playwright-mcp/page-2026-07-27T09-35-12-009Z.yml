@@ -1,0 +1,518 @@
+- generic [active] [ref=f40e1]:
+  - generic [ref=f40e7]:
+    - generic [ref=f40e8]:
+      - generic [ref=f40e9]:
+        - heading "Dashboard" [level=4] [ref=f40e10]
+        - navigation [ref=f40e11]:
+          - list [ref=f40e12]:
+            - listitem [ref=f40e13]:
+              - link [ref=f40e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f40e15]
+            - listitem [ref=f40e18]: / Index
+      - generic [ref=f40e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f40e22]:
+          - listitem [ref=f40e23]:
+            - generic [ref=f40e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f40e26]:
+      - generic [ref=f40e28]:
+        - text: 
+        - link [ref=f40e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f40e31]:
+          - list [ref=f40e33]:
+            - generic [ref=f40e38]:
+              - text: 
+              - listitem [ref=f40e39]:
+                - link [ref=f40e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f40e41]
+                  - text: 
+              - listitem [ref=f40e43]:
+                - link [ref=f40e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e45]
+                  - text: 
+              - listitem [ref=f40e47]:
+                - link [ref=f40e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e49]
+                  - text: 
+              - listitem [ref=f40e51]:
+                - link [ref=f40e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e53]
+                  - text: 
+              - listitem [ref=f40e55]:
+                - link [ref=f40e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e57]
+                  - text: 
+              - listitem [ref=f40e59]:
+                - link [ref=f40e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e61]
+                  - text: 
+              - listitem [ref=f40e63]:
+                - link "" [ref=f40e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f40e65]: 
+                  - text: 
+              - listitem [ref=f40e66]:
+                - link [ref=f40e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e68]
+                  - text: 
+              - listitem [ref=f40e70]:
+                - link [ref=f40e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e72]
+                  - text: 
+              - listitem [ref=f40e74]:
+                - link [ref=f40e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e76]
+                  - text: 
+              - listitem [ref=f40e78]:
+                - link [ref=f40e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e80]
+                  - text: 
+              - listitem [ref=f40e82]:
+                - link [ref=f40e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e84]
+                  - text: 
+              - listitem [ref=f40e86]:
+                - link [ref=f40e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e88]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f40e90]:
+                - link "general icon" [ref=f40e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f40e92]
+                  - text: 
+              - listitem [ref=f40e93]:
+                - link [ref=f40e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f40e95]
+                  - text: 
+              - listitem [ref=f40e97]:
+                - link [ref=f40e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f40e99]
+                  - text: 
+              - listitem [ref=f40e101]:
+                - link "product icon" [ref=f40e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f40e103]
+                  - text: 
+              - listitem [ref=f40e104]:
+                - link [ref=f40e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e106]
+                  - text: 
+              - listitem [ref=f40e108]:
+                - link [ref=f40e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e110]
+                  - text: 
+              - listitem [ref=f40e112]:
+                - link [ref=f40e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f40e114]
+                  - text: 
+              - listitem [ref=f40e116]:
+                - link [ref=f40e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e118]
+                  - text: 
+              - listitem [ref=f40e120]:
+                - link [ref=f40e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e122]
+                  - text: 
+              - listitem [ref=f40e124]:
+                - link [ref=f40e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f40e126]
+              - listitem [ref=f40e128]:
+                - link [ref=f40e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f40e130]
+                  - text: 
+              - listitem [ref=f40e132]:
+                - link "notify-ico" [ref=f40e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f40e134]
+                  - text: 
+              - listitem [ref=f40e135]:
+                - link "notify-ico" [ref=f40e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f40e137]
+                  - text: 
+      - main [ref=f40e139]:
+        - generic [ref=f40e143]:
+          - generic [ref=f40e144]:
+            - heading "Course Purchase Gst Report" [level=5] [ref=f40e145]
+            - button " Export Excel" [ref=f40e146] [cursor=pointer]:
+              - generic [ref=f40e147]: 
+              - text: Export Excel
+          - generic [ref=f40e148]:
+            - generic [ref=f40e150]:
+              - generic [ref=f40e151]:
+                - generic [ref=f40e152]: From Date
+                - textbox [ref=f40e153] [cursor=pointer]
+              - generic [ref=f40e154]:
+                - generic [ref=f40e155]: To Date
+                - textbox [ref=f40e156] [cursor=pointer]
+              - generic [ref=f40e157]:
+                - generic [ref=f40e158]: Student
+                - textbox "Search student..." [ref=f40e159] [cursor=pointer]
+              - generic [ref=f40e160]:
+                - generic [ref=f40e161]: Course / Membership
+                - textbox "Search title..." [ref=f40e162] [cursor=pointer]
+              - generic [ref=f40e163]:
+                - button "Apply" [ref=f40e164] [cursor=pointer]
+                - button "Clear" [ref=f40e165] [cursor=pointer]
+            - generic [ref=f40e166]:
+              - generic [ref=f40e167]:
+                - generic [ref=f40e168]:
+                  - generic [ref=f40e169]: Total Purchases
+                  - heading "26" [level=3] [ref=f40e220] [cursor=pointer]
+                - generic [ref=f40e172]: 
+              - generic [ref=f40e173]:
+                - generic [ref=f40e174]:
+                  - generic [ref=f40e175]: Total Discount Given
+                  - heading "₹2,754.88" [level=3] [ref=f40e221] [cursor=pointer]
+                - generic [ref=f40e178]: 
+              - generic [ref=f40e179]:
+                - generic [ref=f40e180]:
+                  - generic [ref=f40e181]: GST Payable
+                  - heading "₹5,945.47" [level=3] [ref=f40e222] [cursor=pointer]
+                - generic [ref=f40e184]: 
+              - generic [ref=f40e185]:
+                - generic [ref=f40e186]:
+                  - generic [ref=f40e187]: Total Amount
+                  - heading "₹65,400.12" [level=3] [ref=f40e223] [cursor=pointer]
+                - generic [ref=f40e190]: 
+              - generic [ref=f40e191]:
+                - generic [ref=f40e192]:
+                  - generic [ref=f40e193]: Revenue Without GST
+                  - heading "₹59,454.65" [level=3] [ref=f40e224] [cursor=pointer]
+                - generic [ref=f40e196]: 
+            - generic [ref=f40e198]:
+              - grid [ref=f40e201]:
+                - rowgroup [ref=f40e202]:
+                  - 'row "Purchase Date: activate to sort column ascending Student: activate to sort column descending Type: activate to sort column ascending Course / Membership: activate to sort column ascending Plan: activate to sort column ascending Price (Before GST): activate to sort column ascending GST%: activate to sort column ascending GST Amount: activate to sort column ascending Discount: activate to sort column ascending Total: activate to sort column ascending" [ref=f40e522]':
+                    - 'columnheader "Purchase Date: activate to sort column ascending" [ref=f40e226] [cursor=pointer]': Purchase Date 
+                    - 'columnheader "Student: activate to sort column descending" [ref=f40e523] [cursor=pointer]': Student 
+                    - 'columnheader "Type: activate to sort column ascending" [ref=f40e228] [cursor=pointer]': Type 
+                    - 'columnheader "Course / Membership: activate to sort column ascending" [ref=f40e229] [cursor=pointer]': Course / Membership 
+                    - 'columnheader "Plan: activate to sort column ascending" [ref=f40e230] [cursor=pointer]': Plan 
+                    - 'columnheader "Price (Before GST): activate to sort column ascending" [ref=f40e231] [cursor=pointer]': Price (Before GST) 
+                    - 'columnheader "GST%: activate to sort column ascending" [ref=f40e232] [cursor=pointer]': GST% 
+                    - 'columnheader "GST Amount: activate to sort column ascending" [ref=f40e233] [cursor=pointer]': GST Amount 
+                    - 'columnheader "Discount: activate to sort column ascending" [ref=f40e234] [cursor=pointer]': Discount 
+                    - 'columnheader "Total: activate to sort column ascending" [ref=f40e235] [cursor=pointer]': Total 
+                - rowgroup [ref=f40e236]:
+                  - row "20 Jul 2026, 03:47:52 PM Antony P Membership GST exclu multi gold 6-months ₹900.00 10% (Exclusive) ₹90.00 ₹100.00 ₹990.00" [ref=f40e524]:
+                    - gridcell "20 Jul 2026, 03:47:52 PM" [ref=f40e525]
+                    - gridcell "Antony P" [ref=f40e526]
+                    - gridcell "Membership" [ref=f40e527]
+                    - gridcell "GST exclu multi" [ref=f40e528]
+                    - gridcell "gold 6-months" [ref=f40e529]
+                    - gridcell "₹900.00" [ref=f40e530]
+                    - gridcell "10% (Exclusive)" [ref=f40e531]
+                    - gridcell "₹90.00" [ref=f40e532]
+                    - gridcell "₹100.00" [ref=f40e533]
+                    - gridcell "₹990.00" [ref=f40e534]
+                  - row "21 Jul 2026, 11:00:16 PM Antony P Membership GST Multil inclu Platinum 6-months ₹800.00 10% (Inclusive) ₹80.00 ₹120.00 ₹880.00" [ref=f40e535]:
+                    - gridcell "21 Jul 2026, 11:00:16 PM" [ref=f40e536]
+                    - gridcell "Antony P" [ref=f40e537]
+                    - gridcell "Membership" [ref=f40e538]
+                    - gridcell "GST Multil inclu" [ref=f40e539]
+                    - gridcell "Platinum 6-months" [ref=f40e540]
+                    - gridcell "₹800.00" [ref=f40e541]
+                    - gridcell "10% (Inclusive)" [ref=f40e542]
+                    - gridcell "₹80.00" [ref=f40e543]
+                    - gridcell "₹120.00" [ref=f40e544]
+                    - gridcell "₹880.00" [ref=f40e545]
+                  - row "14 Jul 2026, 06:36:22 PM Durai K Membership GST Inclu — ₹909.09 10% (Inclusive) ₹90.91 — ₹1,000.00" [ref=f40e546]:
+                    - gridcell "14 Jul 2026, 06:36:22 PM" [ref=f40e547]
+                    - gridcell "Durai K" [ref=f40e548]
+                    - gridcell "Membership" [ref=f40e549]
+                    - gridcell "GST Inclu" [ref=f40e550]
+                    - gridcell "—" [ref=f40e551]
+                    - gridcell "₹909.09" [ref=f40e552]
+                    - gridcell "10% (Inclusive)" [ref=f40e553]
+                    - gridcell "₹90.91" [ref=f40e554]
+                    - gridcell "—" [ref=f40e555]
+                    - gridcell "₹1,000.00" [ref=f40e556]
+                  - row "14 Jul 2026, 06:37:32 PM Durai K Membership GST Exclu — ₹1,000.00 10% (Exclusive) ₹100.00 — ₹1,100.00" [ref=f40e557]:
+                    - gridcell "14 Jul 2026, 06:37:32 PM" [ref=f40e558]
+                    - gridcell "Durai K" [ref=f40e559]
+                    - gridcell "Membership" [ref=f40e560]
+                    - gridcell "GST Exclu" [ref=f40e561]
+                    - gridcell "—" [ref=f40e562]
+                    - gridcell "₹1,000.00" [ref=f40e563]
+                    - gridcell "10% (Exclusive)" [ref=f40e564]
+                    - gridcell "₹100.00" [ref=f40e565]
+                    - gridcell "—" [ref=f40e566]
+                    - gridcell "₹1,100.00" [ref=f40e567]
+                  - row "14 Jul 2026, 06:38:19 PM Durai K Membership GST Multil inclu Platinum 6-months ₹909.09 10% (Inclusive) ₹90.91 — ₹1,000.00" [ref=f40e568]:
+                    - gridcell "14 Jul 2026, 06:38:19 PM" [ref=f40e569]
+                    - gridcell "Durai K" [ref=f40e570]
+                    - gridcell "Membership" [ref=f40e571]
+                    - gridcell "GST Multil inclu" [ref=f40e572]
+                    - gridcell "Platinum 6-months" [ref=f40e573]
+                    - gridcell "₹909.09" [ref=f40e574]
+                    - gridcell "10% (Inclusive)" [ref=f40e575]
+                    - gridcell "₹90.91" [ref=f40e576]
+                    - gridcell "—" [ref=f40e577]
+                    - gridcell "₹1,000.00" [ref=f40e578]
+                  - row "14 Jul 2026, 06:39:29 PM Durai K Membership GST exclu multi gold 6-months ₹1,000.00 10% (Exclusive) ₹100.00 — ₹1,100.00" [ref=f40e579]:
+                    - gridcell "14 Jul 2026, 06:39:29 PM" [ref=f40e580]
+                    - gridcell "Durai K" [ref=f40e581]
+                    - gridcell "Membership" [ref=f40e582]
+                    - gridcell "GST exclu multi" [ref=f40e583]
+                    - gridcell "gold 6-months" [ref=f40e584]
+                    - gridcell "₹1,000.00" [ref=f40e585]
+                    - gridcell "10% (Exclusive)" [ref=f40e586]
+                    - gridcell "₹100.00" [ref=f40e587]
+                    - gridcell "—" [ref=f40e588]
+                    - gridcell "₹1,100.00" [ref=f40e589]
+                  - row "23 Jul 2026, 07:01:25 PM Durai K Membership NEET Exam Preparation — ₹6,362.73 10% (Inclusive) ₹636.27 — ₹6,999.00" [ref=f40e590]:
+                    - gridcell "23 Jul 2026, 07:01:25 PM" [ref=f40e591]
+                    - gridcell "Durai K" [ref=f40e592]
+                    - gridcell "Membership" [ref=f40e593]
+                    - gridcell "NEET Exam Preparation" [ref=f40e594]
+                    - gridcell "—" [ref=f40e595]
+                    - gridcell "₹6,362.73" [ref=f40e596]
+                    - gridcell "10% (Inclusive)" [ref=f40e597]
+                    - gridcell "₹636.27" [ref=f40e598]
+                    - gridcell "—" [ref=f40e599]
+                    - gridcell "₹6,999.00" [ref=f40e600]
+                  - row "23 Jul 2026, 07:02:15 PM Durai K Membership FITJEE Exam Basic plan ₹909.09 10% (Inclusive) ₹90.91 — ₹1,000.00" [ref=f40e601]:
+                    - gridcell "23 Jul 2026, 07:02:15 PM" [ref=f40e602]
+                    - gridcell "Durai K" [ref=f40e603]
+                    - gridcell "Membership" [ref=f40e604]
+                    - gridcell "FITJEE Exam" [ref=f40e605]
+                    - gridcell "Basic plan" [ref=f40e606]
+                    - gridcell "₹909.09" [ref=f40e607]
+                    - gridcell "10% (Inclusive)" [ref=f40e608]
+                    - gridcell "₹90.91" [ref=f40e609]
+                    - gridcell "—" [ref=f40e610]
+                    - gridcell "₹1,000.00" [ref=f40e611]
+                  - row "23 Jul 2026, 10:39:02 AM Durai K Membership Gst Inclusive only — ₹818.18 10% (Inclusive) ₹81.82 ₹100.00 ₹900.00" [ref=f40e612]:
+                    - gridcell "23 Jul 2026, 10:39:02 AM" [ref=f40e613]
+                    - gridcell "Durai K" [ref=f40e614]
+                    - gridcell "Membership" [ref=f40e615]
+                    - gridcell "Gst Inclusive only" [ref=f40e616]
+                    - gridcell "—" [ref=f40e617]
+                    - gridcell "₹818.18" [ref=f40e618]
+                    - gridcell "10% (Inclusive)" [ref=f40e619]
+                    - gridcell "₹81.82" [ref=f40e620]
+                    - gridcell "₹100.00" [ref=f40e621]
+                    - gridcell "₹900.00" [ref=f40e622]
+                  - row "17 Jul 2026, 03:21:56 PM Fayaz Khan Membership TNPSC Course Group 4 — ₹6,000.00 10% (Exclusive) ₹600.00 — ₹6,600.00" [ref=f40e623]:
+                    - gridcell "17 Jul 2026, 03:21:56 PM" [ref=f40e624]
+                    - gridcell "Fayaz Khan" [ref=f40e625]
+                    - gridcell "Membership" [ref=f40e626]
+                    - gridcell "TNPSC Course Group 4" [ref=f40e627]
+                    - gridcell "—" [ref=f40e628]
+                    - gridcell "₹6,000.00" [ref=f40e629]
+                    - gridcell "10% (Exclusive)" [ref=f40e630]
+                    - gridcell "₹600.00" [ref=f40e631]
+                    - gridcell "—" [ref=f40e632]
+                    - gridcell "₹6,600.00" [ref=f40e633]
+                  - row "20 Jul 2026, 07:12:21 PM Fayaz Khan Membership GST exclu multi gold 6-months ₹818.18 10% (Inclusive) ₹81.82 ₹100.00 ₹900.00" [ref=f40e634]:
+                    - gridcell "20 Jul 2026, 07:12:21 PM" [ref=f40e635]
+                    - gridcell "Fayaz Khan" [ref=f40e636]
+                    - gridcell "Membership" [ref=f40e637]
+                    - gridcell "GST exclu multi" [ref=f40e638]
+                    - gridcell "gold 6-months" [ref=f40e639]
+                    - gridcell "₹818.18" [ref=f40e640]
+                    - gridcell "10% (Inclusive)" [ref=f40e641]
+                    - gridcell "₹81.82" [ref=f40e642]
+                    - gridcell "₹100.00" [ref=f40e643]
+                    - gridcell "₹900.00" [ref=f40e644]
+                  - row "23 Jul 2026, 07:04:08 PM hamza ali Membership NEET Exam Preparation — ₹6,362.73 10% (Inclusive) ₹636.27 — ₹6,999.00" [ref=f40e645]:
+                    - gridcell "23 Jul 2026, 07:04:08 PM" [ref=f40e646]
+                    - gridcell "hamza ali" [ref=f40e647]
+                    - gridcell "Membership" [ref=f40e648]
+                    - gridcell "NEET Exam Preparation" [ref=f40e649]
+                    - gridcell "—" [ref=f40e650]
+                    - gridcell "₹6,362.73" [ref=f40e651]
+                    - gridcell "10% (Inclusive)" [ref=f40e652]
+                    - gridcell "₹636.27" [ref=f40e653]
+                    - gridcell "—" [ref=f40e654]
+                    - gridcell "₹6,999.00" [ref=f40e655]
+                  - row "23 Jul 2026, 07:04:50 PM hamza ali Membership FITJEE Exam Basic plan ₹909.09 10% (Inclusive) ₹90.91 — ₹1,000.00" [ref=f40e656]:
+                    - gridcell "23 Jul 2026, 07:04:50 PM" [ref=f40e657]
+                    - gridcell "hamza ali" [ref=f40e658]
+                    - gridcell "Membership" [ref=f40e659]
+                    - gridcell "FITJEE Exam" [ref=f40e660]
+                    - gridcell "Basic plan" [ref=f40e661]
+                    - gridcell "₹909.09" [ref=f40e662]
+                    - gridcell "10% (Inclusive)" [ref=f40e663]
+                    - gridcell "₹90.91" [ref=f40e664]
+                    - gridcell "—" [ref=f40e665]
+                    - gridcell "₹1,000.00" [ref=f40e666]
+                  - row "21 Jul 2026, 01:01:09 PM jun 18 Membership Assessment course 01 — ₹4,799.20 10% (Inclusive) ₹479.92 ₹719.88 ₹5,279.12" [ref=f40e667]:
+                    - gridcell "21 Jul 2026, 01:01:09 PM" [ref=f40e668]
+                    - gridcell "jun 18" [ref=f40e669]
+                    - gridcell "Membership" [ref=f40e670]
+                    - gridcell "Assessment course 01" [ref=f40e671]
+                    - gridcell "—" [ref=f40e672]
+                    - gridcell "₹4,799.20" [ref=f40e673]
+                    - gridcell "10% (Inclusive)" [ref=f40e674]
+                    - gridcell "₹479.92" [ref=f40e675]
+                    - gridcell "₹719.88" [ref=f40e676]
+                    - gridcell "₹5,279.12" [ref=f40e677]
+                  - row "21 Jul 2026, 06:17:23 PM jun 18 Membership Aptitude & Mental Ability — ₹4,909.09 10% (Inclusive) ₹490.91 ₹600.00 ₹5,400.00" [ref=f40e678]:
+                    - gridcell "21 Jul 2026, 06:17:23 PM" [ref=f40e679]
+                    - gridcell "jun 18" [ref=f40e680]
+                    - gridcell "Membership" [ref=f40e681]
+                    - gridcell "Aptitude & Mental Ability" [ref=f40e682]
+                    - gridcell "—" [ref=f40e683]
+                    - gridcell "₹4,909.09" [ref=f40e684]
+                    - gridcell "10% (Inclusive)" [ref=f40e685]
+                    - gridcell "₹490.91" [ref=f40e686]
+                    - gridcell "₹600.00" [ref=f40e687]
+                    - gridcell "₹5,400.00" [ref=f40e688]
+                  - row "22 Jul 2026, 05:32:47 PM Kalai S Membership Kingdom - 2026 — ₹5,362.73 10% (Inclusive) ₹536.27 ₹100.00 ₹5,899.00" [ref=f40e689]:
+                    - gridcell "22 Jul 2026, 05:32:47 PM" [ref=f40e690]
+                    - gridcell "Kalai S" [ref=f40e691]
+                    - gridcell "Membership" [ref=f40e692]
+                    - gridcell "Kingdom - 2026" [ref=f40e693]
+                    - gridcell "—" [ref=f40e694]
+                    - gridcell "₹5,362.73" [ref=f40e695]
+                    - gridcell "10% (Inclusive)" [ref=f40e696]
+                    - gridcell "₹536.27" [ref=f40e697]
+                    - gridcell "₹100.00" [ref=f40e698]
+                    - gridcell "₹5,899.00" [ref=f40e699]
+                  - row "21 Jul 2026, 06:59:13 PM Kalai S Membership GST exclu multi gold 6-months ₹909.09 10% (Inclusive) ₹90.91 — ₹1,000.00" [ref=f40e700]:
+                    - gridcell "21 Jul 2026, 06:59:13 PM" [ref=f40e701]
+                    - gridcell "Kalai S" [ref=f40e702]
+                    - gridcell "Membership" [ref=f40e703]
+                    - gridcell "GST exclu multi" [ref=f40e704]
+                    - gridcell "gold 6-months" [ref=f40e705]
+                    - gridcell "₹909.09" [ref=f40e706]
+                    - gridcell "10% (Inclusive)" [ref=f40e707]
+                    - gridcell "₹90.91" [ref=f40e708]
+                    - gridcell "—" [ref=f40e709]
+                    - gridcell "₹1,000.00" [ref=f40e710]
+                  - row "21 Jul 2026, 06:34:54 PM Keerthi S Membership GST Exclu — ₹50.00 10% (Exclusive) ₹5.00 ₹100.00 ₹55.00" [ref=f40e711]:
+                    - gridcell "21 Jul 2026, 06:34:54 PM" [ref=f40e712]
+                    - gridcell "Keerthi S" [ref=f40e713]
+                    - gridcell "Membership" [ref=f40e714]
+                    - gridcell "GST Exclu" [ref=f40e715]
+                    - gridcell "—" [ref=f40e716]
+                    - gridcell "₹50.00" [ref=f40e717]
+                    - gridcell "10% (Exclusive)" [ref=f40e718]
+                    - gridcell "₹5.00" [ref=f40e719]
+                    - gridcell "₹100.00" [ref=f40e720]
+                    - gridcell "₹55.00" [ref=f40e721]
+                  - row "21 Jul 2026, 06:37:36 PM Keerthi S Membership GST exclu multi gold 6-months ₹818.18 10% (Inclusive) ₹81.82 ₹100.00 ₹900.00" [ref=f40e722]:
+                    - gridcell "21 Jul 2026, 06:37:36 PM" [ref=f40e723]
+                    - gridcell "Keerthi S" [ref=f40e724]
+                    - gridcell "Membership" [ref=f40e725]
+                    - gridcell "GST exclu multi" [ref=f40e726]
+                    - gridcell "gold 6-months" [ref=f40e727]
+                    - gridcell "₹818.18" [ref=f40e728]
+                    - gridcell "10% (Inclusive)" [ref=f40e729]
+                    - gridcell "₹81.82" [ref=f40e730]
+                    - gridcell "₹100.00" [ref=f40e731]
+                    - gridcell "₹900.00" [ref=f40e732]
+                  - row "17 Jul 2026, 04:01:01 PM Mohamad Hashwath Membership GST Inclu — ₹818.18 10% (Inclusive) ₹81.82 ₹100.00 ₹900.00" [ref=f40e733]:
+                    - gridcell "17 Jul 2026, 04:01:01 PM" [ref=f40e734]
+                    - gridcell "Mohamad Hashwath" [ref=f40e735]
+                    - gridcell "Membership" [ref=f40e736]
+                    - gridcell "GST Inclu" [ref=f40e737]
+                    - gridcell "—" [ref=f40e738]
+                    - gridcell "₹818.18" [ref=f40e739]
+                    - gridcell "10% (Inclusive)" [ref=f40e740]
+                    - gridcell "₹81.82" [ref=f40e741]
+                    - gridcell "₹100.00" [ref=f40e742]
+                    - gridcell "₹900.00" [ref=f40e743]
+                  - row "20 Jul 2026, 06:00:40 PM Mohamad Hashwath Membership GST exclu multi gold 6-months ₹909.09 10% (Exclusive) ₹90.91 ₹100.00 ₹1,000.00" [ref=f40e744]:
+                    - gridcell "20 Jul 2026, 06:00:40 PM" [ref=f40e745]
+                    - gridcell "Mohamad Hashwath" [ref=f40e746]
+                    - gridcell "Membership" [ref=f40e747]
+                    - gridcell "GST exclu multi" [ref=f40e748]
+                    - gridcell "gold 6-months" [ref=f40e749]
+                    - gridcell "₹909.09" [ref=f40e750]
+                    - gridcell "10% (Exclusive)" [ref=f40e751]
+                    - gridcell "₹90.91" [ref=f40e752]
+                    - gridcell "₹100.00" [ref=f40e753]
+                    - gridcell "₹1,000.00" [ref=f40e754]
+                  - row "17 Jul 2026, 03:17:45 PM Mohamad Hashwath Membership Kingdom - 2026 — ₹6,000.00 10% (Exclusive) ₹600.00 — ₹6,600.00" [ref=f40e755]:
+                    - gridcell "17 Jul 2026, 03:17:45 PM" [ref=f40e756]
+                    - gridcell "Mohamad Hashwath" [ref=f40e757]
+                    - gridcell "Membership" [ref=f40e758]
+                    - gridcell "Kingdom - 2026" [ref=f40e759]
+                    - gridcell "—" [ref=f40e760]
+                    - gridcell "₹6,000.00" [ref=f40e761]
+                    - gridcell "10% (Exclusive)" [ref=f40e762]
+                    - gridcell "₹600.00" [ref=f40e763]
+                    - gridcell "—" [ref=f40e764]
+                    - gridcell "₹6,600.00" [ref=f40e765]
+                  - row "21 Jul 2026, 05:04:35 PM QA Tester Membership GST Inclu — ₹727.27 10% (Inclusive) ₹72.73 ₹200.00 ₹800.00" [ref=f40e766]:
+                    - gridcell "21 Jul 2026, 05:04:35 PM" [ref=f40e767]
+                    - gridcell "QA Tester" [ref=f40e768]
+                    - gridcell "Membership" [ref=f40e769]
+                    - gridcell "GST Inclu" [ref=f40e770]
+                    - gridcell "—" [ref=f40e771]
+                    - gridcell "₹727.27" [ref=f40e772]
+                    - gridcell "10% (Inclusive)" [ref=f40e773]
+                    - gridcell "₹72.73" [ref=f40e774]
+                    - gridcell "₹200.00" [ref=f40e775]
+                    - gridcell "₹800.00" [ref=f40e776]
+                  - row "21 Jul 2026, 05:09:33 PM QA Tester Membership GST Exclu — ₹0.00 110% (Exclusive) ₹0.00 ₹315.00 ₹0.00" [ref=f40e777]:
+                    - gridcell "21 Jul 2026, 05:09:33 PM" [ref=f40e778]
+                    - gridcell "QA Tester" [ref=f40e779]
+                    - gridcell "Membership" [ref=f40e780]
+                    - gridcell "GST Exclu" [ref=f40e781]
+                    - gridcell "—" [ref=f40e782]
+                    - gridcell "₹0.00" [ref=f40e783]
+                    - gridcell "110% (Exclusive)" [ref=f40e784]
+                    - gridcell "₹0.00" [ref=f40e785]
+                    - gridcell "₹315.00" [ref=f40e786]
+                    - gridcell "₹0.00" [ref=f40e787]
+                  - row "23 Jul 2026, 10:59:26 AM Solai K Membership Kingdom - 2026 — ₹5,453.64 10% (Inclusive) ₹545.36 — ₹5,999.00" [ref=f40e788]:
+                    - gridcell "23 Jul 2026, 10:59:26 AM" [ref=f40e789]
+                    - gridcell "Solai K" [ref=f40e790]
+                    - gridcell "Membership" [ref=f40e791]
+                    - gridcell "Kingdom - 2026" [ref=f40e792]
+                    - gridcell "—" [ref=f40e793]
+                    - gridcell "₹5,453.64" [ref=f40e794]
+                    - gridcell "10% (Inclusive)" [ref=f40e795]
+                    - gridcell "₹545.36" [ref=f40e796]
+                    - gridcell "—" [ref=f40e797]
+                    - gridcell "₹5,999.00" [ref=f40e798]
+              - generic [ref=f40e512]:
+                - generic [ref=f40e799]: Previous
+                - generic [ref=f40e800]:
+                  - generic [ref=f40e801] [cursor=pointer]: "1"
+                  - generic [ref=f40e802] [cursor=pointer]: "2"
+                - generic [ref=f40e803] [cursor=pointer]: Next
+      - contentinfo [ref=f40e214]:
+        - paragraph [ref=f40e218]:
+          - text: Copyright
+          - generic [ref=f40e219]: "2026"
+          - text: © Jeshwar Teaching
+  - img

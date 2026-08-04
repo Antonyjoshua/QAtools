@@ -1,0 +1,144 @@
+- generic [ref=f121e2]:
+  - generic [ref=f121e3]:
+    - generic [ref=f121e5]:
+      - generic [ref=f121e6]:
+        - link "Logo" [ref=f121e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f121e8]
+        - text: 
+      - list [ref=f121e9]:
+        - listitem [ref=f121e10]:
+          - link " Dashboard" [ref=f121e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f121e12]: 
+            - text: Dashboard
+        - listitem [ref=f121e13]:
+          - link " Batches" [ref=f121e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f121e15]: 
+            - text: Batches
+        - listitem [ref=f121e16]:
+          - link " My Courses" [ref=f121e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f121e18]: 
+            - text: My Courses
+        - listitem [ref=f121e19]:
+          - link " eBooks" [ref=f121e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f121e21]: 
+            - text: eBooks
+        - listitem [ref=f121e22]:
+          - link " Wishlist" [ref=f121e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f121e24]: 
+            - text: Wishlist
+        - listitem [ref=f121e25]:
+          - link " Audiobook" [ref=f121e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f121e27]: 
+            - text: Audiobook
+        - listitem [ref=f121e28]:
+          - link " Resources" [ref=f121e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f121e30]: 
+            - text: Resources
+        - listitem [ref=f121e31]:
+          - link " Current Affairs" [ref=f121e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f121e33]: 
+            - text: Current Affairs
+        - listitem [ref=f121e34]:
+          - link " Test" [ref=f121e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f121e36]: 
+            - text: Test
+        - listitem [ref=f121e37]:
+          - link " Settings" [ref=f121e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f121e39]: 
+            - text: Settings
+        - listitem [ref=f121e40]:
+          - link " Call Reminders" [ref=f121e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f121e42]: 
+            - text: Call Reminders
+        - listitem [ref=f121e43]:
+          - link " Leaderboard" [ref=f121e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f121e45]: 
+            - text: Leaderboard
+        - listitem [ref=f121e46]:
+          - button " APL " [ref=f121e47] [cursor=pointer]:
+            - generic [ref=f121e48]:
+              - generic [ref=f121e49]: 
+              - text: APL
+            - generic [ref=f121e50]: 
+          - text:    
+        - listitem [ref=f121e51]:
+          - link " Notification" [ref=f121e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f121e53]: 
+            - text: Notification
+        - listitem [ref=f121e54]:
+          - button " Logout" [ref=f121e56] [cursor=pointer]:
+            - generic [ref=f121e57]: 
+            - text: Logout
+    - generic [ref=f121e59]:
+      - banner [ref=f121e60]:
+        - text: 
+        - generic [ref=f121e61]:
+          - generic [ref=f121e62]:
+            - generic [ref=f121e63]: 
+            - textbox "Search Course" [ref=f121e64]
+            - text: 
+          - link "" [ref=f121e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f121e68]: 
+          - link "Profile qatestuserb2731" [ref=f121e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f121e71]
+            - generic [ref=f121e72]: qatestuserb2731
+      - generic [ref=f121e76]:
+        - generic [ref=f121e81]: 
+        - heading "Payment Successful!" [level=3] [ref=f121e82]
+        - paragraph [ref=f121e83]: Your payment has been processed successfully. You now have access to the course.
+        - generic [ref=f121e84]:
+          - generic [ref=f121e85]:
+            - generic [ref=f121e86]: "Purchase ID:"
+            - generic [ref=f121e87]: "#6956"
+          - generic [ref=f121e88]:
+            - generic [ref=f121e89]: "Transaction ID:"
+            - generic [ref=f121e90]: "#pay_TK9XQ8GFnFuVjO"
+          - generic [ref=f121e91]:
+            - generic [ref=f121e92]: "Course:"
+            - generic [ref=f121e93]: APL Q20 Explanation Course
+          - generic [ref=f121e94]:
+            - generic [ref=f121e95]: "Amount Paid:"
+            - generic [ref=f121e96]: ₹7999.00
+        - generic [ref=f121e97]:
+          - link " Go to My Courses" [ref=f121e98] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f121e99]: 
+            - text: Go to My Courses
+          - link " Back to Home" [ref=f121e100] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f121e101]: 
+            - text: Back to Home
+        - generic [ref=f121e103]:
+          - generic [ref=f121e104]: 
+          - text: A confirmation email has been sent to your registered email address.
+  - generic "Ask a doubt" [ref=f121e105]:
+    - generic [ref=f121e106]: 
+  - text:      
+  - contentinfo [ref=f121e107]:
+    - generic [ref=f121e108]:
+      - paragraph [ref=f121e110]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f121e111]:
+        - link "About Us" [ref=f121e112] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f121e113] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f121e114] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f121e115] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

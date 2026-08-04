@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Default CSS variables (Midnight AI) ──────────────────────────────────── */
+:root {
+  --bg:             #030711;
+  --bg-alt:         #0a0f2e;
+  --card-bg:        rgba(15,23,42,0.68);
+  --card-bg-strong: rgba(15,23,42,0.92);
+  --card-border:    rgba(148,163,184,0.08);
+
+  --t1:     #7c3aed;
+  --t1-rgb: 124,58,237;
+  --t2:     #06b6d4;
+  --t2-rgb: 6,182,212;
+  --t3:     #a855f7;
+  --t3-rgb: 168,85,247;
+
+  --text:   #f8fafc;
+  --muted:  #94a3b8;
+  --subtle: #475569;
+
+  --glow1:     rgba(124,58,237,0.4);
+  --glow2:     rgba(6,182,212,0.4);
+  --scrollbar: #7c3aed;
+
+  /* Legacy aliases */
+  --violet:       #7c3aed;
+  --violet-light: #a855f7;
+  --cyan:         #06b6d4;
+  --border:       rgba(148,163,184,0.1);
+}
+
+/* ─── Smooth theme transitions ─────────────────────────────────────────────── */
+body,
+.glass,
+.glass-strong,
+.tech-tag {
+  transition:
+    background-color 0.55s ease,
+    background       0.55s ease,
+    border-color     0.45s ease,
+    color            0.35s ease,
+    box-shadow       0.45s ease;
+}
+
+/* ─── Base ─────────────────────────────────────────────────────────────────── */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Custom scrollbar ─────────────────────────────────────────────────────── */
+::-webkit-scrollbar              { width: 5px; }
+::-webkit-scrollbar-track        { background: var(--bg); }
+::-webkit-scrollbar-thumb        { background: var(--scrollbar); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover  { background: var(--t3); }
+
+/* ─── Selection ────────────────────────────────────────────────────────────── */
+::selection { background: rgba(var(--t1-rgb),0.3); color: var(--text); }
+
+/* ─── Gradient text ────────────────────────────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, var(--t3) 0%, var(--t1) 40%, var(--t2) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-cyan {
+  background: linear-gradient(135deg, var(--t2) 0%, var(--t1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Glass card ───────────────────────────────────────────────────────────── */
+.glass {
+  background: var(--card-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--card-border);
+}
+
+.glass-strong {
+  background: var(--card-bg-strong);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border: 1px solid rgba(var(--t1-rgb),0.2);
+}
+
+/* ─── Glow effects ─────────────────────────────────────────────────────────── */
+.glow-violet { box-shadow: 0 0 40px var(--glow1); }
+.glow-cyan   { box-shadow: 0 0 40px var(--glow2); }
+
+/* ─── Border gradient ──────────────────────────────────────────────────────── */
+.border-gradient {
+  border: 1px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+}
+.border-gradient::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(var(--t1-rgb),0.5), rgba(var(--t2-rgb),0.5));
+  z-index: -1;
+}
+
+/* ─── Grid overlay ─────────────────────────────────────────────────────────── */
+.grid-overlay {
+  background-image:
+    linear-gradient(rgba(var(--t1-rgb),0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(var(--t1-rgb),0.04) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+/* ─── Noise texture ────────────────────────────────────────────────────────── */
+.noise::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ─── Animated gradient border ─────────────────────────────────────────────── */
+@keyframes borderRotate {
+  to { --angle: 360deg; }
+}
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+.animated-border {
+  border: 2px solid transparent;
+  background: linear-gradient(var(--bg), var(--bg)) padding-box,
+    conic-gradient(from var(--angle), var(--t1), var(--t2), var(--t3), var(--t1)) border-box;
+  animation: borderRotate 4s linear infinite;
+}
+
+/* ─── Section spacing ──────────────────────────────────────────────────────── */
+.section-pad { padding: 7rem 0; }
+
+@media (max-width: 768px) {
+  .section-pad { padding: 5rem 0; }
+}
+
+/* ─── Form floating labels ──────────────────────────────────────────────────── */
+.form-group { position: relative; }
+.form-group input,
+.form-group textarea {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  color: var(--text);
+  width: 100%;
+  padding: 1.2rem 1rem 0.6rem;
+  border-radius: 0.75rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--t1);
+  box-shadow: 0 0 0 3px rgba(var(--t1-rgb),0.15);
+}
+.form-group label {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  pointer-events: none;
+}
+.form-group textarea ~ label { top: 1.2rem; transform: none; }
+.form-group input:focus ~ label,
+.form-group input:not(:placeholder-shown) ~ label,
+.form-group textarea:focus ~ label,
+.form-group textarea:not(:placeholder-shown) ~ label {
+  top: 0.4rem;
+  font-size: 0.72rem;
+  color: var(--t1);
+  transform: none;
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder { opacity: 0; }
+
+/* ─── Tech tag ──────────────────────────────────────────────────────────────── */
+.tech-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.65rem;
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  background: rgba(var(--t1-rgb),0.12);
+  border: 1px solid rgba(var(--t1-rgb),0.25);
+  color: var(--t3);
+  font-family: 'JetBrains Mono', monospace;
+  white-space: nowrap;
+}
+
+/* ─── 3D world layer ────────────────────────────────────────────────────────── */
+section { background: transparent; }
+main    { background: transparent; position: relative; z-index: 1; }
+
+/* ─── Arctic White (light mode) text overrides ──────────────────────────────── */
+[data-theme="arctic-white"] .text-slate-400  { color: #475569 !important; }
+[data-theme="arctic-white"] .text-slate-500  { color: #64748b !important; }
+[data-theme="arctic-white"] .text-slate-300  { color: #334155 !important; }
+[data-theme="arctic-white"] .text-white      { color: #0f172a !important; }
+[data-theme="arctic-white"] footer           { background: rgba(240,244,248,0.95) !important; border-color: rgba(0,0,0,0.06) !important; }
+[data-theme="arctic-white"] .gradient-text,
+[data-theme="arctic-white"] .gradient-text-cyan { opacity: 0.9; }
+
+/* ─── Focus indicator (accessibility) ──────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--t1);
+  outline-offset: 2px;
+}

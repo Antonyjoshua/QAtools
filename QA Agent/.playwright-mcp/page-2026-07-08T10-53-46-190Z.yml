@@ -1,0 +1,399 @@
+- generic [ref=f3e1]:
+  - img [ref=f3e461] [cursor=pointer]
+  - generic [ref=f3e7]:
+    - generic [ref=f3e8]:
+      - generic [ref=f3e9]:
+        - heading "Assessments" [level=4] [ref=f3e10]
+        - navigation [ref=f3e11]:
+          - list [ref=f3e12]:
+            - listitem [ref=f3e13]:
+              - link [ref=f3e14] [cursor=pointer]:
+                - /url: /Assessment/CourseAssessment
+                - img [ref=f3e15]
+            - listitem [ref=f3e18]: / Create Assessment
+      - generic [ref=f3e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - img [ref=f3e23] [cursor=pointer]
+        - list [ref=f3e26]:
+          - listitem [ref=f3e27]:
+            - generic [ref=f3e29] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f3e30]:
+      - generic [ref=f3e32]:
+        - text: 
+        - link [ref=f3e34] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f3e35]:
+          - list [ref=f3e37]:
+            - generic [ref=f3e42]:
+              - text: 
+              - listitem [ref=f3e43]:
+                - link [ref=f3e44] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f3e45]
+                  - text: 
+              - listitem [ref=f3e47]:
+                - link [ref=f3e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e49]
+                  - text: 
+              - listitem [ref=f3e51]:
+                - link [ref=f3e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e53]
+                  - text: 
+              - listitem [ref=f3e55]:
+                - link [ref=f3e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e57]
+                  - text: 
+              - listitem [ref=f3e59]:
+                - link [ref=f3e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e61]
+                  - text: 
+              - listitem [ref=f3e63]:
+                - link "" [ref=f3e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f3e65]: 
+                  - text: 
+              - listitem [ref=f3e66]:
+                - link [ref=f3e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e68]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f3e70]:
+                - link [ref=f3e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e72]
+                  - text: 
+              - listitem [ref=f3e74]:
+                - link [ref=f3e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e76]
+                  - text: 
+              - listitem [ref=f3e78]:
+                - link "general icon" [ref=f3e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f3e80]
+                  - text: 
+              - listitem [ref=f3e81]:
+                - link [ref=f3e82] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f3e83]
+                  - text: 
+              - listitem [ref=f3e85]:
+                - link [ref=f3e86] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f3e87]
+                  - text: 
+              - listitem [ref=f3e89]:
+                - link "product icon" [ref=f3e90] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f3e91]
+                  - text: 
+              - listitem [ref=f3e92]:
+                - link [ref=f3e93] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e94]
+                  - text: 
+              - listitem [ref=f3e96]:
+                - link [ref=f3e97] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f3e98]
+                  - text: 
+              - listitem [ref=f3e100]:
+                - link [ref=f3e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e102]
+                  - text: 
+              - listitem [ref=f3e104]:
+                - link "notify-ico" [ref=f3e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f3e106]
+                  - text: 
+              - listitem [ref=f3e107]:
+                - link "notify-ico" [ref=f3e108] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f3e109]
+                  - text: 
+      - main [ref=f3e111]:
+        - generic [ref=f3e115]:
+          - heading "Create Assessment" [level=5] [ref=f3e117]
+          - generic [ref=f3e119]:
+            - generic [ref=f3e120]:
+              - generic [ref=f3e121]:
+                - generic [ref=f3e122]:
+                  - generic [ref=f3e123]: Course
+                  - combobox [ref=f3e124] [cursor=pointer]:
+                    - option "-- Select Course --"
+                    - option "QA Test Course" [selected]
+                    - option "Multiplecardtypefolder"
+                    - option "Singlecourse"
+                    - option "SelfHost Course"
+                    - option "JT Phase 3"
+                    - option "Assessment course 01"
+                    - option "Railway course 3"
+                    - option "Railway course 2"
+                    - option "Political Polity"
+                    - option "Railway course"
+                    - option "Banking course"
+                    - option "Group 2A"
+                    - option "Group A course"
+                    - option "Test0025"
+                    - option "Group 6 course"
+                    - option "Group 5 course"
+                    - option "Group 4 Course"
+                    - option "Group 3 course"
+                    - option "Pongal Special Course"
+                    - option "JT Batch-2026 Course"
+                    - option "Software Testing"
+                    - option "12TH ECONOMICS"
+                    - option "TNPSC_Group1new 008"
+                    - option "Group 2 course"
+                    - option "tEST"
+                    - option "Silver membership"
+                    - option "Paid membership"
+                    - option "Group 1 course"
+                    - option "Social"
+                    - option "Software Testing Course"
+                    - option "Kingdom - 2026"
+                - text:  
+                - generic [ref=f3e125]:
+                  - generic [ref=f3e126]: Title
+                  - textbox [ref=f3e127] [cursor=pointer]: QA Test Assessment - 2026-07-08
+                - generic [ref=f3e128]:
+                  - generic [ref=f3e129]: Description
+                  - application [ref=f3e130]:
+                    - generic [ref=f3e131]:
+                      - group [ref=f3e251]:
+                        - group [ref=f3e252]:
+                          - toolbar [ref=f3e253]:
+                            - button "Undo" [disabled] [ref=f3e254]:
+                              - img [ref=f3e256]
+                            - button "Redo" [disabled] [ref=f3e258]:
+                              - img [ref=f3e260]
+                          - toolbar [ref=f3e262]:
+                            - button "Bold" [ref=f3e263] [cursor=pointer]:
+                              - img [ref=f3e265]
+                            - button "Italic" [ref=f3e267] [cursor=pointer]:
+                              - img [ref=f3e269]
+                            - button "Background color Black" [ref=f3e271]:
+                              - img [ref=f3e273]
+                              - img [ref=f3e277]
+                          - toolbar [ref=f3e279]:
+                            - button "Reveal or hide additional toolbar items" [ref=f3e280] [cursor=pointer]:
+                              - img [ref=f3e282]
+                      - iframe [ref=f3e135]:
+                        - generic "Rich Text Area. Press ALT-0 for help." [active] [ref=f4e1]:
+                          - text: Enter description
+                          - paragraph [ref=f4e2]
+                    - generic [ref=f3e136]:
+                      - generic [ref=f3e137]:
+                        - navigation [ref=f3e284]:
+                          - button "p" [ref=f3e285]
+                        - link "Build with TinyMCE" [ref=f3e140]:
+                          - /url: https://www.tiny.cloud/powered-by-tiny?utm_campaign=poweredby&utm_source=tiny&utm_medium=referral&utm_content=v7
+                          - text: Build with
+                          - img [ref=f3e141]
+                      - generic "Press the Up and Down arrow keys to resize the editor." [ref=f3e147]:
+                        - img [ref=f3e148]
+              - generic [ref=f3e151]:
+                - generic [ref=f3e152]:
+                  - generic [ref=f3e153]: Type
+                  - combobox [ref=f3e154] [cursor=pointer]:
+                    - option "Exam" [selected]
+                    - option "Quiz"
+                    - option "Assignment"
+                    - option "PracticeTest"
+                    - option "FinalExam"
+                - generic [ref=f3e155]:
+                  - generic [ref=f3e156]: Number Of Questions
+                  - spinbutton [ref=f3e157] [cursor=pointer]: "5"
+                - generic [ref=f3e158]:
+                  - generic [ref=f3e159]: Total Marks
+                  - spinbutton [ref=f3e160] [cursor=pointer]: "100.00"
+                - generic [ref=f3e161]:
+                  - generic [ref=f3e162]: Passing Marks
+                  - spinbutton [ref=f3e163] [cursor=pointer]: "40.00"
+                - generic [ref=f3e164]:
+                  - generic [ref=f3e165]: Duration (Minutes)
+                  - spinbutton [ref=f3e166] [cursor=pointer]: "0"
+                  - generic [ref=f3e464]: Duration must be greater than zero
+                - generic [ref=f3e167]:
+                  - generic [ref=f3e168]: Assessment Image
+                  - button "Assessment Image" [ref=f3e169] [cursor=pointer]
+                  - text: "Supported: JPG, JPEG, PNG, GIF, WEBP. Max size: 5MB"
+                - generic [ref=f3e170]:
+                  - generic [ref=f3e171]: Random Question Order
+                  - checkbox [ref=f3e173] [cursor=pointer]
+                - generic [ref=f3e174]:
+                  - generic [ref=f3e175]: Result Display Type
+                  - generic [ref=f3e176]:
+                    - generic [ref=f3e177]:
+                      - radio "PDF Download" [checked] [ref=f3e178] [cursor=pointer]
+                      - generic [ref=f3e179]: PDF Download
+                    - generic [ref=f3e180]:
+                      - radio "Screen (Answer Key)" [ref=f3e181] [cursor=pointer]
+                      - generic [ref=f3e182]: Screen (Answer Key)
+                  - text: "PDF: students download their result. Screen: students view the answer key on screen."
+              - generic [ref=f3e183]:
+                - generic [ref=f3e184]:
+                  - generic [ref=f3e185]: Status
+                  - combobox [disabled] [ref=f3e186] [cursor=pointer]:
+                    - option "Draft" [selected]
+                    - option "Active"
+                    - option "Archived"
+                    - option "Expired"
+                - generic [ref=f3e187]:
+                  - generic [ref=f3e188]: Attempts Allowed
+                  - generic [ref=f3e189]:
+                    - button "-" [ref=f3e190] [cursor=pointer]
+                    - textbox [ref=f3e191] [cursor=pointer]: "1"
+                    - button "+" [ref=f3e192] [cursor=pointer]
+            - generic [ref=f3e193]:
+              - generic [ref=f3e195]:
+                - generic [ref=f3e196]: Instructions
+                - application [ref=f3e197]:
+                  - generic [ref=f3e198]:
+                    - group [ref=f3e286]:
+                      - group [ref=f3e287]:
+                        - toolbar [ref=f3e288]:
+                          - button "Undo" [disabled] [ref=f3e289]:
+                            - img [ref=f3e291]
+                          - button "Redo" [disabled] [ref=f3e293]:
+                            - img [ref=f3e295]
+                        - toolbar [ref=f3e297]:
+                          - button "Bold" [ref=f3e298] [cursor=pointer]:
+                            - img [ref=f3e300]
+                          - button "Italic" [ref=f3e302] [cursor=pointer]:
+                            - img [ref=f3e304]
+                          - button "Background color Black" [ref=f3e306]:
+                            - img [ref=f3e308]
+                            - img [ref=f3e312]
+                        - toolbar [ref=f3e314]:
+                          - button "Align left" [ref=f3e315] [cursor=pointer]:
+                            - img [ref=f3e317]
+                          - button "Align center" [ref=f3e319] [cursor=pointer]:
+                            - img [ref=f3e321]
+                          - button "Align right" [ref=f3e323] [cursor=pointer]:
+                            - img [ref=f3e325]
+                          - button "Justify" [ref=f3e327] [cursor=pointer]:
+                            - img [ref=f3e329]
+                        - toolbar [ref=f3e331]:
+                          - button "Bullet list" [ref=f3e332]:
+                            - img [ref=f3e334]
+                            - img [ref=f3e336]
+                          - button "Numbered list" [ref=f3e338]:
+                            - img [ref=f3e340]
+                            - img [ref=f3e342]
+                          - button "Decrease indent" [disabled] [ref=f3e344]:
+                            - img [ref=f3e346]
+                          - button "Increase indent" [ref=f3e348] [cursor=pointer]:
+                            - img [ref=f3e350]
+                        - toolbar [ref=f3e352]:
+                          - button "Clear formatting" [ref=f3e353] [cursor=pointer]:
+                            - img [ref=f3e355]
+                        - toolbar [ref=f3e357]:
+                          - button "Source code" [ref=f3e358] [cursor=pointer]:
+                            - img [ref=f3e360]
+                        - toolbar [ref=f3e363]:
+                          - button "Help" [ref=f3e364] [cursor=pointer]:
+                            - img [ref=f3e366]
+                    - iframe [ref=f3e202]:
+                      - generic "Rich Text Area. Press ALT-0 for help." [active] [ref=f5e1]:
+                        - text: Enter instructions
+                        - paragraph [ref=f5e2]
+                  - generic [ref=f3e203]:
+                    - generic [ref=f3e204]:
+                      - navigation [ref=f3e371]:
+                        - button "p" [ref=f3e372]
+                      - link "Build with TinyMCE" [ref=f3e207]:
+                        - /url: https://www.tiny.cloud/powered-by-tiny?utm_campaign=poweredby&utm_source=tiny&utm_medium=referral&utm_content=v7
+                        - text: Build with
+                        - img [ref=f3e208]
+                    - generic "Press the Up and Down arrow keys to resize the editor." [ref=f3e214]:
+                      - img [ref=f3e215]
+              - generic [ref=f3e219]:
+                - generic [ref=f3e220]: Syllabus
+                - application [ref=f3e221]:
+                  - generic [ref=f3e222]:
+                    - group [ref=f3e373]:
+                      - group [ref=f3e374]:
+                        - toolbar [ref=f3e375]:
+                          - button "Undo" [disabled] [ref=f3e376]:
+                            - img [ref=f3e378]
+                          - button "Redo" [disabled] [ref=f3e380]:
+                            - img [ref=f3e382]
+                        - toolbar [ref=f3e384]:
+                          - button "Bold" [ref=f3e385] [cursor=pointer]:
+                            - img [ref=f3e387]
+                          - button "Italic" [ref=f3e389] [cursor=pointer]:
+                            - img [ref=f3e391]
+                          - button "Background color Black" [ref=f3e393]:
+                            - img [ref=f3e395]
+                            - img [ref=f3e399]
+                        - toolbar [ref=f3e401]:
+                          - button "Align left" [ref=f3e402] [cursor=pointer]:
+                            - img [ref=f3e404]
+                          - button "Align center" [ref=f3e406] [cursor=pointer]:
+                            - img [ref=f3e408]
+                          - button "Align right" [ref=f3e410] [cursor=pointer]:
+                            - img [ref=f3e412]
+                          - button "Justify" [ref=f3e414] [cursor=pointer]:
+                            - img [ref=f3e416]
+                        - toolbar [ref=f3e418]:
+                          - button "Bullet list" [ref=f3e419]:
+                            - img [ref=f3e421]
+                            - img [ref=f3e423]
+                          - button "Numbered list" [ref=f3e425]:
+                            - img [ref=f3e427]
+                            - img [ref=f3e429]
+                          - button "Decrease indent" [disabled] [ref=f3e431]:
+                            - img [ref=f3e433]
+                          - button "Increase indent" [ref=f3e435] [cursor=pointer]:
+                            - img [ref=f3e437]
+                        - toolbar [ref=f3e439]:
+                          - button "Clear formatting" [ref=f3e440] [cursor=pointer]:
+                            - img [ref=f3e442]
+                        - toolbar [ref=f3e444]:
+                          - button "Source code" [ref=f3e445] [cursor=pointer]:
+                            - img [ref=f3e447]
+                        - toolbar [ref=f3e450]:
+                          - button "Help" [ref=f3e451] [cursor=pointer]:
+                            - img [ref=f3e453]
+                    - iframe [ref=f3e226]:
+                      - generic "Rich Text Area. Press ALT-0 for help." [active] [ref=f6e1]:
+                        - text: Enter syllabus
+                        - paragraph [ref=f6e2]
+                  - generic [ref=f3e227]:
+                    - generic [ref=f3e228]:
+                      - navigation [ref=f3e458]:
+                        - button "p" [ref=f3e459]
+                      - link "Build with TinyMCE" [ref=f3e231]:
+                        - /url: https://www.tiny.cloud/powered-by-tiny?utm_campaign=poweredby&utm_source=tiny&utm_medium=referral&utm_content=v7
+                        - text: Build with
+                        - img [ref=f3e232]
+                    - generic "Press the Up and Down arrow keys to resize the editor." [ref=f3e238]:
+                      - img [ref=f3e239]
+            - generic [ref=f3e242]:
+              - button "Save" [active] [ref=f3e243] [cursor=pointer]
+              - link "Back" [ref=f3e244] [cursor=pointer]:
+                - /url: /Assessment/CourseAssessment
+      - contentinfo [ref=f3e245]:
+        - paragraph [ref=f3e249]:
+          - text: Copyright
+          - generic [ref=f3e250]: "2026"
+          - text: © Jeshwar Teaching
+  - img

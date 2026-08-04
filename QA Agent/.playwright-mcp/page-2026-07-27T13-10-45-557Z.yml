@@ -1,0 +1,192 @@
+- generic [ref=f74e2]:
+  - generic [ref=f74e3]:
+    - generic [ref=f74e5]:
+      - generic [ref=f74e6]:
+        - link "Logo" [ref=f74e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f74e8]
+        - text: 
+      - list [ref=f74e9]:
+        - listitem [ref=f74e10]:
+          - link " Dashboard" [ref=f74e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f74e12]: 
+            - text: Dashboard
+        - listitem [ref=f74e13]:
+          - link " Batches" [ref=f74e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f74e15]: 
+            - text: Batches
+        - listitem [ref=f74e16]:
+          - link " My Courses" [ref=f74e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f74e18]: 
+            - text: My Courses
+        - listitem [ref=f74e19]:
+          - link " eBooks" [ref=f74e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f74e21]: 
+            - text: eBooks
+        - listitem [ref=f74e22]:
+          - link " Wishlist" [ref=f74e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f74e24]: 
+            - text: Wishlist
+        - listitem [ref=f74e25]:
+          - link " Audiobook" [ref=f74e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f74e27]: 
+            - text: Audiobook
+        - listitem [ref=f74e28]:
+          - link " Resources" [ref=f74e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f74e30]: 
+            - text: Resources
+        - listitem [ref=f74e31]:
+          - link " Current Affairs" [ref=f74e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f74e33]: 
+            - text: Current Affairs
+        - listitem [ref=f74e34]:
+          - link " Test" [ref=f74e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f74e36]: 
+            - text: Test
+        - listitem [ref=f74e37]:
+          - link " Settings" [ref=f74e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f74e39]: 
+            - text: Settings
+        - listitem [ref=f74e40]:
+          - link " Call Reminders" [ref=f74e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f74e42]: 
+            - text: Call Reminders
+        - listitem [ref=f74e43]:
+          - link " Leaderboard" [ref=f74e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f74e45]: 
+            - text: Leaderboard
+        - listitem [ref=f74e46]:
+          - button " APL " [expanded] [ref=f74e47] [cursor=pointer]:
+            - generic [ref=f74e48]:
+              - generic [ref=f74e49]: 
+              - text: APL
+            - generic [ref=f74e50]: 
+          - list [ref=f74e51]:
+            - listitem [ref=f74e52]:
+              - link " Live APL" [ref=f74e53] [cursor=pointer]:
+                - /url: /LiveApl/Index
+                - generic [ref=f74e54]: 
+                - text: Live APL
+            - listitem [ref=f74e55]:
+              - link " APL Q20" [ref=f74e56] [cursor=pointer]:
+                - /url: /TestRoom/Index
+                - generic [ref=f74e57]: 
+                - text: APL Q20
+            - listitem [ref=f74e58]:
+              - link " APL Q20 Series" [ref=f74e59] [cursor=pointer]:
+                - /url: /FolderApl/Index
+                - generic [ref=f74e60]: 
+                - text: APL Q20 Series
+            - listitem [ref=f74e61]:
+              - link " Coin History" [ref=f74e62] [cursor=pointer]:
+                - /url: /CoinHistory/Index
+                - generic [ref=f74e63]: 
+                - text: Coin History
+        - listitem [ref=f74e64]:
+          - link " Notification" [ref=f74e65] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f74e66]: 
+            - text: Notification
+        - listitem [ref=f74e67]:
+          - button " Logout" [ref=f74e69] [cursor=pointer]:
+            - generic [ref=f74e70]: 
+            - text: Logout
+    - generic [ref=f74e72]:
+      - banner [ref=f74e73]:
+        - text: 
+        - generic [ref=f74e74]:
+          - generic [ref=f74e75]:
+            - generic [ref=f74e76]: 
+            - textbox "Search Course" [ref=f74e77]
+            - text: 
+          - link "" [ref=f74e79] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f74e81]: 
+          - link "Profile qafrontend27" [ref=f74e83] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f74e84]
+            - generic [ref=f74e85]: qafrontend27
+      - generic [ref=f74e86]:
+        - link " Exit" [ref=f74e87] [cursor=pointer]:
+          - /url: /LiveApl/Index
+          - generic [ref=f74e88]: 
+          - text: Exit
+        - generic [ref=f74e89]:
+          - generic [ref=f74e91]:
+            - generic [ref=f74e93]: 
+            - generic [ref=f74e94]:
+              - paragraph [ref=f74e95]: Live APL Arena
+              - paragraph [ref=f74e96]: Answer fast, stay sharp — rankings are revealed after the event ends.
+          - text:       
+          - generic [ref=f74e147]:
+            - generic [ref=f74e148]:
+              - heading "QA Test Live APL Session" [level=4] [ref=f74e149]
+              - generic [ref=f74e150]:
+                - generic [ref=f74e151]:
+                  - generic [ref=f74e152]: 
+                  - text: "Answered:"
+                  - generic [ref=f74e153]: "1"
+                  - text: /
+                  - generic [ref=f74e154]: "3"
+                - text: 
+            - generic [ref=f74e157]:
+              - generic [ref=f74e158]: Question 2 of 3
+              - generic [ref=f74e159]: 33% complete
+            - generic [ref=f74e160]:
+              - generic [ref=f74e161]:
+                - generic [ref=f74e162]:
+                  - img "Player" [ref=f74e163]
+                  - generic [ref=f74e164]: qafrontend27
+                - generic [ref=f74e165]:
+                  - img [ref=f74e166]
+                  - generic [ref=f74e169]: "16"
+                - generic [ref=f74e170]:
+                  - button "Tamil" [ref=f74e171] [cursor=pointer]
+                  - button "English" [ref=f74e172] [cursor=pointer]
+              - paragraph [ref=f74e174]:
+                - paragraph [ref=f74e186]:
+                  - strong [ref=f74e187]: What is the capital of France?
+              - generic [ref=f74e176]:
+                - button "A London" [ref=f74e188] [cursor=pointer]:
+                  - generic [ref=f74e189]: A
+                  - paragraph [ref=f74e191]:
+                    - strong [ref=f74e192]: London
+                - button "B Berlin" [ref=f74e193] [cursor=pointer]:
+                  - generic [ref=f74e194]: B
+                  - paragraph [ref=f74e196]:
+                    - strong [ref=f74e197]: Berlin
+                - button "C Paris" [active] [ref=f74e198] [cursor=pointer]:
+                  - generic [ref=f74e199]: C
+                  - paragraph [ref=f74e201]:
+                    - strong [ref=f74e202]: Paris
+                - button "D Rome" [ref=f74e203] [cursor=pointer]:
+                  - generic [ref=f74e204]: D
+                  - paragraph [ref=f74e206]:
+                    - strong [ref=f74e207]: Rome
+  - generic "Ask a doubt" [ref=f74e131]:
+    - generic [ref=f74e132]: 
+  - text:      
+  - contentinfo [ref=f74e133]:
+    - generic [ref=f74e134]:
+      - paragraph [ref=f74e136]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f74e137]:
+        - link "About Us" [ref=f74e138] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f74e139] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f74e140] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f74e141] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

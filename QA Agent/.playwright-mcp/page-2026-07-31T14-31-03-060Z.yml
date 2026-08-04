@@ -1,0 +1,151 @@
+- generic [ref=f17e2]:
+  - generic [ref=f17e3]:
+    - generic [ref=f17e5]:
+      - generic [ref=f17e6]:
+        - link "Logo" [ref=f17e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f17e8]
+        - text: 
+      - list [ref=f17e9]:
+        - listitem [ref=f17e10]:
+          - link " Dashboard" [ref=f17e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f17e12]: 
+            - text: Dashboard
+        - listitem [ref=f17e13]:
+          - link " Batches" [ref=f17e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f17e15]: 
+            - text: Batches
+        - listitem [ref=f17e16]:
+          - link " My Courses" [ref=f17e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f17e18]: 
+            - text: My Courses
+        - listitem [ref=f17e19]:
+          - link " eBooks" [ref=f17e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f17e21]: 
+            - text: eBooks
+        - listitem [ref=f17e22]:
+          - link " Wishlist" [ref=f17e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f17e24]: 
+            - text: Wishlist
+        - listitem [ref=f17e25]:
+          - link " Audiobook" [ref=f17e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f17e27]: 
+            - text: Audiobook
+        - listitem [ref=f17e28]:
+          - link " Resources" [ref=f17e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f17e30]: 
+            - text: Resources
+        - listitem [ref=f17e31]:
+          - link " Current Affairs" [ref=f17e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f17e33]: 
+            - text: Current Affairs
+        - listitem [ref=f17e34]:
+          - link " Test" [ref=f17e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f17e36]: 
+            - text: Test
+        - listitem [ref=f17e37]:
+          - link " Settings" [ref=f17e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f17e39]: 
+            - text: Settings
+        - listitem [ref=f17e40]:
+          - link " Call Reminders" [ref=f17e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f17e42]: 
+            - text: Call Reminders
+        - listitem [ref=f17e43]:
+          - link " Leaderboard" [ref=f17e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f17e45]: 
+            - text: Leaderboard
+        - listitem [ref=f17e46]:
+          - button " APL " [ref=f17e47] [cursor=pointer]:
+            - generic [ref=f17e48]:
+              - generic [ref=f17e49]: 
+              - text: APL
+            - generic [ref=f17e50]: 
+          - text:    
+        - listitem [ref=f17e51]:
+          - link " Notification" [ref=f17e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f17e53]: 
+            - text: Notification
+        - listitem [ref=f17e54]:
+          - button " Logout" [ref=f17e56] [cursor=pointer]:
+            - generic [ref=f17e57]: 
+            - text: Logout
+    - generic [ref=f17e59]:
+      - banner [ref=f17e60]:
+        - text: 
+        - generic [ref=f17e61]:
+          - generic [ref=f17e62]:
+            - generic [ref=f17e63]: 
+            - textbox "Search Course" [ref=f17e64]
+            - text: 
+          - link "" [ref=f17e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f17e68]: 
+          - link "Profile qatestusera0731" [ref=f17e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f17e71]
+            - generic [ref=f17e72]: qatestusera0731
+      - generic [ref=f17e74]:
+        - heading "Checkout" [level=3] [ref=f17e75]
+        - generic [ref=f17e76]:
+          - generic [ref=f17e77]:
+            - generic [ref=f17e79]:
+              - img "APL Q20 Explanation Course" [ref=f17e80]
+              - generic [ref=f17e81]:
+                - heading "APL Q20 Explanation Course" [level=5] [ref=f17e82]
+                - generic [ref=f17e84]: APL Q20
+            - generic [ref=f17e85]:
+              - generic [ref=f17e86]:
+                - heading "Have a promo code?" [level=5] [ref=f17e87]
+                - button "View Promo Codes ▼" [ref=f17e88] [cursor=pointer]
+              - generic [ref=f17e89]:
+                - textbox "Enter promo code" [ref=f17e90]
+                - button "Apply" [ref=f17e91] [cursor=pointer]
+          - generic [ref=f17e93]:
+            - heading "Order Summary" [level=5] [ref=f17e94]
+            - generic [ref=f17e95]:
+              - generic [ref=f17e96]: Course Fee
+              - generic [ref=f17e97]: ₹7,999.00
+            - generic [ref=f17e98]:
+              - generic [ref=f17e99]: Price after Discount
+              - generic [ref=f17e100]: ₹0
+            - generic [ref=f17e101]:
+              - generic [ref=f17e102]: GST (18%, incl.)
+              - generic [ref=f17e103]: ₹1,220.19
+            - separator [ref=f17e104]
+            - generic [ref=f17e105]:
+              - generic [ref=f17e106]: Total
+              - generic [ref=f17e107]: ₹7,999.00
+            - button "Pay ₹ 7,999.00" [ref=f17e108] [cursor=pointer]:
+              - text: Pay ₹
+              - generic [ref=f17e109]: 7,999.00
+            - link "Back to course" [ref=f17e110] [cursor=pointer]:
+              - /url: /Purchase/Index?courseId=147
+  - generic "Ask a doubt" [ref=f17e111]:
+    - generic [ref=f17e112]: 
+  - text:      
+  - contentinfo [ref=f17e113]:
+    - generic [ref=f17e114]:
+      - paragraph [ref=f17e116]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f17e117]:
+        - link "About Us" [ref=f17e118] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f17e119] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f17e120] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f17e121] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

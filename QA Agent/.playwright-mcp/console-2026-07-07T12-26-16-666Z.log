@@ -1,0 +1,82 @@
+[    1769ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://jt-admin.scopethinkers.com/:0
+[   23692ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[   24431ms] [LOG] Current Path: /dashboard/index @ https://jt-admin.scopethinkers.com/Dashboard/Index:1993
+[   24432ms] [LOG] Matched: /dashboard/index {menu: Dashboard, submenu: null} @ https://jt-admin.scopethinkers.com/Dashboard/Index:2188
+[   24433ms] [LOG] Activating menu: Dashboard Submenu: null @ https://jt-admin.scopethinkers.com/Dashboard/Index:2200
+[   24434ms] [LOG] Found menu: Dashboard @ https://jt-admin.scopethinkers.com/Dashboard/Index:2209
+[   75459ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[   75989ms] [LOG] Current Path: /assessment/courseassessment @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1377
+[   75990ms] [LOG] Matched: /assessment/courseassessment {menu: Assessment, submenu: Course} @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1572
+[   75990ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1584
+[   75991ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1593
+[   75991ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1614
+[  339883ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[  339981ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[  340067ms] [WARNING] The following deprecated features are currently enabled and have been removed in TinyMCE 7.0. These features will no longer work and should be removed from the TinyMCE configuration. See https://www.tiny.cloud/docs/tinymce/7/migration-from-6x/ for more information.
+
+Plugins:
+- textcolor @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[  340081ms] [WARNING] The following deprecated features are currently enabled and have been removed in TinyMCE 7.0. These features will no longer work and should be removed from the TinyMCE configuration. See https://www.tiny.cloud/docs/tinymce/7/migration-from-6x/ for more information.
+
+Plugins:
+- textcolor @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[  340083ms] [WARNING] The following deprecated features are currently enabled and have been removed in TinyMCE 7.0. These features will no longer work and should be removed from the TinyMCE configuration. See https://www.tiny.cloud/docs/tinymce/7/migration-from-6x/ for more information.
+
+Plugins:
+- textcolor @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[  340129ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/plugins/textcolor/plugin.min.js:0
+[  340130ms] [ERROR] Failed to load plugin: textcolor from url plugins/textcolor/plugin.min.js @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[  340246ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[  340253ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[  340264ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[  340587ms] [LOG] Current Path: /assessment/createcourseassessment @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1343
+[  340588ms] [LOG] Matched: /assessment/createcourseassessment {menu: Assessment, submenu: Course} @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1538
+[  340588ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1550
+[  340590ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1559
+[  340592ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1580
+[  364786ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[  365369ms] [LOG] Current Path: /assessment/courseassessment @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1377
+[  365370ms] [LOG] Matched: /assessment/courseassessment {menu: Assessment, submenu: Course} @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1572
+[  365371ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1584
+[  365372ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1593
+[  365372ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1614
+[ 1125871ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[ 1125994ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[ 1126053ms] [WARNING] The following deprecated features are currently enabled and have been removed in TinyMCE 7.0. These features will no longer work and should be removed from the TinyMCE configuration. See https://www.tiny.cloud/docs/tinymce/7/migration-from-6x/ for more information.
+
+Plugins:
+- textcolor @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[ 1126064ms] [WARNING] The following deprecated features are currently enabled and have been removed in TinyMCE 7.0. These features will no longer work and should be removed from the TinyMCE configuration. See https://www.tiny.cloud/docs/tinymce/7/migration-from-6x/ for more information.
+
+Plugins:
+- textcolor @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[ 1126066ms] [WARNING] The following deprecated features are currently enabled and have been removed in TinyMCE 7.0. These features will no longer work and should be removed from the TinyMCE configuration. See https://www.tiny.cloud/docs/tinymce/7/migration-from-6x/ for more information.
+
+Plugins:
+- textcolor @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[ 1126120ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/plugins/textcolor/plugin.min.js:0
+[ 1126122ms] [ERROR] Failed to load plugin: textcolor from url plugins/textcolor/plugin.min.js @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[ 1126226ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[ 1126233ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[ 1126242ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[ 1126577ms] [LOG] Current Path: /assessment/createcourseassessment @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1343
+[ 1126578ms] [LOG] Matched: /assessment/createcourseassessment {menu: Assessment, submenu: Course} @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1538
+[ 1126578ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1550
+[ 1126581ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1559
+[ 1126582ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1580
+[ 1136173ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[ 1136822ms] [LOG] Current Path: /assessment/courseassessment @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1377
+[ 1136823ms] [LOG] Matched: /assessment/courseassessment {menu: Assessment, submenu: Course} @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1572
+[ 1136823ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1584
+[ 1136824ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1593
+[ 1136825ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1614
+[ 1168377ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[ 1169078ms] [LOG] Current Path: /folderstructure/index @ https://jt-admin.scopethinkers.com/FolderStructure/Index:1982
+[ 1169079ms] [LOG] Matched: /folderstructure/index {menu: Admin, submenu: Folder Map} @ https://jt-admin.scopethinkers.com/FolderStructure/Index:2177
+[ 1169080ms] [LOG] Activating menu: Admin Submenu: Folder Map @ https://jt-admin.scopethinkers.com/FolderStructure/Index:2189
+[ 1169082ms] [LOG] Found menu: Admin @ https://jt-admin.scopethinkers.com/FolderStructure/Index:2198
+[ 1169083ms] [LOG] Activated submenu: Folder Map @ https://jt-admin.scopethinkers.com/FolderStructure/Index:2219

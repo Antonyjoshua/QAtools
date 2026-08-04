@@ -1,0 +1,116 @@
+- generic [ref=f57e2]:
+  - generic [ref=f57e3]:
+    - generic [ref=f57e5]:
+      - generic [ref=f57e6]:
+        - link "Logo" [ref=f57e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f57e8]
+        - text: 
+      - list [ref=f57e9]:
+        - listitem [ref=f57e10]:
+          - link " Dashboard" [ref=f57e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f57e12]: 
+            - text: Dashboard
+        - listitem [ref=f57e13]:
+          - link " Batches" [ref=f57e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f57e15]: 
+            - text: Batches
+        - listitem [ref=f57e16]:
+          - link " My Courses" [ref=f57e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f57e18]: 
+            - text: My Courses
+        - listitem [ref=f57e19]:
+          - link " Wishlist" [ref=f57e20] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f57e21]: 
+            - text: Wishlist
+        - listitem [ref=f57e22]:
+          - link " Audiobook" [ref=f57e23] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f57e24]: 
+            - text: Audiobook
+        - listitem [ref=f57e25]:
+          - link " Resources" [ref=f57e26] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f57e27]: 
+            - text: Resources
+        - listitem [ref=f57e28]:
+          - link " Current Affairs" [ref=f57e29] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f57e30]: 
+            - text: Current Affairs
+        - listitem [ref=f57e31]:
+          - link " Test" [ref=f57e32] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f57e33]: 
+            - text: Test
+        - listitem [ref=f57e34]:
+          - link " Settings" [ref=f57e35] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f57e36]: 
+            - text: Settings
+        - listitem [ref=f57e37]:
+          - link " Leaderboard" [ref=f57e38] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f57e39]: 
+            - text: Leaderboard
+        - listitem [ref=f57e40]:
+          - link " Notification" [ref=f57e41] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f57e42]: 
+            - text: Notification
+        - listitem [ref=f57e43]:
+          - button " Logout" [ref=f57e45] [cursor=pointer]:
+            - generic [ref=f57e46]: 
+            - text: Logout
+    - generic [ref=f57e48]:
+      - banner [ref=f57e49]:
+        - text: 
+        - generic [ref=f57e50]:
+          - generic [ref=f57e51]:
+            - generic [ref=f57e52]: 
+            - textbox "Search Course" [ref=f57e53]
+            - text: 
+          - link "" [ref=f57e55] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f57e57]: 
+          - link "Profile deepa070712" [ref=f57e59] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f57e60]
+            - generic [ref=f57e61]: deepa070712
+      - generic [ref=f57e62]:
+        - generic [ref=f57e65]:
+          - generic [ref=f57e66]:
+            - generic [ref=f57e67]: 
+            - text: Your playlist of smart learning starts here.
+          - heading "Turn Every Minute Into a Learning Moment!" [level=3] [ref=f57e68]
+          - paragraph [ref=f57e69]: Dive into expert explanations, topic deep-dives, daily updates, and practical insights that keep you ahead in your preparation journey.
+          - paragraph [ref=f57e70]: From subject deep-dives to daily current affairs, enjoy unlimited learning.
+          - link " Start Listening" [ref=f57e71] [cursor=pointer]:
+            - /url: "#podcasts-section"
+            - generic [ref=f57e72]: 
+            - text: Start Listening
+        - generic [ref=f57e73]:
+          - generic [ref=f57e74]:
+            - heading "Audiobooks" [level=3] [ref=f57e75]
+            - button "Switch to English" [ref=f57e76] [cursor=pointer]:
+              - img [ref=f57e77]:
+                - generic [ref=f57e84]: அ
+                - generic [ref=f57e87]: A
+          - generic [ref=f57e90]: Loading...
+      - generic [ref=f57e92]:   
+  - contentinfo [ref=f57e93]:
+    - generic [ref=f57e94]:
+      - paragraph [ref=f57e96]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f57e97]:
+        - link "About Us" [ref=f57e98] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f57e99] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f57e100] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f57e101] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

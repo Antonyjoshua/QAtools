@@ -1,0 +1,349 @@
+- generic [ref=f32e1]:
+  - generic [ref=f32e2]:
+    - generic [ref=f32e3]:
+      - generic [ref=f32e4]:
+        - heading "Books" [level=4] [ref=f32e5]
+        - navigation [ref=f32e6]:
+          - list [ref=f32e7]:
+            - listitem [ref=f32e8]:
+              - link [ref=f32e9] [cursor=pointer]:
+                - /url: /Admin/Books/ManualPurchase/Index
+                - img [ref=f32e10]
+            - listitem [ref=f32e13]: / Manual Purchases
+      - generic [ref=f32e15]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f32e17]:
+          - listitem [ref=f32e18]:
+            - generic [ref=f32e20] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f32e21]:
+      - generic [ref=f32e23]:
+        - text: 
+        - link [ref=f32e25] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f32e26]:
+          - list [ref=f32e28]:
+            - generic [ref=f32e33]:
+              - text: 
+              - listitem [ref=f32e34]:
+                - link [ref=f32e35] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f32e36]
+                  - text: 
+              - listitem [ref=f32e38]:
+                - link [ref=f32e39] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e40]
+                  - text: 
+              - listitem [ref=f32e42]:
+                - link [ref=f32e43] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e44]
+                  - text: 
+              - listitem [ref=f32e46]:
+                - link [ref=f32e47] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e48]
+                  - text: 
+              - listitem [ref=f32e50]:
+                - link [ref=f32e51] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e52]
+                  - text: 
+              - listitem [ref=f32e54]:
+                - link [ref=f32e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e56]
+                  - text: 
+              - listitem [ref=f32e58]:
+                - link "" [ref=f32e59] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f32e60]: 
+                  - text: 
+              - listitem [ref=f32e61]:
+                - link [ref=f32e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e63]
+                  - text: 
+              - listitem [ref=f32e65]:
+                - link [ref=f32e66] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e67]
+                  - text: 
+              - listitem [ref=f32e69]:
+                - link [ref=f32e70] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e71]
+                  - text: 
+              - listitem [ref=f32e73]:
+                - link [ref=f32e74] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e75]
+                  - text: 
+              - listitem [ref=f32e77]:
+                - link "general icon" [ref=f32e78] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f32e79]
+                  - text: 
+              - listitem [ref=f32e80]:
+                - link [ref=f32e81] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f32e82]
+                  - text: 
+              - listitem [ref=f32e84]:
+                - link [ref=f32e85] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f32e86]
+                  - text: 
+              - listitem [ref=f32e88]:
+                - link "product icon" [ref=f32e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f32e90]
+                  - text: 
+              - listitem [ref=f32e91]:
+                - link [ref=f32e92] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e93]
+                  - text: 
+              - listitem [ref=f32e95]:
+                - link [ref=f32e96] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f32e97]
+                  - text: 
+              - listitem [ref=f32e99]:
+                - link [ref=f32e100] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e101]
+                  - text: 
+              - listitem [ref=f32e103]:
+                - link [ref=f32e104] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e105]
+                  - text: 
+              - listitem [ref=f32e107]:
+                - link [ref=f32e108] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f32e109]
+              - listitem [ref=f32e111]:
+                - link [ref=f32e112] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e113]
+                  - text: 
+              - listitem [ref=f32e115]:
+                - link "notify-ico" [ref=f32e116] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f32e117]
+                  - text: 
+              - listitem [ref=f32e118]:
+                - link "notify-ico" [ref=f32e119] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f32e120]
+                  - text: 
+      - main [ref=f32e122]:
+        - generic [ref=f32e124]:
+          - generic [ref=f32e125]:
+            - heading "Manual Purchases" [level=5] [ref=f32e126]
+            - link " New Purchase" [ref=f32e127] [cursor=pointer]:
+              - /url: /Admin/Books/ManualPurchase/Create
+              - generic [ref=f32e128]: 
+              - text: New Purchase
+          - generic [ref=f32e129]:
+            - generic [ref=f32e131]:
+              - generic [ref=f32e132]:
+                - generic [ref=f32e133]: From
+                - textbox [ref=f32e134] [cursor=pointer]
+              - generic [ref=f32e135]:
+                - generic [ref=f32e136]: To
+                - textbox [ref=f32e137] [cursor=pointer]
+              - generic [ref=f32e138]:
+                - generic [ref=f32e139]: Status
+                - combobox [ref=f32e140] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "Pending"
+                  - option "Completed"
+                  - option "Cancelled"
+              - generic [ref=f32e141]:
+                - button "Apply" [ref=f32e142] [cursor=pointer]
+                - button "Clear" [ref=f32e143] [cursor=pointer]
+            - generic [ref=f32e145]:
+              - generic [ref=f32e147]:
+                - text: Show
+                - combobox "Show entries" [ref=f32e148] [cursor=pointer]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: entries
+              - generic [ref=f32e150]:
+                - text: "Search:"
+                - searchbox "Search:" [ref=f32e151] [cursor=pointer]
+              - grid [ref=f32e152]:
+                - rowgroup [ref=f32e153]:
+                  - 'row "Date: activate to sort column ascending Reference: activate to sort column ascending Customer: activate to sort column ascending Phone: activate to sort column ascending Items: activate to sort column ascending Total: activate to sort column ascending Payment: activate to sort column ascending Status: activate to sort column ascending Actions" [ref=f32e154]':
+                    - 'columnheader "Date: activate to sort column ascending" [ref=f32e155] [cursor=pointer]': ↑ Date ↓
+                    - 'columnheader "Reference: activate to sort column ascending" [ref=f32e156] [cursor=pointer]': ↑ Reference ↓
+                    - 'columnheader "Customer: activate to sort column ascending" [ref=f32e157] [cursor=pointer]': ↑ Customer ↓
+                    - 'columnheader "Phone: activate to sort column ascending" [ref=f32e158] [cursor=pointer]': ↑ Phone ↓
+                    - 'columnheader "Items: activate to sort column ascending" [ref=f32e159] [cursor=pointer]': ↑ Items ↓
+                    - 'columnheader "Total: activate to sort column ascending" [ref=f32e160] [cursor=pointer]': ↑ Total ↓
+                    - 'columnheader "Payment: activate to sort column ascending" [ref=f32e161] [cursor=pointer]': ↑ Payment ↓
+                    - 'columnheader "Status: activate to sort column ascending" [ref=f32e162] [cursor=pointer]': ↑ Status ↓
+                    - columnheader "Actions" [ref=f32e163]
+                - rowgroup [ref=f32e164]:
+                  - row "14/7/2026 MP-20260714-161909-133 QA-TEST-P3a — 1 ₹93.60 — Pending  " [ref=f32e165]:
+                    - gridcell "14/7/2026" [ref=f32e166]
+                    - gridcell "MP-20260714-161909-133" [ref=f32e167]
+                    - gridcell "QA-TEST-P3a" [ref=f32e168]
+                    - gridcell "—" [ref=f32e169]
+                    - gridcell "1" [ref=f32e170]
+                    - gridcell "₹93.60" [ref=f32e171]
+                    - gridcell "—" [ref=f32e172]
+                    - gridcell "Pending" [ref=f32e173]:
+                      - generic [ref=f32e174]: Pending
+                    - gridcell " " [ref=f32e175]:
+                      - list [ref=f32e176]:
+                        - listitem [ref=f32e177] [cursor=pointer]:
+                          - link "" [ref=f32e178]:
+                            - /url: /Admin/Books/ManualPurchase/Edit/7
+                            - generic [ref=f32e179]: 
+                        - listitem [ref=f32e180] [cursor=pointer]:
+                          - link "" [ref=f32e181]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f32e182]: 
+                  - row "14/7/2026 MP-20260714-161352-484 QA-TEST-P2 — 1 ₹285.00 — Completed  " [ref=f32e183]:
+                    - gridcell "14/7/2026" [ref=f32e184]
+                    - gridcell "MP-20260714-161352-484" [ref=f32e185]
+                    - gridcell "QA-TEST-P2" [ref=f32e186]
+                    - gridcell "—" [ref=f32e187]
+                    - gridcell "1" [ref=f32e188]
+                    - gridcell "₹285.00" [ref=f32e189]
+                    - gridcell "—" [ref=f32e190]
+                    - gridcell "Completed" [ref=f32e191]:
+                      - generic [ref=f32e192]: Completed
+                    - gridcell " " [ref=f32e193]:
+                      - list [ref=f32e194]:
+                        - listitem [ref=f32e195] [cursor=pointer]:
+                          - link "" [ref=f32e196]:
+                            - /url: /Admin/Books/ManualPurchase/Edit/6
+                            - generic [ref=f32e197]: 
+                        - listitem [ref=f32e198] [cursor=pointer]:
+                          - link "" [ref=f32e199]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f32e200]: 
+                  - row "14/7/2026 MP-20260714-160806-193 QA-TEST-P1 — 1 ₹187.20 — Pending  " [ref=f32e201]:
+                    - gridcell "14/7/2026" [ref=f32e202]
+                    - gridcell "MP-20260714-160806-193" [ref=f32e203]
+                    - gridcell "QA-TEST-P1" [ref=f32e204]
+                    - gridcell "—" [ref=f32e205]
+                    - gridcell "1" [ref=f32e206]
+                    - gridcell "₹187.20" [ref=f32e207]
+                    - gridcell "—" [ref=f32e208]
+                    - gridcell "Pending" [ref=f32e209]:
+                      - generic [ref=f32e210]: Pending
+                    - gridcell " " [ref=f32e211]:
+                      - list [ref=f32e212]:
+                        - listitem [ref=f32e213] [cursor=pointer]:
+                          - link "" [ref=f32e214]:
+                            - /url: /Admin/Books/ManualPurchase/Edit/5
+                            - generic [ref=f32e215]: 
+                        - listitem [ref=f32e216] [cursor=pointer]:
+                          - link "" [ref=f32e217]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f32e218]: 
+                  - row "13/7/2026 MP-20260713-190519-931 Fayaze Mohammed 9876543210 1 ₹2,646.00 Cash Completed  " [ref=f32e219]:
+                    - gridcell "13/7/2026" [ref=f32e220]
+                    - gridcell "MP-20260713-190519-931" [ref=f32e221]
+                    - gridcell "Fayaze Mohammed" [ref=f32e222]
+                    - gridcell "9876543210" [ref=f32e223]
+                    - gridcell "1" [ref=f32e224]
+                    - gridcell "₹2,646.00" [ref=f32e225]
+                    - gridcell "Cash" [ref=f32e226]
+                    - gridcell "Completed" [ref=f32e227]:
+                      - generic [ref=f32e228]: Completed
+                    - gridcell " " [ref=f32e229]:
+                      - list [ref=f32e230]:
+                        - listitem [ref=f32e231] [cursor=pointer]:
+                          - link "" [ref=f32e232]:
+                            - /url: /Admin/Books/ManualPurchase/Edit/4
+                            - generic [ref=f32e233]: 
+                        - listitem [ref=f32e234] [cursor=pointer]:
+                          - link "" [ref=f32e235]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f32e236]: 
+                  - row "10/7/2026 MP-20260710-203338-221 fayaze 9876543210 1 ₹370.80 Cash Pending  " [ref=f32e237]:
+                    - gridcell "10/7/2026" [ref=f32e238]
+                    - gridcell "MP-20260710-203338-221" [ref=f32e239]
+                    - gridcell "fayaze" [ref=f32e240]
+                    - gridcell "9876543210" [ref=f32e241]
+                    - gridcell "1" [ref=f32e242]
+                    - gridcell "₹370.80" [ref=f32e243]
+                    - gridcell "Cash" [ref=f32e244]
+                    - gridcell "Pending" [ref=f32e245]:
+                      - generic [ref=f32e246]: Pending
+                    - gridcell " " [ref=f32e247]:
+                      - list [ref=f32e248]:
+                        - listitem [ref=f32e249] [cursor=pointer]:
+                          - link "" [ref=f32e250]:
+                            - /url: /Admin/Books/ManualPurchase/Edit/3
+                            - generic [ref=f32e251]: 
+                        - listitem [ref=f32e252] [cursor=pointer]:
+                          - link "" [ref=f32e253]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f32e254]: 
+                  - row "10/7/2026 MP-20260710-111426-529 Karthik 9876543210 2 ₹550.80 Bank Transfer Completed  " [ref=f32e255]:
+                    - gridcell "10/7/2026" [ref=f32e256]
+                    - gridcell "MP-20260710-111426-529" [ref=f32e257]
+                    - gridcell "Karthik" [ref=f32e258]
+                    - gridcell "9876543210" [ref=f32e259]
+                    - gridcell "2" [ref=f32e260]
+                    - gridcell "₹550.80" [ref=f32e261]
+                    - gridcell "Bank Transfer" [ref=f32e262]
+                    - gridcell "Completed" [ref=f32e263]:
+                      - generic [ref=f32e264]: Completed
+                    - gridcell " " [ref=f32e265]:
+                      - list [ref=f32e266]:
+                        - listitem [ref=f32e267] [cursor=pointer]:
+                          - link "" [ref=f32e268]:
+                            - /url: /Admin/Books/ManualPurchase/Edit/2
+                            - generic [ref=f32e269]: 
+                        - listitem [ref=f32e270] [cursor=pointer]:
+                          - link "" [ref=f32e271]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f32e272]: 
+                  - row "10/7/2026 MP-20260710-102916-748 Fayaze Mohammed 9876543210 1 ₹741.60 UPI Completed  " [ref=f32e273]:
+                    - gridcell "10/7/2026" [ref=f32e274]
+                    - gridcell "MP-20260710-102916-748" [ref=f32e275]
+                    - gridcell "Fayaze Mohammed" [ref=f32e276]
+                    - gridcell "9876543210" [ref=f32e277]
+                    - gridcell "1" [ref=f32e278]
+                    - gridcell "₹741.60" [ref=f32e279]
+                    - gridcell "UPI" [ref=f32e280]
+                    - gridcell "Completed" [ref=f32e281]:
+                      - generic [ref=f32e282]: Completed
+                    - gridcell " " [ref=f32e283]:
+                      - list [ref=f32e284]:
+                        - listitem [ref=f32e285] [cursor=pointer]:
+                          - link "" [ref=f32e286]:
+                            - /url: /Admin/Books/ManualPurchase/Edit/1
+                            - generic [ref=f32e287]: 
+                        - listitem [ref=f32e288] [cursor=pointer]:
+                          - link "" [ref=f32e289]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f32e290]: 
+              - status [ref=f32e291]: Showing 1 to 7 of 7 entries
+              - generic [ref=f32e292]:
+                - generic [ref=f32e293]: ‹
+                - generic [ref=f32e295] [cursor=pointer]: "1"
+                - generic [ref=f32e296]: ›
+      - contentinfo [ref=f32e297]:
+        - paragraph [ref=f32e301]:
+          - text: Copyright
+          - generic [ref=f32e302]: "2026"
+          - text: © Jeshwar Teaching
+  - img

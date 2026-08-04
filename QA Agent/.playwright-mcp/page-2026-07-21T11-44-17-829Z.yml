@@ -1,0 +1,231 @@
+- generic [ref=f105e1]:
+  - generic [ref=f105e7]:
+    - generic [ref=f105e8]:
+      - generic [ref=f105e9]:
+        - heading "Dashboard" [level=4] [ref=f105e10]
+        - navigation [ref=f105e11]:
+          - list [ref=f105e12]:
+            - listitem [ref=f105e13]:
+              - link [ref=f105e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f105e15]
+            - listitem [ref=f105e18]: / Index
+      - generic [ref=f105e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f105e22]:
+          - listitem [ref=f105e23]:
+            - generic [ref=f105e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f105e26]:
+      - generic [ref=f105e28]:
+        - text: 
+        - link [ref=f105e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f105e31]:
+          - list [ref=f105e33]:
+            - generic [ref=f105e38]:
+              - text: 
+              - listitem [ref=f105e39]:
+                - link [ref=f105e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f105e41]
+                  - text: 
+              - listitem [ref=f105e43]:
+                - link [ref=f105e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e45]
+                  - text: 
+              - listitem [ref=f105e47]:
+                - link [ref=f105e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e49]
+                  - text: 
+              - listitem [ref=f105e51]:
+                - link [ref=f105e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e53]
+                  - text: 
+              - listitem [ref=f105e55]:
+                - link [ref=f105e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e57]
+                  - text: 
+              - listitem [ref=f105e59]:
+                - link [ref=f105e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e61]
+                  - text: 
+              - listitem [ref=f105e63]:
+                - link "" [ref=f105e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f105e65]: 
+                  - text: 
+              - listitem [ref=f105e66]:
+                - link [ref=f105e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e68]
+                  - text: 
+              - listitem [ref=f105e70]:
+                - link [ref=f105e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e72]
+                  - text: 
+              - listitem [ref=f105e74]:
+                - link [ref=f105e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e76]
+                  - text: 
+              - listitem [ref=f105e78]:
+                - link [ref=f105e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e80]
+                  - text: 
+              - listitem [ref=f105e82]:
+                - link [ref=f105e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e84]
+                  - text: 
+              - listitem [ref=f105e86]:
+                - link [ref=f105e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e88]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f105e90]:
+                - link "general icon" [ref=f105e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f105e92]
+                  - text: 
+              - listitem [ref=f105e93]:
+                - link [ref=f105e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f105e95]
+                  - text: 
+              - listitem [ref=f105e97]:
+                - link [ref=f105e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f105e99]
+                  - text: 
+              - listitem [ref=f105e101]:
+                - link "product icon" [ref=f105e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f105e103]
+                  - text: 
+              - listitem [ref=f105e104]:
+                - link [ref=f105e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e106]
+                  - text: 
+              - listitem [ref=f105e108]:
+                - link [ref=f105e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e110]
+                  - text: 
+              - listitem [ref=f105e112]:
+                - link [ref=f105e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f105e114]
+                  - text: 
+              - listitem [ref=f105e116]:
+                - link [ref=f105e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e118]
+                  - text: 
+              - listitem [ref=f105e120]:
+                - link [ref=f105e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e122]
+                  - text: 
+              - listitem [ref=f105e124]:
+                - link [ref=f105e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f105e126]
+              - listitem [ref=f105e128]:
+                - link [ref=f105e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f105e130]
+                  - text: 
+              - listitem [ref=f105e132]:
+                - link "notify-ico" [ref=f105e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f105e134]
+                  - text: 
+              - listitem [ref=f105e135]:
+                - link "notify-ico" [ref=f105e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f105e137]
+                  - text: 
+      - main [ref=f105e139]:
+        - generic [ref=f105e143]:
+          - generic [ref=f105e144]:
+            - heading "Course Purchase Gst Report" [level=5] [ref=f105e145]
+            - button " Export Excel" [ref=f105e146] [cursor=pointer]:
+              - generic [ref=f105e147]: 
+              - text: Export Excel
+          - generic [ref=f105e148]:
+            - generic [ref=f105e150]:
+              - generic [ref=f105e151]:
+                - generic [ref=f105e152]: From Date
+                - textbox [ref=f105e153] [cursor=pointer]
+              - generic [ref=f105e154]:
+                - generic [ref=f105e155]: To Date
+                - textbox [ref=f105e156] [cursor=pointer]
+              - generic [ref=f105e157]:
+                - generic [ref=f105e158]: Student
+                - textbox "Search student..." [ref=f105e159] [cursor=pointer]
+              - generic [ref=f105e160]:
+                - generic [ref=f105e161]: Course / Membership
+                - textbox "Search title..." [ref=f105e162] [cursor=pointer]
+              - generic [ref=f105e163]:
+                - button "Apply" [ref=f105e164] [cursor=pointer]
+                - button "Clear" [ref=f105e165] [cursor=pointer]
+            - generic [ref=f105e166]:
+              - generic [ref=f105e167]:
+                - generic [ref=f105e168]:
+                  - generic [ref=f105e169]: Total Purchases
+                  - heading "—" [level=3] [ref=f105e170] [cursor=pointer]
+                - generic [ref=f105e172]: 
+              - generic [ref=f105e173]:
+                - generic [ref=f105e174]:
+                  - generic [ref=f105e175]: Total Discount Given
+                  - heading "—" [level=3] [ref=f105e176] [cursor=pointer]
+                - generic [ref=f105e178]: 
+              - generic [ref=f105e179]:
+                - generic [ref=f105e180]:
+                  - generic [ref=f105e181]: GST Payable
+                  - heading "—" [level=3] [ref=f105e182] [cursor=pointer]
+                - generic [ref=f105e184]: 
+              - generic [ref=f105e185]:
+                - generic [ref=f105e186]:
+                  - generic [ref=f105e187]: Total Amount
+                  - heading "—" [level=3] [ref=f105e188] [cursor=pointer]
+                - generic [ref=f105e190]: 
+            - grid [ref=f105e195]:
+              - rowgroup [ref=f105e196]:
+                - row "Purchase Date Student Type Course / Membership Plan Price (Before GST) GST% GST Amount Discount Total" [ref=f105e197]:
+                  - columnheader "Purchase Date" [ref=f105e198] [cursor=pointer]
+                  - columnheader "Student" [ref=f105e199] [cursor=pointer]
+                  - columnheader "Type" [ref=f105e200] [cursor=pointer]
+                  - columnheader "Course / Membership" [ref=f105e201] [cursor=pointer]
+                  - columnheader "Plan" [ref=f105e202] [cursor=pointer]
+                  - columnheader "Price (Before GST)" [ref=f105e203] [cursor=pointer]
+                  - columnheader "GST%" [ref=f105e204] [cursor=pointer]
+                  - columnheader "GST Amount" [ref=f105e205] [cursor=pointer]
+                  - columnheader "Discount" [ref=f105e206] [cursor=pointer]
+                  - columnheader "Total" [ref=f105e207] [cursor=pointer]
+              - rowgroup
+      - contentinfo [ref=f105e208]:
+        - paragraph [ref=f105e212]:
+          - text: Copyright
+          - generic [ref=f105e213]: "2026"
+          - text: © Jeshwar Teaching
+  - img

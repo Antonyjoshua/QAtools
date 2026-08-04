@@ -1,0 +1,342 @@
+- generic [ref=f11e1]:
+  - generic [ref=f11e7]:
+    - generic [ref=f11e8]:
+      - generic [ref=f11e9]:
+        - heading "Dashboard" [level=4] [ref=f11e10]
+        - navigation [ref=f11e11]:
+          - list [ref=f11e12]:
+            - listitem [ref=f11e13]:
+              - link [ref=f11e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f11e15]
+            - listitem [ref=f11e18]: / Index
+      - generic [ref=f11e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f11e22]:
+          - listitem [ref=f11e23]:
+            - generic [ref=f11e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f11e26]:
+      - generic [ref=f11e28]:
+        - text: 
+        - link [ref=f11e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f11e31]:
+          - list [ref=f11e33]:
+            - generic [ref=f11e38]:
+              - text: 
+              - listitem [ref=f11e39]:
+                - link [ref=f11e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f11e41]
+                  - text: 
+              - listitem [ref=f11e43]:
+                - link [ref=f11e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f11e45]
+                  - text: 
+              - listitem [ref=f11e47]:
+                - link [ref=f11e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f11e49]
+                  - text: 
+              - listitem [ref=f11e51]:
+                - link [ref=f11e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f11e53]
+                  - text: 
+              - listitem [ref=f11e55]:
+                - link [ref=f11e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f11e57]
+                  - text: 
+              - listitem [ref=f11e59]:
+                - link "" [ref=f11e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f11e61]: 
+                  - text: 
+              - listitem [ref=f11e62]:
+                - link [ref=f11e63] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f11e64]
+                  - text: 
+              - listitem [ref=f11e66]:
+                - link [ref=f11e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f11e68]
+                  - text: 
+              - listitem [ref=f11e70]:
+                - link [ref=f11e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f11e72]
+                  - text: 
+              - listitem [ref=f11e74]:
+                - link [ref=f11e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f11e76]
+                  - text: 
+              - listitem [ref=f11e78]:
+                - link "general icon" [ref=f11e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f11e80]
+                  - text: 
+              - listitem [ref=f11e81]:
+                - link [ref=f11e82] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f11e83]
+                  - text: 
+              - listitem [ref=f11e85]:
+                - link [ref=f11e86] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f11e87]
+                  - text: 
+              - listitem [ref=f11e89]:
+                - link "product icon" [ref=f11e90] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f11e91]
+                  - text: 
+              - listitem [ref=f11e92]:
+                - link [ref=f11e93] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f11e94]
+                  - text: 
+              - listitem [ref=f11e96]:
+                - link [ref=f11e97] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f11e98]
+                  - text: 
+              - listitem [ref=f11e100]:
+                - link [ref=f11e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f11e102]
+                  - text: 
+              - listitem [ref=f11e104]:
+                - link [ref=f11e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f11e106]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f11e108]:
+                - link [ref=f11e109] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f11e110]
+              - listitem [ref=f11e112]:
+                - link [ref=f11e113] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f11e114]
+                  - text: 
+              - listitem [ref=f11e116]:
+                - link "notify-ico" [ref=f11e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f11e118]
+                  - text: 
+              - listitem [ref=f11e119]:
+                - link "notify-ico" [ref=f11e120] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f11e121]
+                  - text: 
+      - main [ref=f11e123]:
+        - generic [ref=f11e127]:
+          - generic [ref=f11e128]:
+            - heading "Combo Product Report" [level=5] [ref=f11e129]
+            - button " Export Excel" [ref=f11e130] [cursor=pointer]:
+              - generic [ref=f11e131]: 
+              - text: Export Excel
+          - generic [ref=f11e132]:
+            - generic [ref=f11e134]:
+              - generic [ref=f11e135]:
+                - generic [ref=f11e136]: From Date
+                - textbox [ref=f11e137] [cursor=pointer]
+              - generic [ref=f11e138]:
+                - generic [ref=f11e139]: To Date
+                - textbox [ref=f11e140] [cursor=pointer]
+              - generic [ref=f11e141]:
+                - generic [ref=f11e142]: Combo Product Title
+                - textbox "Search combo..." [ref=f11e143] [cursor=pointer]
+              - generic [ref=f11e144]:
+                - button "Apply" [ref=f11e145] [cursor=pointer]
+                - button "Clear" [ref=f11e146] [cursor=pointer]
+            - generic [ref=f11e147]:
+              - generic [ref=f11e150]:
+                - paragraph [ref=f11e151]: Combo Products
+                - generic [ref=f11e152]: "10"
+              - generic [ref=f11e155]:
+                - paragraph [ref=f11e156]: Total Combos Sold
+                - generic [ref=f11e157]: "1"
+              - generic [ref=f11e160]:
+                - paragraph [ref=f11e161]: Total Net Revenue
+                - generic [ref=f11e162]: ₹630.00
+              - generic [ref=f11e165]:
+                - paragraph [ref=f11e166]: Avg Margin %
+                - generic [ref=f11e167]: 100.00%
+            - generic [ref=f11e169]:
+              - generic [ref=f11e171]:
+                - text: Show
+                - combobox "Show entries" [ref=f11e172] [cursor=pointer]:
+                  - option "10"
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+                - text: entries
+              - generic [ref=f11e174]:
+                - text: "Search:"
+                - searchbox "Search:" [ref=f11e175] [cursor=pointer]
+              - grid [ref=f11e178]:
+                - rowgroup [ref=f11e179]:
+                  - 'row "Combo Product: activate to sort column descending Type: activate to sort column ascending Components: activate to sort column ascending Combos Sold: activate to sort column ascending Gross Revenue: activate to sort column ascending Discount: activate to sort column ascending Net Revenue: activate to sort column ascending Component Cost: activate to sort column ascending Gross Margin: activate to sort column ascending Margin %: activate to sort column ascending" [ref=f11e198]':
+                    - 'columnheader "Combo Product: activate to sort column descending" [ref=f11e199] [cursor=pointer]': ↑ Combo Product ↓
+                    - 'columnheader "Type: activate to sort column ascending" [ref=f11e200] [cursor=pointer]': ↑ Type 
+                    - 'columnheader "Components: activate to sort column ascending" [ref=f11e201] [cursor=pointer]': ↑ Components 
+                    - 'columnheader "Combos Sold: activate to sort column ascending" [ref=f11e202] [cursor=pointer]': ↑ Combos Sold 
+                    - 'columnheader "Gross Revenue: activate to sort column ascending" [ref=f11e203] [cursor=pointer]': ↑ Gross Revenue 
+                    - 'columnheader "Discount: activate to sort column ascending" [ref=f11e204] [cursor=pointer]': ↑ Discount 
+                    - 'columnheader "Net Revenue: activate to sort column ascending" [ref=f11e205] [cursor=pointer]': ↑ Net Revenue 
+                    - 'columnheader "Component Cost: activate to sort column ascending" [ref=f11e206] [cursor=pointer]': ↑ Component Cost 
+                    - 'columnheader "Gross Margin: activate to sort column ascending" [ref=f11e207] [cursor=pointer]': ↑ Gross Margin 
+                    - 'columnheader "Margin %: activate to sort column ascending" [ref=f11e208] [cursor=pointer]': ↑ Margin % 
+                - rowgroup [ref=f11e209]:
+                  - row "Books Combo 1 Combo Test Book K1 ×1, Manual book ×1 1 ₹700.00 ₹70.00 ₹630.00 ₹0.00 ₹630.00 100.00%" [ref=f11e210]:
+                    - gridcell "Books Combo 1" [ref=f11e211]
+                    - gridcell "Combo" [ref=f11e212]
+                    - gridcell "Test Book K1 ×1, Manual book ×1" [ref=f11e213]:
+                      - generic "Test Book K1 ×1, Manual book ×1" [ref=f11e214]
+                    - gridcell "1" [ref=f11e215]
+                    - gridcell "₹700.00" [ref=f11e216]
+                    - gridcell "₹70.00" [ref=f11e217]
+                    - gridcell "₹630.00" [ref=f11e218]
+                    - gridcell "₹0.00" [ref=f11e219]
+                    - gridcell "₹630.00" [ref=f11e220]
+                    - gridcell "100.00%" [ref=f11e221]:
+                      - generic [ref=f11e222]: 100.00%
+                  - row "Combo 2 Combo Test Book K1 ×1, Tamil notes ×1 0 ₹0.00 ₹0.00 ₹0.00 ₹0.00 ₹0.00 0.00%" [ref=f11e223]:
+                    - gridcell "Combo 2" [ref=f11e224]
+                    - gridcell "Combo" [ref=f11e225]
+                    - gridcell "Test Book K1 ×1, Tamil notes ×1" [ref=f11e226]:
+                      - generic "Test Book K1 ×1, Tamil notes ×1" [ref=f11e227]
+                    - gridcell "0" [ref=f11e228]
+                    - gridcell "₹0.00" [ref=f11e229]
+                    - gridcell "₹0.00" [ref=f11e230]
+                    - gridcell "₹0.00" [ref=f11e231]
+                    - gridcell "₹0.00" [ref=f11e232]
+                    - gridcell "₹0.00" [ref=f11e233]
+                    - gridcell "0.00%" [ref=f11e234]:
+                      - generic [ref=f11e235]: 0.00%
+                  - row "ehrbgfrb Combo 0 ₹0.00 ₹0.00 ₹0.00 ₹0.00 ₹0.00 0.00%" [ref=f11e236]:
+                    - gridcell "ehrbgfrb" [ref=f11e237]
+                    - gridcell "Combo" [ref=f11e238]
+                    - gridcell [ref=f11e239]
+                    - gridcell "0" [ref=f11e240]
+                    - gridcell "₹0.00" [ref=f11e241]
+                    - gridcell "₹0.00" [ref=f11e242]
+                    - gridcell "₹0.00" [ref=f11e243]
+                    - gridcell "₹0.00" [ref=f11e244]
+                    - gridcell "₹0.00" [ref=f11e245]
+                    - gridcell "0.00%" [ref=f11e246]:
+                      - generic [ref=f11e247]: 0.00%
+                  - row "ehrbgfrb Combo 0 ₹0.00 ₹0.00 ₹0.00 ₹0.00 ₹0.00 0.00%" [ref=f11e248]:
+                    - gridcell "ehrbgfrb" [ref=f11e249]
+                    - gridcell "Combo" [ref=f11e250]
+                    - gridcell [ref=f11e251]
+                    - gridcell "0" [ref=f11e252]
+                    - gridcell "₹0.00" [ref=f11e253]
+                    - gridcell "₹0.00" [ref=f11e254]
+                    - gridcell "₹0.00" [ref=f11e255]
+                    - gridcell "₹0.00" [ref=f11e256]
+                    - gridcell "₹0.00" [ref=f11e257]
+                    - gridcell "0.00%" [ref=f11e258]:
+                      - generic [ref=f11e259]: 0.00%
+                  - row "ehrbgfrb Combo 0 ₹0.00 ₹0.00 ₹0.00 ₹0.00 ₹0.00 0.00%" [ref=f11e260]:
+                    - gridcell "ehrbgfrb" [ref=f11e261]
+                    - gridcell "Combo" [ref=f11e262]
+                    - gridcell [ref=f11e263]
+                    - gridcell "0" [ref=f11e264]
+                    - gridcell "₹0.00" [ref=f11e265]
+                    - gridcell "₹0.00" [ref=f11e266]
+                    - gridcell "₹0.00" [ref=f11e267]
+                    - gridcell "₹0.00" [ref=f11e268]
+                    - gridcell "₹0.00" [ref=f11e269]
+                    - gridcell "0.00%" [ref=f11e270]:
+                      - generic [ref=f11e271]: 0.00%
+                  - row "ehrbgfrb Combo 0 ₹0.00 ₹0.00 ₹0.00 ₹0.00 ₹0.00 0.00%" [ref=f11e272]:
+                    - gridcell "ehrbgfrb" [ref=f11e273]
+                    - gridcell "Combo" [ref=f11e274]
+                    - gridcell [ref=f11e275]
+                    - gridcell "0" [ref=f11e276]
+                    - gridcell "₹0.00" [ref=f11e277]
+                    - gridcell "₹0.00" [ref=f11e278]
+                    - gridcell "₹0.00" [ref=f11e279]
+                    - gridcell "₹0.00" [ref=f11e280]
+                    - gridcell "₹0.00" [ref=f11e281]
+                    - gridcell "0.00%" [ref=f11e282]:
+                      - generic [ref=f11e283]: 0.00%
+                  - row "ehrbgfrb Combo 0 ₹0.00 ₹0.00 ₹0.00 ₹0.00 ₹0.00 0.00%" [ref=f11e284]:
+                    - gridcell "ehrbgfrb" [ref=f11e285]
+                    - gridcell "Combo" [ref=f11e286]
+                    - gridcell [ref=f11e287]
+                    - gridcell "0" [ref=f11e288]
+                    - gridcell "₹0.00" [ref=f11e289]
+                    - gridcell "₹0.00" [ref=f11e290]
+                    - gridcell "₹0.00" [ref=f11e291]
+                    - gridcell "₹0.00" [ref=f11e292]
+                    - gridcell "₹0.00" [ref=f11e293]
+                    - gridcell "0.00%" [ref=f11e294]:
+                      - generic [ref=f11e295]: 0.00%
+                  - row "ehrbgfrb Combo 0 ₹0.00 ₹0.00 ₹0.00 ₹0.00 ₹0.00 0.00%" [ref=f11e296]:
+                    - gridcell "ehrbgfrb" [ref=f11e297]
+                    - gridcell "Combo" [ref=f11e298]
+                    - gridcell [ref=f11e299]
+                    - gridcell "0" [ref=f11e300]
+                    - gridcell "₹0.00" [ref=f11e301]
+                    - gridcell "₹0.00" [ref=f11e302]
+                    - gridcell "₹0.00" [ref=f11e303]
+                    - gridcell "₹0.00" [ref=f11e304]
+                    - gridcell "₹0.00" [ref=f11e305]
+                    - gridcell "0.00%" [ref=f11e306]:
+                      - generic [ref=f11e307]: 0.00%
+                  - row "ehrbgfrb Combo Test Book K1 ×1, Manual book ×1 0 ₹0.00 ₹0.00 ₹0.00 ₹0.00 ₹0.00 0.00%" [ref=f11e308]:
+                    - gridcell "ehrbgfrb" [ref=f11e309]
+                    - gridcell "Combo" [ref=f11e310]
+                    - gridcell "Test Book K1 ×1, Manual book ×1" [ref=f11e311]:
+                      - generic "Test Book K1 ×1, Manual book ×1" [ref=f11e312]
+                    - gridcell "0" [ref=f11e313]
+                    - gridcell "₹0.00" [ref=f11e314]
+                    - gridcell "₹0.00" [ref=f11e315]
+                    - gridcell "₹0.00" [ref=f11e316]
+                    - gridcell "₹0.00" [ref=f11e317]
+                    - gridcell "₹0.00" [ref=f11e318]
+                    - gridcell "0.00%" [ref=f11e319]:
+                      - generic [ref=f11e320]: 0.00%
+                  - row "Test-REs Combo Test Book K1 ×1, Manual book ×1 0 ₹0.00 ₹0.00 ₹0.00 ₹0.00 ₹0.00 0.00%" [ref=f11e321]:
+                    - gridcell "Test-REs" [ref=f11e322]
+                    - gridcell "Combo" [ref=f11e323]
+                    - gridcell "Test Book K1 ×1, Manual book ×1" [ref=f11e324]:
+                      - generic "Test Book K1 ×1, Manual book ×1" [ref=f11e325]
+                    - gridcell "0" [ref=f11e326]
+                    - gridcell "₹0.00" [ref=f11e327]
+                    - gridcell "₹0.00" [ref=f11e328]
+                    - gridcell "₹0.00" [ref=f11e329]
+                    - gridcell "₹0.00" [ref=f11e330]
+                    - gridcell "₹0.00" [ref=f11e331]
+                    - gridcell "0.00%" [ref=f11e332]:
+                      - generic [ref=f11e333]: 0.00%
+              - status [ref=f11e334]: Showing 1 to 10 of 10 entries
+              - generic [ref=f11e191]:
+                - generic [ref=f11e335]: Previous
+                - generic [ref=f11e337] [cursor=pointer]: "1"
+                - generic [ref=f11e338]: Next
+      - contentinfo [ref=f11e192]:
+        - paragraph [ref=f11e196]:
+          - text: Copyright
+          - generic [ref=f11e197]: "2026"
+          - text: © Jeshwar Teaching
+  - img

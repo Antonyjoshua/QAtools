@@ -1,0 +1,225 @@
+- generic [ref=f3e1]:
+  - generic [ref=f3e7]:
+    - generic [ref=f3e8]:
+      - generic [ref=f3e9]:
+        - heading "Assessments" [level=4] [ref=f3e10]
+        - navigation [ref=f3e11]:
+          - list [ref=f3e12]:
+            - listitem [ref=f3e13]:
+              - link [ref=f3e14] [cursor=pointer]:
+                - /url: /Assessment/CourseAssessment
+                - img [ref=f3e15]
+            - listitem [ref=f3e18]: / Edit Assessment
+      - generic [ref=f3e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f3e22]:
+          - listitem [ref=f3e23]:
+            - generic [ref=f3e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f3e26]:
+      - generic [ref=f3e28]:
+        - text: 
+        - link [ref=f3e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f3e31]:
+          - list [ref=f3e33]:
+            - generic [ref=f3e38]:
+              - text: 
+              - listitem [ref=f3e39]:
+                - link [ref=f3e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f3e41]
+                  - text: 
+              - listitem [ref=f3e43]:
+                - link [ref=f3e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e45]
+                  - text: 
+              - listitem [ref=f3e47]:
+                - link [ref=f3e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e49]
+                  - text: 
+              - listitem [ref=f3e51]:
+                - link [ref=f3e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e53]
+                  - text: 
+              - listitem [ref=f3e55]:
+                - link [ref=f3e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e57]
+                  - text: 
+              - listitem [ref=f3e59]:
+                - link "" [ref=f3e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f3e61]: 
+                  - text: 
+              - listitem [ref=f3e62]:
+                - link [ref=f3e63] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e64]
+                  - text: 
+              - listitem [ref=f3e66]:
+                - link [ref=f3e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e68]
+                  - text: 
+              - listitem [ref=f3e70]:
+                - link [ref=f3e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e72]
+                  - text: 
+              - listitem [ref=f3e74]:
+                - link [ref=f3e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e76]
+                  - text: 
+              - listitem [ref=f3e78]:
+                - link "general icon" [ref=f3e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f3e80]
+                  - text: 
+              - listitem [ref=f3e81]:
+                - link [ref=f3e82] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f3e83]
+                  - text: 
+              - listitem [ref=f3e85]:
+                - link [ref=f3e86] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f3e87]
+                  - text: 
+              - listitem [ref=f3e89]:
+                - link "product icon" [ref=f3e90] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f3e91]
+                  - text: 
+              - listitem [ref=f3e92]:
+                - link [ref=f3e93] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e94]
+                  - text: 
+              - listitem [ref=f3e96]:
+                - link [ref=f3e97] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f3e98]
+                  - text: 
+              - listitem [ref=f3e100]:
+                - link [ref=f3e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e102]
+                  - text: 
+              - listitem [ref=f3e104]:
+                - link [ref=f3e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e106]
+                  - text: 
+              - listitem [ref=f3e108]:
+                - link [ref=f3e109] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f3e110]
+              - listitem [ref=f3e112]:
+                - link [ref=f3e113] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f3e114]
+                  - text: 
+              - listitem [ref=f3e116]:
+                - link "notify-ico" [ref=f3e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f3e118]
+                  - text: 
+              - listitem [ref=f3e119]:
+                - link "notify-ico" [ref=f3e120] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f3e121]
+                  - text: 
+      - main [ref=f3e123]:
+        - generic [ref=f3e127]:
+          - heading "Edit Assessment" [level=5] [ref=f3e129]
+          - generic [ref=f3e131]:
+            - generic [ref=f3e132]:
+              - generic [ref=f3e133]:
+                - generic [ref=f3e134]:
+                  - generic [ref=f3e135]: Course
+                  - combobox [disabled] [ref=f3e136] [cursor=pointer]:
+                    - option "-- Select Course --"
+                    - option "TNPSC GROUP-4 FOLDER" [selected]
+                - generic [ref=f3e137]:
+                  - generic [ref=f3e138]: Title
+                  - textbox [ref=f3e139] [cursor=pointer]: Assessment 2
+                - generic [ref=f3e141]: Description
+              - generic [ref=f3e142]:
+                - generic [ref=f3e143]:
+                  - generic [ref=f3e144]: Type
+                  - combobox [ref=f3e145] [cursor=pointer]:
+                    - option "Exam"
+                    - option "Quiz" [selected]
+                    - option "Assignment"
+                    - option "PracticeTest"
+                    - option "FinalExam"
+                - generic [ref=f3e146]:
+                  - generic [ref=f3e147]: Number Of Questions
+                  - spinbutton [ref=f3e148] [cursor=pointer]: "5"
+                - generic [ref=f3e149]:
+                  - generic [ref=f3e150]: Total Marks
+                  - spinbutton [ref=f3e151] [cursor=pointer]: "50.00"
+                - generic [ref=f3e152]:
+                  - generic [ref=f3e153]: Passing Marks
+                  - spinbutton [ref=f3e154] [cursor=pointer]: "40.00"
+                - generic [ref=f3e155]:
+                  - generic [ref=f3e156]: Duration (Minutes)
+                  - spinbutton [ref=f3e157] [cursor=pointer]: "5"
+                - generic [ref=f3e158]:
+                  - generic [ref=f3e159]: Assessment Image
+                  - button "Assessment Image" [ref=f3e160] [cursor=pointer]
+                  - text: "Supported: JPG, JPEG, PNG, GIF, WEBP. Max size: 5MB"
+                  - generic [ref=f3e161]:
+                    - generic [ref=f3e162]: "Image Preview:"
+                    - img "Image Preview" [ref=f3e164]
+                - generic [ref=f3e165]:
+                  - generic [ref=f3e166]: Random Question Order
+                  - checkbox [ref=f3e168] [cursor=pointer]
+                - generic [ref=f3e169]:
+                  - generic [ref=f3e170]: Result Display Type
+                  - generic [ref=f3e171]:
+                    - generic [ref=f3e172]:
+                      - radio "PDF Download" [checked] [ref=f3e173] [cursor=pointer]
+                      - generic [ref=f3e174]: PDF Download
+                    - generic [ref=f3e175]:
+                      - radio "Screen (Answer Key)" [ref=f3e176] [cursor=pointer]
+                      - generic [ref=f3e177]: Screen (Answer Key)
+                  - text: "PDF: students download their result. Screen: students view the answer key on screen."
+              - generic [ref=f3e178]:
+                - generic [ref=f3e179]:
+                  - generic [ref=f3e180]: Status
+                  - combobox [ref=f3e181] [cursor=pointer]:
+                    - option "Draft" [selected]
+                    - option "Active"
+                    - option "Archived"
+                    - option "Expired"
+                - generic [ref=f3e182]:
+                  - generic [ref=f3e183]: Attempts Allowed
+                  - generic [ref=f3e184]:
+                    - button "-" [ref=f3e185] [cursor=pointer]
+                    - textbox [ref=f3e186] [cursor=pointer]: Unlimited
+                    - button "+" [ref=f3e187] [cursor=pointer]
+            - generic [ref=f3e188]:
+              - generic [ref=f3e191]: Instructions
+              - generic [ref=f3e194]: Syllabus
+            - generic [ref=f3e195]:
+              - button "Save" [ref=f3e196] [cursor=pointer]
+              - link "Back" [ref=f3e197] [cursor=pointer]:
+                - /url: /Assessment/CourseAssessment
+      - contentinfo [ref=f3e198]:
+        - paragraph [ref=f3e202]:
+          - text: Copyright
+          - generic [ref=f3e203]: "2026"
+          - text: © Jeshwar Teaching
+  - img

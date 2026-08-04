@@ -1,0 +1,157 @@
+- generic [ref=f19e2]:
+  - generic [ref=f19e3]:
+    - generic [ref=f19e5]:
+      - generic [ref=f19e6]:
+        - link "Logo" [ref=f19e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f19e8]
+        - text: 
+      - list [ref=f19e9]:
+        - listitem [ref=f19e10]:
+          - link " Dashboard" [ref=f19e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f19e12]: 
+            - text: Dashboard
+        - listitem [ref=f19e13]:
+          - link " Batches" [ref=f19e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f19e15]: 
+            - text: Batches
+        - listitem [ref=f19e16]:
+          - link " My Courses" [ref=f19e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f19e18]: 
+            - text: My Courses
+        - listitem [ref=f19e19]:
+          - link " eBooks" [ref=f19e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f19e21]: 
+            - text: eBooks
+        - listitem [ref=f19e22]:
+          - link " Wishlist" [ref=f19e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f19e24]: 
+            - text: Wishlist
+        - listitem [ref=f19e25]:
+          - link " Audiobook" [ref=f19e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f19e27]: 
+            - text: Audiobook
+        - listitem [ref=f19e28]:
+          - link " Resources" [ref=f19e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f19e30]: 
+            - text: Resources
+        - listitem [ref=f19e31]:
+          - link " Current Affairs" [ref=f19e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f19e33]: 
+            - text: Current Affairs
+        - listitem [ref=f19e34]:
+          - link " Test" [ref=f19e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f19e36]: 
+            - text: Test
+        - listitem [ref=f19e37]:
+          - link " Settings" [ref=f19e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f19e39]: 
+            - text: Settings
+        - listitem [ref=f19e40]:
+          - link " Call Reminders" [ref=f19e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f19e42]: 
+            - text: Call Reminders
+        - listitem [ref=f19e43]:
+          - link " Leaderboard" [ref=f19e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f19e45]: 
+            - text: Leaderboard
+        - listitem [ref=f19e46]:
+          - button " APL " [ref=f19e47] [cursor=pointer]:
+            - generic [ref=f19e48]:
+              - generic [ref=f19e49]: 
+              - text: APL
+            - generic [ref=f19e50]: 
+          - text:    
+        - listitem [ref=f19e51]:
+          - link " Notification" [ref=f19e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f19e53]: 
+            - text: Notification
+        - listitem [ref=f19e54]:
+          - button " Logout" [ref=f19e56] [cursor=pointer]:
+            - generic [ref=f19e57]: 
+            - text: Logout
+    - generic [ref=f19e59]:
+      - banner [ref=f19e60]:
+        - text: 
+        - generic [ref=f19e61]:
+          - generic [ref=f19e62]:
+            - generic [ref=f19e63]: 
+            - textbox "Search Course" [ref=f19e64]
+            - text: 
+          - link "" [ref=f19e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f19e68]: 
+          - link "Profile qapromotester270726" [ref=f19e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f19e71]
+            - generic [ref=f19e72]: qapromotester270726
+      - generic [ref=f19e74]:
+        - heading "Checkout" [level=3] [ref=f19e75]
+        - generic [ref=f19e76]:
+          - generic [ref=f19e77]:
+            - generic [ref=f19e79]:
+              - img "NEET Exam Preparation" [ref=f19e80]
+              - generic [ref=f19e81]:
+                - heading "NEET Exam Preparation" [level=5] [ref=f19e82]
+                - generic [ref=f19e84]: July membership- single
+            - generic [ref=f19e85]:
+              - generic [ref=f19e86]:
+                - heading "Have a promo code?" [level=5] [ref=f19e87]
+                - button "View Promo Codes ▼" [ref=f19e88] [cursor=pointer]
+              - generic [ref=f19e89]:
+                - textbox "Enter promo code" [ref=f19e90]: QATEST_TIMEBOUND270726
+                - button "Applied" [disabled] [ref=f19e122]
+              - generic [ref=f19e123]:
+                - generic [ref=f19e124]: Promo code QATEST_TIMEBOUND270726 applied — you saved ₹699.90
+                - button "✕ Clear" [ref=f19e125] [cursor=pointer]
+          - generic [ref=f19e93]:
+            - heading "Order Summary" [level=5] [ref=f19e94]
+            - generic [ref=f19e95]:
+              - generic [ref=f19e96]: Course Fee
+              - generic [ref=f19e97]: ₹6,999.00
+            - generic [ref=f19e126]:
+              - generic [ref=f19e127]: Promo Discount
+              - generic [ref=f19e128]: "-₹699.90"
+            - generic [ref=f19e98]:
+              - generic [ref=f19e99]: Price after Discount
+              - generic [ref=f19e100]: ₹6,299.10
+            - generic [ref=f19e101]:
+              - generic [ref=f19e102]: GST (10%, incl.)
+              - generic [ref=f19e103]: ₹572.65
+            - separator [ref=f19e104]
+            - generic [ref=f19e105]:
+              - generic [ref=f19e106]: Total
+              - generic [ref=f19e107]: ₹6,299.10
+            - button "Pay ₹ 6,299.10" [ref=f19e129] [cursor=pointer]:
+              - text: Pay ₹
+              - generic [ref=f19e109]: 6,299.10
+            - link "Back to course" [ref=f19e110] [cursor=pointer]:
+              - /url: /Purchase/Index?courseId=145
+  - generic "Ask a doubt" [ref=f19e111]:
+    - generic [ref=f19e112]: 
+  - text:      
+  - contentinfo [ref=f19e113]:
+    - generic [ref=f19e114]:
+      - paragraph [ref=f19e116]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f19e117]:
+        - link "About Us" [ref=f19e118] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f19e119] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f19e120] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f19e121] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

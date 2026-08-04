@@ -1,0 +1,144 @@
+- generic [ref=f39e2]:
+  - generic [ref=f39e3]:
+    - generic [ref=f39e5]:
+      - generic [ref=f39e6]:
+        - link "Logo" [ref=f39e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f39e8]
+        - text: 
+      - list [ref=f39e9]:
+        - listitem [ref=f39e10]:
+          - link " Dashboard" [ref=f39e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f39e12]: 
+            - text: Dashboard
+        - listitem [ref=f39e13]:
+          - link " Batches" [ref=f39e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f39e15]: 
+            - text: Batches
+        - listitem [ref=f39e16]:
+          - link " My Courses" [ref=f39e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f39e18]: 
+            - text: My Courses
+        - listitem [ref=f39e19]:
+          - link " Ebooks" [ref=f39e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f39e21]: 
+            - text: Ebooks
+        - listitem [ref=f39e22]:
+          - link " Wishlist" [ref=f39e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f39e24]: 
+            - text: Wishlist
+        - listitem [ref=f39e25]:
+          - link " Audiobook" [ref=f39e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f39e27]: 
+            - text: Audiobook
+        - listitem [ref=f39e28]:
+          - link " Resources" [ref=f39e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f39e30]: 
+            - text: Resources
+        - listitem [ref=f39e31]:
+          - link " Current Affairs" [ref=f39e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f39e33]: 
+            - text: Current Affairs
+        - listitem [ref=f39e34]:
+          - link " Test" [ref=f39e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f39e36]: 
+            - text: Test
+        - listitem [ref=f39e37]:
+          - link " Settings" [ref=f39e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f39e39]: 
+            - text: Settings
+        - listitem [ref=f39e40]:
+          - link " Call Reminders" [ref=f39e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f39e42]: 
+            - text: Call Reminders
+        - listitem [ref=f39e43]:
+          - link " Leaderboard" [ref=f39e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f39e45]: 
+            - text: Leaderboard
+        - listitem [ref=f39e46]:
+          - button " APL " [ref=f39e47] [cursor=pointer]:
+            - generic [ref=f39e48]:
+              - generic [ref=f39e49]: 
+              - text: APL
+            - generic [ref=f39e50]: 
+          - text:    
+        - listitem [ref=f39e51]:
+          - link " Notification" [ref=f39e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f39e53]: 
+            - text: Notification
+        - listitem [ref=f39e54]:
+          - button " Logout" [ref=f39e56] [cursor=pointer]:
+            - generic [ref=f39e57]: 
+            - text: Logout
+    - generic [ref=f39e59]:
+      - banner [ref=f39e60]:
+        - text: 
+        - generic [ref=f39e61]:
+          - generic [ref=f39e62]:
+            - generic [ref=f39e63]: 
+            - textbox "Search Course" [ref=f39e64]
+            - text: 
+          - link "" [ref=f39e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f39e68]: 
+          - link "Profile qaebooktester260724" [ref=f39e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f39e71]
+            - generic [ref=f39e72]: qaebooktester260724
+      - generic [ref=f39e74]:
+        - link " Back to Ebooks" [ref=f39e75] [cursor=pointer]:
+          - /url: /Ebook/Index
+          - generic [ref=f39e76]: 
+          - text: Back to Ebooks
+        - generic [ref=f39e78]:
+          - generic [ref=f39e82]: 
+          - generic [ref=f39e83]:
+            - heading "QA No File Test Ebook" [level=2] [ref=f39e84]
+            - paragraph [ref=f39e85]:
+              - generic [ref=f39e86]: 
+              - generic [ref=f39e87]:
+                - text: by
+                - strong [ref=f39e88]: Expert Educator
+            - generic [ref=f39e90]:
+              - generic [ref=f39e91]:
+                - generic [ref=f39e92] [cursor=pointer]: 
+                - generic [ref=f39e93] [cursor=pointer]: 
+                - generic [ref=f39e94] [cursor=pointer]: 
+                - generic [ref=f39e95] [cursor=pointer]: 
+                - generic [ref=f39e96] [cursor=pointer]: 
+              - generic [ref=f39e97]: Rate this book
+            - generic [ref=f39e98]:
+              - heading "About this Book" [level=4] [ref=f39e99]
+              - generic [ref=f39e100]: QA test ebook - English file only positive test case.
+            - link " Read Book" [ref=f39e104] [cursor=pointer]:
+              - /url: /Ebook/Read?ebookId=20&lang=English
+              - generic [ref=f39e105]: 
+              - text: Read Book
+  - generic "Ask a doubt" [ref=f39e106]:
+    - generic [ref=f39e107]: 
+  - text:      
+  - contentinfo [ref=f39e108]:
+    - generic [ref=f39e109]:
+      - paragraph [ref=f39e111]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f39e112]:
+        - link "About Us" [ref=f39e113] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f39e114] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f39e115] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f39e116] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

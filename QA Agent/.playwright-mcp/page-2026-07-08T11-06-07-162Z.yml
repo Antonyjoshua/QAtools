@@ -1,0 +1,247 @@
+- generic [ref=f18e1]:
+  - generic [ref=f18e7]:
+    - generic [ref=f18e8]:
+      - generic [ref=f18e9]:
+        - heading "Assessment" [level=4] [ref=f18e10]
+        - navigation [ref=f18e11]:
+          - list [ref=f18e12]:
+            - listitem [ref=f18e13]:
+              - link [ref=f18e14] [cursor=pointer]:
+                - /url: /Assessment/CourseAssessment
+                - img [ref=f18e15]
+            - listitem [ref=f18e18]: / Course
+      - generic [ref=f18e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f18e22]:
+          - listitem [ref=f18e23]:
+            - generic [ref=f18e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f18e26]:
+      - generic [ref=f18e28]:
+        - text: 
+        - link [ref=f18e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f18e31]:
+          - list [ref=f18e33]:
+            - generic [ref=f18e38]:
+              - text: 
+              - listitem [ref=f18e39]:
+                - link [ref=f18e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f18e41]
+                  - text: 
+              - listitem [ref=f18e43]:
+                - link [ref=f18e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e45]
+                  - text: 
+              - listitem [ref=f18e47]:
+                - link [ref=f18e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e49]
+                  - text: 
+              - listitem [ref=f18e51]:
+                - link [ref=f18e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e53]
+                  - text: 
+              - listitem [ref=f18e55]:
+                - link [ref=f18e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e57]
+                  - text: 
+              - listitem [ref=f18e59]:
+                - link "" [ref=f18e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f18e61]: 
+                  - text: 
+              - listitem [ref=f18e62]:
+                - link [ref=f18e63] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e64]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f18e66]:
+                - link [ref=f18e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e68]
+                  - text: 
+              - listitem [ref=f18e70]:
+                - link [ref=f18e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e72]
+                  - text: 
+              - listitem [ref=f18e74]:
+                - link "general icon" [ref=f18e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f18e76]
+                  - text: 
+              - listitem [ref=f18e77]:
+                - link [ref=f18e78] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f18e79]
+                  - text: 
+              - listitem [ref=f18e81]:
+                - link [ref=f18e82] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f18e83]
+                  - text: 
+              - listitem [ref=f18e85]:
+                - link "product icon" [ref=f18e86] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f18e87]
+                  - text: 
+              - listitem [ref=f18e88]:
+                - link [ref=f18e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e90]
+                  - text: 
+              - listitem [ref=f18e92]:
+                - link [ref=f18e93] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f18e94]
+                  - text: 
+              - listitem [ref=f18e96]:
+                - link [ref=f18e97] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e98]
+                  - text: 
+              - listitem [ref=f18e100]:
+                - link "notify-ico" [ref=f18e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f18e102]
+                  - text: 
+              - listitem [ref=f18e103]:
+                - link "notify-ico" [ref=f18e104] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f18e105]
+                  - text: 
+      - main [ref=f18e107]:
+        - generic [ref=f18e108]:
+          - generic [ref=f18e109]:
+            - heading "Course Assessment" [level=4] [ref=f18e110]
+            - generic [ref=f18e111]: "Select Course:"
+            - combobox "Select Course:" [ref=f18e112] [cursor=pointer]:
+              - option "-- Select Course --"
+              - option "QA Test Course" [selected]
+              - option "TNPSC Group 4 Complete Preparation Course 2026"
+              - option "Jt Release Course"
+              - option "TNPSC Foundation Course"
+              - option "Post office exam- Tamil nadu 2026"
+              - option "TNUSRB Police Constable"
+              - option "Free course 2"
+              - option "Bank course"
+              - option "Indian Railways- Batch 1,2,3,4- Tnpsc-இந்தியாவி..."
+              - option "Jtcourse 2"
+              - option "JtCourse"
+              - option "MultipleFolderType"
+              - option "Multiplecardtypefolder"
+              - option "Singlefoldercourse"
+              - option "Singlecourse"
+              - option "TNPSC GROUP-4 FOLDER"
+              - option "SelfHost Course"
+              - option "JT Phase 3"
+              - option "Assessment course 01"
+              - option "Railway course 3"
+              - option "Railway course 2"
+              - option "Political Polity"
+              - option "Railway course"
+              - option "Banking course"
+              - option "Group 2A"
+              - option "Group A course"
+              - option "Test0025"
+              - option "Group 6 course"
+              - option "Group 5 course"
+              - option "Group 4 Course"
+              - option "Group 3 course"
+              - option "Pongal Special Course"
+              - option "JT Batch-2026 Course"
+              - option "Software Testing"
+              - option "12TH ECONOMICS"
+              - option "TNPSC_Group1new 008"
+              - option "Group 2 course"
+              - option "tEST"
+              - option "Silver membership"
+              - option "Paid membership"
+              - option "Group 1 course"
+              - option "Social"
+              - option "Software Testing Course"
+              - option "Kingdom - 2026"
+            - link "Create Assessment" [ref=f18e114] [cursor=pointer]:
+              - /url: /Assessment/CreateCourseAssessment
+          - generic [ref=f18e119]:
+            - generic [ref=f18e121]:
+              - text: Show
+              - combobox "Show entries" [ref=f18e122] [cursor=pointer]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: entries
+            - generic [ref=f18e124]:
+              - text: "Search:"
+              - searchbox "Search:" [ref=f18e125] [cursor=pointer]
+            - grid [ref=f18e126]:
+              - rowgroup [ref=f18e127]:
+                - 'row "Title: activate to sort column descending Type: activate to sort column ascending Number Of Questions: activate to sort column ascending Total Marks: activate to sort column ascending Folder: activate to sort column ascending Status: activate to sort column ascending Action" [ref=f18e128]':
+                  - 'columnheader "Title: activate to sort column descending" [ref=f18e129] [cursor=pointer]': ↑ Title ↓
+                  - 'columnheader "Type: activate to sort column ascending" [ref=f18e130] [cursor=pointer]': ↑ Type ↓
+                  - 'columnheader "Number Of Questions: activate to sort column ascending" [ref=f18e131] [cursor=pointer]': ↑ Number Of Questions ↓
+                  - 'columnheader "Total Marks: activate to sort column ascending" [ref=f18e132] [cursor=pointer]': ↑ Total Marks ↓
+                  - 'columnheader "Folder: activate to sort column ascending" [ref=f18e133] [cursor=pointer]': ↑ Folder ↓
+                  - 'columnheader "Status: activate to sort column ascending" [ref=f18e134] [cursor=pointer]': ↑ Status ↓
+                  - columnheader "Action" [ref=f18e135]
+              - rowgroup [ref=f18e136]:
+                - row "QA Test Assessment - 2026-07-08 Exam 5 / 5 100 — Active     " [ref=f18e137]:
+                  - gridcell "QA Test Assessment - 2026-07-08" [ref=f18e138]
+                  - gridcell "Exam" [ref=f18e139]
+                  - gridcell "5 / 5" [ref=f18e140]
+                  - gridcell "100" [ref=f18e141]
+                  - gridcell "—" [ref=f18e142]:
+                    - generic [ref=f18e143]: —
+                  - gridcell "Active" [ref=f18e144]:
+                    - generic [ref=f18e145]: Active
+                  - gridcell "    " [ref=f18e146]:
+                    - list [ref=f18e147]:
+                      - listitem [ref=f18e148] [cursor=pointer]:
+                        - link "" [ref=f18e149]:
+                          - /url: /Assessment/EditCourse/1172
+                          - generic [ref=f18e150]: 
+                      - listitem [ref=f18e151]:
+                        - link "" [ref=f18e152] [cursor=pointer]:
+                          - /url: /Question/Index?assessmentId=1172&type=course
+                          - generic [ref=f18e153]: 
+                      - listitem [ref=f18e154]:
+                        - link "" [ref=f18e155] [cursor=pointer]:
+                          - /url: /Assessment/DownloadAnswerKey?assessmentId=1172
+                          - generic [ref=f18e156]: 
+                      - listitem [ref=f18e157]:
+                        - link "" [active] [ref=f18e158] [cursor=pointer]:
+                          - /url: /Assessment/DownloadAnswerKeyV1?assessmentId=1172
+                          - generic [ref=f18e159]: 
+                      - listitem [ref=f18e160] [cursor=pointer]:
+                        - link "" [ref=f18e161]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f18e162]: 
+            - status [ref=f18e163]: Showing 1 to 1 of 1 entries
+            - generic [ref=f18e164]:
+              - generic [ref=f18e165]: Previous
+              - generic [ref=f18e167] [cursor=pointer]: "1"
+              - generic [ref=f18e168]: Next
+          - text:   
+      - contentinfo [ref=f18e169]:
+        - paragraph [ref=f18e173]:
+          - text: Copyright
+          - generic [ref=f18e174]: "2026"
+          - text: © Jeshwar Teaching
+  - img

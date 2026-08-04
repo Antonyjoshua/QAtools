@@ -1,0 +1,332 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - generic [ref=f4e5]:
+        - generic [ref=f4e6]:
+          - link "Logo" [ref=f4e7] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - img "Logo" [ref=f4e8]
+          - text: 
+        - list [ref=f4e9]:
+          - listitem [ref=f4e10]:
+            - link " Dashboard" [ref=f4e11] [cursor=pointer]:
+              - /url: /Dashboard/Index
+              - generic [ref=f4e12]: 
+              - text: Dashboard
+          - listitem [ref=f4e13]:
+            - link " Batches" [ref=f4e14] [cursor=pointer]:
+              - /url: /Batches/Index
+              - generic [ref=f4e15]: 
+              - text: Batches
+          - listitem [ref=f4e16]:
+            - link " My Courses" [ref=f4e17] [cursor=pointer]:
+              - /url: /Course/Index
+              - generic [ref=f4e18]: 
+              - text: My Courses
+          - listitem [ref=f4e19]:
+            - link " Wishlist" [ref=f4e20] [cursor=pointer]:
+              - /url: /Wishlist/Index
+              - generic [ref=f4e21]: 
+              - text: Wishlist
+          - listitem [ref=f4e22]:
+            - link " Audiobook" [ref=f4e23] [cursor=pointer]:
+              - /url: /Podcast/Index
+              - generic [ref=f4e24]: 
+              - text: Audiobook
+          - listitem [ref=f4e25]:
+            - link " Resources" [ref=f4e26] [cursor=pointer]:
+              - /url: /Resources/Index
+              - generic [ref=f4e27]: 
+              - text: Resources
+          - listitem [ref=f4e28]:
+            - link " Current Affairs" [ref=f4e29] [cursor=pointer]:
+              - /url: /CurrentAffairs/Index
+              - generic [ref=f4e30]: 
+              - text: Current Affairs
+          - listitem [ref=f4e31]:
+            - link " Test" [ref=f4e32] [cursor=pointer]:
+              - /url: /Assessment/Batches
+              - generic [ref=f4e33]: 
+              - text: Test
+          - listitem [ref=f4e34]:
+            - link " Settings" [ref=f4e35] [cursor=pointer]:
+              - /url: /Settings/Index
+              - generic [ref=f4e36]: 
+              - text: Settings
+          - listitem [ref=f4e37]:
+            - link " Leaderboard" [ref=f4e38] [cursor=pointer]:
+              - /url: /Leaderboard/Index
+              - generic [ref=f4e39]: 
+              - text: Leaderboard
+          - listitem [ref=f4e40]:
+            - link " Notification" [ref=f4e41] [cursor=pointer]:
+              - /url: /Notification/Notifications
+              - generic [ref=f4e42]: 
+              - text: Notification
+          - listitem [ref=f4e43]:
+            - button " Logout" [ref=f4e45] [cursor=pointer]:
+              - generic [ref=f4e46]: 
+              - text: Logout
+      - generic [ref=f4e48]:
+        - banner [ref=f4e49]:
+          - text: 
+          - generic [ref=f4e50]:
+            - generic [ref=f4e51]:
+              - generic [ref=f4e52]: 
+              - textbox "Search Course" [ref=f4e53]
+              - text: 
+            - link "" [ref=f4e55] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=f4e57]: 
+            - link "Profile qauserui202607061255" [ref=f4e59] [cursor=pointer]:
+              - /url: "#"
+              - img "Profile" [ref=f4e60]
+              - generic [ref=f4e61]: qauserui202607061255
+        - generic [ref=f4e67]:
+          - generic [ref=f4e68]:
+            - img "TNPSC Foundation Course" [ref=f4e69]
+            - generic [ref=f4e71]:
+              - heading "TNPSC Foundation Course" [level=5] [ref=f4e72]
+              - generic [ref=f4e73]:
+                - generic [ref=f4e74] [cursor=pointer]: Demo-01
+                - generic [ref=f4e75] [cursor=pointer]: 200 Hours
+                - generic [ref=f4e76] [cursor=pointer]: JtCourse
+              - generic [ref=f4e77]:
+                - paragraph [ref=f4e78]: "Choose a Subscription Plan:"
+                - generic [ref=f4e79]:
+                  - generic [ref=f4e80] [cursor=pointer]:
+                    - radio "Basic plan 3 Month(s) ₹1000.00" [checked]
+                    - generic [ref=f4e83]:
+                      - generic [ref=f4e84]: Basic plan
+                      - generic [ref=f4e85]: 3 Month(s)
+                      - generic [ref=f4e86]: ₹1000.00
+                  - generic [ref=f4e87] [cursor=pointer]:
+                    - radio "Pro plan 6 Month(s) ₹2000.00"
+                    - generic [ref=f4e90]:
+                      - generic [ref=f4e91]: Pro plan
+                      - generic [ref=f4e92]: 6 Month(s)
+                      - generic [ref=f4e93]: ₹2000.00
+                  - generic [ref=f4e94] [cursor=pointer]:
+                    - radio "Premium plan 9 Month(s) ₹3000.00"
+                    - generic [ref=f4e97]:
+                      - generic [ref=f4e98]: Premium plan
+                      - generic [ref=f4e99]: 9 Month(s)
+                      - generic [ref=f4e100]: ₹3000.00
+                  - button "Enroll Join Now" [ref=f4e102] [cursor=pointer]:
+                    - img "Enroll" [ref=f4e103]
+                    - text: Join Now
+          - generic [ref=f4e105]:
+            - heading "Course Overview" [level=4] [ref=f4e106]
+            - generic [ref=f4e107]:
+              - paragraph [ref=f4e108]:
+                - strong [ref=f4e109]: TNPSC அடிப்படை பயிற்சி வகுப்பு
+                - text: என்பது TNPSC குரூப் 1, 2, 2A மற்றும் 4 தேர்வுகளை இலக்காகக் கொண்டு முழுமையான மற்றும் கட்டமைக்கப்பட்ட பயிற்சித் திட்டமாகும். இந்தப் பயிற்சி வகுப்பு, தொடக்கநிலை மற்றும் இடைநிலை மாணவர்களுக்காகச் சிறப்பாக வடிவமைக்கப்பட்டுள்ளது.
+              - paragraph [ref=f4e110]: இதில், பொதுத்திறன், எண்ணியல், மொழித் திறன் (தமிழ்/ஆங்கிலம்) ஆகியவை முழுமையாகக் கற்பிக்கப்படுகின்றன. தமிழக வரலாறு, பண்பாடு, சமூக அமைப்பு மற்றும் நிர்வாக மேம்பாடுகள் ஆகியவற்றிற்கு சிறப்பு முக்கியத்துவம் அளிக்கப்படுகிறது.
+              - paragraph [ref=f4e111]:
+                - strong [ref=f4e112]: "சிறப்பம்சங்கள்:"
+              - paragraph [ref=f4e113]:
+                - strong [ref=f4e114]: பயிற்சி காலம்
+                - text: – 12 மாதங்களுக்கு மேல், வாரத்தில் 6 நாட்கள் வகுப்புகள்
+                - strong [ref=f4e115]: மொத்த வகுப்புகள்
+                - text: – 230+ கட்டமைக்கப்பட்ட நேரடி வகுப்புகள்
+                - strong [ref=f4e116]: மொழி
+                - text: – இருமொழி (தமிழ் & ஆங்கிலம்) - தமிழ் வழிக் கற்றலுக்கு முக்கியத்துவம்
+                - strong [ref=f4e117]: ஆன்லைன் அணுகல்
+                - text: – 24/7 பதிவு செய்யப்பட்ட வகுப்புகள் (மீண்டும் பார்க்க வசதி)
+                - strong [ref=f4e118]: பயிற்சி தேர்வுகள்
+                - text: – 75+ ஆன்லைன் பயிற்சித் தேர்வுகள் (குரூப் 1 & 2)
+                - strong [ref=f4e119]: வழிகாட்டுதல்
+                - text: – தனிப்பட்ட மாணவர் கவனிப்பு, ஐயம்தீர்ப்பு வகுப்புகள், முன்னேற்றக் கண்காணிப்பு
+            - generic [ref=f4e120]:
+              - heading "Course Duration:" [level=6] [ref=f4e121]
+              - paragraph [ref=f4e122]:
+                - generic [ref=f4e123]: 
+                - text: Jul 10, 2026 – Jan 23, 2027
+              - paragraph [ref=f4e124]:
+                - generic [ref=f4e125]: 
+                - text: 200 hours of content
+    - contentinfo [ref=f4e126]:
+      - generic [ref=f4e127]:
+        - paragraph [ref=f4e129]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+        - generic [ref=f4e130]:
+          - link "About Us" [ref=f4e131] [cursor=pointer]:
+            - /url: /Content/AboutUs
+          - link "Privacy Policy" [ref=f4e132] [cursor=pointer]:
+            - /url: /Content/PrivacyPolicy
+          - link "Terms & Conditions" [ref=f4e133] [cursor=pointer]:
+            - /url: /Content/TermsCondition
+          - link "Refund Policy" [ref=f4e134] [cursor=pointer]:
+            - /url: /Content/RefundPolicy
+  - generic [ref=f4e135]:
+    - generic [ref=f4e137]: Test Mode
+    - iframe [active] [ref=f4e138]:
+      - generic [ref=f5e2]:
+        - generic [ref=f5e3]:
+          - generic [ref=f5e4]:
+            - generic [ref=f5e7]:
+              - generic [ref=f5e8]: J
+              - generic "JT Learning Portal" [ref=f5e10]
+            - generic [ref=f5e12]:
+              - generic [ref=f5e13]:
+                - generic [ref=f5e17]:
+                  - generic [ref=f5e19]: Price Summary
+                  - heading "₹ 0 1 2 3 4 5 6 7 8 9 0 , 0 1 2 3 4 5 6 7 8 9 0 0 1 2 3 4 5 6 7 8 9 0 0 1 2 3 4 5 6 7 8 9 0" [level=3] [ref=f5e22]:
+                    - generic [ref=f5e23]: ₹
+                    - generic [ref=f5e24]:
+                      - generic [ref=f5e25]: "0"
+                      - generic [ref=f5e26]: "1"
+                      - generic [ref=f5e27]: "2"
+                      - generic [ref=f5e28]: "3"
+                      - generic [ref=f5e29]: "4"
+                      - generic [ref=f5e30]: "5"
+                      - generic [ref=f5e31]: "6"
+                      - generic [ref=f5e32]: "7"
+                      - generic [ref=f5e33]: "8"
+                      - generic [ref=f5e34]: "9"
+                      - generic [ref=f5e35]: "0"
+                    - generic [ref=f5e36]: ","
+                    - generic [ref=f5e37]:
+                      - generic [ref=f5e38]: "0"
+                      - generic [ref=f5e39]: "1"
+                      - generic [ref=f5e40]: "2"
+                      - generic [ref=f5e41]: "3"
+                      - generic [ref=f5e42]: "4"
+                      - generic [ref=f5e43]: "5"
+                      - generic [ref=f5e44]: "6"
+                      - generic [ref=f5e45]: "7"
+                      - generic [ref=f5e46]: "8"
+                      - generic [ref=f5e47]: "9"
+                      - generic [ref=f5e48]: "0"
+                    - generic [ref=f5e49]:
+                      - generic [ref=f5e50]: "0"
+                      - generic [ref=f5e51]: "1"
+                      - generic [ref=f5e52]: "2"
+                      - generic [ref=f5e53]: "3"
+                      - generic [ref=f5e54]: "4"
+                      - generic [ref=f5e55]: "5"
+                      - generic [ref=f5e56]: "6"
+                      - generic [ref=f5e57]: "7"
+                      - generic [ref=f5e58]: "8"
+                      - generic [ref=f5e59]: "9"
+                      - generic [ref=f5e60]: "0"
+                    - generic [ref=f5e61]:
+                      - generic [ref=f5e62]: "0"
+                      - generic [ref=f5e63]: "1"
+                      - generic [ref=f5e64]: "2"
+                      - generic [ref=f5e65]: "3"
+                      - generic [ref=f5e66]: "4"
+                      - generic [ref=f5e67]: "5"
+                      - generic [ref=f5e68]: "6"
+                      - generic [ref=f5e69]: "7"
+                      - generic [ref=f5e70]: "8"
+                      - generic [ref=f5e71]: "9"
+                      - generic [ref=f5e72]: "0"
+                - button "Using as +91 98765 43212" [ref=f5e228] [cursor=pointer]:
+                  - img [ref=f5e75]
+                  - generic [ref=f5e78]: Using as +91 98765 43212
+                  - img [ref=f5e80]
+              - generic [ref=f5e82]:
+                - generic [ref=f5e83]: Secured by
+                - generic "RazorPay" [ref=f5e84]:
+                  - img [ref=f5e85]
+            - generic:
+              - img
+          - generic [ref=f5e88]:
+            - generic [ref=f5e89]:
+              - generic [ref=f5e90]: Payment Options
+              - generic [ref=f5e91]:
+                - button "Show more options" [ref=f5e92] [cursor=pointer]:
+                  - img [ref=f5e94]
+                - button "Close Checkout" [ref=f5e96] [cursor=pointer]:
+                  - img [ref=f5e98]
+            - separator [ref=f5e100]
+            - generic [ref=f5e105]:
+              - generic [ref=f5e107]:
+                - generic [ref=f5e229] [cursor=pointer]:
+                  - radio "Cards VISA MC RUPAY MAES"
+                  - generic [ref=f5e231]:
+                    - generic [ref=f5e234]: Cards
+                    - generic [ref=f5e236]:
+                      - img "VISA" [ref=f5e238]
+                      - img "MC" [ref=f5e240]
+                      - img "RUPAY" [ref=f5e242]
+                      - img "MAES" [ref=f5e244]
+                - generic [ref=f5e245] [cursor=pointer]:
+                  - radio "Netbanking BARB_R CNRB PUNB_R UTBI"
+                  - generic [ref=f5e247]:
+                    - generic [ref=f5e250]: Netbanking
+                    - generic [ref=f5e252]:
+                      - img "BARB_R" [ref=f5e254]
+                      - img "CNRB" [ref=f5e256]
+                      - img "PUNB_R" [ref=f5e258]
+                      - img "UTBI" [ref=f5e260]
+                - generic [ref=f5e261] [cursor=pointer]:
+                  - radio "Wallet mobikwik airtelmoney olamoney"
+                  - generic [ref=f5e263]:
+                    - generic [ref=f5e266]: Wallet
+                    - generic [ref=f5e268]:
+                      - img "mobikwik" [ref=f5e270]
+                      - img "airtelmoney" [ref=f5e272]
+                      - img "olamoney" [ref=f5e274]
+                - generic [ref=f5e275] [cursor=pointer]:
+                  - radio "Pay Later lazypay icic hdfc epaylater"
+                  - generic [ref=f5e277]:
+                    - generic [ref=f5e280]: Pay Later
+                    - generic [ref=f5e282]:
+                      - img "lazypay" [ref=f5e284]
+                      - img "icic" [ref=f5e286]
+                      - img "hdfc" [ref=f5e288]
+                      - img "epaylater" [ref=f5e290]
+              - generic [ref=f5e175]:
+                - heading "Add a new card" [level=3] [ref=f5e176]
+                - generic [ref=f5e177]:
+                  - generic [ref=f5e178]:
+                    - textbox "Card Number" [ref=f5e181]: 4111 1111 1111 1111
+                    - generic [ref=f5e182]:
+                      - textbox "MM / YY" [ref=f5e184]: 12 / 30
+                      - textbox "CVV" [ref=f5e186]: "123"
+                    - textbox "Enter name on card" [ref=f5e293]: qauserui202607061255
+                  - generic [ref=f5e188] [cursor=pointer]:
+                    - checkbox "Save this card securely for future payments" [ref=f5e294]
+                    - generic [ref=f5e190]: Save this card securely for future payments
+                  - button "Continue" [ref=f5e192] [cursor=pointer]
+        - generic [ref=f5e333]:
+          - button [ref=f5e401] [cursor=pointer]:
+            - img [ref=f5e403]
+          - generic [ref=f5e406]:
+            - generic "shopping-bag-coin" [ref=f5e411]:
+              - img [ref=f5e412]
+            - generic [ref=f5e468]: Payment could not be completed
+            - paragraph [ref=f5e469]: International cards are not supported. Please contact our support team for help
+            - paragraph [ref=f5e470]: Retry payment of ₹1,000 with
+            - generic [ref=f5e471]:
+              - generic [ref=f5e473]:
+                - generic [ref=f5e474] [cursor=pointer]:
+                  - radio "Pay Later"
+                  - generic [ref=f5e476]:
+                    - generic "Pay Later" [ref=f5e477]:
+                      - img [ref=f5e478]
+                    - generic [ref=f5e484]: Pay Later
+                    - img [ref=f5e486]
+                - generic [ref=f5e488] [cursor=pointer]:
+                  - radio "Cards"
+                  - generic [ref=f5e490]:
+                    - generic "Cards" [ref=f5e491]:
+                      - img [ref=f5e492]
+                    - generic [ref=f5e497]: Cards
+                    - img [ref=f5e499]
+                - generic [ref=f5e501] [cursor=pointer]:
+                  - radio "Bank of Baroda - Retail Banking Netbanking Bank of Baroda - Retail Banking Netbanking"
+                  - generic [ref=f5e503]:
+                    - img "Bank of Baroda - Retail Banking Netbanking" [ref=f5e504]
+                    - generic [ref=f5e507]: Bank of Baroda - Retail Banking Netbanking
+                    - img [ref=f5e509]
+              - generic [ref=f5e512] [cursor=pointer]:
+                - generic "Show All Options" [ref=f5e513]:
+                  - img [ref=f5e514]
+                - generic [ref=f5e518]: Show All Options
+                - img [ref=f5e520]
+            - generic [ref=f5e523]:
+              - generic [ref=f5e524]: Secured by
+              - generic "RazorPay" [ref=f5e525]:
+                - img [ref=f5e526]

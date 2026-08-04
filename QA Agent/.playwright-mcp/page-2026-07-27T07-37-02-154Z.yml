@@ -1,0 +1,219 @@
+- generic [ref=f9e2]:
+  - generic [ref=f9e3]:
+    - generic [ref=f9e5]:
+      - generic [ref=f9e6]:
+        - link "Logo" [ref=f9e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f9e8]
+        - text: 
+      - list [ref=f9e9]:
+        - listitem [ref=f9e10]:
+          - link " Dashboard" [ref=f9e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f9e12]: 
+            - text: Dashboard
+        - listitem [ref=f9e13]:
+          - link " Batches" [ref=f9e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f9e15]: 
+            - text: Batches
+        - listitem [ref=f9e16]:
+          - link " My Courses" [ref=f9e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f9e18]: 
+            - text: My Courses
+        - listitem [ref=f9e19]:
+          - link " eBooks" [ref=f9e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f9e21]: 
+            - text: eBooks
+        - listitem [ref=f9e22]:
+          - link " Wishlist" [ref=f9e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f9e24]: 
+            - text: Wishlist
+        - listitem [ref=f9e25]:
+          - link " Audiobook" [ref=f9e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f9e27]: 
+            - text: Audiobook
+        - listitem [ref=f9e28]:
+          - link " Resources" [ref=f9e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f9e30]: 
+            - text: Resources
+        - listitem [ref=f9e31]:
+          - link " Current Affairs" [ref=f9e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f9e33]: 
+            - text: Current Affairs
+        - listitem [ref=f9e34]:
+          - link " Test" [ref=f9e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f9e36]: 
+            - text: Test
+        - listitem [ref=f9e37]:
+          - link " Settings" [ref=f9e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f9e39]: 
+            - text: Settings
+        - listitem [ref=f9e40]:
+          - link " Call Reminders" [ref=f9e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f9e42]: 
+            - text: Call Reminders
+        - listitem [ref=f9e43]:
+          - link " Leaderboard" [ref=f9e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f9e45]: 
+            - text: Leaderboard
+        - listitem [ref=f9e46]:
+          - button " APL " [ref=f9e47] [cursor=pointer]:
+            - generic [ref=f9e48]:
+              - generic [ref=f9e49]: 
+              - text: APL
+            - generic [ref=f9e50]: 
+          - text:    
+        - listitem [ref=f9e51]:
+          - link " Notification" [ref=f9e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f9e53]: 
+            - text: Notification
+        - listitem [ref=f9e54]:
+          - button " Logout" [ref=f9e56] [cursor=pointer]:
+            - generic [ref=f9e57]: 
+            - text: Logout
+    - generic [ref=f9e59]:
+      - banner [ref=f9e60]:
+        - text: 
+        - generic [ref=f9e61]:
+          - generic [ref=f9e62]:
+            - generic [ref=f9e63]: 
+            - textbox "Search Course" [ref=f9e64]
+            - text: 
+          - link "" [ref=f9e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f9e68]: 
+          - link "Profile qapromotester270726" [ref=f9e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f9e71]
+            - generic [ref=f9e72]: qapromotester270726
+      - generic [ref=f9e74]:
+        - generic [ref=f9e75]:
+          - heading "My Courses" [level=3] [ref=f9e76]
+          - generic [ref=f9e77]:
+            - generic [ref=f9e78]: "Sort by:"
+            - combobox [ref=f9e79] [cursor=pointer]:
+              - option "All" [selected]
+              - option "Active"
+              - option "Expired"
+        - generic [ref=f9e81]:
+          - generic [ref=f9e83]:
+            - img "QA Test Course" [ref=f9e84]
+            - generic [ref=f9e85]:
+              - generic [ref=f9e86]:
+                - generic [ref=f9e88]: 
+                - heading "QA Test Course" [level=5] [ref=f9e89]
+              - generic [ref=f9e90]:
+                - generic [ref=f9e91]:
+                  - heading "Your Progress" [level=6] [ref=f9e92]
+                  - heading "0.00%" [level=6] [ref=f9e93]
+                - generic [ref=f9e94]:
+                  - progressbar
+                - 'generic "Last watched: Topics 0" [ref=f9e95]'
+            - generic [ref=f9e96]:
+              - generic [ref=f9e98]:
+                - generic [ref=f9e99]:
+                  - generic [ref=f9e100]: 
+                  - generic [ref=f9e101]: 1 Topics
+                - generic [ref=f9e102]:
+                  - generic [ref=f9e103]: 
+                  - generic [ref=f9e104]: 10h 0m
+                - generic [ref=f9e105]:
+                  - generic [ref=f9e106]: 
+                  - generic [ref=f9e107]: "0"
+              - link " Continue Watching" [ref=f9e108] [cursor=pointer]:
+                - /url: /Course/Overview?courseId=136&from=course
+                - generic [ref=f9e109]: 
+                - text: Continue Watching
+          - generic [ref=f9e111]:
+            - img "Free course 2" [ref=f9e112]
+            - generic [ref=f9e113]:
+              - generic [ref=f9e114]:
+                - generic [ref=f9e116]: 
+                - heading "Free course 2" [level=5] [ref=f9e117]
+              - generic [ref=f9e118]:
+                - generic [ref=f9e119]:
+                  - heading "Your Progress" [level=6] [ref=f9e120]
+                  - heading "0.00%" [level=6] [ref=f9e121]
+                - generic [ref=f9e122]:
+                  - progressbar
+                - 'generic "Last watched: Topics 0" [ref=f9e123]'
+            - generic [ref=f9e124]:
+              - generic [ref=f9e126]:
+                - generic [ref=f9e127]:
+                  - generic [ref=f9e128]: 
+                  - generic [ref=f9e129]: 3 Topics
+                - generic [ref=f9e130]:
+                  - generic [ref=f9e131]: 
+                  - generic [ref=f9e132]: 20h 0m
+                - generic [ref=f9e133]:
+                  - generic [ref=f9e134]: 
+                  - generic [ref=f9e135]: "0"
+              - button " Expired" [ref=f9e136] [cursor=pointer]:
+                - generic [ref=f9e137]: 
+                - text: Expired
+          - generic [ref=f9e139]:
+            - img "Assessment Free Course" [ref=f9e140]
+            - generic [ref=f9e141]:
+              - generic [ref=f9e142]:
+                - generic [ref=f9e144]: 
+                - heading "Assessment Free Course" [level=5] [ref=f9e145]
+              - generic [ref=f9e146]:
+                - generic [ref=f9e147]:
+                  - heading "Your Progress" [level=6] [ref=f9e148]
+                  - heading "0.00%" [level=6] [ref=f9e149]
+                - generic [ref=f9e150]:
+                  - progressbar
+                - 'generic "Last watched: Topics 0" [ref=f9e151]'
+            - generic [ref=f9e152]:
+              - generic [ref=f9e154]:
+                - generic [ref=f9e155]:
+                  - generic [ref=f9e156]: 
+                  - generic [ref=f9e157]: 4 Topics
+                - generic [ref=f9e158]:
+                  - generic [ref=f9e159]: 
+                  - generic [ref=f9e160]: 40h 0m
+                - generic [ref=f9e161]:
+                  - generic [ref=f9e162]: 
+                  - generic [ref=f9e163]: "0"
+              - link " Continue Watching" [ref=f9e164] [cursor=pointer]:
+                - /url: /Course/Overview?courseId=89&from=course
+                - generic [ref=f9e165]: 
+                - text: Continue Watching
+        - navigation [ref=f9e166]:
+          - list [ref=f9e167]:
+            - listitem [ref=f9e168]:
+              - link "Previous":
+                - /url: "#"
+            - listitem [ref=f9e169]:
+              - link "1" [ref=f9e170] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f9e171]:
+              - link "Next":
+                - /url: "#"
+  - generic "Ask a doubt" [ref=f9e172]:
+    - generic [ref=f9e173]: 
+  - text:      
+  - contentinfo [ref=f9e174]:
+    - generic [ref=f9e175]:
+      - paragraph [ref=f9e177]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f9e178]:
+        - link "About Us" [ref=f9e179] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f9e180] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f9e181] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f9e182] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

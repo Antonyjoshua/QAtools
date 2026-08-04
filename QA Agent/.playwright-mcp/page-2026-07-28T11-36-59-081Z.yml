@@ -1,0 +1,83 @@
+- generic [ref=f1e4]:
+  - heading "Never Give Up is more important than Success!" [level=2] [ref=f1e8]
+  - generic [ref=f1e10]:
+    - img "Logo" [ref=f1e11]
+    - generic [ref=f1e12]:
+      - heading "Create An Account" [level=2] [ref=f1e13]
+      - paragraph [ref=f1e14]:
+        - text: Already have an account?
+        - link "Login" [ref=f1e15] [cursor=pointer]:
+          - /url: /
+      - generic [ref=f1e16]:
+        - generic [ref=f1e17]:
+          - generic [ref=f1e18]:
+            - generic [ref=f1e19]: First Name *
+            - textbox "First Name *" [ref=f1e20]:
+              - /placeholder: Enter your first name
+              - text: QATEST_APL
+          - generic [ref=f1e21]:
+            - generic [ref=f1e22]: Last Name *
+            - textbox "Last Name *" [ref=f1e23]:
+              - /placeholder: Enter your last name
+              - text: User1
+        - generic [ref=f1e24]:
+          - generic [ref=f1e25]:
+            - generic [ref=f1e26]: Username *
+            - textbox "Username *" [ref=f1e27]:
+              - /placeholder: Enter your username
+              - text: qatestapluser1
+            - paragraph [ref=f1e28]: e.g., rajesh, rajesh1995 (3-20 chars, letters, numbers)
+          - generic [ref=f1e29]:
+            - generic [ref=f1e30]: Email Address *
+            - textbox "Email Address *" [ref=f1e31]:
+              - /placeholder: Enter your email
+              - text: qatest_apl_user1_2026-07-28@mailinator.com
+        - generic [ref=f1e32]:
+          - generic [ref=f1e33]:
+            - generic [ref=f1e34]: Phone Number *
+            - textbox "Phone Number *" [ref=f1e35]:
+              - /placeholder: Enter your phone number
+              - text: "9000000001"
+          - generic [ref=f1e36]:
+            - generic [ref=f1e37]: Date of Birth(Optional)
+            - textbox "Date of Birth(Optional)" [ref=f1e38]
+        - generic [ref=f1e39]:
+          - generic [ref=f1e40]:
+            - generic [ref=f1e41]: Password *
+            - textbox "Password *" [ref=f1e42]:
+              - /placeholder: Enter your password
+              - text: QATest@1234
+            - paragraph [ref=f1e43]: e.g.,Rajesh@123 (min 8 chars with uppercase, lowercase, number & special char)
+          - generic [ref=f1e44]:
+            - generic [ref=f1e45]: Confirm Password *
+            - textbox "Confirm Password *" [ref=f1e46]:
+              - /placeholder: Confirm your password
+              - text: QATest@1234
+        - generic [ref=f1e47]:
+          - generic [ref=f1e48]:
+            - generic [ref=f1e49]: City
+            - textbox "City" [ref=f1e50]:
+              - /placeholder: Enter your City
+              - text: Coimbatore
+          - generic [ref=f1e51]:
+            - generic [ref=f1e52]: Gender
+            - generic [ref=f1e53]:
+              - generic [ref=f1e54]:
+                - radio "Male" [ref=f1e55]
+                - generic [ref=f1e56] [cursor=pointer]: Male
+              - generic [ref=f1e57]:
+                - radio "Female" [ref=f1e58]
+                - generic [ref=f1e59] [cursor=pointer]: Female
+              - generic [ref=f1e60]:
+                - radio "Others" [ref=f1e61]
+                - generic [ref=f1e62] [cursor=pointer]: Others
+        - generic [ref=f1e63]:
+          - checkbox "By clicking Create account, I agree that I have read and accepted the Terms of Use and Privacy Policy" [checked] [active] [ref=f1e64] [cursor=pointer]
+          - generic [ref=f1e65] [cursor=pointer]:
+            - text: By clicking Create account, I agree that I have read and accepted the
+            - link "Terms of Use" [ref=f1e66]:
+              - /url: javascript:void(0)
+            - text: and
+            - link "Privacy Policy" [ref=f1e67]:
+              - /url: javascript:void(0)
+        - button "Create Account" [ref=f1e68] [cursor=pointer]

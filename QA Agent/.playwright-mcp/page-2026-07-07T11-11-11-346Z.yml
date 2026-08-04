@@ -1,0 +1,247 @@
+- generic [active] [ref=f15e1]:
+  - generic [ref=f15e7]:
+    - generic [ref=f15e8]:
+      - generic [ref=f15e9]:
+        - heading "Course" [level=4] [ref=f15e10]
+        - navigation [ref=f15e11]:
+          - list [ref=f15e12]:
+            - listitem [ref=f15e13]:
+              - link [ref=f15e14] [cursor=pointer]:
+                - /url: /Unit/Index
+                - img [ref=f15e15]
+            - listitem [ref=f15e18]: / Units
+      - generic [ref=f15e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f15e22]:
+          - text: 
+          - listitem [ref=f15e23] [cursor=pointer]:
+            - generic [ref=f15e24]:
+              - img "Profile" [ref=f15e25]
+              - generic [ref=f15e26]:
+                - generic [ref=f15e27]: superadmin@gmail.com
+                - paragraph [ref=f15e28]:
+                  - text: SuperAdmin
+                  - generic [ref=f15e29]: 
+    - generic [ref=f15e30]:
+      - generic [ref=f15e32]:
+        - generic [ref=f15e33]:
+          - link [ref=f15e34] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f15e36] [cursor=pointer]
+        - navigation [ref=f15e38]:
+          - list [ref=f15e40]:
+            - generic [ref=f15e45]:
+              - text: 
+              - listitem [ref=f15e46]:
+                - heading "Applications" [level=6] [ref=f15e48]
+              - listitem [ref=f15e49]:
+                - link "Dashboard" [ref=f15e50] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f15e51]
+                  - generic [ref=f15e53]: Dashboard
+                  - text: 
+              - listitem [ref=f15e54]:
+                - link "Enrollment " [ref=f15e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e56]
+                  - generic [ref=f15e58]: Enrollment
+                  - generic [ref=f15e60]: 
+              - listitem [ref=f15e61]:
+                - link "Website Settings " [ref=f15e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e63]
+                  - generic [ref=f15e65]: Website Settings
+                  - generic [ref=f15e67]: 
+              - listitem [ref=f15e68]:
+                - link "Membership " [ref=f15e69] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e70]
+                  - generic [ref=f15e72]: Membership
+                  - generic [ref=f15e74]: 
+              - listitem [ref=f15e75]:
+                - link "Course " [ref=f15e76] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e77]
+                  - generic [ref=f15e79]: Course
+                  - generic [ref=f15e81]: 
+                - list [ref=f15e82]:
+                  - listitem [ref=f15e83]:
+                    - link "Course" [ref=f15e84] [cursor=pointer]:
+                      - /url: /Master/Course
+                  - listitem [ref=f15e85]:
+                    - link "Unit" [ref=f15e86] [cursor=pointer]:
+                      - /url: /Unit/Index
+                  - listitem [ref=f15e87]:
+                    - link "Topics" [ref=f15e88] [cursor=pointer]:
+                      - /url: /Topic/Index
+                  - listitem [ref=f15e89]:
+                    - link "Live" [ref=f15e90] [cursor=pointer]:
+                      - /url: /CourseLive/Index
+                  - listitem [ref=f15e91]:
+                    - link "Doubt Inbox" [ref=f15e92] [cursor=pointer]:
+                      - /url: /Doubt/Inbox
+                  - listitem [ref=f15e93]:
+                    - link "Topic Ratings" [ref=f15e94] [cursor=pointer]:
+                      - /url: /TopicRating/Index
+                  - listitem [ref=f15e95]:
+                    - link "Admin Ratings" [ref=f15e96] [cursor=pointer]:
+                      - /url: /AdminTopicRating/Index
+              - listitem [ref=f15e97]:
+                - link " Self Host " [ref=f15e98] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f15e99]: 
+                  - generic [ref=f15e100]: Self Host
+                  - generic [ref=f15e102]: 
+              - listitem [ref=f15e103]:
+                - link "Assessment " [ref=f15e104] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e105]
+                  - generic [ref=f15e107]: Assessment
+                  - generic [ref=f15e109]: 
+              - listitem [ref=f15e110]:
+                - link "Email Draft " [ref=f15e111] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e112]
+                  - generic [ref=f15e114]: Email Draft
+                  - generic [ref=f15e116]: 
+              - listitem [ref=f15e117]:
+                - link "Admin " [ref=f15e118] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e119]
+                  - generic [ref=f15e121]: Admin
+                  - generic [ref=f15e123]: 
+              - listitem [ref=f15e124]:
+                - link "general icon General " [ref=f15e125] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f15e126]
+                  - generic [ref=f15e127]: General
+                  - generic [ref=f15e129]: 
+              - listitem [ref=f15e130]:
+                - link "Leaderboard" [ref=f15e131] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f15e132]
+                  - generic [ref=f15e134]: Leaderboard
+                  - text: 
+              - listitem [ref=f15e135]:
+                - heading "E-Commerce" [level=6] [ref=f15e137]
+              - listitem [ref=f15e138]:
+                - link "Dashboard" [ref=f15e139] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f15e140]
+                  - generic [ref=f15e142]: Dashboard
+                  - text: 
+              - listitem [ref=f15e143]:
+                - link "product icon Product " [ref=f15e144] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f15e145]
+                  - generic [ref=f15e146]: Product
+                  - generic [ref=f15e148]: 
+              - listitem [ref=f15e149]:
+                - link "Order " [ref=f15e150] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e151]
+                  - generic [ref=f15e153]: Order
+                  - generic [ref=f15e155]: 
+              - listitem [ref=f15e156]:
+                - link "Customer" [ref=f15e157] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f15e158]
+                  - generic [ref=f15e160]: Customer
+                  - text: 
+              - listitem [ref=f15e161]:
+                - heading "Payments" [level=6] [ref=f15e163]
+              - listitem [ref=f15e164]:
+                - link "Transactions " [ref=f15e165] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e166]
+                  - generic [ref=f15e168]: Transactions
+                  - generic [ref=f15e170]: 
+              - listitem [ref=f15e171]:
+                - heading "Notifcations" [level=6] [ref=f15e173]
+              - listitem [ref=f15e174]:
+                - link "notify-ico Notifications " [ref=f15e175] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f15e176]
+                  - generic [ref=f15e177]: Notifications
+                  - generic [ref=f15e179]: 
+              - listitem [ref=f15e180]:
+                - heading "Job Management" [level=6] [ref=f15e182]
+              - listitem [ref=f15e183]:
+                - link "notify-ico Jobs " [ref=f15e184] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f15e185]
+                  - generic [ref=f15e186]: Jobs
+                  - generic [ref=f15e188]: 
+      - main [ref=f15e190]:
+        - generic [ref=f15e195]:
+          - generic [ref=f15e197]:
+            - text: Show
+            - combobox "Show entries" [ref=f15e198] [cursor=pointer]:
+              - option "10" [selected]
+              - option "25"
+              - option "50"
+              - option "100"
+            - text: entries
+          - generic [ref=f15e200]:
+            - text: "Search:"
+            - searchbox "Search:" [ref=f15e201] [cursor=pointer]: QA Test Course
+          - grid [ref=f15e202]:
+            - rowgroup [ref=f15e203]:
+              - 'row "Course Code: activate to sort column descending Title: activate to sort column ascending Description: activate to sort column ascending Duration (Hours): activate to sort column ascending Status: activate to sort column ascending Created Date: activate to sort column ascending" [ref=f15e204]':
+                - 'columnheader "Course Code: activate to sort column descending" [ref=f15e205] [cursor=pointer]': ↑ Course Code ↓
+                - 'columnheader "Title: activate to sort column ascending" [ref=f15e206] [cursor=pointer]': ↑ Title ↓
+                - 'columnheader "Description: activate to sort column ascending" [ref=f15e207] [cursor=pointer]': ↑ Description ↓
+                - 'columnheader "Duration (Hours): activate to sort column ascending" [ref=f15e208] [cursor=pointer]': ↑ Duration (Hours) ↓
+                - 'columnheader "Status: activate to sort column ascending" [ref=f15e209] [cursor=pointer]': ↑ Status ↓
+                - 'columnheader "Created Date: activate to sort column ascending" [ref=f15e210] [cursor=pointer]': ↑ Created Date ↓
+            - rowgroup [ref=f15e211]:
+              - row " QA-TEST-01 QA Test Course 10 Active 07/07/2026" [ref=f15e386] [cursor=pointer]:
+                - gridcell " QA-TEST-01" [ref=f15e387]:
+                  - generic [ref=f15e375]: 
+                  - text: QA-TEST-01
+                - gridcell "QA Test Course" [ref=f15e376]
+                - gridcell [ref=f15e377]
+                - gridcell "10" [ref=f15e378]
+                - gridcell "Active" [ref=f15e379]:
+                  - generic [ref=f15e380]: Active
+                - gridcell "07/07/2026" [ref=f15e381]
+              - row "Units  Add Unit Image Unit Name Description Duration (Minutes) Actions No units found for this course." [ref=f15e388]:
+                - gridcell "Units  Add Unit Image Unit Name Description Duration (Minutes) Actions No units found for this course." [ref=f15e389]:
+                  - generic [ref=f15e391]:
+                    - generic [ref=f15e392]:
+                      - paragraph [ref=f15e393]: Units
+                      - link " Add Unit" [ref=f15e394] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=f15e395]: 
+                        - text: Add Unit
+                    - table [ref=f15e398]:
+                      - rowgroup [ref=f15e399]:
+                        - row "Image Unit Name Description Duration (Minutes) Actions" [ref=f15e400]:
+                          - columnheader [ref=f15e401]
+                          - columnheader "Image" [ref=f15e402]
+                          - columnheader "Unit Name" [ref=f15e403]
+                          - columnheader "Description" [ref=f15e404]
+                          - columnheader "Duration (Minutes)" [ref=f15e405]
+                          - columnheader "Actions" [ref=f15e406]
+                      - rowgroup [ref=f15e407]:
+                        - row "No units found for this course." [ref=f15e408]:
+                          - cell "No units found for this course." [ref=f15e409]
+          - status [ref=f15e302]: Showing 1 to 1 of 1 entries (filtered from 34 total entries)
+          - generic [ref=f15e303]:
+            - generic [ref=f15e382]: Previous
+            - generic [ref=f15e384] [cursor=pointer]: "1"
+            - generic [ref=f15e385]: Next
+        - text: 
+      - contentinfo [ref=f15e311]:
+        - paragraph [ref=f15e315]:
+          - text: Copyright
+          - generic [ref=f15e316]: "2026"
+          - text: © Jeshwar Teaching
+  - img

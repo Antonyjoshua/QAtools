@@ -1,0 +1,299 @@
+- generic [ref=f55e1]:
+  - generic [ref=f55e7]:
+    - generic [ref=f55e8]:
+      - generic [ref=f55e9]:
+        - heading [level=4] [ref=f55e583]: Product
+        - navigation [ref=f55e11]:
+          - list [ref=f55e12]:
+            - listitem [ref=f55e13]:
+              - link [ref=f55e14] [cursor=pointer]:
+                - /url: /Inventory/Inventory
+                - img [ref=f55e15]
+            - listitem [ref=f55e18]: / Inventory Management
+      - generic [ref=f55e20]:
+        - text: 
+        - list [ref=f55e22]:
+          - listitem [ref=f55e23]:
+            - generic [ref=f55e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f55e26]:
+      - generic [ref=f55e28]:
+        - text: 
+        - link [ref=f55e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f55e31]:
+          - list [ref=f55e33]:
+            - generic [ref=f55e38]:
+              - text: 
+              - listitem [ref=f55e39]:
+                - link [ref=f55e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f55e41]
+                  - text: 
+              - listitem [ref=f55e43]:
+                - link [ref=f55e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e45]
+                  - text: 
+              - listitem [ref=f55e47]:
+                - link [ref=f55e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e49]
+                  - text: 
+              - listitem [ref=f55e51]:
+                - link [ref=f55e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e53]
+                  - text: 
+              - listitem [ref=f55e55]:
+                - link [ref=f55e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e57]
+                  - text: 
+              - listitem [ref=f55e59]:
+                - link [ref=f55e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e61]
+                  - text: 
+              - listitem [ref=f55e63]:
+                - link [ref=f55e584] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f55e65]: 
+                  - text: 
+              - listitem [ref=f55e66]:
+                - link [ref=f55e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e68]
+                  - text: 
+              - listitem [ref=f55e70]:
+                - link [ref=f55e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e72]
+                  - text: 
+              - listitem [ref=f55e74]:
+                - link [ref=f55e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e76]
+                  - text: 
+              - listitem [ref=f55e78]:
+                - link [ref=f55e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e80]
+                  - text: 
+              - listitem [ref=f55e82]:
+                - link [ref=f55e585] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e586]
+                  - text: 
+              - listitem [ref=f55e85]:
+                - link [ref=f55e86] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f55e87]
+                  - text: 
+              - listitem [ref=f55e89]:
+                - link [ref=f55e90] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f55e91]
+                  - text: 
+              - listitem [ref=f55e93]:
+                - link [ref=f55e587] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e588]
+                  - text: 
+              - listitem [ref=f55e96]:
+                - link [ref=f55e97] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e98]
+                  - text: 
+              - listitem [ref=f55e100]:
+                - link [ref=f55e101] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f55e102]
+                  - text: 
+              - listitem [ref=f55e104]:
+                - link [ref=f55e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e106]
+                  - text: 
+              - listitem [ref=f55e108]:
+                - link [ref=f55e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e110]
+                  - text: 
+              - listitem [ref=f55e112]:
+                - link [ref=f55e113] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f55e114]
+              - listitem [ref=f55e116]:
+                - link [ref=f55e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e118]
+                  - text: 
+              - listitem [ref=f55e120]:
+                - link [ref=f55e589] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e590]
+                  - text: 
+              - listitem [ref=f55e123]:
+                - link [ref=f55e591] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f55e592]
+                  - text: 
+      - main [ref=f55e127]:
+        - generic [ref=f55e129]:
+          - generic [ref=f55e130]:
+            - heading [level=5] [ref=f55e593]: Inventory Transactions
+            - button [active] [ref=f55e594] [cursor=pointer]:
+              - generic [ref=f55e134]: 
+              - text: Set / Adjust Stock
+          - generic [ref=f55e135]:
+            - generic [ref=f55e137]:
+              - generic [ref=f55e138]:
+                - generic [ref=f55e139]: Product
+                - combobox [ref=f55e140] [cursor=pointer]
+              - generic [ref=f55e141]:
+                - generic [ref=f55e142]: Transaction Type
+                - combobox [ref=f55e143] [cursor=pointer]
+              - generic [ref=f55e144]:
+                - button [ref=f55e595] [cursor=pointer]: Apply
+                - button [ref=f55e596] [cursor=pointer]: Clear
+            - generic [ref=f55e148]:
+              - generic [ref=f55e150]:
+                - text: Show
+                - combobox [ref=f55e597] [cursor=pointer]
+                - text: entries
+              - generic [ref=f55e153]:
+                - text: "Search:"
+                - searchbox [ref=f55e598] [cursor=pointer]
+              - grid [ref=f55e155]:
+                - rowgroup [ref=f55e156]:
+                  - row [ref=f55e599]:
+                    - columnheader [ref=f55e600] [cursor=pointer]: ↑ Date ↓
+                    - columnheader [ref=f55e601] [cursor=pointer]: ↑ Product ↓
+                    - columnheader [ref=f55e602] [cursor=pointer]: ↑ Customer ↓
+                    - columnheader [ref=f55e603] [cursor=pointer]: ↑ Reason ↓
+                    - columnheader [ref=f55e604] [cursor=pointer]: ↑ Quantity ↓
+                    - columnheader [ref=f55e605] [cursor=pointer]: ↑ Type ↓
+                    - columnheader [ref=f55e606] [cursor=pointer]: ↑ Total Stock ↓
+                - rowgroup [ref=f55e180]:
+                  - row [ref=f55e607]:
+                    - gridcell [ref=f55e608]: 14/7/2026, 4:43:14 pm
+                    - gridcell [ref=f55e609]: Manual book
+                    - gridcell [ref=f55e610]: —
+                    - gridcell [ref=f55e611]: QA-TEST-ADJ-REVERT
+                    - gridcell [ref=f55e612]:
+                      - generic [ref=f55e613]: ±1
+                    - gridcell [ref=f55e614]:
+                      - generic [ref=f55e615]: ADJUSTMENT
+                    - gridcell [ref=f55e616]: "2"
+                  - row [ref=f55e617]:
+                    - gridcell [ref=f55e618]: 14/7/2026, 4:40:59 pm
+                    - gridcell [ref=f55e619]: Manual book
+                    - gridcell [ref=f55e620]: —
+                    - gridcell [ref=f55e621]: QA-TEST-ADJ
+                    - gridcell [ref=f55e622]:
+                      - generic [ref=f55e623]: "+1"
+                    - gridcell [ref=f55e624]:
+                      - generic [ref=f55e625]: IN
+                    - gridcell [ref=f55e626]: "3"
+                  - row [ref=f55e627]:
+                    - gridcell [ref=f55e628]: 14/7/2026, 4:37:15 pm
+                    - gridcell [ref=f55e629]: Combo 2
+                    - gridcell [ref=f55e630]: —
+                    - gridcell [ref=f55e631]: "Manual Purchase #MP-20260714-163715-796 — QA-TEST-E5"
+                    - gridcell [ref=f55e632]:
+                      - generic [ref=f55e633]: −1
+                    - gridcell [ref=f55e634]:
+                      - generic [ref=f55e635]: OUT
+                    - gridcell [ref=f55e636]: "1"
+                  - row [ref=f55e637]:
+                    - gridcell [ref=f55e638]: 14/7/2026, 4:28:44 pm
+                    - gridcell [ref=f55e639]: Test-REs
+                    - gridcell [ref=f55e640]: —
+                    - gridcell [ref=f55e641]: "Manual Purchase #MP-20260714-162844-824 — QA-TEST-E1"
+                    - gridcell [ref=f55e642]:
+                      - generic [ref=f55e643]: −1
+                    - gridcell [ref=f55e644]:
+                      - generic [ref=f55e645]: OUT
+                    - gridcell [ref=f55e646]: "0"
+                  - row [ref=f55e647]:
+                    - gridcell [ref=f55e648]: 14/7/2026, 4:20:11 pm
+                    - gridcell [ref=f55e649]: Ink bottle
+                    - gridcell [ref=f55e650]: —
+                    - gridcell [ref=f55e651]: "Manual Purchase #MP-20260714-162011-823 — QA-TEST-P3b"
+                    - gridcell [ref=f55e652]:
+                      - generic [ref=f55e653]: −1
+                    - gridcell [ref=f55e654]:
+                      - generic [ref=f55e655]: OUT
+                    - gridcell [ref=f55e656]: "5"
+                  - row [ref=f55e657]:
+                    - gridcell [ref=f55e658]: 14/7/2026, 4:19:09 pm
+                    - gridcell [ref=f55e659]: Ink bottle
+                    - gridcell [ref=f55e660]: —
+                    - gridcell [ref=f55e661]: "Manual Purchase #MP-20260714-161909-133 — QA-TEST-P3a"
+                    - gridcell [ref=f55e662]:
+                      - generic [ref=f55e663]: −1
+                    - gridcell [ref=f55e664]:
+                      - generic [ref=f55e665]: OUT
+                    - gridcell [ref=f55e666]: "6"
+                  - row [ref=f55e667]:
+                    - gridcell [ref=f55e668]: 14/7/2026, 4:13:52 pm
+                    - gridcell [ref=f55e669]: Books combo
+                    - gridcell [ref=f55e670]: —
+                    - gridcell [ref=f55e671]: "Manual Purchase #MP-20260714-161352-484 — QA-TEST-P2"
+                    - gridcell [ref=f55e672]:
+                      - generic [ref=f55e673]: −2
+                    - gridcell [ref=f55e674]:
+                      - generic [ref=f55e675]: OUT
+                    - gridcell [ref=f55e676]: "2"
+                  - row [ref=f55e677]:
+                    - gridcell [ref=f55e678]: 14/7/2026, 4:11:14 pm
+                    - gridcell [ref=f55e679]: Test Book K1
+                    - gridcell [ref=f55e680]: Mahalakshmi Mahalakshmi
+                    - gridcell [ref=f55e681]: "Stock restored: payment timeout (Order #3241)"
+                    - gridcell [ref=f55e682]:
+                      - generic [ref=f55e683]: "+1"
+                    - gridcell [ref=f55e684]:
+                      - generic [ref=f55e685]: IN
+                    - gridcell [ref=f55e686]: "12"
+                  - row [ref=f55e687]:
+                    - gridcell [ref=f55e688]: 14/7/2026, 4:08:06 pm
+                    - gridcell [ref=f55e689]: Ink bottle
+                    - gridcell [ref=f55e690]: —
+                    - gridcell [ref=f55e691]: "Manual Purchase #MP-20260714-160806-193 — QA-TEST-P1"
+                    - gridcell [ref=f55e692]:
+                      - generic [ref=f55e693]: −2
+                    - gridcell [ref=f55e694]:
+                      - generic [ref=f55e695]: OUT
+                    - gridcell [ref=f55e696]: "7"
+                  - row [ref=f55e697]:
+                    - gridcell [ref=f55e698]: 14/7/2026, 3:56:37 pm
+                    - gridcell [ref=f55e699]: Test Book K1
+                    - gridcell [ref=f55e700]: Mahalakshmi Mahalakshmi
+                    - gridcell [ref=f55e701]: "Order placed: #4234"
+                    - gridcell [ref=f55e702]:
+                      - generic [ref=f55e703]: −1
+                    - gridcell [ref=f55e704]:
+                      - generic [ref=f55e705]: OUT
+                    - gridcell [ref=f55e706]: "11"
+              - status [ref=f55e281]: Showing 1 to 10 of 5,432 entries
+              - generic [ref=f55e165]:
+                - generic [ref=f55e707]: ‹
+                - generic [ref=f55e708]:
+                  - generic [ref=f55e709] [cursor=pointer]: "1"
+                  - generic [ref=f55e710] [cursor=pointer]: "2"
+                  - generic [ref=f55e711] [cursor=pointer]: "3"
+                  - generic [ref=f55e712] [cursor=pointer]: "4"
+                  - generic [ref=f55e713] [cursor=pointer]: "5"
+                  - generic [ref=f55e714]: …
+                  - generic [ref=f55e715] [cursor=pointer]: "544"
+                - generic [ref=f55e716] [cursor=pointer]: ›
+      - contentinfo [ref=f55e166]:
+        - paragraph [ref=f55e170]:
+          - text: Copyright
+          - generic [ref=f55e171]: "2026"
+          - text: © Jeshwar Teaching
+  - dialog "Success" [ref=f55e718]:
+    - heading "Success" [level=2] [ref=f55e726]
+    - generic [ref=f55e727]: Stock adjusted successfully.
+    - text: "!"

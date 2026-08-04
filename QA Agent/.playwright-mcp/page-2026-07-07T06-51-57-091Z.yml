@@ -1,0 +1,165 @@
+- generic [ref=f40e2]:
+  - generic [ref=f40e3]:
+    - generic [ref=f40e5]:
+      - generic [ref=f40e6]:
+        - link "Logo" [ref=f40e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f40e8]
+        - text: 
+      - list [ref=f40e9]:
+        - listitem [ref=f40e10]:
+          - link " Dashboard" [ref=f40e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f40e12]: 
+            - text: Dashboard
+        - listitem [ref=f40e13]:
+          - link " Batches" [ref=f40e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f40e15]: 
+            - text: Batches
+        - listitem [ref=f40e16]:
+          - link " My Courses" [ref=f40e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f40e18]: 
+            - text: My Courses
+        - listitem [ref=f40e19]:
+          - link " Wishlist" [ref=f40e20] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f40e21]: 
+            - text: Wishlist
+        - listitem [ref=f40e22]:
+          - link " Audiobook" [ref=f40e23] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f40e24]: 
+            - text: Audiobook
+        - listitem [ref=f40e25]:
+          - link " Resources" [ref=f40e26] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f40e27]: 
+            - text: Resources
+        - listitem [ref=f40e28]:
+          - link " Current Affairs" [ref=f40e29] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f40e30]: 
+            - text: Current Affairs
+        - listitem [ref=f40e31]:
+          - link " Test" [ref=f40e32] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f40e33]: 
+            - text: Test
+        - listitem [ref=f40e34]:
+          - link " Settings" [ref=f40e35] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f40e36]: 
+            - text: Settings
+        - listitem [ref=f40e37]:
+          - link " Leaderboard" [ref=f40e38] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f40e39]: 
+            - text: Leaderboard
+        - listitem [ref=f40e40]:
+          - link " Notification" [ref=f40e41] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f40e42]: 
+            - text: Notification
+        - listitem [ref=f40e43]:
+          - button " Logout" [ref=f40e45] [cursor=pointer]:
+            - generic [ref=f40e46]: 
+            - text: Logout
+    - generic [ref=f40e48]:
+      - banner [ref=f40e49]:
+        - text: 
+        - generic [ref=f40e50]:
+          - generic [ref=f40e51]:
+            - generic [ref=f40e52]: 
+            - textbox "Search Course" [ref=f40e53]
+            - text: 
+          - link "" [ref=f40e55] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f40e57]: 
+          - link "Profile deepa070712" [ref=f40e59] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f40e60]
+            - generic [ref=f40e61]: deepa070712
+      - generic [ref=f40e67]:
+        - generic [ref=f40e68]:
+          - img "Jt Release Course" [ref=f40e69]
+          - generic [ref=f40e71]:
+            - heading "Jt Release Course" [level=5] [ref=f40e72]
+            - generic [ref=f40e73]:
+              - generic [ref=f40e74] [cursor=pointer]: JTRelease -01
+              - generic [ref=f40e75] [cursor=pointer]: 300 Hours
+              - generic [ref=f40e76] [cursor=pointer]: JtRelease
+            - generic [ref=f40e77]:
+              - paragraph [ref=f40e78]: "Choose a Subscription Plan:"
+              - generic [ref=f40e79]:
+                - generic [ref=f40e80] [cursor=pointer]:
+                  - radio "Basic plan 3 Month(s) ₹1000.00"
+                  - generic [ref=f40e83]:
+                    - generic [ref=f40e84]: Basic plan
+                    - generic [ref=f40e85]: 3 Month(s)
+                    - generic [ref=f40e86]: ₹1000.00
+                - generic [ref=f40e87] [cursor=pointer]:
+                  - radio "Pro plan 6 Month(s) ₹2000.00"
+                  - generic [ref=f40e90]:
+                    - generic [ref=f40e91]: Pro plan
+                    - generic [ref=f40e92]: 6 Month(s)
+                    - generic [ref=f40e93]: ₹2000.00
+                - generic [ref=f40e94] [cursor=pointer]:
+                  - radio "Premium plan 12 Month(s) ₹3000.00"
+                  - generic [ref=f40e97]:
+                    - generic [ref=f40e98]: Premium plan
+                    - generic [ref=f40e99]: 12 Month(s)
+                    - generic [ref=f40e100]: ₹3000.00
+                - generic [ref=f40e101] [cursor=pointer]:
+                  - radio "12 months 12 Month(s) ₹4000.00"
+                  - generic [ref=f40e104]:
+                    - generic [ref=f40e105]: 12 months
+                    - generic [ref=f40e106]: 12 Month(s)
+                    - generic [ref=f40e107]: ₹4000.00
+                - button "Enroll Join Now" [active] [ref=f40e109] [cursor=pointer]:
+                  - img "Enroll" [ref=f40e110]
+                  - text: Join Now
+              - text: Please select a subscription plan.
+        - generic [ref=f40e112]:
+          - heading "Course Overview" [level=4] [ref=f40e113]
+          - generic [ref=f40e114]:
+            - paragraph [ref=f40e115]:
+              - strong [ref=f40e116]: TNPSC அடிப்படை பயிற்சி வகுப்பு
+              - text: என்பது TNPSC குரூப் 1, 2, 2A மற்றும் 4 தேர்வுகளை இலக்காகக் கொண்டு முழுமையான மற்றும் கட்டமைக்கப்பட்ட பயிற்சித் திட்டமாகும். இந்தப் பயிற்சி வகுப்பு, தொடக்கநிலை மற்றும் இடைநிலை மாணவர்களுக்காகச் சிறப்பாக வடிவமைக்கப்பட்டுள்ளது.
+            - paragraph [ref=f40e117]: இதில், பொதுத்திறன், எண்ணியல், மொழித் திறன் (தமிழ்/ஆங்கிலம்) ஆகியவை முழுமையாகக் கற்பிக்கப்படுகின்றன. தமிழக வரலாறு, பண்பாடு, சமூக அமைப்பு மற்றும் நிர்வாக மேம்பாடுகள் ஆகியவற்றிற்கு சிறப்பு முக்கியத்துவம் அளிக்கப்படுகிறது.
+            - paragraph [ref=f40e118]:
+              - strong [ref=f40e119]: "சிறப்பம்சங்கள்:"
+            - paragraph [ref=f40e120]:
+              - strong [ref=f40e121]: பயிற்சி காலம்
+              - text: – 12 மாதங்களுக்கு மேல், வாரத்தில் 6 நாட்கள் வகுப்புகள்
+              - strong [ref=f40e122]: மொத்த வகுப்புகள்
+              - text: – 230+ கட்டமைக்கப்பட்ட நேரடி வகுப்புகள்
+              - strong [ref=f40e123]: மொழி
+              - text: – இருமொழி (தமிழ் & ஆங்கிலம்) - தமிழ் வழிக் கற்றலுக்கு முக்கியத்துவம்
+              - strong [ref=f40e124]: ஆன்லைன் அணுகல்
+              - text: – 24/7 பதிவு செய்யப்பட்ட வகுப்புகள் (மீண்டும் பார்க்க வசதி)
+              - strong [ref=f40e125]: பயிற்சி தேர்வுகள்
+              - text: – 75+ ஆன்லைன் பயிற்சித் தேர்வுகள் (குரூப் 1 & 2)
+              - strong [ref=f40e126]: வழிகாட்டுதல்
+              - text: – தனிப்பட்ட மாணவர் கவனிப்பு, ஐயம்தீர்ப்பு வகுப்புகள், முன்னேற்றக் கண்காணிப்பு
+          - generic [ref=f40e127]:
+            - heading "Course Duration:" [level=6] [ref=f40e128]
+            - paragraph [ref=f40e129]:
+              - generic [ref=f40e130]: 
+              - text: Jun 26, 2026 – Nov 30, 2026
+            - paragraph [ref=f40e131]:
+              - generic [ref=f40e132]: 
+              - text: 300 hours of content
+  - contentinfo [ref=f40e133]:
+    - generic [ref=f40e134]:
+      - paragraph [ref=f40e136]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f40e137]:
+        - link "About Us" [ref=f40e138] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f40e139] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f40e140] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f40e141] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

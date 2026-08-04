@@ -1,0 +1,18 @@
+[     385ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[     507ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[    1092ms] [LOG] Current Path: /question/aigenerate @ https://jt-admin.scopethinkers.com/Question/AiGenerate?assessmentId=1172:1045
+[    1093ms] [LOG] Matched: /question/aigenerate {menu: Assessment, submenu: Course} @ https://jt-admin.scopethinkers.com/Question/AiGenerate?assessmentId=1172:1240
+[    1093ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Question/AiGenerate?assessmentId=1172:1252
+[    1095ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Question/AiGenerate?assessmentId=1172:1261
+[    1095ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Question/AiGenerate?assessmentId=1172:1282
+[   45350ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[   45557ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[   46085ms] [LOG] Current Path: /question/aipreview @ https://jt-admin.scopethinkers.com/Question/AiPreview?assessmentId=1172:1210
+[   46086ms] [LOG] Matched: /question/aipreview {menu: Assessment, submenu: Course} @ https://jt-admin.scopethinkers.com/Question/AiPreview?assessmentId=1172:1405
+[   46086ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Question/AiPreview?assessmentId=1172:1417
+[   46087ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Question/AiPreview?assessmentId=1172:1426
+[   46088ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Question/AiPreview?assessmentId=1172:1447

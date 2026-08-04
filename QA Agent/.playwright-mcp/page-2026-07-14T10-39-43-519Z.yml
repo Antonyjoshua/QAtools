@@ -1,0 +1,530 @@
+- generic [ref=f16e1]:
+  - generic [ref=f16e7]:
+    - generic [ref=f16e8]:
+      - generic [ref=f16e9]:
+        - heading "Dashboard" [level=4] [ref=f16e10]
+        - navigation [ref=f16e11]:
+          - list [ref=f16e12]:
+            - listitem [ref=f16e13]:
+              - link [ref=f16e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f16e15]
+            - listitem [ref=f16e18]: / Index
+      - generic [ref=f16e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f16e22]:
+          - listitem [ref=f16e23]:
+            - generic [ref=f16e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f16e26]:
+      - generic [ref=f16e28]:
+        - text: 
+        - link [ref=f16e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f16e31]:
+          - list [ref=f16e33]:
+            - generic [ref=f16e38]:
+              - text: 
+              - listitem [ref=f16e39]:
+                - link [ref=f16e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f16e41]
+                  - text: 
+              - listitem [ref=f16e43]:
+                - link [ref=f16e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e45]
+                  - text: 
+              - listitem [ref=f16e47]:
+                - link [ref=f16e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e49]
+                  - text: 
+              - listitem [ref=f16e51]:
+                - link [ref=f16e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e53]
+                  - text: 
+              - listitem [ref=f16e55]:
+                - link [ref=f16e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e57]
+                  - text: 
+              - listitem [ref=f16e59]:
+                - link [ref=f16e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e61]
+                  - text: 
+              - listitem [ref=f16e63]:
+                - link "" [ref=f16e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f16e65]: 
+                  - text: 
+              - listitem [ref=f16e66]:
+                - link [ref=f16e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e68]
+                  - text: 
+              - listitem [ref=f16e70]:
+                - link [ref=f16e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e72]
+                  - text: 
+              - listitem [ref=f16e74]:
+                - link [ref=f16e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e76]
+                  - text: 
+              - listitem [ref=f16e78]:
+                - link [ref=f16e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e80]
+                  - text: 
+              - listitem [ref=f16e82]:
+                - link "general icon" [ref=f16e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f16e84]
+                  - text: 
+              - listitem [ref=f16e85]:
+                - link [ref=f16e86] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f16e87]
+                  - text: 
+              - listitem [ref=f16e89]:
+                - link [ref=f16e90] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f16e91]
+                  - text: 
+              - listitem [ref=f16e93]:
+                - link "product icon" [ref=f16e94] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f16e95]
+                  - text: 
+              - listitem [ref=f16e96]:
+                - link [ref=f16e97] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e98]
+                  - text: 
+              - listitem [ref=f16e100]:
+                - link [ref=f16e101] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f16e102]
+                  - text: 
+              - listitem [ref=f16e104]:
+                - link [ref=f16e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e106]
+                  - text: 
+              - listitem [ref=f16e108]:
+                - link [ref=f16e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e110]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f16e112]:
+                - link [ref=f16e113] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f16e114]
+              - listitem [ref=f16e116]:
+                - link [ref=f16e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e118]
+                  - text: 
+              - listitem [ref=f16e120]:
+                - link "notify-ico" [ref=f16e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f16e122]
+                  - text: 
+              - listitem [ref=f16e123]:
+                - link "notify-ico" [ref=f16e124] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f16e125]
+                  - text: 
+      - main [ref=f16e127]:
+        - generic [ref=f16e131]:
+          - generic [ref=f16e132]:
+            - heading "Inventory Report" [level=5] [ref=f16e133]
+            - button " Export Excel" [ref=f16e134] [cursor=pointer]:
+              - generic [ref=f16e135]: 
+              - text: Export Excel
+          - generic [ref=f16e136]:
+            - generic [ref=f16e138]:
+              - generic [ref=f16e139]:
+                - generic [ref=f16e140]: From Date
+                - textbox [ref=f16e141] [cursor=pointer]
+              - generic [ref=f16e142]:
+                - generic [ref=f16e143]: To Date
+                - textbox [ref=f16e144] [cursor=pointer]
+              - generic [ref=f16e145]:
+                - generic [ref=f16e146]: Product Title
+                - textbox "Search product..." [ref=f16e147] [cursor=pointer]
+              - generic [ref=f16e148]:
+                - generic [ref=f16e149]: Product Type
+                - combobox [ref=f16e150] [cursor=pointer]:
+                  - option "All Types" [selected]
+                  - option "Books"
+                  - option "Product Type"
+                  - option "Stationary"
+                  - option "Study Products"
+                  - option "Notes"
+                  - option "Exam Kit"
+                  - option "Miscellaneous"
+                  - option "Notes"
+                  - option "JT special store"
+                  - option "Multiple/Combo"
+                  - option "Combo"
+                  - option "Combo"
+              - generic [ref=f16e151]:
+                - generic [ref=f16e152]: Transaction Type
+                - combobox [ref=f16e153] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "IN"
+                  - option "OUT"
+                  - option "ADJUSTMENT"
+              - generic [ref=f16e154]:
+                - generic [ref=f16e155]: Customer
+                - textbox "Search customer..." [ref=f16e156] [cursor=pointer]
+              - generic [ref=f16e157]:
+                - button "Apply" [ref=f16e158] [cursor=pointer]
+                - button "Clear" [ref=f16e159] [cursor=pointer]
+            - generic [ref=f16e160]:
+              - generic [ref=f16e161]:
+                - generic [ref=f16e162]:
+                  - generic [ref=f16e163]: Total Stock IN
+                  - heading "23717" [level=3] [ref=f16e164]
+                - generic [ref=f16e166]: 
+              - generic [ref=f16e167]:
+                - generic [ref=f16e168]:
+                  - generic [ref=f16e169]: Total Stock OUT
+                  - heading "3500" [level=3] [ref=f16e170]
+                - generic [ref=f16e172]: 
+              - generic [ref=f16e173]:
+                - generic [ref=f16e174]:
+                  - generic [ref=f16e175]: Current Total Stock
+                  - heading "502" [level=3] [ref=f16e176]
+                - generic [ref=f16e178]: 
+              - generic [ref=f16e179]:
+                - generic [ref=f16e180]:
+                  - generic [ref=f16e181]: Low / Out of Stock
+                  - heading "24" [level=3] [ref=f16e182]
+                - generic [ref=f16e184]: 
+            - tablist [ref=f16e185]:
+              - tab "Transaction Detail" [selected] [ref=f16e186] [cursor=pointer]
+              - tab "Product Summary" [ref=f16e187] [cursor=pointer]
+            - tabpanel "Transaction Detail" [ref=f16e189]:
+              - generic [ref=f16e191]:
+                - grid [ref=f16e192]:
+                  - rowgroup [ref=f16e193]:
+                    - 'row "Date: activate to sort column ascending Product: activate to sort column ascending Type: activate to sort column ascending Txn Type: activate to sort column ascending Qty Changed: activate to sort column ascending Stock After: activate to sort column ascending Customer: activate to sort column ascending Order #: activate to sort column ascending Reason: activate to sort column ascending" [ref=f16e194]':
+                      - 'columnheader "Date: activate to sort column ascending" [ref=f16e195] [cursor=pointer]': Date 
+                      - 'columnheader "Product: activate to sort column ascending" [ref=f16e196] [cursor=pointer]': Product 
+                      - 'columnheader "Type: activate to sort column ascending" [ref=f16e197] [cursor=pointer]': Type 
+                      - 'columnheader "Txn Type: activate to sort column ascending" [ref=f16e198] [cursor=pointer]': Txn Type 
+                      - 'columnheader "Qty Changed: activate to sort column ascending" [ref=f16e199] [cursor=pointer]': Qty Changed 
+                      - 'columnheader "Stock After: activate to sort column ascending" [ref=f16e200] [cursor=pointer]': Stock After 
+                      - 'columnheader "Customer: activate to sort column ascending" [ref=f16e201] [cursor=pointer]': Customer 
+                      - 'columnheader "Order #: activate to sort column ascending" [ref=f16e202] [cursor=pointer]': "Order # "
+                      - 'columnheader "Reason: activate to sort column ascending" [ref=f16e203] [cursor=pointer]': Reason 
+                  - rowgroup [ref=f16e204]:
+                    - 'row "14/07/26, 4:08 pm Ink bottle Stationary OUT 2 7 Manual Purchase #MP-20260714-160806-193 — QA-TEST-P1" [ref=f16e205]':
+                      - gridcell "14/07/26, 4:08 pm" [ref=f16e206]
+                      - gridcell "Ink bottle" [ref=f16e207]
+                      - gridcell "Stationary" [ref=f16e208]
+                      - gridcell "OUT" [ref=f16e209]:
+                        - generic [ref=f16e210]: OUT
+                      - gridcell "2" [ref=f16e211]
+                      - gridcell "7" [ref=f16e212]
+                      - gridcell [ref=f16e213]
+                      - gridcell [ref=f16e214]
+                      - 'gridcell "Manual Purchase #MP-20260714-160806-193 — QA-TEST-P1" [ref=f16e215]'
+                    - 'row "14/07/26, 3:56 pm Test Book K1 Books OUT -1 11 Mahalakshmi Mahalakshmi 3241 Order placed: #4234" [ref=f16e216]':
+                      - gridcell "14/07/26, 3:56 pm" [ref=f16e217]
+                      - gridcell "Test Book K1" [ref=f16e218]
+                      - gridcell "Books" [ref=f16e219]
+                      - gridcell "OUT" [ref=f16e220]:
+                        - generic [ref=f16e221]: OUT
+                      - gridcell "-1" [ref=f16e222]
+                      - gridcell "11" [ref=f16e223]
+                      - gridcell "Mahalakshmi Mahalakshmi" [ref=f16e224]
+                      - gridcell "3241" [ref=f16e225]
+                      - 'gridcell "Order placed: #4234" [ref=f16e226]'
+                    - 'row "14/07/26, 3:55 pm Test Book K1 Books IN 1 14 Mahalakshmi Mahalakshmi 3240 Stock restored: payment timeout (Order #3240)" [ref=f16e227]':
+                      - gridcell "14/07/26, 3:55 pm" [ref=f16e228]
+                      - gridcell "Test Book K1" [ref=f16e229]
+                      - gridcell "Books" [ref=f16e230]
+                      - gridcell "IN" [ref=f16e231]:
+                        - generic [ref=f16e232]: IN
+                      - gridcell "1" [ref=f16e233]
+                      - gridcell "14" [ref=f16e234]
+                      - gridcell "Mahalakshmi Mahalakshmi" [ref=f16e235]
+                      - gridcell "3240" [ref=f16e236]
+                      - 'gridcell "Stock restored: payment timeout (Order #3240)" [ref=f16e237]'
+                    - 'row "14/07/26, 3:51 pm Test Book K1 Books IN 1 13 Mahalakshmi Mahalakshmi 3240 Stock restored: payment timeout (Order #3240)" [ref=f16e238]':
+                      - gridcell "14/07/26, 3:51 pm" [ref=f16e239]
+                      - gridcell "Test Book K1" [ref=f16e240]
+                      - gridcell "Books" [ref=f16e241]
+                      - gridcell "IN" [ref=f16e242]:
+                        - generic [ref=f16e243]: IN
+                      - gridcell "1" [ref=f16e244]
+                      - gridcell "13" [ref=f16e245]
+                      - gridcell "Mahalakshmi Mahalakshmi" [ref=f16e246]
+                      - gridcell "3240" [ref=f16e247]
+                      - 'gridcell "Stock restored: payment timeout (Order #3240)" [ref=f16e248]'
+                    - 'row "14/07/26, 3:39 pm Test Book K1 Books IN 1 12 Mahalakshmi Mahalakshmi 3239 Stock restored: payment timeout (Order #3239)" [ref=f16e249]':
+                      - gridcell "14/07/26, 3:39 pm" [ref=f16e250]
+                      - gridcell "Test Book K1" [ref=f16e251]
+                      - gridcell "Books" [ref=f16e252]
+                      - gridcell "IN" [ref=f16e253]:
+                        - generic [ref=f16e254]: IN
+                      - gridcell "1" [ref=f16e255]
+                      - gridcell "12" [ref=f16e256]
+                      - gridcell "Mahalakshmi Mahalakshmi" [ref=f16e257]
+                      - gridcell "3239" [ref=f16e258]
+                      - 'gridcell "Stock restored: payment timeout (Order #3239)" [ref=f16e259]'
+                    - 'row "14/07/26, 3:35 pm Test Book K1 Books OUT -1 11 Mahalakshmi Mahalakshmi 3240 Order placed: #4233" [ref=f16e260]':
+                      - gridcell "14/07/26, 3:35 pm" [ref=f16e261]
+                      - gridcell "Test Book K1" [ref=f16e262]
+                      - gridcell "Books" [ref=f16e263]
+                      - gridcell "OUT" [ref=f16e264]:
+                        - generic [ref=f16e265]: OUT
+                      - gridcell "-1" [ref=f16e266]
+                      - gridcell "11" [ref=f16e267]
+                      - gridcell "Mahalakshmi Mahalakshmi" [ref=f16e268]
+                      - gridcell "3240" [ref=f16e269]
+                      - 'gridcell "Order placed: #4233" [ref=f16e270]'
+                    - row "14/07/26, 3:34 pm Tamil Book - TNPSC New Syllabus Books IN 1 3 Mahalakshmi Mahalakshmi Due to payment pending" [ref=f16e271]:
+                      - gridcell "14/07/26, 3:34 pm" [ref=f16e272]
+                      - gridcell "Tamil Book - TNPSC New Syllabus" [ref=f16e273]
+                      - gridcell "Books" [ref=f16e274]
+                      - gridcell "IN" [ref=f16e275]:
+                        - generic [ref=f16e276]: IN
+                      - gridcell "1" [ref=f16e277]
+                      - gridcell "3" [ref=f16e278]
+                      - gridcell "Mahalakshmi Mahalakshmi" [ref=f16e279]
+                      - gridcell [ref=f16e280]
+                      - gridcell "Due to payment pending" [ref=f16e281]
+                    - 'row "14/07/26, 3:23 pm Test Book K1 Books OUT -1 12 Mahalakshmi Mahalakshmi 3239 Order placed: #4232" [ref=f16e282]':
+                      - gridcell "14/07/26, 3:23 pm" [ref=f16e283]
+                      - gridcell "Test Book K1" [ref=f16e284]
+                      - gridcell "Books" [ref=f16e285]
+                      - gridcell "OUT" [ref=f16e286]:
+                        - generic [ref=f16e287]: OUT
+                      - gridcell "-1" [ref=f16e288]
+                      - gridcell "12" [ref=f16e289]
+                      - gridcell "Mahalakshmi Mahalakshmi" [ref=f16e290]
+                      - gridcell "3239" [ref=f16e291]
+                      - 'gridcell "Order placed: #4232" [ref=f16e292]'
+                    - 'row "14/07/26, 3:18 pm Tamil Book - TNPSC New Syllabus Books OUT -1 2 Mahalakshmi Mahalakshmi 3238 Order placed: #4231" [ref=f16e293]':
+                      - gridcell "14/07/26, 3:18 pm" [ref=f16e294]
+                      - gridcell "Tamil Book - TNPSC New Syllabus" [ref=f16e295]
+                      - gridcell "Books" [ref=f16e296]
+                      - gridcell "OUT" [ref=f16e297]:
+                        - generic [ref=f16e298]: OUT
+                      - gridcell "-1" [ref=f16e299]
+                      - gridcell "2" [ref=f16e300]
+                      - gridcell "Mahalakshmi Mahalakshmi" [ref=f16e301]
+                      - gridcell "3238" [ref=f16e302]
+                      - 'gridcell "Order placed: #4231" [ref=f16e303]'
+                    - 'row "14/07/26, 2:44 pm Books Bag Stationary OUT -1 4 FayJosh Antony 3237 Order placed: #4230" [ref=f16e304]':
+                      - gridcell "14/07/26, 2:44 pm" [ref=f16e305]
+                      - gridcell "Books Bag" [ref=f16e306]
+                      - gridcell "Stationary" [ref=f16e307]
+                      - gridcell "OUT" [ref=f16e308]:
+                        - generic [ref=f16e309]: OUT
+                      - gridcell "-1" [ref=f16e310]
+                      - gridcell "4" [ref=f16e311]
+                      - gridcell "FayJosh Antony" [ref=f16e312]
+                      - gridcell "3237" [ref=f16e313]
+                      - 'gridcell "Order placed: #4230" [ref=f16e314]'
+                    - row "14/07/26, 2:41 pm Books Bag Stationary IN 5 5 New Product Created" [ref=f16e315]:
+                      - gridcell "14/07/26, 2:41 pm" [ref=f16e316]
+                      - gridcell "Books Bag" [ref=f16e317]
+                      - gridcell "Stationary" [ref=f16e318]
+                      - gridcell "IN" [ref=f16e319]:
+                        - generic [ref=f16e320]: IN
+                      - gridcell "5" [ref=f16e321]
+                      - gridcell "5" [ref=f16e322]
+                      - gridcell [ref=f16e323]
+                      - gridcell [ref=f16e324]
+                      - gridcell "New Product Created" [ref=f16e325]
+                    - 'row "14/07/26, 10:46 am Ink bottle Stationary OUT 1 9 Karthik M 3236 Combo order: BooInkCombo1 — Order #4229" [ref=f16e326]':
+                      - gridcell "14/07/26, 10:46 am" [ref=f16e327]
+                      - gridcell "Ink bottle" [ref=f16e328]
+                      - gridcell "Stationary" [ref=f16e329]
+                      - gridcell "OUT" [ref=f16e330]:
+                        - generic [ref=f16e331]: OUT
+                      - gridcell "1" [ref=f16e332]
+                      - gridcell "9" [ref=f16e333]
+                      - gridcell "Karthik M" [ref=f16e334]
+                      - gridcell "3236" [ref=f16e335]
+                      - 'gridcell "Combo order: BooInkCombo1 — Order #4229" [ref=f16e336]'
+                    - 'row "14/07/26, 10:46 am Test Book K1 Books OUT 1 13 Karthik M 3236 Combo order: BooInkCombo1 — Order #4229" [ref=f16e337]':
+                      - gridcell "14/07/26, 10:46 am" [ref=f16e338]
+                      - gridcell "Test Book K1" [ref=f16e339]
+                      - gridcell "Books" [ref=f16e340]
+                      - gridcell "OUT" [ref=f16e341]:
+                        - generic [ref=f16e342]: OUT
+                      - gridcell "1" [ref=f16e343]
+                      - gridcell "13" [ref=f16e344]
+                      - gridcell "Karthik M" [ref=f16e345]
+                      - gridcell "3236" [ref=f16e346]
+                      - 'gridcell "Combo order: BooInkCombo1 — Order #4229" [ref=f16e347]'
+                    - row "14/07/26, 10:44 am BooInkCombo1 Combo IN 10 10 New Product Created" [ref=f16e348]:
+                      - gridcell "14/07/26, 10:44 am" [ref=f16e349]
+                      - gridcell "BooInkCombo1" [ref=f16e350]
+                      - gridcell "Combo" [ref=f16e351]
+                      - gridcell "IN" [ref=f16e352]:
+                        - generic [ref=f16e353]: IN
+                      - gridcell "10" [ref=f16e354]
+                      - gridcell "10" [ref=f16e355]
+                      - gridcell [ref=f16e356]
+                      - gridcell [ref=f16e357]
+                      - gridcell "New Product Created" [ref=f16e358]
+                    - 'row "14/07/26, 10:40 am TNPSC Tamil Book & Indian Polity (one Liner) Books OUT 1 3 Fay Antony 3235 Combo order: BookComboK001 — Order #4228" [ref=f16e359]':
+                      - gridcell "14/07/26, 10:40 am" [ref=f16e360]
+                      - gridcell "TNPSC Tamil Book & Indian Polity (one Liner)" [ref=f16e361]
+                      - gridcell "Books" [ref=f16e362]
+                      - gridcell "OUT" [ref=f16e363]:
+                        - generic [ref=f16e364]: OUT
+                      - gridcell "1" [ref=f16e365]
+                      - gridcell "3" [ref=f16e366]
+                      - gridcell "Fay Antony" [ref=f16e367]
+                      - gridcell "3235" [ref=f16e368]
+                      - 'gridcell "Combo order: BookComboK001 — Order #4228" [ref=f16e369]'
+                    - 'row "14/07/26, 10:40 am UI UX Books OUT 1 5 Fay Antony 3235 Combo order: BookComboK001 — Order #4228" [ref=f16e370]':
+                      - gridcell "14/07/26, 10:40 am" [ref=f16e371]
+                      - gridcell "UI UX" [ref=f16e372]
+                      - gridcell "Books" [ref=f16e373]
+                      - gridcell "OUT" [ref=f16e374]:
+                        - generic [ref=f16e375]: OUT
+                      - gridcell "1" [ref=f16e376]
+                      - gridcell "5" [ref=f16e377]
+                      - gridcell "Fay Antony" [ref=f16e378]
+                      - gridcell "3235" [ref=f16e379]
+                      - 'gridcell "Combo order: BookComboK001 — Order #4228" [ref=f16e380]'
+                    - row "14/07/26, 10:32 am Test Book K1 Books IN 1 14 Josh Fayaze Stock restored" [ref=f16e381]:
+                      - gridcell "14/07/26, 10:32 am" [ref=f16e382]
+                      - gridcell "Test Book K1" [ref=f16e383]
+                      - gridcell "Books" [ref=f16e384]
+                      - gridcell "IN" [ref=f16e385]:
+                        - generic [ref=f16e386]: IN
+                      - gridcell "1" [ref=f16e387]
+                      - gridcell "14" [ref=f16e388]
+                      - gridcell "Josh Fayaze" [ref=f16e389]
+                      - gridcell [ref=f16e390]
+                      - gridcell "Stock restored" [ref=f16e391]
+                    - 'row "14/07/26, 10:32 am Test Book K1 Books OUT -1 13 Josh Fayaze 3234 Order placed: #4227" [ref=f16e392]':
+                      - gridcell "14/07/26, 10:32 am" [ref=f16e393]
+                      - gridcell "Test Book K1" [ref=f16e394]
+                      - gridcell "Books" [ref=f16e395]
+                      - gridcell "OUT" [ref=f16e396]:
+                        - generic [ref=f16e397]: OUT
+                      - gridcell "-1" [ref=f16e398]
+                      - gridcell "13" [ref=f16e399]
+                      - gridcell "Josh Fayaze" [ref=f16e400]
+                      - gridcell "3234" [ref=f16e401]
+                      - 'gridcell "Order placed: #4227" [ref=f16e402]'
+                    - row "13/07/26, 7:11 pm Ink bottle Stationary IN 10 10 test" [ref=f16e403]:
+                      - gridcell "13/07/26, 7:11 pm" [ref=f16e404]
+                      - gridcell "Ink bottle" [ref=f16e405]
+                      - gridcell "Stationary" [ref=f16e406]
+                      - gridcell "IN" [ref=f16e407]:
+                        - generic [ref=f16e408]: IN
+                      - gridcell "10" [ref=f16e409]
+                      - gridcell "10" [ref=f16e410]
+                      - gridcell [ref=f16e411]
+                      - gridcell [ref=f16e412]
+                      - gridcell "test" [ref=f16e413]
+                    - row "13/07/26, 7:11 pm Test Book K1 Books IN 12 14 Correction" [ref=f16e414]:
+                      - gridcell "13/07/26, 7:11 pm" [ref=f16e415]
+                      - gridcell "Test Book K1" [ref=f16e416]
+                      - gridcell "Books" [ref=f16e417]
+                      - gridcell "IN" [ref=f16e418]:
+                        - generic [ref=f16e419]: IN
+                      - gridcell "12" [ref=f16e420]
+                      - gridcell "14" [ref=f16e421]
+                      - gridcell [ref=f16e422]
+                      - gridcell [ref=f16e423]
+                      - gridcell "Correction" [ref=f16e424]
+                    - 'row "13/07/26, 7:05 pm TNPSC Tamil Book & Indian Polity (one Liner) Books OUT 1 4 Sat Antony 3233 Combo order: BookComboK001 — Order #4226" [ref=f16e425]':
+                      - gridcell "13/07/26, 7:05 pm" [ref=f16e426]
+                      - gridcell "TNPSC Tamil Book & Indian Polity (one Liner)" [ref=f16e427]
+                      - gridcell "Books" [ref=f16e428]
+                      - gridcell "OUT" [ref=f16e429]:
+                        - generic [ref=f16e430]: OUT
+                      - gridcell "1" [ref=f16e431]
+                      - gridcell "4" [ref=f16e432]
+                      - gridcell "Sat Antony" [ref=f16e433]
+                      - gridcell "3233" [ref=f16e434]
+                      - 'gridcell "Combo order: BookComboK001 — Order #4226" [ref=f16e435]'
+                    - 'row "13/07/26, 7:05 pm UI UX Books OUT 1 6 Sat Antony 3233 Combo order: BookComboK001 — Order #4226" [ref=f16e436]':
+                      - gridcell "13/07/26, 7:05 pm" [ref=f16e437]
+                      - gridcell "UI UX" [ref=f16e438]
+                      - gridcell "Books" [ref=f16e439]
+                      - gridcell "OUT" [ref=f16e440]:
+                        - generic [ref=f16e441]: OUT
+                      - gridcell "1" [ref=f16e442]
+                      - gridcell "6" [ref=f16e443]
+                      - gridcell "Sat Antony" [ref=f16e444]
+                      - gridcell "3233" [ref=f16e445]
+                      - 'gridcell "Combo order: BookComboK001 — Order #4226" [ref=f16e446]'
+                    - 'row "13/07/26, 7:05 pm TNPSC Tamil Book & Indian Polity (one Liner) Books OUT 1 5 Manual Purchase #MP-20260713-190519-931 — Fayaze Mohammed (combo component)" [ref=f16e447]':
+                      - gridcell "13/07/26, 7:05 pm" [ref=f16e448]
+                      - gridcell "TNPSC Tamil Book & Indian Polity (one Liner)" [ref=f16e449]
+                      - gridcell "Books" [ref=f16e450]
+                      - gridcell "OUT" [ref=f16e451]:
+                        - generic [ref=f16e452]: OUT
+                      - gridcell "1" [ref=f16e453]
+                      - gridcell "5" [ref=f16e454]
+                      - gridcell [ref=f16e455]
+                      - gridcell [ref=f16e456]
+                      - 'gridcell "Manual Purchase #MP-20260713-190519-931 — Fayaze Mohammed (combo component)" [ref=f16e457]'
+                    - 'row "13/07/26, 7:05 pm UI UX Books OUT 1 7 Manual Purchase #MP-20260713-190519-931 — Fayaze Mohammed (combo component)" [ref=f16e458]':
+                      - gridcell "13/07/26, 7:05 pm" [ref=f16e459]
+                      - gridcell "UI UX" [ref=f16e460]
+                      - gridcell "Books" [ref=f16e461]
+                      - gridcell "OUT" [ref=f16e462]:
+                        - generic [ref=f16e463]: OUT
+                      - gridcell "1" [ref=f16e464]
+                      - gridcell "7" [ref=f16e465]
+                      - gridcell [ref=f16e466]
+                      - gridcell [ref=f16e467]
+                      - 'gridcell "Manual Purchase #MP-20260713-190519-931 — Fayaze Mohammed (combo component)" [ref=f16e468]'
+                    - 'row "13/07/26, 6:39 pm TNPSC Tamil Book & Indian Polity (one Liner) Books OUT 1 6 Josh Antony 3232 Combo order: BookComboK001 — Order #4225" [ref=f16e469]':
+                      - gridcell "13/07/26, 6:39 pm" [ref=f16e470]
+                      - gridcell "TNPSC Tamil Book & Indian Polity (one Liner)" [ref=f16e471]
+                      - gridcell "Books" [ref=f16e472]
+                      - gridcell "OUT" [ref=f16e473]:
+                        - generic [ref=f16e474]: OUT
+                      - gridcell "1" [ref=f16e475]
+                      - gridcell "6" [ref=f16e476]
+                      - gridcell "Josh Antony" [ref=f16e477]
+                      - gridcell "3232" [ref=f16e478]
+                      - 'gridcell "Combo order: BookComboK001 — Order #4225" [ref=f16e479]'
+                - generic [ref=f16e480]:
+                  - generic [ref=f16e481]: Previous
+                  - generic [ref=f16e482]:
+                    - generic [ref=f16e483] [cursor=pointer]: "1"
+                    - generic [ref=f16e484] [cursor=pointer]: "2"
+                    - generic [ref=f16e485] [cursor=pointer]: "3"
+                    - generic [ref=f16e486] [cursor=pointer]: "4"
+                    - generic [ref=f16e487] [cursor=pointer]: "5"
+                    - generic [ref=f16e488]: …
+                    - generic [ref=f16e489] [cursor=pointer]: "217"
+                  - generic [ref=f16e490] [cursor=pointer]: Next
+      - contentinfo [ref=f16e491]:
+        - paragraph [ref=f16e495]:
+          - text: Copyright
+          - generic [ref=f16e496]: "2026"
+          - text: © Jeshwar Teaching
+  - img

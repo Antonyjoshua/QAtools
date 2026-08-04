@@ -1,0 +1,364 @@
+- generic [ref=f76e1]:
+  - generic [ref=f76e7]:
+    - generic [ref=f76e8]:
+      - generic [ref=f76e9]:
+        - heading "Dashboard" [level=4] [ref=f76e10]
+        - navigation [ref=f76e11]:
+          - list [ref=f76e12]:
+            - listitem [ref=f76e13]:
+              - link [ref=f76e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f76e15]
+            - listitem [ref=f76e18]: / Index
+      - generic [ref=f76e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f76e22]:
+          - listitem [ref=f76e23]:
+            - generic [ref=f76e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f76e26]:
+      - generic [ref=f76e28]:
+        - text: 
+        - link [ref=f76e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f76e31]:
+          - list [ref=f76e33]:
+            - generic [ref=f76e38]:
+              - text: 
+              - listitem [ref=f76e39]:
+                - link [ref=f76e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f76e41]
+                  - text: 
+              - listitem [ref=f76e43]:
+                - link [ref=f76e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e45]
+                  - text: 
+              - listitem [ref=f76e47]:
+                - link [ref=f76e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e49]
+                  - text: 
+              - listitem [ref=f76e51]:
+                - link [ref=f76e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e53]
+                  - text: 
+              - listitem [ref=f76e55]:
+                - link [ref=f76e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e57]
+                  - text: 
+              - listitem [ref=f76e59]:
+                - link [ref=f76e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e61]
+                  - text: 
+              - listitem [ref=f76e63]:
+                - link "" [ref=f76e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f76e65]: 
+                  - text: 
+              - listitem [ref=f76e66]:
+                - link [ref=f76e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e68]
+                  - text: 
+              - listitem [ref=f76e70]:
+                - link [ref=f76e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e72]
+                  - text: 
+              - listitem [ref=f76e74]:
+                - link [ref=f76e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e76]
+                  - text: 
+              - listitem [ref=f76e78]:
+                - link [ref=f76e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e80]
+                  - text: 
+              - listitem [ref=f76e82]:
+                - link [ref=f76e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e84]
+                  - text: 
+              - listitem [ref=f76e86]:
+                - link [ref=f76e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e88]
+                  - text: 
+              - listitem [ref=f76e90]:
+                - link "general icon" [ref=f76e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f76e92]
+                  - text: 
+              - listitem [ref=f76e93]:
+                - link [ref=f76e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f76e95]
+                  - text: 
+              - listitem [ref=f76e97]:
+                - link [ref=f76e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f76e99]
+                  - text: 
+              - listitem [ref=f76e101]:
+                - link "product icon" [ref=f76e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f76e103]
+                  - text: 
+              - listitem [ref=f76e104]:
+                - link [ref=f76e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e106]
+                  - text: 
+              - listitem [ref=f76e108]:
+                - link [ref=f76e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e110]
+                  - text: 
+              - listitem [ref=f76e112]:
+                - link [ref=f76e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f76e114]
+                  - text: 
+              - listitem [ref=f76e116]:
+                - link [ref=f76e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e118]
+                  - text: 
+              - listitem [ref=f76e120]:
+                - link [ref=f76e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e122]
+                  - text: 
+              - listitem [ref=f76e124]:
+                - link [ref=f76e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f76e126]
+              - listitem [ref=f76e128]:
+                - link [ref=f76e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f76e130]
+                  - text: 
+              - listitem [ref=f76e132]:
+                - link "notify-ico" [ref=f76e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f76e134]
+                  - text: 
+              - listitem [ref=f76e135]:
+                - link "notify-ico" [ref=f76e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f76e137]
+                  - text: 
+      - generic [ref=f76e138]:
+        - main:
+          - generic [ref=f76e139]:
+            - link " Exit" [ref=f76e140] [cursor=pointer]:
+              - /url: /LiveApl/Index
+              - generic [ref=f76e141]: 
+              - text: Exit
+            - heading " QATEST_APL_2026-07-28 — Result Announcement" [level=3] [ref=f76e143]:
+              - generic [ref=f76e144]: 
+              - text: QATEST_APL_2026-07-28 — Result Announcement
+            - generic [ref=f76e145]: Question 1 of 3
+            - generic [ref=f76e146]:
+              - generic [ref=f76e148]:
+                - generic [ref=f76e150]: Total Participants
+                - generic [ref=f76e151]:
+                  - generic [ref=f76e153]:  👥
+                  - generic [ref=f76e155]: "2"
+              - generic [ref=f76e157]:
+                - generic [ref=f76e159]: Correct Answers
+                - generic [ref=f76e160]:
+                  - generic [ref=f76e162]:  ✅
+                  - generic [ref=f76e164]: "0"
+              - generic [ref=f76e166]:
+                - generic [ref=f76e168]: Wrong Answers
+                - generic [ref=f76e169]:
+                  - generic [ref=f76e171]:  ❌
+                  - generic [ref=f76e173]: "0"
+              - generic [ref=f76e175]:
+                - generic [ref=f76e177]: Missed / Not Attempted
+                - generic [ref=f76e178]:
+                  - generic [ref=f76e180]:  ⏳
+                  - generic [ref=f76e182]: "2"
+              - generic [ref=f76e184]:
+                - generic [ref=f76e186]: Accuracy Percentage
+                - generic [ref=f76e187]:
+                  - generic [ref=f76e189]:  🎯
+                  - generic [ref=f76e191]: 0%
+              - generic [ref=f76e193]:
+                - generic [ref=f76e195]: 🏆 Overall Top 3
+                - generic [ref=f76e196]:
+                  - generic [ref=f76e197]: "1"
+                  - img "QATEST_APL User1" [ref=f76e198]
+                  - generic [ref=f76e199]: QATEST_APL User1
+                  - generic [ref=f76e200]:
+                    - generic [ref=f76e201]: 
+                    - text: "0"
+                - generic [ref=f76e202]:
+                  - generic [ref=f76e203]: "2"
+                  - img "QATEST_APL User2" [ref=f76e204]
+                  - generic [ref=f76e205]: QATEST_APL User2
+                  - generic [ref=f76e206]:
+                    - generic [ref=f76e207]: 
+                    - text: "0"
+            - generic [ref=f76e208]:
+              - generic [ref=f76e210]:
+                - generic [ref=f76e211]:
+                  - generic [ref=f76e212]: 🪙 Top Coin Earners
+                  - generic [ref=f76e213]: TOP 2
+                - generic [ref=f76e215]:
+                  - generic [ref=f76e216]:
+                    - generic: ✦
+                    - generic: ✦
+                    - generic: ✦
+                    - generic [ref=f76e217]:
+                      - generic [ref=f76e219]:
+                        - generic [ref=f76e221]: 
+                        - img "QATEST_APL User1" [ref=f76e222]
+                        - generic [ref=f76e223]: "1"
+                      - generic [ref=f76e224]:
+                        - generic [ref=f76e225]: QATEST_APL User1
+                        - text: 
+                        - generic [ref=f76e226]:
+                          - generic [ref=f76e228]: 
+                          - generic [ref=f76e229]:
+                            - generic [ref=f76e230]: "+0"
+                            - generic [ref=f76e231]: Coins This Q
+                  - generic [ref=f76e233]:
+                    - generic [ref=f76e235]:
+                      - generic [ref=f76e237]: 
+                      - img "QATEST_APL User2" [ref=f76e238]
+                      - generic [ref=f76e239]: "2"
+                    - generic [ref=f76e240]:
+                      - generic [ref=f76e241]: QATEST_APL User2
+                      - text: 
+                      - generic [ref=f76e242]:
+                        - generic [ref=f76e244]: 
+                        - generic [ref=f76e245]:
+                          - generic [ref=f76e246]: "+0"
+                          - generic [ref=f76e247]: Coins This Q
+              - generic [ref=f76e248]:
+                - generic [ref=f76e249]:
+                  - generic [ref=f76e254]:
+                    - generic [ref=f76e255]:
+                      - text: Q1
+                      - generic [ref=f76e256]: / 3
+                    - generic [ref=f76e257]:
+                      - button "அ A" [ref=f76e258] [cursor=pointer]:
+                        - generic [ref=f76e259]: அ
+                        - generic [ref=f76e260]: A
+                      - button " Solution" [ref=f76e261] [cursor=pointer]:
+                        - generic [ref=f76e262]: 
+                        - text: Solution
+                  - generic [ref=f76e263]:
+                    - paragraph
+                    - paragraph [ref=f76e264]: How many vowels (uyir eluttu) are there in the Tamil alphabet?
+                    - paragraph
+                    - generic [ref=f76e265]:
+                      - generic [ref=f76e266]:
+                        - generic [ref=f76e267]: A
+                        - paragraph [ref=f76e269]: "12"
+                        - generic [ref=f76e270]: 
+                      - generic [ref=f76e271]:
+                        - generic [ref=f76e272]: B
+                        - paragraph [ref=f76e274]: "18"
+                      - generic [ref=f76e275]:
+                        - generic [ref=f76e276]: C
+                        - paragraph [ref=f76e278]: "216"
+                      - generic [ref=f76e279]:
+                        - generic [ref=f76e280]: D
+                        - paragraph [ref=f76e282]: "247"
+                  - text:  
+                - generic [ref=f76e283]:
+                  - generic [ref=f76e285]:
+                    - generic [ref=f76e287]: Most Active District
+                    - generic [ref=f76e288]:
+                      - generic [ref=f76e290]:  👥
+                      - generic [ref=f76e291]:
+                        - generic [ref=f76e292]: Coimbatore
+                        - generic [ref=f76e293]: 1 participants
+                  - generic [ref=f76e295]:
+                    - generic [ref=f76e297]: Active Players
+                    - generic [ref=f76e298]:
+                      - generic [ref=f76e300]:  🧑‍🤝‍🧑
+                      - generic [ref=f76e301]:
+                        - generic [ref=f76e302]: "2"
+                        - generic [ref=f76e303]: registered this session
+                  - generic [ref=f76e305]:
+                    - generic [ref=f76e306]:
+                      - generic [ref=f76e307]: ⭐
+                      - generic [ref=f76e308]: Best Performing District
+                      - generic [ref=f76e309]: 🏆
+                    - generic [ref=f76e310]: Coimbatore
+                    - generic [ref=f76e311]:
+                      - generic [ref=f76e312]: 
+                      - text: Accuracy
+                      - generic [ref=f76e313]: 0%
+              - generic [ref=f76e315]:
+                - generic [ref=f76e316]:
+                  - generic [ref=f76e317]: 🏆 Overall Ranking
+                  - generic [ref=f76e318]: TOP 2
+                - generic [ref=f76e320]:
+                  - generic [ref=f76e321]:
+                    - generic: ✦
+                    - generic: ✦
+                    - generic: ✦
+                    - generic [ref=f76e322]:
+                      - generic [ref=f76e324]:
+                        - generic [ref=f76e326]: 
+                        - img "QATEST_APL User1" [ref=f76e327]
+                        - generic [ref=f76e328]: "1"
+                      - generic [ref=f76e329]:
+                        - generic [ref=f76e330]: QATEST_APL User1
+                        - text: 
+                        - generic [ref=f76e331]:
+                          - generic [ref=f76e333]: 
+                          - generic [ref=f76e334]:
+                            - generic [ref=f76e335]: "0"
+                            - generic [ref=f76e336]: Total Coins
+                  - generic [ref=f76e338]:
+                    - generic [ref=f76e340]:
+                      - generic [ref=f76e342]: 
+                      - img "QATEST_APL User2" [ref=f76e343]
+                      - generic [ref=f76e344]: "2"
+                    - generic [ref=f76e345]:
+                      - generic [ref=f76e346]: QATEST_APL User2
+                      - text: 
+                      - generic [ref=f76e347]:
+                        - generic [ref=f76e349]: 
+                        - generic [ref=f76e350]:
+                          - generic [ref=f76e351]: "0"
+                          - generic [ref=f76e352]: Total Coins
+            - generic [ref=f76e355]:
+              - generic [ref=f76e356]: Coimbatore is leading with 0% accuracy
+              - generic [ref=f76e357]: •
+              - generic [ref=f76e358]: Coimbatore is leading with 0% accuracy
+              - generic [ref=f76e359]: •
+            - generic [ref=f76e360]:
+              - button " Prev" [disabled] [ref=f76e361]:
+                - generic [ref=f76e362]: 
+                - text: Prev
+              - button "Next Question " [ref=f76e363] [cursor=pointer]:
+                - text: Next Question
+                - generic [ref=f76e364]: 
+              - button "Show Final Results " [ref=f76e365] [cursor=pointer]:
+                - text: Show Final Results
+                - generic [ref=f76e366]: 
+      - contentinfo [ref=f76e367]:
+        - paragraph [ref=f76e371]:
+          - text: Copyright
+          - generic [ref=f76e372]: "2026"
+          - text: © Jeshwar Teaching
+  - img

@@ -1,0 +1,135 @@
+- generic [ref=f4e2]:
+  - generic [ref=f4e3]:
+    - generic [ref=f4e5]:
+      - generic [ref=f4e6]:
+        - link "Logo" [ref=f4e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f4e8]
+        - text: 
+      - list [ref=f4e9]:
+        - listitem [ref=f4e10]:
+          - link " Dashboard" [ref=f4e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f4e12]: 
+            - text: Dashboard
+        - listitem [ref=f4e13]:
+          - link " Batches" [ref=f4e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f4e15]: 
+            - text: Batches
+        - listitem [ref=f4e16]:
+          - link " My Courses" [ref=f4e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f4e18]: 
+            - text: My Courses
+        - listitem [ref=f4e19]:
+          - link " Wishlist" [ref=f4e20] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f4e21]: 
+            - text: Wishlist
+        - listitem [ref=f4e22]:
+          - link " Audiobook" [ref=f4e23] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f4e24]: 
+            - text: Audiobook
+        - listitem [ref=f4e25]:
+          - link " Resources" [ref=f4e26] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f4e27]: 
+            - text: Resources
+        - listitem [ref=f4e28]:
+          - link " Current Affairs" [ref=f4e29] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f4e30]: 
+            - text: Current Affairs
+        - listitem [ref=f4e31]:
+          - link " Test" [ref=f4e32] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f4e33]: 
+            - text: Test
+        - listitem [ref=f4e34]:
+          - link " Settings" [ref=f4e35] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f4e36]: 
+            - text: Settings
+        - listitem [ref=f4e37]:
+          - link " Leaderboard" [ref=f4e38] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f4e39]: 
+            - text: Leaderboard
+        - listitem [ref=f4e40]:
+          - link " Notification" [ref=f4e41] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f4e42]: 
+            - text: Notification
+        - listitem [ref=f4e43]:
+          - button " Logout" [ref=f4e45] [cursor=pointer]:
+            - generic [ref=f4e46]: 
+            - text: Logout
+    - generic [ref=f4e48]:
+      - banner [ref=f4e49]:
+        - text: 
+        - generic [ref=f4e50]:
+          - generic [ref=f4e51]:
+            - generic [ref=f4e52]: 
+            - textbox "Search Course" [ref=f4e53]
+            - text: 
+          - link "" [ref=f4e55] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f4e57]: 
+          - link "Profile deepa070712" [ref=f4e59] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f4e60]
+            - generic [ref=f4e61]: deepa070712
+      - generic [ref=f4e62]:
+        - generic [ref=f4e63]:
+          - link "Go back" [ref=f4e64] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f4e65]: 
+          - heading "Batch Details" [level=1] [ref=f4e66]
+        - generic [ref=f4e67]:
+          - generic [ref=f4e68]:
+            - button " View Schedule" [ref=f4e69] [cursor=pointer]:
+              - generic [ref=f4e70]: 
+              - generic [ref=f4e71]: View Schedule
+            - button " View Details" [ref=f4e72] [cursor=pointer]:
+              - generic [ref=f4e73]: 
+              - generic [ref=f4e74]: View Details
+          - link "Join Telegram Community" [ref=f4e76] [cursor=pointer]:
+            - /url: https://t.me/+MbuB2EgyHLk2MDVl
+            - generic [ref=f4e77]: 
+            - generic [ref=f4e78]: Join Telegram Community
+        - generic [ref=f4e79]:
+          - generic [ref=f4e80]:
+            - heading "Course Schedule Breakdown" [level=3] [ref=f4e82]
+            - generic [ref=f4e83]:
+              - generic [ref=f4e84]:
+                - generic [ref=f4e86]: 
+                - generic [ref=f4e87]:
+                  - paragraph [ref=f4e88]: Course Schedule Guide
+                  - paragraph [ref=f4e89]:
+                    - generic [ref=f4e90]: 
+                    - text: Launched on 10 July, 2026
+              - generic [ref=f4e91]:
+                - link "" [ref=f4e92] [cursor=pointer]:
+                  - /url: https://jt-api.scopethinkers.com/Courses/c7e340b5-cf03-4507-aadb-3b147a1953df.pdf
+                  - generic [ref=f4e93]: 
+                - link "" [ref=f4e94] [cursor=pointer]:
+                  - /url: /Course/DownloadSchedule?courseId=130
+                  - generic [ref=f4e95]: 
+          - link " Join Course" [ref=f4e98] [cursor=pointer]:
+            - /url: /Purchase/Index?courseId=130
+            - generic [ref=f4e99]: 
+            - generic [ref=f4e100]: Join Course
+  - contentinfo [ref=f4e101]:
+    - generic [ref=f4e102]:
+      - paragraph [ref=f4e104]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f4e105]:
+        - link "About Us" [ref=f4e106] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f4e107] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f4e108] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f4e109] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

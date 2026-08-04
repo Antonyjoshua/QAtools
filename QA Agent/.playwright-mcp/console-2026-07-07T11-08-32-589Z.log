@@ -1,0 +1,14 @@
+[    2550ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[    2676ms] [WARNING] The following deprecated features are currently enabled and have been removed in TinyMCE 7.0. These features will no longer work and should be removed from the TinyMCE configuration. See https://www.tiny.cloud/docs/tinymce/7/migration-from-6x/ for more information.
+
+Plugins:
+- textcolor @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[    2747ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/plugins/textcolor/plugin.min.js:0
+[    2750ms] [ERROR] Failed to load plugin: textcolor from url plugins/textcolor/plugin.min.js @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[    2939ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[    3195ms] [LOG] Current Path: /unit/index @ https://jt-admin.scopethinkers.com/Unit/Index?courseId=136:1663
+[    3197ms] [LOG] Matched: /unit/index {menu: Course, submenu: Unit} @ https://jt-admin.scopethinkers.com/Unit/Index?courseId=136:1858
+[    3198ms] [LOG] Activating menu: Course Submenu: Unit @ https://jt-admin.scopethinkers.com/Unit/Index?courseId=136:1870
+[    3199ms] [LOG] Found menu: Course @ https://jt-admin.scopethinkers.com/Unit/Index?courseId=136:1879
+[    3201ms] [LOG] Activated submenu: Unit @ https://jt-admin.scopethinkers.com/Unit/Index?courseId=136:1900
+[   65270ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-api.scopethinkers.com/Unit/c64ef753-547d-42e2-8d11-dddea3a0ca5e.png:0

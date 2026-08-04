@@ -1,0 +1,457 @@
+- generic [ref=f73e7]:
+  - generic [ref=f73e8]:
+    - generic [ref=f73e9]:
+      - heading "Dashboard" [level=4] [ref=f73e10]
+      - navigation [ref=f73e11]:
+        - list [ref=f73e12]:
+          - listitem:
+            - link:
+              - /url: /Dashboard/Index
+          - listitem [ref=f73e13]: / Index
+    - generic [ref=f73e15]:
+      - generic:
+        - generic:
+          - text: 
+          - generic:
+            - generic:
+              - textbox "Search .." [active]
+      - list [ref=f73e17]:
+        - text: 
+        - listitem [ref=f73e18] [cursor=pointer]:
+          - generic [ref=f73e20]:
+            - generic [ref=f73e21]: superadmin@gmail.com
+            - paragraph [ref=f73e22]:
+              - text: SuperAdmin
+              - generic [ref=f73e23]: 
+  - generic [ref=f73e24]:
+    - generic [ref=f73e26]:
+      - generic [ref=f73e27]:
+        - link [ref=f73e28] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - text: 
+        - img [ref=f73e30] [cursor=pointer]
+      - navigation [ref=f73e32]:
+        - list [ref=f73e34]:
+          - listitem [ref=f73e35]:
+            - link [ref=f73e36] [cursor=pointer]:
+              - /url: /Dashboard/Index
+            - generic [ref=f73e37] [cursor=pointer]:
+              - generic [ref=f73e38]: Back
+              - generic [ref=f73e39]: 
+          - listitem [ref=f73e40]:
+            - heading "Applications" [level=6] [ref=f73e42]
+          - listitem [ref=f73e43]:
+            - link "Dashboard" [ref=f73e44] [cursor=pointer]:
+              - /url: /Dashboard/Index
+              - img [ref=f73e45]
+              - generic [ref=f73e47]: Dashboard
+          - listitem [ref=f73e48]:
+            - link "Enrollment" [ref=f73e49] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e50]
+              - generic [ref=f73e52]: Enrollment
+            - list [ref=f73e53]:
+              - listitem [ref=f73e54]:
+                - link "User" [ref=f73e55] [cursor=pointer]:
+                  - /url: /User/UserDetails
+              - listitem [ref=f73e56]:
+                - link "Today Present Users" [ref=f73e57] [cursor=pointer]:
+                  - /url: /User/PresentUsers
+              - listitem [ref=f73e58]:
+                - link "Course Purchases" [ref=f73e59] [cursor=pointer]:
+                  - /url: /Membership/CoursePurchased
+              - listitem [ref=f73e60]:
+                - link "Course Transfer History" [ref=f73e61] [cursor=pointer]:
+                  - /url: /User/CourseTransferHistory
+              - listitem [ref=f73e62]:
+                - link "Deleted Users History" [ref=f73e63] [cursor=pointer]:
+                  - /url: /User/DeletedUsers
+          - listitem [ref=f73e64]:
+            - link "Website Settings" [ref=f73e65] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e66]
+              - generic [ref=f73e68]: Website Settings
+            - list [ref=f73e69]:
+              - listitem [ref=f73e70]:
+                - link "Content" [ref=f73e71] [cursor=pointer]:
+                  - /url: /Master/About
+              - listitem [ref=f73e72]:
+                - link "Settings" [ref=f73e73] [cursor=pointer]:
+                  - /url: /EmailDraft/WebsiteSettings
+              - listitem [ref=f73e74]:
+                - link "AI Providers" [ref=f73e75] [cursor=pointer]:
+                  - /url: /AiProvider/Index
+              - listitem [ref=f73e76]:
+                - link "PDF Frame Template" [ref=f73e77] [cursor=pointer]:
+                  - /url: /LetterTemplate/Index
+              - listitem [ref=f73e78]:
+                - link "PDF Template" [ref=f73e79] [cursor=pointer]:
+                  - /url: /PdfManager/Index
+              - listitem [ref=f73e80]:
+                - link "Section Types" [ref=f73e81] [cursor=pointer]:
+                  - /url: /PdfManager/SectionTypes
+              - listitem [ref=f73e82]:
+                - link "Reviews" [ref=f73e83] [cursor=pointer]:
+                  - /url: /Review/Index
+          - listitem [ref=f73e84]:
+            - link "Membership" [ref=f73e85] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e86]
+              - generic [ref=f73e88]: Membership
+            - list [ref=f73e89]:
+              - listitem [ref=f73e90]:
+                - link "Membership" [ref=f73e91] [cursor=pointer]:
+                  - /url: /Membership/Index
+              - listitem [ref=f73e92]:
+                - link "Pricing Plan" [ref=f73e93] [cursor=pointer]:
+                  - /url: /PricingPlan/Index
+              - listitem [ref=f73e94]:
+                - link "Promo Codes" [ref=f73e95] [cursor=pointer]:
+                  - /url: /PromoCode/Index
+          - listitem [ref=f73e96]:
+            - link "IVR" [ref=f73e97] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e98]
+              - generic [ref=f73e100]: IVR
+            - list [ref=f73e101]:
+              - listitem [ref=f73e102]:
+                - link "Reminder Call Settings" [ref=f73e103] [cursor=pointer]:
+                  - /url: /ReminderCallAdmin/Index
+              - listitem [ref=f73e104]:
+                - link "Voice Recordings" [ref=f73e105] [cursor=pointer]:
+                  - /url: /VoiceRecording/Index
+              - listitem [ref=f73e106]:
+                - link "Reminder Schedules" [ref=f73e107] [cursor=pointer]:
+                  - /url: /ReminderSchedule/Index
+              - listitem [ref=f73e108]:
+                - link "Monitoring" [ref=f73e109] [cursor=pointer]:
+                  - /url: /ReminderMonitor/Index
+              - listitem [ref=f73e110]:
+                - link "Call log" [ref=f73e111] [cursor=pointer]:
+                  - /url: /ReminderCallAdmin/CallLog
+          - listitem [ref=f73e112]:
+            - link "Course" [ref=f73e113] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e114]
+              - generic [ref=f73e116]: Course
+            - list [ref=f73e117]:
+              - listitem [ref=f73e118]:
+                - link "Course" [ref=f73e119] [cursor=pointer]:
+                  - /url: /Master/Course
+              - listitem [ref=f73e120]:
+                - link "Unit" [ref=f73e121] [cursor=pointer]:
+                  - /url: /Unit/Index
+              - listitem [ref=f73e122]:
+                - link "Topics" [ref=f73e123] [cursor=pointer]:
+                  - /url: /Topic/Index
+              - listitem [ref=f73e124]:
+                - link "Live" [ref=f73e125] [cursor=pointer]:
+                  - /url: /CourseLive/Index
+              - listitem [ref=f73e126]:
+                - link "Doubt Inbox" [ref=f73e127] [cursor=pointer]:
+                  - /url: /Doubt/Inbox
+              - listitem [ref=f73e128]:
+                - link "Topic Ratings" [ref=f73e129] [cursor=pointer]:
+                  - /url: /TopicRating/Index
+              - listitem [ref=f73e130]:
+                - link "Admin Ratings" [ref=f73e131] [cursor=pointer]:
+                  - /url: /AdminTopicRating/Index
+          - listitem [ref=f73e132]:
+            - link " Self Host" [ref=f73e133] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=f73e134]: 
+              - generic [ref=f73e135]: Self Host
+            - list [ref=f73e136]:
+              - listitem [ref=f73e137]:
+                - link "Upload" [ref=f73e138] [cursor=pointer]:
+                  - /url: /VOD/Index
+              - listitem [ref=f73e139]:
+                - link "Shorts" [ref=f73e140] [cursor=pointer]:
+                  - /url: /Shorts/Index
+              - listitem [ref=f73e141]:
+                - link "Live" [ref=f73e142] [cursor=pointer]:
+                  - /url: /Live/Index
+          - listitem [ref=f73e143]:
+            - link "Assessment" [ref=f73e144] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e145]
+              - generic [ref=f73e147]: Assessment
+            - list [ref=f73e148]:
+              - listitem [ref=f73e149]:
+                - link "Course" [ref=f73e150] [cursor=pointer]:
+                  - /url: /Assessment/CourseAssessment
+              - listitem [ref=f73e151]:
+                - link "Unit" [ref=f73e152] [cursor=pointer]:
+                  - /url: /Assessment/Index
+              - listitem [ref=f73e153]:
+                - link "Topic" [ref=f73e154] [cursor=pointer]:
+                  - /url: /Assessment/TopicAssessment
+              - listitem [ref=f73e155]:
+                - link "Prompt Config" [ref=f73e156] [cursor=pointer]:
+                  - /url: /PromptConfig/Index
+          - listitem [ref=f73e157]:
+            - link "Student Activity" [ref=f73e158] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e159]
+              - generic [ref=f73e161]: Student Activity
+            - list [ref=f73e162]:
+              - listitem [ref=f73e163]:
+                - link "Overview" [ref=f73e164] [cursor=pointer]:
+                  - /url: /Admin/StudentActivity/Overview
+              - listitem [ref=f73e165]:
+                - link "Video Watching" [ref=f73e166] [cursor=pointer]:
+                  - /url: /Admin/StudentActivity/Videos
+              - listitem [ref=f73e167]:
+                - link "Assessment Attendance" [ref=f73e168] [cursor=pointer]:
+                  - /url: /Admin/StudentActivity/Assessments
+          - listitem [ref=f73e169]:
+            - link "APL" [ref=f73e170] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e171]
+              - generic [ref=f73e173]: APL
+            - list [ref=f73e174]:
+              - listitem [ref=f73e175]:
+                - link "1 vs 1 APL" [ref=f73e176] [cursor=pointer]:
+                  - /url: /Apl/Index
+              - listitem [ref=f73e177]:
+                - link "Match History" [ref=f73e178] [cursor=pointer]:
+                  - /url: /AplMatchHistory/Index
+              - listitem [ref=f73e179]:
+                - link "Coin History" [ref=f73e180] [cursor=pointer]:
+                  - /url: /AplCoinHistory/Index
+              - listitem [ref=f73e181]:
+                - link "Live APL" [ref=f73e182] [cursor=pointer]:
+                  - /url: /LiveApl/Index
+              - listitem [ref=f73e183]:
+                - link "Live APL Results" [ref=f73e184] [cursor=pointer]:
+                  - /url: /LiveAplResults/Index
+          - listitem [ref=f73e185]:
+            - link "Email Draft" [ref=f73e186] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e187]
+              - generic [ref=f73e189]: Email Draft
+            - list [ref=f73e190]:
+              - listitem [ref=f73e191]:
+                - link "EmailDraft" [ref=f73e192] [cursor=pointer]:
+                  - /url: /EmailDraft/EmailDraftType
+          - listitem [ref=f73e193]:
+            - link "Admin" [ref=f73e194] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e195]
+              - generic [ref=f73e197]: Admin
+            - list [ref=f73e198]:
+              - listitem [ref=f73e199]:
+                - link "Admin User" [ref=f73e200] [cursor=pointer]:
+                  - /url: /User/AdminUser
+              - listitem [ref=f73e201]:
+                - link "Role" [ref=f73e202] [cursor=pointer]:
+                  - /url: /Role/Index
+              - listitem [ref=f73e203]:
+                - link "Menu" [ref=f73e204] [cursor=pointer]:
+                  - /url: /Menu/Index
+              - listitem [ref=f73e205]:
+                - link "Manage Permissions" [ref=f73e206] [cursor=pointer]:
+                  - /url: /AssignRolePermission/Index
+              - listitem [ref=f73e207]:
+                - link "Folder Map" [ref=f73e208] [cursor=pointer]:
+                  - /url: /FolderStructure/Index
+              - listitem [ref=f73e209]:
+                - link "Master Folder Map" [ref=f73e210] [cursor=pointer]:
+                  - /url: /MasterFolderStructure/Index
+          - listitem [ref=f73e211]:
+            - link "Gst Report" [ref=f73e212] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e213]
+              - generic [ref=f73e215]: Gst Report
+            - list [ref=f73e216]:
+              - listitem [ref=f73e217]:
+                - link "Product Gst" [ref=f73e218] [cursor=pointer]:
+                  - /url: /Admin/Gst/Report/Product
+              - listitem [ref=f73e219]:
+                - link "Course Purchase Gst" [ref=f73e220] [cursor=pointer]:
+                  - /url: /Admin/Gst/Report/Course
+              - listitem [ref=f73e221]:
+                - link "Ebook Purchase Gst" [ref=f73e222] [cursor=pointer]:
+                  - /url: /Admin/Gst/Report/Ebook
+          - listitem [ref=f73e223]:
+            - link "general icon General" [ref=f73e224] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img "general icon" [ref=f73e225]
+              - generic [ref=f73e226]: General
+            - list [ref=f73e227]:
+              - listitem [ref=f73e228]:
+                - link "General Resource" [ref=f73e229] [cursor=pointer]:
+                  - /url: /Resource/Index
+              - listitem [ref=f73e230]:
+                - link "Audiobook" [ref=f73e231] [cursor=pointer]:
+                  - /url: /Podcast/Index
+              - listitem [ref=f73e232]:
+                - link "Current Affairs" [ref=f73e233] [cursor=pointer]:
+                  - /url: /CurrentAffairs/Index
+              - listitem [ref=f73e234]:
+                - link "Shorts" [ref=f73e235] [cursor=pointer]:
+                  - /url: /ShortVideo/Index
+              - listitem [ref=f73e236]:
+                - link "Offers" [ref=f73e237] [cursor=pointer]:
+                  - /url: /Offers/Index
+          - listitem [ref=f73e238]:
+            - link "Leaderboard" [ref=f73e239] [cursor=pointer]:
+              - /url: /Leaderboard/Index
+              - img [ref=f73e240]
+              - generic [ref=f73e242]: Leaderboard
+          - listitem [ref=f73e243]:
+            - heading "E-Commerce" [level=6] [ref=f73e245]
+          - listitem [ref=f73e246]:
+            - link "Dashboard" [ref=f73e247] [cursor=pointer]:
+              - /url: /Ecommerce/Index
+              - img [ref=f73e248]
+              - generic [ref=f73e250]: Dashboard
+          - listitem [ref=f73e251]:
+            - link "product icon Product" [ref=f73e252] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img "product icon" [ref=f73e253]
+              - generic [ref=f73e254]: Product
+            - list [ref=f73e255]:
+              - listitem [ref=f73e256]:
+                - link "Product Types" [ref=f73e257] [cursor=pointer]:
+                  - /url: /Master/ProductTypes
+              - listitem [ref=f73e258]:
+                - link "Products" [ref=f73e259] [cursor=pointer]:
+                  - /url: /Product/Products
+              - listitem [ref=f73e260]:
+                - link "Inventory Management" [ref=f73e261] [cursor=pointer]:
+                  - /url: /Inventory/Inventory
+          - listitem [ref=f73e262]:
+            - link "Ebooks" [ref=f73e263] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e264]
+              - generic [ref=f73e266]: Ebooks
+            - list [ref=f73e267]:
+              - listitem [ref=f73e268]:
+                - link "Ebooks" [ref=f73e269] [cursor=pointer]:
+                  - /url: /Ebook/Index
+              - listitem [ref=f73e270]:
+                - link "Ebook Purchase Info" [ref=f73e271] [cursor=pointer]:
+                  - /url: /Ebook/PurchaseInfo
+              - listitem [ref=f73e272]:
+                - link "Ebook Ratings" [ref=f73e273] [cursor=pointer]:
+                  - /url: /EbookRating/Index
+              - listitem [ref=f73e274]:
+                - link "Admin Ebook Ratings" [ref=f73e275] [cursor=pointer]:
+                  - /url: /AdminEbookRating/Index
+          - listitem [ref=f73e276]:
+            - link "Order" [ref=f73e277] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e278]
+              - generic [ref=f73e280]: Order
+            - list [ref=f73e281]:
+              - listitem [ref=f73e282]:
+                - link "Pending" [ref=f73e283] [cursor=pointer]:
+                  - /url: /Order/Pending
+              - listitem [ref=f73e284]:
+                - link "Shipped" [ref=f73e285] [cursor=pointer]:
+                  - /url: /Order/Shipped
+              - listitem [ref=f73e286]:
+                - link "Failed" [ref=f73e287] [cursor=pointer]:
+                  - /url: /Order/OrderFailed
+              - listitem [ref=f73e288]:
+                - link "Order History" [ref=f73e289] [cursor=pointer]:
+                  - /url: /Order/Index
+          - listitem [ref=f73e290]:
+            - link "Customer" [ref=f73e291] [cursor=pointer]:
+              - /url: /Customer/CustomerDetails
+              - img [ref=f73e292]
+              - generic [ref=f73e294]: Customer
+          - listitem [ref=f73e295]:
+            - link "Dashboards" [ref=f73e296] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e297]
+              - generic [ref=f73e299]: Dashboards
+            - list [ref=f73e300]:
+              - listitem [ref=f73e301]:
+                - link "Sales" [ref=f73e302] [cursor=pointer]:
+                  - /url: /Admin/Books/Dashboard/Sales
+              - listitem [ref=f73e303]:
+                - link "Purchases" [ref=f73e304] [cursor=pointer]:
+                  - /url: /Admin/Books/Dashboard/Purchases
+              - listitem [ref=f73e305]:
+                - link "Inventory" [ref=f73e306] [cursor=pointer]:
+                  - /url: /Admin/Books/Dashboard/Inventory
+          - listitem [ref=f73e307]:
+            - link "Reports" [ref=f73e308] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e309]
+              - generic [ref=f73e311]: Reports
+            - list [ref=f73e312]:
+              - listitem [ref=f73e313]:
+                - link "Purchase Report" [ref=f73e314] [cursor=pointer]:
+                  - /url: /Admin/Books/Reports/Purchase
+              - listitem [ref=f73e315]:
+                - link "Sales Report" [ref=f73e316] [cursor=pointer]:
+                  - /url: /Admin/Books/Reports/Sales
+              - listitem [ref=f73e317]:
+                - link "Inventory Report" [ref=f73e318] [cursor=pointer]:
+                  - /url: /Admin/Books/Reports/Inventory
+              - listitem [ref=f73e319]:
+                - link "Combo Report" [ref=f73e320] [cursor=pointer]:
+                  - /url: /Admin/Books/Reports/Combo
+          - listitem [ref=f73e321]:
+            - link "Manual Purchase" [ref=f73e322] [cursor=pointer]:
+              - /url: /Admin/Books/ManualPurchase/Index
+              - img [ref=f73e323]
+              - generic [ref=f73e325]: Manual Purchase
+          - listitem [ref=f73e326]:
+            - heading "Payments" [level=6] [ref=f73e328]
+          - listitem [ref=f73e329]:
+            - link "Transactions" [ref=f73e330] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=f73e331]
+              - generic [ref=f73e333]: Transactions
+            - list [ref=f73e334]:
+              - listitem [ref=f73e335]:
+                - link "Membership" [ref=f73e336] [cursor=pointer]:
+                  - /url: /Payment/Transactions
+              - listitem [ref=f73e337]:
+                - link "Order Purchase" [ref=f73e338] [cursor=pointer]:
+                  - /url: /Payment/OrderPurchaseTransactions
+          - listitem [ref=f73e339]:
+            - heading "Notifcations" [level=6] [ref=f73e341]
+          - listitem [ref=f73e342]:
+            - link "notify-ico Notifications" [ref=f73e343] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img "notify-ico" [ref=f73e344]
+              - generic [ref=f73e345]: Notifications
+            - list [ref=f73e346]:
+              - listitem [ref=f73e347]:
+                - link "Notifications" [ref=f73e348] [cursor=pointer]:
+                  - /url: /Notifications/AllNotifications
+          - listitem [ref=f73e349]:
+            - heading "Job Management" [level=6] [ref=f73e351]
+          - listitem [ref=f73e352]:
+            - link "notify-ico Jobs" [ref=f73e353] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img "notify-ico" [ref=f73e354]
+              - generic [ref=f73e355]: Jobs
+            - list [ref=f73e356]:
+              - listitem [ref=f73e357]:
+                - link "Applied Jobs" [ref=f73e358] [cursor=pointer]:
+                  - /url: /AppliedJobManagement/Index
+              - listitem [ref=f73e359]:
+                - link "Job Post" [ref=f73e360] [cursor=pointer]:
+                  - /url: /JobPostManagement/Index
+    - main [ref=f73e362]:
+      - generic [ref=f73e364]:
+        - generic [ref=f73e365]:
+          - heading "Promo Codes" [level=5] [ref=f73e366]
+          - link "Add Promo Code" [ref=f73e367] [cursor=pointer]:
+            - /url: /PromoCode/Create
+        - table [ref=f73e370]:
+          - rowgroup [ref=f73e371]:
+            - row "Code Discount Scope Validity Redemptions Status Action" [ref=f73e372]:
+              - columnheader "Code" [ref=f73e373]
+              - columnheader "Discount" [ref=f73e374]
+              - columnheader "Scope" [ref=f73e375]
+              - columnheader "Validity" [ref=f73e376]
+              - columnheader "Redemptions" [ref=f73e377]
+              - columnheader "Status" [ref=f73e378]
+              - columnheader "Action" [ref=f73e379]

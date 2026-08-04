@@ -1,0 +1,418 @@
+- generic [ref=f21e1]:
+  - generic [ref=f21e7]:
+    - generic [ref=f21e8]:
+      - generic [ref=f21e9]:
+        - heading "Dashboard" [level=4] [ref=f21e10]
+        - navigation [ref=f21e11]:
+          - list [ref=f21e12]:
+            - listitem [ref=f21e13]:
+              - link [ref=f21e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f21e15]
+            - listitem [ref=f21e18]: / Index
+      - generic [ref=f21e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f21e22]:
+          - text: 
+          - listitem [ref=f21e23] [cursor=pointer]:
+            - generic [ref=f21e25]:
+              - generic [ref=f21e26]: superadmin@gmail.com
+              - paragraph [ref=f21e27]:
+                - text: SuperAdmin
+                - generic [ref=f21e28]: 
+    - generic [ref=f21e29]:
+      - generic [ref=f21e31]:
+        - generic [ref=f21e32]:
+          - link [ref=f21e33] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f21e35] [cursor=pointer]
+        - navigation [ref=f21e37]:
+          - list [ref=f21e39]:
+            - generic [ref=f21e44]:
+              - text: 
+              - listitem [ref=f21e45]:
+                - heading "Applications" [level=6] [ref=f21e47]
+              - listitem [ref=f21e48]:
+                - link "Dashboard" [ref=f21e49] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f21e50]
+                  - generic [ref=f21e52]: Dashboard
+                  - text: 
+              - listitem [ref=f21e53]:
+                - link "Enrollment " [ref=f21e54] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e55]
+                  - generic [ref=f21e57]: Enrollment
+                  - generic [ref=f21e59]: 
+              - listitem [ref=f21e60]:
+                - link "Website Settings " [ref=f21e61] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e62]
+                  - generic [ref=f21e64]: Website Settings
+                  - generic [ref=f21e66]: 
+              - listitem [ref=f21e67]:
+                - link "Membership " [ref=f21e68] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e69]
+                  - generic [ref=f21e71]: Membership
+                  - generic [ref=f21e73]: 
+              - listitem [ref=f21e74]:
+                - link "IVR " [ref=f21e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e76]
+                  - generic [ref=f21e78]: IVR
+                  - generic [ref=f21e80]: 
+              - listitem [ref=f21e81]:
+                - link "Course " [ref=f21e82] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e83]
+                  - generic [ref=f21e85]: Course
+                  - generic [ref=f21e87]: 
+              - listitem [ref=f21e88]:
+                - link " Self Host " [ref=f21e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f21e90]: 
+                  - generic [ref=f21e91]: Self Host
+                  - generic [ref=f21e93]: 
+              - listitem [ref=f21e94]:
+                - link "Assessment " [ref=f21e95] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e96]
+                  - generic [ref=f21e98]: Assessment
+                  - generic [ref=f21e100]: 
+              - listitem [ref=f21e101]:
+                - link "Student Activity " [ref=f21e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e103]
+                  - generic [ref=f21e105]: Student Activity
+                  - generic [ref=f21e107]: 
+              - listitem [ref=f21e108]:
+                - link "APL " [ref=f21e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e110]
+                  - generic [ref=f21e112]: APL
+                  - generic [ref=f21e114]: 
+              - listitem [ref=f21e115]:
+                - link "Email Draft " [ref=f21e116] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e117]
+                  - generic [ref=f21e119]: Email Draft
+                  - generic [ref=f21e121]: 
+              - listitem [ref=f21e122]:
+                - link "Admin " [ref=f21e123] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e124]
+                  - generic [ref=f21e126]: Admin
+                  - generic [ref=f21e128]: 
+              - listitem [ref=f21e129]:
+                - link "GST Report " [ref=f21e130] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e131]
+                  - generic [ref=f21e133]: GST Report
+                  - generic [ref=f21e135]: 
+              - listitem [ref=f21e136]:
+                - link "general icon General " [ref=f21e137] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f21e138]
+                  - generic [ref=f21e139]: General
+                  - generic [ref=f21e141]: 
+              - listitem [ref=f21e142]:
+                - link "Leaderboard" [ref=f21e143] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f21e144]
+                  - generic [ref=f21e146]: Leaderboard
+                  - text: 
+              - listitem [ref=f21e147]:
+                - heading "E-Commerce" [level=6] [ref=f21e149]
+              - listitem [ref=f21e150]:
+                - link "Dashboard" [ref=f21e151] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f21e152]
+                  - generic [ref=f21e154]: Dashboard
+                  - text: 
+              - listitem [ref=f21e155]:
+                - link "product icon Product " [ref=f21e156] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f21e157]
+                  - generic [ref=f21e158]: Product
+                  - generic [ref=f21e160]: 
+              - listitem [ref=f21e161]:
+                - link "Ebooks " [ref=f21e162] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e163]
+                  - generic [ref=f21e165]: Ebooks
+                  - generic [ref=f21e167]: 
+              - listitem [ref=f21e168]:
+                - link "Order " [ref=f21e169] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e170]
+                  - generic [ref=f21e172]: Order
+                  - generic [ref=f21e174]: 
+              - listitem [ref=f21e175]:
+                - link "Customer" [ref=f21e176] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f21e177]
+                  - generic [ref=f21e179]: Customer
+                  - text: 
+              - listitem [ref=f21e180]:
+                - link "Dashboards " [ref=f21e181] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e182]
+                  - generic [ref=f21e184]: Dashboards
+                  - generic [ref=f21e186]: 
+              - listitem [ref=f21e187]:
+                - link "Reports " [ref=f21e188] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e189]
+                  - generic [ref=f21e191]: Reports
+                  - generic [ref=f21e193]: 
+              - listitem [ref=f21e194]:
+                - link "Manual Purchase" [ref=f21e195] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f21e196]
+                  - generic [ref=f21e198]: Manual Purchase
+              - listitem [ref=f21e199]:
+                - heading "Payments" [level=6] [ref=f21e201]
+              - listitem [ref=f21e202]:
+                - link "Transactions " [ref=f21e203] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f21e204]
+                  - generic [ref=f21e206]: Transactions
+                  - generic [ref=f21e208]: 
+              - listitem [ref=f21e209]:
+                - heading "Notifcations" [level=6] [ref=f21e211]
+              - listitem [ref=f21e212]:
+                - link "notify-ico Notifications " [ref=f21e213] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f21e214]
+                  - generic [ref=f21e215]: Notifications
+                  - generic [ref=f21e217]: 
+              - listitem [ref=f21e218]:
+                - heading "Job Management" [level=6] [ref=f21e220]
+              - listitem [ref=f21e221]:
+                - link "notify-ico Jobs " [ref=f21e222] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f21e223]
+                  - generic [ref=f21e224]: Jobs
+                  - generic [ref=f21e226]: 
+      - main [ref=f21e228]:
+        - generic [ref=f21e230]:
+          - generic [ref=f21e232]:
+            - generic [ref=f21e234]:
+              - heading "Total Enrollments" [level=4] [ref=f21e237]
+              - generic [ref=f21e239]:
+                - img [ref=f21e241]
+                - generic [ref=f21e242]:
+                  - heading "7038" [level=2] [ref=f21e243]
+                  - generic [ref=f21e244]: +7034 new this week
+            - generic [ref=f21e246]:
+              - heading "Total Tutors" [level=4] [ref=f21e249]
+              - generic [ref=f21e251]:
+                - img [ref=f21e253]
+                - generic [ref=f21e254]:
+                  - heading "0" [level=2] [ref=f21e255]
+                  - generic [ref=f21e256]: +0 this week
+            - generic [ref=f21e258]:
+              - heading "Total Courses" [level=4] [ref=f21e261]
+              - generic [ref=f21e263]:
+                - img [ref=f21e265]
+                - generic [ref=f21e266]:
+                  - heading "61" [level=2] [ref=f21e267]
+                  - generic [ref=f21e268]: +48 this month
+            - generic [ref=f21e270]:
+              - heading "Paid Enrollments" [level=4] [ref=f21e273]
+              - generic [ref=f21e275]:
+                - img [ref=f21e277]
+                - generic [ref=f21e278]:
+                  - heading "2533" [level=2] [ref=f21e279]
+                  - generic [ref=f21e280]: +2533 this week
+          - generic [ref=f21e282]:
+            - heading "Recent Enrollments" [level=4] [ref=f21e285]
+            - generic [ref=f21e288]:
+              - generic [ref=f21e290]:
+                - text: "Search:"
+                - searchbox "Search:" [ref=f21e291] [cursor=pointer]
+              - grid [ref=f21e292]:
+                - rowgroup [ref=f21e293]:
+                  - 'row "User Name : activate to sort column descending Email : activate to sort column ascending Phone Number : activate to sort column ascending Status : activate to sort column ascending City : activate to sort column ascending" [ref=f21e294]':
+                    - 'columnheader "User Name : activate to sort column descending" [ref=f21e295] [cursor=pointer]':
+                      - text: User Name
+                      - generic [ref=f21e296]: 
+                    - 'columnheader "Email : activate to sort column ascending" [ref=f21e297] [cursor=pointer]':
+                      - text: Email
+                      - generic [ref=f21e298]: 
+                    - 'columnheader "Phone Number : activate to sort column ascending" [ref=f21e299] [cursor=pointer]':
+                      - text: Phone Number
+                      - generic [ref=f21e300]: 
+                    - 'columnheader "Status : activate to sort column ascending" [ref=f21e301] [cursor=pointer]':
+                      - text: Status
+                      - generic [ref=f21e302]: 
+                    - 'columnheader "City : activate to sort column ascending" [ref=f21e303] [cursor=pointer]':
+                      - text: City
+                      - generic [ref=f21e304]: 
+                - rowgroup [ref=f21e305]:
+                  - row "jul20 jul20@yopmail.com 9685566666 Active Chennai" [ref=f21e306]:
+                    - gridcell "jul20" [ref=f21e307]
+                    - gridcell "jul20@yopmail.com" [ref=f21e308]
+                    - gridcell "9685566666" [ref=f21e309]
+                    - gridcell "Active" [ref=f21e310]:
+                      - generic [ref=f21e311]: Active
+                    - gridcell "Chennai" [ref=f21e312]
+                  - row "jul21 jul21@yopmail.com 6949798989 Active" [ref=f21e313]:
+                    - gridcell "jul21" [ref=f21e314]
+                    - gridcell "jul21@yopmail.com" [ref=f21e315]
+                    - gridcell "6949798989" [ref=f21e316]
+                    - gridcell "Active" [ref=f21e317]:
+                      - generic [ref=f21e318]: Active
+                    - gridcell [ref=f21e319]
+                  - row "jul23 jul23@yopmail.com 6949894698 Active chennai" [ref=f21e320]:
+                    - gridcell "jul23" [ref=f21e321]
+                    - gridcell "jul23@yopmail.com" [ref=f21e322]
+                    - gridcell "6949894698" [ref=f21e323]
+                    - gridcell "Active" [ref=f21e324]:
+                      - generic [ref=f21e325]: Active
+                    - gridcell "chennai" [ref=f21e326]
+                  - row "qatestpromo20260721 qatest_promo_20260721@mailinator.com 9876501721 Active" [ref=f21e327]:
+                    - gridcell "qatestpromo20260721" [ref=f21e328]
+                    - gridcell "qatest_promo_20260721@mailinator.com" [ref=f21e329]
+                    - gridcell "9876501721" [ref=f21e330]
+                    - gridcell "Active" [ref=f21e331]:
+                      - generic [ref=f21e332]: Active
+                    - gridcell [ref=f21e333]
+              - status [ref=f21e334]: Showing 1 to 4 of 5 entries
+              - generic [ref=f21e335]:
+                - generic [ref=f21e336]: Previous
+                - generic [ref=f21e337]:
+                  - generic [ref=f21e338] [cursor=pointer]: "1"
+                  - generic [ref=f21e339] [cursor=pointer]: "2"
+                - generic [ref=f21e340] [cursor=pointer]: Next
+          - generic [ref=f21e342]:
+            - heading "Live Meeting" [level=4] [ref=f21e345]
+            - list [ref=f21e348]:
+              - listitem [ref=f21e349]:
+                - 'heading "Class: Post office exam- Tamil nadu 2026" [level=5] [ref=f21e350]':
+                  - generic [ref=f21e351]: "Class:"
+                  - text: Post office exam- Tamil nadu 2026
+              - listitem [ref=f21e352]:
+                - 'heading "Start Time: 7/20/2026 9:27:00 PM" [level=5] [ref=f21e353]':
+                  - generic [ref=f21e354]: "Start Time:"
+                  - text: 7/20/2026 9:27:00 PM
+              - listitem [ref=f21e355]:
+                - button " Join Live" [ref=f21e357] [cursor=pointer]:
+                  - generic [ref=f21e358]: 
+                  - text: Join Live
+          - generic [ref=f21e360]:
+            - heading "Courses" [level=4] [ref=f21e363]
+            - generic [ref=f21e366]:
+              - generic [ref=f21e368]:
+                - text: "Search:"
+                - searchbox "Search:" [ref=f21e369] [cursor=pointer]
+              - grid [ref=f21e370]:
+                - rowgroup [ref=f21e371]:
+                  - 'row "Code : activate to sort column descending Title : activate to sort column ascending Duration (min) : activate to sort column ascending Status : activate to sort column ascending" [ref=f21e372]':
+                    - 'columnheader "Code : activate to sort column descending" [ref=f21e373] [cursor=pointer]':
+                      - text: Code
+                      - generic [ref=f21e374]: 
+                    - 'columnheader "Title : activate to sort column ascending" [ref=f21e375] [cursor=pointer]':
+                      - text: Title
+                      - generic [ref=f21e376]: 
+                    - 'columnheader "Duration (min) : activate to sort column ascending" [ref=f21e377] [cursor=pointer]':
+                      - text: Duration (min)
+                      - generic [ref=f21e378]: 
+                    - 'columnheader "Status : activate to sort column ascending" [ref=f21e379] [cursor=pointer]':
+                      - text: Status
+                      - generic [ref=f21e380]: 
+                - rowgroup [ref=f21e381]:
+                  - row "GST-0004 GST exclu multi 100 Active" [ref=f21e382]:
+                    - gridcell "GST-0004" [ref=f21e383]
+                    - gridcell "GST exclu multi" [ref=f21e384]:
+                      - generic "GST exclu multi" [ref=f21e385]:
+                        - link "GST exclu multi" [ref=f21e386] [cursor=pointer]:
+                          - /url: /Master/Course/141
+                          - strong [ref=f21e387]: GST exclu multi
+                    - gridcell "100" [ref=f21e388]
+                    - gridcell "Active" [ref=f21e389]:
+                      - generic [ref=f21e390]: Active
+                  - row "JTPhase-03-02 FITJEE Exam 30 Active" [ref=f21e391]:
+                    - gridcell "JTPhase-03-02" [ref=f21e392]
+                    - gridcell "FITJEE Exam" [ref=f21e393]:
+                      - generic "FITJEE Exam" [ref=f21e394]:
+                        - link "FITJEE Exam" [ref=f21e395] [cursor=pointer]:
+                          - /url: /Master/Course/146
+                          - strong [ref=f21e396]: FITJEE Exam
+                    - gridcell "30" [ref=f21e397]
+                    - gridcell "Active" [ref=f21e398]:
+                      - generic [ref=f21e399]: Active
+                  - row "JTPhase3-03-1 NEET Exam Preparation 20 Active" [ref=f21e400]:
+                    - gridcell "JTPhase3-03-1" [ref=f21e401]
+                    - gridcell "NEET Exam Preparation" [ref=f21e402]:
+                      - generic "NEET Exam Preparation" [ref=f21e403]:
+                        - link "NEET Exam Preparation" [ref=f21e404] [cursor=pointer]:
+                          - /url: /Master/Course/145
+                          - strong [ref=f21e405]: NEET Exam Preparation
+                    - gridcell "20" [ref=f21e406]
+                    - gridcell "Active" [ref=f21e407]:
+                      - generic [ref=f21e408]: Active
+                  - row "JTRelease -01 TNPSC Course Group 4 100 Active" [ref=f21e409]:
+                    - gridcell "JTRelease -01" [ref=f21e410]
+                    - gridcell "TNPSC Course Group 4" [ref=f21e411]:
+                      - generic "TNPSC Course Group 4" [ref=f21e412]:
+                        - link "TNPSC Course Group 4" [ref=f21e413] [cursor=pointer]:
+                          - /url: /Master/Course/143
+                          - strong [ref=f21e414]: TNPSC Course Group 4
+                    - gridcell "100" [ref=f21e415]
+                    - gridcell "Active" [ref=f21e416]:
+                      - generic [ref=f21e417]: Active
+                  - row "NEET-2025 Gst Inclusive only 100 Active" [ref=f21e418]:
+                    - gridcell "NEET-2025" [ref=f21e419]
+                    - gridcell "Gst Inclusive only" [ref=f21e420]:
+                      - generic "Gst Inclusive only" [ref=f21e421]:
+                        - link "Gst Inclusive only" [ref=f21e422] [cursor=pointer]:
+                          - /url: /Master/Course/144
+                          - strong [ref=f21e423]: Gst Inclusive only
+                    - gridcell "100" [ref=f21e424]
+                    - gridcell "Active" [ref=f21e425]:
+                      - generic [ref=f21e426]: Active
+                  - row "NEET-2025 GST TEst 10 Active" [ref=f21e427]:
+                    - gridcell "NEET-2025" [ref=f21e428]
+                    - gridcell "GST TEst" [ref=f21e429]:
+                      - generic "GST TEst" [ref=f21e430]:
+                        - link "GST TEst" [ref=f21e431] [cursor=pointer]:
+                          - /url: /Master/Course/142
+                          - strong [ref=f21e432]: GST TEst
+                    - gridcell "10" [ref=f21e433]
+                    - gridcell "Active" [ref=f21e434]:
+                      - generic [ref=f21e435]: Active
+          - generic [ref=f21e437]:
+            - heading "Daily Attendance Report" [level=4] [ref=f21e440]
+            - img [ref=f21e444]:
+              - generic [ref=f21e447]:
+                - generic "Jul 14" [ref=f21e448]
+                - generic "Jul 15" [ref=f21e449]
+                - generic "Jul 16" [ref=f21e450]
+                - generic "Jul 17" [ref=f21e451]
+                - generic "Jul 18" [ref=f21e452]
+                - generic "Jul 19" [ref=f21e453]
+                - generic "Jul 20" [ref=f21e454]
+                - generic "Jul 21" [ref=f21e455]
+                - generic "Jul 22" [ref=f21e456]
+                - generic "Jul 23" [ref=f21e457]
+              - generic [ref=f21e462]:
+                - generic "20 Users" [ref=f21e463]
+                - generic "15 Users" [ref=f21e464]
+                - generic "10 Users" [ref=f21e465]
+                - generic "5 Users" [ref=f21e466]
+                - generic "0 Users" [ref=f21e467]
+      - contentinfo [ref=f21e468]:
+        - paragraph [ref=f21e472]:
+          - text: Copyright
+          - generic [ref=f21e473]: "2026"
+          - text: © Jeshwar Teaching
+  - img

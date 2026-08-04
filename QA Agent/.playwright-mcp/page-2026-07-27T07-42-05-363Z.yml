@@ -1,0 +1,327 @@
+- generic [ref=f19e1]:
+  - generic [ref=f19e2]:
+    - generic [ref=f19e3]:
+      - generic [ref=f19e5]:
+        - generic [ref=f19e6]:
+          - link "Logo" [ref=f19e7] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - img "Logo" [ref=f19e8]
+          - text: 
+        - list [ref=f19e9]:
+          - listitem [ref=f19e10]:
+            - link " Dashboard" [ref=f19e11] [cursor=pointer]:
+              - /url: /Dashboard/Index
+              - generic [ref=f19e12]: 
+              - text: Dashboard
+          - listitem [ref=f19e13]:
+            - link " Batches" [ref=f19e14] [cursor=pointer]:
+              - /url: /Batches/Index
+              - generic [ref=f19e15]: 
+              - text: Batches
+          - listitem [ref=f19e16]:
+            - link " My Courses" [ref=f19e17] [cursor=pointer]:
+              - /url: /Course/Index
+              - generic [ref=f19e18]: 
+              - text: My Courses
+          - listitem [ref=f19e19]:
+            - link " eBooks" [ref=f19e20] [cursor=pointer]:
+              - /url: /Ebook/Index
+              - generic [ref=f19e21]: 
+              - text: eBooks
+          - listitem [ref=f19e22]:
+            - link " Wishlist" [ref=f19e23] [cursor=pointer]:
+              - /url: /Wishlist/Index
+              - generic [ref=f19e24]: 
+              - text: Wishlist
+          - listitem [ref=f19e25]:
+            - link " Audiobook" [ref=f19e26] [cursor=pointer]:
+              - /url: /Podcast/Index
+              - generic [ref=f19e27]: 
+              - text: Audiobook
+          - listitem [ref=f19e28]:
+            - link " Resources" [ref=f19e29] [cursor=pointer]:
+              - /url: /Resources/Index
+              - generic [ref=f19e30]: 
+              - text: Resources
+          - listitem [ref=f19e31]:
+            - link " Current Affairs" [ref=f19e32] [cursor=pointer]:
+              - /url: /CurrentAffairs/Index
+              - generic [ref=f19e33]: 
+              - text: Current Affairs
+          - listitem [ref=f19e34]:
+            - link " Test" [ref=f19e35] [cursor=pointer]:
+              - /url: /Assessment/Batches
+              - generic [ref=f19e36]: 
+              - text: Test
+          - listitem [ref=f19e37]:
+            - link " Settings" [ref=f19e38] [cursor=pointer]:
+              - /url: /Settings/Index
+              - generic [ref=f19e39]: 
+              - text: Settings
+          - listitem [ref=f19e40]:
+            - link " Call Reminders" [ref=f19e41] [cursor=pointer]:
+              - /url: /CallReminder/Index
+              - generic [ref=f19e42]: 
+              - text: Call Reminders
+          - listitem [ref=f19e43]:
+            - link " Leaderboard" [ref=f19e44] [cursor=pointer]:
+              - /url: /Leaderboard/Index
+              - generic [ref=f19e45]: 
+              - text: Leaderboard
+          - listitem [ref=f19e46]:
+            - button " APL " [ref=f19e47] [cursor=pointer]:
+              - generic [ref=f19e48]:
+                - generic [ref=f19e49]: 
+                - text: APL
+              - generic [ref=f19e50]: 
+            - text:    
+          - listitem [ref=f19e51]:
+            - link " Notification" [ref=f19e52] [cursor=pointer]:
+              - /url: /Notification/Notifications
+              - generic [ref=f19e53]: 
+              - text: Notification
+          - listitem [ref=f19e54]:
+            - button " Logout" [ref=f19e56] [cursor=pointer]:
+              - generic [ref=f19e57]: 
+              - text: Logout
+      - generic [ref=f19e59]:
+        - banner [ref=f19e60]:
+          - text: 
+          - generic [ref=f19e61]:
+            - generic [ref=f19e62]:
+              - generic [ref=f19e63]: 
+              - textbox "Search Course" [ref=f19e64]
+              - text: 
+            - link "" [ref=f19e66] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=f19e68]: 
+            - link "Profile qapromotester270726" [ref=f19e70] [cursor=pointer]:
+              - /url: "#"
+              - img "Profile" [ref=f19e71]
+              - generic [ref=f19e72]: qapromotester270726
+        - generic [ref=f19e74]:
+          - heading "Checkout" [level=3] [ref=f19e75]
+          - generic [ref=f19e76]:
+            - generic [ref=f19e77]:
+              - generic [ref=f19e79]:
+                - img "NEET Exam Preparation" [ref=f19e80]
+                - generic [ref=f19e81]:
+                  - heading "NEET Exam Preparation" [level=5] [ref=f19e82]
+                  - generic [ref=f19e84]: July membership- single
+              - generic [ref=f19e85]:
+                - generic [ref=f19e86]:
+                  - heading "Have a promo code?" [level=5] [ref=f19e87]
+                  - button "View Promo Codes ▼" [ref=f19e88] [cursor=pointer]
+                - generic [ref=f19e89]:
+                  - textbox "Enter promo code" [ref=f19e90]: QATEST_TIMEBOUND270726
+                  - button "Applied" [disabled] [ref=f19e122]
+                - generic [ref=f19e123]:
+                  - generic [ref=f19e124]: Promo code QATEST_TIMEBOUND270726 applied — you saved ₹699.90
+                  - button "✕ Clear" [ref=f19e125] [cursor=pointer]
+            - generic [ref=f19e93]:
+              - heading "Order Summary" [level=5] [ref=f19e94]
+              - generic [ref=f19e95]:
+                - generic [ref=f19e96]: Course Fee
+                - generic [ref=f19e97]: ₹6,999.00
+              - generic [ref=f19e126]:
+                - generic [ref=f19e127]: Promo Discount
+                - generic [ref=f19e128]: "-₹699.90"
+              - generic [ref=f19e98]:
+                - generic [ref=f19e99]: Price after Discount
+                - generic [ref=f19e100]: ₹6,299.10
+              - generic [ref=f19e101]:
+                - generic [ref=f19e102]: GST (10%, incl.)
+                - generic [ref=f19e103]: ₹572.65
+              - separator [ref=f19e104]
+              - generic [ref=f19e105]:
+                - generic [ref=f19e106]: Total
+                - generic [ref=f19e107]: ₹6,299.10
+              - button "Pay ₹ 6,299.10" [ref=f19e129] [cursor=pointer]:
+                - text: Pay ₹
+                - generic [ref=f19e109]: 6,299.10
+              - link "Back to course" [ref=f19e110] [cursor=pointer]:
+                - /url: /Purchase/Index?courseId=145
+    - generic "Ask a doubt" [ref=f19e111]:
+      - generic [ref=f19e112]: 
+    - text:      
+    - contentinfo [ref=f19e113]:
+      - generic [ref=f19e114]:
+        - paragraph [ref=f19e116]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+        - generic [ref=f19e117]:
+          - link "About Us" [ref=f19e118] [cursor=pointer]:
+            - /url: /Content/AboutUs
+          - link "Privacy Policy" [ref=f19e119] [cursor=pointer]:
+            - /url: /Content/PrivacyPolicy
+          - link "Terms & Conditions" [ref=f19e120] [cursor=pointer]:
+            - /url: /Content/TermsCondition
+          - link "Refund Policy" [ref=f19e121] [cursor=pointer]:
+            - /url: /Content/RefundPolicy
+  - generic [ref=f19e130]:
+    - generic [ref=f19e132]: Test Mode
+    - iframe [active] [ref=f19e133]:
+      - generic [ref=f20e2]:
+        - generic [ref=f20e3]:
+          - generic [ref=f20e4]:
+            - generic [ref=f20e7]:
+              - generic [ref=f20e8]: J
+              - generic "JT Learning Portal" [ref=f20e10]
+            - generic [ref=f20e12]:
+              - generic [ref=f20e13]:
+                - generic [ref=f20e17]:
+                  - generic [ref=f20e19]: Price Summary
+                  - heading "₹ 0 1 2 3 4 5 6 7 8 9 0 , 0 1 2 3 4 5 6 7 8 9 0 0 1 2 3 4 5 6 7 8 9 0 0 1 2 3 4 5 6 7 8 9 0 . 0 1 2 3 4 5 6 7 8 9 0 0 1 2 3 4 5 6 7 8 9 0" [level=3] [ref=f20e22]:
+                    - generic [ref=f20e23]: ₹
+                    - generic [ref=f20e24]:
+                      - generic [ref=f20e25]: "0"
+                      - generic [ref=f20e26]: "1"
+                      - generic [ref=f20e27]: "2"
+                      - generic [ref=f20e28]: "3"
+                      - generic [ref=f20e29]: "4"
+                      - generic [ref=f20e30]: "5"
+                      - generic [ref=f20e31]: "6"
+                      - generic [ref=f20e32]: "7"
+                      - generic [ref=f20e33]: "8"
+                      - generic [ref=f20e34]: "9"
+                      - generic [ref=f20e35]: "0"
+                    - generic [ref=f20e36]: ","
+                    - generic [ref=f20e37]:
+                      - generic [ref=f20e38]: "0"
+                      - generic [ref=f20e39]: "1"
+                      - generic [ref=f20e40]: "2"
+                      - generic [ref=f20e41]: "3"
+                      - generic [ref=f20e42]: "4"
+                      - generic [ref=f20e43]: "5"
+                      - generic [ref=f20e44]: "6"
+                      - generic [ref=f20e45]: "7"
+                      - generic [ref=f20e46]: "8"
+                      - generic [ref=f20e47]: "9"
+                      - generic [ref=f20e48]: "0"
+                    - generic [ref=f20e49]:
+                      - generic [ref=f20e50]: "0"
+                      - generic [ref=f20e51]: "1"
+                      - generic [ref=f20e52]: "2"
+                      - generic [ref=f20e53]: "3"
+                      - generic [ref=f20e54]: "4"
+                      - generic [ref=f20e55]: "5"
+                      - generic [ref=f20e56]: "6"
+                      - generic [ref=f20e57]: "7"
+                      - generic [ref=f20e58]: "8"
+                      - generic [ref=f20e59]: "9"
+                      - generic [ref=f20e60]: "0"
+                    - generic [ref=f20e61]:
+                      - generic [ref=f20e62]: "0"
+                      - generic [ref=f20e63]: "1"
+                      - generic [ref=f20e64]: "2"
+                      - generic [ref=f20e65]: "3"
+                      - generic [ref=f20e66]: "4"
+                      - generic [ref=f20e67]: "5"
+                      - generic [ref=f20e68]: "6"
+                      - generic [ref=f20e69]: "7"
+                      - generic [ref=f20e70]: "8"
+                      - generic [ref=f20e71]: "9"
+                      - generic [ref=f20e72]: "0"
+                    - generic [ref=f20e73]: .
+                    - generic [ref=f20e74]:
+                      - generic [ref=f20e75]: "0"
+                      - generic [ref=f20e76]: "1"
+                      - generic [ref=f20e77]: "2"
+                      - generic [ref=f20e78]: "3"
+                      - generic [ref=f20e79]: "4"
+                      - generic [ref=f20e80]: "5"
+                      - generic [ref=f20e81]: "6"
+                      - generic [ref=f20e82]: "7"
+                      - generic [ref=f20e83]: "8"
+                      - generic [ref=f20e84]: "9"
+                      - generic [ref=f20e85]: "0"
+                    - generic [ref=f20e86]:
+                      - generic [ref=f20e87]: "0"
+                      - generic [ref=f20e88]: "1"
+                      - generic [ref=f20e89]: "2"
+                      - generic [ref=f20e90]: "3"
+                      - generic [ref=f20e91]: "4"
+                      - generic [ref=f20e92]: "5"
+                      - generic [ref=f20e93]: "6"
+                      - generic [ref=f20e94]: "7"
+                      - generic [ref=f20e95]: "8"
+                      - generic [ref=f20e96]: "9"
+                      - generic [ref=f20e97]: "0"
+                - button "Using as +91 98765 43212" [ref=f20e98] [cursor=pointer]:
+                  - img [ref=f20e100]
+                  - generic [ref=f20e103]: Using as +91 98765 43212
+                  - img [ref=f20e105]
+              - generic [ref=f20e107]:
+                - generic [ref=f20e108]: Secured by
+                - generic "RazorPay" [ref=f20e109]:
+                  - img [ref=f20e110]
+            - generic:
+              - img
+          - generic [ref=f20e113]:
+            - generic [ref=f20e114]:
+              - generic [ref=f20e115]: Payment Options
+              - generic [ref=f20e116]:
+                - button "Show more options" [ref=f20e117] [cursor=pointer]:
+                  - img [ref=f20e119]
+                - button "Close Checkout" [ref=f20e121] [cursor=pointer]:
+                  - img [ref=f20e123]
+            - separator [ref=f20e125]
+            - generic [ref=f20e130]:
+              - generic [ref=f20e132]:
+                - generic [ref=f20e133] [cursor=pointer]:
+                  - radio "Cards VISA MC RUPAY MAES"
+                  - generic [ref=f20e135]:
+                    - generic [ref=f20e138]: Cards
+                    - generic [ref=f20e140]:
+                      - img "VISA" [ref=f20e142]
+                      - img "MC" [ref=f20e144]
+                      - img "RUPAY" [ref=f20e146]
+                      - img "MAES" [ref=f20e148]
+                - generic [ref=f20e149] [cursor=pointer]:
+                  - radio "Netbanking BARB_R CNRB PUNB_R UTBI"
+                  - generic [ref=f20e151]:
+                    - generic [ref=f20e154]: Netbanking
+                    - generic [ref=f20e156]:
+                      - img "BARB_R" [ref=f20e158]
+                      - img "CNRB" [ref=f20e160]
+                      - img "PUNB_R" [ref=f20e162]
+                      - img "UTBI" [ref=f20e164]
+                - generic [ref=f20e165] [cursor=pointer]:
+                  - radio "Wallet mobikwik airtelmoney olamoney"
+                  - generic [ref=f20e167]:
+                    - generic [ref=f20e170]: Wallet
+                    - generic [ref=f20e172]:
+                      - img "mobikwik" [ref=f20e174]
+                      - img "airtelmoney" [ref=f20e176]
+                      - img "olamoney" [ref=f20e178]
+                - generic [ref=f20e179] [cursor=pointer]:
+                  - radio "Pay Later lazypay icic hdfc epaylater"
+                  - generic [ref=f20e181]:
+                    - generic [ref=f20e184]: Pay Later
+                    - generic [ref=f20e186]:
+                      - img "lazypay" [ref=f20e188]
+                      - img "icic" [ref=f20e190]
+                      - img "hdfc" [ref=f20e192]
+                      - img "epaylater" [ref=f20e194]
+              - generic [ref=f20e200]:
+                - heading "Add a new card" [level=3] [ref=f20e201]
+                - generic [ref=f20e202]:
+                  - generic [ref=f20e203]:
+                    - textbox "Card Number" [ref=f20e206]
+                    - generic [ref=f20e207]:
+                      - textbox "MM / YY" [ref=f20e209]
+                      - textbox "CVV" [ref=f20e211]
+                  - generic [ref=f20e213] [cursor=pointer]:
+                    - checkbox "Save this card as per RBI guidelines" [ref=f20e214]
+                    - generic [ref=f20e215]: Save this card as per RBI guidelines
+                  - button "Continue" [ref=f20e217] [cursor=pointer]
+        - generic [ref=f20e221]:
+          - button [ref=f20e222] [cursor=pointer]:
+            - img [ref=f20e224]
+          - generic [ref=f20e229]:
+            - generic "exit" [ref=f20e232]:
+              - img [ref=f20e233]
+            - generic [ref=f20e263]:
+              - heading "Are you sure you want to exit?" [level=3] [ref=f20e264]
+              - paragraph [ref=f20e265]: You will be taken back to JT Learning Portal website
+            - generic [ref=f20e268]:
+              - button "Continue to payment" [ref=f20e269] [cursor=pointer]
+              - button "Yes, exit" [ref=f20e270] [cursor=pointer]

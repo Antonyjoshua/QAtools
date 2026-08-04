@@ -1,0 +1,381 @@
+- generic [ref=f25e1]:
+  - generic [ref=f25e2]:
+    - generic [ref=f25e3]:
+      - generic [ref=f25e4]:
+        - heading "Dashboard" [level=4] [ref=f25e5]
+        - navigation [ref=f25e6]:
+          - list [ref=f25e7]:
+            - listitem [ref=f25e8]:
+              - link [ref=f25e9] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f25e10]
+            - listitem [ref=f25e13]: / Index
+      - generic [ref=f25e15]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f25e17]:
+          - listitem [ref=f25e18]:
+            - generic [ref=f25e20] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f25e21]:
+      - generic [ref=f25e23]:
+        - text: 
+        - link [ref=f25e25] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f25e26]:
+          - list [ref=f25e28]:
+            - generic [ref=f25e33]:
+              - text: 
+              - listitem [ref=f25e34]:
+                - link [ref=f25e35] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f25e36]
+                  - text: 
+              - listitem [ref=f25e38]:
+                - link [ref=f25e39] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e40]
+                  - text: 
+              - listitem [ref=f25e42]:
+                - link [ref=f25e43] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e44]
+                  - text: 
+              - listitem [ref=f25e46]:
+                - link [ref=f25e47] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e48]
+                  - text: 
+              - listitem [ref=f25e50]:
+                - link [ref=f25e51] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e52]
+                  - text: 
+              - listitem [ref=f25e54]:
+                - link [ref=f25e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e56]
+                  - text: 
+              - listitem [ref=f25e58]:
+                - link "" [ref=f25e59] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f25e60]: 
+                  - text: 
+              - listitem [ref=f25e61]:
+                - link [ref=f25e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e63]
+                  - text: 
+              - listitem [ref=f25e65]:
+                - link [ref=f25e66] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e67]
+                  - text: 
+              - listitem [ref=f25e69]:
+                - link [ref=f25e70] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e71]
+                  - text: 
+              - listitem [ref=f25e73]:
+                - link [ref=f25e74] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e75]
+                  - text: 
+              - listitem [ref=f25e77]:
+                - link [ref=f25e78] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e79]
+                  - text: 
+              - listitem [ref=f25e81]:
+                - link [ref=f25e82] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e83]
+                  - text: 
+              - listitem [ref=f25e85]:
+                - link "general icon" [ref=f25e86] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f25e87]
+                  - text: 
+              - listitem [ref=f25e88]:
+                - link [ref=f25e89] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f25e90]
+                  - text: 
+              - listitem [ref=f25e92]:
+                - link [ref=f25e93] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f25e94]
+                  - text: 
+              - listitem [ref=f25e96]:
+                - link "product icon" [ref=f25e97] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f25e98]
+                  - text: 
+              - listitem [ref=f25e99]:
+                - link [ref=f25e100] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e101]
+                  - text: 
+              - listitem [ref=f25e103]:
+                - link [ref=f25e104] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e105]
+                  - text: 
+              - listitem [ref=f25e107]:
+                - link [ref=f25e108] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f25e109]
+                  - text: 
+              - listitem [ref=f25e111]:
+                - link [ref=f25e112] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e113]
+                  - text: 
+              - listitem [ref=f25e115]:
+                - link [ref=f25e116] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e117]
+                  - text: 
+              - listitem [ref=f25e119]:
+                - link [ref=f25e120] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f25e121]
+              - listitem [ref=f25e123]:
+                - link [ref=f25e124] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f25e125]
+                  - text: 
+              - listitem [ref=f25e127]:
+                - link "notify-ico" [ref=f25e128] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f25e129]
+                  - text: 
+              - listitem [ref=f25e130]:
+                - link "notify-ico" [ref=f25e131] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f25e132]
+                  - text: 
+      - generic [ref=f25e133]:
+        - main:
+          - generic [ref=f25e134]:
+            - link " Exit" [ref=f25e135] [cursor=pointer]:
+              - /url: /LiveApl/Index
+              - generic [ref=f25e136]: 
+              - text: Exit
+            - heading " July — Result Announcement" [level=3] [ref=f25e138]:
+              - generic [ref=f25e139]: 
+              - text: July — Result Announcement
+            - generic [ref=f25e140]: Question 1 of 5
+            - generic [ref=f25e141]:
+              - generic [ref=f25e143]:
+                - generic [ref=f25e145]: Total Participants
+                - generic [ref=f25e146]:
+                  - generic [ref=f25e148]:  👥
+                  - generic [ref=f25e150]: "2"
+              - generic [ref=f25e152]:
+                - generic [ref=f25e154]: Correct Answers
+                - generic [ref=f25e155]:
+                  - generic [ref=f25e157]:  ✅
+                  - generic [ref=f25e159]: "0"
+              - generic [ref=f25e161]:
+                - generic [ref=f25e163]: Wrong Answers
+                - generic [ref=f25e164]:
+                  - generic [ref=f25e166]:  ❌
+                  - generic [ref=f25e168]: "1"
+              - generic [ref=f25e170]:
+                - generic [ref=f25e172]: Missed / Not Attempted
+                - generic [ref=f25e173]:
+                  - generic [ref=f25e175]:  ⏳
+                  - generic [ref=f25e177]: "1"
+              - generic [ref=f25e179]:
+                - generic [ref=f25e181]: Accuracy Percentage
+                - generic [ref=f25e182]:
+                  - generic [ref=f25e184]:  🎯
+                  - generic [ref=f25e186]: 0%
+              - generic [ref=f25e188]:
+                - generic [ref=f25e190]: 🏆 Overall Top 3
+                - generic [ref=f25e191]:
+                  - generic [ref=f25e192]: "1"
+                  - img "jul 24" [ref=f25e193]
+                  - generic [ref=f25e194]: jul 24
+                  - generic [ref=f25e195]:
+                    - generic [ref=f25e196]: 
+                    - text: "0"
+                - generic [ref=f25e197]:
+                  - generic [ref=f25e198]: "2"
+                  - img "jul 27" [ref=f25e199]
+                  - generic [ref=f25e200]: jul 27
+                  - generic [ref=f25e201]:
+                    - generic [ref=f25e202]: 
+                    - text: "0"
+            - generic [ref=f25e203]:
+              - generic [ref=f25e205]:
+                - generic [ref=f25e206]:
+                  - generic [ref=f25e207]: 🪙 Top Coin Earners
+                  - generic [ref=f25e208]: TOP 2
+                - generic [ref=f25e210]:
+                  - generic [ref=f25e211]:
+                    - generic: ✦
+                    - generic: ✦
+                    - generic: ✦
+                    - generic [ref=f25e212]:
+                      - generic [ref=f25e214]:
+                        - generic [ref=f25e216]: 
+                        - img "jul 24" [ref=f25e217]
+                        - generic [ref=f25e218]: "1"
+                      - generic [ref=f25e219]:
+                        - generic [ref=f25e220]: jul 24
+                        - text: 
+                        - generic [ref=f25e221]:
+                          - generic [ref=f25e223]: 
+                          - generic [ref=f25e224]:
+                            - generic [ref=f25e225]: "+0"
+                            - generic [ref=f25e226]: Coins This Q
+                  - generic [ref=f25e228]:
+                    - generic [ref=f25e230]:
+                      - generic [ref=f25e232]: 
+                      - img "jul 27" [ref=f25e233]
+                      - generic [ref=f25e234]: "2"
+                    - generic [ref=f25e235]:
+                      - generic [ref=f25e236]: jul 27
+                      - text: 
+                      - generic [ref=f25e237]:
+                        - generic [ref=f25e239]: 
+                        - generic [ref=f25e240]:
+                          - generic [ref=f25e241]: "+0"
+                          - generic [ref=f25e242]: Coins This Q
+              - generic [ref=f25e243]:
+                - generic [ref=f25e244]:
+                  - generic [ref=f25e249]:
+                    - generic [ref=f25e250]:
+                      - text: Q1
+                      - generic [ref=f25e251]: / 5
+                    - generic [ref=f25e252]:
+                      - button "அ A" [ref=f25e253] [cursor=pointer]:
+                        - generic [ref=f25e254]: அ
+                        - generic [ref=f25e255]: A
+                      - button " Solution" [ref=f25e256] [cursor=pointer]:
+                        - generic [ref=f25e257]: 
+                        - text: Solution
+                  - generic [ref=f25e258]:
+                    - paragraph
+                    - paragraph [ref=f25e259]:
+                      - strong [ref=f25e260]:
+                        - text: "கூற்று:"
+                        - text: தரவுத்தள அமைப்பில், முட்டுக்கட்டை (Deadlock) பாதிக்கப்பட்ட பரிவர்த்தனைகளின் செயல்பாடுகளை முற்றிலும் நிறுத்திவிடலாம்.
+                        - text: "காரணம்:"
+                        - text: இரண்டு அல்லது அதற்கு மேற்பட்ட பரிவர்த்தனைகள், மற்ற பரிவர்த்தனை தற்போது வைத்திருக்கும் வளத்திற்காக காலவரையின்றி காத்திருக்கும்போது இது நிகழ்கிறது.
+                    - paragraph
+                  - generic [ref=f25e261]:
+                    - generic [ref=f25e262]:
+                      - generic [ref=f25e263]: A
+                      - paragraph [ref=f25e265]:
+                        - strong [ref=f25e266]:
+                          - text: கூற்று மற்றும் காரணம் இரண்டும் சரி; காரணம், கூற்றிற்கான சரியான விளக்கம்.
+                          - text: Both Assertion and Reason are correct, and Reason is the correct explanation of Assertion.
+                      - generic [ref=f25e267]: 
+                    - generic [ref=f25e268]:
+                      - generic [ref=f25e269]: B
+                      - paragraph [ref=f25e271]:
+                        - strong [ref=f25e272]:
+                          - text: கூற்று மற்றும் காரணம் இரண்டும் சரி; ஆனால் காரணம், கூற்றிற்கான சரியான விளக்கம் அல்ல.
+                          - text: Both Assertion and Reason are correct, but Reason is not the correct explanation of Assertion.
+                    - generic [ref=f25e273]:
+                      - generic [ref=f25e274]: C
+                      - paragraph [ref=f25e276]:
+                        - strong [ref=f25e277]:
+                          - text: கூற்று சரி; காரணம் தவறு.
+                          - text: Assertion is correct, but Reason is incorrect.
+                    - generic [ref=f25e278]:
+                      - generic [ref=f25e279]: D
+                      - paragraph [ref=f25e281]:
+                        - strong [ref=f25e282]:
+                          - text: கூற்று தவறு; காரணம் சரி.
+                          - text: Assertion is incorrect, but Reason is correct.
+                  - text:  
+                - generic [ref=f25e283]:
+                  - generic [ref=f25e285]:
+                    - generic [ref=f25e287]: Question Difficulty
+                    - generic [ref=f25e288]:
+                      - generic [ref=f25e290]:  🎯
+                      - generic [ref=f25e291]:
+                        - generic [ref=f25e292]: Hard
+                        - generic [ref=f25e293]: 0% got it right
+                  - generic [ref=f25e295]:
+                    - generic [ref=f25e297]: Active Players
+                    - generic [ref=f25e298]:
+                      - generic [ref=f25e300]:  🧑‍🤝‍🧑
+                      - generic [ref=f25e301]:
+                        - generic [ref=f25e302]: "2"
+                        - generic [ref=f25e303]: registered this session
+                  - generic [ref=f25e305]:
+                    - generic [ref=f25e306]:
+                      - generic [ref=f25e307]: ⭐
+                      - generic [ref=f25e308]: Best Performing District
+                      - generic [ref=f25e309]: 🏆
+                    - generic [ref=f25e310]: Ariyalur
+                    - generic [ref=f25e311]:
+                      - generic [ref=f25e312]: 
+                      - text: Accuracy
+                      - generic [ref=f25e313]: 0%
+              - generic [ref=f25e315]:
+                - generic [ref=f25e316]:
+                  - generic [ref=f25e317]: 🏆 Overall Ranking
+                  - generic [ref=f25e318]: TOP 2
+                - generic [ref=f25e320]:
+                  - generic [ref=f25e321]:
+                    - generic: ✦
+                    - generic: ✦
+                    - generic: ✦
+                    - generic [ref=f25e322]:
+                      - generic [ref=f25e324]:
+                        - generic [ref=f25e326]: 
+                        - img "jul 24" [ref=f25e327]
+                        - generic [ref=f25e328]: "1"
+                      - generic [ref=f25e329]:
+                        - generic [ref=f25e330]: jul 24
+                        - text: 
+                        - generic [ref=f25e331]:
+                          - generic [ref=f25e333]: 
+                          - generic [ref=f25e334]:
+                            - generic [ref=f25e335]: "0"
+                            - generic [ref=f25e336]: Total Coins
+                  - generic [ref=f25e338]:
+                    - generic [ref=f25e340]:
+                      - generic [ref=f25e342]: 
+                      - img "jul 27" [ref=f25e343]
+                      - generic [ref=f25e344]: "2"
+                    - generic [ref=f25e345]:
+                      - generic [ref=f25e346]: jul 27
+                      - text: 
+                      - generic [ref=f25e347]:
+                        - generic [ref=f25e349]: 
+                        - generic [ref=f25e350]:
+                          - generic [ref=f25e351]: "0"
+                          - generic [ref=f25e352]: Total Coins
+            - generic [ref=f25e355]:
+              - generic [ref=f25e356]: Ariyalur is leading with 0% accuracy
+              - generic [ref=f25e357]: •
+              - generic [ref=f25e358]: Ariyalur is leading with 0% accuracy
+              - generic [ref=f25e359]: •
+            - generic [ref=f25e360]:
+              - button " Prev" [disabled] [ref=f25e361]:
+                - generic [ref=f25e362]: 
+                - text: Prev
+              - button "Next Question " [ref=f25e363] [cursor=pointer]:
+                - text: Next Question
+                - generic [ref=f25e364]: 
+              - button "Show Final Results " [ref=f25e365] [cursor=pointer]:
+                - text: Show Final Results
+                - generic [ref=f25e366]: 
+      - contentinfo [ref=f25e367]:
+        - paragraph [ref=f25e371]:
+          - text: Copyright
+          - generic [ref=f25e372]: "2026"
+          - text: © Jeshwar Teaching
+  - img

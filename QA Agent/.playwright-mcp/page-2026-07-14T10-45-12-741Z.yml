@@ -1,0 +1,337 @@
+- generic [ref=f24e1]:
+  - generic [ref=f24e7]:
+    - generic [ref=f24e8]:
+      - generic [ref=f24e9]:
+        - heading "Dashboard" [level=4] [ref=f24e10]
+        - navigation [ref=f24e11]:
+          - list [ref=f24e12]:
+            - listitem [ref=f24e13]:
+              - link [ref=f24e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f24e15]
+            - listitem [ref=f24e18]: / Inventory Dashboard
+      - generic [ref=f24e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f24e22]:
+          - listitem [ref=f24e23]:
+            - generic [ref=f24e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f24e26]:
+      - generic [ref=f24e28]:
+        - text: 
+        - link [ref=f24e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f24e31]:
+          - list [ref=f24e33]:
+            - generic [ref=f24e38]:
+              - text: 
+              - listitem [ref=f24e39]:
+                - link [ref=f24e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f24e41]
+                  - text: 
+              - listitem [ref=f24e43]:
+                - link [ref=f24e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e45]
+                  - text: 
+              - listitem [ref=f24e47]:
+                - link [ref=f24e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e49]
+                  - text: 
+              - listitem [ref=f24e51]:
+                - link [ref=f24e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e53]
+                  - text: 
+              - listitem [ref=f24e55]:
+                - link [ref=f24e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e57]
+                  - text: 
+              - listitem [ref=f24e59]:
+                - link [ref=f24e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e61]
+                  - text: 
+              - listitem [ref=f24e63]:
+                - link "" [ref=f24e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f24e65]: 
+                  - text: 
+              - listitem [ref=f24e66]:
+                - link [ref=f24e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e68]
+                  - text: 
+              - listitem [ref=f24e70]:
+                - link [ref=f24e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e72]
+                  - text: 
+              - listitem [ref=f24e74]:
+                - link [ref=f24e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e76]
+                  - text: 
+              - listitem [ref=f24e78]:
+                - link [ref=f24e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e80]
+                  - text: 
+              - listitem [ref=f24e82]:
+                - link "general icon" [ref=f24e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f24e84]
+                  - text: 
+              - listitem [ref=f24e85]:
+                - link [ref=f24e86] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f24e87]
+                  - text: 
+              - listitem [ref=f24e89]:
+                - link [ref=f24e90] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f24e91]
+                  - text: 
+              - listitem [ref=f24e93]:
+                - link "product icon" [ref=f24e94] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f24e95]
+                  - text: 
+              - listitem [ref=f24e96]:
+                - link [ref=f24e97] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e98]
+                  - text: 
+              - listitem [ref=f24e100]:
+                - link [ref=f24e101] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f24e102]
+                  - text: 
+              - listitem [ref=f24e104]:
+                - link [ref=f24e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e106]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f24e108]:
+                - link [ref=f24e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e110]
+                  - text: 
+              - listitem [ref=f24e112]:
+                - link [ref=f24e113] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f24e114]
+              - listitem [ref=f24e116]:
+                - link [ref=f24e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f24e118]
+                  - text: 
+              - listitem [ref=f24e120]:
+                - link "notify-ico" [ref=f24e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f24e122]
+                  - text: 
+              - listitem [ref=f24e123]:
+                - link "notify-ico" [ref=f24e124] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f24e125]
+                  - text: 
+      - main [ref=f24e127]:
+        - generic [ref=f24e128]:
+          - generic [ref=f24e130]:
+            - generic [ref=f24e131]:
+              - heading "Inventory Overview" [level=3] [ref=f24e132]
+              - paragraph [ref=f24e133]: Monitor stock status, values, and movement
+            - link " View Full Report" [ref=f24e135] [cursor=pointer]:
+              - /url: /Admin/Books/Reports/Inventory
+              - generic [ref=f24e136]: 
+              - text: View Full Report
+          - generic [ref=f24e138]:
+            - generic [ref=f24e140]:
+              - heading "Products Tracked" [level=4] [ref=f24e143]
+              - generic [ref=f24e145]:
+                - img [ref=f24e147]
+                - generic [ref=f24e148]:
+                  - heading "24" [level=2] [ref=f24e149]
+                  - generic [ref=f24e150]: products
+            - generic [ref=f24e152]:
+              - heading "Stock Value" [level=4] [ref=f24e155]
+              - generic [ref=f24e157]:
+                - img [ref=f24e159]
+                - generic [ref=f24e160]:
+                  - heading "₹48,303" [level=2] [ref=f24e161]
+                  - generic [ref=f24e162]: on hand
+            - generic [ref=f24e164]:
+              - heading "Units On Hand" [level=4] [ref=f24e167]
+              - generic [ref=f24e169]:
+                - img [ref=f24e171]
+                - generic [ref=f24e172]:
+                  - heading "79" [level=2] [ref=f24e173]
+                  - generic [ref=f24e174]: total
+            - generic [ref=f24e176]:
+              - heading "In Stock" [level=4] [ref=f24e179]
+              - generic [ref=f24e181]:
+                - img [ref=f24e183]
+                - generic [ref=f24e184]:
+                  - heading "0" [level=2] [ref=f24e185]
+                  - generic [ref=f24e186]: products
+            - generic [ref=f24e188]:
+              - heading "Low Stock" [level=4] [ref=f24e191]
+              - generic [ref=f24e193]:
+                - img [ref=f24e195]
+                - generic [ref=f24e196]:
+                  - heading "20" [level=2] [ref=f24e197]
+                  - generic [ref=f24e198]: products
+            - generic [ref=f24e200]:
+              - heading "Out of Stock" [level=4] [ref=f24e203]
+              - generic [ref=f24e205]:
+                - img [ref=f24e207]
+                - generic [ref=f24e208]:
+                  - heading "4" [level=2] [ref=f24e209]
+                  - generic [ref=f24e210]: products
+          - generic [ref=f24e211]:
+            - generic [ref=f24e213]:
+              - generic [ref=f24e214]:
+                - text: Stock Status
+                - generic [ref=f24e215]: By product
+              - img [ref=f24e218]:
+                - generic [ref=f24e220]:
+                  - generic [ref=f24e223]:
+                    - generic:
+                      - generic: 83%
+                    - generic:
+                      - generic: 17%
+                  - generic [ref=f24e228]:
+                    - generic: Products
+                    - generic: "24"
+              - generic [ref=f24e229]:
+                - generic [ref=f24e230]: In Stock (0)
+                - generic [ref=f24e232]: Low (20)
+                - generic [ref=f24e234]: Out (4)
+            - generic [ref=f24e236]:
+              - heading "Needs Reorder" [level=4] [ref=f24e239]
+              - generic [ref=f24e242]:
+                - generic [ref=f24e244]:
+                  - text: "Search:"
+                  - searchbox "Search:" [ref=f24e245] [cursor=pointer]
+                - grid [ref=f24e246]:
+                  - rowgroup [ref=f24e247]:
+                    - 'row "Title : activate to sort column descending Category : activate to sort column ascending On Hand : activate to sort column ascending Reorder : activate to sort column ascending Value : activate to sort column ascending Status : activate to sort column ascending" [ref=f24e248]':
+                      - 'columnheader "Title : activate to sort column descending" [ref=f24e249] [cursor=pointer]':
+                        - text: Title
+                        - generic [ref=f24e250]: 
+                      - 'columnheader "Category : activate to sort column ascending" [ref=f24e251] [cursor=pointer]':
+                        - text: Category
+                        - generic [ref=f24e252]: 
+                      - 'columnheader "On Hand : activate to sort column ascending" [ref=f24e253] [cursor=pointer]':
+                        - text: On Hand
+                        - generic [ref=f24e254]: 
+                      - 'columnheader "Reorder : activate to sort column ascending" [ref=f24e255] [cursor=pointer]':
+                        - text: Reorder
+                        - generic [ref=f24e256]: 
+                      - 'columnheader "Value : activate to sort column ascending" [ref=f24e257] [cursor=pointer]':
+                        - text: Value
+                        - generic [ref=f24e258]: 
+                      - 'columnheader "Status : activate to sort column ascending" [ref=f24e259] [cursor=pointer]':
+                        - text: Status
+                        - generic [ref=f24e260]: 
+                  - rowgroup [ref=f24e261]:
+                    - row "Books Combo 1 Combo 1 20 ₹700 Low Stock" [ref=f24e262]:
+                      - gridcell "Books Combo 1" [ref=f24e263]
+                      - gridcell "Combo" [ref=f24e264]
+                      - gridcell "1" [ref=f24e265]
+                      - gridcell "20" [ref=f24e266]
+                      - gridcell "₹700" [ref=f24e267]
+                      - gridcell "Low Stock" [ref=f24e268]:
+                        - generic [ref=f24e269]: Low Stock
+                    - row "Combo 2 Combo 2 20 ₹800 Low Stock" [ref=f24e270]:
+                      - gridcell "Combo 2" [ref=f24e271]
+                      - gridcell "Combo" [ref=f24e272]
+                      - gridcell "2" [ref=f24e273]
+                      - gridcell "20" [ref=f24e274]
+                      - gridcell "₹800" [ref=f24e275]
+                      - gridcell "Low Stock" [ref=f24e276]:
+                        - generic [ref=f24e277]: Low Stock
+                    - row "Combo product 1 Combo 2 20 ₹600 Low Stock" [ref=f24e278]:
+                      - gridcell "Combo product 1" [ref=f24e279]
+                      - gridcell "Combo" [ref=f24e280]
+                      - gridcell "2" [ref=f24e281]
+                      - gridcell "20" [ref=f24e282]
+                      - gridcell "₹600" [ref=f24e283]
+                      - gridcell "Low Stock" [ref=f24e284]:
+                        - generic [ref=f24e285]: Low Stock
+                    - row "ehrbgfrb Combo 1 20 ₹400 Low Stock" [ref=f24e286]:
+                      - gridcell "ehrbgfrb" [ref=f24e287]
+                      - gridcell "Combo" [ref=f24e288]
+                      - gridcell "1" [ref=f24e289]
+                      - gridcell "20" [ref=f24e290]
+                      - gridcell "₹400" [ref=f24e291]
+                      - gridcell "Low Stock" [ref=f24e292]:
+                        - generic [ref=f24e293]: Low Stock
+                - generic [ref=f24e294]:
+                  - generic [ref=f24e295]: Previous
+                  - generic [ref=f24e296]:
+                    - generic [ref=f24e297] [cursor=pointer]: "1"
+                    - generic [ref=f24e298] [cursor=pointer]: "2"
+                    - generic [ref=f24e299] [cursor=pointer]: "3"
+                  - generic [ref=f24e300] [cursor=pointer]: Next
+          - generic [ref=f24e301]:
+            - generic [ref=f24e302]:
+              - generic [ref=f24e303]:
+                - text: Stock Value by Category
+                - generic [ref=f24e304]: ₹ on hand
+              - img [ref=f24e307]:
+                - generic [ref=f24e308]:
+                  - generic [ref=f24e310]:
+                    - generic "Combo" [ref=f24e311]
+                    - generic "Books" [ref=f24e312]
+                    - generic "Stationary" [ref=f24e313]
+                    - generic "Miscellaneous" [ref=f24e314]
+                    - generic "Notes" [ref=f24e315]
+                  - generic [ref=f24e317]:
+                    - generic "₹32,000" [ref=f24e318]
+                    - generic "₹24,000" [ref=f24e319]
+                    - generic "₹16,000" [ref=f24e320]
+                    - generic "₹8,000" [ref=f24e321]
+                    - generic "₹0" [ref=f24e322]
+            - generic [ref=f24e329]:
+              - generic [ref=f24e330]:
+                - text: Stock Movement
+                - generic [ref=f24e331]: units · last 30 days
+              - generic [ref=f24e332]:
+                - generic [ref=f24e333]:
+                  - generic [ref=f24e334]: Received (IN)
+                  - generic [ref=f24e337]: "+155"
+                - generic [ref=f24e338]:
+                  - generic [ref=f24e339]: Sold (OUT)
+                  - generic [ref=f24e342]: "-10"
+                - generic [ref=f24e343]:
+                  - generic [ref=f24e344]: Adjusted
+                  - generic [ref=f24e347]: "+31"
+              - separator [ref=f24e348]
+              - generic [ref=f24e349]:
+                - generic [ref=f24e351]: 
+                - generic [ref=f24e352]:
+                  - generic [ref=f24e353]:
+                    - text: "+145"
+                    - generic [ref=f24e354]: units
+                  - generic [ref=f24e355]: Net stock change (last 30 days)
+      - contentinfo [ref=f24e356]:
+        - paragraph [ref=f24e360]:
+          - text: Copyright
+          - generic [ref=f24e361]: "2026"
+          - text: © Jeshwar Teaching
+  - img

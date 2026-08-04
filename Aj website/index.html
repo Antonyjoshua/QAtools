@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antony Joshua S — Quality Analyst & Bug Hunter</title>
+  <meta name="description" content="Quality Analyst with 3+ years of experience. 2500+ defects identified across web, mobile, VR, and AI platforms.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body class="loading">
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <svg class="loader-bug" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+        <!-- Mini spider for loader -->
+        <ellipse cx="60" cy="72" rx="28" ry="32" fill="#0a1a0a" stroke="#00ff88" stroke-width="1.5"/>
+        <ellipse cx="60" cy="42" rx="20" ry="18" fill="#0a1a0a" stroke="#00ff88" stroke-width="1.3"/>
+        <ellipse cx="60" cy="56" rx="10" ry="8" fill="#0a1a0a" stroke="#00ff88" stroke-width="1"/>
+        <circle cx="51" cy="38" r="6" fill="#00ff88"/>
+        <circle cx="69" cy="38" r="6" fill="#00ff88"/>
+        <!-- legs -->
+        <path d="M42,40 Q28,28 18,18" stroke="#00ff88" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <path d="M40,50 Q22,48 8,50" stroke="#00ff88" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <path d="M40,62 Q22,68 8,75" stroke="#00ff88" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <path d="M43,75 Q30,90 22,105" stroke="#00ff88" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <path d="M78,40 Q92,28 102,18" stroke="#00ff88" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <path d="M80,50 Q98,48 112,50" stroke="#00ff88" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <path d="M80,62 Q98,68 112,75" stroke="#00ff88" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <path d="M77,75 Q90,90 98,105" stroke="#00ff88" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      </svg>
+      <div class="loader-text">
+        <span class="loader-label">SCANNING FOR BUGS</span>
+        <div class="loader-bar"><div class="loader-fill" id="loaderFill"></div></div>
+        <span class="loader-pct" id="loaderPct">0%</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="mainNav">
+    <a href="#home" class="nav-logo">
+      <svg width="32" height="32" viewBox="0 0 120 120">
+        <ellipse cx="60" cy="72" rx="28" ry="32" fill="none" stroke="#00ff88" stroke-width="2"/>
+        <ellipse cx="60" cy="42" rx="20" ry="18" fill="none" stroke="#00ff88" stroke-width="1.8"/>
+        <circle cx="51" cy="38" r="5.5" fill="#00ff88"/>
+        <circle cx="69" cy="38" r="5.5" fill="#00ff88"/>
+        <path d="M42,40 Q28,28 18,18" stroke="#00ff88" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M78,40 Q92,28 102,18" stroke="#00ff88" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M40,50 Q22,48 8,50" stroke="#00ff88" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M80,50 Q98,48 112,50" stroke="#00ff88" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </svg>
+      <div class="nav-logo-text">
+        <span class="logo-title">BUG HUNTER</span>
+        <span class="logo-sub">QUALITY ANALYST</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">HOME</a></li>
+      <li><a href="#about" class="nav-link">ABOUT</a></li>
+      <li><a href="#skills" class="nav-link">SKILLS</a></li>
+      <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+      <li><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+      <li><a href="#contact" class="nav-link">CONTACT</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#contact" class="btn-connect">LET'S CONNECT</a>
+      <button class="nav-menu-btn" id="navMenuBtn" aria-label="Menu">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Left Sidebar -->
+  <aside class="sidebar-l">
+    <nav class="sl-nav">
+      <a href="#home" class="sl-item active" data-section="home"><span class="sl-num">01</span><span class="sl-label">HOME</span></a>
+      <div class="sl-line"></div>
+      <a href="#about" class="sl-item" data-section="about"><span class="sl-num">02</span><span class="sl-label">ABOUT</span></a>
+      <div class="sl-line"></div>
+      <a href="#skills" class="sl-item" data-section="skills"><span class="sl-num">03</span><span class="sl-label">SKILLS</span></a>
+      <div class="sl-line"></div>
+      <a href="#projects" class="sl-item" data-section="projects"><span class="sl-num">04</span><span class="sl-label">PROJECTS</span></a>
+      <div class="sl-line"></div>
+      <a href="#experience" class="sl-item" data-section="experience"><span class="sl-num">05</span><span class="sl-label">EXPERIENCE</span></a>
+      <div class="sl-line"></div>
+      <a href="#contact" class="sl-item" data-section="contact"><span class="sl-num">06</span><span class="sl-label">CONTACT</span></a>
+    </nav>
+    <div class="sl-bottom">
+      <button class="sl-icon-btn" id="themeBtn" title="Toggle theme">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Right Sidebar -->
+  <aside class="sidebar-r">
+    <div class="sr-icons">
+      <button class="sr-btn" title="Scan"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><line x1="8" y1="11" x2="14" y2="11"/><line x1="11" y1="8" x2="11" y2="14"/></svg></button>
+      <button class="sr-btn" title="Target"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></button>
+      <button class="sr-btn" title="Shield"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></button>
+      <button class="sr-btn" title="Code"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></button>
+    </div>
+    <div class="sr-scroll-text">SCROLL TO EXPLORE</div>
+  </aside>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section id="home" class="hero">
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+    <div class="hero-glow"></div>
+
+    <div class="hero-layout">
+      <!-- Left: Text content -->
+      <div class="hero-text">
+        <p class="hero-greeting reveal-up">HI, I'M</p>
+        <h1 class="hero-name reveal-up" style="--delay:.1s">
+          <span class="name-line">ANTONY</span>
+          <span class="name-line accent-text">JOSHUA S</span>
+        </h1>
+        <div class="hero-tagline reveal-up" style="--delay:.2s">
+          I FIND <span class="accent-text">BUGS</span> BEFORE<br>THEY FIND YOU
+        </div>
+        <div class="hero-code reveal-up" style="--delay:.3s">
+          <span class="code-bracket">&lt;/</span>
+          <span class="code-kw">CODE</span><span class="code-dot">.</span>
+          <span class="code-kw">TEST</span><span class="code-dot">.</span>
+          <span class="code-kw">SECURE</span>
+          <span class="code-bracket"> /&gt;</span>
+        </div>
+        <p class="hero-desc reveal-up" style="--delay:.4s">
+          QA Engineer &amp; Bug Hunter passionate about building<br>
+          quality digital experiences and finding bugs in the wild.
+        </p>
+        <div class="hero-btns reveal-up" style="--delay:.5s">
+          <a href="#projects" class="btn-primary">VIEW WORK <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          <a href="#meet-the-bug" class="btn-secondary">MEET THE BUG <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a>
+        </div>
+      </div>
+
+      <!-- Center-right: 8-legged Spider character -->
+      <div class="hero-bug-wrap" id="heroBugWrap">
+        <div class="bug-aura"></div>
+
+        <!-- ═══════════════════════════════════════
+             SPIDER SVG — 8-legged, matches the
+             Dribbble reference pose / silhouette
+             ═══════════════════════════════════════ -->
+        <svg class="hero-bug-svg" id="heroBugSvg"
+             viewBox="0 0 700 640"
+             xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <filter id="h-glow-sm" x="-45%" y="-45%" width="190%" height="190%">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+              <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+            <filter id="h-glow-md" x="-55%" y="-55%" width="210%" height="210%">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="b"/>
+              <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+            <filter id="h-glow-lg" x="-70%" y="-70%" width="240%" height="240%">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="14" result="b"/>
+              <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+
+            <!-- Abdomen 3D gradient – light from top-left like the reference -->
+            <radialGradient id="h-rg-abd" cx="36%" cy="24%" r="70%">
+              <stop offset="0%"   stop-color="#1f4020"/>
+              <stop offset="25%"  stop-color="#122412"/>
+              <stop offset="60%"  stop-color="#070f07"/>
+              <stop offset="100%" stop-color="#010201"/>
+            </radialGradient>
+
+            <!-- Cephalothorax gradient -->
+            <radialGradient id="h-rg-ceph" cx="38%" cy="28%" r="65%">
+              <stop offset="0%"   stop-color="#1a381a"/>
+              <stop offset="35%"  stop-color="#0e1e0e"/>
+              <stop offset="100%" stop-color="#020402"/>
+            </radialGradient>
+
+            <!-- Eye gradient – bright green core -->
+            <radialGradient id="h-rg-eye" cx="35%" cy="30%" r="55%">
+              <stop offset="0%"   stop-color="#e0fff0"/>
+              <stop offset="20%"  stop-color="#00ff88"/>
+              <stop offset="60%"  stop-color="#00bb66"/>
+              <stop offset="100%" stop-color="#001a0d"/>
+            </radialGradient>
+
+            <!-- Ambient glow behind the whole spider -->
+            <radialGradient id="h-rg-ambient" cx="50%" cy="48%" r="50%">
+              <stop offset="0%"   stop-color="#00ff88" stop-opacity="0.11"/>
+              <stop offset="55%"  stop-color="#00ff88" stop-opacity="0.04"/>
+              <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+            </radialGradient>
+
+            <!-- Magnifier glass -->
+            <radialGradient id="h-rg-mag" cx="40%" cy="35%" r="55%">
+              <stop offset="0%"   stop-color="#00ff88" stop-opacity="0.15"/>
+              <stop offset="100%" stop-color="#00ff88" stop-opacity="0.02"/>
+            </radialGradient>
+          </defs>
+
+          <!-- Ground reflection (like the reference image) -->
+          <ellipse cx="350" cy="622" rx="230" ry="18"
+                   fill="rgba(0,255,136,0.06)"/>
+          <ellipse cx="350" cy="628" rx="160" ry="10"
+                   fill="rgba(0,255,136,0.04)"/>
+
+          <!-- Large ambient glow -->
+          <ellipse cx="350" cy="340" rx="290" ry="320"
+                   fill="url(#h-rg-ambient)"/>
+
+          <!-- ── 8 LEGS — two angular segments per leg, matching reference anatomy ── -->
+          <!-- Femur (body→knee): thick, goes outward; Tibia (knee→tip): thinner, changes direction -->
+
+          <!-- L1: front-left — femur goes up-left to knee, tibia arcs forward-down -->
+          <g class="spider-leg">
+            <line x1="260" y1="182" x2="118" y2="72"  stroke="#0f230f" stroke-width="11"  stroke-linecap="round"/>
+            <line x1="260" y1="182" x2="118" y2="72"  stroke="#00ff88" stroke-width="2.2" stroke-linecap="round" opacity="0.60"/>
+            <line x1="118" y1="72"  x2="36"  y2="122" stroke="#0d1a0d" stroke-width="7.5" stroke-linecap="round"/>
+            <line x1="118" y1="72"  x2="36"  y2="122" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round" opacity="0.50"/>
+            <circle cx="118" cy="72"  r="9.5" fill="#0d1f0d" stroke="#00ff88" stroke-width="1.8" filter="url(#h-glow-sm)"/>
+            <circle cx="36"  cy="122" r="5.5" fill="#00ff88" filter="url(#h-glow-sm)" opacity="0.92"/>
+          </g>
+
+          <!-- L2: second-left — knee far up-left, tibia drops forward -->
+          <g class="spider-leg">
+            <line x1="248" y1="214" x2="82"  y2="132" stroke="#0f230f" stroke-width="10.5" stroke-linecap="round"/>
+            <line x1="248" y1="214" x2="82"  y2="132" stroke="#00ff88" stroke-width="2.1"  stroke-linecap="round" opacity="0.58"/>
+            <line x1="82"  y1="132" x2="16"  y2="202" stroke="#0d1a0d" stroke-width="7"    stroke-linecap="round"/>
+            <line x1="82"  y1="132" x2="16"  y2="202" stroke="#00ff88" stroke-width="1.4"  stroke-linecap="round" opacity="0.48"/>
+            <circle cx="82"  cy="132" r="9"   fill="#0d1f0d" stroke="#00ff88" stroke-width="1.7" filter="url(#h-glow-sm)"/>
+            <circle cx="16"  cy="202" r="5.5" fill="#00ff88" filter="url(#h-glow-sm)" opacity="0.92"/>
+          </g>
+
+          <!-- L3: third-left — knee left-and-up, tibia swings left-and-down -->
+          <g class="spider-leg">
+            <line x1="244" y1="248" x2="74"  y2="200" stroke="#0f230f" stroke-width="10.5" stroke-linecap="round"/>
+            <line x1="244" y1="248" x2="74"  y2="200" stroke="#00ff88" stroke-width="2.1"  stroke-linecap="round" opacity="0.58"/>
+            <line x1="74"  y1="200" x2="8"   y2="284" stroke="#0d1a0d" stroke-width="7"    stroke-linecap="round"/>
+            <line x1="74"  y1="200" x2="8"   y2="284" stroke="#00ff88" stroke-width="1.4"  stroke-linecap="round" opacity="0.48"/>
+            <circle cx="74"  cy="200" r="9"   fill="#0d1f0d" stroke="#00ff88" stroke-width="1.7" filter="url(#h-glow-sm)"/>
+            <circle cx="8"   cy="284" r="5.5" fill="#00ff88" filter="url(#h-glow-sm)" opacity="0.92"/>
+          </g>
+
+          <!-- L4: rear-left — femur goes back-down, tibia continues further down -->
+          <g class="spider-leg">
+            <line x1="252" y1="278" x2="110" y2="350" stroke="#0f230f" stroke-width="10"  stroke-linecap="round"/>
+            <line x1="252" y1="278" x2="110" y2="350" stroke="#00ff88" stroke-width="2.0" stroke-linecap="round" opacity="0.56"/>
+            <line x1="110" y1="350" x2="52"  y2="458" stroke="#0d1a0d" stroke-width="6.5" stroke-linecap="round"/>
+            <line x1="110" y1="350" x2="52"  y2="458" stroke="#00ff88" stroke-width="1.3" stroke-linecap="round" opacity="0.44"/>
+            <circle cx="110" cy="350" r="8.5" fill="#0d1f0d" stroke="#00ff88" stroke-width="1.6" filter="url(#h-glow-sm)"/>
+            <circle cx="52"  cy="458" r="5.5" fill="#00ff88" filter="url(#h-glow-sm)" opacity="0.92"/>
+          </g>
+
+          <!-- R1: front-right — mirror of L1 -->
+          <g class="spider-leg">
+            <line x1="440" y1="182" x2="582" y2="72"  stroke="#0f230f" stroke-width="11"  stroke-linecap="round"/>
+            <line x1="440" y1="182" x2="582" y2="72"  stroke="#00ff88" stroke-width="2.2" stroke-linecap="round" opacity="0.60"/>
+            <line x1="582" y1="72"  x2="664" y2="122" stroke="#0d1a0d" stroke-width="7.5" stroke-linecap="round"/>
+            <line x1="582" y1="72"  x2="664" y2="122" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round" opacity="0.50"/>
+            <circle cx="582" cy="72"  r="9.5" fill="#0d1f0d" stroke="#00ff88" stroke-width="1.8" filter="url(#h-glow-sm)"/>
+            <circle cx="664" cy="122" r="5.5" fill="#00ff88" filter="url(#h-glow-sm)" opacity="0.92"/>
+          </g>
+
+          <!-- R2: second-right — mirror of L2 -->
+          <g class="spider-leg">
+            <line x1="452" y1="214" x2="618" y2="132" stroke="#0f230f" stroke-width="10.5" stroke-linecap="round"/>
+            <line x1="452" y1="214" x2="618" y2="132" stroke="#00ff88" stroke-width="2.1"  stroke-linecap="round" opacity="0.58"/>
+            <line x1="618" y1="132" x2="684" y2="202" stroke="#0d1a0d" stroke-width="7"    stroke-linecap="round"/>
+            <line x1="618" y1="132" x2="684" y2="202" stroke="#00ff88" stroke-width="1.4"  stroke-linecap="round" opacity="0.48"/>
+            <circle cx="618" cy="132" r="9"   fill="#0d1f0d" stroke="#00ff88" stroke-width="1.7" filter="url(#h-glow-sm)"/>
+            <circle cx="684" cy="202" r="5.5" fill="#00ff88" filter="url(#h-glow-sm)" opacity="0.92"/>
+          </g>
+
+          <!-- R3: third-right — mirror of L3 -->
+          <g class="spider-leg">
+            <line x1="456" y1="248" x2="626" y2="200" stroke="#0f230f" stroke-width="10.5" stroke-linecap="round"/>
+            <line x1="456" y1="248" x2="626" y2="200" stroke="#00ff88" stroke-width="2.1"  stroke-linecap="round" opacity="0.58"/>
+            <line x1="626" y1="200" x2="692" y2="284" stroke="#0d1a0d" stroke-width="7"    stroke-linecap="round"/>
+            <line x1="626" y1="200" x2="692" y2="284" stroke="#00ff88" stroke-width="1.4"  stroke-linecap="round" opacity="0.48"/>
+            <circle cx="626" cy="200" r="9"   fill="#0d1f0d" stroke="#00ff88" stroke-width="1.7" filter="url(#h-glow-sm)"/>
+            <circle cx="692" cy="284" r="5.5" fill="#00ff88" filter="url(#h-glow-sm)" opacity="0.92"/>
+          </g>
+
+          <!-- R4: rear-right — mirror of L4 -->
+          <g class="spider-leg">
+            <line x1="448" y1="278" x2="590" y2="350" stroke="#0f230f" stroke-width="10"  stroke-linecap="round"/>
+            <line x1="448" y1="278" x2="590" y2="350" stroke="#00ff88" stroke-width="2.0" stroke-linecap="round" opacity="0.56"/>
+            <line x1="590" y1="350" x2="648" y2="458" stroke="#0d1a0d" stroke-width="6.5" stroke-linecap="round"/>
+            <line x1="590" y1="350" x2="648" y2="458" stroke="#00ff88" stroke-width="1.3" stroke-linecap="round" opacity="0.44"/>
+            <circle cx="590" cy="350" r="8.5" fill="#0d1f0d" stroke="#00ff88" stroke-width="1.6" filter="url(#h-glow-sm)"/>
+            <circle cx="648" cy="458" r="5.5" fill="#00ff88" filter="url(#h-glow-sm)" opacity="0.92"/>
+          </g>
+
+          <!-- ───────── ABDOMEN (large rear sphere) ───────── -->
+          <!-- Base -->
+          <ellipse cx="350" cy="426" rx="158" ry="178" fill="url(#h-rg-abd)"/>
+          <!-- Primary specular highlight — top-left, simulates 3D sphere -->
+          <ellipse cx="308" cy="368" rx="68"  ry="88"
+                   fill="rgba(0,255,136,0.09)" transform="rotate(-18,308,368)"/>
+          <!-- Secondary soft highlight -->
+          <ellipse cx="298" cy="356" rx="28"  ry="36"
+                   fill="rgba(255,255,255,0.055)" transform="rotate(-18,298,356)"/>
+          <!-- Edge glow outline -->
+          <ellipse cx="350" cy="426" rx="159" ry="179"
+                   fill="none" stroke="#00ff88" stroke-width="1.4" stroke-opacity="0.30"/>
+          <!-- Segment band markings -->
+          <path d="M350,260 L350,596" stroke="#00ff88" stroke-width="0.9" opacity="0.18"/>
+          <ellipse cx="350" cy="358" rx="50"  ry="28" fill="none" stroke="#00ff88" stroke-width="0.8" opacity="0.20"/>
+          <ellipse cx="350" cy="428" rx="64"  ry="40" fill="none" stroke="#00ff88" stroke-width="0.7" opacity="0.16"/>
+          <ellipse cx="350" cy="502" rx="52"  ry="30" fill="none" stroke="#00ff88" stroke-width="0.6" opacity="0.12"/>
+          <!-- Spinnerets (silk glands) at rear -->
+          <ellipse cx="336" cy="598" rx="16"  ry="10" fill="#0a160a" stroke="#00ff88" stroke-width="1" opacity="0.72"/>
+          <ellipse cx="364" cy="598" rx="16"  ry="10" fill="#0a160a" stroke="#00ff88" stroke-width="1" opacity="0.72"/>
+
+          <!-- ───────── PEDUNCLE (narrow waist / pedicel) ───────── -->
+          <ellipse cx="350" cy="290" rx="40"  ry="26"
+                   fill="#0b1a0b" stroke="#00ff88" stroke-width="0.9" stroke-opacity="0.46"/>
+
+          <!-- ───────── CEPHALOTHORAX (prosoma — head + thorax) ───────── -->
+          <ellipse cx="350" cy="200" rx="112" ry="96" fill="url(#h-rg-ceph)"/>
+          <!-- Specular highlight -->
+          <ellipse cx="312" cy="164" rx="48"  ry="40"
+                   fill="rgba(0,255,136,0.09)" transform="rotate(-14,312,164)"/>
+          <ellipse cx="304" cy="156" rx="20"  ry="15"
+                   fill="rgba(255,255,255,0.06)" transform="rotate(-14,304,156)"/>
+          <!-- Edge glow -->
+          <ellipse cx="350" cy="200" rx="113" ry="97"
+                   fill="none" stroke="#00ff88" stroke-width="1.1" stroke-opacity="0.34"/>
+
+          <!-- ───────── EYES (6 eyes arranged like ref image) ───────── -->
+          <!-- 2 large anterior median (AM) eyes — most prominent -->
+          <g class="bug-eye" id="eye-hero-main">
+            <circle cx="304" cy="186" r="22" fill="url(#h-rg-eye)" filter="url(#h-glow-lg)"/>
+            <circle cx="304" cy="186" r="14" fill="#00ff88"/>
+            <circle cx="304" cy="186" r="6"  fill="#ccffee"/>
+            <circle cx="297" cy="179" r="4.5" fill="rgba(255,255,255,0.82)"/>
+
+            <circle cx="396" cy="186" r="22" fill="url(#h-rg-eye)" filter="url(#h-glow-lg)"/>
+            <circle cx="396" cy="186" r="14" fill="#00ff88"/>
+            <circle cx="396" cy="186" r="6"  fill="#ccffee"/>
+            <circle cx="389" cy="179" r="4.5" fill="rgba(255,255,255,0.82)"/>
+          </g>
+          <!-- 4 smaller secondary eyes -->
+          <g class="bug-eye" id="eye-hero-sec">
+            <circle cx="274" cy="200" r="11" fill="url(#h-rg-eye)" filter="url(#h-glow-sm)" opacity="0.85"/>
+            <circle cx="274" cy="200" r="6.5" fill="#00ff88" opacity="0.90"/>
+            <circle cx="426" cy="200" r="11" fill="url(#h-rg-eye)" filter="url(#h-glow-sm)" opacity="0.85"/>
+            <circle cx="426" cy="200" r="6.5" fill="#00ff88" opacity="0.90"/>
+            <circle cx="316" cy="162" r="9"  fill="url(#h-rg-eye)" filter="url(#h-glow-sm)" opacity="0.76"/>
+            <circle cx="316" cy="162" r="5"  fill="#00ff88" opacity="0.85"/>
+            <circle cx="384" cy="162" r="9"  fill="url(#h-rg-eye)" filter="url(#h-glow-sm)" opacity="0.76"/>
+            <circle cx="384" cy="162" r="5"  fill="#00ff88" opacity="0.85"/>
+          </g>
+
+          <!-- ───────── CHELICERAE (fangs / front claws) ───────── -->
+          <g class="spider-chelicerae">
+            <!-- Left chelicera -->
+            <path d="M318,258 Q300,282 288,312 Q280,336 285,356"
+                  stroke="#0f230f" stroke-width="13" fill="none" stroke-linecap="round"/>
+            <path d="M318,258 Q300,282 288,312 Q280,336 285,356"
+                  stroke="#00ff88" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.52"/>
+            <circle cx="284" cy="358" r="6" fill="#00ff88" filter="url(#h-glow-sm)" opacity="0.85"/>
+            <!-- Right chelicera -->
+            <path d="M382,258 Q400,282 412,312 Q420,336 415,356"
+                  stroke="#0f230f" stroke-width="13" fill="none" stroke-linecap="round"/>
+            <path d="M382,258 Q400,282 412,312 Q420,336 415,356"
+                  stroke="#00ff88" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.52"/>
+            <circle cx="416" cy="358" r="6" fill="#00ff88" filter="url(#h-glow-sm)" opacity="0.85"/>
+          </g>
+
+          <!-- Pedipalps (sense organs flanking chelicerae) -->
+          <path d="M308,250 Q284,266 264,284"
+                stroke="#0d1f0d" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+          <path d="M308,250 Q284,266 264,284"
+                stroke="#00ff88" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.44"/>
+          <circle cx="262" cy="286" r="4" fill="#00ff88" filter="url(#h-glow-sm)" opacity="0.75"/>
+
+          <path d="M392,250 Q416,266 436,284"
+                stroke="#0d1f0d" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+          <path d="M392,250 Q416,266 436,284"
+                stroke="#00ff88" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.44"/>
+          <circle cx="438" cy="286" r="4" fill="#00ff88" filter="url(#h-glow-sm)" opacity="0.75"/>
+
+          <!-- ───────── MAGNIFYING GLASS (QA prop — floats top-right) ───────── -->
+          <g class="bug-magnifier" transform="translate(570,110) rotate(22)">
+            <rect x="-4" y="48" width="8" height="50" rx="4"
+                  fill="#00ff88" opacity="0.52"/>
+            <circle cx="0" cy="20" r="36"
+                    fill="none" stroke="#00ff88" stroke-width="3" opacity="0.62"/>
+            <circle cx="0" cy="20" r="33"
+                    fill="url(#h-rg-mag)"/>
+            <ellipse cx="-10" cy="6" rx="11" ry="7"
+                     fill="rgba(255,255,255,0.06)"/>
+            <line x1="-30" y1="20" x2="30" y2="20"
+                  stroke="#00ff88" stroke-width="0.9" opacity="0.34"/>
+            <line x1="0" y1="-12" x2="0" y2="54"
+                  stroke="#00ff88" stroke-width="0.9" opacity="0.34"/>
+            <text x="0" y="26" text-anchor="middle"
+                  fill="#00ff88" font-size="18" font-family="monospace"
+                  font-weight="bold" opacity="0.75">&lt;/&gt;</text>
+          </g>
+        </svg>
+
+        <!-- Floating particles -->
+        <span class="bug-particle" style="--bx:-80px;--by:-40px;--bs:5px;--bd:0s"></span>
+        <span class="bug-particle" style="--bx:95px;--by:-60px;--bs:4px;--bd:.4s"></span>
+        <span class="bug-particle" style="--bx:-100px;--by:60px;--bs:3px;--bd:.8s"></span>
+        <span class="bug-particle" style="--bx:108px;--by:75px;--bs:6px;--bd:1.2s"></span>
+        <span class="bug-particle" style="--bx:-50px;--by:120px;--bs:4px;--bd:.6s"></span>
+        <span class="bug-particle" style="--bx:60px;--by:130px;--bs:3px;--bd:1s"></span>
+      </div>
+
+      <!-- Top-right corner text -->
+      <div class="hero-corner-text">
+        QUALITY<br>DOESN'T<br><span class="accent-text">HAVE BUGS</span>
+      </div>
+
+      <!-- Stats card -->
+      <div class="hero-stats-card">
+        <span class="hsc-label">DEFECTS<br>IDENTIFIED</span>
+        <span class="hsc-number accent-text" data-target="2500">0</span>
+        <span class="hsc-plus accent-text">+</span>
+      </div>
+    </div>
+
+    <!-- Stats strip -->
+    <div class="hero-stats-strip">
+      <div class="hss-item"><span class="hss-num accent-text" data-target="3">0</span><span class="hss-plus accent-text">+</span><span class="hss-label">Years<br>Experience</span></div>
+      <div class="hss-div"></div>
+      <div class="hss-item"><span class="hss-num accent-text" data-target="9">0</span><span class="hss-plus accent-text">+</span><span class="hss-label">Projects<br>Delivered</span></div>
+      <div class="hss-div"></div>
+      <div class="hss-item"><span class="hss-num accent-text" data-target="8">0</span><span class="hss-label">Domains<br>Covered</span></div>
+      <div class="hss-div"></div>
+      <div class="hss-item"><span class="hss-num accent-text" data-target="2500">0</span><span class="hss-plus accent-text">+</span><span class="hss-label">Defects<br>Identified</span></div>
+    </div>
+
+    <!-- Featured projects -->
+    <div class="hero-projects">
+      <div class="hp-header">
+        <svg width="16" height="16" viewBox="0 0 120 120"><ellipse cx="60" cy="72" rx="28" ry="32" fill="none" stroke="#00ff88" stroke-width="2.5"/><ellipse cx="60" cy="42" rx="20" ry="18" fill="none" stroke="#00ff88" stroke-width="2"/><circle cx="51" cy="38" r="5.5" fill="#00ff88"/><circle cx="69" cy="38" r="5.5" fill="#00ff88"/></svg>
+        FEATURED PROJECTS
+      </div>
+      <div class="hp-grid">
+        <div class="hp-card"><div class="hp-card-icon">📚</div><div class="hp-card-body"><h4>JESHWAR TEACHING</h4><p>EdTech live class &amp; video streaming platform</p></div><a href="#projects" class="hp-card-link">VIEW PROJECT →</a></div>
+        <div class="hp-card"><div class="hp-card-icon">🤖</div><div class="hp-card-body"><h4>SCOPE AI CHAT</h4><p>RAG-based AI chatbot platform testing</p></div><a href="#projects" class="hp-card-link">VIEW PROJECT →</a></div>
+        <div class="hp-card"><div class="hp-card-icon">🏥</div><div class="hp-card-body"><h4>CONFIDENTOAI</h4><p>VR healthcare &amp; EEG device integration</p></div><a href="#projects" class="hp-card-link">VIEW PROJECT →</a></div>
+        <div class="hp-card"><div class="hp-card-icon">💼</div><div class="hp-card-body"><h4>SCOPE EMPLOYEE PORTAL</h4><p>HRMS system quality assurance</p></div><a href="#projects" class="hp-card-link">VIEW PROJECT →</a></div>
+      </div>
+    </div>
+
+    <!-- Social links -->
+    <div class="hero-socials">
+      <a href="https://github.com/Antonyjoshua" target="_blank" class="hs-link" title="GitHub">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+      </a>
+      <a href="https://linkedin.com/in/antonyjoshua" target="_blank" class="hs-link" title="LinkedIn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="mailto:antonyjoshua413@gmail.com" class="hs-link" title="Email">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT SECTION ===================== -->
+  <section id="about" class="section about-section">
+    <div class="section-inner">
+      <div class="section-label">02 / ABOUT</div>
+      <h2 class="section-title reveal-up">The Human Behind<br>the <span class="accent-text">Bug Hunter</span></h2>
+      <div class="about-grid">
+        <div class="about-image-col reveal-left">
+          <div class="about-img-frame">
+            <div class="about-img-placeholder">
+              <svg viewBox="0 0 200 200" width="100%">
+                <circle cx="100" cy="80" r="50" fill="#0d1f0d" stroke="#00ff88" stroke-width="1.5"/>
+                <circle cx="100" cy="200" r="80" fill="#0d1f0d" stroke="#00ff88" stroke-width="1.5"/>
+                <circle cx="85" cy="72" r="8" fill="#00ff88" opacity="0.7"/>
+                <circle cx="115" cy="72" r="8" fill="#00ff88" opacity="0.7"/>
+                <path d="M88,95 Q100,106 112,95" stroke="#00ff88" stroke-width="2" fill="none"/>
+                <text x="100" y="175" text-anchor="middle" fill="#00ff88" font-size="12" font-family="monospace" opacity="0.6">ANTONY JOSHUA S</text>
+              </svg>
+            </div>
+            <div class="img-badge"><span class="accent-text">QA</span> ENGINEER</div>
+          </div>
+          <div class="about-quick-facts">
+            <div class="aqf-item"><span class="aqf-icon">📍</span><span>Chennai, India</span></div>
+            <div class="aqf-item"><span class="aqf-icon">✉️</span><span>antonyjoshua413@gmail.com</span></div>
+            <div class="aqf-item"><span class="aqf-icon">🎓</span><span>MCA, Madras University (Pursuing)</span></div>
+            <div class="aqf-item"><span class="aqf-icon">🎓</span><span>BCA, Jaya College — 85%</span></div>
+          </div>
+        </div>
+        <div class="about-text-col reveal-right">
+          <p class="about-bio">I'm a <span class="accent-text">Quality Analyst with 3+ years of experience</span> building defect-free software across web, mobile (iOS &amp; Android), VR, and AI platforms. I specialize in designing and executing comprehensive test strategies that catch bugs before users ever see them.</p>
+          <p class="about-bio">My work spans EdTech, Entertainment, Healthcare (VR/EEG), Finance, HRMS, Hospitality, and AI — bringing deep cross-domain perspective to every testing engagement.</p>
+          <div class="about-highlight-cards">
+            <div class="ahc"><span class="ahc-num accent-text">2500+</span><span class="ahc-label">Defects Identified</span></div>
+            <div class="ahc"><span class="ahc-num accent-text">8</span><span class="ahc-label">Domains Covered</span></div>
+            <div class="ahc"><span class="ahc-num accent-text">9+</span><span class="ahc-label">Projects Delivered</span></div>
+          </div>
+          <div class="about-tags">
+            <span class="tag">Playwright</span><span class="tag">Selenium</span><span class="tag">TestNG</span>
+            <span class="tag">TypeScript</span><span class="tag">Java</span><span class="tag">Postman</span>
+            <span class="tag">JIRA</span><span class="tag">Agile/Scrum</span>
+          </div>
+          <a href="mailto:antonyjoshua413@gmail.com" class="btn-primary">DOWNLOAD RESUME <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS SECTION ===================== -->
+  <section id="skills" class="section skills-section">
+    <div class="section-inner">
+      <div class="section-label">03 / SKILLS</div>
+      <h2 class="section-title reveal-up">Technical <span class="accent-text">Arsenal</span></h2>
+      <div class="skills-grid">
+        <div class="skill-category reveal-up" style="--delay:0s"><div class="sc-header"><span class="sc-icon">⚡</span>Test Automation</div><div class="sc-skills"><span class="skill-pill active">Playwright</span><span class="skill-pill active">Selenium WebDriver</span><span class="skill-pill">TestNG</span><span class="skill-pill">Cucumber</span></div></div>
+        <div class="skill-category reveal-up" style="--delay:.08s"><div class="sc-header"><span class="sc-icon">💻</span>Programming</div><div class="sc-skills"><span class="skill-pill active">TypeScript</span><span class="skill-pill active">Java</span><span class="skill-pill">JavaScript</span><span class="skill-pill">SQL</span></div></div>
+        <div class="skill-category reveal-up" style="--delay:.16s"><div class="sc-header"><span class="sc-icon">🔧</span>CI/CD &amp; DevOps</div><div class="sc-skills"><span class="skill-pill">Jenkins</span><span class="skill-pill">Maven</span><span class="skill-pill active">GitHub</span><span class="skill-pill">SonarQube</span></div></div>
+        <div class="skill-category reveal-up" style="--delay:.24s"><div class="sc-header"><span class="sc-icon">🧪</span>Testing Types</div><div class="sc-skills"><span class="skill-pill active">Functional</span><span class="skill-pill">Regression</span><span class="skill-pill">API</span><span class="skill-pill">UI/UX</span><span class="skill-pill">VR</span><span class="skill-pill">AI/ML</span></div></div>
+        <div class="skill-category reveal-up" style="--delay:.32s"><div class="sc-header"><span class="sc-icon">🗄️</span>Databases</div><div class="sc-skills"><span class="skill-pill active">SQL</span><span class="skill-pill">MongoDB</span></div></div>
+        <div class="skill-category reveal-up" style="--delay:.40s"><div class="sc-header"><span class="sc-icon">🛠️</span>Tools &amp; Platforms</div><div class="sc-skills"><span class="skill-pill active">JIRA</span><span class="skill-pill active">Postman</span><span class="skill-pill">BrowserStack</span><span class="skill-pill">Android Studio</span></div></div>
+        <div class="skill-category reveal-up" style="--delay:.48s"><div class="sc-header"><span class="sc-icon">📋</span>Methodologies</div><div class="sc-skills"><span class="skill-pill active">Agile/Scrum</span><span class="skill-pill">SDLC</span><span class="skill-pill">STLC</span><span class="skill-pill">BDD</span></div></div>
+        <div class="skill-category reveal-up" style="--delay:.56s"><div class="sc-header"><span class="sc-icon">📱</span>Platforms Tested</div><div class="sc-skills"><span class="skill-pill active">Web</span><span class="skill-pill active">iOS</span><span class="skill-pill active">Android</span><span class="skill-pill">VR</span><span class="skill-pill">EEG/Hardware</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS SECTION ===================== -->
+  <section id="projects" class="section projects-section">
+    <div class="section-inner">
+      <div class="section-label">04 / PROJECTS</div>
+      <h2 class="section-title reveal-up">Bugs <span class="accent-text">Caught</span> Here</h2>
+      <div class="projects-grid">
+        <div class="project-card reveal-up" style="--delay:0s"><div class="pc-top"><span class="pc-domain edtech">EdTech</span><span class="pc-num">01</span></div><h3 class="pc-title">Jeshwar Teaching</h3><p class="pc-desc">Live class platform with video streaming, e-learning modules, and student management. Full web + mobile QA coverage.</p><div class="pc-tags"><span>Playwright</span><span>iOS</span><span>Android</span><span>API</span></div></div>
+        <div class="project-card reveal-up" style="--delay:.07s"><div class="pc-top"><span class="pc-domain entertainment">Entertainment</span><span class="pc-num">02</span></div><h3 class="pc-title">Funtown Kids Park</h3><p class="pc-desc">Amusement park management system with loyalty programs, ticketing, and real-time analytics.</p><div class="pc-tags"><span>Selenium</span><span>TestNG</span><span>Manual</span></div></div>
+        <div class="project-card reveal-up" style="--delay:.14s"><div class="pc-top"><span class="pc-domain ai">AI / RAG</span><span class="pc-num">03</span></div><h3 class="pc-title">Scope AI Chat</h3><p class="pc-desc">RAG-based AI chatbot platform. Validated model accuracy, hallucination rates, context retention, and response quality.</p><div class="pc-tags"><span>AI Testing</span><span>RAG</span><span>Postman</span><span>TypeScript</span></div></div>
+        <div class="project-card reveal-up" style="--delay:.21s"><div class="pc-top"><span class="pc-domain hrms">HRMS</span><span class="pc-num">04</span></div><h3 class="pc-title">Scope Employee Portal</h3><p class="pc-desc">HR management system with payroll, attendance, and employee self-service modules.</p><div class="pc-tags"><span>Playwright</span><span>API</span><span>SQL</span></div></div>
+        <div class="project-card reveal-up" style="--delay:.28s"><div class="pc-top"><span class="pc-domain healthcare">Healthcare/VR</span><span class="pc-num">05</span></div><h3 class="pc-title">ConfidentoAI</h3><p class="pc-desc">VR healthcare platform with EEG device integration and ML-based diagnostics. First VR + EEG QA engagement.</p><div class="pc-tags"><span>VR Testing</span><span>EEG</span><span>ML</span><span>iOS/Android</span></div></div>
+        <div class="project-card reveal-up" style="--delay:.35s"><div class="pc-top"><span class="pc-domain finance">Finance</span><span class="pc-num">06</span></div><h3 class="pc-title">Cornovus Capital</h3><p class="pc-desc">Real estate finance platform with investment tracking, document management, and compliance workflows.</p><div class="pc-tags"><span>Selenium</span><span>API</span><span>MongoDB</span></div></div>
+        <div class="project-card reveal-up" style="--delay:.42s"><div class="pc-top"><span class="pc-domain hospitality">Hospitality</span><span class="pc-num">07</span></div><h3 class="pc-title">MyHotel AI</h3><p class="pc-desc">AI-powered hotel management platform with booking, room management, and guest experience modules.</p><div class="pc-tags"><span>Playwright</span><span>AI</span><span>API</span></div></div>
+        <div class="project-card reveal-up" style="--delay:.49s"><div class="pc-top"><span class="pc-domain ecommerce">E-Commerce</span><span class="pc-num">08</span></div><h3 class="pc-title">Zane Hospitality</h3><p class="pc-desc">E-commerce platform for hospitality goods with cart, checkout, inventory, and delivery management.</p><div class="pc-tags"><span>Selenium</span><span>TestNG</span><span>SQL</span></div></div>
+        <div class="project-card reveal-up" style="--delay:.56s"><div class="pc-top"><span class="pc-domain nfc">NFC Tech</span><span class="pc-num">09</span></div><h3 class="pc-title">ACW Card</h3><p class="pc-desc">NFC-based digital business card platform with contactless sharing and analytics dashboard.</p><div class="pc-tags"><span>NFC</span><span>Mobile</span><span>API</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE SECTION ===================== -->
+  <section id="experience" class="section exp-section">
+    <div class="section-inner">
+      <div class="section-label">05 / EXPERIENCE</div>
+      <h2 class="section-title reveal-up"><span class="accent-text">Battle</span> Log</h2>
+      <div class="timeline">
+        <div class="tl-item reveal-up" style="--delay:0s"><div class="tl-dot"></div><div class="tl-content"><div class="tl-header"><div><h3 class="tl-role">Quality Analyst</h3><span class="tl-company">Scope Thinkers <span class="tl-badge">Current</span></span></div><span class="tl-date">Dec 2025 — Present</span></div><ul class="tl-points"><li>Automation testing with Playwright &amp; TypeScript across EdTech and Entertainment platforms</li><li>Web, Android, and iOS testing for consumer-facing products</li><li>Designed test strategies for rapid sprint cycles in Agile environment</li></ul><div class="tl-tags"><span>Playwright</span><span>TypeScript</span><span>iOS</span><span>Android</span><span>Agile</span></div></div></div>
+        <div class="tl-item reveal-up" style="--delay:.1s"><div class="tl-dot"></div><div class="tl-content"><div class="tl-header"><div><h3 class="tl-role">Software Tester</h3><span class="tl-company">NITInnov Technologies</span></div><span class="tl-date">Jun 2024 — Sep 2025</span></div><ul class="tl-points"><li>Tested VR healthcare applications and EEG device integration</li><li>Validated RAG and ML model outputs for accuracy and hallucination</li><li>Performed mobile testing on iOS and Android for VR companion apps</li></ul><div class="tl-tags"><span>VR Testing</span><span>EEG</span><span>RAG/ML</span><span>iOS</span><span>Android</span></div></div></div>
+        <div class="tl-item reveal-up" style="--delay:.2s"><div class="tl-dot"></div><div class="tl-content"><div class="tl-header"><div><h3 class="tl-role">Software Tester</h3><span class="tl-company">Arkashya Tech Solution</span></div><span class="tl-date">Jul 2023 — May 2024</span></div><ul class="tl-points"><li>Built Selenium/TestNG automation frameworks from scratch</li><li>Executed comprehensive manual testing for functional and regression validation</li></ul><div class="tl-tags"><span>Selenium</span><span>TestNG</span><span>Java</span><span>Manual Testing</span></div></div></div>
+        <div class="tl-item reveal-up" style="--delay:.3s"><div class="tl-dot"></div><div class="tl-content"><div class="tl-header"><div><h3 class="tl-role">Software Tester — Intern</h3><span class="tl-company">Arkashya Tech Solution</span></div><span class="tl-date">Jan 2023 — Jun 2023</span></div><ul class="tl-points"><li>Applied manual testing fundamentals in a production environment</li><li>Created test cases, test plans, and defect reports using JIRA</li></ul><div class="tl-tags"><span>Manual Testing</span><span>JIRA</span><span>STLC</span></div></div></div>
+        <div class="tl-item reveal-up" style="--delay:.4s"><div class="tl-dot"></div><div class="tl-content"><div class="tl-header"><div><h3 class="tl-role">Technical Support SME &amp; Team Lead</h3><span class="tl-company">Sutherland Global Services</span></div><span class="tl-date">Earlier</span></div><ul class="tl-points"><li>Amazon technical support, promoted to Team Lead</li><li>2× Recognition &amp; Reward (RnR) Awards for performance excellence</li></ul><div class="tl-tags"><span>Team Lead</span><span>Amazon</span><span>RnR ×2</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MEET THE BUG SECTION ===================== -->
+  <section id="meet-the-bug" class="section mtb-section">
+    <div class="section-inner">
+      <div class="section-label">INTERACTIVE</div>
+      <h2 class="section-title reveal-up">The Bug Behind<br>the <span class="accent-text">QA</span></h2>
+      <p class="mtb-subtitle reveal-up">Hover over each part of the spider to discover my QA superpowers</p>
+      <div class="mtb-layout">
+        <!-- Left info panel -->
+        <div class="mtb-panel-left">
+          <div class="mtb-info" id="mtbInfoBox">
+            <div class="mtb-info-icon" id="mtbIconL">🕷️</div>
+            <div class="mtb-info-title" id="mtbTitleL">Hover the Spider</div>
+            <div class="mtb-info-text" id="mtbTextL">Explore each body part to uncover the QA skills and superpowers behind the bug hunter.</div>
+          </div>
+        </div>
+
+        <!-- Interactive spider SVG -->
+        <div class="mtb-bug-wrap" id="mtbBugWrap">
+          <svg class="mtb-bug-svg" id="mtbBugSvg"
+               viewBox="0 0 700 640"
+               xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="m-glow-sm" x="-45%" y="-45%" width="190%" height="190%">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+              <filter id="m-glow-lg" x="-70%" y="-70%" width="240%" height="240%">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="14" result="b"/>
+                <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+              <radialGradient id="m-rg-abd" cx="36%" cy="24%" r="70%">
+                <stop offset="0%"   stop-color="#1f4020"/><stop offset="25%" stop-color="#122412"/>
+                <stop offset="60%"  stop-color="#070f07"/><stop offset="100%" stop-color="#010201"/>
+              </radialGradient>
+              <radialGradient id="m-rg-ceph" cx="38%" cy="28%" r="65%">
+                <stop offset="0%"   stop-color="#1a381a"/><stop offset="35%" stop-color="#0e1e0e"/>
+                <stop offset="100%" stop-color="#020402"/>
+              </radialGradient>
+              <radialGradient id="m-rg-eye" cx="35%" cy="30%" r="55%">
+                <stop offset="0%"   stop-color="#e0fff0"/><stop offset="20%" stop-color="#00ff88"/>
+                <stop offset="60%"  stop-color="#00bb66"/><stop offset="100%" stop-color="#001a0d"/>
+              </radialGradient>
+            </defs>
+
+            <!-- Ground reflection -->
+            <ellipse cx="350" cy="622" rx="230" ry="18" fill="rgba(0,255,136,0.06)"/>
+
+            <!-- ── LEGS zone — angular two-segment structure ── -->
+            <g class="mtb-zone" id="mtbLegs" data-part="legs">
+              <!-- L1: front-left — femur up-left to knee, tibia forward-down -->
+              <line x1="260" y1="182" x2="118" y2="72"  stroke="#0f230f" stroke-width="11"  stroke-linecap="round"/>
+              <line x1="260" y1="182" x2="118" y2="72"  stroke="#00ff88" stroke-width="2.2" stroke-linecap="round" opacity="0.60"/>
+              <line x1="118" y1="72"  x2="36"  y2="122" stroke="#0d1a0d" stroke-width="7.5" stroke-linecap="round"/>
+              <line x1="118" y1="72"  x2="36"  y2="122" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round" opacity="0.50"/>
+              <circle cx="118" cy="72"  r="9.5" fill="#0d1f0d" stroke="#00ff88" stroke-width="1.8" filter="url(#m-glow-sm)"/>
+              <circle cx="36"  cy="122" r="5.5" fill="#00ff88" filter="url(#m-glow-sm)" opacity="0.92"/>
+              <!-- L2: knee far up-left, tibia drops forward -->
+              <line x1="248" y1="214" x2="82"  y2="132" stroke="#0f230f" stroke-width="10.5" stroke-linecap="round"/>
+              <line x1="248" y1="214" x2="82"  y2="132" stroke="#00ff88" stroke-width="2.1"  stroke-linecap="round" opacity="0.58"/>
+              <line x1="82"  y1="132" x2="16"  y2="202" stroke="#0d1a0d" stroke-width="7"    stroke-linecap="round"/>
+              <line x1="82"  y1="132" x2="16"  y2="202" stroke="#00ff88" stroke-width="1.4"  stroke-linecap="round" opacity="0.48"/>
+              <circle cx="82"  cy="132" r="9"   fill="#0d1f0d" stroke="#00ff88" stroke-width="1.7" filter="url(#m-glow-sm)"/>
+              <circle cx="16"  cy="202" r="5.5" fill="#00ff88" filter="url(#m-glow-sm)" opacity="0.92"/>
+              <!-- L3: knee left-and-up, tibia swings left-and-down -->
+              <line x1="244" y1="248" x2="74"  y2="200" stroke="#0f230f" stroke-width="10.5" stroke-linecap="round"/>
+              <line x1="244" y1="248" x2="74"  y2="200" stroke="#00ff88" stroke-width="2.1"  stroke-linecap="round" opacity="0.58"/>
+              <line x1="74"  y1="200" x2="8"   y2="284" stroke="#0d1a0d" stroke-width="7"    stroke-linecap="round"/>
+              <line x1="74"  y1="200" x2="8"   y2="284" stroke="#00ff88" stroke-width="1.4"  stroke-linecap="round" opacity="0.48"/>
+              <circle cx="74"  cy="200" r="9"   fill="#0d1f0d" stroke="#00ff88" stroke-width="1.7" filter="url(#m-glow-sm)"/>
+              <circle cx="8"   cy="284" r="5.5" fill="#00ff88" filter="url(#m-glow-sm)" opacity="0.92"/>
+              <!-- L4: rear-left — femur back-down, tibia further down -->
+              <line x1="252" y1="278" x2="110" y2="350" stroke="#0f230f" stroke-width="10"  stroke-linecap="round"/>
+              <line x1="252" y1="278" x2="110" y2="350" stroke="#00ff88" stroke-width="2.0" stroke-linecap="round" opacity="0.56"/>
+              <line x1="110" y1="350" x2="52"  y2="458" stroke="#0d1a0d" stroke-width="6.5" stroke-linecap="round"/>
+              <line x1="110" y1="350" x2="52"  y2="458" stroke="#00ff88" stroke-width="1.3" stroke-linecap="round" opacity="0.44"/>
+              <circle cx="110" cy="350" r="8.5" fill="#0d1f0d" stroke="#00ff88" stroke-width="1.6" filter="url(#m-glow-sm)"/>
+              <circle cx="52"  cy="458" r="5.5" fill="#00ff88" filter="url(#m-glow-sm)" opacity="0.92"/>
+              <!-- R1: mirror of L1 -->
+              <line x1="440" y1="182" x2="582" y2="72"  stroke="#0f230f" stroke-width="11"  stroke-linecap="round"/>
+              <line x1="440" y1="182" x2="582" y2="72"  stroke="#00ff88" stroke-width="2.2" stroke-linecap="round" opacity="0.60"/>
+              <line x1="582" y1="72"  x2="664" y2="122" stroke="#0d1a0d" stroke-width="7.5" stroke-linecap="round"/>
+              <line x1="582" y1="72"  x2="664" y2="122" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round" opacity="0.50"/>
+              <circle cx="582" cy="72"  r="9.5" fill="#0d1f0d" stroke="#00ff88" stroke-width="1.8" filter="url(#m-glow-sm)"/>
+              <circle cx="664" cy="122" r="5.5" fill="#00ff88" filter="url(#m-glow-sm)" opacity="0.92"/>
+              <!-- R2: mirror of L2 -->
+              <line x1="452" y1="214" x2="618" y2="132" stroke="#0f230f" stroke-width="10.5" stroke-linecap="round"/>
+              <line x1="452" y1="214" x2="618" y2="132" stroke="#00ff88" stroke-width="2.1"  stroke-linecap="round" opacity="0.58"/>
+              <line x1="618" y1="132" x2="684" y2="202" stroke="#0d1a0d" stroke-width="7"    stroke-linecap="round"/>
+              <line x1="618" y1="132" x2="684" y2="202" stroke="#00ff88" stroke-width="1.4"  stroke-linecap="round" opacity="0.48"/>
+              <circle cx="618" cy="132" r="9"   fill="#0d1f0d" stroke="#00ff88" stroke-width="1.7" filter="url(#m-glow-sm)"/>
+              <circle cx="684" cy="202" r="5.5" fill="#00ff88" filter="url(#m-glow-sm)" opacity="0.92"/>
+              <!-- R3: mirror of L3 -->
+              <line x1="456" y1="248" x2="626" y2="200" stroke="#0f230f" stroke-width="10.5" stroke-linecap="round"/>
+              <line x1="456" y1="248" x2="626" y2="200" stroke="#00ff88" stroke-width="2.1"  stroke-linecap="round" opacity="0.58"/>
+              <line x1="626" y1="200" x2="692" y2="284" stroke="#0d1a0d" stroke-width="7"    stroke-linecap="round"/>
+              <line x1="626" y1="200" x2="692" y2="284" stroke="#00ff88" stroke-width="1.4"  stroke-linecap="round" opacity="0.48"/>
+              <circle cx="626" cy="200" r="9"   fill="#0d1f0d" stroke="#00ff88" stroke-width="1.7" filter="url(#m-glow-sm)"/>
+              <circle cx="692" cy="284" r="5.5" fill="#00ff88" filter="url(#m-glow-sm)" opacity="0.92"/>
+              <!-- R4: mirror of L4 -->
+              <line x1="448" y1="278" x2="590" y2="350" stroke="#0f230f" stroke-width="10"  stroke-linecap="round"/>
+              <line x1="448" y1="278" x2="590" y2="350" stroke="#00ff88" stroke-width="2.0" stroke-linecap="round" opacity="0.56"/>
+              <line x1="590" y1="350" x2="648" y2="458" stroke="#0d1a0d" stroke-width="6.5" stroke-linecap="round"/>
+              <line x1="590" y1="350" x2="648" y2="458" stroke="#00ff88" stroke-width="1.3" stroke-linecap="round" opacity="0.44"/>
+              <circle cx="590" cy="350" r="8.5" fill="#0d1f0d" stroke="#00ff88" stroke-width="1.6" filter="url(#m-glow-sm)"/>
+              <circle cx="648" cy="458" r="5.5" fill="#00ff88" filter="url(#m-glow-sm)" opacity="0.92"/>
+            </g>
+
+            <!-- ── ABDOMEN zone ── -->
+            <g class="mtb-zone" id="mtbAbdomen" data-part="abdomen">
+              <ellipse cx="350" cy="426" rx="158" ry="178" fill="url(#m-rg-abd)"/>
+              <ellipse cx="308" cy="368" rx="68"  ry="88" fill="rgba(0,255,136,0.09)" transform="rotate(-18,308,368)"/>
+              <ellipse cx="350" cy="426" rx="159" ry="179" fill="none" stroke="#00ff88" stroke-width="1.4" stroke-opacity="0.30"/>
+              <path d="M350,260 L350,596" stroke="#00ff88" stroke-width="0.9" opacity="0.18"/>
+              <ellipse cx="350" cy="358" rx="50" ry="28" fill="none" stroke="#00ff88" stroke-width="0.8" opacity="0.20"/>
+              <ellipse cx="350" cy="428" rx="64" ry="40" fill="none" stroke="#00ff88" stroke-width="0.7" opacity="0.16"/>
+              <ellipse cx="350" cy="502" rx="52" ry="30" fill="none" stroke="#00ff88" stroke-width="0.6" opacity="0.12"/>
+            </g>
+
+            <!-- ── SPINNERETS zone ── -->
+            <g class="mtb-zone" id="mtbSpinnerets" data-part="spinnerets">
+              <ellipse cx="336" cy="598" rx="18" ry="12" fill="#0a160a" stroke="#00ff88" stroke-width="1.2" opacity="0.8"/>
+              <ellipse cx="364" cy="598" rx="18" ry="12" fill="#0a160a" stroke="#00ff88" stroke-width="1.2" opacity="0.8"/>
+              <text x="350" y="602" text-anchor="middle" fill="#00ff88" font-size="8" font-family="monospace" opacity="0.6">2500+</text>
+            </g>
+
+            <!-- Peduncle -->
+            <ellipse cx="350" cy="290" rx="40" ry="26" fill="#0b1a0b" stroke="#00ff88" stroke-width="0.9" stroke-opacity="0.46"/>
+
+            <!-- Cephalothorax -->
+            <ellipse cx="350" cy="200" rx="112" ry="96" fill="url(#m-rg-ceph)"/>
+            <ellipse cx="312" cy="164" rx="48" ry="40" fill="rgba(0,255,136,0.09)" transform="rotate(-14,312,164)"/>
+            <ellipse cx="350" cy="200" rx="113" ry="97" fill="none" stroke="#00ff88" stroke-width="1.1" stroke-opacity="0.34"/>
+
+            <!-- ── EYES zone ── -->
+            <g class="mtb-zone" id="mtbEyes" data-part="eyes">
+              <circle cx="304" cy="186" r="22" fill="url(#m-rg-eye)" filter="url(#m-glow-lg)"/>
+              <circle cx="304" cy="186" r="14" fill="#00ff88"/>
+              <circle cx="304" cy="186" r="6"  fill="#ccffee"/>
+              <circle cx="297" cy="179" r="4.5" fill="rgba(255,255,255,0.82)"/>
+              <circle cx="396" cy="186" r="22" fill="url(#m-rg-eye)" filter="url(#m-glow-lg)"/>
+              <circle cx="396" cy="186" r="14" fill="#00ff88"/>
+              <circle cx="396" cy="186" r="6"  fill="#ccffee"/>
+              <circle cx="389" cy="179" r="4.5" fill="rgba(255,255,255,0.82)"/>
+              <circle cx="274" cy="200" r="11" fill="url(#m-rg-eye)" filter="url(#m-glow-sm)" opacity="0.85"/>
+              <circle cx="274" cy="200" r="6.5" fill="#00ff88"/>
+              <circle cx="426" cy="200" r="11" fill="url(#m-rg-eye)" filter="url(#m-glow-sm)" opacity="0.85"/>
+              <circle cx="426" cy="200" r="6.5" fill="#00ff88"/>
+              <circle cx="316" cy="162" r="9"  fill="url(#m-rg-eye)" filter="url(#m-glow-sm)" opacity="0.76"/>
+              <circle cx="316" cy="162" r="5"  fill="#00ff88"/>
+              <circle cx="384" cy="162" r="9"  fill="url(#m-rg-eye)" filter="url(#m-glow-sm)" opacity="0.76"/>
+              <circle cx="384" cy="162" r="5"  fill="#00ff88"/>
+            </g>
+
+            <!-- ── CHELICERAE zone (fangs) ── -->
+            <g class="mtb-zone" id="mtbChelicerae" data-part="chelicerae">
+              <path d="M318,258 Q300,282 288,312 Q280,336 285,356" stroke="#0f230f" stroke-width="13" fill="none" stroke-linecap="round"/>
+              <path d="M318,258 Q300,282 288,312 Q280,336 285,356" stroke="#00ff88" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.52"/>
+              <circle cx="284" cy="358" r="6" fill="#00ff88" filter="url(#m-glow-sm)" opacity="0.85"/>
+              <path d="M382,258 Q400,282 412,312 Q420,336 415,356" stroke="#0f230f" stroke-width="13" fill="none" stroke-linecap="round"/>
+              <path d="M382,258 Q400,282 412,312 Q420,336 415,356" stroke="#00ff88" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.52"/>
+              <circle cx="416" cy="358" r="6" fill="#00ff88" filter="url(#m-glow-sm)" opacity="0.85"/>
+            </g>
+
+            <!-- Pedipalps -->
+            <path d="M308,250 Q284,266 264,284" stroke="#0d1f0d" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+            <path d="M308,250 Q284,266 264,284" stroke="#00ff88" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.44"/>
+            <circle cx="262" cy="286" r="4" fill="#00ff88" filter="url(#m-glow-sm)" opacity="0.75"/>
+            <path d="M392,250 Q416,266 436,284" stroke="#0d1f0d" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+            <path d="M392,250 Q416,266 436,284" stroke="#00ff88" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.44"/>
+            <circle cx="438" cy="286" r="4" fill="#00ff88" filter="url(#m-glow-sm)" opacity="0.75"/>
+
+            <!-- ── MAGNIFIER zone ── -->
+            <g class="mtb-zone" id="mtbMagnifier" data-part="magnifier"
+               transform="translate(570,110) rotate(22)">
+              <rect x="-4" y="48" width="8" height="50" rx="4" fill="#00ff88" opacity="0.52"/>
+              <circle cx="0" cy="20" r="36" fill="none" stroke="#00ff88" stroke-width="3" opacity="0.62"/>
+              <circle cx="0" cy="20" r="33" fill="rgba(0,255,136,0.05)"/>
+              <line x1="-30" y1="20" x2="30" y2="20" stroke="#00ff88" stroke-width="0.9" opacity="0.34"/>
+              <line x1="0" y1="-12" x2="0" y2="54" stroke="#00ff88" stroke-width="0.9" opacity="0.34"/>
+              <text x="0" y="26" text-anchor="middle" fill="#00ff88" font-size="18" font-family="monospace" font-weight="bold" opacity="0.75">&lt;/&gt;</text>
+            </g>
+          </svg>
+          <div class="mtb-hint">← hover / tap each part →</div>
+        </div>
+
+        <!-- Right parts list -->
+        <div class="mtb-panel-right">
+          <div class="mtb-parts-list">
+            <div class="mtb-part-item" data-target="mtbEyes">       <span class="mpi-dot"></span><span>Eyes</span></div>
+            <div class="mtb-part-item" data-target="mtbChelicerae"> <span class="mpi-dot"></span><span>Chelicerae (Fangs)</span></div>
+            <div class="mtb-part-item" data-target="mtbLegs">       <span class="mpi-dot"></span><span>Legs</span></div>
+            <div class="mtb-part-item" data-target="mtbAbdomen">    <span class="mpi-dot"></span><span>Abdomen</span></div>
+            <div class="mtb-part-item" data-target="mtbSpinnerets"> <span class="mpi-dot"></span><span>Spinnerets</span></div>
+            <div class="mtb-part-item" data-target="mtbMagnifier">  <span class="mpi-dot"></span><span>Magnifier</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CERTIFICATIONS SECTION ===================== -->
+  <section id="certifications" class="section cert-section">
+    <div class="section-inner">
+      <div class="section-label">CERTIFICATIONS</div>
+      <h2 class="section-title reveal-up">Verified <span class="accent-text">Credentials</span></h2>
+      <div class="cert-grid">
+        <div class="cert-card reveal-up" style="--delay:0s"><div class="cert-icon">🏆</div><h3 class="cert-name">Selenium WebDriver with Java</h3><span class="cert-platform">Udemy</span><div class="cert-bar"><div class="cert-bar-fill" style="width:100%"></div></div></div>
+        <div class="cert-card reveal-up" style="--delay:.1s"><div class="cert-icon">🤖</div><h3 class="cert-name">ML (AI) Testing</h3><span class="cert-platform">Udemy</span><div class="cert-bar"><div class="cert-bar-fill" style="width:100%"></div></div></div>
+        <div class="cert-card reveal-up" style="--delay:.2s"><div class="cert-icon">🎓</div><h3 class="cert-name">Master Class to QA Professionals</h3><span class="cert-platform">Testleaf</span><div class="cert-bar"><div class="cert-bar-fill" style="width:100%"></div></div></div>
+        <div class="cert-card reveal-up" style="--delay:.3s"><div class="cert-icon">⚡</div><h3 class="cert-name">Automation Testing Skills</h3><span class="cert-platform">GUVI × HCL</span><div class="cert-bar"><div class="cert-bar-fill" style="width:100%"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT SECTION ===================== -->
+  <section id="contact" class="section contact-section">
+    <div class="section-inner">
+      <div class="section-label">06 / CONTACT</div>
+      <h2 class="section-title reveal-up">Found a <span class="accent-text">Bug?</span><br>Let's Talk.</h2>
+      <p class="contact-sub reveal-up">Have a project that needs quality assurance? A bug that needs hunting? Let's connect.</p>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <a href="mailto:antonyjoshua413@gmail.com" class="contact-item">
+            <div class="ci-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><span class="ci-label">Email</span><span class="ci-val accent-text">antonyjoshua413@gmail.com</span></div>
+          </a>
+          <div class="contact-item">
+            <div class="ci-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><span class="ci-label">Location</span><span class="ci-val">Chennai, India</span></div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/Antonyjoshua" target="_blank" class="cs-btn">GitHub</a>
+            <a href="https://linkedin.com/in/antonyjoshua" target="_blank" class="cs-btn">LinkedIn</a>
+            <a href="mailto:antonyjoshua413@gmail.com" class="cs-btn accent">Email Me</a>
+          </div>
+        </div>
+        <form class="contact-form reveal-right" id="contactForm">
+          <div class="cf-field"><label>Name</label><input type="text" placeholder="Your name" required></div>
+          <div class="cf-field"><label>Email</label><input type="email" placeholder="your@email.com" required></div>
+          <div class="cf-field"><label>Message</label><textarea rows="4" placeholder="Tell me about your project or bug..." required></textarea></div>
+          <button type="submit" class="btn-primary">SEND MESSAGE <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <svg width="28" height="28" viewBox="0 0 120 120"><ellipse cx="60" cy="72" rx="28" ry="32" fill="none" stroke="#00ff88" stroke-width="2"/><ellipse cx="60" cy="42" rx="20" ry="18" fill="none" stroke="#00ff88" stroke-width="1.8"/><circle cx="51" cy="38" r="5.5" fill="#00ff88"/><circle cx="69" cy="38" r="5.5" fill="#00ff88"/></svg>
+          <span class="accent-text">BUG HUNTER</span>
+        </div>
+        <p class="footer-tag">© 2024 Antony Joshua S. All rights reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/Antonyjoshua" target="_blank">GH</a>
+        <a href="https://linkedin.com/in/antonyjoshua" target="_blank">LI</a>
+        <a href="mailto:antonyjoshua413@gmail.com">✉</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

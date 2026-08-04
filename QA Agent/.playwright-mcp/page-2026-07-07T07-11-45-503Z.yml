@@ -1,0 +1,20 @@
+- generic [ref=e6]:
+  - link "looginpage" [ref=e8] [cursor=pointer]:
+    - /url: javascript:void(0);
+    - img "looginpage" [ref=e9]
+  - generic [ref=e11]:
+    - heading "Sign in to account" [level=4] [ref=e12]
+    - paragraph [ref=e13]: Enter your user name & password to login
+    - generic [ref=e14]:
+      - generic [ref=e15]: User name
+      - textbox [ref=e16] [cursor=pointer]
+    - generic [ref=e17]:
+      - generic [ref=e18]: Password
+      - generic [ref=e19]:
+        - textbox [ref=e20] [cursor=pointer]
+        - generic [ref=e22] [cursor=pointer]: show
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - checkbox "Remember password" [ref=e25] [cursor=pointer]
+        - generic [ref=e26] [cursor=pointer]: Remember password
+      - button "Sign in" [ref=e28] [cursor=pointer]

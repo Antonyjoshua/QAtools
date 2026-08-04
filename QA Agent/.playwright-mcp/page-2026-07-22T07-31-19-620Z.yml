@@ -1,0 +1,151 @@
+- generic [ref=f17e2]:
+  - generic [ref=f17e3]:
+    - generic [ref=f17e5]:
+      - generic [ref=f17e6]:
+        - link "Logo" [ref=f17e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f17e8]
+        - text: 
+      - list [ref=f17e9]:
+        - listitem [ref=f17e10]:
+          - link " Dashboard" [ref=f17e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f17e12]: 
+            - text: Dashboard
+        - listitem [ref=f17e13]:
+          - link " Batches" [ref=f17e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f17e15]: 
+            - text: Batches
+        - listitem [ref=f17e16]:
+          - link " My Courses" [ref=f17e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f17e18]: 
+            - text: My Courses
+        - listitem [ref=f17e19]:
+          - link " Ebooks" [ref=f17e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f17e21]: 
+            - text: Ebooks
+        - listitem [ref=f17e22]:
+          - link " Wishlist" [ref=f17e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f17e24]: 
+            - text: Wishlist
+        - listitem [ref=f17e25]:
+          - link " Audiobook" [ref=f17e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f17e27]: 
+            - text: Audiobook
+        - listitem [ref=f17e28]:
+          - link " Resources" [ref=f17e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f17e30]: 
+            - text: Resources
+        - listitem [ref=f17e31]:
+          - link " Current Affairs" [ref=f17e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f17e33]: 
+            - text: Current Affairs
+        - listitem [ref=f17e34]:
+          - link " Test" [ref=f17e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f17e36]: 
+            - text: Test
+        - listitem [ref=f17e37]:
+          - link " Settings" [ref=f17e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f17e39]: 
+            - text: Settings
+        - listitem [ref=f17e40]:
+          - link " Call Reminders" [ref=f17e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f17e42]: 
+            - text: Call Reminders
+        - listitem [ref=f17e43]:
+          - link " Leaderboard" [ref=f17e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f17e45]: 
+            - text: Leaderboard
+        - listitem [ref=f17e46]:
+          - button " APL " [ref=f17e47] [cursor=pointer]:
+            - generic [ref=f17e48]:
+              - generic [ref=f17e49]: 
+              - text: APL
+            - generic [ref=f17e50]: 
+          - text:   
+        - listitem [ref=f17e51]:
+          - link " Notification" [ref=f17e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f17e53]: 
+            - text: Notification
+        - listitem [ref=f17e54]:
+          - button " Logout" [ref=f17e56] [cursor=pointer]:
+            - generic [ref=f17e57]: 
+            - text: Logout
+    - generic [ref=f17e59]:
+      - banner [ref=f17e60]:
+        - text: 
+        - generic [ref=f17e61]:
+          - generic [ref=f17e62]:
+            - generic [ref=f17e63]: 
+            - textbox "Search Course" [ref=f17e64]
+            - text: 
+          - link "" [ref=f17e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f17e68]: 
+          - link "Profile qatestpromo20260721" [ref=f17e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f17e71]
+            - generic [ref=f17e72]: qatestpromo20260721
+      - generic [ref=f17e76]:
+        - generic [ref=f17e80]: 
+        - heading "Payment Failed" [level=3] [ref=f17e81]
+        - paragraph [ref=f17e82]: We couldn't process your payment. Please try again or contact support if the problem persists.
+        - generic [ref=f17e83]:
+          - generic [ref=f17e84]:
+            - generic [ref=f17e85]: "Purchase ID:"
+            - generic [ref=f17e86]: "#6840"
+          - generic [ref=f17e87]:
+            - generic [ref=f17e88]: "Course:"
+            - generic [ref=f17e89]: TNPSC Course Group 4
+          - generic [ref=f17e90]:
+            - generic [ref=f17e91]: "Amount:"
+            - generic [ref=f17e92]: ₹6000.00
+        - generic [ref=f17e93]:
+          - heading "Common reasons for payment failure:" [level=6] [ref=f17e94]
+          - list [ref=f17e95]:
+            - listitem [ref=f17e96]: Insufficient funds in your account
+            - listitem [ref=f17e97]: Incorrect card details
+            - listitem [ref=f17e98]: Payment cancelled by user
+            - listitem [ref=f17e99]: Bank declined the transaction
+            - listitem [ref=f17e100]: Network connectivity issues
+        - generic [ref=f17e101]:
+          - link " Try Again" [ref=f17e102] [cursor=pointer]:
+            - /url: /Payment/Index
+            - generic [ref=f17e103]: 
+            - text: Try Again
+          - link " Back to Home" [ref=f17e104] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f17e105]: 
+            - text: Back to Home
+        - generic [ref=f17e107]:
+          - generic [ref=f17e108]: 
+          - text: Need help? Contact our support team at
+          - link "Telegram Support" [ref=f17e109] [cursor=pointer]:
+            - /url: https://t.me/jeshwar_teaching
+  - generic "Ask a doubt" [ref=f17e110]:
+    - generic [ref=f17e111]: 
+  - text:      
+  - contentinfo [ref=f17e112]:
+    - generic [ref=f17e113]:
+      - paragraph [ref=f17e115]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f17e116]:
+        - link "About Us" [ref=f17e117] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f17e118] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f17e119] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f17e120] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

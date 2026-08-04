@@ -1,0 +1,240 @@
+- generic [ref=f17e1]:
+  - generic [ref=f17e7]:
+    - generic [ref=f17e8]:
+      - generic [ref=f17e9]:
+        - heading "Course" [level=4] [ref=f17e10]
+        - navigation [ref=f17e11]:
+          - list [ref=f17e12]:
+            - listitem [ref=f17e13]:
+              - link [ref=f17e14] [cursor=pointer]:
+                - /url: /Topic/Index
+                - img [ref=f17e15]
+            - listitem [ref=f17e18]: / Topics
+      - generic [ref=f17e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f17e22]:
+          - text: 
+          - listitem [ref=f17e23] [cursor=pointer]:
+            - generic [ref=f17e24]:
+              - img "Profile" [ref=f17e25]
+              - generic [ref=f17e26]:
+                - generic [ref=f17e27]: superadmin@gmail.com
+                - paragraph [ref=f17e28]:
+                  - text: SuperAdmin
+                  - generic [ref=f17e29]: 
+    - generic [ref=f17e30]:
+      - generic [ref=f17e32]:
+        - generic [ref=f17e33]:
+          - link [ref=f17e34] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f17e36] [cursor=pointer]
+        - navigation [ref=f17e38]:
+          - list [ref=f17e40]:
+            - generic [ref=f17e45]:
+              - text: 
+              - listitem [ref=f17e46]:
+                - heading "Applications" [level=6] [ref=f17e48]
+              - listitem [ref=f17e49]:
+                - link "Dashboard" [ref=f17e50] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f17e51]
+                  - generic [ref=f17e53]: Dashboard
+                  - text: 
+              - listitem [ref=f17e54]:
+                - link "Enrollment " [ref=f17e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e56]
+                  - generic [ref=f17e58]: Enrollment
+                  - generic [ref=f17e60]: 
+              - listitem [ref=f17e61]:
+                - link "Website Settings " [ref=f17e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e63]
+                  - generic [ref=f17e65]: Website Settings
+                  - generic [ref=f17e67]: 
+              - listitem [ref=f17e68]:
+                - link "Membership " [ref=f17e69] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e70]
+                  - generic [ref=f17e72]: Membership
+                  - generic [ref=f17e74]: 
+              - listitem [ref=f17e75]:
+                - link "Course " [ref=f17e76] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e77]
+                  - generic [ref=f17e79]: Course
+                  - generic [ref=f17e81]: 
+                - list [ref=f17e82]:
+                  - listitem [ref=f17e83]:
+                    - link "Course" [ref=f17e84] [cursor=pointer]:
+                      - /url: /Master/Course
+                  - listitem [ref=f17e85]:
+                    - link "Unit" [ref=f17e86] [cursor=pointer]:
+                      - /url: /Unit/Index
+                  - listitem [ref=f17e87]:
+                    - link "Topics" [ref=f17e88] [cursor=pointer]:
+                      - /url: /Topic/Index
+                  - listitem [ref=f17e89]:
+                    - link "Live" [ref=f17e90] [cursor=pointer]:
+                      - /url: /CourseLive/Index
+                  - listitem [ref=f17e91]:
+                    - link "Doubt Inbox" [ref=f17e92] [cursor=pointer]:
+                      - /url: /Doubt/Inbox
+                  - listitem [ref=f17e93]:
+                    - link "Topic Ratings" [ref=f17e94] [cursor=pointer]:
+                      - /url: /TopicRating/Index
+                  - listitem [ref=f17e95]:
+                    - link "Admin Ratings" [ref=f17e96] [cursor=pointer]:
+                      - /url: /AdminTopicRating/Index
+              - listitem [ref=f17e97]:
+                - link " Self Host " [ref=f17e98] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f17e99]: 
+                  - generic [ref=f17e100]: Self Host
+                  - generic [ref=f17e102]: 
+              - listitem [ref=f17e103]:
+                - link "Assessment " [ref=f17e104] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e105]
+                  - generic [ref=f17e107]: Assessment
+                  - generic [ref=f17e109]: 
+              - listitem [ref=f17e110]:
+                - link "Email Draft " [ref=f17e111] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e112]
+                  - generic [ref=f17e114]: Email Draft
+                  - generic [ref=f17e116]: 
+              - listitem [ref=f17e117]:
+                - link "Admin " [ref=f17e118] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e119]
+                  - generic [ref=f17e121]: Admin
+                  - generic [ref=f17e123]: 
+              - listitem [ref=f17e124]:
+                - link "general icon General " [ref=f17e125] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f17e126]
+                  - generic [ref=f17e127]: General
+                  - generic [ref=f17e129]: 
+              - listitem [ref=f17e130]:
+                - link "Leaderboard" [ref=f17e131] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f17e132]
+                  - generic [ref=f17e134]: Leaderboard
+                  - text: 
+              - listitem [ref=f17e135]:
+                - heading "E-Commerce" [level=6] [ref=f17e137]
+              - listitem [ref=f17e138]:
+                - link "Dashboard" [ref=f17e139] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f17e140]
+                  - generic [ref=f17e142]: Dashboard
+                  - text: 
+              - listitem [ref=f17e143]:
+                - link "product icon Product " [ref=f17e144] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f17e145]
+                  - generic [ref=f17e146]: Product
+                  - generic [ref=f17e148]: 
+              - listitem [ref=f17e149]:
+                - link "Order " [ref=f17e150] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e151]
+                  - generic [ref=f17e153]: Order
+                  - generic [ref=f17e155]: 
+              - listitem [ref=f17e156]:
+                - link "Customer" [ref=f17e157] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f17e158]
+                  - generic [ref=f17e160]: Customer
+                  - text: 
+              - listitem [ref=f17e161]:
+                - heading "Payments" [level=6] [ref=f17e163]
+              - listitem [ref=f17e164]:
+                - link "Transactions " [ref=f17e165] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e166]
+                  - generic [ref=f17e168]: Transactions
+                  - generic [ref=f17e170]: 
+              - listitem [ref=f17e171]:
+                - heading "Notifcations" [level=6] [ref=f17e173]
+              - listitem [ref=f17e174]:
+                - link "notify-ico Notifications " [ref=f17e175] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f17e176]
+                  - generic [ref=f17e177]: Notifications
+                  - generic [ref=f17e179]: 
+              - listitem [ref=f17e180]:
+                - heading "Job Management" [level=6] [ref=f17e182]
+              - listitem [ref=f17e183]:
+                - link "notify-ico Jobs " [ref=f17e184] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f17e185]
+                  - generic [ref=f17e186]: Jobs
+                  - generic [ref=f17e188]: 
+      - main [ref=f17e190]:
+        - generic [ref=f17e191]:
+          - generic [ref=f17e192]:
+            - heading "Course Hierarchy" [level=4] [ref=f17e193]
+            - generic [ref=f17e194]: "Select Course:"
+            - combobox "Select Course:" [ref=f17e195] [cursor=pointer]:
+              - option "-- Select Course --"
+              - option "12TH ECONOMICS" [selected]
+              - option "Assessment course 01"
+              - option "Bank course"
+              - option "Banking course"
+              - option "Free course 2"
+              - option "Group 1 course"
+              - option "Group 2 course"
+              - option "Group 2A"
+              - option "Group 3 course"
+              - option "Group 4 Course"
+              - option "Group 5 course"
+              - option "Group 6 course"
+              - option "Group A course"
+              - option "Indian Railways- Batch 1,2,3,4- Tnpsc-இந்தியாவி..."
+              - option "JT Batch-2026 Course"
+              - option "JT Phase 3"
+              - option "Jt Release Course"
+              - option "JtCourse"
+              - option "Jtcourse 2"
+              - option "Kingdom - 2026"
+              - option "Multiplecardtypefolder"
+              - option "MultipleFolderType"
+              - option "Paid membership"
+              - option "Political Polity"
+              - option "Pongal Special Course"
+              - option "Post office exam- Tamil nadu 2026"
+              - option "QA Test Course"
+              - option "Railway course"
+              - option "Railway course 2"
+              - option "Railway course 3"
+              - option "SelfHost Course"
+              - option "Silver membership"
+              - option "Singlecourse"
+              - option "Singlefoldercourse"
+              - option "Social"
+              - option "Software Testing"
+              - option "Software Testing Course"
+              - option "tEST"
+              - option "Test0025"
+              - option "TNPSC Foundation Course"
+              - option "TNPSC Group 4 Complete Preparation Course 2026"
+              - option "TNPSC GROUP-4 FOLDER"
+              - option "TNPSC_Group1new 008"
+              - option "TNUSRB Police Constable"
+          - text:   
+        - text: 
+      - contentinfo [ref=f17e196]:
+        - paragraph [ref=f17e200]:
+          - text: Copyright
+          - generic [ref=f17e201]: "2026"
+          - text: © Jeshwar Teaching
+  - img

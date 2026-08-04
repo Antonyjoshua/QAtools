@@ -1,0 +1,267 @@
+- generic [active] [ref=f12e1]:
+  - img [ref=f12e228] [cursor=pointer]
+  - generic [ref=f12e2]:
+    - generic [ref=f12e3]:
+      - generic [ref=f12e4]:
+        - heading "AI Generated Questions - Preview" [level=4] [ref=f12e5]
+        - navigation [ref=f12e6]:
+          - list [ref=f12e7]:
+            - listitem [ref=f12e8]:
+              - link [ref=f12e9] [cursor=pointer]:
+                - /url: /Question/Index
+                - img [ref=f12e10]
+            - listitem [ref=f12e13]: / AI Generated Questions - Preview
+      - generic [ref=f12e15]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - img [ref=f12e18] [cursor=pointer]
+        - list [ref=f12e21]:
+          - listitem [ref=f12e22]:
+            - generic [ref=f12e24] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f12e25]:
+      - generic [ref=f12e27]:
+        - text: 
+        - link [ref=f12e29] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f12e30]:
+          - list [ref=f12e32]:
+            - generic [ref=f12e37]:
+              - text: 
+              - listitem [ref=f12e38]:
+                - link [ref=f12e39] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f12e40]
+                  - text: 
+              - listitem [ref=f12e42]:
+                - link [ref=f12e43] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e44]
+                  - text: 
+              - listitem [ref=f12e46]:
+                - link [ref=f12e47] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e48]
+                  - text: 
+              - listitem [ref=f12e50]:
+                - link [ref=f12e51] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e52]
+                  - text: 
+              - listitem [ref=f12e54]:
+                - link [ref=f12e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e56]
+                  - text: 
+              - listitem [ref=f12e58]:
+                - link "" [ref=f12e59] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f12e60]: 
+                  - text: 
+              - listitem [ref=f12e61]:
+                - link [ref=f12e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e63]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f12e65]:
+                - link [ref=f12e66] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e67]
+                  - text: 
+              - listitem [ref=f12e69]:
+                - link [ref=f12e70] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e71]
+                  - text: 
+              - listitem [ref=f12e73]:
+                - link "general icon" [ref=f12e74] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f12e75]
+                  - text: 
+              - listitem [ref=f12e76]:
+                - link [ref=f12e77] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f12e78]
+                  - text: 
+              - listitem [ref=f12e80]:
+                - link [ref=f12e81] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f12e82]
+                  - text: 
+              - listitem [ref=f12e84]:
+                - link "product icon" [ref=f12e85] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f12e86]
+                  - text: 
+              - listitem [ref=f12e87]:
+                - link [ref=f12e88] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e89]
+                  - text: 
+              - listitem [ref=f12e91]:
+                - link [ref=f12e92] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f12e93]
+                  - text: 
+              - listitem [ref=f12e95]:
+                - link [ref=f12e96] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f12e97]
+                  - text: 
+              - listitem [ref=f12e99]:
+                - link "notify-ico" [ref=f12e100] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f12e101]
+                  - text: 
+              - listitem [ref=f12e102]:
+                - link "notify-ico" [ref=f12e103] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f12e104]
+                  - text: 
+      - main [ref=f12e106]:
+        - generic [ref=f12e108]:
+          - generic [ref=f12e109]:
+            - heading "AI Generated Questions - Preview" [level=4] [ref=f12e110]
+            - generic [ref=f12e111]:
+              - button " Regenerate" [ref=f12e112] [cursor=pointer]:
+                - generic [ref=f12e113]: 
+                - text: Regenerate
+              - link " Back" [ref=f12e114] [cursor=pointer]:
+                - /url: /Question/Index?assessmentId=1172
+                - generic [ref=f12e115]: 
+                - text: Back
+          - generic [ref=f12e116]:
+            - generic [ref=f12e117]:
+              - generic [ref=f12e118]: 
+              - strong [ref=f12e119]: "Assessment:"
+              - text: QA Test Assessment - 2026-07-08 |
+              - strong [ref=f12e120]: "Questions Generated:"
+              - text: "1"
+            - generic [ref=f12e122]:
+              - generic [ref=f12e123]: 
+              - strong [ref=f12e124]: "Total Required:"
+              - generic [ref=f12e125]: "5"
+              - text: "|"
+              - strong [ref=f12e126]: "Already in DB:"
+              - generic [ref=f12e127]: "0"
+              - text: "|"
+              - strong [ref=f12e128]: "Remaining to Add:"
+              - generic [ref=f12e129]: "5"
+              - text: "|"
+              - strong [ref=f12e130]: "Generated in this batch:"
+              - text: "1"
+            - table [ref=f12e132]:
+              - rowgroup [ref=f12e133]:
+                - 'row "Select All / Deselect All # Question Option A Option B Option C Option D Answer Solution Marks" [ref=f12e134]':
+                  - columnheader "Select All / Deselect All" [ref=f12e135]:
+                    - checkbox "Select All / Deselect All" [ref=f12e136] [cursor=pointer]
+                  - columnheader "#" [ref=f12e137]
+                  - columnheader "Question" [ref=f12e138]
+                  - columnheader "Option A" [ref=f12e139]
+                  - columnheader "Option B" [ref=f12e140]
+                  - columnheader "Option C" [ref=f12e141]
+                  - columnheader "Option D" [ref=f12e142]
+                  - columnheader "Answer" [ref=f12e143]
+                  - columnheader "Solution" [ref=f12e144]
+                  - columnheader "Marks" [ref=f12e145]
+              - rowgroup [ref=f12e146]:
+                - row "1 TA இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தவர் யார்? ஜவஹர்லால் நேரு டாக்டர் பி.ஆர். அம்பேத்கர் டாக்டர் ராஜேந்திர பிரசாத் சர்தார் படேல் டாக்டர் பி.ஆர். அம்பேத்கர் • டாக்டர் பி.ஆர். அம்பேத்கர் இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தார். • வரைவுக் குழு 1947 ஆகஸ்ட் 29 அன்று அமைக்கப்பட்டது. • இந்தியாவிற்கான புதிய அரசியலமைப்பின் வரைவைத் தயாரிக்கும் பொறுப்பு இக்குழுவிடம் இருந்தது. • அவர் பொதுவாக 'இந்திய அரசியலமைப்பின் தந்தை' என்று அழைக்கப்படுகிறார். • இக்குழுவில் டாக்டர் அம்பேத்கர் உட்பட ஏழு உறுப்பினர்கள் இருந்தனர். 20" [ref=f12e147]:
+                  - cell [ref=f12e148]:
+                    - checkbox [ref=f12e149] [cursor=pointer]
+                  - cell "1" [ref=f12e150]
+                  - cell "TA இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தவர் யார்?" [ref=f12e151]:
+                    - generic [ref=f12e152]: TA
+                    - paragraph [ref=f12e153]:
+                      - strong [ref=f12e154]: இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தவர் யார்?
+                  - cell "ஜவஹர்லால் நேரு" [ref=f12e155]:
+                    - paragraph [ref=f12e156]:
+                      - strong [ref=f12e157]: ஜவஹர்லால் நேரு
+                  - cell "டாக்டர் பி.ஆர். அம்பேத்கர்" [ref=f12e158]:
+                    - paragraph [ref=f12e159]:
+                      - strong [ref=f12e160]: டாக்டர் பி.ஆர். அம்பேத்கர்
+                  - cell "டாக்டர் ராஜேந்திர பிரசாத்" [ref=f12e161]:
+                    - paragraph [ref=f12e162]:
+                      - strong [ref=f12e163]: டாக்டர் ராஜேந்திர பிரசாத்
+                  - cell "சர்தார் படேல்" [ref=f12e164]:
+                    - paragraph [ref=f12e165]:
+                      - strong [ref=f12e166]: சர்தார் படேல்
+                  - cell "டாக்டர் பி.ஆர். அம்பேத்கர்" [ref=f12e167]:
+                    - paragraph [ref=f12e168]:
+                      - strong [ref=f12e169]: டாக்டர் பி.ஆர். அம்பேத்கர்
+                  - cell "• டாக்டர் பி.ஆர். அம்பேத்கர் இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தார். • வரைவுக் குழு 1947 ஆகஸ்ட் 29 அன்று அமைக்கப்பட்டது. • இந்தியாவிற்கான புதிய அரசியலமைப்பின் வரைவைத் தயாரிக்கும் பொறுப்பு இக்குழுவிடம் இருந்தது. • அவர் பொதுவாக 'இந்திய அரசியலமைப்பின் தந்தை' என்று அழைக்கப்படுகிறார். • இக்குழுவில் டாக்டர் அம்பேத்கர் உட்பட ஏழு உறுப்பினர்கள் இருந்தனர்." [ref=f12e170]:
+                    - paragraph [ref=f12e171]:
+                      - strong [ref=f12e172]: • டாக்டர் பி.ஆர். அம்பேத்கர் இந்திய அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தார்.
+                    - paragraph [ref=f12e173]:
+                      - strong [ref=f12e174]: • வரைவுக் குழு 1947 ஆகஸ்ட் 29 அன்று அமைக்கப்பட்டது.
+                    - paragraph [ref=f12e175]:
+                      - strong [ref=f12e176]: • இந்தியாவிற்கான புதிய அரசியலமைப்பின் வரைவைத் தயாரிக்கும் பொறுப்பு இக்குழுவிடம் இருந்தது.
+                    - paragraph [ref=f12e177]:
+                      - strong [ref=f12e178]: • அவர் பொதுவாக 'இந்திய அரசியலமைப்பின் தந்தை' என்று அழைக்கப்படுகிறார்.
+                    - paragraph [ref=f12e179]:
+                      - strong [ref=f12e180]: • இக்குழுவில் டாக்டர் அம்பேத்கர் உட்பட ஏழு உறுப்பினர்கள் இருந்தனர்.
+                  - cell "20" [ref=f12e181]
+                - row "EN Who was the Chairman of the Drafting Committee of the Indian Constitution? Jawaharlal Nehru Dr. B.R. Ambedkar Dr. Rajendra Prasad Sardar Patel Dr. B.R. Ambedkar • Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution. • The Drafting Committee was set up on August 29, 1947. • It was responsible for preparing a draft of the new Constitution of India. • He is widely regarded as the 'Father of the Indian Constitution'. • The committee consisted of seven members including Dr. Ambedkar." [ref=f12e182]:
+                  - cell "EN Who was the Chairman of the Drafting Committee of the Indian Constitution?" [ref=f12e183]:
+                    - generic [ref=f12e184]: EN
+                    - paragraph [ref=f12e185]:
+                      - strong [ref=f12e186]: Who was the Chairman of the Drafting Committee of the Indian Constitution?
+                  - cell "Jawaharlal Nehru" [ref=f12e187]:
+                    - paragraph [ref=f12e188]:
+                      - strong [ref=f12e189]: Jawaharlal Nehru
+                  - cell "Dr. B.R. Ambedkar" [ref=f12e190]:
+                    - paragraph [ref=f12e191]:
+                      - strong [ref=f12e192]: Dr. B.R. Ambedkar
+                  - cell "Dr. Rajendra Prasad" [ref=f12e193]:
+                    - paragraph [ref=f12e194]:
+                      - strong [ref=f12e195]: Dr. Rajendra Prasad
+                  - cell "Sardar Patel" [ref=f12e196]:
+                    - paragraph [ref=f12e197]:
+                      - strong [ref=f12e198]: Sardar Patel
+                  - cell "Dr. B.R. Ambedkar" [ref=f12e199]:
+                    - paragraph [ref=f12e200]:
+                      - strong [ref=f12e201]: Dr. B.R. Ambedkar
+                  - cell "• Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution. • The Drafting Committee was set up on August 29, 1947. • It was responsible for preparing a draft of the new Constitution of India. • He is widely regarded as the 'Father of the Indian Constitution'. • The committee consisted of seven members including Dr. Ambedkar." [ref=f12e202]:
+                    - paragraph [ref=f12e203]:
+                      - strong [ref=f12e204]: • Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution.
+                    - paragraph [ref=f12e205]:
+                      - strong [ref=f12e206]: • The Drafting Committee was set up on August 29, 1947.
+                    - paragraph [ref=f12e207]:
+                      - strong [ref=f12e208]: • It was responsible for preparing a draft of the new Constitution of India.
+                    - paragraph [ref=f12e209]:
+                      - strong [ref=f12e210]: • He is widely regarded as the 'Father of the Indian Constitution'.
+                    - paragraph [ref=f12e211]:
+                      - strong [ref=f12e212]: • The committee consisted of seven members including Dr. Ambedkar.
+            - generic [ref=f12e213]:
+              - button " Add Selected to Database" [ref=f12e214] [cursor=pointer]:
+                - generic [ref=f12e215]: 
+                - text: Add Selected to Database
+              - generic [ref=f12e216]: 0 of 1 questions selected
+              - button " Regenerate" [ref=f12e217] [cursor=pointer]:
+                - generic [ref=f12e218]: 
+                - text: Regenerate
+              - link " Back" [ref=f12e219] [cursor=pointer]:
+                - /url: /Question/Index?assessmentId=1172
+                - generic [ref=f12e220]: 
+                - text: Back
+        - generic [ref=f12e276]:
+          - status [ref=f12e277]:
+            - generic [ref=f12e278]: Loading...
+          - heading "Regenerating Questions..." [level=5] [ref=f12e279]
+          - paragraph [ref=f12e280]: Please wait while your questions are being saved.
+        - text:   
+      - contentinfo [ref=f12e221]:
+        - paragraph [ref=f12e225]:
+          - text: Copyright
+          - generic [ref=f12e226]: "2026"
+          - text: © Jeshwar Teaching
+  - img

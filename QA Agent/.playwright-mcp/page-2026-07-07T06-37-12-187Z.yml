@@ -1,0 +1,313 @@
+- generic [ref=f20e2]:
+  - generic [ref=f20e3]:
+    - generic [ref=f20e5]:
+      - generic [ref=f20e6]:
+        - link "Logo" [ref=f20e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f20e8]
+        - text: 
+      - list [ref=f20e9]:
+        - listitem [ref=f20e10]:
+          - link " Dashboard" [ref=f20e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f20e12]: 
+            - text: Dashboard
+        - listitem [ref=f20e13]:
+          - link " Batches" [ref=f20e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f20e15]: 
+            - text: Batches
+        - listitem [ref=f20e16]:
+          - link " My Courses" [ref=f20e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f20e18]: 
+            - text: My Courses
+        - listitem [ref=f20e19]:
+          - link " Wishlist" [ref=f20e20] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f20e21]: 
+            - text: Wishlist
+        - listitem [ref=f20e22]:
+          - link " Audiobook" [ref=f20e23] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f20e24]: 
+            - text: Audiobook
+        - listitem [ref=f20e25]:
+          - link " Resources" [ref=f20e26] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f20e27]: 
+            - text: Resources
+        - listitem [ref=f20e28]:
+          - link " Current Affairs" [ref=f20e29] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f20e30]: 
+            - text: Current Affairs
+        - listitem [ref=f20e31]:
+          - link " Test" [ref=f20e32] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f20e33]: 
+            - text: Test
+        - listitem [ref=f20e34]:
+          - link " Settings" [ref=f20e35] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f20e36]: 
+            - text: Settings
+        - listitem [ref=f20e37]:
+          - link " Leaderboard" [ref=f20e38] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f20e39]: 
+            - text: Leaderboard
+        - listitem [ref=f20e40]:
+          - link " Notification" [ref=f20e41] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f20e42]: 
+            - text: Notification
+        - listitem [ref=f20e43]:
+          - button " Logout" [ref=f20e45] [cursor=pointer]:
+            - generic [ref=f20e46]: 
+            - text: Logout
+    - generic [ref=f20e48]:
+      - banner [ref=f20e49]:
+        - text: 
+        - generic [ref=f20e50]:
+          - generic [ref=f20e51]:
+            - generic [ref=f20e52]: 
+            - textbox "Search Course" [ref=f20e53]
+            - text: 
+          - link "" [ref=f20e55] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f20e57]: 
+          - link "Profile deepa070712" [ref=f20e59] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f20e60]
+            - generic [ref=f20e61]: deepa070712
+      - generic [ref=f20e62]:
+        - generic [ref=f20e64]:
+          - generic [ref=f20e67]:
+            - generic [ref=f20e68]:
+              - generic [ref=f20e69]: Course Enrolled
+              - generic [ref=f20e70]: "3"
+              - generic [ref=f20e71]:
+                - generic [ref=f20e72]: ↑ 12.5%
+                - generic [ref=f20e73]: last month
+            - img "courses completed" [ref=f20e75]
+          - generic [ref=f20e78]:
+            - generic [ref=f20e79]:
+              - generic [ref=f20e80]: Assessment
+              - generic [ref=f20e81]: "0"
+              - generic [ref=f20e82]:
+                - generic [ref=f20e83]: ↑ 8.2%
+                - generic [ref=f20e84]: last month
+            - img "assessments" [ref=f20e86]
+          - generic [ref=f20e89]:
+            - generic [ref=f20e90]:
+              - generic [ref=f20e91]: Hours Watched
+              - generic [ref=f20e92]: 0.00 Hours
+              - generic [ref=f20e93]:
+                - generic [ref=f20e94]: ↑ 15.3%
+                - generic [ref=f20e95]: last month
+            - img "hours spent" [ref=f20e97]
+          - generic [ref=f20e100]:
+            - generic [ref=f20e101]:
+              - generic [ref=f20e102]: Topics Completed
+              - generic [ref=f20e103]: 0/10
+              - generic [ref=f20e104]:
+                - generic [ref=f20e105]: ↔ 0.5%
+                - generic [ref=f20e106]: last month
+            - img "topics in progress" [ref=f20e108]
+        - generic [ref=f20e109]:
+          - generic [ref=f20e110]:
+            - generic [ref=f20e111]:
+              - heading "Total Watched Hours" [level=4] [ref=f20e112]
+              - combobox [ref=f20e114] [cursor=pointer]:
+                - option "All"
+                - option "Last 7 Days"
+                - option "This Month" [selected]
+                - option "Previous Month"
+            - generic [ref=f20e117]: No watched hours available
+          - generic [ref=f20e118]:
+            - generic [ref=f20e120]:
+              - generic [ref=f20e121]:
+                - heading "Total Topic" [level=4] [ref=f20e122]
+                - generic [ref=f20e123]: "0"
+              - generic [ref=f20e125]: No course data available
+            - generic [ref=f20e127]:
+              - heading "Topics Progress" [level=4] [ref=f20e129]
+              - generic [ref=f20e131]:
+                - generic [ref=f20e132]: 
+                - paragraph [ref=f20e133]: No topics in progress yet
+            - generic [ref=f20e135]:
+              - generic [ref=f20e137]:
+                - heading "Live Meeting" [level=4] [ref=f20e140]
+                - paragraph [ref=f20e143]: No upcoming live classes.
+              - generic [ref=f20e145]:
+                - heading "COURSES" [level=5] [ref=f20e146]
+                - paragraph [ref=f20e147]: Industry Ready Training to get you placed
+                - link "View Courses " [ref=f20e148] [cursor=pointer]:
+                  - /url: /Batches/Index
+                  - button "View Courses " [ref=f20e149]:
+                    - text: View Courses
+                    - generic [ref=f20e151]: 
+        - generic [ref=f20e152]:
+          - generic [ref=f20e153]:
+            - heading "Recently Added Topics" [level=3] [ref=f20e154]
+            - generic [ref=f20e155]:
+              - generic [ref=f20e157] [cursor=pointer]: 
+              - generic [ref=f20e159] [cursor=pointer]: 
+          - generic [ref=f20e161]:
+            - generic [ref=f20e162]:
+              - img "இடைக்கால இந்தியா" [ref=f20e165]
+              - generic [ref=f20e166]:
+                - generic [ref=f20e167]:
+                  - generic [ref=f20e168]:
+                    - generic [ref=f20e169]: 
+                    - generic [ref=f20e170]: 42 Min
+                  - generic [ref=f20e172]: Newly Added
+                - generic [ref=f20e174]:
+                  - heading "இடைக்கால இந்தியா" [level=6] [ref=f20e175]
+                  - paragraph [ref=f20e176]: Explore this topic to enhance your learning experience.
+              - generic [ref=f20e177]:
+                - generic [ref=f20e178]: 16 hours ago
+                - link "Watch Now" [ref=f20e179] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=130&topicId=347
+            - generic [ref=f20e180]:
+              - img "பரப்பு & கன அளவு" [ref=f20e183]
+              - generic [ref=f20e184]:
+                - generic [ref=f20e185]:
+                  - generic [ref=f20e186]:
+                    - generic [ref=f20e187]: 
+                    - generic [ref=f20e188]: 42 Min
+                  - generic [ref=f20e190]: Newly Added
+                - generic [ref=f20e192]:
+                  - heading "பரப்பு & கன அளவு" [level=6] [ref=f20e193]
+                  - paragraph [ref=f20e194]: Explore this topic to enhance your learning experience.
+              - generic [ref=f20e195]:
+                - generic [ref=f20e196]: 3 days ago
+                - link "Watch Now" [ref=f20e197] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=130&topicId=340
+            - generic [ref=f20e198]:
+              - img "மனித உடல் topic no 01" [ref=f20e201]
+              - generic [ref=f20e202]:
+                - generic [ref=f20e203]:
+                  - generic [ref=f20e204]:
+                    - generic [ref=f20e205]: 
+                    - generic [ref=f20e206]: 10 Min
+                  - generic [ref=f20e208]: Newly Added
+                - generic [ref=f20e210]:
+                  - heading "மனித உடல் topic no 01" [level=6] [ref=f20e211]
+                  - paragraph [ref=f20e212]: Explore this topic to enhance your learning experience.
+              - generic [ref=f20e213]:
+                - generic [ref=f20e214]: 6 days ago
+                - link "Watch Now" [ref=f20e215] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=130&topicId=368
+            - generic [ref=f20e216]:
+              - img "TNPSC Foundation Course/ஒன்றியம், மாநிலம் மற்றும் யூனியன் பிரதேசங்கள்" [ref=f20e219]
+              - generic [ref=f20e220]:
+                - generic [ref=f20e221]:
+                  - generic [ref=f20e222]:
+                    - generic [ref=f20e223]: 
+                    - generic [ref=f20e224]: 42 Min
+                  - generic [ref=f20e226]: Newly Added
+                - generic [ref=f20e228]:
+                  - heading "TNPSC Foundation Course/ஒன்றியம், மாநிலம் மற்றும் யூனியன் பிரதேசங்கள்" [level=6] [ref=f20e229]
+                  - paragraph [ref=f20e230]: Explore this topic to enhance your learning experience.
+              - generic [ref=f20e231]:
+                - generic [ref=f20e232]: 6 days ago
+                - link "Watch Now" [ref=f20e233] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=130&topicId=367
+            - generic [ref=f20e234]:
+              - img "சமூக அறிவியல் தேர்விற்கான முழுமையான பாடப்பிரிவுகள்" [ref=f20e237]
+              - generic [ref=f20e238]:
+                - generic [ref=f20e239]:
+                  - generic [ref=f20e240]:
+                    - generic [ref=f20e241]: 
+                    - generic [ref=f20e242]: 56 Min
+                  - generic [ref=f20e244]: Newly Added
+                - generic [ref=f20e246]:
+                  - heading "சமூக அறிவியல் தேர்விற்கான முழுமையான பாடப்பிரிவுகள்" [level=6] [ref=f20e247]
+                  - paragraph [ref=f20e248]: Explore this topic to enhance your learning experience.
+              - generic [ref=f20e249]:
+                - generic [ref=f20e250]: 7 days ago
+                - link "Watch Now" [ref=f20e251] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=130&topicId=350
+            - generic [ref=f20e252]:
+              - img "ஒரு செயலை (வினையை) உணர்த்தும் சொல் வினைச்சொல் எனப்படும்." [ref=f20e255]
+              - generic [ref=f20e256]:
+                - generic [ref=f20e257]:
+                  - generic [ref=f20e258]:
+                    - generic [ref=f20e259]: 
+                    - generic [ref=f20e260]: 42 Min
+                  - generic [ref=f20e262]: Newly Added
+                - generic [ref=f20e264]:
+                  - heading "ஒரு செயலை (வினையை) உணர்த்தும் சொல் வினைச்சொல் எனப்படும்." [level=6] [ref=f20e265]
+                  - paragraph [ref=f20e266]: Explore this topic to enhance your learning experience.
+              - generic [ref=f20e267]:
+                - generic [ref=f20e268]: 7 days ago
+                - link "Watch Now" [ref=f20e269] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=130&topicId=345
+            - generic [ref=f20e270]:
+              - img "தனிமனித ஒழுக்கம், நேர்மை மற்றும் நற்பண்புகளை உணர்த்த உவமைக் கதைகள் பயன்படுகின்றன" [ref=f20e273]
+              - generic [ref=f20e274]:
+                - generic [ref=f20e275]:
+                  - generic [ref=f20e276]:
+                    - generic [ref=f20e277]: 
+                    - generic [ref=f20e278]: 42 Min
+                  - generic [ref=f20e280]: Newly Added
+                - generic [ref=f20e282]:
+                  - heading "தனிமனித ஒழுக்கம், நேர்மை மற்றும் நற்பண்புகளை உணர்த்த உவமைக் கதைகள் பயன்படுகின்றன" [level=6] [ref=f20e283]
+                  - paragraph [ref=f20e284]: Explore this topic to enhance your learning experience.
+              - generic [ref=f20e285]:
+                - generic [ref=f20e286]: 7 days ago
+                - link "Watch Now" [ref=f20e287] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=130&topicId=338
+            - generic [ref=f20e288]:
+              - img "இதயம் மூலம் உடல் முழுவதும் இரத்தத்தை செலுத்துகிறது." [ref=f20e291]
+              - generic [ref=f20e292]:
+                - generic [ref=f20e294]:
+                  - generic [ref=f20e295]: 
+                  - generic [ref=f20e296]: 42 Min
+                - generic [ref=f20e298]:
+                  - heading "இதயம் மூலம் உடல் முழுவதும் இரத்தத்தை செலுத்துகிறது." [level=6] [ref=f20e299]
+                  - paragraph [ref=f20e300]: Explore this topic to enhance your learning experience.
+              - generic [ref=f20e301]:
+                - generic [ref=f20e302]: 11 days ago
+                - link "Watch Now" [ref=f20e303] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=130&topicId=344
+            - generic [ref=f20e304]:
+              - img "மூளை மற்றும் நரம்புகள் உடலின் செயல்பாடுகளைக் கட்டுப்படுத்துகின்றன" [ref=f20e307]
+              - generic [ref=f20e308]:
+                - generic [ref=f20e310]:
+                  - generic [ref=f20e311]: 
+                  - generic [ref=f20e312]: 42 Min
+                - generic [ref=f20e314]:
+                  - heading "மூளை மற்றும் நரம்புகள் உடலின் செயல்பாடுகளைக் கட்டுப்படுத்துகின்றன" [level=6] [ref=f20e315]
+                  - paragraph [ref=f20e316]: Explore this topic to enhance your learning experience.
+              - generic [ref=f20e317]:
+                - generic [ref=f20e318]: 11 days ago
+                - link "Watch Now" [ref=f20e319] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=130&topicId=343
+            - generic [ref=f20e320]:
+              - img "சொற்றொடர்கள்" [ref=f20e323]
+              - generic [ref=f20e324]:
+                - generic [ref=f20e326]:
+                  - generic [ref=f20e327]: 
+                  - generic [ref=f20e328]: 42 Min
+                - generic [ref=f20e330]:
+                  - heading "சொற்றொடர்கள்" [level=6] [ref=f20e331]
+                  - paragraph [ref=f20e332]: Explore this topic to enhance your learning experience.
+              - generic [ref=f20e333]:
+                - generic [ref=f20e334]: 11 days ago
+                - link "Watch Now" [ref=f20e335] [cursor=pointer]:
+                  - /url: /Course/WatchTopic?courseId=130&topicId=339
+  - contentinfo [ref=f20e336]:
+    - generic [ref=f20e337]:
+      - paragraph [ref=f20e339]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f20e340]:
+        - link "About Us" [ref=f20e341] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f20e342] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f20e343] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f20e344] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

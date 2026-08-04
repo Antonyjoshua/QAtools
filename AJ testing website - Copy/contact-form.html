@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Work Inquiry — Antony Joshua S</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ── Inquiry page layout ── */
+    .iq-header     { margin-bottom: 6px; display:flex; align-items:center; gap:8px; }
+    .iq-avail      { font-size:0.85rem; font-weight:600; color:#22c55e; }
+    .iq-title      { font-size:2.6rem; font-weight:800; letter-spacing:-0.02em; margin-bottom:8px; }
+    .iq-subtitle   { color:var(--text-muted); margin-bottom:44px; font-size:0.95rem; }
+
+    .iq-layout {
+      display: grid; grid-template-columns: 1fr 320px; gap: 40px; align-items: start;
+    }
+
+    /* ── Form ── */
+    .iq-form { display:flex; flex-direction:column; gap:20px; }
+    .iq-row  { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+    .iq-field { display:flex; flex-direction:column; gap:6px; }
+    .iq-field label { font-size:0.82rem; font-weight:600; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.04em; }
+    .req { color:var(--accent); }
+    .opt { font-weight:400; color:var(--text-dim); text-transform:none; letter-spacing:0; }
+    .iq-field input,
+    .iq-field select,
+    .iq-field textarea {
+      background:var(--bg3); border:1px solid var(--border); border-radius:8px;
+      padding:11px 14px; color:var(--text); font-size:0.9rem; font-family:inherit;
+      resize:vertical; transition:border-color 0.2s, box-shadow 0.2s;
+    }
+    .iq-field input:focus,
+    .iq-field select:focus,
+    .iq-field textarea:focus {
+      outline:none; border-color:var(--accent);
+      box-shadow:0 0 0 3px rgba(108,99,255,0.12);
+    }
+    .iq-field input::placeholder,
+    .iq-field textarea::placeholder { color:var(--text-dim); }
+
+    /* Radio group */
+    .iq-radio-group { display:flex; flex-wrap:wrap; gap:10px; margin-top:2px; }
+    .iq-radio {
+      display:flex; align-items:center; gap:8px;
+      background:var(--bg3); border:1px solid var(--border);
+      border-radius:8px; padding:9px 16px; cursor:pointer;
+      font-size:0.88rem; color:var(--text-muted); transition:all 0.2s;
+      user-select:none;
+    }
+    .iq-radio input { display:none; }
+    .iq-radio:has(input:checked) {
+      background:rgba(108,99,255,0.12); border-color:var(--accent); color:var(--accent2);
+    }
+    .iq-radio:hover { border-color:var(--accent2); color:var(--text); }
+
+    .iq-submit {
+      width:100%; padding:14px; font-size:1rem;
+      display:flex; align-items:center; justify-content:center; gap:8px;
+    }
+
+    /* ── Side panel ── */
+    .iq-panel { display:flex; flex-direction:column; gap:16px; }
+    .iq-panel-card {
+      background:var(--card-bg); border:1px solid var(--border);
+      border-radius:var(--radius); padding:20px;
+    }
+    .iq-panel-avatar {
+      width:72px; height:72px; border-radius:50%; overflow:hidden;
+      border:3px solid var(--accent); margin:0 auto 12px; display:block;
+    }
+    .iq-panel-avatar img { width:100%; height:100%; object-fit:cover; object-position:center 5%; }
+    .iq-panel-card h3 { font-size:1rem; font-weight:700; text-align:center; }
+    .iq-panel-role    { font-size:0.8rem; color:var(--text-dim); text-align:center; margin-top:2px; }
+    .iq-status {
+      display:flex; align-items:center; justify-content:center; gap:8px;
+      margin-top:12px; font-size:0.82rem; font-weight:600; color:#22c55e;
+    }
+    .iq-section-label {
+      font-size:0.7rem; font-weight:700; text-transform:uppercase;
+      letter-spacing:0.06em; color:var(--text-dim); margin-bottom:10px;
+    }
+    .iq-checklist { list-style:none; display:flex; flex-direction:column; gap:8px; }
+    .iq-checklist li { font-size:0.85rem; color:var(--text-muted); display:flex; gap:8px; }
+    .iq-checklist li::before { content:'✓'; color:var(--accent); font-weight:700; flex-shrink:0; }
+    .iq-contact-link {
+      display:flex; align-items:center; gap:8px;
+      font-size:0.82rem; color:var(--text-muted); padding:7px 0;
+      border-bottom:1px solid var(--border); text-decoration:none; transition:color 0.2s;
+    }
+    .iq-contact-link:last-child { border-bottom:none; }
+    .iq-contact-link:hover { color:var(--accent); }
+
+    /* ── Success overlay ── */
+    .iq-success {
+      position:fixed; inset:0; background:rgba(10,10,15,0.88);
+      backdrop-filter:blur(8px); display:flex; align-items:center;
+      justify-content:center; z-index:500;
+    }
+    .iq-success-card {
+      background:var(--card-bg); border:1px solid var(--border);
+      border-radius:var(--radius); padding:48px 40px; text-align:center;
+      max-width:440px; width:90%; animation:fadeUp 0.35s ease;
+    }
+    .iq-success-icon { font-size:3rem; margin-bottom:16px; }
+    .iq-success-card h2 { font-size:1.6rem; margin-bottom:10px; }
+    .iq-success-card p  { color:var(--text-muted); font-size:0.92rem; line-height:1.7; }
+    .iq-success-actions { display:flex; gap:12px; justify-content:center; margin-top:24px; }
+
+    @media (max-width: 860px) {
+      .iq-layout { grid-template-columns:1fr; }
+      .iq-panel  { order:-1; }
+      .iq-row    { grid-template-columns:1fr; }
+      .iq-title  { font-size:2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="game-page-nav">
+    <a href="index.html" class="game-back-link">← Back to Portfolio</a>
+    <span class="nav-logo">AJ<span class="accent">.</span></span>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span class="theme-icon">☀️</span>
+    </button>
+  </nav>
+
+  <div class="game-page-body">
+    <div class="container">
+
+      <div class="iq-header">
+        <span class="badge-dot"></span>
+        <span class="iq-avail">Available for Opportunities</span>
+      </div>
+      <h1 class="iq-title">Let's Work <span class="accent">Together</span></h1>
+      <p class="iq-subtitle">Fill in the details below and I'll get back to you within 24 hours.</p>
+
+      <div class="iq-layout">
+
+        <!-- ── Form ── -->
+        <form class="iq-form" id="inquiryForm" autocomplete="off" novalidate>
+
+          <div class="iq-row">
+            <div class="iq-field">
+              <label>Your Name <span class="req">*</span></label>
+              <input type="text" id="iqName" placeholder="John Doe" required />
+            </div>
+            <div class="iq-field">
+              <label>Your Email <span class="req">*</span></label>
+              <input type="email" id="iqEmail" placeholder="you@company.com" required />
+            </div>
+          </div>
+
+          <div class="iq-row">
+            <div class="iq-field">
+              <label>Phone <span class="opt">(optional)</span></label>
+              <input type="tel" id="iqPhone" placeholder="+91 98765 43210" />
+            </div>
+            <div class="iq-field">
+              <label>Company / Organization <span class="opt">(optional)</span></label>
+              <input type="text" id="iqCompany" placeholder="Acme Corp" />
+            </div>
+          </div>
+
+          <div class="iq-field">
+            <label>Opportunity Type <span class="req">*</span></label>
+            <div class="iq-radio-group" id="oppTypeGroup">
+              <label class="iq-radio"><input type="radio" name="oppType" value="Full-time Employment" /><span>Full-time</span></label>
+              <label class="iq-radio"><input type="radio" name="oppType" value="Freelance / Contract" /><span>Freelance</span></label>
+              <label class="iq-radio"><input type="radio" name="oppType" value="Part-time" /><span>Part-time</span></label>
+              <label class="iq-radio"><input type="radio" name="oppType" value="Project Collaboration" /><span>Collaboration</span></label>
+            </div>
+          </div>
+
+          <div class="iq-row">
+            <div class="iq-field">
+              <label>Role / Position <span class="req">*</span></label>
+              <input type="text" id="iqRole" placeholder="e.g. QA Engineer, Test Lead" required />
+            </div>
+            <div class="iq-field">
+              <label>Work Mode <span class="req">*</span></label>
+              <select id="iqMode" required>
+                <option value="">Select work mode</option>
+                <option value="Remote">Remote</option>
+                <option value="Hybrid">Hybrid</option>
+                <option value="On-site (Chennai)">On-site (Chennai)</option>
+                <option value="Flexible">Flexible</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="iq-row">
+            <div class="iq-field">
+              <label>Expected Start Date</label>
+              <input type="text" id="iqStart" placeholder="e.g. Immediate, July 2026" />
+            </div>
+            <div class="iq-field">
+              <label>Budget / CTC Range <span class="opt">(optional)</span></label>
+              <input type="text" id="iqBudget" placeholder="e.g. ₹8–12 LPA or $25/hr" />
+            </div>
+          </div>
+
+          <div class="iq-field">
+            <label>Project / Job Description <span class="req">*</span></label>
+            <textarea id="iqDesc" rows="4" placeholder="Describe what you're building, tech stack, QA scope, team size..." required></textarea>
+          </div>
+
+          <div class="iq-field">
+            <label>Anything Else? <span class="opt">(optional)</span></label>
+            <textarea id="iqMsg" rows="3" placeholder="Preferred interview format, notice period expectations, special requirements..."></textarea>
+          </div>
+
+          <p class="iq-form-note" id="iqError" style="display:none;color:#ef4444;font-size:0.85rem;"></p>
+
+          <button type="submit" class="btn btn-primary iq-submit">Send Inquiry →</button>
+        </form>
+
+        <!-- ── Side panel ── -->
+        <aside class="iq-panel">
+
+          <div class="iq-panel-card" style="text-align:center">
+            <div class="iq-panel-avatar">
+              <img src="profile image.jpg" alt="Antony Joshua S" />
+            </div>
+            <h3>Antony Joshua S</h3>
+            <p class="iq-panel-role">Quality Analyst · 3+ Years</p>
+            <div class="iq-status">
+              <span class="badge-dot"></span> Actively Looking
+            </div>
+          </div>
+
+          <div class="iq-panel-card">
+            <p class="iq-section-label">Key Skills</p>
+            <div class="hero-chips">
+              <span class="chip">Playwright</span>
+              <span class="chip">TypeScript</span>
+              <span class="chip">Selenium</span>
+              <span class="chip">TestNG</span>
+              <span class="chip">JIRA</span>
+              <span class="chip">Postman</span>
+            </div>
+          </div>
+
+          <div class="iq-panel-card">
+            <p class="iq-section-label">What to Expect</p>
+            <ul class="iq-checklist">
+              <li>Reply within 24 hours</li>
+              <li>Flexible on call timings</li>
+              <li>Open to trial tasks / assessments</li>
+              <li>Available for immediate joining</li>
+              <li>Open to relocation if required</li>
+            </ul>
+          </div>
+
+          <div class="iq-panel-card">
+            <p class="iq-section-label">Direct Contact</p>
+            <a href="mailto:antonyjoshua413@gmail.com" class="iq-contact-link">📧 antonyjoshua413@gmail.com</a>
+            <a href="tel:+919514084222" class="iq-contact-link">📱 +91 95140 84222</a>
+            <a href="https://linkedin.com/in/antony-joshua-471704aj" target="_blank" class="iq-contact-link">🔗 LinkedIn Profile</a>
+            <a href="https://github.com/Antonyjoshua" target="_blank" class="iq-contact-link">🐙 GitHub Profile</a>
+          </div>
+
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <!-- Success overlay -->
+  <div class="iq-success" id="iqSuccess" style="display:none">
+    <div class="iq-success-card">
+      <div class="iq-success-icon">✅</div>
+      <h2>Inquiry Sent!</h2>
+      <p>Your message has been delivered to Antony's inbox. He'll get back to you within 24 hours.</p>
+      <div class="iq-success-actions">
+        <a href="index.html" class="btn btn-primary">Back to Portfolio</a>
+        <button class="btn btn-outline" id="iqSendAnother">Send Another</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="theme.js"></script>
+  <script src="jarvis.js"></script>
+  <script>
+    /*
+     * ── EMAIL SETUP (Web3Forms) ─────────────────────────────────────────────
+     * 1. Go to https://web3forms.com
+     * 2. Enter your email: antonyjoshua413@gmail.com
+     * 3. Click "Get Access Key" — check your inbox and copy the key
+     * 4. Paste it below replacing YOUR_ACCESS_KEY
+     * ────────────────────────────────────────────────────────────────────────
+     */
+    var WEB3FORMS_KEY = 'YOUR_ACCESS_KEY';
+
+    var form    = document.getElementById('inquiryForm');
+    var submitBtn = form.querySelector('.iq-submit');
+    var errEl   = document.getElementById('iqError');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      var name    = document.getElementById('iqName').value.trim();
+      var email   = document.getElementById('iqEmail').value.trim();
+      var phone   = document.getElementById('iqPhone').value.trim();
+      var company = document.getElementById('iqCompany').value.trim();
+      var oppType = (document.querySelector('input[name="oppType"]:checked') || {}).value;
+      var role    = document.getElementById('iqRole').value.trim();
+      var mode    = document.getElementById('iqMode').value;
+      var start   = document.getElementById('iqStart').value.trim();
+      var budget  = document.getElementById('iqBudget').value.trim();
+      var desc    = document.getElementById('iqDesc').value.trim();
+      var msg     = document.getElementById('iqMsg').value.trim();
+
+      if (!name || !email || !oppType || !role || !mode || !desc) {
+        errEl.textContent = 'Please fill in all required fields and select an opportunity type.';
+        errEl.style.display = 'block';
+        errEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        return;
+      }
+      errEl.style.display = 'none';
+
+      var bodyLines = [
+        'Hi Antony,',
+        '',
+        'I found your portfolio and would like to discuss a ' + oppType + ' opportunity.',
+        '',
+        '━━━ Contact Details ━━━',
+        'Name    : ' + name,
+        'Email   : ' + email,
+        phone   ? 'Phone   : ' + phone   : '',
+        company ? 'Company : ' + company : '',
+        '',
+        '━━━ Opportunity Details ━━━',
+        'Type      : ' + oppType,
+        'Role      : ' + role,
+        'Work Mode : ' + mode,
+        start  ? 'Start     : ' + start  : '',
+        budget ? 'Budget    : ' + budget : '',
+        '',
+        '━━━ Description ━━━',
+        desc,
+        msg ? '\n━━━ Additional Notes ━━━\n' + msg : '',
+        '',
+        'Best regards,',
+        name
+      ].filter(Boolean).join('\n');
+
+      /* ── If no key yet, fall back to mailto ── */
+      if (!WEB3FORMS_KEY || WEB3FORMS_KEY === 'YOUR_ACCESS_KEY') {
+        var subject = encodeURIComponent('Work Inquiry — ' + oppType + ' | ' + name);
+        window.location.href = 'mailto:antonyjoshua413@gmail.com?subject=' + subject + '&body=' + encodeURIComponent(bodyLines);
+        setTimeout(function () { document.getElementById('iqSuccess').style.display = 'flex'; }, 600);
+        return;
+      }
+
+      /* ── Web3Forms submission ── */
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending…';
+
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          access_key:       WEB3FORMS_KEY,
+          subject:          'Work Inquiry — ' + oppType + ' | ' + name,
+          from_name:        name,
+          email:            email,
+          phone:            phone   || 'Not provided',
+          company:          company || 'Not provided',
+          opportunity_type: oppType,
+          role:             role,
+          work_mode:        mode,
+          start_date:       start  || 'Not specified',
+          budget:           budget || 'Not specified',
+          description:      desc,
+          additional_notes: msg    || 'None',
+          message:          bodyLines
+        })
+      })
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        if (data.success) {
+          form.reset();
+          document.getElementById('iqSuccess').style.display = 'flex';
+        } else {
+          throw new Error(data.message || 'Submission failed');
+        }
+      })
+      .catch(function (err) {
+        errEl.textContent = 'Could not send — please email directly: antonyjoshua413@gmail.com';
+        errEl.style.display = 'block';
+      })
+      .finally(function () {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send Inquiry →';
+      });
+    });
+
+    document.getElementById('iqSendAnother').addEventListener('click', function () {
+      document.getElementById('iqSuccess').style.display = 'none';
+      form.reset();
+    });
+  </script>
+</body>
+</html>

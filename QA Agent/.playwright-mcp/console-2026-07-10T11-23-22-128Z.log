@@ -1,0 +1,10 @@
+[    1138ms] [LOG] Current Path: /admin/books/dashboard/purchases @ https://jt-admin.scopethinkers.com/Admin/Books/Dashboard/Purchases:1294
+[    1139ms] [LOG] Matched: /admin/books/dashboard/purchases {menu: Dashboards, submenu: Purchases} @ https://jt-admin.scopethinkers.com/Admin/Books/Dashboard/Purchases:1509
+[    1140ms] [LOG] Activating menu: Dashboards Submenu: Purchases @ https://jt-admin.scopethinkers.com/Admin/Books/Dashboard/Purchases:1521
+[    1140ms] [LOG] Found menu: Dashboards @ https://jt-admin.scopethinkers.com/Admin/Books/Dashboard/Purchases:1530
+[    1141ms] [LOG] Activated submenu: Purchases @ https://jt-admin.scopethinkers.com/Admin/Books/Dashboard/Purchases:1551
+[   64921ms] [ERROR] Error: <path> attribute d: Expected number, "M NaN NaN A NaN Na…". @ https://jt-admin.scopethinkers.com/mofi/assets/js/chart/apex-chart/apex-chart.js:6
+[   64925ms] [ERROR] Error: <g> attribute transform: Expected number, "translate(NaN, 0) scale(1)". @ https://jt-admin.scopethinkers.com/mofi/assets/js/chart/apex-chart/apex-chart.js:6
+[   64926ms] [ERROR] Error: <g> attribute transform: Expected number, "translate(NaN, 0)". @ https://jt-admin.scopethinkers.com/mofi/assets/js/chart/apex-chart/apex-chart.js:6
+[   64933ms] [ERROR] Error: <foreignObject> attribute height: Expected length, "NaN". @ https://jt-admin.scopethinkers.com/mofi/assets/js/chart/apex-chart/apex-chart.js:6
+[   64934ms] [ERROR] Error: <svg> attribute height: Expected length, "NaN". @ https://jt-admin.scopethinkers.com/mofi/assets/js/chart/apex-chart/apex-chart.js:6

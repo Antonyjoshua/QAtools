@@ -1,0 +1,263 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Logo" [ref=e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=e8]
+        - text: 
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link " Dashboard" [ref=e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=e12]: 
+            - text: Dashboard
+        - listitem [ref=e13]:
+          - link " Batches" [ref=e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=e15]: 
+            - text: Batches
+        - listitem [ref=e16]:
+          - link " My Courses" [ref=e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=e18]: 
+            - text: My Courses
+        - listitem [ref=e19]:
+          - link " eBooks" [ref=e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=e21]: 
+            - text: eBooks
+        - listitem [ref=e22]:
+          - link " Wishlist" [ref=e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=e24]: 
+            - text: Wishlist
+        - listitem [ref=e25]:
+          - link " Audiobook" [ref=e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=e27]: 
+            - text: Audiobook
+        - listitem [ref=e28]:
+          - link " Resources" [ref=e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=e30]: 
+            - text: Resources
+        - listitem [ref=e31]:
+          - link " Current Affairs" [ref=e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=e33]: 
+            - text: Current Affairs
+        - listitem [ref=e34]:
+          - link " Test" [ref=e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=e36]: 
+            - text: Test
+        - listitem [ref=e37]:
+          - link " Settings" [ref=e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=e39]: 
+            - text: Settings
+        - listitem [ref=e40]:
+          - link " Call Reminders" [ref=e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=e42]: 
+            - text: Call Reminders
+        - listitem [ref=e43]:
+          - link " Leaderboard" [ref=e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=e45]: 
+            - text: Leaderboard
+        - listitem [ref=e46]:
+          - button " APL " [expanded] [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]:
+              - generic [ref=e49]: 
+              - text: APL
+            - generic [ref=e50]: 
+          - list [ref=e51]:
+            - listitem [ref=e52]:
+              - link " Live APL" [ref=e53] [cursor=pointer]:
+                - /url: /LiveApl/Index
+                - generic [ref=e54]: 
+                - text: Live APL
+            - listitem [ref=e55]:
+              - link " APL Q20" [ref=e56] [cursor=pointer]:
+                - /url: /TestRoom/Index
+                - generic [ref=e57]: 
+                - text: APL Q20
+            - listitem [ref=e58]:
+              - link " APL Q20 Series" [ref=e59] [cursor=pointer]:
+                - /url: /FolderApl/Index
+                - generic [ref=e60]: 
+                - text: APL Q20 Series
+            - listitem [ref=e61]:
+              - link " Coin History" [ref=e62] [cursor=pointer]:
+                - /url: /CoinHistory/Index
+                - generic [ref=e63]: 
+                - text: Coin History
+        - listitem [ref=e64]:
+          - link " Notification" [ref=e65] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=e66]: 
+            - text: Notification
+        - listitem [ref=e67]:
+          - button " Logout" [ref=e69] [cursor=pointer]:
+            - generic [ref=e70]: 
+            - text: Logout
+    - generic [ref=e72]:
+      - banner [ref=e73]:
+        - text: 
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]: 
+            - textbox "Search Course" [ref=e77]
+            - text: 
+          - link "" [ref=e79] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e81]: 
+          - link "Profile qafrontend27" [ref=e83] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=e84]
+            - generic [ref=e85]: qafrontend27
+      - generic [ref=e86]:
+        - img "JT Logo" [ref=e88]
+        - link " Exit" [ref=e89] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - generic [ref=e90]: 
+          - text: Exit
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e96]: 
+            - generic [ref=e97]:
+              - generic [ref=e98]: 
+              - text: Upcoming
+          - generic [ref=e99]:
+            - generic [ref=e101]:
+              - generic [ref=e104]: UPCOMING SESSION
+              - heading "QA Test Live APL Session" [level=1] [ref=e105]:
+                - generic [ref=e106]: QA Test Live APL Session
+              - generic [ref=e107]:
+                - generic [ref=e108]:
+                  - generic [ref=e110]: 
+                  - generic [ref=e111]:
+                    - generic [ref=e112]: 27 Jul 2026, 06:40 PM
+                    - generic [ref=e113]: Starts At
+                - generic [ref=e114]:
+                  - generic [ref=e116]: 
+                  - generic [ref=e117]:
+                    - generic [ref=e118]: 27 Jul 2026, 06:41 PM
+                    - generic [ref=e119]: Ends At
+                - generic [ref=e120]:
+                  - generic [ref=e122]: 
+                  - generic [ref=e123]:
+                    - generic [ref=e124]: "3"
+                    - generic [ref=e125]: Questions
+                - generic [ref=e126]:
+                  - generic [ref=e128]: 
+                  - generic [ref=e129]:
+                    - generic [ref=e130]: 30s
+                    - generic [ref=e131]: Per Question
+              - tablist [ref=e132]:
+                - button " Description" [ref=e133] [cursor=pointer]:
+                  - generic [ref=e134]: 
+                  - text: Description
+                - button " Instructions" [ref=e135] [cursor=pointer]:
+                  - generic [ref=e136]: 
+                  - text: Instructions
+                - button " Syllabus" [ref=e137] [cursor=pointer]:
+                  - generic [ref=e138]: 
+                  - text: Syllabus
+              - generic [ref=e139]:
+                - paragraph [ref=e142]:
+                  - strong [ref=e143]: This is a QA formatting test.
+                - text:  
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - generic [ref=e146]: 
+                - text: Live rankings — register to play in real-time
+              - button " Register & Join" [ref=e147] [cursor=pointer]:
+                - generic [ref=e148]: 
+                - text: Register & Join
+      - dialog [ref=e160]:
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - heading " Register for Live APL" [level=5] [ref=e163]:
+              - generic [ref=e164]: 
+              - text: Register for Live APL
+            - button "Close" [ref=e165] [cursor=pointer]
+          - generic [ref=e166]:
+            - paragraph [ref=e168]: Prepare to compete in real-time with other players across the state/district!
+            - generic [ref=e169]:
+              - generic [ref=e170]: Your Name
+              - generic [ref=e171]:
+                - generic: 
+                - textbox "Your Name" [ref=e172]:
+                  - /placeholder: e.g. Rajesh Kumar
+                  - text: QA Frontend Tester Dup
+            - generic [ref=e173]:
+              - generic [ref=e174]: Your District
+              - generic [ref=e175]:
+                - generic [ref=e176]:
+                  - generic: 
+                  - textbox "Your District" [ref=e177] [cursor=pointer]:
+                    - /placeholder: Select your district
+                - generic [ref=e183]:
+                  - textbox "Search district..." [active] [ref=e184]
+                  - list [ref=e185]:
+                    - listitem [ref=e186] [cursor=pointer]: Ariyalur
+                    - listitem [ref=e187] [cursor=pointer]: Chengalpattu
+                    - listitem [ref=e188] [cursor=pointer]: Chennai
+                    - listitem [ref=e189] [cursor=pointer]: Coimbatore
+                    - listitem [ref=e190] [cursor=pointer]: Cuddalore
+                    - listitem [ref=e191] [cursor=pointer]: Dharmapuri
+                    - listitem [ref=e192] [cursor=pointer]: Dindigul
+                    - listitem [ref=e193] [cursor=pointer]: Erode
+                    - listitem [ref=e194] [cursor=pointer]: Kallakurichi
+                    - listitem [ref=e195] [cursor=pointer]: Kanchipuram
+                    - listitem [ref=e196] [cursor=pointer]: Kanyakumari
+                    - listitem [ref=e197] [cursor=pointer]: Karur
+                    - listitem [ref=e198] [cursor=pointer]: Krishnagiri
+                    - listitem [ref=e199] [cursor=pointer]: Madurai
+                    - listitem [ref=e200] [cursor=pointer]: Mayiladuthurai
+                    - listitem [ref=e201] [cursor=pointer]: Nagapattinam
+                    - listitem [ref=e202] [cursor=pointer]: Namakkal
+                    - listitem [ref=e203] [cursor=pointer]: Nilgiris
+                    - listitem [ref=e204] [cursor=pointer]: Perambalur
+                    - listitem [ref=e205] [cursor=pointer]: Pudukkottai
+                    - listitem [ref=e206] [cursor=pointer]: Ramanathapuram
+                    - listitem [ref=e207] [cursor=pointer]: Ranipet
+                    - listitem [ref=e208] [cursor=pointer]: Salem
+                    - listitem [ref=e209] [cursor=pointer]: Sivaganga
+                    - listitem [ref=e210] [cursor=pointer]: Tenkasi
+                    - listitem [ref=e211] [cursor=pointer]: Thanjavur
+                    - listitem [ref=e212] [cursor=pointer]: Theni
+                    - listitem [ref=e213] [cursor=pointer]: Thoothukudi
+                    - listitem [ref=e214] [cursor=pointer]: Tiruchirappalli
+                    - listitem [ref=e215] [cursor=pointer]: Tirunelveli
+                    - listitem [ref=e216] [cursor=pointer]: Tirupattur
+                    - listitem [ref=e217] [cursor=pointer]: Tiruppur
+                    - listitem [ref=e218] [cursor=pointer]: Tiruvallur
+                    - listitem [ref=e219] [cursor=pointer]: Tiruvannamalai
+                    - listitem [ref=e220] [cursor=pointer]: Tiruvarur
+                    - listitem [ref=e221] [cursor=pointer]: Vellore
+                    - listitem [ref=e222] [cursor=pointer]: Viluppuram
+                    - listitem [ref=e223] [cursor=pointer]: Virudhunagar
+          - generic [ref=e178]:
+            - button "Cancel" [ref=e179] [cursor=pointer]
+            - button " Register & Play" [ref=e180] [cursor=pointer]:
+              - generic [ref=e181]: 
+              - text: Register & Play
+  - generic "Ask a doubt" [ref=e149]:
+    - generic [ref=e150]: 
+  - text:      
+  - contentinfo [ref=e151]:
+    - generic [ref=e152]:
+      - paragraph [ref=e154]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=e155]:
+        - link "About Us" [ref=e156] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=e157] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=e158] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=e159] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

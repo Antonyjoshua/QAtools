@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bug Report Simulator — Antony Joshua S</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="game-page-nav">
+    <a href="index.html#games" class="game-back-link">← Back to Portfolio</a>
+    <span class="nav-logo">AJ<span class="accent">.</span></span>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span class="theme-icon">☀️</span>
+    </button>
+  </nav>
+
+  <div class="game-page-body">
+    <section id="bug-reporter">
+      <div class="container">
+        <h2 class="section-title">Bug Report <span class="accent">Simulator</span></h2>
+        <p class="brs-intro">Spot the bugs in the mock UI below, then fill in the JIRA-style form to report them.</p>
+        <div class="brs-layout">
+
+          <!-- Mock broken UI -->
+          <div class="brs-mock-ui">
+            <div class="brs-browser-bar">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+              <span class="brs-url">mock-app.com/register</span>
+            </div>
+            <div class="brs-mock-body">
+              <h3 class="brs-mock-title">Create Account</h3>
+              <div class="brs-field-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" disabled />
+              </div>
+              <div class="brs-field-group">
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" disabled />
+              </div>
+              <!-- Bug 1: Password label missing -->
+              <div class="brs-field-group brs-buggy" id="mockBug1" title="Click to report this bug">
+                <input type="password" placeholder="••••••••" disabled />
+                <span class="brs-bug-tag">🐛 Bug #1</span>
+              </div>
+              <!-- Bug 2: Wrong button color -->
+              <button class="brs-mock-btn brs-buggy" id="mockBug2" title="Click to report this bug" disabled>
+                Register
+                <span class="brs-bug-tag">🐛 Bug #2</span>
+              </button>
+              <!-- Bug 3: Broken link -->
+              <p class="brs-mock-link-wrap">
+                <span class="brs-broken-link brs-buggy" id="mockBug3" title="Click to report this bug">
+                  Terms &amp; Conditions /404-not-found
+                  <span class="brs-bug-tag">🐛 Bug #3</span>
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <!-- JIRA-style form -->
+          <div class="brs-form-panel">
+            <p class="brs-form-hint">Click a bug above to auto-fill, or write your own:</p>
+            <form id="brsForm" autocomplete="off">
+              <div class="brs-form-field">
+                <label>Bug Title</label>
+                <input type="text" id="brsTitle" placeholder="Short description of the bug..." required />
+              </div>
+              <div class="brs-form-field">
+                <label>Severity</label>
+                <select id="brsSeverity" required>
+                  <option value="">Select severity</option>
+                  <option value="Critical">🔴 Critical</option>
+                  <option value="High">🟠 High</option>
+                  <option value="Medium">🟡 Medium</option>
+                  <option value="Low">🟢 Low</option>
+                </select>
+              </div>
+              <div class="brs-form-field">
+                <label>Steps to Reproduce</label>
+                <textarea id="brsSteps" rows="3" placeholder="1. Go to...&#10;2. Click...&#10;3. Observe..." required></textarea>
+              </div>
+              <div class="brs-form-row">
+                <div class="brs-form-field">
+                  <label>Expected Result</label>
+                  <textarea id="brsExpected" rows="2" placeholder="What should happen..." required></textarea>
+                </div>
+                <div class="brs-form-field">
+                  <label>Actual Result</label>
+                  <textarea id="brsActual" rows="2" placeholder="What actually happened..." required></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit Bug Report</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Generated Bug Card -->
+        <div class="brs-card" id="brsCard" style="display:none">
+          <div class="brs-card-header">
+            <span class="brs-card-id" id="brsCardId">BUG-001</span>
+            <span class="brs-card-severity" id="brsCardSeverity"></span>
+            <span class="brs-card-status">Open</span>
+          </div>
+          <h3 class="brs-card-title" id="brsCardTitle"></h3>
+          <div class="brs-card-meta">
+            <span>Reporter: <strong>Antony Joshua S</strong></span>
+            <span id="brsCardDate"></span>
+          </div>
+          <div class="brs-card-section"><strong>Steps to Reproduce</strong><p id="brsCardSteps"></p></div>
+          <div class="brs-card-body">
+            <div class="brs-card-section"><strong>Expected</strong><p id="brsCardExpected"></p></div>
+            <div class="brs-card-section"><strong>Actual</strong><p id="brsCardActual"></p></div>
+          </div>
+          <button class="btn btn-outline" id="brsReset" style="margin-top:16px">Report Another Bug</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="theme.js"></script>
+  <script src="jarvis.js"></script>
+  <script>
+    const bugData = {
+      1: {
+        title: 'Password field missing label — accessibility violation',
+        severity: 'Medium',
+        steps: '1. Navigate to mock-app.com/register\n2. Observe the password input field\n3. Check for visible label text above the field',
+        expected: 'Password field should have a visible label describing the field',
+        actual: 'Password field has no label — only a placeholder, which disappears on focus'
+      },
+      2: {
+        title: 'Register button uses red color instead of primary brand color',
+        severity: 'Low',
+        steps: '1. Navigate to mock-app.com/register\n2. Observe the Register button color',
+        expected: "Button should use the application's primary brand color (blue/green)",
+        actual: 'Button renders in red, which is conventionally used for danger/error actions and creates confusion'
+      },
+      3: {
+        title: 'Terms & Conditions link leads to a 404 error page',
+        severity: 'High',
+        steps: '1. Navigate to mock-app.com/register\n2. Click the "Terms & Conditions" link at the bottom',
+        expected: 'Terms & Conditions page should load successfully',
+        actual: 'Page returns 404 — Not Found. Link URL is broken (/404-not-found)'
+      }
+    };
+
+    let bugCount = 0;
+
+    function fill(bugId) {
+      const d = bugData[bugId];
+      document.getElementById('brsTitle').value    = d.title;
+      document.getElementById('brsSeverity').value = d.severity;
+      document.getElementById('brsSteps').value    = d.steps;
+      document.getElementById('brsExpected').value = d.expected;
+      document.getElementById('brsActual').value   = d.actual;
+      document.querySelectorAll('.brs-buggy').forEach(el => el.classList.remove('selected-bug'));
+      const target = document.getElementById('mockBug' + bugId);
+      if (target) target.classList.add('selected-bug');
+    }
+
+    [1, 2, 3].forEach(id => {
+      const el = document.getElementById('mockBug' + id);
+      if (el) el.addEventListener('click', () => fill(id));
+    });
+
+    document.getElementById('brsForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      bugCount++;
+      const id       = 'BUG-' + String(bugCount).padStart(3, '0');
+      const severity = document.getElementById('brsSeverity').value;
+      const severityColors = { Critical:'#ef4444', High:'#f97316', Medium:'#eab308', Low:'#22c55e' };
+
+      document.getElementById('brsCardId').textContent       = id;
+      document.getElementById('brsCardTitle').textContent    = document.getElementById('brsTitle').value;
+      document.getElementById('brsCardSeverity').textContent = severity || 'Unset';
+      document.getElementById('brsCardSeverity').style.color = severityColors[severity] || 'var(--accent2)';
+      document.getElementById('brsCardDate').textContent     = 'Reported: ' + new Date().toLocaleDateString('en-IN', { day:'numeric', month:'short', year:'numeric' });
+      document.getElementById('brsCardSteps').textContent    = document.getElementById('brsSteps').value;
+      document.getElementById('brsCardExpected').textContent = document.getElementById('brsExpected').value;
+      document.getElementById('brsCardActual').textContent   = document.getElementById('brsActual').value;
+
+      document.getElementById('brsCard').style.display = 'block';
+      document.getElementById('brsCard').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      this.reset();
+      document.querySelectorAll('.brs-buggy').forEach(el => el.classList.remove('selected-bug'));
+    });
+
+    document.getElementById('brsReset').addEventListener('click', () => {
+      document.getElementById('brsCard').style.display = 'none';
+    });
+  </script>
+</body>
+</html>

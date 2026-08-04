@@ -1,0 +1,335 @@
+- generic [ref=f13e1]:
+  - generic [ref=f13e7]:
+    - generic [ref=f13e8]:
+      - generic [ref=f13e9]:
+        - heading "Question" [level=4] [ref=f13e10]
+        - navigation [ref=f13e11]:
+          - list [ref=f13e12]:
+            - listitem [ref=f13e13]:
+              - link [ref=f13e14] [cursor=pointer]:
+                - /url: /Question/Index
+                - img [ref=f13e15]
+            - listitem [ref=f13e18]: / Question
+      - generic [ref=f13e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - img [ref=f13e23] [cursor=pointer]
+        - list [ref=f13e26]:
+          - listitem [ref=f13e27]:
+            - generic [ref=f13e29] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f13e30]:
+      - generic [ref=f13e32]:
+        - text: 
+        - link [ref=f13e34] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f13e35]:
+          - list [ref=f13e37]:
+            - generic [ref=f13e42]:
+              - text: 
+              - listitem [ref=f13e43]:
+                - link [ref=f13e44] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f13e45]
+                  - text: 
+              - listitem [ref=f13e47]:
+                - link [ref=f13e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f13e49]
+                  - text: 
+              - listitem [ref=f13e51]:
+                - link [ref=f13e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f13e53]
+                  - text: 
+              - listitem [ref=f13e55]:
+                - link [ref=f13e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f13e57]
+                  - text: 
+              - listitem [ref=f13e59]:
+                - link [ref=f13e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f13e61]
+                  - text: 
+              - listitem [ref=f13e63]:
+                - link "" [ref=f13e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f13e65]: 
+                  - text: 
+              - listitem [ref=f13e66]:
+                - link [ref=f13e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f13e68]
+                  - text: 
+              - listitem [ref=f13e70]:
+                - link [ref=f13e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f13e72]
+                  - text: 
+              - listitem [ref=f13e74]:
+                - link [ref=f13e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f13e76]
+                  - text: 
+              - listitem [ref=f13e78]:
+                - link "general icon" [ref=f13e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f13e80]
+                  - text: 
+              - listitem [ref=f13e81]:
+                - link [ref=f13e82] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f13e83]
+                  - text: 
+              - listitem [ref=f13e85]:
+                - link [ref=f13e86] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f13e87]
+                  - text: 
+              - listitem [ref=f13e89]:
+                - link "product icon" [ref=f13e90] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f13e91]
+                  - text: 
+              - listitem [ref=f13e92]:
+                - link [ref=f13e93] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f13e94]
+                  - text: 
+              - listitem [ref=f13e96]:
+                - link [ref=f13e97] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f13e98]
+                  - text: 
+              - listitem [ref=f13e100]:
+                - link [ref=f13e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f13e102]
+                  - text: 
+              - listitem [ref=f13e104]:
+                - link "notify-ico" [ref=f13e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f13e106]
+                  - text: 
+              - listitem [ref=f13e107]:
+                - link "notify-ico" [ref=f13e108] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f13e109]
+                  - text: 
+      - main [ref=f13e111]:
+        - generic [ref=f13e113]:
+          - generic [ref=f13e114]:
+            - link " AI Generate" [ref=f13e115] [cursor=pointer]:
+              - /url: /Question/AiGenerate?assessmentId=1172
+              - generic [ref=f13e116]: 
+              - text: AI Generate
+            - generic [ref=f13e117] [cursor=pointer]: Add Question
+            - button " Bulk Delete" [disabled]:
+              - generic: 
+              - text: Bulk Delete
+          - generic [ref=f13e120]:
+            - generic:
+              - generic [ref=f13e122]:
+                - text: Show
+                - combobox "Show entries" [ref=f13e123] [cursor=pointer]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                  - option "200"
+                  - option "500"
+                - text: entries
+              - generic [ref=f13e125]:
+                - text: "Search:"
+                - searchbox "Search:" [ref=f13e126] [cursor=pointer]
+            - generic [ref=f13e127]:
+              - grid [ref=f13e130]:
+                - rowgroup [ref=f13e131]:
+                  - 'row "↑ Select all ↓ Order: activate to sort column ascending Question: activate to sort column ascending Course: activate to sort column ascending Unit: activate to sort column ascending Assessment: activate to sort column ascending Status: activate to sort column ascending Actions" [ref=f13e132]':
+                    - columnheader "↑ Select all ↓" [ref=f13e133] [cursor=pointer]:
+                      - text: ↑
+                      - checkbox "Select all" [ref=f13e134]
+                      - text: ↓
+                    - columnheader [ref=f13e135]
+                    - 'columnheader "Order: activate to sort column ascending" [ref=f13e136]': Order
+                    - 'columnheader "Question: activate to sort column ascending" [ref=f13e137]': Question
+                    - 'columnheader "Course: activate to sort column ascending" [ref=f13e138]': Course
+                    - 'columnheader "Unit: activate to sort column ascending" [ref=f13e139]': Unit
+                    - 'columnheader "Assessment: activate to sort column ascending" [ref=f13e140]': Assessment
+                    - 'columnheader "Status: activate to sort column ascending" [ref=f13e141]': Status
+                    - columnheader "Actions" [ref=f13e142]
+              - grid [ref=f13e144]:
+                - rowgroup:
+                  - 'row "Select all Order: activate to sort column ascending Question: activate to sort column ascending Course: activate to sort column ascending Unit: activate to sort column ascending Assessment: activate to sort column ascending Status: activate to sort column ascending Actions"':
+                    - columnheader "Select all":
+                      - checkbox "Select all" [ref=f13e145] [cursor=pointer]
+                    - columnheader
+                    - 'columnheader "Order: activate to sort column ascending"':
+                      - generic: Order
+                    - 'columnheader "Question: activate to sort column ascending"':
+                      - generic: Question
+                    - 'columnheader "Course: activate to sort column ascending"':
+                      - generic: Course
+                    - 'columnheader "Unit: activate to sort column ascending"':
+                      - generic: Unit
+                    - 'columnheader "Assessment: activate to sort column ascending"':
+                      - generic: Assessment
+                    - 'columnheader "Status: activate to sort column ascending"':
+                      - generic: Status
+                    - columnheader "Actions":
+                      - generic: Actions
+                - rowgroup [ref=f13e146]:
+                  - 'row " 1 கூற்று: இந்திய அரசியலமைப்பை உருவாக்குவதில் டாக்டர் பி.ஆர். அம்பேத்கர் ஒரு முக்கிய பங்கை வகித்தார். க... QA Test Course N/A QA Test Assessment - 2026-07-08-QA Test Assessment - 2026-07-08 Active  " [ref=f13e147]':
+                    - gridcell [ref=f13e148]:
+                      - checkbox [ref=f13e149] [cursor=pointer]
+                    - gridcell "" [ref=f13e150]:
+                      - generic [ref=f13e151]: 
+                    - gridcell "1" [ref=f13e152]
+                    - 'gridcell "கூற்று: இந்திய அரசியலமைப்பை உருவாக்குவதில் டாக்டர் பி.ஆர். அம்பேத்கர் ஒரு முக்கிய பங்கை வகித்தார். க..." [ref=f13e153]':
+                      - strong [ref=f13e154]: "கூற்று: இந்திய அரசியலமைப்பை உருவாக்குவதில் டாக்டர் பி.ஆர். அம்பேத்கர் ஒரு முக்கிய பங்கை வகித்தார். க..."
+                    - gridcell "QA Test Course" [ref=f13e155]
+                    - gridcell "N/A" [ref=f13e156]
+                    - gridcell "QA Test Assessment - 2026-07-08-QA Test Assessment - 2026-07-08" [ref=f13e157]
+                    - gridcell "Active" [ref=f13e158]:
+                      - link "Active" [ref=f13e159] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=f13e160]:
+                          - img [ref=f13e161]
+                          - generic [ref=f13e164]: Active
+                    - gridcell " " [ref=f13e165]:
+                      - list [ref=f13e166]:
+                        - listitem [ref=f13e167] [cursor=pointer]:
+                          - link "" [ref=f13e168]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f13e169]: 
+                        - listitem [ref=f13e170] [cursor=pointer]:
+                          - link "" [ref=f13e171]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f13e172]: 
+                  - 'row " 2 கூற்று: இந்திய அரசியலமைப்பு 1949 நவம்பர் 26 அன்று ஏற்றுக்கொள்ளப்பட்டது, ஆனால் 1950 ஜனவரி 26 அன்று நட... QA Test Course N/A QA Test Assessment - 2026-07-08-QA Test Assessment - 2026-07-08 Active  " [ref=f13e173]':
+                    - gridcell [ref=f13e174]:
+                      - checkbox [ref=f13e175] [cursor=pointer]
+                    - gridcell "" [ref=f13e176]:
+                      - generic [ref=f13e177]: 
+                    - gridcell "2" [ref=f13e178]
+                    - 'gridcell "கூற்று: இந்திய அரசியலமைப்பு 1949 நவம்பர் 26 அன்று ஏற்றுக்கொள்ளப்பட்டது, ஆனால் 1950 ஜனவரி 26 அன்று நட..." [ref=f13e179]':
+                      - strong [ref=f13e180]: "கூற்று: இந்திய அரசியலமைப்பு 1949 நவம்பர் 26 அன்று ஏற்றுக்கொள்ளப்பட்டது, ஆனால் 1950 ஜனவரி 26 அன்று நட..."
+                    - gridcell "QA Test Course" [ref=f13e181]
+                    - gridcell "N/A" [ref=f13e182]
+                    - gridcell "QA Test Assessment - 2026-07-08-QA Test Assessment - 2026-07-08" [ref=f13e183]
+                    - gridcell "Active" [ref=f13e184]:
+                      - link "Active" [ref=f13e185] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=f13e186]:
+                          - img [ref=f13e187]
+                          - generic [ref=f13e190]: Active
+                    - gridcell " " [ref=f13e191]:
+                      - list [ref=f13e192]:
+                        - listitem [ref=f13e193] [cursor=pointer]:
+                          - link "" [ref=f13e194]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f13e195]: 
+                        - listitem [ref=f13e196] [cursor=pointer]:
+                          - link "" [ref=f13e197]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f13e198]: 
+                  - 'row " 3 கூற்று: டாக்டர் சச்சிதானந்த சின்ஹா அரசியல் நிர்ணய சபையின் தற்காலிக தலைவராக தேர்ந்தெடுக்கப்பட்டார். க... QA Test Course N/A QA Test Assessment - 2026-07-08-QA Test Assessment - 2026-07-08 Active  " [ref=f13e199]':
+                    - gridcell [ref=f13e200]:
+                      - checkbox [ref=f13e201] [cursor=pointer]
+                    - gridcell "" [ref=f13e202]:
+                      - generic [ref=f13e203]: 
+                    - gridcell "3" [ref=f13e204]
+                    - 'gridcell "கூற்று: டாக்டர் சச்சிதானந்த சின்ஹா அரசியல் நிர்ணய சபையின் தற்காலிக தலைவராக தேர்ந்தெடுக்கப்பட்டார். க..." [ref=f13e205]':
+                      - strong [ref=f13e206]: "கூற்று: டாக்டர் சச்சிதானந்த சின்ஹா அரசியல் நிர்ணய சபையின் தற்காலிக தலைவராக தேர்ந்தெடுக்கப்பட்டார். க..."
+                    - gridcell "QA Test Course" [ref=f13e207]
+                    - gridcell "N/A" [ref=f13e208]
+                    - gridcell "QA Test Assessment - 2026-07-08-QA Test Assessment - 2026-07-08" [ref=f13e209]
+                    - gridcell "Active" [ref=f13e210]:
+                      - link "Active" [ref=f13e211] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=f13e212]:
+                          - img [ref=f13e213]
+                          - generic [ref=f13e216]: Active
+                    - gridcell " " [ref=f13e217]:
+                      - list [ref=f13e218]:
+                        - listitem [ref=f13e219] [cursor=pointer]:
+                          - link "" [ref=f13e220]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f13e221]: 
+                        - listitem [ref=f13e222] [cursor=pointer]:
+                          - link "" [ref=f13e223]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f13e224]: 
+                  - 'row " 4 கூற்று: இந்தியாவின் தேசியக் கொடி 1947 ஜூலை 22 அன்று, இந்தியா சுதந்திரம் அடைவதற்கு சற்று முன்பு, அரசி... QA Test Course N/A QA Test Assessment - 2026-07-08-QA Test Assessment - 2026-07-08 Active  " [ref=f13e225]':
+                    - gridcell [ref=f13e226]:
+                      - checkbox [ref=f13e227] [cursor=pointer]
+                    - gridcell "" [ref=f13e228]:
+                      - generic [ref=f13e229]: 
+                    - gridcell "4" [ref=f13e230]
+                    - 'gridcell "கூற்று: இந்தியாவின் தேசியக் கொடி 1947 ஜூலை 22 அன்று, இந்தியா சுதந்திரம் அடைவதற்கு சற்று முன்பு, அரசி..." [ref=f13e231]':
+                      - strong [ref=f13e232]: "கூற்று: இந்தியாவின் தேசியக் கொடி 1947 ஜூலை 22 அன்று, இந்தியா சுதந்திரம் அடைவதற்கு சற்று முன்பு, அரசி..."
+                    - gridcell "QA Test Course" [ref=f13e233]
+                    - gridcell "N/A" [ref=f13e234]
+                    - gridcell "QA Test Assessment - 2026-07-08-QA Test Assessment - 2026-07-08" [ref=f13e235]
+                    - gridcell "Active" [ref=f13e236]:
+                      - link "Active" [ref=f13e237] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=f13e238]:
+                          - img [ref=f13e239]
+                          - generic [ref=f13e242]: Active
+                    - gridcell " " [ref=f13e243]:
+                      - list [ref=f13e244]:
+                        - listitem [ref=f13e245] [cursor=pointer]:
+                          - link "" [ref=f13e246]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f13e247]: 
+                        - listitem [ref=f13e248] [cursor=pointer]:
+                          - link "" [ref=f13e249]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f13e250]: 
+                  - 'row " 5 கூற்று: தேசிய கீதமான \"ஜன கண மன\" அரசியல் நிர்ணய சபையால் 1950 ஜனவரி 24 அன்று ஏற்றுக்கொள்ளப்பட்டது. கார... QA Test Course N/A QA Test Assessment - 2026-07-08-QA Test Assessment - 2026-07-08 Active  " [ref=f13e251]':
+                    - gridcell [ref=f13e252]:
+                      - checkbox [ref=f13e253] [cursor=pointer]
+                    - gridcell "" [ref=f13e254]:
+                      - generic [ref=f13e255]: 
+                    - gridcell "5" [ref=f13e256]
+                    - 'gridcell "கூற்று: தேசிய கீதமான \"ஜன கண மன\" அரசியல் நிர்ணய சபையால் 1950 ஜனவரி 24 அன்று ஏற்றுக்கொள்ளப்பட்டது. கார..." [ref=f13e257]':
+                      - strong [ref=f13e258]: "கூற்று: தேசிய கீதமான \"ஜன கண மன\" அரசியல் நிர்ணய சபையால் 1950 ஜனவரி 24 அன்று ஏற்றுக்கொள்ளப்பட்டது. கார..."
+                    - gridcell "QA Test Course" [ref=f13e259]
+                    - gridcell "N/A" [ref=f13e260]
+                    - gridcell "QA Test Assessment - 2026-07-08-QA Test Assessment - 2026-07-08" [ref=f13e261]
+                    - gridcell "Active" [ref=f13e262]:
+                      - link "Active" [ref=f13e263] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=f13e264]:
+                          - img [ref=f13e265]
+                          - generic [ref=f13e268]: Active
+                    - gridcell " " [ref=f13e269]:
+                      - list [ref=f13e270]:
+                        - listitem [ref=f13e271] [cursor=pointer]:
+                          - link "" [ref=f13e272]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f13e273]: 
+                        - listitem [ref=f13e274] [cursor=pointer]:
+                          - link "" [ref=f13e275]:
+                            - /url: javascript:void(0);
+                            - generic [ref=f13e276]: 
+            - generic:
+              - status [ref=f13e277]: Showing 1 to 5 of 5 entries
+              - generic [ref=f13e278]:
+                - generic [ref=f13e279]: Previous
+                - generic [ref=f13e281] [cursor=pointer]: "1"
+                - generic [ref=f13e282]: Next
+        - text: 
+      - contentinfo [ref=f13e283]:
+        - paragraph [ref=f13e287]:
+          - text: Copyright
+          - generic [ref=f13e288]: "2026"
+          - text: © Jeshwar Teaching
+  - img

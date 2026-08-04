@@ -1,0 +1,340 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e7]:
+    - generic [ref=f5e8]:
+      - generic [ref=f5e9]:
+        - heading "Dashboard" [level=4] [ref=f5e10]
+        - navigation [ref=f5e11]:
+          - list [ref=f5e12]:
+            - listitem [ref=f5e13]:
+              - link [ref=f5e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f5e15]
+            - listitem [ref=f5e18]: / Purchases Dashboard
+      - generic [ref=f5e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f5e22]:
+          - listitem [ref=f5e23]:
+            - generic [ref=f5e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f5e26]:
+      - generic [ref=f5e28]:
+        - text: 
+        - link [ref=f5e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f5e31]:
+          - list [ref=f5e33]:
+            - generic [ref=f5e38]:
+              - text: 
+              - listitem [ref=f5e39]:
+                - link [ref=f5e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f5e41]
+                  - text: 
+              - listitem [ref=f5e43]:
+                - link [ref=f5e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e45]
+                  - text: 
+              - listitem [ref=f5e47]:
+                - link [ref=f5e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e49]
+                  - text: 
+              - listitem [ref=f5e51]:
+                - link [ref=f5e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e53]
+                  - text: 
+              - listitem [ref=f5e55]:
+                - link [ref=f5e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e57]
+                  - text: 
+              - listitem [ref=f5e59]:
+                - link [ref=f5e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e61]
+                  - text: 
+              - listitem [ref=f5e63]:
+                - link "" [ref=f5e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f5e65]: 
+                  - text: 
+              - listitem [ref=f5e66]:
+                - link [ref=f5e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e68]
+                  - text: 
+              - listitem [ref=f5e70]:
+                - link [ref=f5e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e72]
+                  - text: 
+              - listitem [ref=f5e74]:
+                - link [ref=f5e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e76]
+                  - text: 
+              - listitem [ref=f5e78]:
+                - link [ref=f5e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e80]
+                  - text: 
+              - listitem [ref=f5e82]:
+                - link [ref=f5e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e84]
+                  - text: 
+              - listitem [ref=f5e86]:
+                - link [ref=f5e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e88]
+                  - text: 
+              - listitem [ref=f5e90]:
+                - link "general icon" [ref=f5e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f5e92]
+                  - text: 
+              - listitem [ref=f5e93]:
+                - link [ref=f5e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f5e95]
+                  - text: 
+              - listitem [ref=f5e97]:
+                - link [ref=f5e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f5e99]
+                  - text: 
+              - listitem [ref=f5e101]:
+                - link "product icon" [ref=f5e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f5e103]
+                  - text: 
+              - listitem [ref=f5e104]:
+                - link [ref=f5e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e106]
+                  - text: 
+              - listitem [ref=f5e108]:
+                - link [ref=f5e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e110]
+                  - text: 
+              - listitem [ref=f5e112]:
+                - link [ref=f5e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f5e114]
+                  - text: 
+              - listitem [ref=f5e116]:
+                - link [ref=f5e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e118]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f5e120]:
+                - link [ref=f5e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e122]
+                  - text: 
+              - listitem [ref=f5e124]:
+                - link [ref=f5e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f5e126]
+              - listitem [ref=f5e128]:
+                - link [ref=f5e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e130]
+                  - text: 
+              - listitem [ref=f5e132]:
+                - link "notify-ico" [ref=f5e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f5e134]
+                  - text: 
+              - listitem [ref=f5e135]:
+                - link "notify-ico" [ref=f5e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f5e137]
+                  - text: 
+      - main [ref=f5e139]:
+        - generic [ref=f5e140]:
+          - generic [ref=f5e142]:
+            - generic [ref=f5e143]:
+              - heading "Purchases Overview" [level=3] [ref=f5e144]
+              - paragraph [ref=f5e145]: Track transactions, discounts, and order stats
+            - generic [ref=f5e147]:
+              - generic [ref=f5e148]:
+                - generic [ref=f5e149]:
+                  - generic [ref=f5e150]: 
+                  - generic [ref=f5e151]: From
+                  - textbox [ref=f5e152] [cursor=pointer]: 2000-01-01
+                - generic [ref=f5e153]: to
+                - textbox [ref=f5e155] [cursor=pointer]: 2026-07-21
+              - button " Apply" [ref=f5e156] [cursor=pointer]:
+                - generic [ref=f5e157]: 
+                - text: Apply
+              - button " Reset" [ref=f5e158] [cursor=pointer]:
+                - generic [ref=f5e159]: 
+                - text: Reset
+          - generic [ref=f5e161]:
+            - generic [ref=f5e163]:
+              - heading "Transactions" [level=4] [ref=f5e166]
+              - generic [ref=f5e168]:
+                - img [ref=f5e170]
+                - generic [ref=f5e171]:
+                  - heading "3,027" [level=2] [ref=f5e361] [cursor=pointer]
+                  - generic [ref=f5e173]: orders placed
+            - generic [ref=f5e175]:
+              - heading "Gross Value" [level=4] [ref=f5e178]
+              - generic [ref=f5e180]:
+                - img [ref=f5e182]
+                - generic [ref=f5e183]:
+                  - heading "₹15,50,112.68" [level=2] [ref=f5e362] [cursor=pointer]
+                  - generic [ref=f5e185]: before disc.
+            - generic [ref=f5e187]:
+              - heading "Avg Items / Order" [level=4] [ref=f5e190]
+              - generic [ref=f5e192]:
+                - img [ref=f5e194]
+                - generic [ref=f5e195]:
+                  - heading "1" [level=2] [ref=f5e363] [cursor=pointer]
+                  - generic [ref=f5e197]: avg · 78 total
+            - generic [ref=f5e199]:
+              - heading "Repeat Buyers" [level=4] [ref=f5e202]
+              - generic [ref=f5e204]:
+                - img [ref=f5e206]
+                - generic [ref=f5e207]:
+                  - heading "0.1%" [level=2] [ref=f5e364] [cursor=pointer]
+                  - generic [ref=f5e209]: of customers
+            - generic [ref=f5e211]:
+              - heading "Total Discounts" [level=4] [ref=f5e214]
+              - generic [ref=f5e216]:
+                - img [ref=f5e218]
+                - generic [ref=f5e219]:
+                  - heading "₹6,09,838.13" [level=2] [ref=f5e365] [cursor=pointer]
+                  - generic [ref=f5e221]: given
+          - generic [ref=f5e222]:
+            - generic [ref=f5e223]:
+              - generic [ref=f5e224]:
+                - text: Purchases Over Time
+                - generic [ref=f5e225]: Daily Order Count · Selected Period
+              - img [ref=f5e367]:
+                - generic [ref=f5e370]:
+                  - generic "05 Sep" [ref=f5e371]
+                  - generic "17 Sep" [ref=f5e372]
+                  - generic "29 Sep" [ref=f5e373]
+                  - generic "11 Oct" [ref=f5e374]
+                  - generic "23 Oct" [ref=f5e375]
+                  - generic "27 Nov" [ref=f5e376]
+                  - generic "10 Dec" [ref=f5e377]
+                  - generic "22 Dec" [ref=f5e378]
+                  - generic "09 Jan" [ref=f5e379]
+                  - generic "08 Mar" [ref=f5e380]
+                  - generic "27 Jun" [ref=f5e381]
+                - generic [ref=f5e401]:
+                  - generic "400" [ref=f5e402]
+                  - generic "320" [ref=f5e403]
+                  - generic "240" [ref=f5e404]
+                  - generic "160" [ref=f5e405]
+                  - generic "80" [ref=f5e406]
+                  - generic "0" [ref=f5e407]
+            - generic [ref=f5e255]:
+              - generic [ref=f5e256]:
+                - text: Payment Methods
+                - generic [ref=f5e257]: Share Of Orders
+              - img [ref=f5e409]:
+                - generic [ref=f5e411]:
+                  - generic [ref=f5e414] [cursor=pointer]: Unknown
+                  - generic [ref=f5e417] [cursor=pointer]: netbanking
+                - generic [ref=f5e422]:
+                  - generic:
+                    - generic: 94.9%
+                  - generic:
+                    - generic: 5.1%
+          - generic [ref=f5e272]:
+            - generic [ref=f5e273]:
+              - generic [ref=f5e274]:
+                - text: Top Customers
+                - generic [ref=f5e275]: By Spend
+              - generic [ref=f5e276]:
+                - generic [ref=f5e427]:
+                  - generic [ref=f5e428]: Mahalakshmi Mahalakshmi
+                  - generic [ref=f5e431]: ₹4,813.14
+                - generic [ref=f5e432]:
+                  - generic [ref=f5e433]: adam P
+                  - generic [ref=f5e436]: ₹4,679.68
+                - generic [ref=f5e437]:
+                  - generic [ref=f5e438]: Mahaveer V
+                  - generic [ref=f5e441]: ₹4,650.48
+                - generic [ref=f5e442]:
+                  - generic [ref=f5e443]: M Jeeva Jeeva
+                  - generic [ref=f5e446]: ₹4,158
+                - generic [ref=f5e447]:
+                  - generic [ref=f5e448]: Kalpana Kalpana
+                  - generic [ref=f5e451]: ₹4,014.95
+            - generic [ref=f5e302]:
+              - heading "Recent Purchases" [level=4] [ref=f5e305]
+              - generic [ref=f5e452]:
+                - generic [ref=f5e454]:
+                  - text: "Search:"
+                  - searchbox "Search:" [ref=f5e455] [cursor=pointer]
+                - grid [ref=f5e312]:
+                  - rowgroup [ref=f5e313]:
+                    - 'row "Order : activate to sort column descending Customer : activate to sort column ascending Net : activate to sort column ascending Status : activate to sort column ascending" [ref=f5e314]':
+                      - 'columnheader "Order : activate to sort column descending" [ref=f5e315] [cursor=pointer]':
+                        - text: Order
+                        - generic [ref=f5e316]: 
+                      - 'columnheader "Customer : activate to sort column ascending" [ref=f5e317] [cursor=pointer]':
+                        - text: Customer
+                        - generic [ref=f5e318]: 
+                      - 'columnheader "Net : activate to sort column ascending" [ref=f5e319] [cursor=pointer]':
+                        - text: Net
+                        - generic [ref=f5e320]: 
+                      - 'columnheader "Status : activate to sort column ascending" [ref=f5e321] [cursor=pointer]':
+                        - text: Status
+                        - generic [ref=f5e322]: 
+                  - rowgroup [ref=f5e323]:
+                    - row "#4226 Sat Antony ₹2,520 Success" [ref=f5e456]:
+                      - gridcell "#4226" [ref=f5e457]
+                      - gridcell "Sat Antony" [ref=f5e458]
+                      - gridcell "₹2,520" [ref=f5e459]
+                      - gridcell "Success" [ref=f5e460]:
+                        - generic [ref=f5e461]: Success
+                    - row "#4228 Fay Antony ₹2,520 Success" [ref=f5e462]:
+                      - gridcell "#4228" [ref=f5e463]
+                      - gridcell "Fay Antony" [ref=f5e464]
+                      - gridcell "₹2,520" [ref=f5e465]
+                      - gridcell "Success" [ref=f5e466]:
+                        - generic [ref=f5e467]: Success
+                    - row "#4229 Karthik M ₹810 Success" [ref=f5e468]:
+                      - gridcell "#4229" [ref=f5e469]
+                      - gridcell "Karthik M" [ref=f5e470]
+                      - gridcell "₹810" [ref=f5e471]
+                      - gridcell "Success" [ref=f5e472]:
+                        - generic [ref=f5e473]: Success
+                    - row "#4230 FayJosh Antony ₹810 Success" [ref=f5e474]:
+                      - gridcell "#4230" [ref=f5e475]
+                      - gridcell "FayJosh Antony" [ref=f5e476]
+                      - gridcell "₹810" [ref=f5e477]
+                      - gridcell "Success" [ref=f5e478]:
+                        - generic [ref=f5e479]: Success
+                - generic [ref=f5e480]:
+                  - generic [ref=f5e481]: Previous
+                  - generic [ref=f5e482]:
+                    - generic [ref=f5e483] [cursor=pointer]: "1"
+                    - generic [ref=f5e484] [cursor=pointer]: "2"
+                    - generic [ref=f5e485] [cursor=pointer]: "3"
+                  - generic [ref=f5e486] [cursor=pointer]: Next
+      - contentinfo [ref=f5e355]:
+        - paragraph [ref=f5e359]:
+          - text: Copyright
+          - generic [ref=f5e360]: "2026"
+          - text: © Jeshwar Teaching
+  - img

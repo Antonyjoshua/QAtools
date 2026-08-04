@@ -1,0 +1,270 @@
+- generic [ref=f32e1]:
+  - generic [ref=f32e7]:
+    - generic [ref=f32e8]:
+      - generic [ref=f32e9]:
+        - heading "Dashboard" [level=4] [ref=f32e10]
+        - navigation [ref=f32e11]:
+          - list [ref=f32e12]:
+            - listitem [ref=f32e13]:
+              - link [ref=f32e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f32e15]
+            - listitem [ref=f32e18]: / Index
+      - generic [ref=f32e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f32e22]:
+          - listitem [ref=f32e23]:
+            - generic [ref=f32e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f32e26]:
+      - generic [ref=f32e28]:
+        - text: 
+        - link [ref=f32e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f32e31]:
+          - list [ref=f32e33]:
+            - generic [ref=f32e38]:
+              - text: 
+              - listitem [ref=f32e39]:
+                - link [ref=f32e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f32e41]
+                  - text: 
+              - listitem [ref=f32e43]:
+                - link [ref=f32e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e45]
+                  - text: 
+              - listitem [ref=f32e47]:
+                - link [ref=f32e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e49]
+                  - text: 
+              - listitem [ref=f32e51]:
+                - link [ref=f32e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e53]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f32e55]:
+                - link [ref=f32e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e57]
+                  - text: 
+              - listitem [ref=f32e59]:
+                - link [ref=f32e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e61]
+                  - text: 
+              - listitem [ref=f32e63]:
+                - link "" [ref=f32e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f32e65]: 
+                  - text: 
+              - listitem [ref=f32e66]:
+                - link [ref=f32e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e68]
+                  - text: 
+              - listitem [ref=f32e70]:
+                - link [ref=f32e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e72]
+                  - text: 
+              - listitem [ref=f32e74]:
+                - link [ref=f32e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e76]
+                  - text: 
+              - listitem [ref=f32e78]:
+                - link [ref=f32e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e80]
+                  - text: 
+              - listitem [ref=f32e82]:
+                - link [ref=f32e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e84]
+                  - text: 
+              - listitem [ref=f32e86]:
+                - link [ref=f32e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e88]
+                  - text: 
+              - listitem [ref=f32e90]:
+                - link "general icon" [ref=f32e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f32e92]
+                  - text: 
+              - listitem [ref=f32e93]:
+                - link [ref=f32e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f32e95]
+                  - text: 
+              - listitem [ref=f32e97]:
+                - link [ref=f32e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f32e99]
+                  - text: 
+              - listitem [ref=f32e101]:
+                - link "product icon" [ref=f32e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f32e103]
+                  - text: 
+              - listitem [ref=f32e104]:
+                - link [ref=f32e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e106]
+                  - text: 
+              - listitem [ref=f32e108]:
+                - link [ref=f32e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e110]
+                  - text: 
+              - listitem [ref=f32e112]:
+                - link [ref=f32e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f32e114]
+                  - text: 
+              - listitem [ref=f32e116]:
+                - link [ref=f32e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e118]
+                  - text: 
+              - listitem [ref=f32e120]:
+                - link [ref=f32e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e122]
+                  - text: 
+              - listitem [ref=f32e124]:
+                - link [ref=f32e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f32e126]
+              - listitem [ref=f32e128]:
+                - link [ref=f32e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f32e130]
+                  - text: 
+              - listitem [ref=f32e132]:
+                - link "notify-ico" [ref=f32e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f32e134]
+                  - text: 
+              - listitem [ref=f32e135]:
+                - link "notify-ico" [ref=f32e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f32e137]
+                  - text: 
+      - main [ref=f32e139]:
+        - generic [ref=f32e143]:
+          - heading "Create Promo Code" [level=5] [ref=f32e145]
+          - generic [ref=f32e147]:
+            - generic [ref=f32e148]:
+              - generic [ref=f32e150]:
+                - generic [ref=f32e151]:
+                  - text: Code
+                  - generic [ref=f32e152]: "*"
+                - textbox "e.g. EXTRA10" [ref=f32e153] [cursor=pointer]: QATEST_SELFCOURSE
+              - generic [ref=f32e155]:
+                - generic [ref=f32e156]: Description
+                - textbox "e.g. 10% off on first purchase" [ref=f32e157] [cursor=pointer]
+              - generic [ref=f32e159]:
+                - generic [ref=f32e160]:
+                  - text: Discount Type
+                  - generic [ref=f32e161]: "*"
+                - combobox [ref=f32e162] [cursor=pointer]:
+                  - option "Percent (%)" [selected]
+                  - option "Flat (₹)"
+              - generic [ref=f32e164]:
+                - generic [ref=f32e165]:
+                  - text: Discount Value
+                  - generic [ref=f32e166]: "*"
+                - spinbutton [ref=f32e167] [cursor=pointer]: "10"
+              - generic [ref=f32e169]:
+                - generic [ref=f32e170]: Max Discount (₹) — percent cap
+                - spinbutton [ref=f32e171] [cursor=pointer]
+              - generic [ref=f32e173]:
+                - generic [ref=f32e174]: Min Purchase (₹)
+                - spinbutton [ref=f32e175] [cursor=pointer]
+              - generic [ref=f32e177]:
+                - generic [ref=f32e178]: Valid From
+                - textbox [ref=f32e179] [cursor=pointer]
+              - generic [ref=f32e181]:
+                - generic [ref=f32e182]: Valid To
+                - textbox [ref=f32e183] [cursor=pointer]
+              - generic [ref=f32e185]:
+                - generic [ref=f32e186]: Max Total Redemptions
+                - spinbutton "Unlimited" [ref=f32e187] [cursor=pointer]
+              - generic [ref=f32e189]:
+                - generic [ref=f32e190]: Max Redemptions / User
+                - spinbutton "Unlimited" [ref=f32e191] [cursor=pointer]
+              - generic [ref=f32e193]:
+                - generic [ref=f32e194]: Returning Customers Only?
+                - generic [ref=f32e195]:
+                  - checkbox "Requires a prior successful purchase" [checked] [ref=f32e196] [cursor=pointer]
+                  - generic [ref=f32e197]: Requires a prior successful purchase
+              - generic [ref=f32e199]:
+                - generic [ref=f32e200]: Eligible Courses — must be purchased to qualify as returning
+                - listbox [ref=f32e201] [cursor=pointer]:
+                  - option [ref=f32e202]: Live APL Explanation
+                  - option [selected] [ref=f32e203]: APL Q20 Explanation Course
+                  - option [ref=f32e204]: FITJEE Exam
+                  - option [ref=f32e205]: TNPSC Group 4 Complete Preparation Course 2026
+                  - option [ref=f32e206]: Jt Release Course
+                  - option [ref=f32e207]: TNPSC Foundation Course
+                  - option [ref=f32e208]: TNPSC-G1
+                  - option [ref=f32e209]: Aptitude & Mental Ability
+                  - option [ref=f32e210]: TNPSC GROUP-4 FOLDER
+                  - option [ref=f32e211]: INDIAN POLITY-PYQ (2012-2026)
+                  - option [ref=f32e212]: Kingdom - 2026 (கிங்டம்)
+                - combobox [ref=f32e215]:
+                  - button "Remove all items" [ref=f32e267] [cursor=pointer]:
+                    - generic [ref=f32e268]: ×
+                  - list [ref=f32e269]:
+                    - listitem "APL Q20 Explanation Course" [ref=f32e270]:
+                      - button "Remove item" [ref=f32e271] [cursor=pointer]:
+                        - generic [ref=f32e272]: ×
+                      - generic [ref=f32e273]: APL Q20 Explanation Course
+                  - searchbox "Search" [active] [ref=f32e217]
+              - generic [ref=f32e219]:
+                - generic [ref=f32e220]: "Scope: Courses — leave empty for any"
+                - listbox [ref=f32e221] [cursor=pointer]:
+                  - option [ref=f32e222]: Live APL Explanation
+                  - option [ref=f32e223]: APL Q20 Explanation Course
+                  - option [ref=f32e224]: FITJEE Exam
+                  - option [ref=f32e225]: TNPSC Group 4 Complete Preparation Course 2026
+                  - option [ref=f32e226]: Jt Release Course
+                  - option [ref=f32e227]: TNPSC Foundation Course
+                  - option [ref=f32e228]: TNPSC-G1
+                  - option [ref=f32e229]: Aptitude & Mental Ability
+                  - option [ref=f32e230]: TNPSC GROUP-4 FOLDER
+                  - option [ref=f32e231]: INDIAN POLITY-PYQ (2012-2026)
+                  - option [ref=f32e232]: Kingdom - 2026 (கிங்டம்)
+                - combobox [ref=f32e235]:
+                  - list
+                  - searchbox "Search" [ref=f32e237]
+              - generic [ref=f32e239]:
+                - generic [ref=f32e240]: Is Active?
+                - generic [ref=f32e241]:
+                  - checkbox "Active" [checked] [ref=f32e242] [cursor=pointer]
+                  - generic [ref=f32e243]: Active
+            - generic [ref=f32e244]:
+              - link "Create" [ref=f32e245] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - link "Cancel" [ref=f32e246] [cursor=pointer]:
+                - /url: /PromoCode/Index
+      - contentinfo [ref=f32e247]:
+        - paragraph [ref=f32e251]:
+          - text: Copyright
+          - generic [ref=f32e252]: "2026"
+          - text: © Jeshwar Teaching
+  - img

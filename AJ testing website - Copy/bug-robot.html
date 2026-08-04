@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Bug — Antony Joshua S</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .bug-page {
+      min-height: calc(100vh - 64px);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 40px 24px 60px;
+    }
+    .bug-page-title {
+      font-size: 2.6rem; font-weight: 800;
+      color: var(--text); text-align: center; margin-bottom: 6px;
+    }
+    .bug-page-hint {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.78rem; color: var(--text-dim);
+      letter-spacing: 0.14em; text-align: center;
+      margin-bottom: 36px; text-transform: uppercase;
+    }
+    .bug-svg-wrap {
+      max-width: 540px; width: 100%; position: relative;
+    }
+    .bug-robot-svg { width: 100%; height: auto; overflow: visible; }
+
+    /* Body part hover */
+    .bp {
+      cursor: pointer;
+      transition: filter 0.18s;
+    }
+    .bp:hover {
+      filter: drop-shadow(0 0 10px rgba(var(--accent-rgb), 0.9))
+              drop-shadow(0 0 24px rgba(var(--accent-rgb), 0.45));
+    }
+    .bp:hover .bp-stroke { stroke: var(--accent2); }
+    .bp:hover .bp-fill   { fill: rgba(var(--accent-rgb), 0.22); }
+    .bp:hover .bp-dot    { fill: var(--accent2); }
+
+    /* Info card */
+    .bug-card {
+      position: fixed; z-index: 999;
+      background: var(--card-bg);
+      border: 1px solid var(--accent);
+      border-radius: 14px;
+      padding: 18px 22px; max-width: 270px; min-width: 210px;
+      pointer-events: none;
+      opacity: 0; transform: scale(0.93) translateY(6px);
+      transition: opacity 0.18s, transform 0.18s;
+      box-shadow: 0 8px 32px rgba(var(--accent-rgb), 0.25), 0 0 0 1px rgba(var(--accent-rgb), 0.2);
+    }
+    .bug-card.on { opacity: 1; transform: scale(1) translateY(0); }
+    .bc-icon  { font-size: 1.7rem; margin-bottom: 8px; display: block; }
+    .bc-title { font-size: 0.93rem; font-weight: 700; color: var(--accent2); margin-bottom: 5px; }
+    .bc-desc  { font-size: 0.8rem; color: var(--text-muted); line-height: 1.65; }
+
+    /* Pulse animations */
+    @keyframes bp-breathe { 0%,100%{opacity:.7} 50%{opacity:1} }
+    @keyframes bp-core    { 0%,100%{opacity:.3;r:12} 50%{opacity:.85;r:14} }
+    @keyframes bp-eye     { 0%,88%,100%{ry:14} 92%{ry:1.5} }
+    @keyframes bp-sting   { 0%,100%{opacity:.5} 50%{opacity:1} }
+
+    .anim-breathe  { animation: bp-breathe 2.2s ease-in-out infinite; }
+    .anim-breathe2 { animation: bp-breathe 2.2s ease-in-out infinite 1.1s; }
+    .anim-core     { animation: bp-breathe 2.8s ease-in-out infinite; }
+    .anim-sting    { animation: bp-sting 1.8s ease-in-out infinite; }
+    .eye-scan      { animation: bp-breathe 2s ease-in-out infinite; }
+
+    .bug-footer-note {
+      margin-top: 36px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem; color: var(--text-dim);
+      text-align: center; opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="game-page-nav">
+    <a href="index.html" class="game-back-link">← Back to Portfolio</a>
+    <span class="nav-logo">AJ<span class="accent">.</span></span>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span class="theme-icon">☀️</span>
+    </button>
+  </nav>
+
+  <div class="game-page-body">
+    <div class="container">
+      <div class="bug-page">
+
+        <h1 class="bug-page-title">Meet the <span class="accent">Bug</span></h1>
+        <p class="bug-page-hint">// hover each part — learn about me</p>
+
+        <div class="bug-svg-wrap">
+          <svg viewBox="0 0 600 730" class="bug-robot-svg"
+               xmlns="http://www.w3.org/2000/svg"
+               aria-label="Interactive bug robot representing Antony Joshua S">
+            <defs>
+              <radialGradient id="hd-g" cx="50%" cy="35%" r="60%">
+                <stop offset="0%"   stop-color="#6c63ff" stop-opacity="0.22"/>
+                <stop offset="100%" stop-color="#6c63ff" stop-opacity="0.03"/>
+              </radialGradient>
+              <radialGradient id="bd-g" cx="50%" cy="35%" r="60%">
+                <stop offset="0%"   stop-color="#6c63ff" stop-opacity="0.18"/>
+                <stop offset="100%" stop-color="#6c63ff" stop-opacity="0.02"/>
+              </radialGradient>
+              <radialGradient id="ab-g" cx="50%" cy="40%" r="60%">
+                <stop offset="0%"   stop-color="#6c63ff" stop-opacity="0.14"/>
+                <stop offset="100%" stop-color="#6c63ff" stop-opacity="0.02"/>
+              </radialGradient>
+            </defs>
+
+            <!-- ======== LEFT ANTENNA — Experience ======== -->
+            <g class="bp" data-k="experience">
+              <path class="bp-stroke" d="M 268 95 Q 226 58 184 18" stroke="#6c63ff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+              <!-- joints -->
+              <circle class="bp-dot" cx="244" cy="72" r="2.8" fill="rgba(108,99,255,0.55)"/>
+              <circle class="bp-dot" cx="214" cy="46" r="2.8" fill="rgba(108,99,255,0.55)"/>
+              <!-- tip -->
+              <circle cx="183" cy="17" r="10" fill="#6c63ff" fill-opacity="0.15" class="bp-fill"/>
+              <circle class="bp-dot anim-breathe" cx="183" cy="17" r="6" fill="#6c63ff" fill-opacity="0.7"/>
+              <circle class="bp-dot" cx="183" cy="17" r="3" fill="#c4b5fd"/>
+            </g>
+
+            <!-- ======== RIGHT ANTENNA — Defects ======== -->
+            <g class="bp" data-k="defects">
+              <path class="bp-stroke" d="M 332 95 Q 374 58 416 18" stroke="#6c63ff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+              <circle class="bp-dot" cx="356" cy="72" r="2.8" fill="rgba(108,99,255,0.55)"/>
+              <circle class="bp-dot" cx="386" cy="46" r="2.8" fill="rgba(108,99,255,0.55)"/>
+              <circle cx="417" cy="17" r="10" fill="#6c63ff" fill-opacity="0.15" class="bp-fill"/>
+              <circle class="bp-dot anim-breathe2" cx="417" cy="17" r="6" fill="#6c63ff" fill-opacity="0.7"/>
+              <circle class="bp-dot" cx="417" cy="17" r="3" fill="#c4b5fd"/>
+            </g>
+
+            <!-- ======== HEAD — Education ======== -->
+            <g class="bp" data-k="education">
+              <ellipse class="bp-fill" cx="300" cy="158" rx="87" ry="77" fill="url(#hd-g)"/>
+              <ellipse class="bp-stroke" cx="300" cy="158" rx="87" ry="77" fill="none" stroke="#6c63ff" stroke-width="2"/>
+              <!-- crosshair circuit -->
+              <line x1="244" y1="158" x2="356" y2="158" stroke="rgba(108,99,255,0.28)" stroke-width="1"/>
+              <line x1="300" y1="98"  x2="300" y2="215" stroke="rgba(108,99,255,0.22)" stroke-width="1"/>
+              <!-- corner nodes -->
+              <circle class="bp-dot" cx="258" cy="126" r="3" fill="rgba(108,99,255,0.5)"/>
+              <circle class="bp-dot" cx="342" cy="126" r="3" fill="rgba(108,99,255,0.5)"/>
+              <circle class="bp-dot" cx="256" cy="188" r="3" fill="rgba(108,99,255,0.5)"/>
+              <circle class="bp-dot" cx="344" cy="188" r="3" fill="rgba(108,99,255,0.5)"/>
+              <!-- bracket marks -->
+              <path class="bp-stroke" d="M 228 116 L 228 103 L 252 103" stroke="rgba(108,99,255,0.4)" stroke-width="1.2" fill="none"/>
+              <path class="bp-stroke" d="M 372 116 L 372 103 L 348 103" stroke="rgba(108,99,255,0.4)" stroke-width="1.2" fill="none"/>
+              <!-- mandibles -->
+              <path class="bp-stroke" d="M 278 226 Q 289 238 300 234 Q 311 238 322 226" stroke="#6c63ff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.75"/>
+            </g>
+
+            <!-- ======== LEFT EYE — Playwright ======== -->
+            <g class="bp" data-k="playwright">
+              <circle class="bp-fill" cx="266" cy="148" r="25" fill="rgba(108,99,255,0.12)"/>
+              <circle class="bp-stroke" cx="266" cy="148" r="25" fill="none" stroke="#a78bfa" stroke-width="2"/>
+              <circle cx="266" cy="148" r="15" fill="rgba(108,99,255,0.28)"/>
+              <ellipse class="eye-scan" cx="266" cy="148" rx="25" ry="4" fill="rgba(167,139,250,0.14)"/>
+              <circle class="bp-dot" cx="266" cy="148" r="7" fill="#6c63ff" fill-opacity="0.85"/>
+              <circle cx="269" cy="145" r="2.5" fill="white" opacity="0.75"/>
+            </g>
+
+            <!-- ======== RIGHT EYE — Selenium ======== -->
+            <g class="bp" data-k="selenium">
+              <circle class="bp-fill" cx="334" cy="148" r="25" fill="rgba(108,99,255,0.12)"/>
+              <circle class="bp-stroke" cx="334" cy="148" r="25" fill="none" stroke="#a78bfa" stroke-width="2"/>
+              <circle cx="334" cy="148" r="15" fill="rgba(108,99,255,0.28)"/>
+              <ellipse class="eye-scan anim-breathe2" cx="334" cy="148" rx="25" ry="4" fill="rgba(167,139,250,0.14)"/>
+              <circle class="bp-dot" cx="334" cy="148" r="7" fill="#6c63ff" fill-opacity="0.85"/>
+              <circle cx="337" cy="145" r="2.5" fill="white" opacity="0.75"/>
+            </g>
+
+            <!-- neck -->
+            <rect x="283" y="228" width="34" height="18" rx="5"
+                  fill="rgba(108,99,255,0.1)" stroke="#6c63ff" stroke-width="1.4"/>
+            <line x1="292" y1="237" x2="308" y2="237" stroke="rgba(108,99,255,0.45)" stroke-width="1"/>
+
+            <!-- ======== THORAX — Skills ======== -->
+            <g class="bp" data-k="skills">
+              <ellipse class="bp-fill" cx="300" cy="306" rx="97" ry="79" fill="url(#bd-g)"/>
+              <ellipse class="bp-stroke" cx="300" cy="306" rx="97" ry="79" fill="none" stroke="#6c63ff" stroke-width="2"/>
+              <!-- circuit track -->
+              <path class="bp-stroke" d="M 221 306 L 263 306 L 279 285 L 321 285 L 337 306 L 379 306"
+                    stroke="rgba(108,99,255,0.48)" stroke-width="1.6" fill="none"/>
+              <line x1="263" y1="274" x2="263" y2="337" stroke="rgba(108,99,255,0.25)" stroke-width="1"/>
+              <line x1="337" y1="274" x2="337" y2="337" stroke="rgba(108,99,255,0.25)" stroke-width="1"/>
+              <path class="bp-stroke" d="M 232 322 Q 300 316 368 322"
+                    stroke="rgba(108,99,255,0.2)" stroke-width="1" fill="none"/>
+              <!-- power core -->
+              <circle class="bp-fill anim-core" cx="300" cy="306" r="13"
+                      fill="rgba(108,99,255,0.18)" stroke="#6c63ff" stroke-width="1.4"/>
+              <circle class="bp-dot" cx="300" cy="306" r="5" fill="#a78bfa"/>
+            </g>
+
+            <!-- ======== LEFT WING — Domains ======== -->
+            <g class="bp" data-k="domains">
+              <path class="bp-stroke bp-fill"
+                    d="M 205 280 Q 148 254 126 318 Q 120 378 198 370 L 208 350 L 204 296"
+                    fill="rgba(108,99,255,0.05)" stroke="#6c63ff" stroke-width="1.5" stroke-dasharray="7,4"/>
+              <!-- veins -->
+              <path d="M 202 294 Q 158 300 140 330" stroke="rgba(108,99,255,0.25)" stroke-width="1" fill="none"/>
+              <path d="M 202 318 Q 162 324 146 350" stroke="rgba(108,99,255,0.18)" stroke-width="1" fill="none"/>
+              <path d="M 204 342 Q 168 348 156 366" stroke="rgba(108,99,255,0.12)" stroke-width="1" fill="none"/>
+            </g>
+
+            <!-- ======== RIGHT WING — Domains ======== -->
+            <g class="bp" data-k="domains">
+              <path class="bp-stroke bp-fill"
+                    d="M 395 280 Q 452 254 474 318 Q 480 378 402 370 L 392 350 L 396 296"
+                    fill="rgba(108,99,255,0.05)" stroke="#6c63ff" stroke-width="1.5" stroke-dasharray="7,4"/>
+              <path d="M 398 294 Q 442 300 460 330" stroke="rgba(108,99,255,0.25)" stroke-width="1" fill="none"/>
+              <path d="M 398 318 Q 438 324 454 350" stroke="rgba(108,99,255,0.18)" stroke-width="1" fill="none"/>
+              <path d="M 396 342 Q 432 348 444 366" stroke="rgba(108,99,255,0.12)" stroke-width="1" fill="none"/>
+            </g>
+
+            <!-- ======== UPPER LEFT LEG — Automation ======== -->
+            <g class="bp" data-k="automation">
+              <path class="bp-stroke" d="M 207 278 L 160 253 L 115 266"
+                    stroke="#6c63ff" stroke-width="2.6" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+              <circle class="bp-dot" cx="160" cy="253" r="3.5" fill="rgba(108,99,255,0.6)"/>
+              <circle class="bp-dot" cx="115" cy="266" r="5.5" fill="#6c63ff" fill-opacity="0.72"/>
+            </g>
+            <!-- UPPER RIGHT LEG -->
+            <g class="bp" data-k="automation">
+              <path class="bp-stroke" d="M 393 278 L 440 253 L 485 266"
+                    stroke="#6c63ff" stroke-width="2.6" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+              <circle class="bp-dot" cx="440" cy="253" r="3.5" fill="rgba(108,99,255,0.6)"/>
+              <circle class="bp-dot" cx="485" cy="266" r="5.5" fill="#6c63ff" fill-opacity="0.72"/>
+            </g>
+
+            <!-- ======== MID LEFT LEG — Manual Testing ======== -->
+            <g class="bp" data-k="manual">
+              <path class="bp-stroke" d="M 207 362 L 153 360 L 105 386"
+                    stroke="#6c63ff" stroke-width="2.6" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+              <circle class="bp-dot" cx="153" cy="360" r="3.5" fill="rgba(108,99,255,0.6)"/>
+              <circle class="bp-dot" cx="105" cy="386" r="5.5" fill="#6c63ff" fill-opacity="0.72"/>
+            </g>
+            <!-- MID RIGHT LEG -->
+            <g class="bp" data-k="manual">
+              <path class="bp-stroke" d="M 393 362 L 447 360 L 495 386"
+                    stroke="#6c63ff" stroke-width="2.6" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+              <circle class="bp-dot" cx="447" cy="360" r="3.5" fill="rgba(108,99,255,0.6)"/>
+              <circle class="bp-dot" cx="495" cy="386" r="5.5" fill="#6c63ff" fill-opacity="0.72"/>
+            </g>
+
+            <!-- ======== LOWER LEFT LEG — Certifications ======== -->
+            <g class="bp" data-k="certs">
+              <path class="bp-stroke" d="M 226 472 L 165 480 L 116 508"
+                    stroke="#6c63ff" stroke-width="2.6" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+              <circle class="bp-dot" cx="165" cy="480" r="3.5" fill="rgba(108,99,255,0.6)"/>
+              <circle class="bp-dot" cx="116" cy="508" r="5.5" fill="#6c63ff" fill-opacity="0.72"/>
+            </g>
+            <!-- LOWER RIGHT LEG -->
+            <g class="bp" data-k="certs">
+              <path class="bp-stroke" d="M 374 472 L 435 480 L 484 508"
+                    stroke="#6c63ff" stroke-width="2.6" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+              <circle class="bp-dot" cx="435" cy="480" r="3.5" fill="rgba(108,99,255,0.6)"/>
+              <circle class="bp-dot" cx="484" cy="508" r="5.5" fill="#6c63ff" fill-opacity="0.72"/>
+            </g>
+
+            <!-- ======== ABDOMEN — Projects ======== -->
+            <g class="bp" data-k="projects">
+              <ellipse class="bp-fill" cx="300" cy="480" rx="80" ry="108" fill="url(#ab-g)"/>
+              <ellipse class="bp-stroke" cx="300" cy="480" rx="80" ry="108" fill="none" stroke="#6c63ff" stroke-width="2"/>
+              <!-- segments -->
+              <path d="M 232 450 Q 300 445 368 450" stroke="rgba(108,99,255,0.38)" stroke-width="1.5" fill="none"/>
+              <path d="M 226 480 Q 300 475 374 480" stroke="rgba(108,99,255,0.38)" stroke-width="1.5" fill="none"/>
+              <path d="M 228 510 Q 300 505 372 510" stroke="rgba(108,99,255,0.38)" stroke-width="1.5" fill="none"/>
+              <path d="M 234 540 Q 300 535 366 540" stroke="rgba(108,99,255,0.32)" stroke-width="1.5" fill="none"/>
+              <circle class="bp-dot" cx="300" cy="480" r="5.5" fill="rgba(108,99,255,0.45)" stroke="#6c63ff" stroke-width="1"/>
+            </g>
+
+            <!-- ======== STINGER — Passion ======== -->
+            <g class="bp" data-k="passion">
+              <path class="bp-stroke" d="M 294 584 L 306 584 L 300 628"
+                    stroke="#6c63ff" stroke-width="2.2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+              <polygon class="bp-fill" points="300,652 285,622 315,622"
+                       fill="rgba(108,99,255,0.5)" stroke="#a78bfa" stroke-width="1.5"/>
+              <circle class="bp-dot anim-sting" cx="300" cy="656" r="5" fill="#a78bfa" opacity="0.85"/>
+            </g>
+
+          </svg>
+        </div>
+
+        <p class="bug-footer-note">🐛 &nbsp;Built from 3 years of QA battles &nbsp;·&nbsp; hover to explore</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating info card -->
+  <div class="bug-card" id="bugCard">
+    <span class="bc-icon" id="bcIcon"></span>
+    <div class="bc-title" id="bcTitle"></div>
+    <div class="bc-desc"  id="bcDesc"></div>
+  </div>
+
+  <script src="theme.js"></script>
+  <script src="jarvis.js"></script>
+  <script>
+    const INFO = {
+      experience: {
+        icon: '⏱',
+        title: '3+ Years Experience',
+        desc: 'Left antenna tuned to sense quality issues since 2021 — web, mobile, VR, and AI platforms. Never stops scanning.'
+      },
+      defects: {
+        icon: '🐛',
+        title: '2500+ Defects Found',
+        desc: 'Right antenna wired to detect every defect. Critical, major, minor — nothing slips past the radar.'
+      },
+      education: {
+        icon: '🎓',
+        title: 'MCA — Madras University',
+        desc: 'Master of Computer Applications. The analytical brain behind every test plan, strategy, and risk assessment.'
+      },
+      playwright: {
+        icon: '🎭',
+        title: 'Playwright + TypeScript',
+        desc: 'Left eye: modern automation. Cross-browser, headless, blazing-fast end-to-end tests built for scale.'
+      },
+      selenium: {
+        icon: '🔬',
+        title: 'Selenium + Java',
+        desc: 'Right eye: 55.5 hours of WebDriver mastery — from basics to full framework architecture.'
+      },
+      skills: {
+        icon: '⚡',
+        title: 'Core QA Arsenal',
+        desc: 'Power core: Playwright · Selenium · TestNG · JIRA · Postman · API Testing · TypeScript · Java · Git.'
+      },
+      domains: {
+        icon: '🌐',
+        title: '8 Domains',
+        desc: 'Wings span: E-commerce · Banking · Healthcare · EdTech · VR · AI · Real Estate · Logistics.'
+      },
+      projects: {
+        icon: '📁',
+        title: '9+ Projects',
+        desc: 'The abdomen carries 9+ completed projects — web apps, mobile platforms, VR environments, AI tools.'
+      },
+      automation: {
+        icon: '🤖',
+        title: 'Automation Testing',
+        desc: 'Upper limbs for speed: Playwright frameworks, Selenium WebDriver scripts, CI/CD pipeline integration.'
+      },
+      manual: {
+        icon: '🔍',
+        title: 'Manual Testing',
+        desc: 'Middle limbs for precision: exploratory testing, regression suites, UAT, test case design, defect triage.'
+      },
+      certs: {
+        icon: '🏅',
+        title: 'Certifications',
+        desc: 'Udemy: Selenium + ML Testing. GUVI × HCL: Automation Skills. Testleaf: QA Master Class. Oct–Dec 2024.'
+      },
+      passion: {
+        icon: '💜',
+        title: 'Passion for Quality',
+        desc: 'The sting — every product I touch gets injected with quality. Bug hunting is not a job. It\'s instinct.'
+      }
+    };
+
+    const card  = document.getElementById('bugCard');
+    const icEl  = document.getElementById('bcIcon');
+    const ttEl  = document.getElementById('bcTitle');
+    const dsEl  = document.getElementById('bcDesc');
+    let hideT;
+
+    document.querySelectorAll('.bp').forEach(function (part) {
+      part.addEventListener('mouseenter', function (e) {
+        clearTimeout(hideT);
+        var data = INFO[this.dataset.k];
+        if (!data) return;
+        icEl.textContent = data.icon;
+        ttEl.textContent = data.title;
+        dsEl.textContent = data.desc;
+        place(e);
+        card.classList.add('on');
+      });
+      part.addEventListener('mousemove', place);
+      part.addEventListener('mouseleave', function () {
+        hideT = setTimeout(function () { card.classList.remove('on'); }, 120);
+      });
+    });
+
+    function place(e) {
+      var mg = 14, cw = card.offsetWidth || 250, ch = card.offsetHeight || 130;
+      var x = e.clientX + 22, y = e.clientY - ch / 2;
+      if (x + cw > window.innerWidth  - mg) x = e.clientX - cw - 22;
+      if (y < mg) y = mg;
+      if (y + ch > window.innerHeight - mg) y = window.innerHeight - ch - mg;
+      card.style.left = x + 'px';
+      card.style.top  = y + 'px';
+    }
+  </script>
+</body>
+</html>

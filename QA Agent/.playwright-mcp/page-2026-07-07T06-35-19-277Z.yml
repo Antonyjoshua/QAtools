@@ -1,0 +1,90 @@
+- generic [ref=f18e4]:
+  - heading "Never Give Up is more important than Success!" [level=2] [ref=f18e8]
+  - generic [ref=f18e10]:
+    - img "Logo" [ref=f18e11]
+    - generic [ref=f18e12]:
+      - heading "Create An Account" [level=2] [ref=f18e13]
+      - paragraph [ref=f18e14]:
+        - text: Already have an account?
+        - link "Login" [ref=f18e15] [cursor=pointer]:
+          - /url: /
+      - generic [ref=f18e16]:
+        - generic [ref=f18e17]:
+          - generic [ref=f18e18]:
+            - generic [ref=f18e19]: First Name *
+            - textbox "First Name *" [ref=f18e20]:
+              - /placeholder: Enter your first name
+              - text: Test
+            - text: First Name is required
+          - generic [ref=f18e21]:
+            - generic [ref=f18e22]: Last Name *
+            - textbox "Last Name *" [ref=f18e23]:
+              - /placeholder: Enter your last name
+              - text: User
+            - text: Last Name is required
+        - generic [ref=f18e24]:
+          - generic [ref=f18e25]:
+            - generic [ref=f18e26]: Username *
+            - textbox "Username *" [ref=f18e27]:
+              - /placeholder: Enter your username
+              - text: tu1
+            - paragraph [ref=f18e28]: e.g., rajesh, rajesh1995 (3-20 chars, letters, numbers)
+            - text: Username is required
+          - generic [ref=f18e29]:
+            - generic [ref=f18e30]: Email Address *
+            - textbox "Email Address *" [active] [ref=f18e31]:
+              - /placeholder: Enter your email
+              - text: not-an-email
+            - text: Email is required
+        - generic [ref=f18e32]:
+          - generic [ref=f18e33]:
+            - generic [ref=f18e34]: Phone Number *
+            - textbox "Phone Number *" [ref=f18e35]:
+              - /placeholder: Enter your phone number
+              - text: "123"
+            - text: Phone number is required
+          - generic [ref=f18e36]:
+            - generic [ref=f18e37]: Date of Birth(Optional)
+            - textbox "Date of Birth(Optional)" [ref=f18e38]
+        - generic [ref=f18e39]:
+          - generic [ref=f18e40]:
+            - generic [ref=f18e41]: Password *
+            - textbox "Password *" [ref=f18e42]:
+              - /placeholder: Enter your password
+              - text: weak
+            - paragraph [ref=f18e43]: e.g.,Rajesh@123 (min 8 chars with uppercase, lowercase, number & special char)
+            - text: Password is required
+          - generic [ref=f18e44]:
+            - generic [ref=f18e45]: Confirm Password *
+            - textbox "Confirm Password *" [ref=f18e46]:
+              - /placeholder: Confirm your password
+              - text: different
+            - text: The ConfirmPassword field is required.
+        - generic [ref=f18e47]:
+          - generic [ref=f18e48]:
+            - generic [ref=f18e49]: City
+            - textbox "City" [ref=f18e50]:
+              - /placeholder: Enter your City
+          - generic [ref=f18e51]:
+            - generic [ref=f18e52]: Gender
+            - generic [ref=f18e53]:
+              - generic [ref=f18e54]:
+                - radio "Male" [ref=f18e55]
+                - generic [ref=f18e56] [cursor=pointer]: Male
+              - generic [ref=f18e57]:
+                - radio "Female" [ref=f18e58]
+                - generic [ref=f18e59] [cursor=pointer]: Female
+              - generic [ref=f18e60]:
+                - radio "Others" [ref=f18e61]
+                - generic [ref=f18e62] [cursor=pointer]: Others
+        - generic [ref=f18e63]:
+          - checkbox "By clicking Create account, I agree that I have read and accepted the Terms of Use and Privacy Policy" [checked] [ref=f18e64] [cursor=pointer]
+          - generic [ref=f18e65] [cursor=pointer]:
+            - text: By clicking Create account, I agree that I have read and accepted the
+            - link "Terms of Use" [ref=f18e66]:
+              - /url: javascript:void(0)
+            - text: and
+            - link "Privacy Policy" [ref=f18e67]:
+              - /url: javascript:void(0)
+          - generic [ref=f18e68]: You must accept the terms and conditions
+        - button "Create Account" [ref=f18e69] [cursor=pointer]

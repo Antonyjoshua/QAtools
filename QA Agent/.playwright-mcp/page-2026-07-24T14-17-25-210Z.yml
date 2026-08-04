@@ -1,0 +1,34 @@
+- generic [active]:
+  - generic [ref=f38e1]:
+    - generic [ref=f38e2]:
+      - generic [ref=f38e3]:
+        - link "" [ref=f38e4] [cursor=pointer]:
+          - /url: /Ebook/Details/20
+          - generic [ref=f38e5]: 
+        - button "" [ref=f38e6] [cursor=pointer]:
+          - generic [ref=f38e7]: 
+        - generic [ref=f38e8]: QA No File Test Ebook
+      - generic:
+        - img "JT Logo"
+      - generic [ref=f38e9]:
+        - button "" [ref=f38e10] [cursor=pointer]:
+          - generic [ref=f38e11]: 
+        - button "" [ref=f38e12] [cursor=pointer]:
+          - generic [ref=f38e13]: 
+        - button "" [ref=f38e14] [cursor=pointer]:
+          - generic [ref=f38e15]: 
+    - generic [ref=f38e16]:
+      - button "" [ref=f38e17] [cursor=pointer]:
+        - generic [ref=f38e18]: 
+      - button "" [ref=f38e20] [cursor=pointer]:
+        - generic [ref=f38e21]: 
+    - generic [ref=f38e22]:
+      - slider [ref=f38e23] [cursor=pointer]: "0"
+      - generic [ref=f38e24]: 0%
+    - text:      
+  - option "Georgia (serif)" [selected]
+  - option "Times New Roman"
+  - option "Helvetica / Arial"
+  - option "Courier (mono)"
+  - option "Palatino"
+  - text: 

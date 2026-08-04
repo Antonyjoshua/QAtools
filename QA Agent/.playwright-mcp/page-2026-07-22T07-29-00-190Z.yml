@@ -1,0 +1,290 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e7]:
+    - generic [ref=f7e8]:
+      - generic [ref=f7e9]:
+        - heading "Dashboard" [level=4] [ref=f7e10]
+        - navigation [ref=f7e11]:
+          - list [ref=f7e12]:
+            - listitem [ref=f7e13]:
+              - link [ref=f7e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f7e15]
+            - listitem [ref=f7e18]: / Index
+      - generic [ref=f7e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f7e22]:
+          - listitem [ref=f7e23]:
+            - generic [ref=f7e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f7e26]:
+      - generic [ref=f7e28]:
+        - text: 
+        - link [ref=f7e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f7e31]:
+          - list [ref=f7e33]:
+            - generic [ref=f7e38]:
+              - text: 
+              - listitem [ref=f7e39]:
+                - link [ref=f7e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f7e41]
+                  - text: 
+              - listitem [ref=f7e43]:
+                - link [ref=f7e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e45]
+                  - text: 
+              - listitem [ref=f7e47]:
+                - link [ref=f7e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e49]
+                  - text: 
+              - listitem [ref=f7e51]:
+                - link [ref=f7e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e53]
+                  - text: 
+              - listitem [ref=f7e55]:
+                - link [ref=f7e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e57]
+                  - text: 
+              - listitem [ref=f7e59]:
+                - link [ref=f7e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e61]
+                  - text: 
+              - listitem [ref=f7e63]:
+                - link "" [ref=f7e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f7e65]: 
+                  - text: 
+              - listitem [ref=f7e66]:
+                - link [ref=f7e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e68]
+                  - text: 
+              - listitem [ref=f7e70]:
+                - link [ref=f7e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e72]
+                  - text: 
+              - listitem [ref=f7e74]:
+                - link [ref=f7e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e76]
+                  - text: 
+              - listitem [ref=f7e78]:
+                - link [ref=f7e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e80]
+                  - text: 
+              - listitem [ref=f7e82]:
+                - link [ref=f7e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e84]
+                  - text: 
+              - listitem [ref=f7e86]:
+                - link [ref=f7e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e88]
+                  - text: 
+              - listitem [ref=f7e90]:
+                - link "general icon" [ref=f7e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f7e92]
+                  - text: 
+              - listitem [ref=f7e93]:
+                - link [ref=f7e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f7e95]
+                  - text: 
+              - listitem [ref=f7e97]:
+                - link [ref=f7e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f7e99]
+                  - text: 
+              - listitem [ref=f7e101]:
+                - link "product icon" [ref=f7e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f7e103]
+                  - text: 
+              - listitem [ref=f7e104]:
+                - link [ref=f7e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e106]
+                  - text: 
+              - listitem [ref=f7e108]:
+                - link [ref=f7e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e110]
+                  - text: 
+              - listitem [ref=f7e112]:
+                - link [ref=f7e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f7e114]
+                  - text: 
+              - listitem [ref=f7e116]:
+                - link [ref=f7e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e118]
+                  - text: 
+              - listitem [ref=f7e120]:
+                - link [ref=f7e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e122]
+                  - text: 
+              - listitem [ref=f7e124]:
+                - link [ref=f7e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f7e126]
+              - listitem [ref=f7e128]:
+                - link [ref=f7e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e130]
+                  - text: 
+              - listitem [ref=f7e132]:
+                - link "notify-ico" [ref=f7e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f7e134]
+                  - text: 
+              - listitem [ref=f7e135]:
+                - link "notify-ico" [ref=f7e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f7e137]
+                  - text: 
+      - main [ref=f7e139]:
+        - generic [ref=f7e143]:
+          - heading "Create Promo Code" [level=5] [ref=f7e145]
+          - generic [ref=f7e147]:
+            - generic [ref=f7e148]:
+              - generic [ref=f7e150]:
+                - generic [ref=f7e151]:
+                  - text: Code
+                  - generic [ref=f7e152]: "*"
+                - textbox "e.g. EXTRA10" [ref=f7e153] [cursor=pointer]
+              - generic [ref=f7e155]:
+                - generic [ref=f7e156]: Description
+                - textbox "e.g. 10% off on first purchase" [ref=f7e157] [cursor=pointer]
+              - generic [ref=f7e159]:
+                - generic [ref=f7e160]:
+                  - text: Discount Type
+                  - generic [ref=f7e161]: "*"
+                - combobox [ref=f7e162] [cursor=pointer]:
+                  - option "Percent (%)" [selected]
+                  - option "Flat (₹)"
+              - generic [ref=f7e164]:
+                - generic [ref=f7e165]:
+                  - text: Discount Value
+                  - generic [ref=f7e166]: "*"
+                - spinbutton [ref=f7e167] [cursor=pointer]
+              - generic [ref=f7e169]:
+                - generic [ref=f7e170]: Max Discount (₹) — percent cap
+                - spinbutton [ref=f7e171] [cursor=pointer]
+              - generic [ref=f7e173]:
+                - generic [ref=f7e174]: Min Purchase (₹)
+                - spinbutton [ref=f7e175] [cursor=pointer]
+              - generic [ref=f7e177]:
+                - generic [ref=f7e178]: Valid From
+                - textbox [ref=f7e179] [cursor=pointer]
+              - generic [ref=f7e181]:
+                - generic [ref=f7e182]: Valid To
+                - textbox [ref=f7e183] [cursor=pointer]
+              - generic [ref=f7e185]:
+                - generic [ref=f7e186]: Max Total Redemptions
+                - spinbutton "Unlimited" [ref=f7e187] [cursor=pointer]
+              - generic [ref=f7e189]:
+                - generic [ref=f7e190]: Max Redemptions / User
+                - spinbutton "Unlimited" [ref=f7e191] [cursor=pointer]
+              - generic [ref=f7e193]:
+                - generic [ref=f7e194]: Returning Customers Only?
+                - generic [ref=f7e195]:
+                  - checkbox "Requires a prior successful purchase" [ref=f7e196] [cursor=pointer]
+                  - generic [ref=f7e197]: Requires a prior successful purchase
+              - generic [ref=f7e199]:
+                - generic [ref=f7e200]: "Scope: Courses — leave empty for any"
+                - listbox [ref=f7e201] [cursor=pointer]:
+                  - option [ref=f7e202]: TNPSC Course Group 4
+                  - option [ref=f7e203]: GST TEst
+                  - option [ref=f7e204]: GST exclu multi
+                  - option [ref=f7e205]: GST Multil inclu
+                  - option [ref=f7e206]: GST Exclu
+                  - option [ref=f7e207]: GST Inclu
+                  - option [ref=f7e208]: Blob course
+                  - option [ref=f7e209]: QA Test Course
+                  - option [ref=f7e210]: TNPSC Group 4 Complete Preparation Course 2026
+                  - option [ref=f7e211]: Jt Release Course
+                  - option [ref=f7e212]: TNPSC Foundation Course
+                  - option [ref=f7e213]: Tamil Course
+                  - option [ref=f7e214]: TNPSC Group 4 Mastery Program 2026 – Complete Exam Preparation
+                  - option [ref=f7e215]: Post office exam- Tamil nadu 2026
+                  - option [ref=f7e216]: TNUSRB Police Constable
+                  - option [ref=f7e217]: TNPSC-G2
+                  - option [ref=f7e218]: TNPSC-G1
+                  - option [ref=f7e219]: Free course 2
+                  - option [ref=f7e220]: Bank course
+                  - option [ref=f7e221]: Indian Railways- Batch 1,2,3,4- Tnpsc-இந்தியாவின் முக்கியமான மாநிலம்- Tamil nadu-வின் முக்கியமான மாநிலம்- Tamil nadu- வின் முக்கியமான மாநிலம்- Tamil nadu-வின் முக்கியமான மாநிலம்- Tamil nadu
+                  - option [ref=f7e222]: Jtcourse 2
+                  - option [ref=f7e223]: JtCourse
+                  - option [ref=f7e224]: MultipleFolderType
+                  - option [ref=f7e225]: Multiplecardtypefolder
+                  - option [ref=f7e226]: Singlefoldercourse
+                  - option [ref=f7e227]: Singlecourse
+                  - option [ref=f7e228]: Aptitude & Mental Ability
+                  - option [ref=f7e229]: TNPSC GROUP-4 FOLDER
+                  - option [ref=f7e230]: SelfHost Course
+                  - option [ref=f7e231]: Assessment Free Course
+                  - option [ref=f7e232]: JT Phase 3
+                  - option [ref=f7e233]: Assessment course 01
+                  - option [ref=f7e234]: Railway course 3
+                  - option [ref=f7e235]: Railway course 2
+                  - option [ref=f7e236]: Political Polity
+                  - option [ref=f7e237]: Railway course
+                  - option [ref=f7e238]: Banking course
+                  - option [ref=f7e239]: Group 2A
+                  - option [ref=f7e240]: Group A course
+                  - option [ref=f7e241]: Test0025
+                  - option [ref=f7e242]: Group 6 course
+                  - option [ref=f7e243]: Group 5 course
+                  - option [ref=f7e244]: Group 4 Course
+                  - option [ref=f7e245]: Group 3 course
+                  - option [ref=f7e246]: Pongal Special Course
+                  - option [ref=f7e247]: JT Batch-2026 Course
+                  - option [ref=f7e248]: Software Testing
+                  - option [ref=f7e249]: 12TH ECONOMICS
+                  - option [ref=f7e250]: TNPSC_Group1new 008
+                  - option [ref=f7e251]: Group 2 course
+                  - option [ref=f7e252]: tEST
+                  - option [ref=f7e253]: Silver membership
+                  - option [ref=f7e254]: Paid membership
+                  - option [ref=f7e255]: Group 1 course
+                  - option [ref=f7e256]: Social
+                  - option [ref=f7e257]: Automation Testing
+                  - option [ref=f7e258]: Software Testing Course
+                  - option [ref=f7e259]: Kingdom - 2026
+                - combobox [ref=f7e262]:
+                  - list
+                  - searchbox "Search" [ref=f7e264]
+              - generic [ref=f7e266]:
+                - generic [ref=f7e267]: Is Active?
+                - generic [ref=f7e268]:
+                  - checkbox "Active" [checked] [ref=f7e269] [cursor=pointer]
+                  - generic [ref=f7e270]: Active
+            - generic [ref=f7e271]:
+              - link "Create" [ref=f7e272] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - link "Cancel" [ref=f7e273] [cursor=pointer]:
+                - /url: /PromoCode/Index
+      - contentinfo [ref=f7e274]:
+        - paragraph [ref=f7e278]:
+          - text: Copyright
+          - generic [ref=f7e279]: "2026"
+          - text: © Jeshwar Teaching
+  - img

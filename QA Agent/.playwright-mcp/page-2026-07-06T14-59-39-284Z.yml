@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - heading "HTTP Error 500.30 - ASP.NET Core app failed to start" [level=1] [ref=e2]
+  - heading "Common solutions to this issue:" [level=2] [ref=e3]
+  - list [ref=e4]:
+    - listitem [ref=e5]: The app failed to start
+    - listitem [ref=e6]: The app started but then stopped
+    - listitem [ref=e7]: The app started but threw an exception during startup
+  - heading "Troubleshooting steps:" [level=2] [ref=e8]
+  - list [ref=e9]:
+    - listitem [ref=e10]: Check the system event log for error messages
+    - listitem [ref=e11]: Enable logging the application process' stdout messages
+    - listitem [ref=e12]: Attach a debugger to the application process and inspect
+  - heading "For more guidance on diagnosing and handling these errors, visit Troubleshoot ASP.NET Core on Azure App Service and IIS." [level=2] [ref=e13]:
+    - text: For more guidance on diagnosing and handling these errors, visit
+    - link "Troubleshoot ASP.NET Core on Azure App Service and IIS" [ref=e14] [cursor=pointer]:
+      - /url: https://go.microsoft.com/fwlink/?LinkID=2028526
+    - text: .

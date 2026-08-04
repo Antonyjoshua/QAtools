@@ -1,0 +1,656 @@
+- generic [ref=f89e1]:
+  - generic [ref=f89e2]:
+    - generic [ref=f89e3]:
+      - generic [ref=f89e5]:
+        - generic [ref=f89e6]:
+          - link "Logo" [ref=f89e7] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - img "Logo" [ref=f89e8]
+          - text: 
+        - list [ref=f89e9]:
+          - listitem [ref=f89e10]:
+            - link " Dashboard" [ref=f89e11] [cursor=pointer]:
+              - /url: /Dashboard/Index
+              - generic [ref=f89e12]: 
+              - text: Dashboard
+          - listitem [ref=f89e13]:
+            - link " Batches" [ref=f89e14] [cursor=pointer]:
+              - /url: /Batches/Index
+              - generic [ref=f89e15]: 
+              - text: Batches
+          - listitem [ref=f89e16]:
+            - link " My Courses" [ref=f89e17] [cursor=pointer]:
+              - /url: /Course/Index
+              - generic [ref=f89e18]: 
+              - text: My Courses
+          - listitem [ref=f89e19]:
+            - link " Ebooks" [ref=f89e20] [cursor=pointer]:
+              - /url: /Ebook/Index
+              - generic [ref=f89e21]: 
+              - text: Ebooks
+          - listitem [ref=f89e22]:
+            - link " Wishlist" [ref=f89e23] [cursor=pointer]:
+              - /url: /Wishlist/Index
+              - generic [ref=f89e24]: 
+              - text: Wishlist
+          - listitem [ref=f89e25]:
+            - link " Audiobook" [ref=f89e26] [cursor=pointer]:
+              - /url: /Podcast/Index
+              - generic [ref=f89e27]: 
+              - text: Audiobook
+          - listitem [ref=f89e28]:
+            - link " Resources" [ref=f89e29] [cursor=pointer]:
+              - /url: /Resources/Index
+              - generic [ref=f89e30]: 
+              - text: Resources
+          - listitem [ref=f89e31]:
+            - link " Current Affairs" [ref=f89e32] [cursor=pointer]:
+              - /url: /CurrentAffairs/Index
+              - generic [ref=f89e33]: 
+              - text: Current Affairs
+          - listitem [ref=f89e34]:
+            - link " Test" [ref=f89e35] [cursor=pointer]:
+              - /url: /Assessment/Batches
+              - generic [ref=f89e36]: 
+              - text: Test
+          - listitem [ref=f89e37]:
+            - link " Settings" [ref=f89e38] [cursor=pointer]:
+              - /url: /Settings/Index
+              - generic [ref=f89e39]: 
+              - text: Settings
+          - listitem [ref=f89e40]:
+            - link " Call Reminders" [ref=f89e41] [cursor=pointer]:
+              - /url: /CallReminder/Index
+              - generic [ref=f89e42]: 
+              - text: Call Reminders
+          - listitem [ref=f89e43]:
+            - link " Leaderboard" [ref=f89e44] [cursor=pointer]:
+              - /url: /Leaderboard/Index
+              - generic [ref=f89e45]: 
+              - text: Leaderboard
+          - listitem [ref=f89e46]:
+            - button " APL " [ref=f89e47] [cursor=pointer]:
+              - generic [ref=f89e48]:
+                - generic [ref=f89e49]: 
+                - text: APL
+              - generic [ref=f89e50]: 
+            - text:   
+          - listitem [ref=f89e51]:
+            - link " Notification" [ref=f89e52] [cursor=pointer]:
+              - /url: /Notification/Notifications
+              - generic [ref=f89e53]: 
+              - text: Notification
+          - listitem [ref=f89e54]:
+            - button " Logout" [ref=f89e56] [cursor=pointer]:
+              - generic [ref=f89e57]: 
+              - text: Logout
+      - generic [ref=f89e59]:
+        - banner [ref=f89e60]:
+          - text: 
+          - generic [ref=f89e61]:
+            - generic [ref=f89e62]:
+              - generic [ref=f89e63]: 
+              - textbox "Search Course" [ref=f89e64]
+              - text: 
+            - link "" [ref=f89e66] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=f89e68]: 
+            - link "Profile qatestpromo20260721" [ref=f89e70] [cursor=pointer]:
+              - /url: "#"
+              - img "Profile" [ref=f89e71]
+              - generic [ref=f89e72]: qatestpromo20260721
+        - generic [ref=f89e74]:
+          - heading "Checkout" [level=3] [ref=f89e75]
+          - generic [ref=f89e76]:
+            - generic [ref=f89e77]:
+              - generic [ref=f89e79]:
+                - img "GST Inclu" [ref=f89e80]
+                - generic [ref=f89e81]:
+                  - heading "GST Inclu" [level=5] [ref=f89e82]
+                  - generic [ref=f89e84]: GST membership (inclu)
+              - generic [ref=f89e85]:
+                - generic [ref=f89e86]:
+                  - heading "Have a promo code?" [level=5] [ref=f89e87]
+                  - button "View Promo Codes ▼" [ref=f89e88] [cursor=pointer]
+                - generic [ref=f89e89]:
+                  - textbox "Enter promo code" [ref=f89e90]: QATEST_SINGLEUSE
+                  - button "Apply" [ref=f89e91] [cursor=pointer]
+                - generic [ref=f89e119]:
+                  - generic [ref=f89e120]: Promo code QATEST_SINGLEUSE applied — you saved ₹200
+                  - button "✕ Clear" [ref=f89e121] [cursor=pointer]
+            - generic [ref=f89e93]:
+              - heading "Order Summary" [level=5] [ref=f89e94]
+              - generic [ref=f89e95]:
+                - generic [ref=f89e96]: Course Fee
+                - generic [ref=f89e97]: ₹1000
+              - generic [ref=f89e122]:
+                - generic [ref=f89e123]: Promo Discount
+                - generic [ref=f89e124]: "-₹200"
+              - generic [ref=f89e98]:
+                - generic [ref=f89e99]: GST
+                - generic [ref=f89e100]: 10% (Inclusive)
+              - separator [ref=f89e101]
+              - generic [ref=f89e102]:
+                - generic [ref=f89e103]: Total
+                - generic [ref=f89e104]: ₹800
+              - button "Pay ₹ 800" [ref=f89e125] [cursor=pointer]:
+                - text: Pay ₹
+                - generic [ref=f89e106]: "800"
+              - link "Back to course" [ref=f89e107] [cursor=pointer]:
+                - /url: /Purchase/Index?courseId=138
+    - generic "Ask a doubt" [ref=f89e108]:
+      - generic [ref=f89e109]: 
+    - text:      
+    - contentinfo [ref=f89e110]:
+      - generic [ref=f89e111]:
+        - paragraph [ref=f89e113]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+        - generic [ref=f89e114]:
+          - link "About Us" [ref=f89e115] [cursor=pointer]:
+            - /url: /Content/AboutUs
+          - link "Privacy Policy" [ref=f89e116] [cursor=pointer]:
+            - /url: /Content/PrivacyPolicy
+          - link "Terms & Conditions" [ref=f89e117] [cursor=pointer]:
+            - /url: /Content/TermsCondition
+          - link "Refund Policy" [ref=f89e118] [cursor=pointer]:
+            - /url: /Content/RefundPolicy
+  - generic [ref=f89e126]:
+    - generic [ref=f89e128]: Test Mode
+    - iframe [active] [ref=f89e129]:
+      - generic [ref=f90e2]:
+        - generic [ref=f90e3]:
+          - generic [ref=f90e4]:
+            - generic [ref=f90e7]:
+              - generic [ref=f90e8]: J
+              - generic "JT Learning Portal" [ref=f90e10]
+            - generic [ref=f90e12]:
+              - generic [ref=f90e13]:
+                - generic [ref=f90e17]:
+                  - generic [ref=f90e19]: Price Summary
+                  - heading "₹ 0 1 2 3 4 5 6 7 8 9 0 0 1 2 3 4 5 6 7 8 9 0 0 1 2 3 4 5 6 7 8 9 0" [level=3] [ref=f90e22]:
+                    - generic [ref=f90e23]: ₹
+                    - generic [ref=f90e24]:
+                      - generic [ref=f90e25]: "0"
+                      - generic [ref=f90e26]: "1"
+                      - generic [ref=f90e27]: "2"
+                      - generic [ref=f90e28]: "3"
+                      - generic [ref=f90e29]: "4"
+                      - generic [ref=f90e30]: "5"
+                      - generic [ref=f90e31]: "6"
+                      - generic [ref=f90e32]: "7"
+                      - generic [ref=f90e33]: "8"
+                      - generic [ref=f90e34]: "9"
+                      - generic [ref=f90e35]: "0"
+                    - generic [ref=f90e36]:
+                      - generic [ref=f90e37]: "0"
+                      - generic [ref=f90e38]: "1"
+                      - generic [ref=f90e39]: "2"
+                      - generic [ref=f90e40]: "3"
+                      - generic [ref=f90e41]: "4"
+                      - generic [ref=f90e42]: "5"
+                      - generic [ref=f90e43]: "6"
+                      - generic [ref=f90e44]: "7"
+                      - generic [ref=f90e45]: "8"
+                      - generic [ref=f90e46]: "9"
+                      - generic [ref=f90e47]: "0"
+                    - generic [ref=f90e48]:
+                      - generic [ref=f90e49]: "0"
+                      - generic [ref=f90e50]: "1"
+                      - generic [ref=f90e51]: "2"
+                      - generic [ref=f90e52]: "3"
+                      - generic [ref=f90e53]: "4"
+                      - generic [ref=f90e54]: "5"
+                      - generic [ref=f90e55]: "6"
+                      - generic [ref=f90e56]: "7"
+                      - generic [ref=f90e57]: "8"
+                      - generic [ref=f90e58]: "9"
+                      - generic [ref=f90e59]: "0"
+                - button "Using as +91 98765 43212" [ref=f90e60] [cursor=pointer]:
+                  - img [ref=f90e62]
+                  - generic [ref=f90e65]: Using as +91 98765 43212
+                  - img [ref=f90e67]
+              - generic [ref=f90e69]:
+                - generic [ref=f90e70]: Secured by
+                - generic "RazorPay" [ref=f90e71]:
+                  - img [ref=f90e72]
+            - generic:
+              - img
+          - generic [ref=f90e75]:
+            - generic [ref=f90e76]:
+              - generic [ref=f90e77]: Payment Options
+              - generic [ref=f90e78]:
+                - button "Show more options" [ref=f90e79] [cursor=pointer]:
+                  - img [ref=f90e81]
+                - button "Close Checkout" [ref=f90e83] [cursor=pointer]:
+                  - img [ref=f90e85]
+            - separator [ref=f90e87]
+            - generic [ref=f90e92]:
+              - generic [ref=f90e94]:
+                - generic [ref=f90e95] [cursor=pointer]:
+                  - radio "Cards VISA MC RUPAY MAES"
+                  - generic [ref=f90e97]:
+                    - generic [ref=f90e100]: Cards
+                    - generic [ref=f90e102]:
+                      - img "VISA" [ref=f90e104]
+                      - img "MC" [ref=f90e106]
+                      - img "RUPAY" [ref=f90e108]
+                      - img "MAES" [ref=f90e110]
+                - generic [ref=f90e111] [cursor=pointer]:
+                  - radio "Netbanking BARB_R CNRB PUNB_R UTBI" [checked]
+                  - generic [ref=f90e113]:
+                    - generic [ref=f90e116]: Netbanking
+                    - generic [ref=f90e118]:
+                      - img "BARB_R" [ref=f90e120]
+                      - img "CNRB" [ref=f90e122]
+                      - img "PUNB_R" [ref=f90e124]
+                      - img "UTBI" [ref=f90e126]
+                - generic [ref=f90e127] [cursor=pointer]:
+                  - radio "Wallet mobikwik airtelmoney olamoney"
+                  - generic [ref=f90e129]:
+                    - generic [ref=f90e132]: Wallet
+                    - generic [ref=f90e134]:
+                      - img "mobikwik" [ref=f90e136]
+                      - img "airtelmoney" [ref=f90e138]
+                      - img "olamoney" [ref=f90e140]
+                - generic [ref=f90e141] [cursor=pointer]:
+                  - radio "Pay Later lazypay icic epaylater kkbk"
+                  - generic [ref=f90e143]:
+                    - generic [ref=f90e146]: Pay Later
+                    - generic [ref=f90e148]:
+                      - img "lazypay" [ref=f90e150]
+                      - img "icic" [ref=f90e152]
+                      - img "epaylater" [ref=f90e154]
+                      - img "kkbk" [ref=f90e156]
+              - generic [ref=f90e443]:
+                - generic [ref=f90e446]:
+                  - img [ref=f90e449]
+                  - textbox [ref=f90e451]:
+                    - /placeholder: Search for Banks
+                - generic [ref=f90e452]:
+                  - heading "Suggested Banks" [level=3] [ref=f90e453]
+                  - generic [ref=f90e454]:
+                    - generic [ref=f90e455] [cursor=pointer]:
+                      - radio "Bank of Baroda - Retail Banking Bank of Baroda - Retail Banking For Individuals"
+                      - button "Bank of Baroda - Retail Banking Bank of Baroda - Retail Banking For Individuals" [ref=f90e456]:
+                        - generic [ref=f90e457]:
+                          - generic [ref=f90e458]:
+                            - img "Bank of Baroda - Retail Banking" [ref=f90e459]
+                            - generic [ref=f90e460]:
+                              - generic [ref=f90e461]: Bank of Baroda - Retail Banking
+                              - generic [ref=f90e463]: For Individuals
+                          - img [ref=f90e465]
+                    - generic [ref=f90e467] [cursor=pointer]:
+                      - radio "Canara Bank Canara Bank"
+                      - button "Canara Bank Canara Bank" [ref=f90e468]:
+                        - generic [ref=f90e469]:
+                          - generic [ref=f90e470]:
+                            - img "Canara Bank" [ref=f90e471]
+                            - generic [ref=f90e473]: Canara Bank
+                          - img [ref=f90e475]
+                    - generic [ref=f90e477] [cursor=pointer]:
+                      - radio "Punjab National Bank - Retail Banking Punjab National Bank - Retail Banking For Individuals"
+                      - button "Punjab National Bank - Retail Banking Punjab National Bank - Retail Banking For Individuals" [ref=f90e478]:
+                        - generic [ref=f90e479]:
+                          - generic [ref=f90e480]:
+                            - img "Punjab National Bank - Retail Banking" [ref=f90e481]
+                            - generic [ref=f90e482]:
+                              - generic [ref=f90e483]: Punjab National Bank - Retail Banking
+                              - generic [ref=f90e485]: For Individuals
+                          - img [ref=f90e487]
+                    - generic [ref=f90e489] [cursor=pointer]:
+                      - radio "PNB (Erstwhile-United Bank of India) PNB (Erstwhile-United Bank of India)"
+                      - button "PNB (Erstwhile-United Bank of India) PNB (Erstwhile-United Bank of India)" [ref=f90e490]:
+                        - generic [ref=f90e491]:
+                          - generic [ref=f90e492]:
+                            - img "PNB (Erstwhile-United Bank of India)" [ref=f90e493]
+                            - generic [ref=f90e495]: PNB (Erstwhile-United Bank of India)
+                          - img [ref=f90e497]
+                    - generic [ref=f90e499] [cursor=pointer]:
+                      - radio "IDBI IDBI"
+                      - button "IDBI IDBI" [ref=f90e500]:
+                        - generic [ref=f90e501]:
+                          - generic [ref=f90e502]:
+                            - img "IDBI" [ref=f90e503]
+                            - generic [ref=f90e505]: IDBI
+                          - img [ref=f90e507]
+                - generic [ref=f90e509]:
+                  - heading "All Banks" [level=3] [ref=f90e510]
+                  - generic [ref=f90e511]:
+                    - generic [ref=f90e512] [cursor=pointer]:
+                      - radio "Airtel Payments Bank Airtel Payments Bank"
+                      - button "Airtel Payments Bank Airtel Payments Bank" [ref=f90e513]:
+                        - generic [ref=f90e514]:
+                          - generic [ref=f90e515]:
+                            - img "Airtel Payments Bank" [ref=f90e516]
+                            - generic [ref=f90e518]: Airtel Payments Bank
+                          - img [ref=f90e520]
+                    - generic [ref=f90e522] [cursor=pointer]:
+                      - radio "Indian Bank (Erstwhile Allahabad Bank) Indian Bank (Erstwhile Allahabad Bank)"
+                      - button "Indian Bank (Erstwhile Allahabad Bank) Indian Bank (Erstwhile Allahabad Bank)" [ref=f90e523]:
+                        - generic [ref=f90e524]:
+                          - generic [ref=f90e525]:
+                            - img "Indian Bank (Erstwhile Allahabad Bank)" [ref=f90e526]
+                            - generic [ref=f90e528]: Indian Bank (Erstwhile Allahabad Bank)
+                          - img [ref=f90e530]
+                    - generic [ref=f90e532] [cursor=pointer]:
+                      - radio "AU Small Finance Bank AU Small Finance Bank"
+                      - button "AU Small Finance Bank AU Small Finance Bank" [ref=f90e533]:
+                        - generic [ref=f90e534]:
+                          - generic [ref=f90e535]:
+                            - img "AU Small Finance Bank" [ref=f90e536]
+                            - generic [ref=f90e538]: AU Small Finance Bank
+                          - img [ref=f90e540]
+                    - generic [ref=f90e542] [cursor=pointer]:
+                      - radio "Bank of Baroda - Retail Banking Bank of Baroda - Retail Banking For Individuals"
+                      - button "Bank of Baroda - Retail Banking Bank of Baroda - Retail Banking For Individuals" [ref=f90e543]:
+                        - generic [ref=f90e544]:
+                          - generic [ref=f90e545]:
+                            - img "Bank of Baroda - Retail Banking" [ref=f90e546]
+                            - generic [ref=f90e547]:
+                              - generic [ref=f90e548]: Bank of Baroda - Retail Banking
+                              - generic [ref=f90e550]: For Individuals
+                          - img [ref=f90e552]
+                    - generic [ref=f90e554] [cursor=pointer]:
+                      - radio "Bank of India - Corporate Banking Bank of India - Corporate Banking For Businesses"
+                      - button "Bank of India - Corporate Banking Bank of India - Corporate Banking For Businesses" [ref=f90e555]:
+                        - generic [ref=f90e556]:
+                          - generic [ref=f90e557]:
+                            - img "Bank of India - Corporate Banking" [ref=f90e558]
+                            - generic [ref=f90e559]:
+                              - generic [ref=f90e560]: Bank of India - Corporate Banking
+                              - generic [ref=f90e562]: For Businesses
+                          - img [ref=f90e564]
+                    - generic [ref=f90e566] [cursor=pointer]:
+                      - radio "Central Bank of India Central Bank of India"
+                      - button "Central Bank of India Central Bank of India" [ref=f90e567]:
+                        - generic [ref=f90e568]:
+                          - generic [ref=f90e569]:
+                            - img "Central Bank of India" [ref=f90e570]
+                            - generic [ref=f90e572]: Central Bank of India
+                          - img [ref=f90e574]
+                    - generic [ref=f90e576] [cursor=pointer]:
+                      - radio "Canara Bank Canara Bank"
+                      - button "Canara Bank Canara Bank" [ref=f90e577]:
+                        - generic [ref=f90e578]:
+                          - generic [ref=f90e579]:
+                            - img "Canara Bank" [ref=f90e580]
+                            - generic [ref=f90e582]: Canara Bank
+                          - img [ref=f90e584]
+                    - generic [ref=f90e586] [cursor=pointer]:
+                      - radio "Union Bank of India (Erstwhile Corporation Bank) Union Bank of India (Erstwhile Corporation Bank)"
+                      - button "Union Bank of India (Erstwhile Corporation Bank) Union Bank of India (Erstwhile Corporation Bank)" [ref=f90e587]:
+                        - generic [ref=f90e588]:
+                          - generic [ref=f90e589]:
+                            - img "Union Bank of India (Erstwhile Corporation Bank)" [ref=f90e590]
+                            - generic [ref=f90e592]: Union Bank of India (Erstwhile Corporation Bank)
+                          - img [ref=f90e594]
+                    - generic [ref=f90e596] [cursor=pointer]:
+                      - radio "Catholic Syrian Bank Catholic Syrian Bank"
+                      - button "Catholic Syrian Bank Catholic Syrian Bank" [ref=f90e597]:
+                        - generic [ref=f90e598]:
+                          - generic [ref=f90e599]:
+                            - img "Catholic Syrian Bank" [ref=f90e600]
+                            - generic [ref=f90e602]: Catholic Syrian Bank
+                          - img [ref=f90e604]
+                    - generic [ref=f90e606] [cursor=pointer]:
+                      - radio "DCB Bank DCB Bank"
+                      - button "DCB Bank DCB Bank" [ref=f90e607]:
+                        - generic [ref=f90e608]:
+                          - generic [ref=f90e609]:
+                            - img "DCB Bank" [ref=f90e610]
+                            - generic [ref=f90e612]: DCB Bank
+                          - img [ref=f90e614]
+                    - generic [ref=f90e616] [cursor=pointer]:
+                      - radio "Deutsche Bank Deutsche Bank"
+                      - button "Deutsche Bank Deutsche Bank" [ref=f90e617]:
+                        - generic [ref=f90e618]:
+                          - generic [ref=f90e619]:
+                            - img "Deutsche Bank" [ref=f90e620]
+                            - generic [ref=f90e622]: Deutsche Bank
+                          - img [ref=f90e624]
+                    - generic [ref=f90e626] [cursor=pointer]:
+                      - radio "Dhanlaxmi Bank Dhanlaxmi Bank Dhanlaxmi Bank payments are currently facing issues. Please try with other payment options."
+                      - button "Dhanlaxmi Bank Dhanlaxmi Bank Dhanlaxmi Bank payments are currently facing issues. Please try with other payment options." [ref=f90e627]:
+                        - generic [ref=f90e628]:
+                          - generic [ref=f90e629]:
+                            - img "Dhanlaxmi Bank" [ref=f90e630]
+                            - generic [ref=f90e632]: Dhanlaxmi Bank
+                          - img [ref=f90e634]
+                        - generic [ref=f90e636]:
+                          - img [ref=f90e639]
+                          - text: Dhanlaxmi Bank payments are currently facing issues. Please try with other payment options.
+                    - generic [ref=f90e643] [cursor=pointer]:
+                      - radio "Equitas Small Finance Bank Equitas Small Finance Bank"
+                      - button "Equitas Small Finance Bank Equitas Small Finance Bank" [ref=f90e644]:
+                        - generic [ref=f90e645]:
+                          - generic [ref=f90e646]:
+                            - img "Equitas Small Finance Bank" [ref=f90e647]
+                            - generic [ref=f90e649]: Equitas Small Finance Bank
+                          - img [ref=f90e651]
+                    - generic [ref=f90e653] [cursor=pointer]:
+                      - radio "Fincare Small Finance Bank Fincare Small Finance Bank"
+                      - button "Fincare Small Finance Bank Fincare Small Finance Bank" [ref=f90e654]:
+                        - generic [ref=f90e655]:
+                          - generic [ref=f90e656]:
+                            - img "Fincare Small Finance Bank" [ref=f90e657]
+                            - generic [ref=f90e659]: Fincare Small Finance Bank
+                          - img [ref=f90e661]
+                    - generic [ref=f90e663] [cursor=pointer]:
+                      - radio "IDBI IDBI"
+                      - button "IDBI IDBI" [ref=f90e664]:
+                        - generic [ref=f90e665]:
+                          - generic [ref=f90e666]:
+                            - img "IDBI" [ref=f90e667]
+                            - generic [ref=f90e669]: IDBI
+                          - img [ref=f90e671]
+                    - generic [ref=f90e673] [cursor=pointer]:
+                      - radio "IDFC FIRST Bank IDFC FIRST Bank"
+                      - button "IDFC FIRST Bank IDFC FIRST Bank" [ref=f90e674]:
+                        - generic [ref=f90e675]:
+                          - generic [ref=f90e676]:
+                            - img "IDFC FIRST Bank" [ref=f90e677]
+                            - generic [ref=f90e679]: IDFC FIRST Bank
+                          - img [ref=f90e681]
+                    - generic [ref=f90e683] [cursor=pointer]:
+                      - radio "Indian Bank Indian Bank"
+                      - button "Indian Bank Indian Bank" [ref=f90e684]:
+                        - generic [ref=f90e685]:
+                          - generic [ref=f90e686]:
+                            - img "Indian Bank" [ref=f90e687]
+                            - generic [ref=f90e689]: Indian Bank
+                          - img [ref=f90e691]
+                    - generic [ref=f90e693] [cursor=pointer]:
+                      - radio "Indusind Bank Indusind Bank"
+                      - button "Indusind Bank Indusind Bank" [ref=f90e694]:
+                        - generic [ref=f90e695]:
+                          - generic [ref=f90e696]:
+                            - img "Indusind Bank" [ref=f90e697]
+                            - generic [ref=f90e699]: Indusind Bank
+                          - img [ref=f90e701]
+                    - generic [ref=f90e703] [cursor=pointer]:
+                      - radio "Indian Overseas Bank Indian Overseas Bank"
+                      - button "Indian Overseas Bank Indian Overseas Bank" [ref=f90e704]:
+                        - generic [ref=f90e705]:
+                          - generic [ref=f90e706]:
+                            - img "Indian Overseas Bank" [ref=f90e707]
+                            - generic [ref=f90e709]: Indian Overseas Bank
+                          - img [ref=f90e711]
+                    - generic [ref=f90e713] [cursor=pointer]:
+                      - radio "Jammu and Kashmir Bank Jammu and Kashmir Bank"
+                      - button "Jammu and Kashmir Bank Jammu and Kashmir Bank" [ref=f90e714]:
+                        - generic [ref=f90e715]:
+                          - generic [ref=f90e716]:
+                            - img "Jammu and Kashmir Bank" [ref=f90e717]
+                            - generic [ref=f90e719]: Jammu and Kashmir Bank
+                          - img [ref=f90e721]
+                    - generic [ref=f90e723] [cursor=pointer]:
+                      - radio "Jana Small Finance Bank Jana Small Finance Bank"
+                      - button "Jana Small Finance Bank Jana Small Finance Bank" [ref=f90e724]:
+                        - generic [ref=f90e725]:
+                          - generic [ref=f90e726]:
+                            - img "Jana Small Finance Bank" [ref=f90e727]
+                            - generic [ref=f90e729]: Jana Small Finance Bank
+                          - img [ref=f90e731]
+                    - generic [ref=f90e733] [cursor=pointer]:
+                      - radio "Karnataka Bank Karnataka Bank"
+                      - button "Karnataka Bank Karnataka Bank" [ref=f90e734]:
+                        - generic [ref=f90e735]:
+                          - generic [ref=f90e736]:
+                            - img "Karnataka Bank" [ref=f90e737]
+                            - generic [ref=f90e739]: Karnataka Bank
+                          - img [ref=f90e741]
+                    - generic [ref=f90e743] [cursor=pointer]:
+                      - radio "Karur Vysya Bank Karur Vysya Bank"
+                      - button "Karur Vysya Bank Karur Vysya Bank" [ref=f90e744]:
+                        - generic [ref=f90e745]:
+                          - generic [ref=f90e746]:
+                            - img "Karur Vysya Bank" [ref=f90e747]
+                            - generic [ref=f90e749]: Karur Vysya Bank
+                          - img [ref=f90e751]
+                    - generic [ref=f90e753] [cursor=pointer]:
+                      - radio "Lakshmi Vilas Bank - Retail Banking Lakshmi Vilas Bank - Retail Banking For Individuals"
+                      - button "Lakshmi Vilas Bank - Retail Banking Lakshmi Vilas Bank - Retail Banking For Individuals" [ref=f90e754]:
+                        - generic [ref=f90e755]:
+                          - generic [ref=f90e756]:
+                            - img "Lakshmi Vilas Bank - Retail Banking" [ref=f90e757]
+                            - generic [ref=f90e758]:
+                              - generic [ref=f90e759]: Lakshmi Vilas Bank - Retail Banking
+                              - generic [ref=f90e761]: For Individuals
+                          - img [ref=f90e763]
+                    - generic [ref=f90e765] [cursor=pointer]:
+                      - radio "Bank of Maharashtra Bank of Maharashtra"
+                      - button "Bank of Maharashtra Bank of Maharashtra" [ref=f90e766]:
+                        - generic [ref=f90e767]:
+                          - generic [ref=f90e768]:
+                            - img "Bank of Maharashtra" [ref=f90e769]
+                            - generic [ref=f90e771]: Bank of Maharashtra
+                          - img [ref=f90e773]
+                    - generic [ref=f90e775] [cursor=pointer]:
+                      - radio "NSDL Payments Bank NSDL Payments Bank"
+                      - button "NSDL Payments Bank NSDL Payments Bank" [ref=f90e776]:
+                        - generic [ref=f90e777]:
+                          - generic [ref=f90e778]:
+                            - img "NSDL Payments Bank" [ref=f90e779]
+                            - generic [ref=f90e781]: NSDL Payments Bank
+                          - img [ref=f90e783]
+                    - generic [ref=f90e785] [cursor=pointer]:
+                      - radio "PNB (Erstwhile-Oriental Bank of Commerce) PNB (Erstwhile-Oriental Bank of Commerce)"
+                      - button "PNB (Erstwhile-Oriental Bank of Commerce) PNB (Erstwhile-Oriental Bank of Commerce)" [ref=f90e786]:
+                        - generic [ref=f90e787]:
+                          - generic [ref=f90e788]:
+                            - img "PNB (Erstwhile-Oriental Bank of Commerce)" [ref=f90e789]
+                            - generic [ref=f90e791]: PNB (Erstwhile-Oriental Bank of Commerce)
+                          - img [ref=f90e793]
+                    - generic [ref=f90e795] [cursor=pointer]:
+                      - radio "Punjab & Sind Bank Punjab & Sind Bank"
+                      - button "Punjab & Sind Bank Punjab & Sind Bank" [ref=f90e796]:
+                        - generic [ref=f90e797]:
+                          - generic [ref=f90e798]:
+                            - img "Punjab & Sind Bank" [ref=f90e799]
+                            - generic [ref=f90e801]: Punjab & Sind Bank
+                          - img [ref=f90e803]
+                    - generic [ref=f90e805] [cursor=pointer]:
+                      - radio "Punjab National Bank - Retail Banking Punjab National Bank - Retail Banking For Individuals"
+                      - button "Punjab National Bank - Retail Banking Punjab National Bank - Retail Banking For Individuals" [ref=f90e806]:
+                        - generic [ref=f90e807]:
+                          - generic [ref=f90e808]:
+                            - img "Punjab National Bank - Retail Banking" [ref=f90e809]
+                            - generic [ref=f90e810]:
+                              - generic [ref=f90e811]: Punjab National Bank - Retail Banking
+                              - generic [ref=f90e813]: For Individuals
+                          - img [ref=f90e815]
+                    - generic [ref=f90e817] [cursor=pointer]:
+                      - radio "RBL Bank RBL Bank"
+                      - button "RBL Bank RBL Bank" [ref=f90e818]:
+                        - generic [ref=f90e819]:
+                          - generic [ref=f90e820]:
+                            - img "RBL Bank" [ref=f90e821]
+                            - generic [ref=f90e823]: RBL Bank
+                          - img [ref=f90e825]
+                    - generic [ref=f90e827] [cursor=pointer]:
+                      - radio "South Indian Bank South Indian Bank"
+                      - button "South Indian Bank South Indian Bank" [ref=f90e828]:
+                        - generic [ref=f90e829]:
+                          - generic [ref=f90e830]:
+                            - img "South Indian Bank" [ref=f90e831]
+                            - generic [ref=f90e833]: South Indian Bank
+                          - img [ref=f90e835]
+                    - generic [ref=f90e837] [cursor=pointer]:
+                      - radio "Saraswat Co-operative Bank Saraswat Co-operative Bank"
+                      - button "Saraswat Co-operative Bank Saraswat Co-operative Bank" [ref=f90e838]:
+                        - generic [ref=f90e839]:
+                          - generic [ref=f90e840]:
+                            - img "Saraswat Co-operative Bank" [ref=f90e841]
+                            - generic [ref=f90e843]: Saraswat Co-operative Bank
+                          - img [ref=f90e845]
+                    - generic [ref=f90e847] [cursor=pointer]:
+                      - radio "SVC Co-Operative Bank Ltd. SVC Co-Operative Bank Ltd."
+                      - button "SVC Co-Operative Bank Ltd. SVC Co-Operative Bank Ltd." [ref=f90e848]:
+                        - generic [ref=f90e849]:
+                          - generic [ref=f90e850]:
+                            - img "SVC Co-Operative Bank Ltd." [ref=f90e851]
+                            - generic [ref=f90e853]: SVC Co-Operative Bank Ltd.
+                          - img [ref=f90e855]
+                    - generic [ref=f90e857] [cursor=pointer]:
+                      - radio "Tamilnad Mercantile Bank Tamilnad Mercantile Bank"
+                      - button "Tamilnad Mercantile Bank Tamilnad Mercantile Bank" [ref=f90e858]:
+                        - generic [ref=f90e859]:
+                          - generic [ref=f90e860]:
+                            - img "Tamilnad Mercantile Bank" [ref=f90e861]
+                            - generic [ref=f90e863]: Tamilnad Mercantile Bank
+                          - img [ref=f90e865]
+                    - generic [ref=f90e867] [cursor=pointer]:
+                      - radio "Union Bank of India Union Bank of India"
+                      - button "Union Bank of India Union Bank of India" [ref=f90e868]:
+                        - generic [ref=f90e869]:
+                          - generic [ref=f90e870]:
+                            - img "Union Bank of India" [ref=f90e871]
+                            - generic [ref=f90e873]: Union Bank of India
+                          - img [ref=f90e875]
+                    - generic [ref=f90e877] [cursor=pointer]:
+                      - radio "UCO Bank UCO Bank"
+                      - button "UCO Bank UCO Bank" [ref=f90e878]:
+                        - generic [ref=f90e879]:
+                          - generic [ref=f90e880]:
+                            - img "UCO Bank" [ref=f90e881]
+                            - generic [ref=f90e883]: UCO Bank
+                          - img [ref=f90e885]
+                    - generic [ref=f90e887] [cursor=pointer]:
+                      - radio "Ujjivan Small Finance Bank Ujjivan Small Finance Bank"
+                      - button "Ujjivan Small Finance Bank Ujjivan Small Finance Bank" [ref=f90e888]:
+                        - generic [ref=f90e889]:
+                          - generic [ref=f90e890]:
+                            - img "Ujjivan Small Finance Bank" [ref=f90e891]
+                            - generic [ref=f90e893]: Ujjivan Small Finance Bank
+                          - img [ref=f90e895]
+                    - generic [ref=f90e897] [cursor=pointer]:
+                      - radio "PNB (Erstwhile-United Bank of India) PNB (Erstwhile-United Bank of India)"
+                      - button "PNB (Erstwhile-United Bank of India) PNB (Erstwhile-United Bank of India)" [ref=f90e898]:
+                        - generic [ref=f90e899]:
+                          - generic [ref=f90e900]:
+                            - img "PNB (Erstwhile-United Bank of India)" [ref=f90e901]
+                            - generic [ref=f90e903]: PNB (Erstwhile-United Bank of India)
+                          - img [ref=f90e905]
+                    - generic [ref=f90e907] [cursor=pointer]:
+                      - radio "Bank of Baroda - Retail Banking (Erstwhile Vijaya Bank) Bank of Baroda - Retail Banking (Erstwhile Vijaya Bank)"
+                      - button "Bank of Baroda - Retail Banking (Erstwhile Vijaya Bank) Bank of Baroda - Retail Banking (Erstwhile Vijaya Bank)" [ref=f90e908]:
+                        - generic [ref=f90e909]:
+                          - generic [ref=f90e910]:
+                            - img "Bank of Baroda - Retail Banking (Erstwhile Vijaya Bank)" [ref=f90e911]
+                            - generic [ref=f90e913]: Bank of Baroda - Retail Banking (Erstwhile Vijaya Bank)
+                          - img [ref=f90e915]
+                    - generic [ref=f90e917] [cursor=pointer]:
+                      - radio "Yes Bank Yes Bank"
+                      - button "Yes Bank Yes Bank" [ref=f90e918]:
+                        - generic [ref=f90e919]:
+                          - generic [ref=f90e920]:
+                            - img "Yes Bank" [ref=f90e921]
+                            - generic [ref=f90e923]: Yes Bank
+                          - img [ref=f90e925]
+        - generic [ref=f90e932]:
+          - generic [ref=f90e933]:
+            - paragraph
+            - paragraph
+            - heading "Processing your payment" [level=3] [ref=f90e934]
+            - paragraph [ref=f90e936]: This will only take a few seconds.
+          - img [ref=f90e939]
+          - button "Cancel" [ref=f90e967] [cursor=pointer]

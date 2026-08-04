@@ -1,0 +1,255 @@
+- generic [ref=f27e1]:
+  - generic [ref=f27e7]:
+    - generic [ref=f27e8]:
+      - generic [ref=f27e9]:
+        - heading "Dashboard" [level=4] [ref=f27e10]
+        - navigation [ref=f27e11]:
+          - list [ref=f27e12]:
+            - listitem [ref=f27e13]:
+              - link [ref=f27e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f27e15]
+            - listitem [ref=f27e18]: / Index
+      - generic [ref=f27e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f27e22]:
+          - listitem [ref=f27e23]:
+            - generic [ref=f27e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f27e26]:
+      - generic [ref=f27e28]:
+        - text: 
+        - link [ref=f27e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f27e31]:
+          - list [ref=f27e33]:
+            - generic [ref=f27e38]:
+              - text: 
+              - listitem [ref=f27e39]:
+                - link [ref=f27e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f27e41]
+                  - text: 
+              - listitem [ref=f27e43]:
+                - link [ref=f27e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f27e45]
+                  - text: 
+              - listitem [ref=f27e47]:
+                - link [ref=f27e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f27e49]
+                  - text: 
+              - listitem [ref=f27e51]:
+                - link [ref=f27e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f27e53]
+                  - text: 
+              - listitem [ref=f27e55]:
+                - link [ref=f27e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f27e57]
+                  - text: 
+              - listitem [ref=f27e59]:
+                - link [ref=f27e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f27e61]
+                  - text: 
+              - listitem [ref=f27e63]:
+                - link "" [ref=f27e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f27e65]: 
+                  - text: 
+              - listitem [ref=f27e66]:
+                - link [ref=f27e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f27e68]
+                  - text: 
+              - listitem [ref=f27e70]:
+                - link [ref=f27e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f27e72]
+                  - text: 
+              - listitem [ref=f27e74]:
+                - link [ref=f27e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f27e76]
+                  - text: 
+              - listitem [ref=f27e78]:
+                - link [ref=f27e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f27e80]
+                  - text: 
+              - listitem [ref=f27e82]:
+                - link "general icon" [ref=f27e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f27e84]
+                  - text: 
+              - listitem [ref=f27e85]:
+                - link [ref=f27e86] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f27e87]
+                  - text: 
+              - listitem [ref=f27e89]:
+                - link [ref=f27e90] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f27e91]
+                  - text: 
+              - listitem [ref=f27e93]:
+                - link "product icon" [ref=f27e94] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f27e95]
+                  - text: 
+              - listitem [ref=f27e96]:
+                - link [ref=f27e97] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f27e98]
+                  - text: 
+              - listitem [ref=f27e100]:
+                - link [ref=f27e101] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f27e102]
+                  - text: 
+              - listitem [ref=f27e104]:
+                - link [ref=f27e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f27e106]
+                  - text: 
+              - listitem [ref=f27e108]:
+                - link [ref=f27e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f27e110]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f27e112]:
+                - link [ref=f27e113] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f27e114]
+              - listitem [ref=f27e116]:
+                - link [ref=f27e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f27e118]
+                  - text: 
+              - listitem [ref=f27e120]:
+                - link "notify-ico" [ref=f27e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f27e122]
+                  - text: 
+              - listitem [ref=f27e123]:
+                - link "notify-ico" [ref=f27e124] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f27e125]
+                  - text: 
+      - main [ref=f27e127]:
+        - generic [ref=f27e131]:
+          - generic [ref=f27e132]:
+            - heading "Book Sales Report" [level=5] [ref=f27e133]
+            - button " Export Excel" [ref=f27e134] [cursor=pointer]:
+              - generic [ref=f27e135]: 
+              - text: Export Excel
+          - generic [ref=f27e136]:
+            - generic [ref=f27e138]:
+              - generic [ref=f27e139]:
+                - generic [ref=f27e140]: From Date
+                - textbox [ref=f27e141] [cursor=pointer]
+              - generic [ref=f27e142]:
+                - generic [ref=f27e143]: To Date
+                - textbox [ref=f27e144] [cursor=pointer]
+              - generic [ref=f27e145]:
+                - generic [ref=f27e146]: Customer
+                - textbox "Search customer..." [ref=f27e147] [cursor=pointer]
+              - generic [ref=f27e148]:
+                - generic [ref=f27e149]: Product Title
+                - textbox "Search product..." [ref=f27e150] [cursor=pointer]
+              - generic [ref=f27e151]:
+                - generic [ref=f27e152]: Product Type
+                - combobox [ref=f27e153] [cursor=pointer]:
+                  - option "All Types" [selected]
+                  - option "Books"
+                  - option "Product Type"
+                  - option "Stationary"
+                  - option "Study Products"
+                  - option "Notes"
+                  - option "Exam Kit"
+                  - option "Miscellaneous"
+                  - option "Notes"
+                  - option "JT special store"
+                  - option "Multiple/Combo"
+                  - option "Combo"
+                  - option "Combo"
+              - generic [ref=f27e154]:
+                - generic [ref=f27e155]: Order Status
+                - combobox [ref=f27e156] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "Pending"
+                  - option "Shipped"
+                  - option "Delivered"
+                  - option "Cancelled"
+                  - option "Refunded"
+              - generic [ref=f27e157]:
+                - generic [ref=f27e158]: Payment Status
+                - combobox [ref=f27e159] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "Pending"
+                  - option "Success"
+                  - option "Failed"
+              - generic [ref=f27e162]:
+                - checkbox "Combo Products Only" [ref=f27e163] [cursor=pointer]
+                - generic [ref=f27e164]: Combo Products Only
+              - generic [ref=f27e165]:
+                - button "Apply" [ref=f27e166] [cursor=pointer]
+                - button "Clear" [ref=f27e167] [cursor=pointer]
+            - generic [ref=f27e168]:
+              - generic [ref=f27e169]:
+                - generic [ref=f27e170]:
+                  - generic [ref=f27e171]: Total Sales
+                  - heading "—" [level=3] [ref=f27e172]
+                - generic [ref=f27e174]: 
+              - generic [ref=f27e175]:
+                - generic [ref=f27e176]:
+                  - generic [ref=f27e177]: Number of Orders
+                  - heading "—" [level=3] [ref=f27e178]
+                - generic [ref=f27e180]: 
+              - generic [ref=f27e181]:
+                - generic [ref=f27e182]:
+                  - generic [ref=f27e183]: Average Order Value
+                  - heading "—" [level=3] [ref=f27e184]
+                - generic [ref=f27e186]: 
+              - generic [ref=f27e187]:
+                - generic [ref=f27e188]:
+                  - generic [ref=f27e189]: Total Discounts Given
+                  - heading "—" [level=3] [ref=f27e190]
+                - generic [ref=f27e192]: 
+            - grid [ref=f27e197]:
+              - rowgroup [ref=f27e198]:
+                - 'row "Order #  Date  Customer  Products  Type  Items  Sub Total  Discount  GST  Total  Order Status  Payment  Method " [ref=f27e199]':
+                  - 'columnheader "Order # " [ref=f27e200] [cursor=pointer]'
+                  - columnheader "Date " [ref=f27e201] [cursor=pointer]
+                  - columnheader "Customer " [ref=f27e202] [cursor=pointer]
+                  - columnheader "Products " [ref=f27e203] [cursor=pointer]
+                  - columnheader "Type " [ref=f27e204] [cursor=pointer]
+                  - columnheader "Items " [ref=f27e205] [cursor=pointer]
+                  - columnheader "Sub Total " [ref=f27e206] [cursor=pointer]
+                  - columnheader "Discount " [ref=f27e207] [cursor=pointer]
+                  - columnheader "GST " [ref=f27e208] [cursor=pointer]
+                  - columnheader "Total " [ref=f27e209] [cursor=pointer]
+                  - columnheader "Order Status " [ref=f27e210] [cursor=pointer]
+                  - columnheader "Payment " [ref=f27e211] [cursor=pointer]
+                  - columnheader "Method " [ref=f27e212] [cursor=pointer]
+              - rowgroup
+      - contentinfo [ref=f27e213]:
+        - paragraph [ref=f27e217]:
+          - text: Copyright
+          - generic [ref=f27e218]: "2026"
+          - text: © Jeshwar Teaching
+  - img

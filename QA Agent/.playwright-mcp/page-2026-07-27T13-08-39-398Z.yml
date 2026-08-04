@@ -1,0 +1,180 @@
+- generic [ref=f1e2]:
+  - generic [ref=f1e3]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - link "Logo" [ref=f1e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f1e8]
+        - text: 
+      - list [ref=f1e9]:
+        - listitem [ref=f1e10]:
+          - link " Dashboard" [ref=f1e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f1e12]: 
+            - text: Dashboard
+        - listitem [ref=f1e13]:
+          - link " Batches" [ref=f1e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f1e15]: 
+            - text: Batches
+        - listitem [ref=f1e16]:
+          - link " My Courses" [ref=f1e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f1e18]: 
+            - text: My Courses
+        - listitem [ref=f1e19]:
+          - link " eBooks" [ref=f1e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f1e21]: 
+            - text: eBooks
+        - listitem [ref=f1e22]:
+          - link " Wishlist" [ref=f1e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f1e24]: 
+            - text: Wishlist
+        - listitem [ref=f1e25]:
+          - link " Audiobook" [ref=f1e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f1e27]: 
+            - text: Audiobook
+        - listitem [ref=f1e28]:
+          - link " Resources" [ref=f1e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f1e30]: 
+            - text: Resources
+        - listitem [ref=f1e31]:
+          - link " Current Affairs" [ref=f1e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f1e33]: 
+            - text: Current Affairs
+        - listitem [ref=f1e34]:
+          - link " Test" [ref=f1e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f1e36]: 
+            - text: Test
+        - listitem [ref=f1e37]:
+          - link " Settings" [ref=f1e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f1e39]: 
+            - text: Settings
+        - listitem [ref=f1e40]:
+          - link " Call Reminders" [ref=f1e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f1e42]: 
+            - text: Call Reminders
+        - listitem [ref=f1e43]:
+          - link " Leaderboard" [ref=f1e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f1e45]: 
+            - text: Leaderboard
+        - listitem [ref=f1e46]:
+          - button " APL " [expanded] [ref=f1e47] [cursor=pointer]:
+            - generic [ref=f1e48]:
+              - generic [ref=f1e49]: 
+              - text: APL
+            - generic [ref=f1e50]: 
+          - list [ref=f1e51]:
+            - listitem [ref=f1e52]:
+              - link " Live APL" [ref=f1e53] [cursor=pointer]:
+                - /url: /LiveApl/Index
+                - generic [ref=f1e54]: 
+                - text: Live APL
+            - listitem [ref=f1e55]:
+              - link " APL Q20" [ref=f1e56] [cursor=pointer]:
+                - /url: /TestRoom/Index
+                - generic [ref=f1e57]: 
+                - text: APL Q20
+            - listitem [ref=f1e58]:
+              - link " APL Q20 Series" [ref=f1e59] [cursor=pointer]:
+                - /url: /FolderApl/Index
+                - generic [ref=f1e60]: 
+                - text: APL Q20 Series
+            - listitem [ref=f1e61]:
+              - link " Coin History" [ref=f1e62] [cursor=pointer]:
+                - /url: /CoinHistory/Index
+                - generic [ref=f1e63]: 
+                - text: Coin History
+        - listitem [ref=f1e64]:
+          - link " Notification" [ref=f1e65] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f1e66]: 
+            - text: Notification
+        - listitem [ref=f1e67]:
+          - button " Logout" [ref=f1e69] [cursor=pointer]:
+            - generic [ref=f1e70]: 
+            - text: Logout
+    - generic [ref=f1e72]:
+      - banner [ref=f1e73]:
+        - text: 
+        - generic [ref=f1e74]:
+          - generic [ref=f1e75]:
+            - generic [ref=f1e76]: 
+            - textbox "Search Course" [ref=f1e77]
+            - text: 
+          - link "" [ref=f1e79] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f1e81]: 
+          - link "Profile qafrontend27" [ref=f1e83] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f1e84]
+            - generic [ref=f1e85]: qafrontend27
+      - generic [ref=f1e86]:
+        - link " Exit" [ref=f1e87] [cursor=pointer]:
+          - /url: /LiveApl/Index
+          - generic [ref=f1e88]: 
+          - text: Exit
+        - generic [ref=f1e89]:
+          - generic [ref=f1e91]:
+            - generic [ref=f1e93]: 
+            - generic [ref=f1e94]:
+              - paragraph [ref=f1e95]: Live APL Arena
+              - paragraph [ref=f1e96]: Get ready — the arena unlocks at start time.
+          - generic [ref=f1e98]:
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic [ref=f1e99]:
+              - generic [ref=f1e103]: Arena Unlocking In
+              - heading "▷▷▷ QA Test Live APL Session ◁◁◁" [level=2] [ref=f1e104]:
+                - generic [ref=f1e105]: ▷▷▷
+                - text: QA Test Live APL Session
+                - generic [ref=f1e106]: ◁◁◁
+            - generic [ref=f1e108]:
+              - generic [ref=f1e109]:
+                - generic [ref=f1e110]: "00"
+                - generic [ref=f1e111]: Hours
+              - generic [ref=f1e112]: ":"
+              - generic [ref=f1e113]:
+                - generic [ref=f1e114]: "01"
+                - generic [ref=f1e115]: Minutes
+              - generic [ref=f1e116]: ":"
+              - generic [ref=f1e117]:
+                - generic [ref=f1e118]: "20"
+                - generic [ref=f1e119]: Seconds
+            - paragraph [ref=f1e121]:
+              - generic [ref=f1e122]: 
+              - text: Waiting for the arena to unlock…
+            - generic [ref=f1e125]:
+              - generic [ref=f1e126]:
+                - generic [ref=f1e127]: 
+                - text: Description
+              - paragraph [ref=f1e129]:
+                - strong [ref=f1e130]: This is a QA formatting test.
+            - text: 
+          - text:  
+  - generic "Ask a doubt" [ref=f1e131]:
+    - generic [ref=f1e132]: 
+  - text:      
+  - contentinfo [ref=f1e133]:
+    - generic [ref=f1e134]:
+      - paragraph [ref=f1e136]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f1e137]:
+        - link "About Us" [ref=f1e138] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f1e139] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f1e140] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f1e141] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

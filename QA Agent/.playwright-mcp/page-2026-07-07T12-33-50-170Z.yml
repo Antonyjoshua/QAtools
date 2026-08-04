@@ -1,0 +1,549 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e7]:
+    - generic [ref=f7e8]:
+      - generic [ref=f7e9]:
+        - heading "Assessment" [level=4] [ref=f7e10]
+        - navigation [ref=f7e11]:
+          - list [ref=f7e12]:
+            - listitem [ref=f7e13]:
+              - link [ref=f7e14] [cursor=pointer]:
+                - /url: /Assessment/CourseAssessment
+                - img [ref=f7e15]
+            - listitem [ref=f7e18]: / Course
+      - generic [ref=f7e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f7e22]:
+          - text: 
+          - listitem [ref=f7e23] [cursor=pointer]:
+            - generic [ref=f7e24]:
+              - img "Profile" [ref=f7e25]
+              - generic [ref=f7e26]:
+                - generic [ref=f7e27]: superadmin@gmail.com
+                - paragraph [ref=f7e28]:
+                  - text: SuperAdmin
+                  - generic [ref=f7e29]: 
+    - generic [ref=f7e30]:
+      - generic [ref=f7e32]:
+        - generic [ref=f7e33]:
+          - link [ref=f7e34] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f7e36] [cursor=pointer]
+        - navigation [ref=f7e38]:
+          - list [ref=f7e40]:
+            - generic [ref=f7e45]:
+              - text: 
+              - listitem [ref=f7e46]:
+                - heading "Applications" [level=6] [ref=f7e48]
+              - listitem [ref=f7e49]:
+                - link "Dashboard" [ref=f7e50] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f7e51]
+                  - generic [ref=f7e53]: Dashboard
+                  - text: 
+              - listitem [ref=f7e54]:
+                - link "Enrollment " [ref=f7e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e56]
+                  - generic [ref=f7e58]: Enrollment
+                  - generic [ref=f7e60]: 
+              - listitem [ref=f7e61]:
+                - link "Website Settings " [ref=f7e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e63]
+                  - generic [ref=f7e65]: Website Settings
+                  - generic [ref=f7e67]: 
+              - listitem [ref=f7e68]:
+                - link "Membership " [ref=f7e69] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e70]
+                  - generic [ref=f7e72]: Membership
+                  - generic [ref=f7e74]: 
+              - listitem [ref=f7e75]:
+                - link "Course " [ref=f7e76] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e77]
+                  - generic [ref=f7e79]: Course
+                  - generic [ref=f7e81]: 
+              - listitem [ref=f7e82]:
+                - link " Self Host " [ref=f7e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f7e84]: 
+                  - generic [ref=f7e85]: Self Host
+                  - generic [ref=f7e87]: 
+              - listitem [ref=f7e88]:
+                - link "Assessment " [ref=f7e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e90]
+                  - generic [ref=f7e92]: Assessment
+                  - generic [ref=f7e94]: 
+                - list [ref=f7e95]:
+                  - listitem [ref=f7e96]:
+                    - link "Course" [ref=f7e97] [cursor=pointer]:
+                      - /url: /Assessment/CourseAssessment
+                  - listitem [ref=f7e98]:
+                    - link "Unit" [ref=f7e99] [cursor=pointer]:
+                      - /url: /Assessment/Index
+                  - listitem [ref=f7e100]:
+                    - link "Topic" [ref=f7e101] [cursor=pointer]:
+                      - /url: /Assessment/TopicAssessment
+                  - listitem [ref=f7e102]:
+                    - link "Prompt Config" [ref=f7e103] [cursor=pointer]:
+                      - /url: /PromptConfig/Index
+              - listitem [ref=f7e104]:
+                - link "Email Draft " [ref=f7e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e106]
+                  - generic [ref=f7e108]: Email Draft
+                  - generic [ref=f7e110]: 
+              - listitem [ref=f7e111]:
+                - link "Admin " [ref=f7e112] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e113]
+                  - generic [ref=f7e115]: Admin
+                  - generic [ref=f7e117]: 
+              - listitem [ref=f7e118]:
+                - link "general icon General " [ref=f7e119] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f7e120]
+                  - generic [ref=f7e121]: General
+                  - generic [ref=f7e123]: 
+              - listitem [ref=f7e124]:
+                - link "Leaderboard" [ref=f7e125] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f7e126]
+                  - generic [ref=f7e128]: Leaderboard
+                  - text: 
+              - listitem [ref=f7e129]:
+                - heading "E-Commerce" [level=6] [ref=f7e131]
+              - listitem [ref=f7e132]:
+                - link "Dashboard" [ref=f7e133] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f7e134]
+                  - generic [ref=f7e136]: Dashboard
+                  - text: 
+              - listitem [ref=f7e137]:
+                - link "product icon Product " [ref=f7e138] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f7e139]
+                  - generic [ref=f7e140]: Product
+                  - generic [ref=f7e142]: 
+              - listitem [ref=f7e143]:
+                - link "Order " [ref=f7e144] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e145]
+                  - generic [ref=f7e147]: Order
+                  - generic [ref=f7e149]: 
+              - listitem [ref=f7e150]:
+                - link "Customer" [ref=f7e151] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f7e152]
+                  - generic [ref=f7e154]: Customer
+                  - text: 
+              - listitem [ref=f7e155]:
+                - heading "Payments" [level=6] [ref=f7e157]
+              - listitem [ref=f7e158]:
+                - link "Transactions " [ref=f7e159] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e160]
+                  - generic [ref=f7e162]: Transactions
+                  - generic [ref=f7e164]: 
+              - listitem [ref=f7e165]:
+                - heading "Notifcations" [level=6] [ref=f7e167]
+              - listitem [ref=f7e168]:
+                - link "notify-ico Notifications " [ref=f7e169] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f7e170]
+                  - generic [ref=f7e171]: Notifications
+                  - generic [ref=f7e173]: 
+              - listitem [ref=f7e174]:
+                - heading "Job Management" [level=6] [ref=f7e176]
+              - listitem [ref=f7e177]:
+                - link "notify-ico Jobs " [ref=f7e178] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f7e179]
+                  - generic [ref=f7e180]: Jobs
+                  - generic [ref=f7e182]: 
+      - main [ref=f7e184]:
+        - generic [ref=f7e185]:
+          - generic [ref=f7e186]:
+            - heading "Course Assessment" [level=4] [ref=f7e187]
+            - generic [ref=f7e188]: "Select Course:"
+            - combobox "Select Course:" [ref=f7e189] [cursor=pointer]:
+              - option "-- Select Course --" [selected]
+              - option "QA Test Course"
+              - option "TNPSC Group 4 Complete Preparation Course 2026"
+              - option "Jt Release Course"
+              - option "TNPSC Foundation Course"
+              - option "Post office exam- Tamil nadu 2026"
+              - option "TNUSRB Police Constable"
+              - option "Free course 2"
+              - option "Bank course"
+              - option "Indian Railways- Batch 1,2,3,4- Tnpsc-இந்தியாவி..."
+              - option "Jtcourse 2"
+              - option "JtCourse"
+              - option "MultipleFolderType"
+              - option "Multiplecardtypefolder"
+              - option "Singlefoldercourse"
+              - option "Singlecourse"
+              - option "TNPSC GROUP-4 FOLDER"
+              - option "SelfHost Course"
+              - option "JT Phase 3"
+              - option "Assessment course 01"
+              - option "Railway course 3"
+              - option "Railway course 2"
+              - option "Political Polity"
+              - option "Railway course"
+              - option "Banking course"
+              - option "Group 2A"
+              - option "Group A course"
+              - option "Test0025"
+              - option "Group 6 course"
+              - option "Group 5 course"
+              - option "Group 4 Course"
+              - option "Group 3 course"
+              - option "Pongal Special Course"
+              - option "JT Batch-2026 Course"
+              - option "Software Testing"
+              - option "12TH ECONOMICS"
+              - option "TNPSC_Group1new 008"
+              - option "Group 2 course"
+              - option "tEST"
+              - option "Silver membership"
+              - option "Paid membership"
+              - option "Group 1 course"
+              - option "Social"
+              - option "Software Testing Course"
+              - option "Kingdom - 2026"
+            - link "Create Assessment" [ref=f7e191] [cursor=pointer]:
+              - /url: /Assessment/CreateCourseAssessment
+          - generic [ref=f7e196]:
+            - generic [ref=f7e198]:
+              - text: Show
+              - combobox "Show entries" [ref=f7e199] [cursor=pointer]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: entries
+            - generic [ref=f7e201]:
+              - text: "Search:"
+              - searchbox "Search:" [ref=f7e202] [cursor=pointer]
+            - grid [ref=f7e203]:
+              - rowgroup [ref=f7e204]:
+                - 'row "Title: activate to sort column descending Type: activate to sort column ascending Number Of Questions: activate to sort column ascending Total Marks: activate to sort column ascending Folder: activate to sort column ascending Status: activate to sort column ascending Action" [ref=f7e205]':
+                  - 'columnheader "Title: activate to sort column descending" [ref=f7e206] [cursor=pointer]': ↑ Title ↓
+                  - 'columnheader "Type: activate to sort column ascending" [ref=f7e207] [cursor=pointer]': ↑ Type ↓
+                  - 'columnheader "Number Of Questions: activate to sort column ascending" [ref=f7e208] [cursor=pointer]': ↑ Number Of Questions ↓
+                  - 'columnheader "Total Marks: activate to sort column ascending" [ref=f7e209] [cursor=pointer]': ↑ Total Marks ↓
+                  - 'columnheader "Folder: activate to sort column ascending" [ref=f7e210] [cursor=pointer]': ↑ Folder ↓
+                  - 'columnheader "Status: activate to sort column ascending" [ref=f7e211] [cursor=pointer]': ↑ Status ↓
+                  - columnheader "Action" [ref=f7e212]
+              - rowgroup [ref=f7e213]:
+                - row "Assessment font alignment Test Quiz 40 40 — Active    " [ref=f7e478]:
+                  - gridcell "Assessment font alignment Test" [ref=f7e479]
+                  - gridcell "Quiz" [ref=f7e480]
+                  - gridcell "40" [ref=f7e481]
+                  - gridcell "40" [ref=f7e482]
+                  - gridcell "—" [ref=f7e483]:
+                    - generic [ref=f7e484]: —
+                  - gridcell "Active" [ref=f7e485]:
+                    - generic [ref=f7e486]: Active
+                  - gridcell "   " [ref=f7e487]:
+                    - list [ref=f7e488]:
+                      - listitem [ref=f7e489] [cursor=pointer]:
+                        - link "" [ref=f7e490]:
+                          - /url: /Assessment/EditCourse/96
+                          - generic [ref=f7e491]: 
+                      - listitem [ref=f7e492]:
+                        - link "" [ref=f7e493] [cursor=pointer]:
+                          - /url: /Question/Index?assessmentId=96&type=course
+                          - generic [ref=f7e494]: 
+                      - listitem [ref=f7e495]:
+                        - link "" [ref=f7e496] [cursor=pointer]:
+                          - /url: /Assessment/DownloadAnswerKey?assessmentId=96
+                          - generic [ref=f7e497]: 
+                      - listitem [ref=f7e498] [cursor=pointer]:
+                        - link "" [ref=f7e499]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f7e500]: 
+                - row "Assessment format test Exam 40 30 — Draft    " [ref=f7e501]:
+                  - gridcell "Assessment format test" [ref=f7e502]
+                  - gridcell "Exam" [ref=f7e503]
+                  - gridcell "40" [ref=f7e504]
+                  - gridcell "30" [ref=f7e505]
+                  - gridcell "—" [ref=f7e506]:
+                    - generic [ref=f7e507]: —
+                  - gridcell "Draft" [ref=f7e508]:
+                    - generic [ref=f7e509]: Draft
+                  - gridcell "   " [ref=f7e510]:
+                    - list [ref=f7e511]:
+                      - listitem [ref=f7e512] [cursor=pointer]:
+                        - link "" [ref=f7e513]:
+                          - /url: /Assessment/EditCourse/98
+                          - generic [ref=f7e514]: 
+                      - listitem [ref=f7e515]:
+                        - link "" [ref=f7e516] [cursor=pointer]:
+                          - /url: /Question/Index?assessmentId=98&type=course
+                          - generic [ref=f7e517]: 
+                      - listitem [ref=f7e518]:
+                        - link "" [ref=f7e519] [cursor=pointer]:
+                          - /url: /Assessment/DownloadAnswerKey?assessmentId=98
+                          - generic [ref=f7e520]: 
+                      - listitem [ref=f7e521] [cursor=pointer]:
+                        - link "" [ref=f7e522]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f7e523]: 
+                - row "Assessment test 1 Quiz 7 70 — Active    " [ref=f7e524]:
+                  - gridcell "Assessment test 1" [ref=f7e525]
+                  - gridcell "Quiz" [ref=f7e526]
+                  - gridcell "7" [ref=f7e527]
+                  - gridcell "70" [ref=f7e528]
+                  - gridcell "—" [ref=f7e529]:
+                    - generic [ref=f7e530]: —
+                  - gridcell "Active" [ref=f7e531]:
+                    - generic [ref=f7e532]: Active
+                  - gridcell "   " [ref=f7e533]:
+                    - list [ref=f7e534]:
+                      - listitem [ref=f7e535] [cursor=pointer]:
+                        - link "" [ref=f7e536]:
+                          - /url: /Assessment/EditCourse/63
+                          - generic [ref=f7e537]: 
+                      - listitem [ref=f7e538]:
+                        - link "" [ref=f7e539] [cursor=pointer]:
+                          - /url: /Question/Index?assessmentId=63&type=course
+                          - generic [ref=f7e540]: 
+                      - listitem [ref=f7e541]:
+                        - link "" [ref=f7e542] [cursor=pointer]:
+                          - /url: /Assessment/DownloadAnswerKey?assessmentId=63
+                          - generic [ref=f7e543]: 
+                      - listitem [ref=f7e544] [cursor=pointer]:
+                        - link "" [ref=f7e545]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f7e546]: 
+                - row "Bank exam Quiz 20 20  /Bank course/கணிதம்/உள்ளூர் Active    " [ref=f7e547]:
+                  - gridcell "Bank exam" [ref=f7e548]
+                  - gridcell "Quiz" [ref=f7e549]
+                  - gridcell "20" [ref=f7e550]
+                  - gridcell "20" [ref=f7e551]
+                  - gridcell " /Bank course/கணிதம்/உள்ளூர்" [ref=f7e552]:
+                    - generic [ref=f7e553]:
+                      - generic [ref=f7e554]: 
+                      - text: /Bank course/கணிதம்/உள்ளூர்
+                  - gridcell "Active" [ref=f7e555]:
+                    - generic [ref=f7e556]: Active
+                  - gridcell "   " [ref=f7e557]:
+                    - list [ref=f7e558]:
+                      - listitem [ref=f7e559] [cursor=pointer]:
+                        - link "" [ref=f7e560]:
+                          - /url: /Assessment/EditCourse/126
+                          - generic [ref=f7e561]: 
+                      - listitem [ref=f7e562]:
+                        - link "" [ref=f7e563] [cursor=pointer]:
+                          - /url: /Question/Index?assessmentId=126&type=course
+                          - generic [ref=f7e564]: 
+                      - listitem [ref=f7e565]:
+                        - link "" [ref=f7e566] [cursor=pointer]:
+                          - /url: /Assessment/DownloadAnswerKey?assessmentId=126
+                          - generic [ref=f7e567]: 
+                      - listitem [ref=f7e568] [cursor=pointer]:
+                        - link "" [ref=f7e569]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f7e570]: 
+                - row "Banking Course Final Exam 10 100 — Draft    " [ref=f7e571]:
+                  - gridcell "Banking Course" [ref=f7e572]
+                  - gridcell "Final Exam" [ref=f7e573]
+                  - gridcell "10" [ref=f7e574]
+                  - gridcell "100" [ref=f7e575]
+                  - gridcell "—" [ref=f7e576]:
+                    - generic [ref=f7e577]: —
+                  - gridcell "Draft" [ref=f7e578]:
+                    - generic [ref=f7e579]: Draft
+                  - gridcell "   " [ref=f7e580]:
+                    - list [ref=f7e581]:
+                      - listitem [ref=f7e582] [cursor=pointer]:
+                        - link "" [ref=f7e583]:
+                          - /url: /Assessment/EditCourse/67
+                          - generic [ref=f7e584]: 
+                      - listitem [ref=f7e585]:
+                        - link "" [ref=f7e586] [cursor=pointer]:
+                          - /url: /Question/Index?assessmentId=67&type=course
+                          - generic [ref=f7e587]: 
+                      - listitem [ref=f7e588]:
+                        - link "" [ref=f7e589] [cursor=pointer]:
+                          - /url: /Assessment/DownloadAnswerKey?assessmentId=67
+                          - generic [ref=f7e590]: 
+                      - listitem [ref=f7e591] [cursor=pointer]:
+                        - link "" [ref=f7e592]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f7e593]: 
+                - row "Banking course 2 Quiz 20 20  /Bank course/கணிதம்/உள்ளூர் Active    " [ref=f7e594]:
+                  - gridcell "Banking course 2" [ref=f7e595]
+                  - gridcell "Quiz" [ref=f7e596]
+                  - gridcell "20" [ref=f7e597]
+                  - gridcell "20" [ref=f7e598]
+                  - gridcell " /Bank course/கணிதம்/உள்ளூர்" [ref=f7e599]:
+                    - generic [ref=f7e600]:
+                      - generic [ref=f7e601]: 
+                      - text: /Bank course/கணிதம்/உள்ளூர்
+                  - gridcell "Active" [ref=f7e602]:
+                    - generic [ref=f7e603]: Active
+                  - gridcell "   " [ref=f7e604]:
+                    - list [ref=f7e605]:
+                      - listitem [ref=f7e606] [cursor=pointer]:
+                        - link "" [ref=f7e607]:
+                          - /url: /Assessment/EditCourse/128
+                          - generic [ref=f7e608]: 
+                      - listitem [ref=f7e609]:
+                        - link "" [ref=f7e610] [cursor=pointer]:
+                          - /url: /Question/Index?assessmentId=128&type=course
+                          - generic [ref=f7e611]: 
+                      - listitem [ref=f7e612]:
+                        - link "" [ref=f7e613] [cursor=pointer]:
+                          - /url: /Assessment/DownloadAnswerKey?assessmentId=128
+                          - generic [ref=f7e614]: 
+                      - listitem [ref=f7e615] [cursor=pointer]:
+                        - link "" [ref=f7e616]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f7e617]: 
+                - row "Banking course tamil Quiz 20 40  /Bank course/தமிழ் Active    " [ref=f7e618]:
+                  - gridcell "Banking course tamil" [ref=f7e619]
+                  - gridcell "Quiz" [ref=f7e620]
+                  - gridcell "20" [ref=f7e621]
+                  - gridcell "40" [ref=f7e622]
+                  - gridcell " /Bank course/தமிழ்" [ref=f7e623]:
+                    - generic [ref=f7e624]:
+                      - generic [ref=f7e625]: 
+                      - text: /Bank course/தமிழ்
+                  - gridcell "Active" [ref=f7e626]:
+                    - generic [ref=f7e627]: Active
+                  - gridcell "   " [ref=f7e628]:
+                    - list [ref=f7e629]:
+                      - listitem [ref=f7e630] [cursor=pointer]:
+                        - link "" [ref=f7e631]:
+                          - /url: /Assessment/EditCourse/127
+                          - generic [ref=f7e632]: 
+                      - listitem [ref=f7e633]:
+                        - link "" [ref=f7e634] [cursor=pointer]:
+                          - /url: /Question/Index?assessmentId=127&type=course
+                          - generic [ref=f7e635]: 
+                      - listitem [ref=f7e636]:
+                        - link "" [ref=f7e637] [cursor=pointer]:
+                          - /url: /Assessment/DownloadAnswerKey?assessmentId=127
+                          - generic [ref=f7e638]: 
+                      - listitem [ref=f7e639] [cursor=pointer]:
+                        - link "" [ref=f7e640]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f7e641]: 
+                - row "Banking mtf Exam 20 100  /Bank course/தமிழ் Active    " [ref=f7e642]:
+                  - gridcell "Banking mtf" [ref=f7e643]
+                  - gridcell "Exam" [ref=f7e644]
+                  - gridcell "20" [ref=f7e645]
+                  - gridcell "100" [ref=f7e646]
+                  - gridcell " /Bank course/தமிழ்" [ref=f7e647]:
+                    - generic [ref=f7e648]:
+                      - generic [ref=f7e649]: 
+                      - text: /Bank course/தமிழ்
+                  - gridcell "Active" [ref=f7e650]:
+                    - generic [ref=f7e651]: Active
+                  - gridcell "   " [ref=f7e652]:
+                    - list [ref=f7e653]:
+                      - listitem [ref=f7e654] [cursor=pointer]:
+                        - link "" [ref=f7e655]:
+                          - /url: /Assessment/EditCourse/129
+                          - generic [ref=f7e656]: 
+                      - listitem [ref=f7e657]:
+                        - link "" [ref=f7e658] [cursor=pointer]:
+                          - /url: /Question/Index?assessmentId=129&type=course
+                          - generic [ref=f7e659]: 
+                      - listitem [ref=f7e660]:
+                        - link "" [ref=f7e661] [cursor=pointer]:
+                          - /url: /Assessment/DownloadAnswerKey?assessmentId=129
+                          - generic [ref=f7e662]: 
+                      - listitem [ref=f7e663] [cursor=pointer]:
+                        - link "" [ref=f7e664]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f7e665]: 
+                - row "Comprehension (புரிதல்) Exam 10 100  /TNPSC Group 4 Complete Preparation Course 2026/பொது தமிழ்/மொழித் திறன்/புரிதல் Draft    " [ref=f7e666]:
+                  - gridcell "Comprehension (புரிதல்)" [ref=f7e667]
+                  - gridcell "Exam" [ref=f7e668]
+                  - gridcell "10" [ref=f7e669]
+                  - gridcell "100" [ref=f7e670]
+                  - gridcell " /TNPSC Group 4 Complete Preparation Course 2026/பொது தமிழ்/மொழித் திறன்/புரிதல்" [ref=f7e671]:
+                    - generic [ref=f7e672]:
+                      - generic [ref=f7e673]: 
+                      - text: /TNPSC Group 4 Complete Preparation Course 2026/பொது தமிழ்/மொழித் திறன்/புரிதல்
+                  - gridcell "Draft" [ref=f7e674]:
+                    - generic [ref=f7e675]: Draft
+                  - gridcell "   " [ref=f7e676]:
+                    - list [ref=f7e677]:
+                      - listitem [ref=f7e678] [cursor=pointer]:
+                        - link "" [ref=f7e679]:
+                          - /url: /Assessment/EditCourse/1167
+                          - generic [ref=f7e680]: 
+                      - listitem [ref=f7e681]:
+                        - link "" [ref=f7e682] [cursor=pointer]:
+                          - /url: /Question/Index?assessmentId=1167&type=course
+                          - generic [ref=f7e683]: 
+                      - listitem [ref=f7e684]:
+                        - link "" [ref=f7e685] [cursor=pointer]:
+                          - /url: /Assessment/DownloadAnswerKey?assessmentId=1167
+                          - generic [ref=f7e686]: 
+                      - listitem [ref=f7e687] [cursor=pointer]:
+                        - link "" [ref=f7e688]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f7e689]: 
+                - row "Constitution (அரசியலமைப்பு) Exam 10 100  /TNPSC Group 4 Complete Preparation Course 2026/இந்திய அரசியல்/அரசியலமைப்பு Active    " [ref=f7e690]:
+                  - gridcell "Constitution (அரசியலமைப்பு)" [ref=f7e691]
+                  - gridcell "Exam" [ref=f7e692]
+                  - gridcell "10" [ref=f7e693]
+                  - gridcell "100" [ref=f7e694]
+                  - gridcell " /TNPSC Group 4 Complete Preparation Course 2026/இந்திய அரசியல்/அரசியலமைப்பு" [ref=f7e695]:
+                    - generic [ref=f7e696]:
+                      - generic [ref=f7e697]: 
+                      - text: /TNPSC Group 4 Complete Preparation Course 2026/இந்திய அரசியல்/அரசியலமைப்பு
+                  - gridcell "Active" [ref=f7e698]:
+                    - generic [ref=f7e699]: Active
+                  - gridcell "   " [ref=f7e700]:
+                    - list [ref=f7e701]:
+                      - listitem [ref=f7e702] [cursor=pointer]:
+                        - link "" [ref=f7e703]:
+                          - /url: /Assessment/EditCourse/1164
+                          - generic [ref=f7e704]: 
+                      - listitem [ref=f7e705]:
+                        - link "" [ref=f7e706] [cursor=pointer]:
+                          - /url: /Question/Index?assessmentId=1164&type=course
+                          - generic [ref=f7e707]: 
+                      - listitem [ref=f7e708]:
+                        - link "" [ref=f7e709] [cursor=pointer]:
+                          - /url: /Assessment/DownloadAnswerKey?assessmentId=1164
+                          - generic [ref=f7e710]: 
+                      - listitem [ref=f7e711] [cursor=pointer]:
+                        - link "" [ref=f7e712]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f7e713]: 
+            - status [ref=f7e223]: Showing 11 to 20 of 119 entries
+            - generic [ref=f7e224]:
+              - generic [ref=f7e714] [cursor=pointer]: Previous
+              - generic [ref=f7e715]:
+                - generic [ref=f7e716] [cursor=pointer]: "1"
+                - generic [ref=f7e717] [cursor=pointer]: "2"
+                - generic [ref=f7e718] [cursor=pointer]: "3"
+                - generic [ref=f7e719] [cursor=pointer]: "4"
+                - generic [ref=f7e720] [cursor=pointer]: "5"
+                - generic [ref=f7e721]: …
+                - generic [ref=f7e722] [cursor=pointer]: "12"
+              - generic [ref=f7e723] [cursor=pointer]: Next
+          - text:   
+      - contentinfo [ref=f7e229]:
+        - paragraph [ref=f7e233]:
+          - text: Copyright
+          - generic [ref=f7e234]: "2026"
+          - text: © Jeshwar Teaching
+  - img

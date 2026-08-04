@@ -1,0 +1,356 @@
+- generic [ref=f10e1]:
+  - generic [ref=f10e7]:
+    - generic [ref=f10e8]:
+      - generic [ref=f10e9]:
+        - heading "Dashboard" [level=4] [ref=f10e10]
+        - navigation [ref=f10e11]:
+          - list [ref=f10e12]:
+            - listitem [ref=f10e13]:
+              - link [ref=f10e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f10e15]
+            - listitem [ref=f10e18]: / Index
+      - generic [ref=f10e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f10e22]:
+          - listitem [ref=f10e23]:
+            - generic [ref=f10e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f10e26]:
+      - generic [ref=f10e28]:
+        - text: 
+        - link [ref=f10e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f10e31]:
+          - list [ref=f10e33]:
+            - generic [ref=f10e38]:
+              - text: 
+              - listitem [ref=f10e39]:
+                - link [ref=f10e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f10e41]
+                  - text: 
+              - listitem [ref=f10e43]:
+                - link [ref=f10e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e45]
+                  - text: 
+              - listitem [ref=f10e47]:
+                - link [ref=f10e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e49]
+                  - text: 
+              - listitem [ref=f10e51]:
+                - link [ref=f10e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e53]
+                  - text: 
+              - listitem [ref=f10e55]:
+                - link [ref=f10e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e57]
+                  - text: 
+              - listitem [ref=f10e59]:
+                - link "" [ref=f10e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f10e61]: 
+                  - text: 
+              - listitem [ref=f10e62]:
+                - link [ref=f10e63] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e64]
+                  - text: 
+              - listitem [ref=f10e66]:
+                - link [ref=f10e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e68]
+                  - text: 
+              - listitem [ref=f10e70]:
+                - link [ref=f10e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e72]
+                  - text: 
+              - listitem [ref=f10e74]:
+                - link [ref=f10e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e76]
+                  - text: 
+              - listitem [ref=f10e78]:
+                - link "general icon" [ref=f10e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f10e80]
+                  - text: 
+              - listitem [ref=f10e81]:
+                - link [ref=f10e82] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f10e83]
+                  - text: 
+              - listitem [ref=f10e85]:
+                - link [ref=f10e86] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f10e87]
+                  - text: 
+              - listitem [ref=f10e89]:
+                - link "product icon" [ref=f10e90] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f10e91]
+                  - text: 
+              - listitem [ref=f10e92]:
+                - link [ref=f10e93] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e94]
+                  - text: 
+              - listitem [ref=f10e96]:
+                - link [ref=f10e97] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f10e98]
+                  - text: 
+              - listitem [ref=f10e100]:
+                - link [ref=f10e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e102]
+                  - text: 
+              - listitem [ref=f10e104]:
+                - link [ref=f10e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e106]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f10e108]:
+                - link [ref=f10e109] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f10e110]
+              - listitem [ref=f10e112]:
+                - link [ref=f10e113] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e114]
+                  - text: 
+              - listitem [ref=f10e116]:
+                - link "notify-ico" [ref=f10e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f10e118]
+                  - text: 
+              - listitem [ref=f10e119]:
+                - link "notify-ico" [ref=f10e120] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f10e121]
+                  - text: 
+      - main [ref=f10e123]:
+        - generic [ref=f10e127]:
+          - generic [ref=f10e128]:
+            - heading "Book Sales Report" [level=5] [ref=f10e129]
+            - button " Export Excel" [ref=f10e130] [cursor=pointer]:
+              - generic [ref=f10e131]: 
+              - text: Export Excel
+          - generic [ref=f10e132]:
+            - generic [ref=f10e134]:
+              - generic [ref=f10e135]:
+                - generic [ref=f10e136]: From Date
+                - textbox [ref=f10e137] [cursor=pointer]
+              - generic [ref=f10e138]:
+                - generic [ref=f10e139]: To Date
+                - textbox [ref=f10e140] [cursor=pointer]
+              - generic [ref=f10e141]:
+                - generic [ref=f10e142]: Customer
+                - textbox "Search customer..." [ref=f10e143] [cursor=pointer]: richard k
+              - generic [ref=f10e144]:
+                - generic [ref=f10e145]: Product Title
+                - textbox "Search product..." [ref=f10e146] [cursor=pointer]
+              - generic [ref=f10e147]:
+                - generic [ref=f10e148]: Product Type
+                - combobox [ref=f10e149] [cursor=pointer]:
+                  - option "All Types" [selected]
+                  - option "Books"
+                  - option "Product Type"
+                  - option "Stationary"
+                  - option "Study Products"
+                  - option "Notes"
+                  - option "Exam Kit"
+                  - option "Miscellaneous"
+                  - option "Notes"
+                  - option "JT special store"
+                  - option "Multiple/Combo"
+                  - option "Combo"
+              - generic [ref=f10e150]:
+                - generic [ref=f10e151]: Order Status
+                - combobox [ref=f10e152] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "Pending"
+                  - option "Shipped"
+                  - option "Delivered"
+                  - option "Cancelled"
+                  - option "Refunded"
+              - generic [ref=f10e153]:
+                - generic [ref=f10e154]: Payment Status
+                - combobox [ref=f10e155] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "Pending"
+                  - option "Success"
+                  - option "Failed"
+              - generic [ref=f10e158]:
+                - checkbox "Combo Products Only" [ref=f10e159] [cursor=pointer]
+                - generic [ref=f10e160]: Combo Products Only
+              - generic [ref=f10e161]:
+                - button "Apply" [active] [ref=f10e162] [cursor=pointer]
+                - button "Clear" [ref=f10e163] [cursor=pointer]
+            - generic [ref=f10e164]:
+              - generic [ref=f10e165]:
+                - generic [ref=f10e166]:
+                  - generic [ref=f10e167]: Total Sales
+                  - heading "₹7,286.40" [level=3] [ref=f10e18239]
+                - generic [ref=f10e170]: 
+              - generic [ref=f10e171]:
+                - generic [ref=f10e172]:
+                  - generic [ref=f10e173]: Number of Orders
+                  - heading "6" [level=3] [ref=f10e18240]
+                - generic [ref=f10e176]: 
+              - generic [ref=f10e177]:
+                - generic [ref=f10e178]:
+                  - generic [ref=f10e179]: Average Order Value
+                  - heading "₹1,214.40" [level=3] [ref=f10e18241]
+                - generic [ref=f10e182]: 
+              - generic [ref=f10e183]:
+                - generic [ref=f10e184]:
+                  - generic [ref=f10e185]: Total Discounts Given
+                  - heading "₹2,723.60" [level=3] [ref=f10e18242]
+                - generic [ref=f10e188]: 
+            - generic [ref=f10e190]:
+              - grid [ref=f10e193]:
+                - rowgroup [ref=f10e194]:
+                  - 'row "Order #: activate to sort column ascending Date: activate to sort column ascending Customer: activate to sort column ascending Products: activate to sort column ascending Type: activate to sort column ascending Items: activate to sort column ascending Sub Total: activate to sort column ascending Discount: activate to sort column ascending GST: activate to sort column ascending Total: activate to sort column ascending Order Status: activate to sort column ascending Payment: activate to sort column ascending Method: activate to sort column ascending" [ref=f10e219]':
+                    - 'columnheader "Order #: activate to sort column ascending" [ref=f10e220] [cursor=pointer]': "Order #"
+                    - 'columnheader "Date: activate to sort column ascending" [ref=f10e221] [cursor=pointer]': Date
+                    - 'columnheader "Customer: activate to sort column ascending" [ref=f10e222] [cursor=pointer]': Customer
+                    - 'columnheader "Products: activate to sort column ascending" [ref=f10e223] [cursor=pointer]': Products
+                    - 'columnheader "Type: activate to sort column ascending" [ref=f10e224] [cursor=pointer]': Type
+                    - 'columnheader "Items: activate to sort column ascending" [ref=f10e225] [cursor=pointer]': Items
+                    - 'columnheader "Sub Total: activate to sort column ascending" [ref=f10e226] [cursor=pointer]': Sub Total
+                    - 'columnheader "Discount: activate to sort column ascending" [ref=f10e227] [cursor=pointer]': Discount
+                    - 'columnheader "GST: activate to sort column ascending" [ref=f10e228] [cursor=pointer]': GST
+                    - 'columnheader "Total: activate to sort column ascending" [ref=f10e229] [cursor=pointer]': Total
+                    - 'columnheader "Order Status: activate to sort column ascending" [ref=f10e230] [cursor=pointer]': Order Status
+                    - 'columnheader "Payment: activate to sort column ascending" [ref=f10e231] [cursor=pointer]': Payment
+                    - 'columnheader "Method: activate to sort column ascending" [ref=f10e232] [cursor=pointer]': Method
+                - rowgroup [ref=f10e233]:
+                  - row "4157 14/1/2026 richard k Tamil Book - TNPSC New Syllabus Books 1 ₹640.00 ₹172.03 ₹0.00 ₹467.97 Pending Pending" [ref=f10e18243]:
+                    - gridcell "4157" [ref=f10e18244]
+                    - gridcell "14/1/2026" [ref=f10e18245]
+                    - gridcell "richard k" [ref=f10e18246]
+                    - gridcell "Tamil Book - TNPSC New Syllabus" [ref=f10e18247]:
+                      - generic "Tamil Book - TNPSC New Syllabus" [ref=f10e18248]
+                    - gridcell "Books" [ref=f10e18249]
+                    - gridcell "1" [ref=f10e18250]
+                    - gridcell "₹640.00" [ref=f10e18251]
+                    - gridcell "₹172.03" [ref=f10e18252]
+                    - gridcell "₹0.00" [ref=f10e18253]
+                    - gridcell "₹467.97" [ref=f10e18254]
+                    - gridcell "Pending" [ref=f10e18255]:
+                      - generic [ref=f10e18256]: Pending
+                    - gridcell "Pending" [ref=f10e18257]:
+                      - generic [ref=f10e18258]: Pending
+                    - gridcell [ref=f10e18259]
+                  - row "4156 14/1/2026 richard k Tamil Book - TNPSC New Syllabus Books 1 ₹640.00 ₹172.03 ₹0.00 ₹467.97 Pending Success netbanking" [ref=f10e18260]:
+                    - gridcell "4156" [ref=f10e18261]
+                    - gridcell "14/1/2026" [ref=f10e18262]
+                    - gridcell "richard k" [ref=f10e18263]
+                    - gridcell "Tamil Book - TNPSC New Syllabus" [ref=f10e18264]:
+                      - generic "Tamil Book - TNPSC New Syllabus" [ref=f10e18265]
+                    - gridcell "Books" [ref=f10e18266]
+                    - gridcell "1" [ref=f10e18267]
+                    - gridcell "₹640.00" [ref=f10e18268]
+                    - gridcell "₹172.03" [ref=f10e18269]
+                    - gridcell "₹0.00" [ref=f10e18270]
+                    - gridcell "₹467.97" [ref=f10e18271]
+                    - gridcell "Pending" [ref=f10e18272]:
+                      - generic [ref=f10e18273]: Pending
+                    - gridcell "Success" [ref=f10e18274]:
+                      - generic [ref=f10e18275]: Success
+                    - gridcell "netbanking" [ref=f10e18276]
+                  - row "4155 13/1/2026 richard k Study lamp, Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles), Tamil Book - TNPSC New Syllabus Study Products 3 ₹2,079.00 ₹543.88 ₹0.00 ₹1,535.12 Cancelled Success netbanking" [ref=f10e18277]:
+                    - gridcell "4155" [ref=f10e18278]
+                    - gridcell "13/1/2026" [ref=f10e18279]
+                    - gridcell "richard k" [ref=f10e18280]
+                    - gridcell "Study lamp, Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles), Tamil Book - TNPSC New Syllabus" [ref=f10e18281]:
+                      - generic "Study lamp, Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles), Tamil Book - TNPSC New Syllabus" [ref=f10e18282]
+                    - gridcell "Study Products" [ref=f10e18283]
+                    - gridcell "3" [ref=f10e18284]
+                    - gridcell "₹2,079.00" [ref=f10e18285]
+                    - gridcell "₹543.88" [ref=f10e18286]
+                    - gridcell "₹0.00" [ref=f10e18287]
+                    - gridcell "₹1,535.12" [ref=f10e18288]
+                    - gridcell "Cancelled" [ref=f10e18289]:
+                      - generic [ref=f10e18290]: Cancelled
+                    - gridcell "Success" [ref=f10e18291]:
+                      - generic [ref=f10e18292]: Success
+                    - gridcell "netbanking" [ref=f10e18293]
+                  - row "4154 13/1/2026 richard k Study lamp, Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles), Tamil Book - TNPSC New Syllabus Study Products 4 ₹2,910.00 ₹793.18 ₹0.00 ₹2,116.82 Pending Pending" [ref=f10e18294]:
+                    - gridcell "4154" [ref=f10e18295]
+                    - gridcell "13/1/2026" [ref=f10e18296]
+                    - gridcell "richard k" [ref=f10e18297]
+                    - gridcell "Study lamp, Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles), Tamil Book - TNPSC New Syllabus" [ref=f10e18298]:
+                      - generic "Study lamp, Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles), Tamil Book - TNPSC New Syllabus" [ref=f10e18299]
+                    - gridcell "Study Products" [ref=f10e18300]
+                    - gridcell "4" [ref=f10e18301]
+                    - gridcell "₹2,910.00" [ref=f10e18302]
+                    - gridcell "₹793.18" [ref=f10e18303]
+                    - gridcell "₹0.00" [ref=f10e18304]
+                    - gridcell "₹2,116.82" [ref=f10e18305]
+                    - gridcell "Pending" [ref=f10e18306]:
+                      - generic [ref=f10e18307]: Pending
+                    - gridcell "Pending" [ref=f10e18308]:
+                      - generic [ref=f10e18309]: Pending
+                    - gridcell [ref=f10e18310]
+                  - row "4153 13/1/2026 richard k Study lamp, Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles), Tamil Book - TNPSC New Syllabus Study Products 4 ₹2,910.00 ₹793.18 ₹0.00 ₹2,116.82 Pending Pending" [ref=f10e18311]:
+                    - gridcell "4153" [ref=f10e18312]
+                    - gridcell "13/1/2026" [ref=f10e18313]
+                    - gridcell "richard k" [ref=f10e18314]
+                    - gridcell "Study lamp, Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles), Tamil Book - TNPSC New Syllabus" [ref=f10e18315]:
+                      - generic "Study lamp, Indian Polity (6-12 One Liner- 2015-2025 PYQ - 395 Articles), Tamil Book - TNPSC New Syllabus" [ref=f10e18316]
+                    - gridcell "Study Products" [ref=f10e18317]
+                    - gridcell "4" [ref=f10e18318]
+                    - gridcell "₹2,910.00" [ref=f10e18319]
+                    - gridcell "₹793.18" [ref=f10e18320]
+                    - gridcell "₹0.00" [ref=f10e18321]
+                    - gridcell "₹2,116.82" [ref=f10e18322]
+                    - gridcell "Pending" [ref=f10e18323]:
+                      - generic [ref=f10e18324]: Pending
+                    - gridcell "Pending" [ref=f10e18325]:
+                      - generic [ref=f10e18326]: Pending
+                    - gridcell [ref=f10e18327]
+                  - row "4152 13/1/2026 richard k TNPSC Tamil Book & Indian Polity (one Liner) Books 1 ₹831.00 ₹249.30 ₹0.00 ₹581.70 Pending Pending" [ref=f10e18328]:
+                    - gridcell "4152" [ref=f10e18329]
+                    - gridcell "13/1/2026" [ref=f10e18330]
+                    - gridcell "richard k" [ref=f10e18331]
+                    - gridcell "TNPSC Tamil Book & Indian Polity (one Liner)" [ref=f10e18332]:
+                      - generic "TNPSC Tamil Book & Indian Polity (one Liner)" [ref=f10e18333]
+                    - gridcell "Books" [ref=f10e18334]
+                    - gridcell "1" [ref=f10e18335]
+                    - gridcell "₹831.00" [ref=f10e18336]
+                    - gridcell "₹249.30" [ref=f10e18337]
+                    - gridcell "₹0.00" [ref=f10e18338]
+                    - gridcell "₹581.70" [ref=f10e18339]
+                    - gridcell "Pending" [ref=f10e18340]:
+                      - generic [ref=f10e18341]: Pending
+                    - gridcell "Pending" [ref=f10e18342]:
+                      - generic [ref=f10e18343]: Pending
+                    - gridcell [ref=f10e18344]
+              - generic [ref=f10e659]:
+                - generic [ref=f10e18345]: Previous
+                - generic [ref=f10e18347] [cursor=pointer]: "1"
+                - generic [ref=f10e18348]: Next
+      - contentinfo [ref=f10e209]:
+        - paragraph [ref=f10e213]:
+          - text: Copyright
+          - generic [ref=f10e214]: "2026"
+          - text: © Jeshwar Teaching
+  - img

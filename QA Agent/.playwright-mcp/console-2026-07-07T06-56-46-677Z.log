@@ -1,0 +1,10 @@
+[   33418ms] [LOG] Tab changed to: password @ https://jt-frontend.scopethinkers.com/Settings/Index:1857
+[   33617ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://jt-frontend.scopethinkers.com/Settings/Index:0
+[   33617ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://jt-frontend.scopethinkers.com/Settings/Index:0
+[   33617ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://jt-frontend.scopethinkers.com/Settings/Index:0
+[   60210ms] TypeError: Cannot read properties of undefined (reading 'scrollIntoView')
+    at showPasswordAlert (https://jt-frontend.scopethinkers.com/Settings/Index:1572:30)
+    at validatePasswords (https://jt-frontend.scopethinkers.com/Settings/Index:1534:17)
+    at HTMLFormElement.<anonymous> (https://jt-frontend.scopethinkers.com/Settings/Index:1469:22)
+    at HTMLDocument.dispatch (https://code.jquery.com/jquery-3.6.0.min.js:2:43064)
+    at v.handle (https://code.jquery.com/jquery-3.6.0.min.js:2:41048)

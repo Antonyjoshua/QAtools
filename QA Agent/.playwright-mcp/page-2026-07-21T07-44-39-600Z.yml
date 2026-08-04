@@ -1,0 +1,398 @@
+- generic [active] [ref=f62e1]:
+  - generic [ref=f62e7]:
+    - generic [ref=f62e8]:
+      - generic [ref=f62e9]:
+        - heading "Dashboard" [level=4] [ref=f62e10]
+        - navigation [ref=f62e11]:
+          - list [ref=f62e12]:
+            - listitem [ref=f62e13]:
+              - link [ref=f62e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f62e15]
+            - listitem [ref=f62e18]: / Index
+      - generic [ref=f62e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f62e22]:
+          - listitem [ref=f62e23]:
+            - generic [ref=f62e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f62e26]:
+      - generic [ref=f62e28]:
+        - text: 
+        - link [ref=f62e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f62e31]:
+          - list [ref=f62e33]:
+            - generic [ref=f62e38]:
+              - text: 
+              - listitem [ref=f62e39]:
+                - link [ref=f62e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f62e41]
+                  - text: 
+              - listitem [ref=f62e43]:
+                - link [ref=f62e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e45]
+                  - text: 
+              - listitem [ref=f62e47]:
+                - link [ref=f62e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e49]
+                  - text: 
+              - listitem [ref=f62e51]:
+                - link [ref=f62e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e53]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f62e55]:
+                - link [ref=f62e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e57]
+                  - text: 
+              - listitem [ref=f62e59]:
+                - link [ref=f62e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e61]
+                  - text: 
+              - listitem [ref=f62e63]:
+                - link "" [ref=f62e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f62e65]: 
+                  - text: 
+              - listitem [ref=f62e66]:
+                - link [ref=f62e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e68]
+                  - text: 
+              - listitem [ref=f62e70]:
+                - link [ref=f62e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e72]
+                  - text: 
+              - listitem [ref=f62e74]:
+                - link [ref=f62e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e76]
+                  - text: 
+              - listitem [ref=f62e78]:
+                - link [ref=f62e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e80]
+                  - text: 
+              - listitem [ref=f62e82]:
+                - link [ref=f62e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e84]
+                  - text: 
+              - listitem [ref=f62e86]:
+                - link [ref=f62e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e88]
+                  - text: 
+              - listitem [ref=f62e90]:
+                - link "general icon" [ref=f62e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f62e92]
+                  - text: 
+              - listitem [ref=f62e93]:
+                - link [ref=f62e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f62e95]
+                  - text: 
+              - listitem [ref=f62e97]:
+                - link [ref=f62e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f62e99]
+                  - text: 
+              - listitem [ref=f62e101]:
+                - link "product icon" [ref=f62e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f62e103]
+                  - text: 
+              - listitem [ref=f62e104]:
+                - link [ref=f62e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e106]
+                  - text: 
+              - listitem [ref=f62e108]:
+                - link [ref=f62e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e110]
+                  - text: 
+              - listitem [ref=f62e112]:
+                - link [ref=f62e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f62e114]
+                  - text: 
+              - listitem [ref=f62e116]:
+                - link [ref=f62e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e118]
+                  - text: 
+              - listitem [ref=f62e120]:
+                - link [ref=f62e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e122]
+                  - text: 
+              - listitem [ref=f62e124]:
+                - link [ref=f62e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f62e126]
+              - listitem [ref=f62e128]:
+                - link [ref=f62e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e130]
+                  - text: 
+              - listitem [ref=f62e132]:
+                - link "notify-ico" [ref=f62e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f62e134]
+                  - text: 
+              - listitem [ref=f62e135]:
+                - link "notify-ico" [ref=f62e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f62e137]
+                  - text: 
+      - main [ref=f62e139]:
+        - generic [ref=f62e141]:
+          - generic [ref=f62e142]:
+            - heading "Promo Codes" [level=5] [ref=f62e143]
+            - link "Add Promo Code" [ref=f62e144] [cursor=pointer]:
+              - /url: /PromoCode/Create
+          - generic [ref=f62e147]:
+            - generic [ref=f62e149]:
+              - text: Show
+              - combobox "Show entries" [ref=f62e150] [cursor=pointer]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: entries
+            - generic [ref=f62e152]:
+              - text: "Search:"
+              - searchbox "Search:" [ref=f62e153] [cursor=pointer]
+            - grid [ref=f62e154]:
+              - rowgroup [ref=f62e155]:
+                - 'row "Code: activate to sort column descending Discount Scope Validity Redemptions Status: activate to sort column ascending Action" [ref=f62e351]':
+                  - 'columnheader "Code: activate to sort column descending" [ref=f62e352] [cursor=pointer]': ↑ Code ↓
+                  - columnheader "Discount" [ref=f62e158]
+                  - columnheader "Scope" [ref=f62e159]
+                  - columnheader "Validity" [ref=f62e160]
+                  - columnheader "Redemptions" [ref=f62e161]
+                  - 'columnheader "Status: activate to sort column ascending" [ref=f62e173] [cursor=pointer]': ↑ Status 
+                  - columnheader "Action" [ref=f62e163]
+              - rowgroup [ref=f62e174]:
+                - row "QATEST_TODAYEXPIRY 10% OFF All courses Any → 21/07/2026 0 Active  " [ref=f62e353]:
+                  - gridcell "QATEST_TODAYEXPIRY" [ref=f62e354]:
+                    - strong [ref=f62e355]: QATEST_TODAYEXPIRY
+                  - gridcell "10% OFF" [ref=f62e356]
+                  - gridcell "All courses" [ref=f62e357]
+                  - gridcell "Any → 21/07/2026" [ref=f62e358]
+                  - gridcell "0" [ref=f62e359]
+                  - gridcell "Active" [ref=f62e360]:
+                    - generic [ref=f62e361]: Active
+                  - gridcell " " [ref=f62e362]:
+                    - list [ref=f62e363]:
+                      - listitem [ref=f62e364] [cursor=pointer]:
+                        - link "" [ref=f62e365]:
+                          - /url: /PromoCode/Edit/21
+                          - generic [ref=f62e366]: 
+                      - listitem [ref=f62e367] [cursor=pointer]:
+                        - link "" [ref=f62e368]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f62e369]: 
+                - row "QATEST_100PCT 100% OFF All courses Any → 20/08/2026 0 / 2 Active  " [ref=f62e370]:
+                  - gridcell "QATEST_100PCT" [ref=f62e371]:
+                    - strong [ref=f62e372]: QATEST_100PCT
+                  - gridcell "100% OFF" [ref=f62e373]
+                  - gridcell "All courses" [ref=f62e374]
+                  - gridcell "Any → 20/08/2026" [ref=f62e375]
+                  - gridcell "0 / 2" [ref=f62e376]
+                  - gridcell "Active" [ref=f62e377]:
+                    - generic [ref=f62e378]: Active
+                  - gridcell " " [ref=f62e379]:
+                    - list [ref=f62e380]:
+                      - listitem [ref=f62e381] [cursor=pointer]:
+                        - link "" [ref=f62e382]:
+                          - /url: /PromoCode/Edit/20
+                          - generic [ref=f62e383]: 
+                      - listitem [ref=f62e384] [cursor=pointer]:
+                        - link "" [ref=f62e385]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f62e386]: 
+                - row "QATEST_MIXEDCASE 10% OFF All courses Any → 20/08/2026 0 Active  " [ref=f62e387]:
+                  - gridcell "QATEST_MIXEDCASE" [ref=f62e388]:
+                    - strong [ref=f62e389]: QATEST_MIXEDCASE
+                  - gridcell "10% OFF" [ref=f62e390]
+                  - gridcell "All courses" [ref=f62e391]
+                  - gridcell "Any → 20/08/2026" [ref=f62e392]
+                  - gridcell "0" [ref=f62e393]
+                  - gridcell "Active" [ref=f62e394]:
+                    - generic [ref=f62e395]: Active
+                  - gridcell " " [ref=f62e396]:
+                    - list [ref=f62e397]:
+                      - listitem [ref=f62e398] [cursor=pointer]:
+                        - link "" [ref=f62e399]:
+                          - /url: /PromoCode/Edit/19
+                          - generic [ref=f62e400]: 
+                      - listitem [ref=f62e401] [cursor=pointer]:
+                        - link "" [ref=f62e402]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f62e403]: 
+                - row "QATEST_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 10% OFF All courses Any → 20/08/2026 0 Active  " [ref=f62e404]:
+                  - gridcell "QATEST_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" [ref=f62e405]:
+                    - strong [ref=f62e406]: QATEST_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                  - gridcell "10% OFF" [ref=f62e407]
+                  - gridcell "All courses" [ref=f62e408]
+                  - gridcell "Any → 20/08/2026" [ref=f62e409]
+                  - gridcell "0" [ref=f62e410]
+                  - gridcell "Active" [ref=f62e411]:
+                    - generic [ref=f62e412]: Active
+                  - gridcell " " [ref=f62e413]:
+                    - list [ref=f62e414]:
+                      - listitem [ref=f62e415] [cursor=pointer]:
+                        - link "" [ref=f62e416]:
+                          - /url: /PromoCode/Edit/17
+                          - generic [ref=f62e417]: 
+                      - listitem [ref=f62e418] [cursor=pointer]:
+                        - link "" [ref=f62e419]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f62e420]: 
+                - row "QATEST_12345 10% OFF All courses Any → 20/08/2026 0 Active  " [ref=f62e421]:
+                  - gridcell "QATEST_12345" [ref=f62e422]:
+                    - strong [ref=f62e423]: QATEST_12345
+                  - gridcell "10% OFF" [ref=f62e424]
+                  - gridcell "All courses" [ref=f62e425]
+                  - gridcell "Any → 20/08/2026" [ref=f62e426]
+                  - gridcell "0" [ref=f62e427]
+                  - gridcell "Active" [ref=f62e428]:
+                    - generic [ref=f62e429]: Active
+                  - gridcell " " [ref=f62e430]:
+                    - list [ref=f62e431]:
+                      - listitem [ref=f62e432] [cursor=pointer]:
+                        - link "" [ref=f62e433]:
+                          - /url: /PromoCode/Edit/15
+                          - generic [ref=f62e434]: 
+                      - listitem [ref=f62e435] [cursor=pointer]:
+                        - link "" [ref=f62e436]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f62e437]: 
+                - row "QATEST_N9_TEMP 10% OFF All courses No expiry 0 Active  " [ref=f62e438]:
+                  - gridcell "QATEST_N9_TEMP" [ref=f62e439]:
+                    - strong [ref=f62e440]: QATEST_N9_TEMP
+                  - gridcell "10% OFF" [ref=f62e441]
+                  - gridcell "All courses" [ref=f62e442]
+                  - gridcell "No expiry" [ref=f62e443]
+                  - gridcell "0" [ref=f62e444]
+                  - gridcell "Active" [ref=f62e445]:
+                    - generic [ref=f62e446]: Active
+                  - gridcell " " [ref=f62e447]:
+                    - list [ref=f62e448]:
+                      - listitem [ref=f62e449] [cursor=pointer]:
+                        - link "" [ref=f62e450]:
+                          - /url: /PromoCode/Edit/14
+                          - generic [ref=f62e451]: 
+                      - listitem [ref=f62e452] [cursor=pointer]:
+                        - link "" [ref=f62e453]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f62e454]: 
+                - row "QATEST_SPECIAL !@#$% 10% OFF All courses No expiry 0 Active  " [ref=f62e455]:
+                  - gridcell "QATEST_SPECIAL !@#$%" [ref=f62e456]:
+                    - strong [ref=f62e457]: QATEST_SPECIAL !@#$%
+                  - gridcell "10% OFF" [ref=f62e458]
+                  - gridcell "All courses" [ref=f62e459]
+                  - gridcell "No expiry" [ref=f62e460]
+                  - gridcell "0" [ref=f62e461]
+                  - gridcell "Active" [ref=f62e462]:
+                    - generic [ref=f62e463]: Active
+                  - gridcell " " [ref=f62e464]:
+                    - list [ref=f62e465]:
+                      - listitem [ref=f62e466] [cursor=pointer]:
+                        - link "" [ref=f62e467]:
+                          - /url: /PromoCode/Edit/13
+                          - generic [ref=f62e468]: 
+                      - listitem [ref=f62e469] [cursor=pointer]:
+                        - link "" [ref=f62e470]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f62e471]: 
+                - row "QATEST_EXPIRED 10% OFF All courses Any → 20/07/2026 0 Active  " [ref=f62e472]:
+                  - gridcell "QATEST_EXPIRED" [ref=f62e473]:
+                    - strong [ref=f62e474]: QATEST_EXPIRED
+                  - gridcell "10% OFF" [ref=f62e475]
+                  - gridcell "All courses" [ref=f62e476]
+                  - gridcell "Any → 20/07/2026" [ref=f62e477]
+                  - gridcell "0" [ref=f62e478]
+                  - gridcell "Active" [ref=f62e479]:
+                    - generic [ref=f62e480]: Active
+                  - gridcell " " [ref=f62e481]:
+                    - list [ref=f62e482]:
+                      - listitem [ref=f62e483] [cursor=pointer]:
+                        - link "" [ref=f62e484]:
+                          - /url: /PromoCode/Edit/12
+                          - generic [ref=f62e485]: 
+                      - listitem [ref=f62e486] [cursor=pointer]:
+                        - link "" [ref=f62e487]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f62e488]: 
+                - row "QATEST_ZERO_TEMP 10% OFF All courses Any → 20/07/2026 0 Active  " [ref=f62e489]:
+                  - gridcell "QATEST_ZERO_TEMP" [ref=f62e490]:
+                    - strong [ref=f62e491]: QATEST_ZERO_TEMP
+                  - gridcell "10% OFF" [ref=f62e492]
+                  - gridcell "All courses" [ref=f62e493]
+                  - gridcell "Any → 20/07/2026" [ref=f62e494]
+                  - gridcell "0" [ref=f62e495]
+                  - gridcell "Active" [ref=f62e496]:
+                    - generic [ref=f62e497]: Active
+                  - gridcell " " [ref=f62e498]:
+                    - list [ref=f62e499]:
+                      - listitem [ref=f62e500] [cursor=pointer]:
+                        - link "" [ref=f62e501]:
+                          - /url: /PromoCode/Edit/11
+                          - generic [ref=f62e502]: 
+                      - listitem [ref=f62e503] [cursor=pointer]:
+                        - link "" [ref=f62e504]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f62e505]: 
+                - 'row "QATEST_SPECIFICBATCH 20% OFF Course: GST Inclu Any → 20/08/2026 0 Active  " [ref=f62e506]':
+                  - gridcell "QATEST_SPECIFICBATCH" [ref=f62e507]:
+                    - strong [ref=f62e508]: QATEST_SPECIFICBATCH
+                  - gridcell "20% OFF" [ref=f62e509]
+                  - 'gridcell "Course: GST Inclu" [ref=f62e510]'
+                  - gridcell "Any → 20/08/2026" [ref=f62e511]
+                  - gridcell "0" [ref=f62e512]
+                  - gridcell "Active" [ref=f62e513]:
+                    - generic [ref=f62e514]: Active
+                  - gridcell " " [ref=f62e515]:
+                    - list [ref=f62e516]:
+                      - listitem [ref=f62e517] [cursor=pointer]:
+                        - link "" [ref=f62e518]:
+                          - /url: /PromoCode/Edit/10
+                          - generic [ref=f62e519]: 
+                      - listitem [ref=f62e520] [cursor=pointer]:
+                        - link "" [ref=f62e521]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f62e522]: 
+            - status [ref=f62e345]: Showing 1 to 10 of 19 entries
+            - generic [ref=f62e164]:
+              - generic [ref=f62e523]: Previous
+              - generic [ref=f62e524]:
+                - generic [ref=f62e525] [cursor=pointer]: "1"
+                - generic [ref=f62e526] [cursor=pointer]: "2"
+              - generic [ref=f62e527] [cursor=pointer]: Next
+      - contentinfo [ref=f62e165]:
+        - paragraph [ref=f62e169]:
+          - text: Copyright
+          - generic [ref=f62e170]: "2026"
+          - text: © Jeshwar Teaching
+  - img

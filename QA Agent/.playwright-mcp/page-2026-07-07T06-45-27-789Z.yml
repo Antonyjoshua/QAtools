@@ -1,0 +1,17 @@
+- generic [ref=f34e4]:
+  - heading "Never Give Up is more important than Success!" [level=2] [ref=f34e8]
+  - generic [ref=f34e10]:
+    - img "Logo" [ref=f34e11]
+    - generic [ref=f34e12]:
+      - heading "Login Using OTP" [level=2] [ref=f34e31]
+      - paragraph [ref=f34e14]: Enter your registered phone number to receive a 6-digit code.
+      - generic [ref=f34e33]:
+        - generic [ref=f34e34]: Mobile Number
+        - generic [ref=f34e35]:
+          - textbox "Mobile Number" [ref=f34e36]:
+            - /placeholder: Enter your mobile number
+            - text: abc123
+          - text: Please enter a valid 10-digit phone number
+        - button "Send OTP" [active] [ref=f34e37] [cursor=pointer]
+      - generic [ref=f34e29]: or
+      - button "Login with Password" [ref=f34e38] [cursor=pointer]

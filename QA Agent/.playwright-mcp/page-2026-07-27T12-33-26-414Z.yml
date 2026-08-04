@@ -1,0 +1,265 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e7]:
+    - generic [ref=f4e8]:
+      - generic [ref=f4e9]:
+        - heading "Dashboard" [level=4] [ref=f4e10]
+        - navigation [ref=f4e11]:
+          - list [ref=f4e12]:
+            - listitem [ref=f4e13]:
+              - link [ref=f4e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f4e15]
+            - listitem [ref=f4e18]: / Index
+      - generic [ref=f4e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f4e22]:
+          - listitem [ref=f4e23]:
+            - generic [ref=f4e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f4e26]:
+      - generic [ref=f4e28]:
+        - text: 
+        - link [ref=f4e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f4e31]:
+          - list [ref=f4e33]:
+            - generic [ref=f4e38]:
+              - text: 
+              - listitem [ref=f4e39]:
+                - link [ref=f4e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f4e41]
+                  - text: 
+              - listitem [ref=f4e43]:
+                - link [ref=f4e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e45]
+                  - text: 
+              - listitem [ref=f4e47]:
+                - link [ref=f4e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e49]
+                  - text: 
+              - listitem [ref=f4e51]:
+                - link [ref=f4e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e53]
+                  - text: 
+              - listitem [ref=f4e55]:
+                - link [ref=f4e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e57]
+                  - text: 
+              - listitem [ref=f4e59]:
+                - link [ref=f4e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e61]
+                  - text: 
+              - listitem [ref=f4e63]:
+                - link "" [ref=f4e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f4e65]: 
+                  - text: 
+              - listitem [ref=f4e66]:
+                - link [ref=f4e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e68]
+                  - text: 
+              - listitem [ref=f4e70]:
+                - link [ref=f4e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e72]
+                  - text: 
+              - listitem [ref=f4e74]:
+                - link [ref=f4e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e76]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f4e78]:
+                - link [ref=f4e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e80]
+                  - text: 
+              - listitem [ref=f4e82]:
+                - link [ref=f4e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e84]
+                  - text: 
+              - listitem [ref=f4e86]:
+                - link [ref=f4e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e88]
+                  - text: 
+              - listitem [ref=f4e90]:
+                - link "general icon" [ref=f4e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f4e92]
+                  - text: 
+              - listitem [ref=f4e93]:
+                - link [ref=f4e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f4e95]
+                  - text: 
+              - listitem [ref=f4e97]:
+                - link [ref=f4e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f4e99]
+                  - text: 
+              - listitem [ref=f4e101]:
+                - link "product icon" [ref=f4e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f4e103]
+                  - text: 
+              - listitem [ref=f4e104]:
+                - link [ref=f4e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e106]
+                  - text: 
+              - listitem [ref=f4e108]:
+                - link [ref=f4e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e110]
+                  - text: 
+              - listitem [ref=f4e112]:
+                - link [ref=f4e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f4e114]
+                  - text: 
+              - listitem [ref=f4e116]:
+                - link [ref=f4e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e118]
+                  - text: 
+              - listitem [ref=f4e120]:
+                - link [ref=f4e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e122]
+                  - text: 
+              - listitem [ref=f4e124]:
+                - link [ref=f4e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f4e126]
+              - listitem [ref=f4e128]:
+                - link [ref=f4e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e130]
+                  - text: 
+              - listitem [ref=f4e132]:
+                - link "notify-ico" [ref=f4e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f4e134]
+                  - text: 
+              - listitem [ref=f4e135]:
+                - link "notify-ico" [ref=f4e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f4e137]
+                  - text: 
+      - main [ref=f4e139]:
+        - generic [ref=f4e143]:
+          - generic [ref=f4e144]:
+            - heading "Live APL" [level=5] [ref=f4e145]
+            - generic [ref=f4e146]:
+              - generic [ref=f4e147]: "Status:"
+              - combobox "Status:" [ref=f4e148] [cursor=pointer]:
+                - option "All"
+                - option "Scheduled" [selected]
+                - option "Live"
+                - option "Completed"
+                - option "Cancelled"
+              - link " Create Live APL" [ref=f4e149] [cursor=pointer]:
+                - /url: /LiveApl/Create
+                - generic [ref=f4e150]: 
+                - text: Create Live APL
+          - generic [ref=f4e153]:
+            - generic [ref=f4e155]:
+              - text: Show
+              - combobox "Show entries" [ref=f4e156] [cursor=pointer]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: entries
+            - generic [ref=f4e158]:
+              - text: "Search:"
+              - searchbox "Search:" [ref=f4e159] [cursor=pointer]
+            - grid [ref=f4e160]:
+              - rowgroup [ref=f4e161]:
+                - 'row "Image Title: activate to sort column ascending Course Start Date: activate to sort column ascending Max Participants: activate to sort column ascending No of Qn/Player: activate to sort column ascending Questions Added Result Message Status: activate to sort column ascending Actions" [ref=f4e180]':
+                  - columnheader "Image" [ref=f4e163]
+                  - 'columnheader "Title: activate to sort column ascending" [ref=f4e181] [cursor=pointer]': ↑ Title 
+                  - columnheader "Course" [ref=f4e165]
+                  - 'columnheader "Start Date: activate to sort column ascending" [ref=f4e182] [cursor=pointer]': ↑ Start Date ↓
+                  - 'columnheader "Max Participants: activate to sort column ascending" [ref=f4e183] [cursor=pointer]': ↑ Max Participants 
+                  - 'columnheader "No of Qn/Player: activate to sort column ascending" [ref=f4e184] [cursor=pointer]': ↑ No of Qn/Player 
+                  - columnheader "Questions Added" [ref=f4e169]
+                  - columnheader "Result Message" [ref=f4e170]
+                  - 'columnheader "Status: activate to sort column ascending" [ref=f4e185] [cursor=pointer]': ↑ Status 
+                  - columnheader "Actions" [ref=f4e172]
+              - rowgroup [ref=f4e186]:
+                - row "Aptitude Live Championship -01 Aptitude Live Championship -01 61 courses 27 Jul 2026 15:58 500 5 20 🎊 GRAND RESULT ANNOUNCEMENT 🏆 TNPSC L… Live     " [ref=f4e523]:
+                  - gridcell "Aptitude Live Championship -01" [ref=f4e524]:
+                    - img "Aptitude Live Championship -01" [ref=f4e525]
+                  - gridcell "Aptitude Live Championship -01" [ref=f4e526]:
+                    - strong [ref=f4e527]: Aptitude Live Championship -01
+                  - gridcell "61 courses" [ref=f4e528]:
+                    - generic [ref=f4e529]: 61 courses
+                  - gridcell "27 Jul 2026 15:58" [ref=f4e530]
+                  - gridcell "500" [ref=f4e531]
+                  - gridcell "5" [ref=f4e532]
+                  - gridcell "20" [ref=f4e533]:
+                    - link "20" [ref=f4e534] [cursor=pointer]:
+                      - /url: /LiveApl/Questions?liveAplId=9
+                  - gridcell "🎊 GRAND RESULT ANNOUNCEMENT 🏆 TNPSC L…" [ref=f4e535]:
+                    - generic [ref=f4e536]: 🎊 GRAND RESULT ANNOUNCEMENT 🏆 TNPSC L…
+                  - gridcell "Live" [ref=f4e537]:
+                    - generic [ref=f4e538]: Live
+                  - gridcell "    " [ref=f4e539]:
+                    - list [ref=f4e540]:
+                      - listitem [ref=f4e541] [cursor=pointer]:
+                        - link "" [ref=f4e542]:
+                          - /url: /LiveApl/Edit?id=9
+                          - generic [ref=f4e543]: 
+                      - listitem [ref=f4e544]:
+                        - link "" [ref=f4e545] [cursor=pointer]:
+                          - /url: /LiveApl/Questions?liveAplId=9
+                          - generic [ref=f4e546]: 
+                      - listitem [ref=f4e547]:
+                        - link "" [ref=f4e548] [cursor=pointer]:
+                          - /url: /LiveApl/DownloadAnswerKey?liveAplId=9
+                          - generic [ref=f4e549]: 
+                      - listitem [ref=f4e550]:
+                        - link "" [ref=f4e551] [cursor=pointer]:
+                          - /url: /LiveAplResults/Announce?liveAplId=9
+                          - generic [ref=f4e552]: 
+                      - listitem [ref=f4e553] [cursor=pointer]:
+                        - link "" [ref=f4e554]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f4e555]: 
+            - status [ref=f4e517]: Showing 1 to 1 of 1 entries
+            - generic [ref=f4e173]:
+              - generic [ref=f4e556]: Previous
+              - generic [ref=f4e558] [cursor=pointer]: "1"
+              - generic [ref=f4e559]: Next
+      - contentinfo [ref=f4e174]:
+        - paragraph [ref=f4e178]:
+          - text: Copyright
+          - generic [ref=f4e179]: "2026"
+          - text: © Jeshwar Teaching
+  - img

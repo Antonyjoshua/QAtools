@@ -1,0 +1,211 @@
+- generic [ref=f9e1]:
+  - generic [ref=f9e7]:
+    - generic [ref=f9e8]:
+      - generic [ref=f9e9]:
+        - heading "AI Question Generator" [level=4] [ref=f9e10]
+        - navigation [ref=f9e11]:
+          - list [ref=f9e12]:
+            - listitem [ref=f9e13]:
+              - link [ref=f9e14] [cursor=pointer]:
+                - /url: /Question/Index
+                - img [ref=f9e15]
+            - listitem [ref=f9e18]: / AI Question Generator
+      - generic [ref=f9e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - img [ref=f9e23] [cursor=pointer]
+        - list [ref=f9e26]:
+          - listitem [ref=f9e27]:
+            - generic [ref=f9e29] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f9e30]:
+      - generic [ref=f9e32]:
+        - text: 
+        - link [ref=f9e34] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f9e35]:
+          - list [ref=f9e37]:
+            - generic [ref=f9e42]:
+              - text: 
+              - listitem [ref=f9e43]:
+                - link [ref=f9e44] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f9e45]
+                  - text: 
+              - listitem [ref=f9e47]:
+                - link [ref=f9e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e49]
+                  - text: 
+              - listitem [ref=f9e51]:
+                - link [ref=f9e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e53]
+                  - text: 
+              - listitem [ref=f9e55]:
+                - link [ref=f9e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e57]
+                  - text: 
+              - listitem [ref=f9e59]:
+                - link [ref=f9e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e61]
+                  - text: 
+              - listitem [ref=f9e63]:
+                - link "" [ref=f9e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f9e65]: 
+                  - text: 
+              - listitem [ref=f9e66]:
+                - link [ref=f9e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e68]
+                  - text: 
+              - listitem [ref=f9e70]:
+                - link [ref=f9e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e72]
+                  - text: 
+              - listitem [ref=f9e74]:
+                - link [ref=f9e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e76]
+                  - text: 
+              - listitem [ref=f9e78]:
+                - link "general icon" [ref=f9e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f9e80]
+                  - text: 
+              - listitem [ref=f9e81]:
+                - link [ref=f9e82] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f9e83]
+                  - text: 
+              - listitem [ref=f9e85]:
+                - link [ref=f9e86] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f9e87]
+                  - text: 
+              - listitem [ref=f9e89]:
+                - link "product icon" [ref=f9e90] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f9e91]
+                  - text: 
+              - listitem [ref=f9e92]:
+                - link [ref=f9e93] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e94]
+                  - text: 
+              - listitem [ref=f9e96]:
+                - link [ref=f9e97] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f9e98]
+                  - text: 
+              - listitem [ref=f9e100]:
+                - link [ref=f9e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e102]
+                  - text: 
+              - listitem [ref=f9e104]:
+                - link "notify-ico" [ref=f9e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f9e106]
+                  - text: 
+              - listitem [ref=f9e107]:
+                - link "notify-ico" [ref=f9e108] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f9e109]
+                  - text: 
+      - main [ref=f9e111]:
+        - generic [ref=f9e113]:
+          - generic [ref=f9e114]:
+            - heading "AI Question Generator" [level=4] [ref=f9e115]
+            - generic [ref=f9e116]:
+              - button " Generate Questions" [disabled]:
+                - generic: 
+                - text: Generate Questions
+              - link " Back to Questions" [ref=f9e117] [cursor=pointer]:
+                - /url: /Question/Index?assessmentId=1172
+                - generic [ref=f9e118]: 
+                - text: Back to Questions
+          - generic [ref=f9e119]:
+            - generic [ref=f9e122]:
+              - generic [ref=f9e123]: 
+              - strong [ref=f9e124]: "Assessment:"
+              - text: QA Test Assessment - 2026-07-08 |
+              - strong [ref=f9e125]: "Max Questions:"
+              - text: 5 |
+              - strong [ref=f9e126]: "Existing:"
+              - text: 0 |
+              - strong [ref=f9e127]: "Remaining Slots:"
+              - text: "5"
+            - generic [ref=f9e128]:
+              - generic [ref=f9e129]:
+                - generic [ref=f9e130]:
+                  - generic [ref=f9e131]:
+                    - text: Upload Files
+                    - generic [ref=f9e132]: "*"
+                  - generic [ref=f9e133] [cursor=pointer]:
+                    - generic [ref=f9e134]: 
+                    - paragraph [ref=f9e135]: Drag & drop PDF, Word, or image files here, or click to browse
+                - generic [ref=f9e136]:
+                  - generic [ref=f9e137]: Number of Questions
+                  - spinbutton [ref=f9e138]: "5"
+                - generic [ref=f9e139]:
+                  - generic [ref=f9e140]: Marks per Question
+                  - spinbutton [ref=f9e141]: "20"
+              - generic [ref=f9e142]:
+                - generic [ref=f9e143]:
+                  - generic [ref=f9e144]: Difficulty Level
+                  - combobox [ref=f9e145] [cursor=pointer]:
+                    - option "Easy"
+                    - option "Medium" [selected]
+                    - option "Hard"
+                - generic [ref=f9e146]:
+                  - generic [ref=f9e147]:
+                    - text: Prompt Configuration
+                    - generic [ref=f9e148]: "*"
+                  - combobox [ref=f9e149] [cursor=pointer]:
+                    - option "-- Select Prompt Config --" [selected]
+                    - option "Assertion Reason Question (Google / gemini-2.5-flash)"
+                    - option "Match the following (Google / gemini-2.5-flash)"
+                    - option "Match The Following001 (Google / gemini-2.5-flash)"
+                    - option "Maths (Google / gemini-2.5-flash)"
+                    - option "Migration Prompt (Google / gemini-2.5-flash)"
+                    - option "pdf to text maths (Google / gemini-2.5-flash)"
+                    - option "pyq-roman,direct (Google / gemini-2.5-flash)"
+                    - option "Tamil (Google / gemini-2.5-flash)"
+                  - text: Select the AI provider and model configuration to use
+              - text: 
+              - generic [ref=f9e151]:
+                - generic [ref=f9e152]: Languages to generate
+                - generic [ref=f9e153]:
+                  - generic [ref=f9e154]:
+                    - checkbox "Tamil (always included)" [checked] [disabled]
+                    - generic [ref=f9e155]:
+                      - text: Tamil
+                      - generic [ref=f9e156]: (always included)
+                  - generic [ref=f9e157]:
+                    - checkbox "English" [checked] [ref=f9e158] [cursor=pointer]
+                    - generic [ref=f9e159]: English
+                - text: Tamil is saved into the main Questions tables; English (when checked) is saved into the QuestionTranslations tables for the same QuestionId.
+              - generic [ref=f9e161]:
+                - generic [ref=f9e162]: Rules / Instructions
+                - textbox "Select a prompt config above to load its rules, or type your own..." [ref=f9e163]
+                - text: " Rules from the selected prompt config are loaded here. You can edit or add more instructions. Note: structural rules (clean MCQ format, bilingual JSON shape) are enforced automatically and cannot be overridden here."
+              - generic [ref=f9e165]:
+                - button " Generate Questions" [disabled]:
+                  - generic: 
+                  - text: Generate Questions
+      - contentinfo [ref=f9e166]:
+        - paragraph [ref=f9e170]:
+          - text: Copyright
+          - generic [ref=f9e171]: "2026"
+          - text: © Jeshwar Teaching
+  - img

@@ -1,0 +1,388 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - generic [ref=f7e3]:
+      - generic [ref=f7e4]:
+        - heading "Masters" [level=4] [ref=f7e5]
+        - navigation [ref=f7e6]:
+          - list [ref=f7e7]:
+            - listitem [ref=f7e8]:
+              - link [ref=f7e9] [cursor=pointer]:
+                - /url: /Master/Course
+                - img [ref=f7e10]
+            - listitem [ref=f7e13]: / Course
+      - generic [ref=f7e15]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f7e17]:
+          - text: 
+          - listitem [ref=f7e18] [cursor=pointer]:
+            - generic [ref=f7e19]:
+              - img "Profile" [ref=f7e20]
+              - generic [ref=f7e21]:
+                - generic [ref=f7e22]: superadmin@gmail.com
+                - paragraph [ref=f7e23]:
+                  - text: SuperAdmin
+                  - generic [ref=f7e24]: 
+    - generic [ref=f7e25]:
+      - generic [ref=f7e27]:
+        - generic [ref=f7e28]:
+          - link [ref=f7e29] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f7e31] [cursor=pointer]
+        - navigation [ref=f7e33]:
+          - list [ref=f7e35]:
+            - generic [ref=f7e40]:
+              - text: 
+              - listitem [ref=f7e41]:
+                - heading "Applications" [level=6] [ref=f7e43]
+              - listitem [ref=f7e44]:
+                - link "Dashboard" [ref=f7e45] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f7e46]
+                  - generic [ref=f7e48]: Dashboard
+                  - text: 
+              - listitem [ref=f7e49]:
+                - link "Enrollment " [ref=f7e50] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e51]
+                  - generic [ref=f7e53]: Enrollment
+                  - generic [ref=f7e55]: 
+              - listitem [ref=f7e56]:
+                - link "Website Settings " [ref=f7e57] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e58]
+                  - generic [ref=f7e60]: Website Settings
+                  - generic [ref=f7e62]: 
+              - listitem [ref=f7e63]:
+                - link "Membership " [ref=f7e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e65]
+                  - generic [ref=f7e67]: Membership
+                  - generic [ref=f7e69]: 
+              - listitem [ref=f7e70]:
+                - link "Course " [ref=f7e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e72]
+                  - generic [ref=f7e74]: Course
+                  - generic [ref=f7e76]: 
+                - list [ref=f7e77]:
+                  - listitem [ref=f7e78]:
+                    - link "Course" [ref=f7e79] [cursor=pointer]:
+                      - /url: /Master/Course
+                  - listitem [ref=f7e80]:
+                    - link "Unit" [ref=f7e81] [cursor=pointer]:
+                      - /url: /Unit/Index
+                  - listitem [ref=f7e82]:
+                    - link "Topics" [ref=f7e83] [cursor=pointer]:
+                      - /url: /Topic/Index
+                  - listitem [ref=f7e84]:
+                    - link "Live" [ref=f7e85] [cursor=pointer]:
+                      - /url: /CourseLive/Index
+                  - listitem [ref=f7e86]:
+                    - link "Doubt Inbox" [ref=f7e87] [cursor=pointer]:
+                      - /url: /Doubt/Inbox
+                  - listitem [ref=f7e88]:
+                    - link "Topic Ratings" [ref=f7e89] [cursor=pointer]:
+                      - /url: /TopicRating/Index
+                  - listitem [ref=f7e90]:
+                    - link "Admin Ratings" [ref=f7e91] [cursor=pointer]:
+                      - /url: /AdminTopicRating/Index
+              - listitem [ref=f7e92]:
+                - link " Self Host " [ref=f7e93] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f7e94]: 
+                  - generic [ref=f7e95]: Self Host
+                  - generic [ref=f7e97]: 
+              - listitem [ref=f7e98]:
+                - link "Assessment " [ref=f7e99] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e100]
+                  - generic [ref=f7e102]: Assessment
+                  - generic [ref=f7e104]: 
+              - listitem [ref=f7e105]:
+                - link "Email Draft " [ref=f7e106] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e107]
+                  - generic [ref=f7e109]: Email Draft
+                  - generic [ref=f7e111]: 
+              - listitem [ref=f7e112]:
+                - link "Admin " [ref=f7e113] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e114]
+                  - generic [ref=f7e116]: Admin
+                  - generic [ref=f7e118]: 
+              - listitem [ref=f7e119]:
+                - link "general icon General " [ref=f7e120] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f7e121]
+                  - generic [ref=f7e122]: General
+                  - generic [ref=f7e124]: 
+              - listitem [ref=f7e125]:
+                - link "Leaderboard" [ref=f7e126] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f7e127]
+                  - generic [ref=f7e129]: Leaderboard
+                  - text: 
+              - listitem [ref=f7e130]:
+                - heading "E-Commerce" [level=6] [ref=f7e132]
+              - listitem [ref=f7e133]:
+                - link "Dashboard" [ref=f7e134] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f7e135]
+                  - generic [ref=f7e137]: Dashboard
+                  - text: 
+              - listitem [ref=f7e138]:
+                - link "product icon Product " [ref=f7e139] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f7e140]
+                  - generic [ref=f7e141]: Product
+                  - generic [ref=f7e143]: 
+              - listitem [ref=f7e144]:
+                - link "Order " [ref=f7e145] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e146]
+                  - generic [ref=f7e148]: Order
+                  - generic [ref=f7e150]: 
+              - listitem [ref=f7e151]:
+                - link "Customer" [ref=f7e152] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f7e153]
+                  - generic [ref=f7e155]: Customer
+                  - text: 
+              - listitem [ref=f7e156]:
+                - heading "Payments" [level=6] [ref=f7e158]
+              - listitem [ref=f7e159]:
+                - link "Transactions " [ref=f7e160] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f7e161]
+                  - generic [ref=f7e163]: Transactions
+                  - generic [ref=f7e165]: 
+              - listitem [ref=f7e166]:
+                - heading "Notifcations" [level=6] [ref=f7e168]
+              - listitem [ref=f7e169]:
+                - link "notify-ico Notifications " [ref=f7e170] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f7e171]
+                  - generic [ref=f7e172]: Notifications
+                  - generic [ref=f7e174]: 
+              - listitem [ref=f7e175]:
+                - heading "Job Management" [level=6] [ref=f7e177]
+              - listitem [ref=f7e178]:
+                - link "notify-ico Jobs " [ref=f7e179] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f7e180]
+                  - generic [ref=f7e181]: Jobs
+                  - generic [ref=f7e183]: 
+      - main [ref=f7e185]:
+        - generic [ref=f7e191]:
+          - generic [ref=f7e192]:
+            - generic [ref=f7e194]:
+              - generic [ref=f7e195]:
+                - text: Course Code
+                - generic [ref=f7e196]: "*"
+              - textbox "Course Code" [ref=f7e197] [cursor=pointer]: QA-TEST-01
+              - generic [ref=f7e386]: Course Code is required.
+            - generic [ref=f7e199]:
+              - generic [ref=f7e200]:
+                - text: Title
+                - generic [ref=f7e201]: "*"
+              - textbox "Course Title" [ref=f7e202] [cursor=pointer]: QA Test Course
+              - generic [ref=f7e387]: Title is required.
+            - generic [ref=f7e204]:
+              - generic [ref=f7e205]:
+                - text: Duration (Hours)
+                - generic [ref=f7e206]: "*"
+              - spinbutton "Duration in Hours" [ref=f7e207] [cursor=pointer]: "10"
+              - generic [ref=f7e388]: Duration must be a positive number.
+            - generic [ref=f7e209]:
+              - generic [ref=f7e210]:
+                - text: Status
+                - generic [ref=f7e211]: "*"
+              - combobox [ref=f7e212] [cursor=pointer]:
+                - option "-- Select Status --"
+                - option "Draft"
+                - option "Active" [selected]
+                - option "Archived"
+                - option "Expired"
+              - generic [ref=f7e389]: Please select a status.
+            - generic [ref=f7e214]:
+              - generic [ref=f7e215]:
+                - text: Membership
+                - generic [ref=f7e216]: "*"
+              - combobox [ref=f7e217] [cursor=pointer]:
+                - option "-- Select Membership --"
+                - option "Free (Single)" [selected]
+                - option "Silver (Single)"
+                - option "Prime Membership (Single)"
+                - option "Pongal membership (Single)"
+                - option "Platinum (Single)"
+                - option "NewBatch (Single)"
+                - option "Gold membership (Single)"
+                - option "New year Membership (Single)"
+                - option "New year Membership (Single)"
+                - option "Christmas (Single)"
+                - option "Assessment (Single)"
+                - option "Phase3 (Single)"
+                - option "test Subscriptio (Multiple)"
+                - option "Test Subsciptions 3 (Multiple)"
+                - option "Sm (Multiple)"
+                - option "Single purchase (Single)"
+                - option "Multiple purchase- 01 (Multiple)"
+                - option "Membership single- ms (Single)"
+                - option "Membership multiple- mm (Multiple)"
+                - option "Single membership (Single)"
+                - option "Multiple membership (Multiple)"
+                - option "MM membership (Multiple)"
+                - option "JtCourse (Multiple)"
+                - option "Multiple jt membership (Multiple)"
+                - option "jt -2 plan (Multiple)"
+                - option "Batch03 (Multiple)"
+                - option "Batch No 01 (Multiple)"
+                - option "Batch 02 (Multiple)"
+                - option "Prime Subscription (Multiple)"
+                - option "Premium Membership (Multiple)"
+                - option "Multiple Membership -001 (Multiple)"
+                - option "Prime Subscription No-01 (Multiple)"
+                - option "Batch0302 (Multiple)"
+                - option "new membershiop (Multiple)"
+                - option "Montly subscription (Multiple)"
+                - option "test membership o1 (Multiple)"
+                - option "Free-1 (Multiple)"
+                - option "Free 2 (Single)"
+                - option "Batch0366 (Multiple)"
+                - option "June Membership (Multiple)"
+                - option "JtRelease (Multiple)"
+                - option "QA Test Membership (Single)"
+              - generic [ref=f7e390]: Please select a membership type.
+            - generic [ref=f7e219]:
+              - generic [ref=f7e220]:
+                - text: Start Date
+                - generic [ref=f7e221]: "*"
+              - textbox [ref=f7e222] [cursor=pointer]: 2026-07-07
+            - generic [ref=f7e224]:
+              - generic [ref=f7e225]:
+                - text: End Date
+                - generic [ref=f7e226]: "*"
+              - textbox [ref=f7e227] [cursor=pointer]: 2026-06-01
+              - generic [ref=f7e392]: End Date should not be earlier than Start Date.
+            - generic [ref=f7e229]:
+              - generic [ref=f7e230]: Apple Purchase Code
+              - textbox "Apple Purchase Code" [ref=f7e231] [cursor=pointer]
+            - generic [ref=f7e233]:
+              - generic [ref=f7e234]:
+                - text: Structure Type
+                - generic [ref=f7e235]: "*"
+              - combobox [ref=f7e236] [cursor=pointer]:
+                - option "-- Select Structure Type --"
+                - option "Card Type" [selected]
+                - option "Folder Type"
+              - generic [ref=f7e393]: Please select a structure type.
+            - generic [ref=f7e238]:
+              - generic [ref=f7e239]:
+                - text: Course Tag
+                - generic [ref=f7e240]: "*"
+              - textbox "e.g. TNPSC Group 4, Banking, UPSC" [ref=f7e241] [cursor=pointer]: QA Testing
+              - generic [ref=f7e394]: Course Tag is required.
+            - generic [ref=f7e243]:
+              - generic [ref=f7e244]:
+                - text: Badge Status
+                - generic [ref=f7e245]: "*"
+              - textbox "Enter Badge Status" [ref=f7e246] [cursor=pointer]: New
+              - generic [ref=f7e395]: Badge Status is required.
+            - generic [ref=f7e248]:
+              - generic [ref=f7e249]:
+                - text: Badge Status Date
+                - generic [ref=f7e250]: "*"
+              - textbox [ref=f7e251] [cursor=pointer]: 2026-07-07
+              - generic [ref=f7e396]: Badge Status Date is required.
+            - generic [ref=f7e253]:
+              - generic [ref=f7e254]:
+                - text: Upload Course Image
+                - generic [ref=f7e255]: "*"
+              - button "Choose File" [active] [ref=f7e256] [cursor=pointer]
+              - generic [ref=f7e397]: Course image is required
+            - generic [ref=f7e258]:
+              - generic [ref=f7e259]: Upload Purchased Course Image
+              - button "Choose File" [ref=f7e260] [cursor=pointer]
+            - generic [ref=f7e262]:
+              - generic [ref=f7e263]: Upload Schedule PDF
+              - button "Choose File" [ref=f7e264] [cursor=pointer]
+          - generic [ref=f7e267]:
+            - generic [ref=f7e268]: Description
+            - application [ref=f7e269]:
+              - generic [ref=f7e270]:
+                - group [ref=f7e292]:
+                  - group [ref=f7e293]:
+                    - toolbar [ref=f7e294]:
+                      - button "Undo" [disabled] [ref=f7e295]:
+                        - img [ref=f7e297]
+                      - button "Redo" [disabled] [ref=f7e299]:
+                        - img [ref=f7e301]
+                    - toolbar [ref=f7e303]:
+                      - button "Bold" [ref=f7e304] [cursor=pointer]:
+                        - img [ref=f7e306]
+                      - button "Italic" [ref=f7e308] [cursor=pointer]:
+                        - img [ref=f7e310]
+                      - button "Background color Black" [ref=f7e312]:
+                        - img [ref=f7e314]
+                        - img [ref=f7e318]
+                    - toolbar [ref=f7e320]:
+                      - button "Align left" [ref=f7e321] [cursor=pointer]:
+                        - img [ref=f7e323]
+                      - button "Align center" [ref=f7e325] [cursor=pointer]:
+                        - img [ref=f7e327]
+                      - button "Align right" [ref=f7e329] [cursor=pointer]:
+                        - img [ref=f7e331]
+                      - button "Justify" [ref=f7e333] [cursor=pointer]:
+                        - img [ref=f7e335]
+                    - toolbar [ref=f7e337]:
+                      - button "Bullet list" [ref=f7e338]:
+                        - img [ref=f7e340]
+                        - img [ref=f7e342]
+                      - button "Numbered list" [ref=f7e344]:
+                        - img [ref=f7e346]
+                        - img [ref=f7e348]
+                      - button "Decrease indent" [disabled] [ref=f7e350]:
+                        - img [ref=f7e352]
+                      - button "Increase indent" [ref=f7e354] [cursor=pointer]:
+                        - img [ref=f7e356]
+                    - toolbar [ref=f7e358]:
+                      - button "Clear formatting" [ref=f7e359] [cursor=pointer]:
+                        - img [ref=f7e361]
+                    - toolbar [ref=f7e363]:
+                      - button "Source code" [ref=f7e364] [cursor=pointer]:
+                        - img [ref=f7e366]
+                    - toolbar [ref=f7e369]:
+                      - button "Help" [ref=f7e370] [cursor=pointer]:
+                        - img [ref=f7e372]
+                - iframe [ref=f7e274]:
+                  - generic "Rich Text Area. Press ALT-0 for help." [active] [ref=f8e1]:
+                    - text: Enter course description
+                    - paragraph [ref=f8e2]
+              - generic [ref=f7e275]:
+                - generic [ref=f7e276]:
+                  - navigation [ref=f7e377]:
+                    - button "p" [ref=f7e378]
+                  - link "Build with TinyMCE" [ref=f7e379]:
+                    - /url: https://www.tiny.cloud/powered-by-tiny?utm_campaign=poweredby&utm_source=tiny&utm_medium=referral&utm_content=v7
+                    - text: Build with
+                    - img [ref=f7e380]
+                - generic "Press the Up and Down arrow keys to resize the editor." [ref=f7e279]:
+                  - img [ref=f7e280]
+          - generic [ref=f7e283]:
+            - link "Create" [ref=f7e284] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - link "Cancel" [ref=f7e285] [cursor=pointer]:
+              - /url: /Master/Course
+      - contentinfo [ref=f7e286]:
+        - paragraph [ref=f7e290]:
+          - text: Copyright
+          - generic [ref=f7e291]: "2026"
+          - text: © Jeshwar Teaching
+  - img

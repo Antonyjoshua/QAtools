@@ -1,0 +1,148 @@
+- generic [ref=f26e2]:
+  - generic [ref=f26e3]:
+    - generic [ref=f26e5]:
+      - generic [ref=f26e6]:
+        - link "Logo" [ref=f26e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f26e8]
+        - text: 
+      - list [ref=f26e9]:
+        - listitem [ref=f26e10]:
+          - link " Dashboard" [ref=f26e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f26e12]: 
+            - text: Dashboard
+        - listitem [ref=f26e13]:
+          - link " Batches" [ref=f26e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f26e15]: 
+            - text: Batches
+        - listitem [ref=f26e16]:
+          - link " My Courses" [ref=f26e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f26e18]: 
+            - text: My Courses
+        - listitem [ref=f26e19]:
+          - link " Ebooks" [ref=f26e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f26e21]: 
+            - text: Ebooks
+        - listitem [ref=f26e22]:
+          - link " Wishlist" [ref=f26e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f26e24]: 
+            - text: Wishlist
+        - listitem [ref=f26e25]:
+          - link " Audiobook" [ref=f26e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f26e27]: 
+            - text: Audiobook
+        - listitem [ref=f26e28]:
+          - link " Resources" [ref=f26e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f26e30]: 
+            - text: Resources
+        - listitem [ref=f26e31]:
+          - link " Current Affairs" [ref=f26e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f26e33]: 
+            - text: Current Affairs
+        - listitem [ref=f26e34]:
+          - link " Test" [ref=f26e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f26e36]: 
+            - text: Test
+        - listitem [ref=f26e37]:
+          - link " Settings" [ref=f26e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f26e39]: 
+            - text: Settings
+        - listitem [ref=f26e40]:
+          - link " Call Reminders" [ref=f26e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f26e42]: 
+            - text: Call Reminders
+        - listitem [ref=f26e43]:
+          - link " Leaderboard" [ref=f26e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f26e45]: 
+            - text: Leaderboard
+        - listitem [ref=f26e46]:
+          - button " APL " [ref=f26e47] [cursor=pointer]:
+            - generic [ref=f26e48]:
+              - generic [ref=f26e49]: 
+              - text: APL
+            - generic [ref=f26e50]: 
+          - text:   
+        - listitem [ref=f26e51]:
+          - link " Notification" [ref=f26e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f26e53]: 
+            - text: Notification
+        - listitem [ref=f26e54]:
+          - button " Logout" [ref=f26e56] [cursor=pointer]:
+            - generic [ref=f26e57]: 
+            - text: Logout
+    - generic [ref=f26e59]:
+      - banner [ref=f26e60]:
+        - text: 
+        - generic [ref=f26e61]:
+          - generic [ref=f26e62]:
+            - generic [ref=f26e63]: 
+            - textbox "Search Course" [ref=f26e64]
+            - text: 
+          - link "" [ref=f26e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f26e68]: 
+          - link "Profile qatestpromo20260721" [ref=f26e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f26e71]
+            - generic [ref=f26e72]: qatestpromo20260721
+      - generic [ref=f26e74]:
+        - heading "Checkout" [level=3] [ref=f26e75]
+        - generic [ref=f26e76]:
+          - generic [ref=f26e77]:
+            - generic [ref=f26e79]:
+              - img "GST TEst" [ref=f26e80]
+              - generic [ref=f26e81]:
+                - heading "GST TEst" [level=5] [ref=f26e82]
+                - generic [ref=f26e84]: GST membership (exclu)
+            - generic [ref=f26e85]:
+              - generic [ref=f26e86]:
+                - heading "Have a promo code?" [level=5] [ref=f26e87]
+                - button "View Promo Codes ▼" [ref=f26e88] [cursor=pointer]
+              - generic [ref=f26e89]:
+                - textbox "Enter promo code" [ref=f26e90]
+                - button "Apply" [ref=f26e91] [cursor=pointer]
+          - generic [ref=f26e93]:
+            - heading "Order Summary" [level=5] [ref=f26e94]
+            - generic [ref=f26e95]:
+              - generic [ref=f26e96]: Course Fee
+              - generic [ref=f26e97]: ₹150
+            - generic [ref=f26e98]:
+              - generic [ref=f26e99]: GST (10%)
+              - generic [ref=f26e100]: + ₹15
+            - separator [ref=f26e101]
+            - generic [ref=f26e102]:
+              - generic [ref=f26e103]: Total
+              - generic [ref=f26e104]: ₹165
+            - button "Pay ₹ 165" [ref=f26e105] [cursor=pointer]:
+              - text: Pay ₹
+              - generic [ref=f26e106]: "165"
+            - link "Back to course" [ref=f26e107] [cursor=pointer]:
+              - /url: /Purchase/Index?courseId=142
+  - generic "Ask a doubt" [ref=f26e108]:
+    - generic [ref=f26e109]: 
+  - text:      
+  - contentinfo [ref=f26e110]:
+    - generic [ref=f26e111]:
+      - paragraph [ref=f26e113]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f26e114]:
+        - link "About Us" [ref=f26e115] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f26e116] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f26e117] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f26e118] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

@@ -1,0 +1,388 @@
+- generic [ref=f12e2]:
+  - generic [ref=f12e3]:
+    - generic [ref=f12e5]:
+      - generic [ref=f12e6]:
+        - link "Logo" [ref=f12e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f12e8]
+        - text: 
+      - list [ref=f12e9]:
+        - listitem [ref=f12e10]:
+          - link " Dashboard" [ref=f12e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f12e12]: 
+            - text: Dashboard
+        - listitem [ref=f12e13]:
+          - link " Batches" [ref=f12e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f12e15]: 
+            - text: Batches
+        - listitem [ref=f12e16]:
+          - link " My Courses" [ref=f12e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f12e18]: 
+            - text: My Courses
+        - listitem [ref=f12e19]:
+          - link " eBooks" [ref=f12e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f12e21]: 
+            - text: eBooks
+        - listitem [ref=f12e22]:
+          - link " Wishlist" [ref=f12e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f12e24]: 
+            - text: Wishlist
+        - listitem [ref=f12e25]:
+          - link " Audiobook" [ref=f12e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f12e27]: 
+            - text: Audiobook
+        - listitem [ref=f12e28]:
+          - link " Resources" [ref=f12e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f12e30]: 
+            - text: Resources
+        - listitem [ref=f12e31]:
+          - link " Current Affairs" [ref=f12e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f12e33]: 
+            - text: Current Affairs
+        - listitem [ref=f12e34]:
+          - link " Test" [ref=f12e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f12e36]: 
+            - text: Test
+        - listitem [ref=f12e37]:
+          - link " Settings" [ref=f12e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f12e39]: 
+            - text: Settings
+        - listitem [ref=f12e40]:
+          - link " Call Reminders" [ref=f12e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f12e42]: 
+            - text: Call Reminders
+        - listitem [ref=f12e43]:
+          - link " Leaderboard" [ref=f12e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f12e45]: 
+            - text: Leaderboard
+        - listitem [ref=f12e46]:
+          - button " APL " [ref=f12e47] [cursor=pointer]:
+            - generic [ref=f12e48]:
+              - generic [ref=f12e49]: 
+              - text: APL
+            - generic [ref=f12e50]: 
+          - text:    
+        - listitem [ref=f12e51]:
+          - link " Notification" [ref=f12e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f12e53]: 
+            - text: Notification
+        - listitem [ref=f12e54]:
+          - button " Logout" [ref=f12e56] [cursor=pointer]:
+            - generic [ref=f12e57]: 
+            - text: Logout
+    - generic [ref=f12e59]:
+      - banner [ref=f12e60]:
+        - text: 
+        - generic [ref=f12e61]:
+          - generic [ref=f12e62]:
+            - generic [ref=f12e63]: 
+            - textbox "Search Course" [ref=f12e64]
+            - text: 
+          - link "" [ref=f12e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f12e68]: 
+          - link "Profile qatestusera0731" [ref=f12e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f12e71]
+            - generic [ref=f12e72]: qatestusera0731
+      - generic [ref=f12e74]:
+        - generic [ref=f12e75]:
+          - heading "Batches" [level=3] [ref=f12e76]
+          - generic [ref=f12e77]:
+            - generic [ref=f12e78]: "Course Type:"
+            - combobox "Course Type:" [ref=f12e79] [cursor=pointer]:
+              - option "All" [selected]
+              - option "Free"
+              - option "Premium"
+        - generic [ref=f12e80]:
+          - generic [ref=f12e335]:
+            - generic [ref=f12e337]:
+              - img "Jt Release Course" [ref=f12e339]
+              - generic [ref=f12e340]:
+                - generic [ref=f12e341]:
+                  - generic "JtRelease" [ref=f12e342]
+                  - generic [ref=f12e343]:
+                    - generic [ref=f12e344]: 
+                    - text: TNPSC
+                - heading "Jt Release Course" [level=5] [ref=f12e345]
+                - generic [ref=f12e347]:
+                  - img "icon" [ref=f12e348]
+                  - generic [ref=f12e349]:
+                    - paragraph [ref=f12e350]: DURATION
+                    - paragraph [ref=f12e351]: 300 hrs
+                - generic [ref=f12e352]:
+                  - generic [ref=f12e353]: 
+                  - generic [ref=f12e354]:
+                    - text: "Updated At:"
+                    - strong [ref=f12e355]: 01 Jul 2026
+                - separator [ref=f12e356]
+                - generic [ref=f12e357]:
+                  - generic [ref=f12e359]: Subscription
+                  - link " Buy Now" [ref=f12e361] [cursor=pointer]:
+                    - /url: /Course/Overview?courseId=131&from=batches
+                    - generic [ref=f12e362]:
+                      - generic [ref=f12e363]: 
+                      - text: Buy Now
+            - generic [ref=f12e365]:
+              - img "Aptitude & Mental Ability" [ref=f12e367]
+              - generic [ref=f12e368]:
+                - generic [ref=f12e369]:
+                  - generic "Prime Membership" [ref=f12e370]
+                  - generic [ref=f12e371]:
+                    - generic [ref=f12e372]: 
+                    - text: GROUP 2
+                - heading "Aptitude & Mental Ability" [level=5] [ref=f12e373]
+                - generic [ref=f12e375]:
+                  - img "icon" [ref=f12e376]
+                  - generic [ref=f12e377]:
+                    - paragraph [ref=f12e378]: DURATION
+                    - paragraph [ref=f12e379]: 100 hrs
+                - generic [ref=f12e380]:
+                  - generic [ref=f12e381]: 
+                  - generic [ref=f12e382]:
+                    - text: "Starts at :"
+                    - strong [ref=f12e383]: 17 Jun 2020
+                - separator [ref=f12e384]
+                - generic [ref=f12e385]:
+                  - generic [ref=f12e386]:
+                    - text: Price
+                    - generic [ref=f12e387]: "6949.00"
+                  - link " Buy Now" [ref=f12e389] [cursor=pointer]:
+                    - /url: /Course/Overview?courseId=112&from=batches
+                    - generic [ref=f12e390]:
+                      - generic [ref=f12e391]: 
+                      - text: Buy Now
+            - generic [ref=f12e393]:
+              - img "TNPSC GROUP-4 FOLDER" [ref=f12e395]
+              - generic [ref=f12e396]:
+                - generic [ref=f12e397]:
+                  - generic "Phase3" [ref=f12e398]
+                  - generic [ref=f12e399]:
+                    - generic [ref=f12e400]: 
+                    - text: GROUP 4
+                - heading "TNPSC GROUP-4 FOLDER" [level=5] [ref=f12e401]
+                - generic [ref=f12e403]:
+                  - img "icon" [ref=f12e404]
+                  - generic [ref=f12e405]:
+                    - paragraph [ref=f12e406]: DURATION
+                    - paragraph [ref=f12e407]: 120 hrs
+                - generic [ref=f12e408]:
+                  - generic [ref=f12e409]: 
+                  - generic [ref=f12e410]:
+                    - text: Starts At
+                    - strong [ref=f12e411]: 24 Jun 2026
+                - separator [ref=f12e412]
+                - generic [ref=f12e413]:
+                  - generic [ref=f12e414]:
+                    - text: Price
+                    - generic [ref=f12e415]: "500.00"
+                  - button " Admission closed" [disabled] [ref=f12e417]:
+                    - generic [ref=f12e418]:
+                      - generic [ref=f12e419]: 
+                      - text: Admission closed
+            - generic [ref=f12e421]:
+              - img "TNPSC-G1" [ref=f12e423]
+              - generic [ref=f12e424]:
+                - generic [ref=f12e425]:
+                  - generic "Prime Membership" [ref=f12e426]
+                  - generic [ref=f12e427]:
+                    - generic [ref=f12e428]: 
+                    - text: GROUP 1
+                - heading "TNPSC-G1" [level=5] [ref=f12e429]
+                - generic [ref=f12e430]:
+                  - generic [ref=f12e431]:
+                    - img "icon" [ref=f12e432]
+                    - generic [ref=f12e433]:
+                      - paragraph [ref=f12e434]: DURATION
+                      - paragraph [ref=f12e435]: 100 hrs
+                  - generic [ref=f12e436]:
+                    - img [ref=f12e437]
+                    - generic [ref=f12e438]:
+                      - paragraph [ref=f12e439]: CLASSES
+                      - paragraph [ref=f12e440]: 1 Classes
+                - generic [ref=f12e441]:
+                  - generic [ref=f12e442]: 
+                  - generic [ref=f12e443]:
+                    - text: "Starts At:"
+                    - strong [ref=f12e444]: 30 Jun 2026
+                - separator [ref=f12e445]
+                - generic [ref=f12e446]:
+                  - generic [ref=f12e447]:
+                    - text: Price
+                    - generic [ref=f12e448]: "6949.00"
+                  - link " Buy Now" [ref=f12e450] [cursor=pointer]:
+                    - /url: /Course/Overview?courseId=124&from=batches
+                    - generic [ref=f12e451]:
+                      - generic [ref=f12e452]: 
+                      - text: Buy Now
+            - generic [ref=f12e454]:
+              - img "INDIAN POLITY-PYQ (2012-2026)" [ref=f12e456]
+              - generic [ref=f12e457]:
+                - generic [ref=f12e458]:
+                  - generic "Gold membership" [ref=f12e459]
+                  - generic [ref=f12e460]:
+                    - generic [ref=f12e461]: 
+                    - text: Railway
+                - heading "INDIAN POLITY-PYQ (2012-2026)" [level=5] [ref=f12e462]
+                - generic [ref=f12e463]:
+                  - generic [ref=f12e464]:
+                    - img "icon" [ref=f12e465]
+                    - generic [ref=f12e466]:
+                      - paragraph [ref=f12e467]: DURATION
+                      - paragraph [ref=f12e468]: 10 hrs
+                  - generic [ref=f12e469]:
+                    - img [ref=f12e470]
+                    - generic [ref=f12e471]:
+                      - paragraph [ref=f12e472]: CLASSES
+                      - paragraph [ref=f12e473]: 6 Classes
+                - generic [ref=f12e474]:
+                  - generic [ref=f12e475]: 
+                  - generic [ref=f12e476]:
+                    - text: "Starts At:"
+                    - strong [ref=f12e477]: 01 Jun 2026
+                - separator [ref=f12e478]
+                - generic [ref=f12e479]:
+                  - generic [ref=f12e480]:
+                    - text: Price
+                    - generic [ref=f12e481]: "7999.00"
+                  - link " Buy Now" [ref=f12e483] [cursor=pointer]:
+                    - /url: /Course/Overview?courseId=72&from=batches
+                    - generic [ref=f12e484]:
+                      - generic [ref=f12e485]: 
+                      - text: Buy Now
+            - generic [ref=f12e487]:
+              - img "TNPSC Group 4 Complete Preparation Course 2026" [ref=f12e489]
+              - generic [ref=f12e490]:
+                - generic [ref=f12e491]:
+                  - generic "test Subscriptio" [ref=f12e492]
+                  - generic [ref=f12e493]:
+                    - generic [ref=f12e494]: 
+                    - text: Tamil Nadu PSC
+                - heading "TNPSC Group 4 Complete Preparation Course 2026" [level=5] [ref=f12e495]
+                - generic [ref=f12e497]:
+                  - img "icon" [ref=f12e498]
+                  - generic [ref=f12e499]:
+                    - paragraph [ref=f12e500]: DURATION
+                    - paragraph [ref=f12e501]: 180 hrs
+                - generic [ref=f12e502]:
+                  - generic [ref=f12e503]: 
+                  - generic [ref=f12e504]:
+                    - text: "Starts At:"
+                    - strong [ref=f12e505]: 01 Jun 2026
+                - separator [ref=f12e506]
+                - generic [ref=f12e507]:
+                  - generic [ref=f12e509]: Subscription
+                  - link " Buy Now" [ref=f12e511] [cursor=pointer]:
+                    - /url: /Course/Overview?courseId=135&from=batches
+                    - generic [ref=f12e512]:
+                      - generic [ref=f12e513]: 
+                      - text: Buy Now
+            - generic [ref=f12e515]:
+              - img "Assessment Free Course" [ref=f12e517]
+              - generic [ref=f12e518]:
+                - generic [ref=f12e519]:
+                  - generic "Free" [ref=f12e520]
+                  - generic [ref=f12e521]:
+                    - generic [ref=f12e522]: 
+                    - text: TNPSC
+                - heading "Assessment Free Course" [level=5] [ref=f12e523]
+                - generic [ref=f12e524]:
+                  - generic [ref=f12e525]:
+                    - img "icon" [ref=f12e526]
+                    - generic [ref=f12e527]:
+                      - paragraph [ref=f12e528]: DURATION
+                      - paragraph [ref=f12e529]: 40 hrs
+                  - generic [ref=f12e530]:
+                    - img [ref=f12e531]
+                    - generic [ref=f12e532]:
+                      - paragraph [ref=f12e533]: CLASSES
+                      - paragraph [ref=f12e534]: 4 Classes
+                - generic [ref=f12e535]:
+                  - generic [ref=f12e536]: 
+                  - generic [ref=f12e537]:
+                    - text: "Starts At:"
+                    - strong [ref=f12e538]: 23 Jun 2026
+                - generic [ref=f12e540]:
+                  - link "Test" [ref=f12e541] [cursor=pointer]:
+                    - /url: /Assessment/Batches
+                  - link "Resources" [ref=f12e542] [cursor=pointer]:
+                    - /url: /Resources/Index
+                - separator [ref=f12e543]
+                - link " View Details" [ref=f12e545] [cursor=pointer]:
+                  - /url: /Course/Overview?courseId=89&from=batches
+                  - generic [ref=f12e546]: 
+                  - text: View Details
+            - generic [ref=f12e548]:
+              - img "Kingdom - 2026 (கிங்டம்)" [ref=f12e550]
+              - generic [ref=f12e551]:
+                - generic [ref=f12e552]:
+                  - generic "Silver" [ref=f12e553]
+                  - generic [ref=f12e554]:
+                    - generic [ref=f12e555]: 
+                    - text: GROUP 4
+                - heading "Kingdom - 2026 (கிங்டம்)" [level=5] [ref=f12e556]
+                - generic [ref=f12e557]:
+                  - generic [ref=f12e558]:
+                    - img "icon" [ref=f12e559]
+                    - generic [ref=f12e560]:
+                      - paragraph [ref=f12e561]: DURATION
+                      - paragraph [ref=f12e562]: 300 hrs
+                  - generic [ref=f12e563]:
+                    - img [ref=f12e564]
+                    - generic [ref=f12e565]:
+                      - paragraph [ref=f12e566]: CLASSES
+                      - paragraph [ref=f12e567]: 39 Classes
+                - generic [ref=f12e568]:
+                  - generic [ref=f12e569]: 
+                  - generic [ref=f12e570]:
+                    - text: "Updated At:"
+                    - strong [ref=f12e571]: 23 Jun 2026
+                - separator [ref=f12e572]
+                - generic [ref=f12e573]:
+                  - generic [ref=f12e574]:
+                    - text: Price
+                    - generic [ref=f12e575]: "5999.00"
+                  - link " Buy Now" [ref=f12e577] [cursor=pointer]:
+                    - /url: /Course/Overview?courseId=46&from=batches
+                    - generic [ref=f12e578]:
+                      - generic [ref=f12e579]: 
+                      - text: Buy Now
+          - list [ref=f12e581]:
+            - listitem [ref=f12e582]:
+              - link "Previous" [ref=f12e583] [cursor=pointer]:
+                - /url: javascript:loadPage(1)
+            - listitem [ref=f12e584]:
+              - link "1" [ref=f12e585] [cursor=pointer]:
+                - /url: javascript:loadPage(1)
+            - listitem [ref=f12e586]:
+              - generic [ref=f12e587]: "2"
+            - listitem [ref=f12e588]:
+              - generic: Next
+  - generic "Ask a doubt" [ref=f12e85]:
+    - generic [ref=f12e86]: 
+  - text:      
+  - contentinfo [ref=f12e87]:
+    - generic [ref=f12e88]:
+      - paragraph [ref=f12e90]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f12e91]:
+        - link "About Us" [ref=f12e92] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f12e93] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f12e94] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f12e95] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

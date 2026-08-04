@@ -1,0 +1,283 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e7]:
+    - generic [ref=f4e8]:
+      - generic [ref=f4e9]:
+        - heading "Books" [level=4] [ref=f4e10]
+        - navigation [ref=f4e11]:
+          - list [ref=f4e12]:
+            - listitem [ref=f4e13]:
+              - link [ref=f4e14] [cursor=pointer]:
+                - /url: /Admin/Books/ManualPurchase/Index
+                - img [ref=f4e15]
+            - listitem [ref=f4e18]: / New Manual Purchase
+      - generic [ref=f4e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f4e22]:
+          - listitem [ref=f4e23]:
+            - generic [ref=f4e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f4e26]:
+      - generic [ref=f4e28]:
+        - text: 
+        - link [ref=f4e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f4e31]:
+          - list [ref=f4e33]:
+            - generic [ref=f4e38]:
+              - text: 
+              - listitem [ref=f4e39]:
+                - link [ref=f4e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f4e41]
+                  - text: 
+              - listitem [ref=f4e43]:
+                - link [ref=f4e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e45]
+                  - text: 
+              - listitem [ref=f4e47]:
+                - link [ref=f4e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e49]
+                  - text: 
+              - listitem [ref=f4e51]:
+                - link [ref=f4e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e53]
+                  - text: 
+              - listitem [ref=f4e55]:
+                - link [ref=f4e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e57]
+                  - text: 
+              - listitem [ref=f4e59]:
+                - link [ref=f4e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e61]
+                  - text: 
+              - listitem [ref=f4e63]:
+                - link "" [ref=f4e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f4e65]: 
+                  - text: 
+              - listitem [ref=f4e66]:
+                - link [ref=f4e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e68]
+                  - text: 
+              - listitem [ref=f4e70]:
+                - link [ref=f4e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e72]
+                  - text: 
+              - listitem [ref=f4e74]:
+                - link [ref=f4e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e76]
+                  - text: 
+              - listitem [ref=f4e78]:
+                - link [ref=f4e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e80]
+                  - text: 
+              - listitem [ref=f4e82]:
+                - link [ref=f4e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e84]
+                  - text: 
+              - listitem [ref=f4e86]:
+                - link [ref=f4e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e88]
+                  - text: 
+              - listitem [ref=f4e90]:
+                - link "general icon" [ref=f4e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f4e92]
+                  - text: 
+              - listitem [ref=f4e93]:
+                - link [ref=f4e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f4e95]
+                  - text: 
+              - listitem [ref=f4e97]:
+                - link [ref=f4e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f4e99]
+                  - text: 
+              - listitem [ref=f4e101]:
+                - link "product icon" [ref=f4e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f4e103]
+                  - text: 
+              - listitem [ref=f4e104]:
+                - link [ref=f4e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e106]
+                  - text: 
+              - listitem [ref=f4e108]:
+                - link [ref=f4e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e110]
+                  - text: 
+              - listitem [ref=f4e112]:
+                - link [ref=f4e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f4e114]
+                  - text: 
+              - listitem [ref=f4e116]:
+                - link [ref=f4e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e118]
+                  - text: 
+              - listitem [ref=f4e120]:
+                - link [ref=f4e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e122]
+                  - text: 
+              - listitem [ref=f4e124]:
+                - link [ref=f4e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f4e126]
+              - listitem [ref=f4e128]:
+                - link [ref=f4e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f4e130]
+                  - text: 
+              - listitem [ref=f4e132]:
+                - link "notify-ico" [ref=f4e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f4e134]
+                  - text: 
+              - listitem [ref=f4e135]:
+                - link "notify-ico" [ref=f4e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f4e137]
+                  - text: 
+      - main [ref=f4e139]:
+        - generic [ref=f4e141]:
+          - generic [ref=f4e142]:
+            - heading "New Manual Purchase" [level=5] [ref=f4e143]
+            - link " Back" [ref=f4e144] [cursor=pointer]:
+              - /url: /Admin/Books/ManualPurchase/Index
+              - generic [ref=f4e145]: 
+              - text: Back
+          - generic [ref=f4e146]:
+            - generic [ref=f4e147]:
+              - generic [ref=f4e148]:
+                - generic [ref=f4e149]:
+                  - text: Customer Name
+                  - generic [ref=f4e150]: "*"
+                - textbox [ref=f4e151] [cursor=pointer]
+              - generic [ref=f4e152]:
+                - generic [ref=f4e153]: Phone
+                - textbox [ref=f4e154] [cursor=pointer]
+              - generic [ref=f4e155]:
+                - generic [ref=f4e156]: Payment Method
+                - combobox [ref=f4e157] [cursor=pointer]:
+                  - option "—" [selected]
+                  - option "Cash"
+                  - option "UPI"
+                  - option "Bank Transfer"
+                  - option "WhatsApp"
+                  - option "Other"
+              - generic [ref=f4e158]:
+                - generic [ref=f4e159]: Payment Reference
+                - textbox "UTR / transaction ID..." [ref=f4e160] [cursor=pointer]
+              - generic [ref=f4e161]:
+                - generic [ref=f4e162]: Status
+                - combobox [ref=f4e163] [cursor=pointer]:
+                  - option "Pending" [selected]
+                  - option "Completed"
+                  - option "Cancelled"
+              - generic [ref=f4e164]:
+                - generic [ref=f4e165]: Notes
+                - textbox "Order notes, delivery instructions..." [ref=f4e166] [cursor=pointer]
+            - generic [ref=f4e167]:
+              - heading "Items" [level=6] [ref=f4e168]
+              - button " Add Item" [ref=f4e169] [cursor=pointer]:
+                - generic [ref=f4e170]: 
+                - text: Add Item
+            - table [ref=f4e172]:
+              - rowgroup [ref=f4e173]:
+                - row "Product Stock Qty * Unit Price GST % Disc % Subtotal" [ref=f4e174]:
+                  - columnheader "Product" [ref=f4e175]
+                  - columnheader "Stock" [ref=f4e176]
+                  - columnheader "Qty *" [ref=f4e177]:
+                    - text: Qty
+                    - generic [ref=f4e178]: "*"
+                  - columnheader "Unit Price" [ref=f4e179]
+                  - columnheader "GST %" [ref=f4e180]
+                  - columnheader "Disc %" [ref=f4e181]
+                  - columnheader "Subtotal" [ref=f4e182]
+                  - columnheader [ref=f4e183]
+              - rowgroup [ref=f4e184]:
+                - row "Select product... 0 1 0 0 0 ₹0.00 " [ref=f4e185]:
+                  - cell "Select product..." [ref=f4e186]:
+                    - combobox [ref=f4e187] [cursor=pointer]:
+                      - option "Select product..." [selected]
+                      - 'option "Tamil Book - TNPSC New Syllabus (Stock: 7)"'
+                      - 'option "TNPSC Tamil Book & Indian Polity (one Liner) (Stock: 14)"'
+                      - 'option "Product (Stock: 0)"'
+                      - 'option "Product 2 (Stock: 0)"'
+                      - 'option "Study lamp (Stock: 0)"'
+                      - 'option "Tamil notes (Stock: 23)"'
+                      - 'option "Pen combo (Stock: 0)"'
+                      - 'option "Books combo (Stock: 3)"'
+                      - 'option "Manual book (Stock: 0)"'
+                      - 'option "Test Book K1 (Stock: 24)"'
+                      - 'option "Combo 2 (Stock: 1)"'
+                      - 'option "UI UX (Stock: 5)"'
+                      - 'option "Books Bag (Stock: 3)"'
+                      - 'option "Book Purchase report Test (Stock: 6)"'
+                      - 'option "Jeshwar book 1 (Stock: 10)"'
+                      - 'option "Jeshwar product 2 (Stock: 10)"'
+                      - 'option "Jeshwar book 3 (Stock: 10)"'
+                      - 'option "Jeshwar Book 4 (Stock: 10)"'
+                      - 'option "Jeshwar final book (Stock: 10)"'
+                      - 'option "trst (Stock: 2)"'
+                      - 'option "Jeshwar combo 1 (Stock: 10)"'
+                  - cell "0" [ref=f4e188]:
+                    - generic [ref=f4e189]: "0"
+                  - cell "1" [ref=f4e190]:
+                    - spinbutton [ref=f4e191] [cursor=pointer]: "1"
+                  - cell "0" [ref=f4e192]:
+                    - spinbutton [ref=f4e193] [cursor=pointer]: "0"
+                  - cell "0" [ref=f4e194]:
+                    - spinbutton [ref=f4e195] [cursor=pointer]: "0"
+                  - cell "0" [ref=f4e196]:
+                    - spinbutton [ref=f4e197] [cursor=pointer]: "0"
+                  - cell "₹0.00" [ref=f4e198]
+                  - cell "" [ref=f4e199]:
+                    - button "" [ref=f4e200] [cursor=pointer]:
+                      - generic [ref=f4e201]: 
+            - generic [ref=f4e203]:
+              - generic [ref=f4e204]:
+                - generic [ref=f4e205]: Unit Price Total
+                - generic [ref=f4e206]: ₹0.00
+              - generic [ref=f4e207]:
+                - generic [ref=f4e208]: Discount
+                - generic [ref=f4e209]: − ₹0.00
+              - generic [ref=f4e210]:
+                - generic [ref=f4e211]: GST
+                - generic [ref=f4e212]: ₹0.00
+              - separator [ref=f4e213]
+              - generic [ref=f4e214]:
+                - generic [ref=f4e215]: Total
+                - generic [ref=f4e216]: ₹0.00
+            - generic [ref=f4e217]:
+              - button "Create Purchase" [ref=f4e218] [cursor=pointer]
+              - link "Cancel" [ref=f4e219] [cursor=pointer]:
+                - /url: /Admin/Books/ManualPurchase/Index
+      - contentinfo [ref=f4e220]:
+        - paragraph [ref=f4e224]:
+          - text: Copyright
+          - generic [ref=f4e225]: "2026"
+          - text: © Jeshwar Teaching
+  - img

@@ -1,0 +1,146 @@
+- generic [ref=f65e2]:
+  - generic [ref=f65e3]:
+    - generic [ref=f65e5]:
+      - generic [ref=f65e6]:
+        - link "Logo" [ref=f65e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f65e8]
+        - text: 
+      - list [ref=f65e9]:
+        - listitem [ref=f65e10]:
+          - link " Dashboard" [ref=f65e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f65e12]: 
+            - text: Dashboard
+        - listitem [ref=f65e13]:
+          - link " Batches" [ref=f65e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f65e15]: 
+            - text: Batches
+        - listitem [ref=f65e16]:
+          - link " My Courses" [ref=f65e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f65e18]: 
+            - text: My Courses
+        - listitem [ref=f65e19]:
+          - link " eBooks" [ref=f65e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f65e21]: 
+            - text: eBooks
+        - listitem [ref=f65e22]:
+          - link " Wishlist" [ref=f65e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f65e24]: 
+            - text: Wishlist
+        - listitem [ref=f65e25]:
+          - link " Audiobook" [ref=f65e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f65e27]: 
+            - text: Audiobook
+        - listitem [ref=f65e28]:
+          - link " Resources" [ref=f65e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f65e30]: 
+            - text: Resources
+        - listitem [ref=f65e31]:
+          - link " Current Affairs" [ref=f65e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f65e33]: 
+            - text: Current Affairs
+        - listitem [ref=f65e34]:
+          - link " Test" [ref=f65e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f65e36]: 
+            - text: Test
+        - listitem [ref=f65e37]:
+          - link " Settings" [ref=f65e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f65e39]: 
+            - text: Settings
+        - listitem [ref=f65e40]:
+          - link " Call Reminders" [ref=f65e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f65e42]: 
+            - text: Call Reminders
+        - listitem [ref=f65e43]:
+          - link " Leaderboard" [ref=f65e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f65e45]: 
+            - text: Leaderboard
+        - listitem [ref=f65e46]:
+          - button " APL " [expanded] [ref=f65e47] [cursor=pointer]:
+            - generic [ref=f65e48]:
+              - generic [ref=f65e49]: 
+              - text: APL
+            - generic [ref=f65e50]: 
+          - list [ref=f65e51]:
+            - listitem [ref=f65e52]:
+              - link " Live APL" [ref=f65e53] [cursor=pointer]:
+                - /url: /LiveApl/Index
+                - generic [ref=f65e54]: 
+                - text: Live APL
+            - listitem [ref=f65e55]:
+              - link " APL Q20" [ref=f65e56] [cursor=pointer]:
+                - /url: /TestRoom/Index
+                - generic [ref=f65e57]: 
+                - text: APL Q20
+            - listitem [ref=f65e58]:
+              - link " APL Q20 Series" [ref=f65e59] [cursor=pointer]:
+                - /url: /FolderApl/Index
+                - generic [ref=f65e60]: 
+                - text: APL Q20 Series
+            - listitem [ref=f65e61]:
+              - link " Coin History" [ref=f65e62] [cursor=pointer]:
+                - /url: /CoinHistory/Index
+                - generic [ref=f65e63]: 
+                - text: Coin History
+        - listitem [ref=f65e64]:
+          - link " Notification" [ref=f65e65] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f65e66]: 
+            - text: Notification
+        - listitem [ref=f65e67]:
+          - button " Logout" [ref=f65e69] [cursor=pointer]:
+            - generic [ref=f65e70]: 
+            - text: Logout
+    - generic [ref=f65e72]:
+      - banner [ref=f65e73]:
+        - text: 
+        - generic [ref=f65e74]:
+          - generic [ref=f65e75]:
+            - generic [ref=f65e76]: 
+            - textbox "Search Course" [ref=f65e77]
+            - text: 
+          - link "" [ref=f65e79] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f65e81]: 
+          - link "Profile qafrontend27" [ref=f65e83] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f65e84]
+            - generic [ref=f65e85]: qafrontend27
+      - generic [ref=f65e86]:
+        - img "JT Logo" [ref=f65e88]
+        - link " Exit" [ref=f65e89] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - generic [ref=f65e90]: 
+          - text: Exit
+        - generic [ref=f65e91]:
+          - generic [ref=f65e92]: 
+          - heading "No Live APL Available" [level=2] [ref=f65e93]
+          - paragraph [ref=f65e94]: No Live APL sessions are currently scheduled. Please check back later.
+      - text:    
+  - generic "Ask a doubt" [ref=f65e95]:
+    - generic [ref=f65e96]: 
+  - text:      
+  - contentinfo [ref=f65e97]:
+    - generic [ref=f65e98]:
+      - paragraph [ref=f65e100]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f65e101]:
+        - link "About Us" [ref=f65e102] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f65e103] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f65e104] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f65e105] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

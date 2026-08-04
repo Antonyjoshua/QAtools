@@ -1,0 +1,64 @@
+[     543ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[    1236ms] [LOG] Current Path: /assessment/courseassessment @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1400
+[    1237ms] [LOG] Matched: /assessment/courseassessment {menu: Assessment, submenu: Course} @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1595
+[    1237ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1607
+[    1238ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1616
+[    1239ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment:1637
+[   15568ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[   15605ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[   15668ms] [WARNING] The following deprecated features are currently enabled and have been removed in TinyMCE 7.0. These features will no longer work and should be removed from the TinyMCE configuration. See https://www.tiny.cloud/docs/tinymce/7/migration-from-6x/ for more information.
+
+Plugins:
+- textcolor @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[   15679ms] [WARNING] The following deprecated features are currently enabled and have been removed in TinyMCE 7.0. These features will no longer work and should be removed from the TinyMCE configuration. See https://www.tiny.cloud/docs/tinymce/7/migration-from-6x/ for more information.
+
+Plugins:
+- textcolor @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[   15682ms] [WARNING] The following deprecated features are currently enabled and have been removed in TinyMCE 7.0. These features will no longer work and should be removed from the TinyMCE configuration. See https://www.tiny.cloud/docs/tinymce/7/migration-from-6x/ for more information.
+
+Plugins:
+- textcolor @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[   15757ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/plugins/textcolor/plugin.min.js:0
+[   15758ms] [ERROR] Failed to load plugin: textcolor from url plugins/textcolor/plugin.min.js @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[   16071ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[   16077ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[   16083ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://jt-admin.scopethinkers.com/lib/tinymce/js/tinymce/tinymce.min.js:3
+[   16259ms] [LOG] Current Path: /assessment/createcourseassessment @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1343
+[   16260ms] [LOG] Matched: /assessment/createcourseassessment {menu: Assessment, submenu: Course} @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1538
+[   16260ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1550
+[   16261ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1559
+[   16262ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CreateCourseAssessment:1580
+[  126067ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[  126752ms] [LOG] Current Path: /assessment/courseassessment @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment?courseId=136:1400
+[  126753ms] [LOG] Matched: /assessment/courseassessment {menu: Assessment, submenu: Course} @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment?courseId=136:1595
+[  126753ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment?courseId=136:1607
+[  126754ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment?courseId=136:1616
+[  126755ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Assessment/CourseAssessment?courseId=136:1637
+[  148395ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[  148542ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[  149127ms] [LOG] Current Path: /question/index @ https://jt-admin.scopethinkers.com/Question/Index?assessmentId=1172&type=course:2997
+[  149127ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Question/Index?assessmentId=1172&type=course:3204
+[  149127ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Question/Index?assessmentId=1172&type=course:3213
+[  149128ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Question/Index?assessmentId=1172&type=course:3234
+[  168959ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[  169100ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[  169663ms] [LOG] Current Path: /question/aigenerate @ https://jt-admin.scopethinkers.com/Question/AiGenerate?assessmentId=1172:1045
+[  169664ms] [LOG] Matched: /question/aigenerate {menu: Assessment, submenu: Course} @ https://jt-admin.scopethinkers.com/Question/AiGenerate?assessmentId=1172:1240
+[  169665ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Question/AiGenerate?assessmentId=1172:1252
+[  169665ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Question/AiGenerate?assessmentId=1172:1261
+[  169666ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Question/AiGenerate?assessmentId=1172:1282
+[  267376ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[  267522ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[  268095ms] [LOG] Current Path: /question/aipreview @ https://jt-admin.scopethinkers.com/Question/AiPreview?assessmentId=1172:1200
+[  268096ms] [LOG] Matched: /question/aipreview {menu: Assessment, submenu: Course} @ https://jt-admin.scopethinkers.com/Question/AiPreview?assessmentId=1172:1395
+[  268097ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Question/AiPreview?assessmentId=1172:1407
+[  268098ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Question/AiPreview?assessmentId=1172:1416
+[  268099ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Question/AiPreview?assessmentId=1172:1437

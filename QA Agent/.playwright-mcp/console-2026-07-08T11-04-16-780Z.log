@@ -1,0 +1,8 @@
+[     442ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-admin.scopethinkers.com/uploads/profiles/c94c7b90-1176-4665-982a-1c8ff871a3da_default_image.png:0
+[     601ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[    1267ms] [LOG] Current Path: /question/index @ https://jt-admin.scopethinkers.com/Question/Index?assessmentId=1172&type=course:3207
+[    1268ms] [LOG] Activating menu: Assessment Submenu: Course @ https://jt-admin.scopethinkers.com/Question/Index?assessmentId=1172&type=course:3414
+[    1268ms] [LOG] Found menu: Assessment @ https://jt-admin.scopethinkers.com/Question/Index?assessmentId=1172&type=course:3423
+[    1269ms] [LOG] Activated submenu: Course @ https://jt-admin.scopethinkers.com/Question/Index?assessmentId=1172&type=course:3444

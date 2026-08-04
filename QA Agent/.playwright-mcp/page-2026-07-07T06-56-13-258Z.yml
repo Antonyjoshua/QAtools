@@ -1,0 +1,112 @@
+- generic [ref=f59e2]:
+  - generic [ref=f59e3]:
+    - generic [ref=f59e5]:
+      - generic [ref=f59e6]:
+        - link "Logo" [ref=f59e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f59e8]
+        - text: 
+      - list [ref=f59e9]:
+        - listitem [ref=f59e10]:
+          - link " Dashboard" [ref=f59e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f59e12]: 
+            - text: Dashboard
+        - listitem [ref=f59e13]:
+          - link " Batches" [ref=f59e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f59e15]: 
+            - text: Batches
+        - listitem [ref=f59e16]:
+          - link " My Courses" [ref=f59e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f59e18]: 
+            - text: My Courses
+        - listitem [ref=f59e19]:
+          - link " Wishlist" [ref=f59e20] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f59e21]: 
+            - text: Wishlist
+        - listitem [ref=f59e22]:
+          - link " Audiobook" [ref=f59e23] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f59e24]: 
+            - text: Audiobook
+        - listitem [ref=f59e25]:
+          - link " Resources" [ref=f59e26] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f59e27]: 
+            - text: Resources
+        - listitem [ref=f59e28]:
+          - link " Current Affairs" [ref=f59e29] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f59e30]: 
+            - text: Current Affairs
+        - listitem [ref=f59e31]:
+          - link " Test" [ref=f59e32] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f59e33]: 
+            - text: Test
+        - listitem [ref=f59e34]:
+          - link " Settings" [ref=f59e35] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f59e36]: 
+            - text: Settings
+        - listitem [ref=f59e37]:
+          - link " Leaderboard" [ref=f59e38] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f59e39]: 
+            - text: Leaderboard
+        - listitem [ref=f59e40]:
+          - link " Notification" [ref=f59e41] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f59e42]: 
+            - text: Notification
+        - listitem [ref=f59e43]:
+          - button " Logout" [ref=f59e45] [cursor=pointer]:
+            - generic [ref=f59e46]: 
+            - text: Logout
+    - generic [ref=f59e48]:
+      - banner [ref=f59e49]:
+        - text: 
+        - generic [ref=f59e50]:
+          - generic [ref=f59e51]:
+            - generic [ref=f59e52]: 
+            - textbox "Search Course" [ref=f59e53]
+            - text: 
+          - link "" [ref=f59e55] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f59e57]: 
+          - link "Profile deepa070712" [ref=f59e59] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f59e60]
+            - generic [ref=f59e61]: deepa070712
+      - generic [ref=f59e64]:
+        - generic [ref=f59e65]: Current Affairs
+        - heading "Stay updated with current affairs" [level=3] [ref=f59e66]
+        - paragraph [ref=f59e67]: Daily current affairs curated for TNPSC exams.
+        - paragraph [ref=f59e68]: Quick to read, easy to revise, always updated.
+        - link "Explore now " [ref=f59e69] [cursor=pointer]:
+          - /url: "#currentaffairs-section"
+          - text: Explore now
+          - generic [ref=f59e70]: 
+      - generic [ref=f59e71]:
+        - generic [ref=f59e72]:
+          - heading "Current Affairs" [level=3] [ref=f59e73]
+          - button "Switch to English" [ref=f59e74] [cursor=pointer]:
+            - img [ref=f59e75]:
+              - generic [ref=f59e82]: அ
+              - generic [ref=f59e85]: A
+        - generic [ref=f59e88]: Loading...
+  - contentinfo [ref=f59e90]:
+    - generic [ref=f59e91]:
+      - paragraph [ref=f59e93]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f59e94]:
+        - link "About Us" [ref=f59e95] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f59e96] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f59e97] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f59e98] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

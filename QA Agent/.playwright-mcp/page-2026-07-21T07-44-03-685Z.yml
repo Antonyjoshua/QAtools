@@ -1,0 +1,202 @@
+- generic [ref=f62e1]:
+  - generic [ref=f62e7]:
+    - generic [ref=f62e8]:
+      - generic [ref=f62e9]:
+        - heading "Dashboard" [level=4] [ref=f62e10]
+        - navigation [ref=f62e11]:
+          - list [ref=f62e12]:
+            - listitem [ref=f62e13]:
+              - link [ref=f62e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f62e15]
+            - listitem [ref=f62e18]: / Index
+      - generic [ref=f62e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f62e22]:
+          - listitem [ref=f62e23]:
+            - generic [ref=f62e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f62e26]:
+      - generic [ref=f62e28]:
+        - text: 
+        - link [ref=f62e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f62e31]:
+          - list [ref=f62e33]:
+            - generic [ref=f62e38]:
+              - text: 
+              - listitem [ref=f62e39]:
+                - link [ref=f62e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f62e41]
+                  - text: 
+              - listitem [ref=f62e43]:
+                - link [ref=f62e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e45]
+                  - text: 
+              - listitem [ref=f62e47]:
+                - link [ref=f62e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e49]
+                  - text: 
+              - listitem [ref=f62e51]:
+                - link [ref=f62e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e53]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f62e55]:
+                - link [ref=f62e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e57]
+                  - text: 
+              - listitem [ref=f62e59]:
+                - link [ref=f62e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e61]
+                  - text: 
+              - listitem [ref=f62e63]:
+                - link "" [ref=f62e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f62e65]: 
+                  - text: 
+              - listitem [ref=f62e66]:
+                - link [ref=f62e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e68]
+                  - text: 
+              - listitem [ref=f62e70]:
+                - link [ref=f62e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e72]
+                  - text: 
+              - listitem [ref=f62e74]:
+                - link [ref=f62e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e76]
+                  - text: 
+              - listitem [ref=f62e78]:
+                - link [ref=f62e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e80]
+                  - text: 
+              - listitem [ref=f62e82]:
+                - link [ref=f62e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e84]
+                  - text: 
+              - listitem [ref=f62e86]:
+                - link [ref=f62e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e88]
+                  - text: 
+              - listitem [ref=f62e90]:
+                - link "general icon" [ref=f62e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f62e92]
+                  - text: 
+              - listitem [ref=f62e93]:
+                - link [ref=f62e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f62e95]
+                  - text: 
+              - listitem [ref=f62e97]:
+                - link [ref=f62e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f62e99]
+                  - text: 
+              - listitem [ref=f62e101]:
+                - link "product icon" [ref=f62e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f62e103]
+                  - text: 
+              - listitem [ref=f62e104]:
+                - link [ref=f62e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e106]
+                  - text: 
+              - listitem [ref=f62e108]:
+                - link [ref=f62e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e110]
+                  - text: 
+              - listitem [ref=f62e112]:
+                - link [ref=f62e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f62e114]
+                  - text: 
+              - listitem [ref=f62e116]:
+                - link [ref=f62e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e118]
+                  - text: 
+              - listitem [ref=f62e120]:
+                - link [ref=f62e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e122]
+                  - text: 
+              - listitem [ref=f62e124]:
+                - link [ref=f62e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f62e126]
+              - listitem [ref=f62e128]:
+                - link [ref=f62e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f62e130]
+                  - text: 
+              - listitem [ref=f62e132]:
+                - link "notify-ico" [ref=f62e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f62e134]
+                  - text: 
+              - listitem [ref=f62e135]:
+                - link "notify-ico" [ref=f62e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f62e137]
+                  - text: 
+      - main [ref=f62e139]:
+        - generic [ref=f62e141]:
+          - generic [ref=f62e142]:
+            - heading "Promo Codes" [level=5] [ref=f62e143]
+            - link "Add Promo Code" [ref=f62e144] [cursor=pointer]:
+              - /url: /PromoCode/Create
+          - generic [ref=f62e147]:
+            - generic [ref=f62e149]:
+              - text: Show
+              - combobox "Show entries" [ref=f62e150] [cursor=pointer]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: entries
+            - generic [ref=f62e152]:
+              - text: "Search:"
+              - searchbox "Search:" [ref=f62e153] [cursor=pointer]
+            - grid [ref=f62e154]:
+              - rowgroup [ref=f62e155]:
+                - row "↑ Code  Discount Scope Validity Redemptions ↑ Status  Action" [ref=f62e156]:
+                  - columnheader "↑ Code " [ref=f62e157] [cursor=pointer]
+                  - columnheader "Discount" [ref=f62e158]
+                  - columnheader "Scope" [ref=f62e159]
+                  - columnheader "Validity" [ref=f62e160]
+                  - columnheader "Redemptions" [ref=f62e161]
+                  - columnheader "↑ Status " [ref=f62e162] [cursor=pointer]
+                  - columnheader "Action" [ref=f62e163]
+              - rowgroup
+            - status
+      - contentinfo [ref=f62e165]:
+        - paragraph [ref=f62e169]:
+          - text: Copyright
+          - generic [ref=f62e170]: "2026"
+          - text: © Jeshwar Teaching
+  - img

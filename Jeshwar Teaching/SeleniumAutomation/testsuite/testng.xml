@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.2.dtd">
+<suite name="Web Automation Test Suite" verbose="2" parallel="methods" thread-count="1">
+    
+    <listeners>
+        <listener class-name="com.automation.listeners.TestListener"/>
+    </listeners>
+    
+    <test name="Account Creation Tests">
+        <classes>
+            <class name="com.automation.tests.AccountCreationTest">
+                <methods>
+                    <include name="testCreateAccountAndLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.automation.tests.LoginTest">
+                <methods>
+                    <include name="testSuccessfulLogin"/>
+                    <include name="testInvalidLogin"/>
+                    <include name="testLoginWithEmptyCredentials"/>
+                    <include name="testForgotPasswordLink"/>
+                    <include name="testLoginWithRememberMe"/>
+                    <include name="testClearInputFields"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Dashboard Tests">
+        <classes>
+            <class name="com.automation.tests.DashboardTest">
+                <methods>
+                    <include name="testDashboardDisplay"/>
+                    <include name="testUserProfileVisibility"/>
+                    <include name="testDashboardTitle"/>
+                    <include name="testGetUserName"/>
+                    <include name="testLogout"/>
+                    <include name="testNotificationBadge"/>
+                    <include name="testDashboardContent"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

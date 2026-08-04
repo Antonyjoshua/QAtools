@@ -1,0 +1,205 @@
+- generic [ref=f20e1]:
+  - generic [ref=f20e7]:
+    - generic [ref=f20e8]:
+      - generic [ref=f20e9]:
+        - heading "Master Folder Map" [level=4] [ref=f20e10]
+        - navigation [ref=f20e11]:
+          - list [ref=f20e12]:
+            - listitem [ref=f20e13]:
+              - link [ref=f20e14] [cursor=pointer]:
+                - /url: /MasterFolderStructure/Index
+                - img [ref=f20e15]
+            - listitem [ref=f20e18]: / Admin
+      - generic [ref=f20e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f20e22]:
+          - text: 
+          - listitem [ref=f20e23] [cursor=pointer]:
+            - generic [ref=f20e24]:
+              - img "Profile" [ref=f20e25]
+              - generic [ref=f20e26]:
+                - generic [ref=f20e27]: superadmin@gmail.com
+                - paragraph [ref=f20e28]:
+                  - text: SuperAdmin
+                  - generic [ref=f20e29]: 
+    - generic [ref=f20e30]:
+      - generic [ref=f20e32]:
+        - generic [ref=f20e33]:
+          - link [ref=f20e34] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f20e36] [cursor=pointer]
+        - navigation [ref=f20e38]:
+          - list [ref=f20e40]:
+            - generic [ref=f20e45]:
+              - text: 
+              - listitem [ref=f20e46]:
+                - heading "Applications" [level=6] [ref=f20e48]
+              - listitem [ref=f20e49]:
+                - link "Dashboard" [ref=f20e50] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f20e51]
+                  - generic [ref=f20e53]: Dashboard
+                  - text: 
+              - listitem [ref=f20e54]:
+                - link "Enrollment " [ref=f20e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e56]
+                  - generic [ref=f20e58]: Enrollment
+                  - generic [ref=f20e60]: 
+              - listitem [ref=f20e61]:
+                - link "Website Settings " [ref=f20e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e63]
+                  - generic [ref=f20e65]: Website Settings
+                  - generic [ref=f20e67]: 
+              - listitem [ref=f20e68]:
+                - link "Membership " [ref=f20e69] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e70]
+                  - generic [ref=f20e72]: Membership
+                  - generic [ref=f20e74]: 
+              - listitem [ref=f20e75]:
+                - link "Course " [ref=f20e76] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e77]
+                  - generic [ref=f20e79]: Course
+                  - generic [ref=f20e81]: 
+              - listitem [ref=f20e82]:
+                - link " Self Host " [ref=f20e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f20e84]: 
+                  - generic [ref=f20e85]: Self Host
+                  - generic [ref=f20e87]: 
+              - listitem [ref=f20e88]:
+                - link "Assessment " [ref=f20e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e90]
+                  - generic [ref=f20e92]: Assessment
+                  - generic [ref=f20e94]: 
+              - listitem [ref=f20e95]:
+                - link "Email Draft " [ref=f20e96] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e97]
+                  - generic [ref=f20e99]: Email Draft
+                  - generic [ref=f20e101]: 
+              - listitem [ref=f20e102]:
+                - link "Admin " [ref=f20e103] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e104]
+                  - generic [ref=f20e106]: Admin
+                  - generic [ref=f20e108]: 
+                - list [ref=f20e109]:
+                  - listitem [ref=f20e110]:
+                    - link "Admin User" [ref=f20e111] [cursor=pointer]:
+                      - /url: /User/AdminUser
+                  - listitem [ref=f20e112]:
+                    - link "Role" [ref=f20e113] [cursor=pointer]:
+                      - /url: /Role/Index
+                  - listitem [ref=f20e114]:
+                    - link "Menu" [ref=f20e115] [cursor=pointer]:
+                      - /url: /Menu/Index
+                  - listitem [ref=f20e116]:
+                    - link "Manage Permissions" [ref=f20e117] [cursor=pointer]:
+                      - /url: /AssignRolePermission/Index
+                  - listitem [ref=f20e118]:
+                    - link "Folder Map" [ref=f20e119] [cursor=pointer]:
+                      - /url: /FolderStructure/Index
+                  - listitem [ref=f20e120]:
+                    - link "Master Folder Map" [ref=f20e121] [cursor=pointer]:
+                      - /url: /MasterFolderStructure/Index
+              - listitem [ref=f20e122]:
+                - link "general icon General " [ref=f20e123] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f20e124]
+                  - generic [ref=f20e125]: General
+                  - generic [ref=f20e127]: 
+              - listitem [ref=f20e128]:
+                - link "Leaderboard" [ref=f20e129] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f20e130]
+                  - generic [ref=f20e132]: Leaderboard
+                  - text: 
+              - listitem [ref=f20e133]:
+                - heading "E-Commerce" [level=6] [ref=f20e135]
+              - listitem [ref=f20e136]:
+                - link "Dashboard" [ref=f20e137] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f20e138]
+                  - generic [ref=f20e140]: Dashboard
+                  - text: 
+              - listitem [ref=f20e141]:
+                - link "product icon Product " [ref=f20e142] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f20e143]
+                  - generic [ref=f20e144]: Product
+                  - generic [ref=f20e146]: 
+              - listitem [ref=f20e147]:
+                - link "Order " [ref=f20e148] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e149]
+                  - generic [ref=f20e151]: Order
+                  - generic [ref=f20e153]: 
+              - listitem [ref=f20e154]:
+                - link "Customer" [ref=f20e155] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f20e156]
+                  - generic [ref=f20e158]: Customer
+                  - text: 
+              - listitem [ref=f20e159]:
+                - heading "Payments" [level=6] [ref=f20e161]
+              - listitem [ref=f20e162]:
+                - link "Transactions " [ref=f20e163] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f20e164]
+                  - generic [ref=f20e166]: Transactions
+                  - generic [ref=f20e168]: 
+              - listitem [ref=f20e169]:
+                - heading "Notifcations" [level=6] [ref=f20e171]
+              - listitem [ref=f20e172]:
+                - link "notify-ico Notifications " [ref=f20e173] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f20e174]
+                  - generic [ref=f20e175]: Notifications
+                  - generic [ref=f20e177]: 
+              - listitem [ref=f20e178]:
+                - heading "Job Management" [level=6] [ref=f20e180]
+              - listitem [ref=f20e181]:
+                - link "notify-ico Jobs " [ref=f20e182] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f20e183]
+                  - generic [ref=f20e184]: Jobs
+                  - generic [ref=f20e186]: 
+      - main [ref=f20e188]:
+        - generic [ref=f20e190]:
+          - generic [ref=f20e191]:
+            - generic [ref=f20e192]:
+              - heading "Master Folder Map" [level=5] [ref=f20e193]
+              - generic [ref=f20e194]: Manage folder structures for General Resource, Audiobook and Current Affairs
+            - generic [ref=f20e195]:
+              - generic [ref=f20e196]:
+                - generic [ref=f20e197]: "Module Type:"
+                - combobox "Module Type:" [ref=f20e198] [cursor=pointer]:
+                  - option "-- Select Module Type --" [selected]
+                  - option "General Resource"
+                  - option "Audiobook"
+                  - option "Current Affairs"
+              - text: 
+          - generic [ref=f20e199]:
+            - generic [ref=f20e200]:
+              - generic [ref=f20e201]: 
+              - paragraph [ref=f20e202]: Select a module type above to manage its folder structures.
+            - text:         
+        - text:  
+      - contentinfo [ref=f20e203]:
+        - paragraph [ref=f20e207]:
+          - text: Copyright
+          - generic [ref=f20e208]: "2026"
+          - text: © Jeshwar Teaching
+  - img

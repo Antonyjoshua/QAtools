@@ -1,0 +1,229 @@
+- generic [ref=f9e1]:
+  - generic [ref=f9e7]:
+    - generic [ref=f9e8]:
+      - generic [ref=f9e9]:
+        - heading "Dashboard" [level=4] [ref=f9e10]
+        - navigation [ref=f9e11]:
+          - list [ref=f9e12]:
+            - listitem [ref=f9e13]:
+              - link [ref=f9e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f9e15]
+            - listitem [ref=f9e18]: / Index
+      - generic [ref=f9e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f9e22]:
+          - listitem [ref=f9e23]:
+            - generic [ref=f9e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f9e26]:
+      - generic [ref=f9e28]:
+        - text: 
+        - link [ref=f9e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f9e31]:
+          - list [ref=f9e33]:
+            - generic [ref=f9e38]:
+              - text: 
+              - listitem [ref=f9e39]:
+                - link [ref=f9e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f9e41]
+                  - text: 
+              - listitem [ref=f9e43]:
+                - link [ref=f9e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e45]
+                  - text: 
+              - listitem [ref=f9e47]:
+                - link [ref=f9e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e49]
+                  - text: 
+              - listitem [ref=f9e51]:
+                - link [ref=f9e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e53]
+                  - text: 
+              - listitem [ref=f9e55]:
+                - link [ref=f9e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e57]
+                  - text: 
+              - listitem [ref=f9e59]:
+                - link [ref=f9e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e61]
+                  - text: 
+              - listitem [ref=f9e63]:
+                - link "" [ref=f9e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f9e65]: 
+                  - text: 
+              - listitem [ref=f9e66]:
+                - link [ref=f9e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e68]
+                  - text: 
+              - listitem [ref=f9e70]:
+                - link [ref=f9e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e72]
+                  - text: 
+              - listitem [ref=f9e74]:
+                - link [ref=f9e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e76]
+                  - text: 
+              - listitem [ref=f9e78]:
+                - link [ref=f9e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e80]
+                  - text: 
+              - listitem [ref=f9e82]:
+                - link [ref=f9e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e84]
+                  - text: 
+              - listitem [ref=f9e86]:
+                - link [ref=f9e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e88]
+                  - text: 
+              - listitem [ref=f9e90]:
+                - link "general icon" [ref=f9e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f9e92]
+                  - text: 
+              - listitem [ref=f9e93]:
+                - link [ref=f9e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f9e95]
+                  - text: 
+              - listitem [ref=f9e97]:
+                - link [ref=f9e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f9e99]
+                  - text: 
+              - listitem [ref=f9e101]:
+                - link "product icon" [ref=f9e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f9e103]
+                  - text: 
+              - listitem [ref=f9e104]:
+                - link [ref=f9e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e106]
+                  - text: 
+              - listitem [ref=f9e108]:
+                - link [ref=f9e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e110]
+                  - text: 
+              - listitem [ref=f9e112]:
+                - link [ref=f9e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f9e114]
+                  - text: 
+              - listitem [ref=f9e116]:
+                - link [ref=f9e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e118]
+                  - text: 
+              - listitem [ref=f9e120]:
+                - link [ref=f9e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e122]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f9e124]:
+                - link [ref=f9e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f9e126]
+              - listitem [ref=f9e128]:
+                - link [ref=f9e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e130]
+                  - text: 
+              - listitem [ref=f9e132]:
+                - link "notify-ico" [ref=f9e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f9e134]
+                  - text: 
+              - listitem [ref=f9e135]:
+                - link "notify-ico" [ref=f9e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f9e137]
+                  - text: 
+      - main [ref=f9e139]:
+        - generic [ref=f9e143]:
+          - generic [ref=f9e144]:
+            - heading "Combo Product Report" [level=5] [ref=f9e145]
+            - button " Export Excel" [ref=f9e146] [cursor=pointer]:
+              - generic [ref=f9e147]: 
+              - text: Export Excel
+          - generic [ref=f9e148]:
+            - generic [ref=f9e150]:
+              - generic [ref=f9e151]:
+                - generic [ref=f9e152]: From Date
+                - textbox [ref=f9e153] [cursor=pointer]
+              - generic [ref=f9e154]:
+                - generic [ref=f9e155]: To Date
+                - textbox [ref=f9e156] [cursor=pointer]
+              - generic [ref=f9e157]:
+                - generic [ref=f9e158]: Combo Product Title
+                - textbox "Search combo..." [ref=f9e159] [cursor=pointer]
+              - generic [ref=f9e160]:
+                - button "Apply" [ref=f9e161] [cursor=pointer]
+                - button "Clear" [ref=f9e162] [cursor=pointer]
+            - generic [ref=f9e163]:
+              - generic [ref=f9e164]:
+                - generic [ref=f9e165]:
+                  - generic [ref=f9e166]: Combo Products
+                  - heading "—" [level=3] [ref=f9e167] [cursor=pointer]
+                - generic [ref=f9e169]: 
+              - generic [ref=f9e170]:
+                - generic [ref=f9e171]:
+                  - generic [ref=f9e172]: Total Combos Sold
+                  - heading "—" [level=3] [ref=f9e173] [cursor=pointer]
+                - generic [ref=f9e175]: 
+              - generic [ref=f9e176]:
+                - generic [ref=f9e177]:
+                  - generic [ref=f9e178]: Total Net Revenue
+                  - heading "—" [level=3] [ref=f9e179] [cursor=pointer]
+                - generic [ref=f9e181]: 
+              - generic [ref=f9e182]:
+                - generic [ref=f9e183]:
+                  - generic [ref=f9e184]: Avg Margin %
+                  - heading "—" [level=3] [ref=f9e185] [cursor=pointer]
+                - generic [ref=f9e187]: 
+            - grid [ref=f9e192]:
+              - rowgroup [ref=f9e193]:
+                - row "Combo Product  Type  Components  Combos Sold  Gross Revenue  Discount  Net Revenue  Component Cost  Gross Margin  Margin % " [ref=f9e194]:
+                  - columnheader "Combo Product " [ref=f9e195] [cursor=pointer]
+                  - columnheader "Type " [ref=f9e196] [cursor=pointer]
+                  - columnheader "Components " [ref=f9e197] [cursor=pointer]
+                  - columnheader "Combos Sold " [ref=f9e198] [cursor=pointer]
+                  - columnheader "Gross Revenue " [ref=f9e199] [cursor=pointer]
+                  - columnheader "Discount " [ref=f9e200] [cursor=pointer]
+                  - columnheader "Net Revenue " [ref=f9e201] [cursor=pointer]
+                  - columnheader "Component Cost " [ref=f9e202] [cursor=pointer]
+                  - columnheader "Gross Margin " [ref=f9e203] [cursor=pointer]
+                  - columnheader "Margin % " [ref=f9e204] [cursor=pointer]
+              - rowgroup
+      - contentinfo [ref=f9e205]:
+        - paragraph [ref=f9e209]:
+          - text: Copyright
+          - generic [ref=f9e210]: "2026"
+          - text: © Jeshwar Teaching
+  - img

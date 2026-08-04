@@ -1,0 +1,39 @@
+- generic [ref=f30e5]:
+  - banner [ref=f30e6]:
+    - generic [ref=f30e7]: Server Error
+    - heading "404 Page Not Found" [level=1] [ref=f30e8]:
+      - generic [ref=f30e9]: 404 Page Not Found
+  - main [ref=f30e10]:
+    - paragraph [ref=f30e12]: This page either doesn't exist, or it moved somewhere else.
+    - generic [ref=f30e13]:
+      - paragraph [ref=f30e14]:
+        - text: Need help resolving the issue?
+        - link "Visit Plesk Help Center." [ref=f30e15] [cursor=pointer]:
+          - /url: https://www.plesk.com/bug-report/
+      - paragraph [ref=f30e16]: That's what you can do
+      - button "Reload Page" [ref=f30e17] [cursor=pointer]:
+        - generic [ref=f30e19]: Reload Page
+      - button "Back to Previous Page" [ref=f30e20] [cursor=pointer]:
+        - generic [ref=f30e22]: Back to Previous Page
+      - button "Home Page" [ref=f30e23] [cursor=pointer]:
+        - generic [ref=f30e25]: Home Page
+  - contentinfo [ref=f30e26]:
+    - generic [ref=f30e27]:
+      - link "Report a problem" [ref=f30e28] [cursor=pointer]:
+        - /url: https://talk.plesk.com/forums/reports.746/
+        - generic [ref=f30e30]: Report a problem
+      - link "Documentation" [ref=f30e31] [cursor=pointer]:
+        - /url: https://docs.plesk.com/
+        - generic [ref=f30e33]: Documentation
+      - link "Knowledge base" [ref=f30e34] [cursor=pointer]:
+        - /url: https://kb.plesk.com/
+        - generic [ref=f30e36]: Knowledge base
+      - link "Forum" [ref=f30e37] [cursor=pointer]:
+        - /url: https://talk.plesk.com/
+        - generic [ref=f30e39]: Forum
+      - link "YouTube" [ref=f30e40] [cursor=pointer]:
+        - /url: https://www.youtube.com/channel/UCeU-_6YHGQFcVSHLbEXLNlA
+        - generic [ref=f30e42]: YouTube
+      - link "Facebook" [ref=f30e43] [cursor=pointer]:
+        - /url: https://www.facebook.com/Plesk
+        - generic [ref=f30e45]: Facebook

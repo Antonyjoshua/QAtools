@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catch the Bug — Antony Joshua S</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="game-page-nav">
+    <a href="index.html#games" class="game-back-link">← Back to Portfolio</a>
+    <span class="nav-logo">AJ<span class="accent">.</span></span>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span class="theme-icon">☀️</span>
+    </button>
+  </nav>
+
+  <div class="game-page-body">
+    <section id="catch-the-bug">
+      <div class="container">
+        <h2 class="section-title">Catch the <span class="accent">Bug</span></h2>
+        <p class="ctb-desc">Think like a QA engineer — 3 bugs are roaming the board. Click them before time runs out!</p>
+
+        <div class="ctb-hud">
+          <div class="ctb-hud-item">
+            <span class="ctb-hud-label">Score</span>
+            <span class="ctb-hud-val" id="ctbScore">0</span>
+          </div>
+          <div class="ctb-hud-item">
+            <span class="ctb-hud-label">Time</span>
+            <span class="ctb-hud-val" id="ctbTimer">30</span>
+          </div>
+          <div class="ctb-hud-item">
+            <span class="ctb-hud-label">Best</span>
+            <span class="ctb-hud-val" id="ctbBest">0</span>
+          </div>
+        </div>
+
+        <div class="ctb-board" id="ctbBoard">
+          <div class="ctb-overlay" id="ctbOverlay">
+            <div id="ctbStartScreen">
+              <p class="ctb-overlay-title">Ready to QA? 🐛</p>
+              <p class="ctb-overlay-sub">3 bugs will move around every 1.5s. Click fast!</p>
+              <button class="btn btn-primary" id="ctbStartBtn">Start Game</button>
+            </div>
+            <div id="ctbResultScreen" style="display:none">
+              <p class="ctb-overlay-title">Time's Up!</p>
+              <p class="ctb-result-score">You caught <span class="accent" id="ctbFinalScore">0</span> bugs</p>
+              <p class="ctb-result-rank" id="ctbRank"></p>
+              <button class="btn btn-primary" id="ctbRestartBtn">Play Again</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="theme.js"></script>
+  <script src="jarvis.js"></script>
+  <script>
+    const board        = document.getElementById('ctbBoard');
+    const overlay      = document.getElementById('ctbOverlay');
+    const startScreen  = document.getElementById('ctbStartScreen');
+    const resultScreen = document.getElementById('ctbResultScreen');
+    const startBtn     = document.getElementById('ctbStartBtn');
+    const restartBtn   = document.getElementById('ctbRestartBtn');
+    const scoreEl      = document.getElementById('ctbScore');
+    const timerEl      = document.getElementById('ctbTimer');
+    const bestEl       = document.getElementById('ctbBest');
+    const finalScoreEl = document.getElementById('ctbFinalScore');
+    const rankEl       = document.getElementById('ctbRank');
+
+    const BUG_SVG = `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="12" cy="10" r="4"/>
+      <path d="M9 6.5L7 4.5M15 6.5L17 4.5M5 10H3M21 10H19M8 14L5 17M16 14L19 17"/>
+    </svg>`;
+
+    let score = 0, best = 0, timeLeft = 30;
+    let gameInterval = null, moveInterval = null, bugs = [];
+
+    function randPos() {
+      const pad = 50, w = board.offsetWidth - pad * 2, h = board.offsetHeight - pad * 2;
+      return { x: Math.floor(Math.random() * w) + pad, y: Math.floor(Math.random() * h) + pad };
+    }
+
+    function spawnBug() {
+      const el = document.createElement('div');
+      el.className = 'ctb-bug';
+      el.innerHTML = BUG_SVG;
+      const p = randPos();
+      el.style.left = p.x + 'px';
+      el.style.top  = p.y + 'px';
+      el.addEventListener('click', () => onCatch(el));
+      board.appendChild(el);
+      return el;
+    }
+
+    function moveBug(el) {
+      const p = randPos();
+      el.style.left = p.x + 'px';
+      el.style.top  = p.y + 'px';
+    }
+
+    function onCatch(el) {
+      if (!gameInterval) return;
+      score++;
+      scoreEl.textContent = score;
+      const pop = document.createElement('div');
+      pop.className = 'ctb-score-pop';
+      pop.textContent = '+1';
+      pop.style.left = el.style.left;
+      pop.style.top  = el.style.top;
+      board.appendChild(pop);
+      setTimeout(() => pop.remove(), 700);
+      el.classList.add('squashed');
+      setTimeout(() => { el.classList.remove('squashed'); moveBug(el); }, 350);
+    }
+
+    function startGame() {
+      score = 0; timeLeft = 30;
+      scoreEl.textContent = 0;
+      timerEl.textContent = 30;
+      timerEl.classList.remove('danger');
+      bugs.forEach(b => b.remove());
+      bugs = [spawnBug(), spawnBug(), spawnBug()];
+      overlay.style.display = 'none';
+      moveInterval = setInterval(() => bugs.forEach(moveBug), 1500);
+      gameInterval = setInterval(() => {
+        timeLeft--;
+        timerEl.textContent = timeLeft;
+        if (timeLeft <= 10) timerEl.classList.add('danger');
+        if (timeLeft <= 0) endGame();
+      }, 1000);
+    }
+
+    function endGame() {
+      clearInterval(gameInterval); clearInterval(moveInterval);
+      gameInterval = null;
+      bugs.forEach(b => b.remove()); bugs = [];
+      if (score > best) { best = score; bestEl.textContent = best; }
+      finalScoreEl.textContent = score;
+      const ranks = [[20,'🏆 Expert QA Engineer!'],[12,'⭐ Senior Tester!'],[6,'✓ QA Analyst'],[0,'🐛 Keep practicing!']];
+      rankEl.textContent = ranks.find(([min]) => score >= min)[1];
+      startScreen.style.display  = 'none';
+      resultScreen.style.display = 'block';
+      overlay.style.display      = 'flex';
+    }
+
+    startBtn.addEventListener('click',   startGame);
+    restartBtn.addEventListener('click', startGame);
+  </script>
+</body>
+</html>

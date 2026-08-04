@@ -1,0 +1,149 @@
+- generic [ref=f12e2]:
+  - generic [ref=f12e3]:
+    - generic [ref=f12e5]:
+      - generic [ref=f12e6]:
+        - link "Logo" [ref=f12e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f12e8]
+        - text: 
+      - list [ref=f12e9]:
+        - listitem [ref=f12e10]:
+          - link " Dashboard" [ref=f12e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f12e12]: 
+            - text: Dashboard
+        - listitem [ref=f12e13]:
+          - link " Batches" [ref=f12e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f12e15]: 
+            - text: Batches
+        - listitem [ref=f12e16]:
+          - link " My Courses" [ref=f12e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f12e18]: 
+            - text: My Courses
+        - listitem [ref=f12e19]:
+          - link " eBooks" [ref=f12e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f12e21]: 
+            - text: eBooks
+        - listitem [ref=f12e22]:
+          - link " Wishlist" [ref=f12e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f12e24]: 
+            - text: Wishlist
+        - listitem [ref=f12e25]:
+          - link " Audiobook" [ref=f12e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f12e27]: 
+            - text: Audiobook
+        - listitem [ref=f12e28]:
+          - link " Resources" [ref=f12e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f12e30]: 
+            - text: Resources
+        - listitem [ref=f12e31]:
+          - link " Current Affairs" [ref=f12e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f12e33]: 
+            - text: Current Affairs
+        - listitem [ref=f12e34]:
+          - link " Test" [ref=f12e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f12e36]: 
+            - text: Test
+        - listitem [ref=f12e37]:
+          - link " Settings" [ref=f12e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f12e39]: 
+            - text: Settings
+        - listitem [ref=f12e40]:
+          - link " Call Reminders" [ref=f12e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f12e42]: 
+            - text: Call Reminders
+        - listitem [ref=f12e43]:
+          - link " Leaderboard" [ref=f12e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f12e45]: 
+            - text: Leaderboard
+        - listitem [ref=f12e46]:
+          - button " APL " [ref=f12e47] [cursor=pointer]:
+            - generic [ref=f12e48]:
+              - generic [ref=f12e49]: 
+              - text: APL
+            - generic [ref=f12e50]: 
+          - text:    
+        - listitem [ref=f12e51]:
+          - link " Notification" [ref=f12e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f12e53]: 
+            - text: Notification
+        - listitem [ref=f12e54]:
+          - button " Logout" [ref=f12e56] [cursor=pointer]:
+            - generic [ref=f12e57]: 
+            - text: Logout
+    - generic [ref=f12e59]:
+      - banner [ref=f12e60]:
+        - text: 
+        - generic [ref=f12e61]:
+          - generic [ref=f12e62]:
+            - generic [ref=f12e63]: 
+            - textbox "Search Course" [ref=f12e64]
+            - text: 
+          - link "" [ref=f12e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f12e68]: 
+          - link "Profile qatestuserb2731" [ref=f12e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f12e71]
+            - generic [ref=f12e72]: qatestuserb2731
+      - generic [ref=f12e74]:
+        - heading "Checkout" [level=3] [ref=f12e75]
+        - generic [ref=f12e76]:
+          - generic [ref=f12e77]:
+            - generic [ref=f12e79]:
+              - img "Aptitude & Mental Ability" [ref=f12e80]
+              - generic [ref=f12e81]:
+                - heading "Aptitude & Mental Ability" [level=5] [ref=f12e82]
+                - generic [ref=f12e84]: Prime Membership
+            - generic [ref=f12e85]:
+              - generic [ref=f12e86]:
+                - heading "Have a promo code?" [level=5] [ref=f12e87]
+                - button "View Promo Codes ▼" [ref=f12e88] [cursor=pointer]
+              - generic [ref=f12e89]:
+                - textbox "Enter promo code" [ref=f12e90]: QATEST_MULTINEG
+                - button "Apply" [active] [ref=f12e127] [cursor=pointer]
+              - generic [ref=f12e129]: This promo code is only available to returning customers.
+          - generic [ref=f12e93]:
+            - heading "Order Summary" [level=5] [ref=f12e94]
+            - generic [ref=f12e95]:
+              - generic [ref=f12e96]: Course Fee
+              - generic [ref=f12e97]: ₹6,949.00
+            - generic [ref=f12e98]:
+              - generic [ref=f12e99]: Price after Discount
+              - generic [ref=f12e100]: ₹0
+            - separator [ref=f12e101]
+            - generic [ref=f12e102]:
+              - generic [ref=f12e103]: Total
+              - generic [ref=f12e104]: ₹6,949.00
+            - button "Pay ₹ 6,949.00" [ref=f12e128] [cursor=pointer]:
+              - text: Pay ₹
+              - generic [ref=f12e106]: 6,949.00
+            - link "Back to course" [ref=f12e107] [cursor=pointer]:
+              - /url: /Purchase/Index?courseId=112
+  - generic "Ask a doubt" [ref=f12e108]:
+    - generic [ref=f12e109]: 
+  - text:      
+  - contentinfo [ref=f12e110]:
+    - generic [ref=f12e111]:
+      - paragraph [ref=f12e113]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f12e114]:
+        - link "About Us" [ref=f12e115] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f12e116] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f12e117] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f12e118] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

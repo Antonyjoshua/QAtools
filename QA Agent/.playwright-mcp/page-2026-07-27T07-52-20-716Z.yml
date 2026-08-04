@@ -1,0 +1,473 @@
+- generic [active] [ref=f31e1]:
+  - generic [ref=f31e7]:
+    - generic [ref=f31e8]:
+      - generic [ref=f31e9]:
+        - heading "Course" [level=4] [ref=f31e10]
+        - navigation [ref=f31e11]:
+          - list [ref=f31e12]:
+            - listitem [ref=f31e13]:
+              - link [ref=f31e14] [cursor=pointer]:
+                - /url: /Master/Course
+                - img [ref=f31e15]
+            - listitem [ref=f31e18]: / Courses
+      - generic [ref=f31e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .."
+                - img
+        - list [ref=f31e22]:
+          - listitem [ref=f31e23]:
+            - generic [ref=f31e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f31e26]:
+      - generic [ref=f31e28]:
+        - text: 
+        - link [ref=f31e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f31e31]:
+          - list [ref=f31e33]:
+            - generic [ref=f31e38]:
+              - text: 
+              - listitem [ref=f31e39]:
+                - link [ref=f31e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f31e41]
+                  - text: 
+              - listitem [ref=f31e43]:
+                - link [ref=f31e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e45]
+                  - text: 
+              - listitem [ref=f31e47]:
+                - link [ref=f31e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e49]
+                  - text: 
+              - listitem [ref=f31e51]:
+                - link [ref=f31e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e53]
+                  - text: 
+              - listitem [ref=f31e55]:
+                - link [ref=f31e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e57]
+                  - text: 
+              - listitem [ref=f31e59]:
+                - link [ref=f31e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e61]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f31e63]:
+                - link "" [ref=f31e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f31e65]: 
+                  - text: 
+              - listitem [ref=f31e66]:
+                - link [ref=f31e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e68]
+                  - text: 
+              - listitem [ref=f31e70]:
+                - link [ref=f31e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e72]
+                  - text: 
+              - listitem [ref=f31e74]:
+                - link [ref=f31e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e76]
+                  - text: 
+              - listitem [ref=f31e78]:
+                - link [ref=f31e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e80]
+                  - text: 
+              - listitem [ref=f31e82]:
+                - link [ref=f31e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e84]
+                  - text: 
+              - listitem [ref=f31e86]:
+                - link [ref=f31e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e88]
+                  - text: 
+              - listitem [ref=f31e90]:
+                - link "general icon" [ref=f31e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f31e92]
+                  - text: 
+              - listitem [ref=f31e93]:
+                - link [ref=f31e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f31e95]
+                  - text: 
+              - listitem [ref=f31e97]:
+                - link [ref=f31e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f31e99]
+                  - text: 
+              - listitem [ref=f31e101]:
+                - link "product icon" [ref=f31e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f31e103]
+                  - text: 
+              - listitem [ref=f31e104]:
+                - link [ref=f31e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e106]
+                  - text: 
+              - listitem [ref=f31e108]:
+                - link [ref=f31e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e110]
+                  - text: 
+              - listitem [ref=f31e112]:
+                - link [ref=f31e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f31e114]
+                  - text: 
+              - listitem [ref=f31e116]:
+                - link [ref=f31e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e118]
+                  - text: 
+              - listitem [ref=f31e120]:
+                - link [ref=f31e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e122]
+                  - text: 
+              - listitem [ref=f31e124]:
+                - link [ref=f31e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f31e126]
+              - listitem [ref=f31e128]:
+                - link [ref=f31e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f31e130]
+                  - text: 
+              - listitem [ref=f31e132]:
+                - link "notify-ico" [ref=f31e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f31e134]
+                  - text: 
+              - listitem [ref=f31e135]:
+                - link "notify-ico" [ref=f31e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f31e137]
+                  - text: 
+      - main [ref=f31e139]:
+        - generic [ref=f31e141]:
+          - generic [ref=f31e142]:
+            - heading "Course Management" [level=4] [ref=f31e143]
+            - link " Add Course" [ref=f31e144] [cursor=pointer]:
+              - /url: /Master/Create
+              - generic [ref=f31e145]: 
+              - text: Add Course
+          - generic [ref=f31e148]:
+            - generic [ref=f31e149]:
+              - generic [ref=f31e152]:
+                - text: Show
+                - combobox "Show courses per page" [ref=f31e153] [cursor=pointer]:
+                  - option "10"
+                  - option "25"
+                  - option "50"
+                  - option "100" [selected]
+                - text: courses per page
+              - generic [ref=f31e156]:
+                - text: "Search courses:"
+                - searchbox "Search courses:" [ref=f31e157] [cursor=pointer]
+            - grid [ref=f31e158]:
+              - rowgroup [ref=f31e159]:
+                - 'row "Course Code: activate to sort column ascending Title: activate to sort column ascending Duration (Hours): activate to sort column ascending Status: activate to sort column ascending Membership: activate to sort column ascending Start Date: activate to sort column ascending End Date: activate to sort column descending Actions" [ref=f31e423]':
+                  - 'columnheader "Course Code: activate to sort column ascending" [ref=f31e161] [cursor=pointer]': ↑ Course Code 
+                  - 'columnheader "Title: activate to sort column ascending" [ref=f31e162] [cursor=pointer]': ↑ Title 
+                  - 'columnheader "Duration (Hours): activate to sort column ascending" [ref=f31e163] [cursor=pointer]': ↑ Duration (Hours) 
+                  - 'columnheader "Status: activate to sort column ascending" [ref=f31e164] [cursor=pointer]': ↑ Status 
+                  - 'columnheader "Membership: activate to sort column ascending" [ref=f31e165] [cursor=pointer]': ↑ Membership 
+                  - 'columnheader "Start Date: activate to sort column ascending" [ref=f31e166] [cursor=pointer]': ↑ Start Date 
+                  - 'columnheader "End Date: activate to sort column descending" [ref=f31e424] [cursor=pointer]': ↑ End Date ↓
+                  - columnheader "Actions" [ref=f31e180]
+              - rowgroup [ref=f31e181]:
+                - row "Group-2 Group 2 course 20 Active Prime Membership 09/01/2026 13/01/2026  " [ref=f31e425]:
+                  - gridcell "Group-2" [ref=f31e426]:
+                    - generic [ref=f31e427]: Group-2
+                  - gridcell "Group 2 course" [ref=f31e428]:
+                    - heading "Group 2 course" [level=6] [ref=f31e429]
+                  - gridcell "20" [ref=f31e430]:
+                    - generic [ref=f31e431]: "20"
+                  - gridcell "Active" [ref=f31e432]:
+                    - generic [ref=f31e433]: Active
+                  - gridcell "Prime Membership" [ref=f31e434]:
+                    - generic [ref=f31e435]: Prime Membership
+                  - gridcell "09/01/2026" [ref=f31e436]:
+                    - generic [ref=f31e437]: 09/01/2026
+                  - gridcell "13/01/2026" [ref=f31e438]:
+                    - generic [ref=f31e439]: 13/01/2026
+                  - gridcell " " [ref=f31e440]:
+                    - list [ref=f31e441]:
+                      - listitem [ref=f31e442] [cursor=pointer]:
+                        - link "" [ref=f31e443]:
+                          - /url: /Master/EditCourse/55
+                          - generic [ref=f31e444]: 
+                      - listitem [ref=f31e445] [cursor=pointer]:
+                        - link "" [ref=f31e446]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f31e447]: 
+                - row "Group-1 Group 1 course 20 Active Prime Membership 08/01/2026 14/01/2026  " [ref=f31e448]:
+                  - gridcell "Group-1" [ref=f31e449]:
+                    - generic [ref=f31e450]: Group-1
+                  - gridcell "Group 1 course" [ref=f31e451]:
+                    - heading "Group 1 course" [level=6] [ref=f31e452]
+                  - gridcell "20" [ref=f31e453]:
+                    - generic [ref=f31e454]: "20"
+                  - gridcell "Active" [ref=f31e455]:
+                    - generic [ref=f31e456]: Active
+                  - gridcell "Prime Membership" [ref=f31e457]:
+                    - generic [ref=f31e458]: Prime Membership
+                  - gridcell "08/01/2026" [ref=f31e459]:
+                    - generic [ref=f31e460]: 08/01/2026
+                  - gridcell "14/01/2026" [ref=f31e461]:
+                    - generic [ref=f31e462]: 14/01/2026
+                  - gridcell " " [ref=f31e463]:
+                    - list [ref=f31e464]:
+                      - listitem [ref=f31e465] [cursor=pointer]:
+                        - link "" [ref=f31e466]:
+                          - /url: /Master/EditCourse/51
+                          - generic [ref=f31e467]: 
+                      - listitem [ref=f31e468] [cursor=pointer]:
+                        - link "" [ref=f31e469]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f31e470]: 
+                - row "JT - Batch JT Batch-2026 Course 5 Active Prime Membership 14/01/2026 15/01/2026  " [ref=f31e471]:
+                  - gridcell "JT - Batch" [ref=f31e472]:
+                    - generic [ref=f31e473]: JT - Batch
+                  - gridcell "JT Batch-2026 Course" [ref=f31e474]:
+                    - heading "JT Batch-2026 Course" [level=6] [ref=f31e475]
+                  - gridcell "5" [ref=f31e476]:
+                    - generic [ref=f31e477]: "5"
+                  - gridcell "Active" [ref=f31e478]:
+                    - generic [ref=f31e479]: Active
+                  - gridcell "Prime Membership" [ref=f31e480]:
+                    - generic [ref=f31e481]: Prime Membership
+                  - gridcell "14/01/2026" [ref=f31e482]:
+                    - generic [ref=f31e483]: 14/01/2026
+                  - gridcell "15/01/2026" [ref=f31e484]:
+                    - generic [ref=f31e485]: 15/01/2026
+                  - gridcell " " [ref=f31e486]:
+                    - list [ref=f31e487]:
+                      - listitem [ref=f31e488] [cursor=pointer]:
+                        - link "" [ref=f31e489]:
+                          - /url: /Master/EditCourse/59
+                          - generic [ref=f31e490]: 
+                      - listitem [ref=f31e491] [cursor=pointer]:
+                        - link "" [ref=f31e492]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f31e493]: 
+                - row "PODCAST0032 tEST 34 Active Silver 10/01/2026 17/01/2026  " [ref=f31e494]:
+                  - gridcell "PODCAST0032" [ref=f31e495]:
+                    - generic [ref=f31e496]: PODCAST0032
+                  - gridcell "tEST" [ref=f31e497]:
+                    - heading "tEST" [level=6] [ref=f31e498]
+                  - gridcell "34" [ref=f31e499]:
+                    - generic [ref=f31e500]: "34"
+                  - gridcell "Active" [ref=f31e501]:
+                    - generic [ref=f31e502]: Active
+                  - gridcell "Silver" [ref=f31e503]:
+                    - generic [ref=f31e504]: Silver
+                  - gridcell "10/01/2026" [ref=f31e505]:
+                    - generic [ref=f31e506]: 10/01/2026
+                  - gridcell "17/01/2026" [ref=f31e507]:
+                    - generic [ref=f31e508]: 17/01/2026
+                  - gridcell " " [ref=f31e509]:
+                    - list [ref=f31e510]:
+                      - listitem [ref=f31e511] [cursor=pointer]:
+                        - link "" [ref=f31e512]:
+                          - /url: /Master/EditCourse/54
+                          - generic [ref=f31e513]: 
+                      - listitem [ref=f31e514] [cursor=pointer]:
+                        - link "" [ref=f31e515]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f31e516]: 
+                - row "SPL001 Pongal Special Course 1 Active Silver 15/01/2026 19/01/2026  " [ref=f31e517]:
+                  - gridcell "SPL001" [ref=f31e518]:
+                    - generic [ref=f31e519]: SPL001
+                  - gridcell "Pongal Special Course" [ref=f31e520]:
+                    - heading "Pongal Special Course" [level=6] [ref=f31e521]
+                  - gridcell "1" [ref=f31e522]:
+                    - generic [ref=f31e523]: "1"
+                  - gridcell "Active" [ref=f31e524]:
+                    - generic [ref=f31e525]: Active
+                  - gridcell "Silver" [ref=f31e526]:
+                    - generic [ref=f31e527]: Silver
+                  - gridcell "15/01/2026" [ref=f31e528]:
+                    - generic [ref=f31e529]: 15/01/2026
+                  - gridcell "19/01/2026" [ref=f31e530]:
+                    - generic [ref=f31e531]: 19/01/2026
+                  - gridcell " " [ref=f31e532]:
+                    - list [ref=f31e533]:
+                      - listitem [ref=f31e534] [cursor=pointer]:
+                        - link "" [ref=f31e535]:
+                          - /url: /Master/EditCourse/60
+                          - generic [ref=f31e536]: 
+                      - listitem [ref=f31e537] [cursor=pointer]:
+                        - link "" [ref=f31e538]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f31e539]: 
+                - row "SOFTWARE 005 Software Testing 5 Active Prime Membership 14/01/2026 24/01/2026  " [ref=f31e540]:
+                  - gridcell "SOFTWARE 005" [ref=f31e541]:
+                    - generic [ref=f31e542]: SOFTWARE 005
+                  - gridcell "Software Testing" [ref=f31e543]:
+                    - heading "Software Testing" [level=6] [ref=f31e544]
+                  - gridcell "5" [ref=f31e545]:
+                    - generic [ref=f31e546]: "5"
+                  - gridcell "Active" [ref=f31e547]:
+                    - generic [ref=f31e548]: Active
+                  - gridcell "Prime Membership" [ref=f31e549]:
+                    - generic [ref=f31e550]: Prime Membership
+                  - gridcell "14/01/2026" [ref=f31e551]:
+                    - generic [ref=f31e552]: 14/01/2026
+                  - gridcell "24/01/2026" [ref=f31e553]:
+                    - generic [ref=f31e554]: 24/01/2026
+                  - gridcell " " [ref=f31e555]:
+                    - list [ref=f31e556]:
+                      - listitem [ref=f31e557] [cursor=pointer]:
+                        - link "" [ref=f31e558]:
+                          - /url: /Master/EditCourse/58
+                          - generic [ref=f31e559]: 
+                      - listitem [ref=f31e560] [cursor=pointer]:
+                        - link "" [ref=f31e561]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f31e562]: 
+                - row "100 Social 2 Active Prime Membership 06/01/2026 24/01/2026  " [ref=f31e563]:
+                  - gridcell "100" [ref=f31e564]:
+                    - generic [ref=f31e565]: "100"
+                  - gridcell "Social" [ref=f31e566]:
+                    - heading "Social" [level=6] [ref=f31e567]
+                  - gridcell "2" [ref=f31e568]:
+                    - generic [ref=f31e569]: "2"
+                  - gridcell "Active" [ref=f31e570]:
+                    - generic [ref=f31e571]: Active
+                  - gridcell "Prime Membership" [ref=f31e572]:
+                    - generic [ref=f31e573]: Prime Membership
+                  - gridcell "06/01/2026" [ref=f31e574]:
+                    - generic [ref=f31e575]: 06/01/2026
+                  - gridcell "24/01/2026" [ref=f31e576]:
+                    - generic [ref=f31e577]: 24/01/2026
+                  - gridcell " " [ref=f31e578]:
+                    - list [ref=f31e579]:
+                      - listitem [ref=f31e580] [cursor=pointer]:
+                        - link "" [ref=f31e581]:
+                          - /url: /Master/EditCourse/49
+                          - generic [ref=f31e582]: 
+                      - listitem [ref=f31e583] [cursor=pointer]:
+                        - link "" [ref=f31e584]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f31e585]: 
+                - row "SOFTWARE-TESTING 005 Software Testing Course 20 Active Silver 05/01/2026 25/01/2026  " [ref=f31e586]:
+                  - gridcell "SOFTWARE-TESTING 005" [ref=f31e587]:
+                    - generic [ref=f31e588]: SOFTWARE-TESTING 005
+                  - gridcell "Software Testing Course" [ref=f31e589]:
+                    - heading "Software Testing Course" [level=6] [ref=f31e590]
+                  - gridcell "20" [ref=f31e591]:
+                    - generic [ref=f31e592]: "20"
+                  - gridcell "Active" [ref=f31e593]:
+                    - generic [ref=f31e594]: Active
+                  - gridcell "Silver" [ref=f31e595]:
+                    - generic [ref=f31e596]: Silver
+                  - gridcell "05/01/2026" [ref=f31e597]:
+                    - generic [ref=f31e598]: 05/01/2026
+                  - gridcell "25/01/2026" [ref=f31e599]:
+                    - generic [ref=f31e600]: 25/01/2026
+                  - gridcell " " [ref=f31e601]:
+                    - list [ref=f31e602]:
+                      - listitem [ref=f31e603] [cursor=pointer]:
+                        - link "" [ref=f31e604]:
+                          - /url: /Master/EditCourse/47
+                          - generic [ref=f31e605]: 
+                      - listitem [ref=f31e606] [cursor=pointer]:
+                        - link "" [ref=f31e607]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f31e608]: 
+                - row "SOFTWARE-TESTING Silver membership 30 Draft Silver 09/01/2026 31/01/2026  " [ref=f31e609]:
+                  - gridcell "SOFTWARE-TESTING" [ref=f31e610]:
+                    - generic [ref=f31e611]: SOFTWARE-TESTING
+                  - gridcell "Silver membership" [ref=f31e612]:
+                    - heading "Silver membership" [level=6] [ref=f31e613]
+                  - gridcell "30" [ref=f31e614]:
+                    - generic [ref=f31e615]: "30"
+                  - gridcell "Draft" [ref=f31e616]:
+                    - generic [ref=f31e617]: Draft
+                  - gridcell "Silver" [ref=f31e618]:
+                    - generic [ref=f31e619]: Silver
+                  - gridcell "09/01/2026" [ref=f31e620]:
+                    - generic [ref=f31e621]: 09/01/2026
+                  - gridcell "31/01/2026" [ref=f31e622]:
+                    - generic [ref=f31e623]: 31/01/2026
+                  - gridcell " " [ref=f31e624]:
+                    - list [ref=f31e625]:
+                      - listitem [ref=f31e626] [cursor=pointer]:
+                        - link "" [ref=f31e627]:
+                          - /url: /Master/EditCourse/53
+                          - generic [ref=f31e628]: 
+                      - listitem [ref=f31e629] [cursor=pointer]:
+                        - link "" [ref=f31e630]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f31e631]: 
+                - row "Bank-001 Banking course 10 Active Gold membership 09/02/2026 26/02/2026  " [ref=f31e632]:
+                  - gridcell "Bank-001" [ref=f31e633]:
+                    - generic [ref=f31e634]: Bank-001
+                  - gridcell "Banking course" [ref=f31e635]:
+                    - heading "Banking course" [level=6] [ref=f31e636]
+                  - gridcell "10" [ref=f31e637]:
+                    - generic [ref=f31e638]: "10"
+                  - gridcell "Active" [ref=f31e639]:
+                    - generic [ref=f31e640]: Active
+                  - gridcell "Gold membership" [ref=f31e641]:
+                    - generic [ref=f31e642]: Gold membership
+                  - gridcell "09/02/2026" [ref=f31e643]:
+                    - generic [ref=f31e644]: 09/02/2026
+                  - gridcell "26/02/2026" [ref=f31e645]:
+                    - generic [ref=f31e646]: 26/02/2026
+                  - gridcell " " [ref=f31e647]:
+                    - list [ref=f31e648]:
+                      - listitem [ref=f31e649] [cursor=pointer]:
+                        - link "" [ref=f31e650]:
+                          - /url: /Master/EditCourse/70
+                          - generic [ref=f31e651]: 
+                      - listitem [ref=f31e652] [cursor=pointer]:
+                        - link "" [ref=f31e653]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f31e654]: 
+            - generic [ref=f31e169]:
+              - status [ref=f31e412]: Showing 1 to 10 of 61 courses
+              - generic [ref=f31e172]:
+                - generic [ref=f31e655]: Previous
+                - generic [ref=f31e656]:
+                  - generic [ref=f31e657] [cursor=pointer]: "1"
+                  - generic [ref=f31e658] [cursor=pointer]: "2"
+                  - generic [ref=f31e659] [cursor=pointer]: "3"
+                  - generic [ref=f31e660] [cursor=pointer]: "4"
+                  - generic [ref=f31e661] [cursor=pointer]: "5"
+                  - generic [ref=f31e662] [cursor=pointer]: "6"
+                  - generic [ref=f31e663] [cursor=pointer]: "7"
+                - generic [ref=f31e664] [cursor=pointer]: Next
+      - contentinfo [ref=f31e173]:
+        - paragraph [ref=f31e177]:
+          - text: Copyright
+          - generic [ref=f31e178]: "2026"
+          - text: © Jeshwar Teaching
+  - img

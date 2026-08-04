@@ -1,0 +1,81 @@
+- generic [ref=f43e4]:
+  - heading "Never Give Up is more important than Success!" [level=2] [ref=f43e8]
+  - generic [ref=f43e10]:
+    - img "Logo" [ref=f43e11]
+    - generic [ref=f43e12]:
+      - heading "Create An Account" [level=2] [ref=f43e13]
+      - paragraph [ref=f43e14]:
+        - text: Already have an account?
+        - link "Login" [ref=f43e15] [cursor=pointer]:
+          - /url: /
+      - generic [ref=f43e16]:
+        - generic [ref=f43e17]:
+          - generic [ref=f43e18]:
+            - generic [ref=f43e19]: First Name *
+            - textbox "First Name *" [ref=f43e20]:
+              - /placeholder: Enter your first name
+              - text: Retest
+          - generic [ref=f43e21]:
+            - generic [ref=f43e22]: Last Name *
+            - textbox "Last Name *" [ref=f43e23]:
+              - /placeholder: Enter your last name
+              - text: JP3P26
+        - generic [ref=f43e24]:
+          - generic [ref=f43e25]:
+            - generic [ref=f43e26]: Username *
+            - textbox "Username *" [ref=f43e27]:
+              - /placeholder: Enter your username
+              - text: qapwmismatch270726
+            - paragraph [ref=f43e28]: e.g., rajesh, rajesh1995 (3-20 chars, letters, numbers)
+          - generic [ref=f43e29]:
+            - generic [ref=f43e30]: Email Address *
+            - textbox "Email Address *" [ref=f43e31]:
+              - /placeholder: Enter your email
+              - text: qapwmismatch270726@mailinator.com
+        - generic [ref=f43e32]:
+          - generic [ref=f43e33]:
+            - generic [ref=f43e34]: Phone Number *
+            - textbox "Phone Number *" [ref=f43e35]:
+              - /placeholder: Enter your phone number
+              - text: "7412589632"
+          - generic [ref=f43e36]:
+            - generic [ref=f43e37]: Date of Birth(Optional)
+            - textbox "Date of Birth(Optional)" [ref=f43e38]
+        - generic [ref=f43e39]:
+          - generic [ref=f43e40]:
+            - generic [ref=f43e41]: Password *
+            - textbox "Password *" [ref=f43e42]:
+              - /placeholder: Enter your password
+            - paragraph [ref=f43e43]: e.g.,Rajesh@123 (min 8 chars with uppercase, lowercase, number & special char)
+          - generic [ref=f43e44]:
+            - generic [ref=f43e45]: Confirm Password *
+            - textbox "Confirm Password *" [ref=f43e46]:
+              - /placeholder: Confirm your password
+            - text: Password and Confirm Password do not match
+        - generic [ref=f43e47]:
+          - generic [ref=f43e48]:
+            - generic [ref=f43e49]: City
+            - textbox "City" [ref=f43e50]:
+              - /placeholder: Enter your City
+          - generic [ref=f43e51]:
+            - generic [ref=f43e52]: Gender
+            - generic [ref=f43e53]:
+              - generic [ref=f43e54]:
+                - radio "Male" [ref=f43e55]
+                - generic [ref=f43e56] [cursor=pointer]: Male
+              - generic [ref=f43e57]:
+                - radio "Female" [ref=f43e58]
+                - generic [ref=f43e59] [cursor=pointer]: Female
+              - generic [ref=f43e60]:
+                - radio "Others" [ref=f43e61]
+                - generic [ref=f43e62] [cursor=pointer]: Others
+        - generic [ref=f43e63]:
+          - checkbox "By clicking Create account, I agree that I have read and accepted the Terms of Use and Privacy Policy" [checked] [ref=f43e64] [cursor=pointer]
+          - generic [ref=f43e65] [cursor=pointer]:
+            - text: By clicking Create account, I agree that I have read and accepted the
+            - link "Terms of Use" [ref=f43e66]:
+              - /url: javascript:void(0)
+            - text: and
+            - link "Privacy Policy" [ref=f43e67]:
+              - /url: javascript:void(0)
+        - button "Create Account" [ref=f43e68] [cursor=pointer]

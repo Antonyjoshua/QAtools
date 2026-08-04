@@ -1,0 +1,420 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e7]:
+    - generic [ref=f5e8]:
+      - generic [ref=f5e9]:
+        - heading "Membership" [level=4] [ref=f5e10]
+        - navigation [ref=f5e11]:
+          - list [ref=f5e12]:
+            - listitem [ref=f5e13]:
+              - link [ref=f5e14] [cursor=pointer]:
+                - /url: /Membership/GetMemberships
+                - img [ref=f5e15]
+            - listitem [ref=f5e18]: / Membership
+      - generic [ref=f5e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f5e22]:
+          - text: 
+          - listitem [ref=f5e23] [cursor=pointer]:
+            - generic [ref=f5e24]:
+              - img "Profile" [ref=f5e25]
+              - generic [ref=f5e26]:
+                - generic [ref=f5e27]: superadmin@gmail.com
+                - paragraph [ref=f5e28]:
+                  - text: SuperAdmin
+                  - generic [ref=f5e29]: 
+    - generic [ref=f5e30]:
+      - generic [ref=f5e32]:
+        - generic [ref=f5e33]:
+          - link [ref=f5e34] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f5e36] [cursor=pointer]
+        - navigation [ref=f5e38]:
+          - list [ref=f5e40]:
+            - generic [ref=f5e45]:
+              - text: 
+              - listitem [ref=f5e46]:
+                - heading "Applications" [level=6] [ref=f5e48]
+              - listitem [ref=f5e49]:
+                - link "Dashboard" [ref=f5e50] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f5e51]
+                  - generic [ref=f5e53]: Dashboard
+                  - text: 
+              - listitem [ref=f5e54]:
+                - link "Enrollment " [ref=f5e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e56]
+                  - generic [ref=f5e58]: Enrollment
+                  - generic [ref=f5e60]: 
+              - listitem [ref=f5e61]:
+                - link "Website Settings " [ref=f5e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e63]
+                  - generic [ref=f5e65]: Website Settings
+                  - generic [ref=f5e67]: 
+              - listitem [ref=f5e68]:
+                - link "Membership " [ref=f5e69] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e70]
+                  - generic [ref=f5e72]: Membership
+                  - generic [ref=f5e74]: 
+                - list [ref=f5e75]:
+                  - listitem [ref=f5e76]:
+                    - link "Membership" [ref=f5e77] [cursor=pointer]:
+                      - /url: /Membership/Index
+                  - listitem [ref=f5e78]:
+                    - link "Pricing Plan" [ref=f5e79] [cursor=pointer]:
+                      - /url: /PricingPlan/Index
+              - listitem [ref=f5e80]:
+                - link "Course " [ref=f5e81] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e82]
+                  - generic [ref=f5e84]: Course
+                  - generic [ref=f5e86]: 
+              - listitem [ref=f5e87]:
+                - link " Self Host " [ref=f5e88] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f5e89]: 
+                  - generic [ref=f5e90]: Self Host
+                  - generic [ref=f5e92]: 
+              - listitem [ref=f5e93]:
+                - link "Assessment " [ref=f5e94] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e95]
+                  - generic [ref=f5e97]: Assessment
+                  - generic [ref=f5e99]: 
+              - listitem [ref=f5e100]:
+                - link "Email Draft " [ref=f5e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e102]
+                  - generic [ref=f5e104]: Email Draft
+                  - generic [ref=f5e106]: 
+              - listitem [ref=f5e107]:
+                - link "Admin " [ref=f5e108] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e109]
+                  - generic [ref=f5e111]: Admin
+                  - generic [ref=f5e113]: 
+              - listitem [ref=f5e114]:
+                - link "general icon General " [ref=f5e115] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f5e116]
+                  - generic [ref=f5e117]: General
+                  - generic [ref=f5e119]: 
+              - listitem [ref=f5e120]:
+                - link "Leaderboard" [ref=f5e121] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f5e122]
+                  - generic [ref=f5e124]: Leaderboard
+                  - text: 
+              - listitem [ref=f5e125]:
+                - heading "E-Commerce" [level=6] [ref=f5e127]
+              - listitem [ref=f5e128]:
+                - link "Dashboard" [ref=f5e129] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f5e130]
+                  - generic [ref=f5e132]: Dashboard
+                  - text: 
+              - listitem [ref=f5e133]:
+                - link "product icon Product " [ref=f5e134] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f5e135]
+                  - generic [ref=f5e136]: Product
+                  - generic [ref=f5e138]: 
+              - listitem [ref=f5e139]:
+                - link "Order " [ref=f5e140] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e141]
+                  - generic [ref=f5e143]: Order
+                  - generic [ref=f5e145]: 
+              - listitem [ref=f5e146]:
+                - link "Customer" [ref=f5e147] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f5e148]
+                  - generic [ref=f5e150]: Customer
+                  - text: 
+              - listitem [ref=f5e151]:
+                - heading "Payments" [level=6] [ref=f5e153]
+              - listitem [ref=f5e154]:
+                - link "Transactions " [ref=f5e155] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e156]
+                  - generic [ref=f5e158]: Transactions
+                  - generic [ref=f5e160]: 
+              - listitem [ref=f5e161]:
+                - heading "Notifcations" [level=6] [ref=f5e163]
+              - listitem [ref=f5e164]:
+                - link "notify-ico Notifications " [ref=f5e165] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f5e166]
+                  - generic [ref=f5e167]: Notifications
+                  - generic [ref=f5e169]: 
+              - listitem [ref=f5e170]:
+                - heading "Job Management" [level=6] [ref=f5e172]
+              - listitem [ref=f5e173]:
+                - link "notify-ico Jobs " [ref=f5e174] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f5e175]
+                  - generic [ref=f5e176]: Jobs
+                  - generic [ref=f5e178]: 
+      - main [ref=f5e180]:
+        - generic [ref=f5e182]:
+          - link "Add Membership" [ref=f5e184] [cursor=pointer]:
+            - /url: /Membership/Create
+          - generic [ref=f5e187]:
+            - generic [ref=f5e189]:
+              - text: Show
+              - combobox "Show entries" [ref=f5e190] [cursor=pointer]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: entries
+            - generic [ref=f5e192]:
+              - text: "Search:"
+              - searchbox "Search:" [ref=f5e193] [cursor=pointer]
+            - grid [ref=f5e194]:
+              - rowgroup [ref=f5e195]:
+                - 'row "Name: activate to sort column descending Price: activate to sort column ascending Status: activate to sort column ascending Action" [ref=f5e196]':
+                  - 'columnheader "Name: activate to sort column descending" [ref=f5e197] [cursor=pointer]': ↑ Name ↓
+                  - 'columnheader "Price: activate to sort column ascending" [ref=f5e198] [cursor=pointer]': ↑ Price 
+                  - 'columnheader "Status: activate to sort column ascending" [ref=f5e199] [cursor=pointer]': ↑ Status 
+                  - columnheader "Action" [ref=f5e200]
+              - rowgroup [ref=f5e201]:
+                - row "Assessment (Single) ₹1000.00 Active   " [ref=f5e202]:
+                  - gridcell "Assessment (Single)" [ref=f5e203]
+                  - gridcell "₹1000.00" [ref=f5e204]
+                  - gridcell "Active" [ref=f5e205]:
+                    - generic [ref=f5e206]: Active
+                  - gridcell "  " [ref=f5e207]:
+                    - list [ref=f5e208]:
+                      - listitem [ref=f5e209]:
+                        - link "" [ref=f5e210] [cursor=pointer]:
+                          - /url: /Membership/Details/24
+                          - generic [ref=f5e211]: 
+                      - listitem [ref=f5e212] [cursor=pointer]:
+                        - link "" [ref=f5e213]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e214]: 
+                      - listitem [ref=f5e215] [cursor=pointer]:
+                        - link "" [ref=f5e216]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e217]: 
+                - row "Batch 02 (Multiple) ₹0.00 Active  $  " [ref=f5e218]:
+                  - gridcell "Batch 02 (Multiple)" [ref=f5e219]
+                  - gridcell "₹0.00" [ref=f5e220]
+                  - gridcell "Active" [ref=f5e221]:
+                    - generic [ref=f5e222]: Active
+                  - gridcell " $  " [ref=f5e223]:
+                    - list [ref=f5e224]:
+                      - listitem [ref=f5e225]:
+                        - link "" [ref=f5e226] [cursor=pointer]:
+                          - /url: /Membership/Details/52
+                          - generic [ref=f5e227]: 
+                      - listitem [ref=f5e228]:
+                        - link "$" [ref=f5e229] [cursor=pointer]:
+                          - /url: /PricingPlan/Index?membershipId=52
+                          - generic [ref=f5e230]: $
+                      - listitem [ref=f5e231] [cursor=pointer]:
+                        - link "" [ref=f5e232]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e233]: 
+                      - listitem [ref=f5e234] [cursor=pointer]:
+                        - link "" [ref=f5e235]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e236]: 
+                - row "Batch No 01 (Multiple) ₹0.00 Active  $  " [ref=f5e237]:
+                  - gridcell "Batch No 01 (Multiple)" [ref=f5e238]
+                  - gridcell "₹0.00" [ref=f5e239]
+                  - gridcell "Active" [ref=f5e240]:
+                    - generic [ref=f5e241]: Active
+                  - gridcell " $  " [ref=f5e242]:
+                    - list [ref=f5e243]:
+                      - listitem [ref=f5e244]:
+                        - link "" [ref=f5e245] [cursor=pointer]:
+                          - /url: /Membership/Details/51
+                          - generic [ref=f5e246]: 
+                      - listitem [ref=f5e247]:
+                        - link "$" [ref=f5e248] [cursor=pointer]:
+                          - /url: /PricingPlan/Index?membershipId=51
+                          - generic [ref=f5e249]: $
+                      - listitem [ref=f5e250] [cursor=pointer]:
+                        - link "" [ref=f5e251]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e252]: 
+                      - listitem [ref=f5e253] [cursor=pointer]:
+                        - link "" [ref=f5e254]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e255]: 
+                - row "Batch03 (Multiple) ₹0.00 Active  $  " [ref=f5e256]:
+                  - gridcell "Batch03 (Multiple)" [ref=f5e257]
+                  - gridcell "₹0.00" [ref=f5e258]
+                  - gridcell "Active" [ref=f5e259]:
+                    - generic [ref=f5e260]: Active
+                  - gridcell " $  " [ref=f5e261]:
+                    - list [ref=f5e262]:
+                      - listitem [ref=f5e263]:
+                        - link "" [ref=f5e264] [cursor=pointer]:
+                          - /url: /Membership/Details/50
+                          - generic [ref=f5e265]: 
+                      - listitem [ref=f5e266]:
+                        - link "$" [ref=f5e267] [cursor=pointer]:
+                          - /url: /PricingPlan/Index?membershipId=50
+                          - generic [ref=f5e268]: $
+                      - listitem [ref=f5e269] [cursor=pointer]:
+                        - link "" [ref=f5e270]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e271]: 
+                      - listitem [ref=f5e272] [cursor=pointer]:
+                        - link "" [ref=f5e273]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e274]: 
+                - row "Batch0302 (Multiple) ₹0.00 Active  $  " [ref=f5e275]:
+                  - gridcell "Batch0302 (Multiple)" [ref=f5e276]
+                  - gridcell "₹0.00" [ref=f5e277]
+                  - gridcell "Active" [ref=f5e278]:
+                    - generic [ref=f5e279]: Active
+                  - gridcell " $  " [ref=f5e280]:
+                    - list [ref=f5e281]:
+                      - listitem [ref=f5e282]:
+                        - link "" [ref=f5e283] [cursor=pointer]:
+                          - /url: /Membership/Details/57
+                          - generic [ref=f5e284]: 
+                      - listitem [ref=f5e285]:
+                        - link "$" [ref=f5e286] [cursor=pointer]:
+                          - /url: /PricingPlan/Index?membershipId=57
+                          - generic [ref=f5e287]: $
+                      - listitem [ref=f5e288] [cursor=pointer]:
+                        - link "" [ref=f5e289]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e290]: 
+                      - listitem [ref=f5e291] [cursor=pointer]:
+                        - link "" [ref=f5e292]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e293]: 
+                - row "Batch0366 (Multiple) ₹0.00 Active  $  " [ref=f5e294]:
+                  - gridcell "Batch0366 (Multiple)" [ref=f5e295]
+                  - gridcell "₹0.00" [ref=f5e296]
+                  - gridcell "Active" [ref=f5e297]:
+                    - generic [ref=f5e298]: Active
+                  - gridcell " $  " [ref=f5e299]:
+                    - list [ref=f5e300]:
+                      - listitem [ref=f5e301]:
+                        - link "" [ref=f5e302] [cursor=pointer]:
+                          - /url: /Membership/Details/63
+                          - generic [ref=f5e303]: 
+                      - listitem [ref=f5e304]:
+                        - link "$" [ref=f5e305] [cursor=pointer]:
+                          - /url: /PricingPlan/Index?membershipId=63
+                          - generic [ref=f5e306]: $
+                      - listitem [ref=f5e307] [cursor=pointer]:
+                        - link "" [ref=f5e308]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e309]: 
+                      - listitem [ref=f5e310] [cursor=pointer]:
+                        - link "" [ref=f5e311]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e312]: 
+                - row "Christmas (Single) ₹5000.00 Active   " [ref=f5e313]:
+                  - gridcell "Christmas (Single)" [ref=f5e314]
+                  - gridcell "₹5000.00" [ref=f5e315]
+                  - gridcell "Active" [ref=f5e316]:
+                    - generic [ref=f5e317]: Active
+                  - gridcell "  " [ref=f5e318]:
+                    - list [ref=f5e319]:
+                      - listitem [ref=f5e320]:
+                        - link "" [ref=f5e321] [cursor=pointer]:
+                          - /url: /Membership/Details/23
+                          - generic [ref=f5e322]: 
+                      - listitem [ref=f5e323] [cursor=pointer]:
+                        - link "" [ref=f5e324]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e325]: 
+                      - listitem [ref=f5e326] [cursor=pointer]:
+                        - link "" [ref=f5e327]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e328]: 
+                - row "Free (Single) ₹0.00 Active   " [ref=f5e329]:
+                  - gridcell "Free (Single)" [ref=f5e330]
+                  - gridcell "₹0.00" [ref=f5e331]
+                  - gridcell "Active" [ref=f5e332]:
+                    - generic [ref=f5e333]: Active
+                  - gridcell "  " [ref=f5e334]:
+                    - list [ref=f5e335]:
+                      - listitem [ref=f5e336]:
+                        - link "" [ref=f5e337] [cursor=pointer]:
+                          - /url: /Membership/Details/1
+                          - generic [ref=f5e338]: 
+                      - listitem [ref=f5e339] [cursor=pointer]:
+                        - link "" [ref=f5e340]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e341]: 
+                      - listitem [ref=f5e342] [cursor=pointer]:
+                        - link "" [ref=f5e343]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e344]: 
+                - row "Free 2 (Single) ₹0.00 Active   " [ref=f5e345]:
+                  - gridcell "Free 2 (Single)" [ref=f5e346]
+                  - gridcell "₹0.00" [ref=f5e347]
+                  - gridcell "Active" [ref=f5e348]:
+                    - generic [ref=f5e349]: Active
+                  - gridcell "  " [ref=f5e350]:
+                    - list [ref=f5e351]:
+                      - listitem [ref=f5e352]:
+                        - link "" [ref=f5e353] [cursor=pointer]:
+                          - /url: /Membership/Details/62
+                          - generic [ref=f5e354]: 
+                      - listitem [ref=f5e355] [cursor=pointer]:
+                        - link "" [ref=f5e356]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e357]: 
+                      - listitem [ref=f5e358] [cursor=pointer]:
+                        - link "" [ref=f5e359]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e360]: 
+                - row "Free-1 (Multiple) ₹0.00 Active  $  " [ref=f5e361]:
+                  - gridcell "Free-1 (Multiple)" [ref=f5e362]
+                  - gridcell "₹0.00" [ref=f5e363]
+                  - gridcell "Active" [ref=f5e364]:
+                    - generic [ref=f5e365]: Active
+                  - gridcell " $  " [ref=f5e366]:
+                    - list [ref=f5e367]:
+                      - listitem [ref=f5e368]:
+                        - link "" [ref=f5e369] [cursor=pointer]:
+                          - /url: /Membership/Details/61
+                          - generic [ref=f5e370]: 
+                      - listitem [ref=f5e371]:
+                        - link "$" [ref=f5e372] [cursor=pointer]:
+                          - /url: /PricingPlan/Index?membershipId=61
+                          - generic [ref=f5e373]: $
+                      - listitem [ref=f5e374] [cursor=pointer]:
+                        - link "" [ref=f5e375]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e376]: 
+                      - listitem [ref=f5e377] [cursor=pointer]:
+                        - link "" [ref=f5e378]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f5e379]: 
+            - status [ref=f5e380]: Showing 1 to 10 of 44 entries
+            - generic [ref=f5e381]:
+              - generic [ref=f5e382]: Previous
+              - generic [ref=f5e383]:
+                - generic [ref=f5e384] [cursor=pointer]: "1"
+                - generic [ref=f5e385] [cursor=pointer]: "2"
+                - generic [ref=f5e386] [cursor=pointer]: "3"
+                - generic [ref=f5e387] [cursor=pointer]: "4"
+                - generic [ref=f5e388] [cursor=pointer]: "5"
+              - generic [ref=f5e389] [cursor=pointer]: Next
+      - contentinfo [ref=f5e390]:
+        - paragraph [ref=f5e394]:
+          - text: Copyright
+          - generic [ref=f5e395]: "2026"
+          - text: © Jeshwar Teaching
+  - img

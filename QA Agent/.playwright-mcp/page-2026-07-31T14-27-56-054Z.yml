@@ -1,0 +1,212 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e7]:
+    - generic [ref=f5e8]:
+      - generic [ref=f5e9]:
+        - heading "Course" [level=4] [ref=f5e10]
+        - navigation [ref=f5e11]:
+          - list [ref=f5e12]:
+            - listitem [ref=f5e13]:
+              - link [ref=f5e14] [cursor=pointer]:
+                - /url: /Master/Course
+                - img [ref=f5e15]
+            - listitem [ref=f5e18]: / Courses
+      - generic [ref=f5e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f5e22]:
+          - listitem [ref=f5e23]:
+            - generic [ref=f5e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f5e26]:
+      - generic [ref=f5e28]:
+        - text: 
+        - link [ref=f5e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f5e31]:
+          - list [ref=f5e33]:
+            - generic [ref=f5e38]:
+              - text: 
+              - listitem [ref=f5e39]:
+                - link [ref=f5e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f5e41]
+                  - text: 
+              - listitem [ref=f5e43]:
+                - link [ref=f5e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e45]
+                  - text: 
+              - listitem [ref=f5e47]:
+                - link [ref=f5e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e49]
+                  - text: 
+              - listitem [ref=f5e51]:
+                - link [ref=f5e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e53]
+                  - text: 
+              - listitem [ref=f5e55]:
+                - link [ref=f5e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e57]
+                  - text: 
+              - listitem [ref=f5e59]:
+                - link [ref=f5e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e61]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f5e63]:
+                - link "" [ref=f5e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f5e65]: 
+                  - text: 
+              - listitem [ref=f5e66]:
+                - link [ref=f5e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e68]
+                  - text: 
+              - listitem [ref=f5e70]:
+                - link [ref=f5e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e72]
+                  - text: 
+              - listitem [ref=f5e74]:
+                - link [ref=f5e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e76]
+                  - text: 
+              - listitem [ref=f5e78]:
+                - link [ref=f5e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e80]
+                  - text: 
+              - listitem [ref=f5e82]:
+                - link [ref=f5e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e84]
+                  - text: 
+              - listitem [ref=f5e86]:
+                - link [ref=f5e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e88]
+                  - text: 
+              - listitem [ref=f5e90]:
+                - link "general icon" [ref=f5e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f5e92]
+                  - text: 
+              - listitem [ref=f5e93]:
+                - link [ref=f5e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f5e95]
+                  - text: 
+              - listitem [ref=f5e97]:
+                - link [ref=f5e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f5e99]
+                  - text: 
+              - listitem [ref=f5e101]:
+                - link "product icon" [ref=f5e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f5e103]
+                  - text: 
+              - listitem [ref=f5e104]:
+                - link [ref=f5e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e106]
+                  - text: 
+              - listitem [ref=f5e108]:
+                - link [ref=f5e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e110]
+                  - text: 
+              - listitem [ref=f5e112]:
+                - link [ref=f5e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f5e114]
+                  - text: 
+              - listitem [ref=f5e116]:
+                - link [ref=f5e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e118]
+                  - text: 
+              - listitem [ref=f5e120]:
+                - link [ref=f5e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e122]
+                  - text: 
+              - listitem [ref=f5e124]:
+                - link [ref=f5e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f5e126]
+              - listitem [ref=f5e128]:
+                - link [ref=f5e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f5e130]
+                  - text: 
+              - listitem [ref=f5e132]:
+                - link "notify-ico" [ref=f5e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f5e134]
+                  - text: 
+              - listitem [ref=f5e135]:
+                - link "notify-ico" [ref=f5e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f5e137]
+                  - text: 
+      - main [ref=f5e139]:
+        - generic [ref=f5e141]:
+          - generic [ref=f5e142]:
+            - heading "Course Management" [level=4] [ref=f5e143]
+            - link " Add Course" [ref=f5e144] [cursor=pointer]:
+              - /url: /Master/Create
+              - generic [ref=f5e145]: 
+              - text: Add Course
+          - generic [ref=f5e148]:
+            - generic [ref=f5e149]:
+              - generic [ref=f5e152]:
+                - text: Show
+                - combobox "Show courses per page" [ref=f5e153] [cursor=pointer]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: courses per page
+              - generic [ref=f5e156]:
+                - text: "Search courses:"
+                - searchbox "Search courses:" [ref=f5e157] [cursor=pointer]
+            - grid [ref=f5e158]:
+              - rowgroup [ref=f5e159]:
+                - 'row "Course Code: activate to sort column ascending Title: activate to sort column ascending Duration (Hours): activate to sort column ascending Status: activate to sort column ascending Membership: activate to sort column ascending Start Date: activate to sort column ascending End Date: activate to sort column ascending Actions: activate to sort column ascending" [ref=f5e160]':
+                  - 'columnheader "Course Code: activate to sort column ascending" [ref=f5e161] [cursor=pointer]': ↑ Course Code 
+                  - 'columnheader "Title: activate to sort column ascending" [ref=f5e162] [cursor=pointer]': ↑ Title 
+                  - 'columnheader "Duration (Hours): activate to sort column ascending" [ref=f5e163] [cursor=pointer]': ↑ Duration (Hours) 
+                  - 'columnheader "Status: activate to sort column ascending" [ref=f5e164] [cursor=pointer]': ↑ Status 
+                  - 'columnheader "Membership: activate to sort column ascending" [ref=f5e165] [cursor=pointer]': ↑ Membership 
+                  - 'columnheader "Start Date: activate to sort column ascending" [ref=f5e166] [cursor=pointer]': ↑ Start Date 
+                  - 'columnheader "End Date: activate to sort column ascending" [ref=f5e167] [cursor=pointer]': ↑ End Date 
+                  - 'columnheader "Actions: activate to sort column ascending" [ref=f5e168]': Actions
+              - rowgroup
+            - generic [ref=f5e170]:
+              - status
+      - contentinfo [ref=f5e173]:
+        - paragraph [ref=f5e177]:
+          - text: Copyright
+          - generic [ref=f5e178]: "2026"
+          - text: © Jeshwar Teaching
+  - img

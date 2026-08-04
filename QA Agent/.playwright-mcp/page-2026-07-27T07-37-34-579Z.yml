@@ -1,0 +1,159 @@
+- generic [ref=f12e2]:
+  - generic [ref=f12e3]:
+    - generic [ref=f12e5]:
+      - generic [ref=f12e6]:
+        - link "Logo" [ref=f12e7] [cursor=pointer]:
+          - /url: /Dashboard/Index
+          - img "Logo" [ref=f12e8]
+        - text: 
+      - list [ref=f12e9]:
+        - listitem [ref=f12e10]:
+          - link " Dashboard" [ref=f12e11] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - generic [ref=f12e12]: 
+            - text: Dashboard
+        - listitem [ref=f12e13]:
+          - link " Batches" [ref=f12e14] [cursor=pointer]:
+            - /url: /Batches/Index
+            - generic [ref=f12e15]: 
+            - text: Batches
+        - listitem [ref=f12e16]:
+          - link " My Courses" [ref=f12e17] [cursor=pointer]:
+            - /url: /Course/Index
+            - generic [ref=f12e18]: 
+            - text: My Courses
+        - listitem [ref=f12e19]:
+          - link " eBooks" [ref=f12e20] [cursor=pointer]:
+            - /url: /Ebook/Index
+            - generic [ref=f12e21]: 
+            - text: eBooks
+        - listitem [ref=f12e22]:
+          - link " Wishlist" [ref=f12e23] [cursor=pointer]:
+            - /url: /Wishlist/Index
+            - generic [ref=f12e24]: 
+            - text: Wishlist
+        - listitem [ref=f12e25]:
+          - link " Audiobook" [ref=f12e26] [cursor=pointer]:
+            - /url: /Podcast/Index
+            - generic [ref=f12e27]: 
+            - text: Audiobook
+        - listitem [ref=f12e28]:
+          - link " Resources" [ref=f12e29] [cursor=pointer]:
+            - /url: /Resources/Index
+            - generic [ref=f12e30]: 
+            - text: Resources
+        - listitem [ref=f12e31]:
+          - link " Current Affairs" [ref=f12e32] [cursor=pointer]:
+            - /url: /CurrentAffairs/Index
+            - generic [ref=f12e33]: 
+            - text: Current Affairs
+        - listitem [ref=f12e34]:
+          - link " Test" [ref=f12e35] [cursor=pointer]:
+            - /url: /Assessment/Batches
+            - generic [ref=f12e36]: 
+            - text: Test
+        - listitem [ref=f12e37]:
+          - link " Settings" [ref=f12e38] [cursor=pointer]:
+            - /url: /Settings/Index
+            - generic [ref=f12e39]: 
+            - text: Settings
+        - listitem [ref=f12e40]:
+          - link " Call Reminders" [ref=f12e41] [cursor=pointer]:
+            - /url: /CallReminder/Index
+            - generic [ref=f12e42]: 
+            - text: Call Reminders
+        - listitem [ref=f12e43]:
+          - link " Leaderboard" [ref=f12e44] [cursor=pointer]:
+            - /url: /Leaderboard/Index
+            - generic [ref=f12e45]: 
+            - text: Leaderboard
+        - listitem [ref=f12e46]:
+          - button " APL " [ref=f12e47] [cursor=pointer]:
+            - generic [ref=f12e48]:
+              - generic [ref=f12e49]: 
+              - text: APL
+            - generic [ref=f12e50]: 
+          - text:    
+        - listitem [ref=f12e51]:
+          - link " Notification" [ref=f12e52] [cursor=pointer]:
+            - /url: /Notification/Notifications
+            - generic [ref=f12e53]: 
+            - text: Notification
+        - listitem [ref=f12e54]:
+          - button " Logout" [ref=f12e56] [cursor=pointer]:
+            - generic [ref=f12e57]: 
+            - text: Logout
+    - generic [ref=f12e59]:
+      - banner [ref=f12e60]:
+        - text: 
+        - generic [ref=f12e61]:
+          - generic [ref=f12e62]:
+            - generic [ref=f12e63]: 
+            - textbox "Search Course" [ref=f12e64]
+            - text: 
+          - link "" [ref=f12e66] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f12e68]: 
+          - link "Profile qapromotester270726" [ref=f12e70] [cursor=pointer]:
+            - /url: "#"
+            - img "Profile" [ref=f12e71]
+            - generic [ref=f12e72]: qapromotester270726
+      - generic [ref=f12e78]:
+        - generic [ref=f12e79]:
+          - img "NEET Exam Preparation" [ref=f12e80]
+          - generic [ref=f12e82]:
+            - heading "NEET Exam Preparation" [level=5] [ref=f12e83]
+            - generic [ref=f12e84]:
+              - generic [ref=f12e85] [cursor=pointer]: JTPhase3-03-1
+              - generic [ref=f12e86] [cursor=pointer]: 20 Hours
+              - generic [ref=f12e87] [cursor=pointer]: July membership- single
+            - generic [ref=f12e88]:
+              - generic [ref=f12e89]:
+                - text: ₹6999.00 INR
+                - generic [ref=f12e90]: GST 10% (Inclusive)
+              - button "Alternate Text Join Now" [ref=f12e92] [cursor=pointer]:
+                - img "Alternate Text" [ref=f12e93]
+                - text: Join Now
+        - generic [ref=f12e95]:
+          - heading "Course Overview" [level=4] [ref=f12e96]
+          - paragraph [ref=f12e98]:
+            - text: JP3P-8 Purchase Report – Incorrect GST Amount Highest QA Hashwath
+            - text: JP3P-97 Manual Purchase – GST Inclusive Calculation Wrong Highest QA Allwin
+            - text: JP3P-100 Pending Orders – Subtotal Missing GST/Discount High QA Hashwath
+            - text: JP3P-103 JT Frontend (Membership) – Exclusive GST Not Showing High Closed Hashwath
+            - text: JP3P-123 Frontend – Course Purchase GST Card Design Issue Medium QA Allwin
+            - text: JP3P-129 Web – GST Calculated Before Promo Discount Applied High QA Hashwath
+            - text: JP3P-130 Mobile – GST Calculated Before Promo Discount Applied High To Do Maharaj
+            - text: JP3P-132 Course GST – Inconsistent Decimal Formatting Medium QA Hashwath
+            - text: JP3P-133 Frontend – Show GST Only for Exclusive Tax Medium Closed Hashwath
+            - text: JP3P-134 Mobile – GST Inclusive Amount Not Displayed on Checkout High To Do Maharaj
+            - text: JP3P-141 Remove Exclusive GST Concept Entirely from Course Purchase High QA Hashwath
+          - generic [ref=f12e99]:
+            - heading "Course Duration:" [level=6] [ref=f12e100]
+            - paragraph [ref=f12e101]:
+              - generic [ref=f12e102]: 
+              - text: Jul 23, 2026 – Jul 30, 2026
+            - paragraph [ref=f12e103]:
+              - generic [ref=f12e104]: 
+              - text: 20 hours of content
+        - generic [ref=f12e107]:
+          - generic [ref=f12e109]: Courses Covered
+          - generic [ref=f12e111]:
+            - generic [ref=f12e112]: 
+            - generic [ref=f12e113]: No Units available
+            - generic [ref=f12e114]: Course content will be added soon.
+  - generic "Ask a doubt" [ref=f12e115]:
+    - generic [ref=f12e116]: 
+  - text:      
+  - contentinfo [ref=f12e117]:
+    - generic [ref=f12e118]:
+      - paragraph [ref=f12e120]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+      - generic [ref=f12e121]:
+        - link "About Us" [ref=f12e122] [cursor=pointer]:
+          - /url: /Content/AboutUs
+        - link "Privacy Policy" [ref=f12e123] [cursor=pointer]:
+          - /url: /Content/PrivacyPolicy
+        - link "Terms & Conditions" [ref=f12e124] [cursor=pointer]:
+          - /url: /Content/TermsCondition
+        - link "Refund Policy" [ref=f12e125] [cursor=pointer]:
+          - /url: /Content/RefundPolicy

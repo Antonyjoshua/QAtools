@@ -1,0 +1,11 @@
+[     249ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:446:13
+    at https://jt-admin.scopethinkers.com/mofi/assets/js/sidebar-menu.js:451:3
+[     844ms] [LOG] Current Path: /admin/books/manualpurchase/create @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Create:1179
+[     848ms] [LOG] Matched: /admin/books/manualpurchase/create {menu: Manual Purchase, submenu: null} @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Create:1394
+[     849ms] [LOG] Activating menu: Manual Purchase Submenu: null @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Create:1406
+[     856ms] [LOG] Found menu: Manual Purchase @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Create:1415
+[   66632ms] [LOG] Current Path: /admin/books/manualpurchase/index @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Index:855
+[   66633ms] [LOG] Matched: /admin/books/manualpurchase/index {menu: Manual Purchase, submenu: null} @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Index:1070
+[   66633ms] [LOG] Activating menu: Manual Purchase Submenu: null @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Index:1082
+[   66634ms] [LOG] Found menu: Manual Purchase @ https://jt-admin.scopethinkers.com/Admin/Books/ManualPurchase/Index:1091

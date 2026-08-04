@@ -1,0 +1,22 @@
+{
+  "name": "jeshwar-teaching-playwright",
+  "version": "1.0.0",
+  "description": "Playwright automation for Jeshwar Teaching platform",
+  "scripts": {
+    "test":            "playwright test",
+    "test:smoke":      "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:login":      "playwright test tests/login.spec.ts",
+    "test:signup":     "playwright test tests/signup.spec.ts",
+    "test:headed":     "playwright test --headed",
+    "test:debug":      "playwright test --debug",
+    "report":          "playwright show-report"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.0",
+    "dotenv": "^17.4.2",
+    "typescript": "^6.0.3"
+  }
+}

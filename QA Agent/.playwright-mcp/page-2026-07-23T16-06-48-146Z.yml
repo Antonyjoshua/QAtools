@@ -1,0 +1,386 @@
+- generic [ref=f9e1]:
+  - img [ref=f9e521] [cursor=pointer]
+  - generic [ref=f9e7]:
+    - generic [ref=f9e8]:
+      - generic [ref=f9e9]:
+        - heading [level=4] [ref=f9e649]: Product
+        - navigation [ref=f9e11]:
+          - list [ref=f9e12]:
+            - listitem [ref=f9e13]:
+              - link [ref=f9e14] [cursor=pointer]:
+                - /url: /Product/Products
+                - img [ref=f9e15]
+            - listitem [ref=f9e18]: / Products
+      - generic [ref=f9e20]:
+        - text: 
+        - list [ref=f9e22]:
+          - text: 
+          - listitem [ref=f9e23] [cursor=pointer]:
+            - generic [ref=f9e25]:
+              - generic [ref=f9e26]: superadmin@gmail.com
+              - paragraph [ref=f9e27]:
+                - text: SuperAdmin
+                - generic [ref=f9e28]: 
+    - generic [ref=f9e29]:
+      - generic [ref=f9e31]:
+        - generic [ref=f9e32]:
+          - link [ref=f9e33] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f9e35] [cursor=pointer]
+        - navigation [ref=f9e37]:
+          - list [ref=f9e39]:
+            - generic [ref=f9e44]:
+              - text: 
+              - listitem [ref=f9e45]:
+                - heading [level=6] [ref=f9e650]: Applications
+              - listitem [ref=f9e48]:
+                - link [ref=f9e651] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f9e50]
+                  - generic [ref=f9e52]: Dashboard
+                  - text: 
+              - listitem [ref=f9e53]:
+                - link [ref=f9e652] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e55]
+                  - generic [ref=f9e57]: Enrollment
+                  - generic [ref=f9e59]: 
+              - listitem [ref=f9e60]:
+                - link [ref=f9e653] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e62]
+                  - generic [ref=f9e64]: Website Settings
+                  - generic [ref=f9e66]: 
+              - listitem [ref=f9e67]:
+                - link [ref=f9e654] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e69]
+                  - generic [ref=f9e71]: Membership
+                  - generic [ref=f9e73]: 
+              - listitem [ref=f9e74]:
+                - link [ref=f9e655] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e76]
+                  - generic [ref=f9e78]: IVR
+                  - generic [ref=f9e80]: 
+              - listitem [ref=f9e81]:
+                - link [ref=f9e656] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e83]
+                  - generic [ref=f9e85]: Course
+                  - generic [ref=f9e87]: 
+              - listitem [ref=f9e88]:
+                - link [ref=f9e657] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f9e90]: 
+                  - generic [ref=f9e91]: Self Host
+                  - generic [ref=f9e93]: 
+              - listitem [ref=f9e94]:
+                - link [ref=f9e658] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e96]
+                  - generic [ref=f9e98]: Assessment
+                  - generic [ref=f9e100]: 
+              - listitem [ref=f9e101]:
+                - link [ref=f9e659] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e103]
+                  - generic [ref=f9e105]: Student Activity
+                  - generic [ref=f9e107]: 
+              - listitem [ref=f9e108]:
+                - link [ref=f9e660] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e110]
+                  - generic [ref=f9e112]: APL
+                  - generic [ref=f9e114]: 
+              - listitem [ref=f9e115]:
+                - link [ref=f9e661] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e117]
+                  - generic [ref=f9e119]: Email Draft
+                  - generic [ref=f9e121]: 
+              - listitem [ref=f9e122]:
+                - link [ref=f9e662] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e124]
+                  - generic [ref=f9e126]: Admin
+                  - generic [ref=f9e128]: 
+              - listitem [ref=f9e129]:
+                - link [ref=f9e663] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e131]
+                  - generic [ref=f9e133]: GST Report
+                  - generic [ref=f9e135]: 
+              - listitem [ref=f9e136]:
+                - link [ref=f9e664] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e665]
+                  - generic [ref=f9e139]: General
+                  - generic [ref=f9e141]: 
+              - listitem [ref=f9e142]:
+                - link [ref=f9e666] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f9e144]
+                  - generic [ref=f9e146]: Leaderboard
+                  - text: 
+              - listitem [ref=f9e147]:
+                - heading [level=6] [ref=f9e667]: E-Commerce
+              - listitem [ref=f9e150]:
+                - link [ref=f9e668] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f9e152]
+                  - generic [ref=f9e154]: Dashboard
+                  - text: 
+              - listitem [ref=f9e155]:
+                - link [ref=f9e669] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e670]
+                  - generic [ref=f9e158]: Product
+                  - generic [ref=f9e160]: 
+              - listitem [ref=f9e161]:
+                - link [ref=f9e671] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e163]
+                  - generic [ref=f9e165]: Ebooks
+                  - generic [ref=f9e167]: 
+              - listitem [ref=f9e168]:
+                - link [ref=f9e672] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e170]
+                  - generic [ref=f9e172]: Order
+                  - generic [ref=f9e174]: 
+              - listitem [ref=f9e175]:
+                - link [ref=f9e673] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f9e177]
+                  - generic [ref=f9e179]: Customer
+                  - text: 
+              - listitem [ref=f9e180]:
+                - link [ref=f9e674] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e182]
+                  - generic [ref=f9e184]: Dashboards
+                  - generic [ref=f9e186]: 
+              - listitem [ref=f9e187]:
+                - link [ref=f9e675] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e189]
+                  - generic [ref=f9e191]: Reports
+                  - generic [ref=f9e193]: 
+              - listitem [ref=f9e194]:
+                - link [ref=f9e676] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f9e196]
+                  - generic [ref=f9e198]: Manual Purchase
+              - listitem [ref=f9e199]:
+                - heading [level=6] [ref=f9e677]: Payments
+              - listitem [ref=f9e202]:
+                - link [ref=f9e678] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e204]
+                  - generic [ref=f9e206]: Transactions
+                  - generic [ref=f9e208]: 
+              - listitem [ref=f9e209]:
+                - heading [level=6] [ref=f9e679]: Notifcations
+              - listitem [ref=f9e212]:
+                - link [ref=f9e680] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e681]
+                  - generic [ref=f9e215]: Notifications
+                  - generic [ref=f9e217]: 
+              - listitem [ref=f9e218]:
+                - heading [level=6] [ref=f9e682]: Job Management
+              - listitem [ref=f9e221]:
+                - link [ref=f9e683] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e684]
+                  - generic [ref=f9e224]: Jobs
+                  - generic [ref=f9e226]: 
+      - main [ref=f9e228]:
+        - generic [ref=f9e234]:
+          - heading [level=4] [ref=f9e685]: Add Product
+          - generic [ref=f9e238]:
+            - tablist [ref=f9e240]:
+              - tab [selected] [ref=f9e686] [cursor=pointer]:
+                - img [ref=f9e244]
+                - generic [ref=f9e246]:
+                  - heading [level=5] [ref=f9e687]: Basic Information
+                  - paragraph [ref=f9e248]: Title, Author, ISBN and details
+              - tab [ref=f9e688] [cursor=pointer]:
+                - img [ref=f9e252]
+                - generic [ref=f9e254]:
+                  - heading [level=5] [ref=f9e689]: Pricing
+                  - paragraph [ref=f9e256]: Price, GST and Quantity
+              - tab [ref=f9e690] [cursor=pointer]:
+                - img [ref=f9e260]
+                - generic [ref=f9e262]:
+                  - heading [level=5] [ref=f9e691]: File Upload
+                  - paragraph [ref=f9e264]: Upload digital file if applicable
+            - tabpanel [ref=f9e692]:
+              - generic [ref=f9e268]:
+                - generic [ref=f9e269]:
+                  - generic [ref=f9e270]:
+                    - generic [ref=f9e271]:
+                      - text: Title
+                      - generic [ref=f9e272]: "*"
+                    - textbox [ref=f9e693] [cursor=pointer]: QA Combo Test Empty
+                  - generic [ref=f9e274]:
+                    - generic [ref=f9e275]:
+                      - text: Product Type
+                      - generic [ref=f9e276]: "*"
+                    - combobox [ref=f9e694] [cursor=pointer]
+                  - generic [ref=f9e278]:
+                    - generic [ref=f9e279]: Author
+                    - textbox [ref=f9e695] [cursor=pointer]
+                  - generic [ref=f9e281]:
+                    - generic [ref=f9e282]: ISBN
+                    - textbox [ref=f9e696] [cursor=pointer]
+                  - generic [ref=f9e284]:
+                    - generic [ref=f9e285]: Publisher
+                    - textbox [ref=f9e697] [cursor=pointer]
+                  - generic [ref=f9e287]:
+                    - generic [ref=f9e288]: Published Date
+                    - textbox [ref=f9e698] [cursor=pointer]
+                  - generic [ref=f9e290]:
+                    - generic [ref=f9e291]: Edition
+                    - textbox [ref=f9e699] [cursor=pointer]
+                  - generic [ref=f9e293]:
+                    - generic [ref=f9e294]: Language
+                    - combobox [ref=f9e700] [cursor=pointer]
+                  - generic [ref=f9e296]:
+                    - generic [ref=f9e297]:
+                      - text: Description
+                      - generic [ref=f9e298]: "*"
+                    - application [ref=f9e310]:
+                      - generic [ref=f9e311]:
+                        - group [ref=f9e313]:
+                          - group [ref=f9e314]:
+                            - toolbar [ref=f9e315]:
+                              - button [ref=f9e701] [cursor=pointer]:
+                                - img [ref=f9e318]
+                              - button [disabled] [ref=f9e702]:
+                                - img [ref=f9e322]
+                            - toolbar [ref=f9e324]:
+                              - button [ref=f9e703] [cursor=pointer]:
+                                - img [ref=f9e327]
+                              - button [ref=f9e704] [cursor=pointer]:
+                                - img [ref=f9e331]
+                              - button [ref=f9e705]:
+                                - img [ref=f9e335]
+                                - img [ref=f9e339]
+                              - button [ref=f9e706]:
+                                - img [ref=f9e343]
+                                - img [ref=f9e347]
+                            - toolbar [ref=f9e349]:
+                              - button [ref=f9e707] [cursor=pointer]:
+                                - img [ref=f9e352]
+                              - button [ref=f9e708] [cursor=pointer]:
+                                - img [ref=f9e356]
+                              - button [ref=f9e709] [cursor=pointer]:
+                                - img [ref=f9e360]
+                              - button [ref=f9e710] [cursor=pointer]:
+                                - img [ref=f9e364]
+                            - toolbar [ref=f9e366]:
+                              - button [ref=f9e711]:
+                                - img [ref=f9e369]
+                                - img [ref=f9e371]
+                              - button [ref=f9e712]:
+                                - img [ref=f9e375]
+                                - img [ref=f9e377]
+                              - button [disabled] [ref=f9e713]:
+                                - img [ref=f9e381]
+                              - button [ref=f9e714] [cursor=pointer]:
+                                - img [ref=f9e385]
+                            - toolbar [ref=f9e387]:
+                              - button [ref=f9e715] [cursor=pointer]:
+                                - img [ref=f9e390]
+                            - toolbar [ref=f9e392]:
+                              - button [ref=f9e716] [cursor=pointer]:
+                                - img [ref=f9e395]
+                            - toolbar [ref=f9e398]:
+                              - button [ref=f9e717] [cursor=pointer]:
+                                - img [ref=f9e401]
+                        - iframe [ref=f9e408]:
+                          - generic "Rich Text Area. Press ALT-0 for help." [active] [ref=f10e1]:
+                            - paragraph [ref=f10e2]: QA test description for combo empty-products validation.
+                      - generic [ref=f9e409]:
+                        - generic [ref=f9e410]:
+                          - navigation [ref=f9e411]:
+                            - button [ref=f9e718]: p
+                          - link [ref=f9e719]:
+                            - /url: https://www.tiny.cloud/powered-by-tiny?utm_campaign=poweredby&utm_source=tiny&utm_medium=referral&utm_content=v7
+                            - text: Build with
+                            - img [ref=f9e416]
+                        - img [ref=f9e423]
+                  - generic [ref=f9e427]:
+                    - generic [ref=f9e428]:
+                      - generic [ref=f9e429]: Combo Products
+                      - button [ref=f9e721] [cursor=pointer]:
+                        - generic [ref=f9e431]: 
+                        - text: Add Product
+                    - generic [ref=f9e433]:
+                      - generic [ref=f9e598]:
+                        - generic [ref=f9e599]:
+                          - generic [ref=f9e600]: Combo Product
+                          - combobox [ref=f9e601] [cursor=pointer]
+                        - generic [ref=f9e602]:
+                          - generic [ref=f9e603]: Stock Status
+                          - generic [ref=f9e604]: 21 Available
+                        - generic [ref=f9e605]:
+                          - generic [ref=f9e606]: Qty per combo
+                          - generic [ref=f9e607]:
+                            - button [ref=f9e722] [cursor=pointer]:
+                              - generic [ref=f9e609]: 
+                            - spinbutton [ref=f9e610] [cursor=pointer]: "1"
+                            - button [ref=f9e723] [cursor=pointer]:
+                              - generic [ref=f9e612]: 
+                        - generic [ref=f9e613]:
+                          - generic [ref=f9e614]: Actions
+                          - generic [ref=f9e615]:
+                            - generic [ref=f9e616]:
+                              - button [ref=f9e724] [cursor=pointer]:
+                                - generic [ref=f9e618]: 
+                              - button [ref=f9e725] [cursor=pointer]:
+                                - generic [ref=f9e620]: 
+                            - button [ref=f9e726] [cursor=pointer]:
+                              - generic [ref=f9e622]: 
+                      - generic [ref=f9e624]:
+                        - generic [ref=f9e625]:
+                          - generic [ref=f9e626]: Combo Product
+                          - combobox [ref=f9e627] [cursor=pointer]
+                        - generic [ref=f9e628]:
+                          - generic [ref=f9e629]: Stock Status
+                          - generic [ref=f9e630]: Out of Stock
+                        - generic [ref=f9e631]:
+                          - generic [ref=f9e632]: Qty per combo
+                          - generic [ref=f9e633]:
+                            - button [ref=f9e727] [cursor=pointer]:
+                              - generic [ref=f9e635]: 
+                            - spinbutton [ref=f9e636] [cursor=pointer]: "1"
+                            - button [ref=f9e728] [cursor=pointer]:
+                              - generic [ref=f9e638]: 
+                        - generic [ref=f9e639]:
+                          - generic [ref=f9e640]: Actions
+                          - generic [ref=f9e641]:
+                            - generic [ref=f9e642]:
+                              - button [ref=f9e729] [cursor=pointer]:
+                                - generic [ref=f9e644]: 
+                              - button [ref=f9e730] [cursor=pointer]:
+                                - generic [ref=f9e646]: 
+                            - button [ref=f9e731] [cursor=pointer]:
+                              - generic [ref=f9e648]: 
+                - generic [ref=f9e301] [cursor=pointer]:
+                  - text: Next
+                  - img [ref=f9e302]
+      - contentinfo [ref=f9e304]:
+        - paragraph [ref=f9e308]:
+          - text: Copyright
+          - generic [ref=f9e309]: "2026"
+          - text: © Jeshwar Teaching
+  - dialog "Combo Product" [ref=f9e733]:
+    - generic [ref=f9e735]: "!"
+    - heading "Combo Product" [level=2] [ref=f9e736]
+    - generic [ref=f9e737]: Please select a product for each combo component before proceeding.
+    - text: "!"
+    - button "OK" [active] [ref=f9e739] [cursor=pointer]

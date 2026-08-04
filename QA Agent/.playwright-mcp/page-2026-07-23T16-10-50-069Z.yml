@@ -1,0 +1,287 @@
+- generic [ref=f18e1]:
+  - generic [ref=f18e7]:
+    - generic [ref=f18e8]:
+      - generic [ref=f18e9]:
+        - heading "Dashboard" [level=4] [ref=f18e10]
+        - navigation [ref=f18e11]:
+          - list [ref=f18e12]:
+            - listitem [ref=f18e13]:
+              - link [ref=f18e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f18e15]
+            - listitem [ref=f18e18]: / Index
+      - generic [ref=f18e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f18e22]:
+          - text: 
+          - listitem [ref=f18e23] [cursor=pointer]:
+            - generic [ref=f18e25]:
+              - generic [ref=f18e26]: superadmin@gmail.com
+              - paragraph [ref=f18e27]:
+                - text: SuperAdmin
+                - generic [ref=f18e28]: 
+    - generic [ref=f18e29]:
+      - generic [ref=f18e31]:
+        - generic [ref=f18e32]:
+          - link [ref=f18e33] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f18e35] [cursor=pointer]
+        - navigation [ref=f18e37]:
+          - list [ref=f18e39]:
+            - generic [ref=f18e44]:
+              - text: 
+              - listitem [ref=f18e45]:
+                - heading "Applications" [level=6] [ref=f18e47]
+              - listitem [ref=f18e48]:
+                - link "Dashboard" [ref=f18e49] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f18e50]
+                  - generic [ref=f18e52]: Dashboard
+                  - text: 
+              - listitem [ref=f18e53]:
+                - link "Enrollment " [ref=f18e54] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e55]
+                  - generic [ref=f18e57]: Enrollment
+                  - generic [ref=f18e59]: 
+              - listitem [ref=f18e60]:
+                - link "Website Settings " [ref=f18e61] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e62]
+                  - generic [ref=f18e64]: Website Settings
+                  - generic [ref=f18e66]: 
+              - listitem [ref=f18e67]:
+                - link "Membership " [ref=f18e68] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e69]
+                  - generic [ref=f18e71]: Membership
+                  - generic [ref=f18e73]: 
+              - listitem [ref=f18e74]:
+                - link "IVR " [ref=f18e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e76]
+                  - generic [ref=f18e78]: IVR
+                  - generic [ref=f18e80]: 
+              - listitem [ref=f18e81]:
+                - link "Course " [ref=f18e82] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e83]
+                  - generic [ref=f18e85]: Course
+                  - generic [ref=f18e87]: 
+              - listitem [ref=f18e88]:
+                - link " Self Host " [ref=f18e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f18e90]: 
+                  - generic [ref=f18e91]: Self Host
+                  - generic [ref=f18e93]: 
+              - listitem [ref=f18e94]:
+                - link "Assessment " [ref=f18e95] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e96]
+                  - generic [ref=f18e98]: Assessment
+                  - generic [ref=f18e100]: 
+              - listitem [ref=f18e101]:
+                - link "Student Activity " [ref=f18e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e103]
+                  - generic [ref=f18e105]: Student Activity
+                  - generic [ref=f18e107]: 
+              - listitem [ref=f18e108]:
+                - link "APL " [ref=f18e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e110]
+                  - generic [ref=f18e112]: APL
+                  - generic [ref=f18e114]: 
+              - listitem [ref=f18e115]:
+                - link "Email Draft " [ref=f18e116] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e117]
+                  - generic [ref=f18e119]: Email Draft
+                  - generic [ref=f18e121]: 
+              - listitem [ref=f18e122]:
+                - link "Admin " [ref=f18e123] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e124]
+                  - generic [ref=f18e126]: Admin
+                  - generic [ref=f18e128]: 
+              - listitem [ref=f18e129]:
+                - link "GST Report " [ref=f18e130] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e131]
+                  - generic [ref=f18e133]: GST Report
+                  - generic [ref=f18e135]: 
+              - listitem [ref=f18e136]:
+                - link "general icon General " [ref=f18e137] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f18e138]
+                  - generic [ref=f18e139]: General
+                  - generic [ref=f18e141]: 
+              - listitem [ref=f18e142]:
+                - link "Leaderboard" [ref=f18e143] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f18e144]
+                  - generic [ref=f18e146]: Leaderboard
+                  - text: 
+              - listitem [ref=f18e147]:
+                - heading "E-Commerce" [level=6] [ref=f18e149]
+              - listitem [ref=f18e150]:
+                - link "Dashboard" [ref=f18e151] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f18e152]
+                  - generic [ref=f18e154]: Dashboard
+                  - text: 
+              - listitem [ref=f18e155]:
+                - link "product icon Product " [ref=f18e156] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f18e157]
+                  - generic [ref=f18e158]: Product
+                  - generic [ref=f18e160]: 
+              - listitem [ref=f18e161]:
+                - link "Ebooks " [ref=f18e162] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e163]
+                  - generic [ref=f18e165]: Ebooks
+                  - generic [ref=f18e167]: 
+              - listitem [ref=f18e168]:
+                - link "Order " [ref=f18e169] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e170]
+                  - generic [ref=f18e172]: Order
+                  - generic [ref=f18e174]: 
+              - listitem [ref=f18e175]:
+                - link "Customer" [ref=f18e176] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f18e177]
+                  - generic [ref=f18e179]: Customer
+                  - text: 
+              - listitem [ref=f18e180]:
+                - link "Dashboards " [ref=f18e181] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e182]
+                  - generic [ref=f18e184]: Dashboards
+                  - generic [ref=f18e186]: 
+              - listitem [ref=f18e187]:
+                - link "Reports " [ref=f18e188] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e189]
+                  - generic [ref=f18e191]: Reports
+                  - generic [ref=f18e193]: 
+                - list [ref=f18e194]:
+                  - listitem [ref=f18e195]:
+                    - link "Purchase Report" [ref=f18e196] [cursor=pointer]:
+                      - /url: /Admin/Books/Reports/Purchase
+                  - listitem [ref=f18e197]:
+                    - link "Sales Report" [ref=f18e198] [cursor=pointer]:
+                      - /url: /Admin/Books/Reports/Sales
+                  - listitem [ref=f18e199]:
+                    - link "Inventory Report" [ref=f18e200] [cursor=pointer]:
+                      - /url: /Admin/Books/Reports/Inventory
+                  - listitem [ref=f18e201]:
+                    - link "Combo Report" [ref=f18e202] [cursor=pointer]:
+                      - /url: /Admin/Books/Reports/Combo
+              - listitem [ref=f18e203]:
+                - link "Manual Purchase" [ref=f18e204] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f18e205]
+                  - generic [ref=f18e207]: Manual Purchase
+              - listitem [ref=f18e208]:
+                - heading "Payments" [level=6] [ref=f18e210]
+              - listitem [ref=f18e211]:
+                - link "Transactions " [ref=f18e212] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e213]
+                  - generic [ref=f18e215]: Transactions
+                  - generic [ref=f18e217]: 
+              - listitem [ref=f18e218]:
+                - heading "Notifcations" [level=6] [ref=f18e220]
+              - listitem [ref=f18e221]:
+                - link "notify-ico Notifications " [ref=f18e222] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f18e223]
+                  - generic [ref=f18e224]: Notifications
+                  - generic [ref=f18e226]: 
+              - listitem [ref=f18e227]:
+                - heading "Job Management" [level=6] [ref=f18e229]
+              - listitem [ref=f18e230]:
+                - link "notify-ico Jobs " [ref=f18e231] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f18e232]
+                  - generic [ref=f18e233]: Jobs
+                  - generic [ref=f18e235]: 
+      - main [ref=f18e237]:
+        - generic [ref=f18e241]:
+          - generic [ref=f18e242]:
+            - heading "Combo Product Report" [level=5] [ref=f18e243]
+            - button " Export Excel" [ref=f18e244] [cursor=pointer]:
+              - generic [ref=f18e245]: 
+              - text: Export Excel
+          - generic [ref=f18e246]:
+            - generic [ref=f18e248]:
+              - generic [ref=f18e249]:
+                - generic [ref=f18e250]: From Date
+                - textbox [ref=f18e251] [cursor=pointer]
+              - generic [ref=f18e252]:
+                - generic [ref=f18e253]: To Date
+                - textbox [ref=f18e254] [cursor=pointer]
+              - generic [ref=f18e255]:
+                - generic [ref=f18e256]: Combo Product Title
+                - textbox "Search combo..." [ref=f18e257] [cursor=pointer]
+              - generic [ref=f18e258]:
+                - button "Apply" [ref=f18e259] [cursor=pointer]
+                - button "Clear" [ref=f18e260] [cursor=pointer]
+            - generic [ref=f18e261]:
+              - generic [ref=f18e262]:
+                - generic [ref=f18e263]:
+                  - generic [ref=f18e264]: Combo Products
+                  - heading "—" [level=3] [ref=f18e265] [cursor=pointer]
+                - generic [ref=f18e267]: 
+              - generic [ref=f18e268]:
+                - generic [ref=f18e269]:
+                  - generic [ref=f18e270]: Total Combos Sold
+                  - heading "—" [level=3] [ref=f18e271] [cursor=pointer]
+                - generic [ref=f18e273]: 
+              - generic [ref=f18e274]:
+                - generic [ref=f18e275]:
+                  - generic [ref=f18e276]: Total Net Revenue
+                  - heading "—" [level=3] [ref=f18e277] [cursor=pointer]
+                - generic [ref=f18e279]: 
+              - generic [ref=f18e280]:
+                - generic [ref=f18e281]:
+                  - generic [ref=f18e282]: Your Profit
+                  - heading "—" [level=3] [ref=f18e283] [cursor=pointer]
+                - generic [ref=f18e285]: 
+              - generic [ref=f18e286]:
+                - generic [ref=f18e287]:
+                  - generic [ref=f18e288]: Avg Margin %
+                  - heading "—" [level=3] [ref=f18e289] [cursor=pointer]
+                - generic [ref=f18e291]: 
+            - generic [ref=f18e293]:
+              - grid [ref=f18e296]:
+                - rowgroup [ref=f18e297]:
+                  - row "Combo Product  Type  Components  Combos Sold  Unit Price  Discount  Price after Discount  GST Collected  Customer Pays  Your Profit  Margin % " [ref=f18e298]:
+                    - columnheader "Combo Product " [ref=f18e299] [cursor=pointer]
+                    - columnheader "Type " [ref=f18e300] [cursor=pointer]
+                    - columnheader "Components " [ref=f18e301] [cursor=pointer]
+                    - columnheader "Combos Sold " [ref=f18e302] [cursor=pointer]
+                    - columnheader "Unit Price " [ref=f18e303] [cursor=pointer]
+                    - columnheader "Discount " [ref=f18e304] [cursor=pointer]
+                    - columnheader "Price after Discount " [ref=f18e305] [cursor=pointer]
+                    - columnheader "GST Collected " [ref=f18e306] [cursor=pointer]
+                    - columnheader "Customer Pays " [ref=f18e307] [cursor=pointer]
+                    - columnheader "Your Profit " [ref=f18e308] [cursor=pointer]
+                    - columnheader "Margin % " [ref=f18e309] [cursor=pointer]
+                - rowgroup
+              - status [ref=f18e310]
+      - contentinfo [ref=f18e311]:
+        - paragraph [ref=f18e315]:
+          - text: Copyright
+          - generic [ref=f18e316]: "2026"
+          - text: © Jeshwar Teaching
+  - img

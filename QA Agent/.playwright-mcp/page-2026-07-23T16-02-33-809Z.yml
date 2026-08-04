@@ -1,0 +1,284 @@
+- generic [ref=f9e1]:
+  - generic [ref=f9e7]:
+    - generic [ref=f9e8]:
+      - generic [ref=f9e9]:
+        - heading "Product" [level=4] [ref=f9e10]
+        - navigation [ref=f9e11]:
+          - list [ref=f9e12]:
+            - listitem [ref=f9e13]:
+              - link [ref=f9e14] [cursor=pointer]:
+                - /url: /Product/Products
+                - img [ref=f9e15]
+            - listitem [ref=f9e18]: / Products
+      - generic [ref=f9e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f9e22]:
+          - text: 
+          - listitem [ref=f9e23] [cursor=pointer]:
+            - generic [ref=f9e25]:
+              - generic [ref=f9e26]: superadmin@gmail.com
+              - paragraph [ref=f9e27]:
+                - text: SuperAdmin
+                - generic [ref=f9e28]: 
+    - generic [ref=f9e29]:
+      - generic [ref=f9e31]:
+        - generic [ref=f9e32]:
+          - link [ref=f9e33] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f9e35] [cursor=pointer]
+        - navigation [ref=f9e37]:
+          - list [ref=f9e39]:
+            - generic [ref=f9e44]:
+              - text: 
+              - listitem [ref=f9e45]:
+                - heading "Applications" [level=6] [ref=f9e47]
+              - listitem [ref=f9e48]:
+                - link "Dashboard" [ref=f9e49] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f9e50]
+                  - generic [ref=f9e52]: Dashboard
+                  - text: 
+              - listitem [ref=f9e53]:
+                - link "Enrollment " [ref=f9e54] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e55]
+                  - generic [ref=f9e57]: Enrollment
+                  - generic [ref=f9e59]: 
+              - listitem [ref=f9e60]:
+                - link "Website Settings " [ref=f9e61] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e62]
+                  - generic [ref=f9e64]: Website Settings
+                  - generic [ref=f9e66]: 
+              - listitem [ref=f9e67]:
+                - link "Membership " [ref=f9e68] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e69]
+                  - generic [ref=f9e71]: Membership
+                  - generic [ref=f9e73]: 
+              - listitem [ref=f9e74]:
+                - link "IVR " [ref=f9e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e76]
+                  - generic [ref=f9e78]: IVR
+                  - generic [ref=f9e80]: 
+              - listitem [ref=f9e81]:
+                - link "Course " [ref=f9e82] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e83]
+                  - generic [ref=f9e85]: Course
+                  - generic [ref=f9e87]: 
+              - listitem [ref=f9e88]:
+                - link " Self Host " [ref=f9e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f9e90]: 
+                  - generic [ref=f9e91]: Self Host
+                  - generic [ref=f9e93]: 
+              - listitem [ref=f9e94]:
+                - link "Assessment " [ref=f9e95] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e96]
+                  - generic [ref=f9e98]: Assessment
+                  - generic [ref=f9e100]: 
+              - listitem [ref=f9e101]:
+                - link "Student Activity " [ref=f9e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e103]
+                  - generic [ref=f9e105]: Student Activity
+                  - generic [ref=f9e107]: 
+              - listitem [ref=f9e108]:
+                - link "APL " [ref=f9e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e110]
+                  - generic [ref=f9e112]: APL
+                  - generic [ref=f9e114]: 
+              - listitem [ref=f9e115]:
+                - link "Email Draft " [ref=f9e116] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e117]
+                  - generic [ref=f9e119]: Email Draft
+                  - generic [ref=f9e121]: 
+              - listitem [ref=f9e122]:
+                - link "Admin " [ref=f9e123] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e124]
+                  - generic [ref=f9e126]: Admin
+                  - generic [ref=f9e128]: 
+              - listitem [ref=f9e129]:
+                - link "GST Report " [ref=f9e130] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e131]
+                  - generic [ref=f9e133]: GST Report
+                  - generic [ref=f9e135]: 
+              - listitem [ref=f9e136]:
+                - link "general icon General " [ref=f9e137] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f9e138]
+                  - generic [ref=f9e139]: General
+                  - generic [ref=f9e141]: 
+              - listitem [ref=f9e142]:
+                - link "Leaderboard" [ref=f9e143] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f9e144]
+                  - generic [ref=f9e146]: Leaderboard
+                  - text: 
+              - listitem [ref=f9e147]:
+                - heading "E-Commerce" [level=6] [ref=f9e149]
+              - listitem [ref=f9e150]:
+                - link "Dashboard" [ref=f9e151] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f9e152]
+                  - generic [ref=f9e154]: Dashboard
+                  - text: 
+              - listitem [ref=f9e155]:
+                - link "product icon Product " [ref=f9e156] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f9e157]
+                  - generic [ref=f9e158]: Product
+                  - generic [ref=f9e160]: 
+              - listitem [ref=f9e161]:
+                - link "Ebooks " [ref=f9e162] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e163]
+                  - generic [ref=f9e165]: Ebooks
+                  - generic [ref=f9e167]: 
+              - listitem [ref=f9e168]:
+                - link "Order " [ref=f9e169] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e170]
+                  - generic [ref=f9e172]: Order
+                  - generic [ref=f9e174]: 
+              - listitem [ref=f9e175]:
+                - link "Customer" [ref=f9e176] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f9e177]
+                  - generic [ref=f9e179]: Customer
+                  - text: 
+              - listitem [ref=f9e180]:
+                - link "Dashboards " [ref=f9e181] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e182]
+                  - generic [ref=f9e184]: Dashboards
+                  - generic [ref=f9e186]: 
+              - listitem [ref=f9e187]:
+                - link "Reports " [ref=f9e188] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e189]
+                  - generic [ref=f9e191]: Reports
+                  - generic [ref=f9e193]: 
+              - listitem [ref=f9e194]:
+                - link "Manual Purchase" [ref=f9e195] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f9e196]
+                  - generic [ref=f9e198]: Manual Purchase
+              - listitem [ref=f9e199]:
+                - heading "Payments" [level=6] [ref=f9e201]
+              - listitem [ref=f9e202]:
+                - link "Transactions " [ref=f9e203] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f9e204]
+                  - generic [ref=f9e206]: Transactions
+                  - generic [ref=f9e208]: 
+              - listitem [ref=f9e209]:
+                - heading "Notifcations" [level=6] [ref=f9e211]
+              - listitem [ref=f9e212]:
+                - link "notify-ico Notifications " [ref=f9e213] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f9e214]
+                  - generic [ref=f9e215]: Notifications
+                  - generic [ref=f9e217]: 
+              - listitem [ref=f9e218]:
+                - heading "Job Management" [level=6] [ref=f9e220]
+              - listitem [ref=f9e221]:
+                - link "notify-ico Jobs " [ref=f9e222] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f9e223]
+                  - generic [ref=f9e224]: Jobs
+                  - generic [ref=f9e226]: 
+      - main [ref=f9e228]:
+        - generic [ref=f9e234]:
+          - heading "Add Product" [level=4] [ref=f9e236]
+          - generic [ref=f9e238]:
+            - tablist [ref=f9e240]:
+              - tab "Basic Information Title, Author, ISBN and details" [selected] [ref=f9e241] [cursor=pointer]:
+                - img [ref=f9e244]
+                - generic [ref=f9e246]:
+                  - heading "Basic Information" [level=5] [ref=f9e247]
+                  - paragraph [ref=f9e248]: Title, Author, ISBN and details
+              - tab "Pricing Price, GST and Quantity" [ref=f9e249] [cursor=pointer]:
+                - img [ref=f9e252]
+                - generic [ref=f9e254]:
+                  - heading "Pricing" [level=5] [ref=f9e255]
+                  - paragraph [ref=f9e256]: Price, GST and Quantity
+              - tab "File Upload Upload digital file if applicable" [ref=f9e257] [cursor=pointer]:
+                - img [ref=f9e260]
+                - generic [ref=f9e262]:
+                  - heading "File Upload" [level=5] [ref=f9e263]
+                  - paragraph [ref=f9e264]: Upload digital file if applicable
+            - tabpanel "Basic Information Title, Author, ISBN and details" [ref=f9e267]:
+              - generic [ref=f9e268]:
+                - generic [ref=f9e269]:
+                  - generic [ref=f9e270]:
+                    - generic [ref=f9e271]:
+                      - text: Title
+                      - generic [ref=f9e272]: "*"
+                    - textbox "Title *" [ref=f9e273] [cursor=pointer]
+                  - generic [ref=f9e274]:
+                    - generic [ref=f9e275]:
+                      - text: Product Type
+                      - generic [ref=f9e276]: "*"
+                    - combobox "Product Type *" [ref=f9e277] [cursor=pointer]:
+                      - option "-- Select Product Type --" [selected]
+                      - option "Books"
+                      - option "Product Type"
+                      - option "Stationary"
+                      - option "New books"
+                      - option "Books no 01"
+                      - option "Miscellaneous"
+                      - option "JT special store"
+                      - option "Multiple/Combo"
+                      - option "Combo"
+                      - option "New Book"
+                      - option "New product"
+                  - generic [ref=f9e278]:
+                    - generic [ref=f9e279]: Author
+                    - textbox "Author" [ref=f9e280] [cursor=pointer]
+                  - generic [ref=f9e281]:
+                    - generic [ref=f9e282]: ISBN
+                    - textbox "ISBN" [ref=f9e283] [cursor=pointer]
+                  - generic [ref=f9e284]:
+                    - generic [ref=f9e285]: Publisher
+                    - textbox "Publisher" [ref=f9e286] [cursor=pointer]
+                  - generic [ref=f9e287]:
+                    - generic [ref=f9e288]: Published Date
+                    - textbox "Published Date" [ref=f9e289] [cursor=pointer]
+                  - generic [ref=f9e290]:
+                    - generic [ref=f9e291]: Edition
+                    - textbox "Edition" [ref=f9e292] [cursor=pointer]
+                  - generic [ref=f9e293]:
+                    - generic [ref=f9e294]: Language
+                    - combobox "Language" [ref=f9e295] [cursor=pointer]:
+                      - option "-- Select Language --"
+                      - option "English" [selected]
+                      - option "Tamil"
+                      - option "None"
+                  - generic [ref=f9e297]:
+                    - text: Description
+                    - generic [ref=f9e298]: "*"
+                  - text:  
+                - generic [ref=f9e301] [cursor=pointer]:
+                  - text: Next
+                  - img [ref=f9e302]
+      - contentinfo [ref=f9e304]:
+        - paragraph [ref=f9e308]:
+          - text: Copyright
+          - generic [ref=f9e309]: "2026"
+          - text: © Jeshwar Teaching
+  - img

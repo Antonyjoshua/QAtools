@@ -1,0 +1,323 @@
+- generic [ref=f18e1]:
+  - generic [ref=f18e7]:
+    - generic [ref=f18e8]:
+      - generic [ref=f18e9]:
+        - heading "Dashboard" [level=4] [ref=f18e10]
+        - navigation [ref=f18e11]:
+          - list [ref=f18e12]:
+            - listitem [ref=f18e13]:
+              - link [ref=f18e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f18e15]
+            - listitem [ref=f18e18]: / Purchases Dashboard
+      - generic [ref=f18e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f18e22]:
+          - listitem [ref=f18e23]:
+            - generic [ref=f18e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f18e26]:
+      - generic [ref=f18e28]:
+        - text: 
+        - link [ref=f18e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f18e31]:
+          - list [ref=f18e33]:
+            - generic [ref=f18e38]:
+              - text: 
+              - listitem [ref=f18e39]:
+                - link [ref=f18e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f18e41]
+                  - text: 
+              - listitem [ref=f18e43]:
+                - link [ref=f18e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e45]
+                  - text: 
+              - listitem [ref=f18e47]:
+                - link [ref=f18e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e49]
+                  - text: 
+              - listitem [ref=f18e51]:
+                - link [ref=f18e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e53]
+                  - text: 
+              - listitem [ref=f18e55]:
+                - link [ref=f18e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e57]
+                  - text: 
+              - listitem [ref=f18e59]:
+                - link [ref=f18e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e61]
+                  - text: 
+              - listitem [ref=f18e63]:
+                - link "" [ref=f18e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f18e65]: 
+                  - text: 
+              - listitem [ref=f18e66]:
+                - link [ref=f18e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e68]
+                  - text: 
+              - listitem [ref=f18e70]:
+                - link [ref=f18e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e72]
+                  - text: 
+              - listitem [ref=f18e74]:
+                - link [ref=f18e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e76]
+                  - text: 
+              - listitem [ref=f18e78]:
+                - link [ref=f18e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e80]
+                  - text: 
+              - listitem [ref=f18e82]:
+                - link "general icon" [ref=f18e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f18e84]
+                  - text: 
+              - listitem [ref=f18e85]:
+                - link [ref=f18e86] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f18e87]
+                  - text: 
+              - listitem [ref=f18e89]:
+                - link [ref=f18e90] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f18e91]
+                  - text: 
+              - listitem [ref=f18e93]:
+                - link "product icon" [ref=f18e94] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f18e95]
+                  - text: 
+              - listitem [ref=f18e96]:
+                - link [ref=f18e97] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e98]
+                  - text: 
+              - listitem [ref=f18e100]:
+                - link [ref=f18e101] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f18e102]
+                  - text: 
+              - listitem [ref=f18e104]:
+                - link [ref=f18e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e106]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f18e108]:
+                - link [ref=f18e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e110]
+                  - text: 
+              - listitem [ref=f18e112]:
+                - link [ref=f18e113] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f18e114]
+              - listitem [ref=f18e116]:
+                - link [ref=f18e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f18e118]
+                  - text: 
+              - listitem [ref=f18e120]:
+                - link "notify-ico" [ref=f18e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f18e122]
+                  - text: 
+              - listitem [ref=f18e123]:
+                - link "notify-ico" [ref=f18e124] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f18e125]
+                  - text: 
+      - main [ref=f18e127]:
+        - generic [ref=f18e128]:
+          - generic [ref=f18e130]:
+            - generic [ref=f18e131]:
+              - heading "Purchases Overview" [level=3] [ref=f18e132]
+              - paragraph [ref=f18e133]: Track transactions, discounts, and order stats
+            - generic [ref=f18e135]:
+              - generic [ref=f18e136]:
+                - generic [ref=f18e137]:
+                  - generic [ref=f18e138]: 
+                  - generic [ref=f18e139]: From
+                  - textbox [ref=f18e140] [cursor=pointer]: 2026-06-15
+                - generic [ref=f18e141]: to
+                - textbox [ref=f18e143] [cursor=pointer]: 2026-07-14
+              - button " Apply" [ref=f18e144] [cursor=pointer]:
+                - generic [ref=f18e145]: 
+                - text: Apply
+              - button " Reset" [ref=f18e146] [cursor=pointer]:
+                - generic [ref=f18e147]: 
+                - text: Reset
+          - generic [ref=f18e149]:
+            - generic [ref=f18e151]:
+              - heading "Transactions" [level=4] [ref=f18e154]
+              - generic [ref=f18e156]:
+                - img [ref=f18e158]
+                - generic [ref=f18e159]:
+                  - heading "22" [level=2] [ref=f18e160]
+                  - generic [ref=f18e161]: orders placed
+            - generic [ref=f18e163]:
+              - heading "Gross Value" [level=4] [ref=f18e166]
+              - generic [ref=f18e168]:
+                - img [ref=f18e170]
+                - generic [ref=f18e171]:
+                  - heading "₹17,882" [level=2] [ref=f18e172]
+                  - generic [ref=f18e173]: before disc.
+            - generic [ref=f18e175]:
+              - heading "Avg Items / Order" [level=4] [ref=f18e178]
+              - generic [ref=f18e180]:
+                - img [ref=f18e182]
+                - generic [ref=f18e183]:
+                  - heading "1.3" [level=2] [ref=f18e184]
+                  - generic [ref=f18e185]:
+                    - text: avg ·
+                    - generic [ref=f18e186]: "29"
+                    - text: total
+            - generic [ref=f18e188]:
+              - heading "Repeat Buyers" [level=4] [ref=f18e191]
+              - generic [ref=f18e193]:
+                - img [ref=f18e195]
+                - generic [ref=f18e196]:
+                  - heading "0%" [level=2] [ref=f18e197]
+                  - generic [ref=f18e198]: of customers
+            - generic [ref=f18e200]:
+              - heading "Total Discounts" [level=4] [ref=f18e203]
+              - generic [ref=f18e205]:
+                - img [ref=f18e207]
+                - generic [ref=f18e208]:
+                  - heading "₹2,139" [level=2] [ref=f18e209]
+                  - generic [ref=f18e210]: given
+          - generic [ref=f18e211]:
+            - generic [ref=f18e212]:
+              - generic [ref=f18e213]:
+                - text: Purchases Over Time
+                - generic [ref=f18e214]: Daily Order Count · Selected Period
+              - img [ref=f18e217]:
+                - generic [ref=f18e220]:
+                  - generic "19 Jun" [ref=f18e221]
+                  - generic "20 Jun" [ref=f18e222]
+                  - generic "24 Jun" [ref=f18e223]
+                  - generic "27 Jun" [ref=f18e224]
+                  - generic "30 Jun" [ref=f18e225]
+                  - generic "01 Jul" [ref=f18e226]
+                  - generic "02 Jul" [ref=f18e227]
+                  - generic "09 Jul" [ref=f18e228]
+                  - generic "10 Jul" [ref=f18e229]
+                  - generic "13 Jul" [ref=f18e230]
+                  - generic "14 Jul" [ref=f18e231]
+                - generic [ref=f18e239]:
+                  - generic "8" [ref=f18e240]
+                  - generic "6" [ref=f18e241]
+                  - generic "4" [ref=f18e242]
+                  - generic "2" [ref=f18e243]
+                  - generic "0" [ref=f18e244]
+            - generic [ref=f18e245]:
+              - generic [ref=f18e246]:
+                - text: Payment Methods
+                - generic [ref=f18e247]: Share Of Orders
+              - img [ref=f18e251]:
+                - generic [ref=f18e256] [cursor=pointer]: netbanking
+                - generic [ref=f18e261]:
+                  - generic:
+                    - generic: 100.0%
+          - generic [ref=f18e264]:
+            - generic [ref=f18e265]:
+              - generic [ref=f18e266]:
+                - text: Top Customers
+                - generic [ref=f18e267]: By Spend
+              - generic [ref=f18e268]:
+                - generic [ref=f18e269]:
+                  - generic [ref=f18e270]: Josh Antony
+                  - generic [ref=f18e273]: ₹2,520
+                - generic [ref=f18e274]:
+                  - generic [ref=f18e275]: Sat Antony
+                  - generic [ref=f18e278]: ₹2,520
+                - generic [ref=f18e279]:
+                  - generic [ref=f18e280]: Fay Antony
+                  - generic [ref=f18e283]: ₹2,520
+                - generic [ref=f18e284]:
+                  - generic [ref=f18e285]: Sat hish
+                  - generic [ref=f18e288]: ₹2,185
+                - generic [ref=f18e289]:
+                  - generic [ref=f18e290]: Mohammed Fayaze
+                  - generic [ref=f18e293]: ₹1,350
+            - generic [ref=f18e294]:
+              - heading "Recent Purchases" [level=4] [ref=f18e297]
+              - generic [ref=f18e300]:
+                - generic [ref=f18e302]:
+                  - text: "Search:"
+                  - searchbox "Search:" [ref=f18e303] [cursor=pointer]
+                - grid [ref=f18e304]:
+                  - rowgroup [ref=f18e305]:
+                    - 'row "Order : activate to sort column descending Customer : activate to sort column ascending Net : activate to sort column ascending Status : activate to sort column ascending" [ref=f18e306]':
+                      - 'columnheader "Order : activate to sort column descending" [ref=f18e307] [cursor=pointer]':
+                        - text: Order
+                        - generic [ref=f18e308]: 
+                      - 'columnheader "Customer : activate to sort column ascending" [ref=f18e309] [cursor=pointer]':
+                        - text: Customer
+                        - generic [ref=f18e310]: 
+                      - 'columnheader "Net : activate to sort column ascending" [ref=f18e311] [cursor=pointer]':
+                        - text: Net
+                        - generic [ref=f18e312]: 
+                      - 'columnheader "Status : activate to sort column ascending" [ref=f18e313] [cursor=pointer]':
+                        - text: Status
+                        - generic [ref=f18e314]: 
+                  - rowgroup [ref=f18e315]:
+                    - row "#4225 Josh Antony ₹2,520 Success" [ref=f18e316]:
+                      - gridcell "#4225" [ref=f18e317]
+                      - gridcell "Josh Antony" [ref=f18e318]
+                      - gridcell "₹2,520" [ref=f18e319]
+                      - gridcell "Success" [ref=f18e320]:
+                        - generic [ref=f18e321]: Success
+                    - row "#4226 Sat Antony ₹2,520 Success" [ref=f18e322]:
+                      - gridcell "#4226" [ref=f18e323]
+                      - gridcell "Sat Antony" [ref=f18e324]
+                      - gridcell "₹2,520" [ref=f18e325]
+                      - gridcell "Success" [ref=f18e326]:
+                        - generic [ref=f18e327]: Success
+                    - row "#4227 Josh Fayaze ₹360 Failed" [ref=f18e328]:
+                      - gridcell "#4227" [ref=f18e329]
+                      - gridcell "Josh Fayaze" [ref=f18e330]
+                      - gridcell "₹360" [ref=f18e331]
+                      - gridcell "Failed" [ref=f18e332]:
+                        - generic [ref=f18e333]: Failed
+                    - row "#4228 Fay Antony ₹2,520 Success" [ref=f18e334]:
+                      - gridcell "#4228" [ref=f18e335]
+                      - gridcell "Fay Antony" [ref=f18e336]
+                      - gridcell "₹2,520" [ref=f18e337]
+                      - gridcell "Success" [ref=f18e338]:
+                        - generic [ref=f18e339]: Success
+                - generic [ref=f18e340]:
+                  - generic [ref=f18e341]: Previous
+                  - generic [ref=f18e342]:
+                    - generic [ref=f18e343] [cursor=pointer]: "1"
+                    - generic [ref=f18e344] [cursor=pointer]: "2"
+                    - generic [ref=f18e345] [cursor=pointer]: "3"
+                  - generic [ref=f18e346] [cursor=pointer]: Next
+      - contentinfo [ref=f18e347]:
+        - paragraph [ref=f18e351]:
+          - text: Copyright
+          - generic [ref=f18e352]: "2026"
+          - text: © Jeshwar Teaching
+  - img

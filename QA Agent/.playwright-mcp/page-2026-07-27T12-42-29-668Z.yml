@@ -1,0 +1,618 @@
+- generic [ref=f16e1]:
+  - generic [ref=f16e7]:
+    - generic [ref=f16e8]:
+      - generic [ref=f16e9]:
+        - heading "Dashboard" [level=4] [ref=f16e10]
+        - navigation [ref=f16e11]:
+          - list [ref=f16e12]:
+            - listitem [ref=f16e13]:
+              - link [ref=f16e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f16e15]
+            - listitem [ref=f16e18]: / Index
+      - generic [ref=f16e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f16e22]:
+          - listitem [ref=f16e23]:
+            - generic [ref=f16e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f16e26]:
+      - generic [ref=f16e28]:
+        - text: 
+        - link [ref=f16e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f16e31]:
+          - list [ref=f16e33]:
+            - generic [ref=f16e38]:
+              - text: 
+              - listitem [ref=f16e39]:
+                - link [ref=f16e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f16e41]
+                  - text: 
+              - listitem [ref=f16e43]:
+                - link [ref=f16e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e45]
+                  - text: 
+              - listitem [ref=f16e47]:
+                - link [ref=f16e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e49]
+                  - text: 
+              - listitem [ref=f16e51]:
+                - link [ref=f16e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e53]
+                  - text: 
+              - listitem [ref=f16e55]:
+                - link [ref=f16e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e57]
+                  - text: 
+              - listitem [ref=f16e59]:
+                - link [ref=f16e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e61]
+                  - text: 
+              - listitem [ref=f16e63]:
+                - link "" [ref=f16e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f16e65]: 
+                  - text: 
+              - listitem [ref=f16e66]:
+                - link [ref=f16e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e68]
+                  - text: 
+              - listitem [ref=f16e70]:
+                - link [ref=f16e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e72]
+                  - text: 
+              - listitem [ref=f16e74]:
+                - link [ref=f16e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e76]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f16e78]:
+                - link [ref=f16e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e80]
+                  - text: 
+              - listitem [ref=f16e82]:
+                - link [ref=f16e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e84]
+                  - text: 
+              - listitem [ref=f16e86]:
+                - link [ref=f16e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e88]
+                  - text: 
+              - listitem [ref=f16e90]:
+                - link "general icon" [ref=f16e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f16e92]
+                  - text: 
+              - listitem [ref=f16e93]:
+                - link [ref=f16e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f16e95]
+                  - text: 
+              - listitem [ref=f16e97]:
+                - link [ref=f16e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f16e99]
+                  - text: 
+              - listitem [ref=f16e101]:
+                - link "product icon" [ref=f16e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f16e103]
+                  - text: 
+              - listitem [ref=f16e104]:
+                - link [ref=f16e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e106]
+                  - text: 
+              - listitem [ref=f16e108]:
+                - link [ref=f16e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e110]
+                  - text: 
+              - listitem [ref=f16e112]:
+                - link [ref=f16e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f16e114]
+                  - text: 
+              - listitem [ref=f16e116]:
+                - link [ref=f16e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e118]
+                  - text: 
+              - listitem [ref=f16e120]:
+                - link [ref=f16e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e122]
+                  - text: 
+              - listitem [ref=f16e124]:
+                - link [ref=f16e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f16e126]
+              - listitem [ref=f16e128]:
+                - link [ref=f16e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e130]
+                  - text: 
+              - listitem [ref=f16e132]:
+                - link "notify-ico" [ref=f16e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f16e134]
+                  - text: 
+              - listitem [ref=f16e135]:
+                - link "notify-ico" [ref=f16e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f16e137]
+                  - text: 
+      - main [ref=f16e139]:
+        - generic [ref=f16e143]:
+          - generic [ref=f16e144]:
+            - heading "Live APL" [level=5] [ref=f16e145]
+            - generic [ref=f16e146]:
+              - generic [ref=f16e147]: "Status:"
+              - combobox "Status:" [ref=f16e148] [cursor=pointer]:
+                - option "All" [selected]
+                - option "Scheduled"
+                - option "Live"
+                - option "Completed"
+                - option "Cancelled"
+              - link " Create Live APL" [ref=f16e149] [cursor=pointer]:
+                - /url: /LiveApl/Create
+                - generic [ref=f16e150]: 
+                - text: Create Live APL
+          - generic [ref=f16e153]:
+            - generic [ref=f16e155]:
+              - text: Show
+              - combobox "Show entries" [ref=f16e156] [cursor=pointer]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: entries
+            - generic [ref=f16e158]:
+              - text: "Search:"
+              - searchbox "Search:" [ref=f16e159] [cursor=pointer]
+            - grid [ref=f16e160]:
+              - rowgroup [ref=f16e161]:
+                - 'row "Image Title: activate to sort column ascending Course Start Date: activate to sort column ascending Max Participants: activate to sort column ascending No of Qn/Player: activate to sort column ascending Questions Added Result Message Status: activate to sort column ascending Actions" [ref=f16e162]':
+                  - columnheader "Image" [ref=f16e163]
+                  - 'columnheader "Title: activate to sort column ascending" [ref=f16e164] [cursor=pointer]': ↑ Title 
+                  - columnheader "Course" [ref=f16e165]
+                  - 'columnheader "Start Date: activate to sort column ascending" [ref=f16e166] [cursor=pointer]': ↑ Start Date ↓
+                  - 'columnheader "Max Participants: activate to sort column ascending" [ref=f16e167] [cursor=pointer]': ↑ Max Participants 
+                  - 'columnheader "No of Qn/Player: activate to sort column ascending" [ref=f16e168] [cursor=pointer]': ↑ No of Qn/Player 
+                  - columnheader "Questions Added" [ref=f16e169]
+                  - columnheader "Result Message" [ref=f16e170]
+                  - 'columnheader "Status: activate to sort column ascending" [ref=f16e171] [cursor=pointer]': ↑ Status 
+                  - columnheader "Actions" [ref=f16e172]
+              - rowgroup [ref=f16e173]:
+                - row "— QA Test Live APL Session 1 course 27 Jul 2026 18:20 100 5 0 Results announced at 6 PM today. Scheduled     " [ref=f16e174]:
+                  - gridcell "—" [ref=f16e175]:
+                    - generic [ref=f16e176]: —
+                  - gridcell "QA Test Live APL Session" [ref=f16e177]:
+                    - strong [ref=f16e178]: QA Test Live APL Session
+                  - gridcell "1 course" [ref=f16e179]:
+                    - generic [ref=f16e180]: 1 course
+                  - gridcell "27 Jul 2026 18:20" [ref=f16e181]
+                  - gridcell "100" [ref=f16e182]
+                  - gridcell "5" [ref=f16e183]
+                  - gridcell "0" [ref=f16e184]:
+                    - link "0" [ref=f16e185] [cursor=pointer]:
+                      - /url: /LiveApl/Questions?liveAplId=25
+                  - gridcell "Results announced at 6 PM today." [ref=f16e186]:
+                    - generic [ref=f16e187]: Results announced at 6 PM today.
+                  - gridcell "Scheduled" [ref=f16e188]:
+                    - generic [ref=f16e189]: Scheduled
+                  - gridcell "    " [ref=f16e190]:
+                    - list [ref=f16e191]:
+                      - listitem [ref=f16e192] [cursor=pointer]:
+                        - link "" [ref=f16e193]:
+                          - /url: /LiveApl/Edit?id=25
+                          - generic [ref=f16e194]: 
+                      - listitem [ref=f16e195]:
+                        - link "" [ref=f16e196] [cursor=pointer]:
+                          - /url: /LiveApl/Questions?liveAplId=25
+                          - generic [ref=f16e197]: 
+                      - listitem [ref=f16e198]:
+                        - link "" [ref=f16e199] [cursor=pointer]:
+                          - /url: /LiveApl/DownloadAnswerKey?liveAplId=25
+                          - generic [ref=f16e200]: 
+                      - listitem [ref=f16e201]:
+                        - link "" [ref=f16e202] [cursor=pointer]:
+                          - /url: /LiveAplResults/Announce?liveAplId=25
+                          - generic [ref=f16e203]: 
+                      - listitem [ref=f16e204] [cursor=pointer]:
+                        - link "" [ref=f16e205]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e206]: 
+                - row "Aptitude Live Championship -01 Aptitude Live Championship -01 61 courses 27 Jul 2026 15:58 500 5 20 🎊 GRAND RESULT ANNOUNCEMENT 🏆 TNPSC L… Live     " [ref=f16e207]:
+                  - gridcell "Aptitude Live Championship -01" [ref=f16e208]:
+                    - img "Aptitude Live Championship -01" [ref=f16e209]
+                  - gridcell "Aptitude Live Championship -01" [ref=f16e210]:
+                    - strong [ref=f16e211]: Aptitude Live Championship -01
+                  - gridcell "61 courses" [ref=f16e212]:
+                    - generic [ref=f16e213]: 61 courses
+                  - gridcell "27 Jul 2026 15:58" [ref=f16e214]
+                  - gridcell "500" [ref=f16e215]
+                  - gridcell "5" [ref=f16e216]
+                  - gridcell "20" [ref=f16e217]:
+                    - link "20" [ref=f16e218] [cursor=pointer]:
+                      - /url: /LiveApl/Questions?liveAplId=9
+                  - gridcell "🎊 GRAND RESULT ANNOUNCEMENT 🏆 TNPSC L…" [ref=f16e219]:
+                    - generic [ref=f16e220]: 🎊 GRAND RESULT ANNOUNCEMENT 🏆 TNPSC L…
+                  - gridcell "Live" [ref=f16e221]:
+                    - generic [ref=f16e222]: Live
+                  - gridcell "    " [ref=f16e223]:
+                    - list [ref=f16e224]:
+                      - listitem [ref=f16e225] [cursor=pointer]:
+                        - link "" [ref=f16e226]:
+                          - /url: /LiveApl/Edit?id=9
+                          - generic [ref=f16e227]: 
+                      - listitem [ref=f16e228]:
+                        - link "" [ref=f16e229] [cursor=pointer]:
+                          - /url: /LiveApl/Questions?liveAplId=9
+                          - generic [ref=f16e230]: 
+                      - listitem [ref=f16e231]:
+                        - link "" [ref=f16e232] [cursor=pointer]:
+                          - /url: /LiveApl/DownloadAnswerKey?liveAplId=9
+                          - generic [ref=f16e233]: 
+                      - listitem [ref=f16e234]:
+                        - link "" [ref=f16e235] [cursor=pointer]:
+                          - /url: /LiveAplResults/Announce?liveAplId=9
+                          - generic [ref=f16e236]: 
+                      - listitem [ref=f16e237] [cursor=pointer]:
+                        - link "" [ref=f16e238]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e239]: 
+                - row "INDIAN POLITY-PYQ (2012-2026) INDIAN POLITY-PYQ (2012-2026) — 24 Jul 2026 13:14 Unlimited 5 25 📢 Results will be announced LIVE today … Completed     " [ref=f16e240]:
+                  - gridcell "INDIAN POLITY-PYQ (2012-2026)" [ref=f16e241]:
+                    - img "INDIAN POLITY-PYQ (2012-2026)" [ref=f16e242]
+                  - gridcell "INDIAN POLITY-PYQ (2012-2026)" [ref=f16e243]:
+                    - strong [ref=f16e244]: INDIAN POLITY-PYQ (2012-2026)
+                  - gridcell "—" [ref=f16e245]:
+                    - generic [ref=f16e246]: —
+                  - gridcell "24 Jul 2026 13:14" [ref=f16e247]
+                  - gridcell "Unlimited" [ref=f16e248]
+                  - gridcell "5" [ref=f16e249]
+                  - gridcell "25" [ref=f16e250]:
+                    - link "25" [ref=f16e251] [cursor=pointer]:
+                      - /url: /LiveApl/Questions?liveAplId=18
+                  - gridcell "📢 Results will be announced LIVE today …" [ref=f16e252]:
+                    - generic [ref=f16e253]: 📢 Results will be announced LIVE today …
+                  - gridcell "Completed" [ref=f16e254]:
+                    - generic [ref=f16e255]: Completed
+                  - gridcell "    " [ref=f16e256]:
+                    - list [ref=f16e257]:
+                      - listitem [ref=f16e258] [cursor=pointer]:
+                        - link "" [ref=f16e259]:
+                          - /url: /LiveApl/Edit?id=18
+                          - generic [ref=f16e260]: 
+                      - listitem [ref=f16e261]:
+                        - link "" [ref=f16e262] [cursor=pointer]:
+                          - /url: /LiveApl/Questions?liveAplId=18
+                          - generic [ref=f16e263]: 
+                      - listitem [ref=f16e264]:
+                        - link "" [ref=f16e265] [cursor=pointer]:
+                          - /url: /LiveApl/DownloadAnswerKey?liveAplId=18
+                          - generic [ref=f16e266]: 
+                      - listitem [ref=f16e267]:
+                        - link "" [ref=f16e268] [cursor=pointer]:
+                          - /url: /LiveAplResults/Announce?liveAplId=18
+                          - generic [ref=f16e269]: 
+                      - listitem [ref=f16e270] [cursor=pointer]:
+                        - link "" [ref=f16e271]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e272]: 
+                - row "Fayaze fighters Fayaze fighters 52 courses 20 Jul 2026 18:48 Unlimited 10 10 — Completed     " [ref=f16e273]:
+                  - gridcell "Fayaze fighters" [ref=f16e274]:
+                    - img "Fayaze fighters" [ref=f16e275]
+                  - gridcell "Fayaze fighters" [ref=f16e276]:
+                    - strong [ref=f16e277]: Fayaze fighters
+                  - gridcell "52 courses" [ref=f16e278]:
+                    - generic [ref=f16e279]: 52 courses
+                  - gridcell "20 Jul 2026 18:48" [ref=f16e280]
+                  - gridcell "Unlimited" [ref=f16e281]
+                  - gridcell "10" [ref=f16e282]
+                  - gridcell "10" [ref=f16e283]:
+                    - link "10" [ref=f16e284] [cursor=pointer]:
+                      - /url: /LiveApl/Questions?liveAplId=11
+                  - gridcell "—" [ref=f16e285]:
+                    - generic [ref=f16e286]: —
+                  - gridcell "Completed" [ref=f16e287]:
+                    - generic [ref=f16e288]: Completed
+                  - gridcell "    " [ref=f16e289]:
+                    - list [ref=f16e290]:
+                      - listitem [ref=f16e291] [cursor=pointer]:
+                        - link "" [ref=f16e292]:
+                          - /url: /LiveApl/Edit?id=11
+                          - generic [ref=f16e293]: 
+                      - listitem [ref=f16e294]:
+                        - link "" [ref=f16e295] [cursor=pointer]:
+                          - /url: /LiveApl/Questions?liveAplId=11
+                          - generic [ref=f16e296]: 
+                      - listitem [ref=f16e297]:
+                        - link "" [ref=f16e298] [cursor=pointer]:
+                          - /url: /LiveApl/DownloadAnswerKey?liveAplId=11
+                          - generic [ref=f16e299]: 
+                      - listitem [ref=f16e300]:
+                        - link "" [ref=f16e301] [cursor=pointer]:
+                          - /url: /LiveAplResults/Announce?liveAplId=11
+                          - generic [ref=f16e302]: 
+                      - listitem [ref=f16e303] [cursor=pointer]:
+                        - link "" [ref=f16e304]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e305]: 
+                - row "Mathematics Speed Challenge Mathematics Speed Challenge 52 courses 17 Jul 2026 19:34 50 10 20 Results will be announced shortly after … Completed     " [ref=f16e306]:
+                  - gridcell "Mathematics Speed Challenge" [ref=f16e307]:
+                    - img "Mathematics Speed Challenge" [ref=f16e308]
+                  - gridcell "Mathematics Speed Challenge" [ref=f16e309]:
+                    - strong [ref=f16e310]: Mathematics Speed Challenge
+                  - gridcell "52 courses" [ref=f16e311]:
+                    - generic [ref=f16e312]: 52 courses
+                  - gridcell "17 Jul 2026 19:34" [ref=f16e313]
+                  - gridcell "50" [ref=f16e314]
+                  - gridcell "10" [ref=f16e315]
+                  - gridcell "20" [ref=f16e316]:
+                    - link "20" [ref=f16e317] [cursor=pointer]:
+                      - /url: /LiveApl/Questions?liveAplId=2
+                  - gridcell "Results will be announced shortly after …" [ref=f16e318]:
+                    - generic [ref=f16e319]: Results will be announced shortly after …
+                  - gridcell "Completed" [ref=f16e320]:
+                    - generic [ref=f16e321]: Completed
+                  - gridcell "    " [ref=f16e322]:
+                    - list [ref=f16e323]:
+                      - listitem [ref=f16e324] [cursor=pointer]:
+                        - link "" [ref=f16e325]:
+                          - /url: /LiveApl/Edit?id=2
+                          - generic [ref=f16e326]: 
+                      - listitem [ref=f16e327]:
+                        - link "" [ref=f16e328] [cursor=pointer]:
+                          - /url: /LiveApl/Questions?liveAplId=2
+                          - generic [ref=f16e329]: 
+                      - listitem [ref=f16e330]:
+                        - link "" [ref=f16e331] [cursor=pointer]:
+                          - /url: /LiveApl/DownloadAnswerKey?liveAplId=2
+                          - generic [ref=f16e332]: 
+                      - listitem [ref=f16e333]:
+                        - link "" [ref=f16e334] [cursor=pointer]:
+                          - /url: /LiveAplResults/Announce?liveAplId=2
+                          - generic [ref=f16e335]: 
+                      - listitem [ref=f16e336] [cursor=pointer]:
+                        - link "" [ref=f16e337]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e338]: 
+                - row "— Current Affairs Weekly Live — 16 Jul 2026 15:27 Unlimited 20 0 Results will be announced shortly after … Completed     " [ref=f16e339]:
+                  - gridcell "—" [ref=f16e340]:
+                    - generic [ref=f16e341]: —
+                  - gridcell "Current Affairs Weekly Live" [ref=f16e342]:
+                    - strong [ref=f16e343]: Current Affairs Weekly Live
+                  - gridcell "—" [ref=f16e344]:
+                    - generic [ref=f16e345]: —
+                  - gridcell "16 Jul 2026 15:27" [ref=f16e346]
+                  - gridcell "Unlimited" [ref=f16e347]
+                  - gridcell "20" [ref=f16e348]
+                  - gridcell "0" [ref=f16e349]:
+                    - link "0" [ref=f16e350] [cursor=pointer]:
+                      - /url: /LiveApl/Questions?liveAplId=10
+                  - gridcell "Results will be announced shortly after …" [ref=f16e351]:
+                    - generic [ref=f16e352]: Results will be announced shortly after …
+                  - gridcell "Completed" [ref=f16e353]:
+                    - generic [ref=f16e354]: Completed
+                  - gridcell "    " [ref=f16e355]:
+                    - list [ref=f16e356]:
+                      - listitem [ref=f16e357] [cursor=pointer]:
+                        - link "" [ref=f16e358]:
+                          - /url: /LiveApl/Edit?id=10
+                          - generic [ref=f16e359]: 
+                      - listitem [ref=f16e360]:
+                        - link "" [ref=f16e361] [cursor=pointer]:
+                          - /url: /LiveApl/Questions?liveAplId=10
+                          - generic [ref=f16e362]: 
+                      - listitem [ref=f16e363]:
+                        - link "" [ref=f16e364] [cursor=pointer]:
+                          - /url: /LiveApl/DownloadAnswerKey?liveAplId=10
+                          - generic [ref=f16e365]: 
+                      - listitem [ref=f16e366]:
+                        - link "" [ref=f16e367] [cursor=pointer]:
+                          - /url: /LiveAplResults/Announce?liveAplId=10
+                          - generic [ref=f16e368]: 
+                      - listitem [ref=f16e369] [cursor=pointer]:
+                        - link "" [ref=f16e370]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e371]: 
+                - row "— State Level Aptitude League — Demo Session — 15 Jul 2026 11:26 200 10 10 — Completed     " [ref=f16e372]:
+                  - gridcell "—" [ref=f16e373]:
+                    - generic [ref=f16e374]: —
+                  - gridcell "State Level Aptitude League — Demo Session" [ref=f16e375]:
+                    - strong [ref=f16e376]: State Level Aptitude League — Demo Session
+                  - gridcell "—" [ref=f16e377]:
+                    - generic [ref=f16e378]: —
+                  - gridcell "15 Jul 2026 11:26" [ref=f16e379]
+                  - gridcell "200" [ref=f16e380]
+                  - gridcell "10" [ref=f16e381]
+                  - gridcell "10" [ref=f16e382]:
+                    - link "10" [ref=f16e383] [cursor=pointer]:
+                      - /url: /LiveApl/Questions?liveAplId=16
+                  - gridcell "—" [ref=f16e384]:
+                    - generic [ref=f16e385]: —
+                  - gridcell "Completed" [ref=f16e386]:
+                    - generic [ref=f16e387]: Completed
+                  - gridcell "    " [ref=f16e388]:
+                    - list [ref=f16e389]:
+                      - listitem [ref=f16e390] [cursor=pointer]:
+                        - link "" [ref=f16e391]:
+                          - /url: /LiveApl/Edit?id=16
+                          - generic [ref=f16e392]: 
+                      - listitem [ref=f16e393]:
+                        - link "" [ref=f16e394] [cursor=pointer]:
+                          - /url: /LiveApl/Questions?liveAplId=16
+                          - generic [ref=f16e395]: 
+                      - listitem [ref=f16e396]:
+                        - link "" [ref=f16e397] [cursor=pointer]:
+                          - /url: /LiveApl/DownloadAnswerKey?liveAplId=16
+                          - generic [ref=f16e398]: 
+                      - listitem [ref=f16e399]:
+                        - link "" [ref=f16e400] [cursor=pointer]:
+                          - /url: /LiveAplResults/Announce?liveAplId=16
+                          - generic [ref=f16e401]: 
+                      - listitem [ref=f16e402] [cursor=pointer]:
+                        - link "" [ref=f16e403]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e404]: 
+                - row "— English Language Live Duel — 12 Jul 2026 15:27 200 25 0 Results will be announced shortly after … Completed     " [ref=f16e405]:
+                  - gridcell "—" [ref=f16e406]:
+                    - generic [ref=f16e407]: —
+                  - gridcell "English Language Live Duel" [ref=f16e408]:
+                    - strong [ref=f16e409]: English Language Live Duel
+                  - gridcell "—" [ref=f16e410]:
+                    - generic [ref=f16e411]: —
+                  - gridcell "12 Jul 2026 15:27" [ref=f16e412]
+                  - gridcell "200" [ref=f16e413]
+                  - gridcell "25" [ref=f16e414]
+                  - gridcell "0" [ref=f16e415]:
+                    - link "0" [ref=f16e416] [cursor=pointer]:
+                      - /url: /LiveApl/Questions?liveAplId=8
+                  - gridcell "Results will be announced shortly after …" [ref=f16e417]:
+                    - generic [ref=f16e418]: Results will be announced shortly after …
+                  - gridcell "Completed" [ref=f16e419]:
+                    - generic [ref=f16e420]: Completed
+                  - gridcell "    " [ref=f16e421]:
+                    - list [ref=f16e422]:
+                      - listitem [ref=f16e423] [cursor=pointer]:
+                        - link "" [ref=f16e424]:
+                          - /url: /LiveApl/Edit?id=8
+                          - generic [ref=f16e425]: 
+                      - listitem [ref=f16e426]:
+                        - link "" [ref=f16e427] [cursor=pointer]:
+                          - /url: /LiveApl/Questions?liveAplId=8
+                          - generic [ref=f16e428]: 
+                      - listitem [ref=f16e429]:
+                        - link "" [ref=f16e430] [cursor=pointer]:
+                          - /url: /LiveApl/DownloadAnswerKey?liveAplId=8
+                          - generic [ref=f16e431]: 
+                      - listitem [ref=f16e432]:
+                        - link "" [ref=f16e433] [cursor=pointer]:
+                          - /url: /LiveAplResults/Announce?liveAplId=8
+                          - generic [ref=f16e434]: 
+                      - listitem [ref=f16e435] [cursor=pointer]:
+                        - link "" [ref=f16e436]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e437]: 
+                - row "English Language Live Duel English Language Live Duel — 12 Jul 2026 15:04 200 25 0 Results will be announced shortly after … Completed     " [ref=f16e438]:
+                  - gridcell "English Language Live Duel" [ref=f16e439]:
+                    - img "English Language Live Duel" [ref=f16e440]
+                  - gridcell "English Language Live Duel" [ref=f16e441]:
+                    - strong [ref=f16e442]: English Language Live Duel
+                  - gridcell "—" [ref=f16e443]:
+                    - generic [ref=f16e444]: —
+                  - gridcell "12 Jul 2026 15:04" [ref=f16e445]
+                  - gridcell "200" [ref=f16e446]
+                  - gridcell "25" [ref=f16e447]
+                  - gridcell "0" [ref=f16e448]:
+                    - link "0" [ref=f16e449] [cursor=pointer]:
+                      - /url: /LiveApl/Questions?liveAplId=3
+                  - gridcell "Results will be announced shortly after …" [ref=f16e450]:
+                    - generic [ref=f16e451]: Results will be announced shortly after …
+                  - gridcell "Completed" [ref=f16e452]:
+                    - generic [ref=f16e453]: Completed
+                  - gridcell "    " [ref=f16e454]:
+                    - list [ref=f16e455]:
+                      - listitem [ref=f16e456] [cursor=pointer]:
+                        - link "" [ref=f16e457]:
+                          - /url: /LiveApl/Edit?id=3
+                          - generic [ref=f16e458]: 
+                      - listitem [ref=f16e459]:
+                        - link "" [ref=f16e460] [cursor=pointer]:
+                          - /url: /LiveApl/Questions?liveAplId=3
+                          - generic [ref=f16e461]: 
+                      - listitem [ref=f16e462]:
+                        - link "" [ref=f16e463] [cursor=pointer]:
+                          - /url: /LiveApl/DownloadAnswerKey?liveAplId=3
+                          - generic [ref=f16e464]: 
+                      - listitem [ref=f16e465]:
+                        - link "" [ref=f16e466] [cursor=pointer]:
+                          - /url: /LiveAplResults/Announce?liveAplId=3
+                          - generic [ref=f16e467]: 
+                      - listitem [ref=f16e468] [cursor=pointer]:
+                        - link "" [ref=f16e469]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e470]: 
+                - row "— Mathematics Speed Challenge — 11 Jul 2026 15:27 50 30 0 Results will be announced shortly after … Completed     " [ref=f16e471]:
+                  - gridcell "—" [ref=f16e472]:
+                    - generic [ref=f16e473]: —
+                  - gridcell "Mathematics Speed Challenge" [ref=f16e474]:
+                    - strong [ref=f16e475]: Mathematics Speed Challenge
+                  - gridcell "—" [ref=f16e476]:
+                    - generic [ref=f16e477]: —
+                  - gridcell "11 Jul 2026 15:27" [ref=f16e478]
+                  - gridcell "50" [ref=f16e479]
+                  - gridcell "30" [ref=f16e480]
+                  - gridcell "0" [ref=f16e481]:
+                    - link "0" [ref=f16e482] [cursor=pointer]:
+                      - /url: /LiveApl/Questions?liveAplId=7
+                  - gridcell "Results will be announced shortly after …" [ref=f16e483]:
+                    - generic [ref=f16e484]: Results will be announced shortly after …
+                  - gridcell "Completed" [ref=f16e485]:
+                    - generic [ref=f16e486]: Completed
+                  - gridcell "    " [ref=f16e487]:
+                    - list [ref=f16e488]:
+                      - listitem [ref=f16e489] [cursor=pointer]:
+                        - link "" [ref=f16e490]:
+                          - /url: /LiveApl/Edit?id=7
+                          - generic [ref=f16e491]: 
+                      - listitem [ref=f16e492]:
+                        - link "" [ref=f16e493] [cursor=pointer]:
+                          - /url: /LiveApl/Questions?liveAplId=7
+                          - generic [ref=f16e494]: 
+                      - listitem [ref=f16e495]:
+                        - link "" [ref=f16e496] [cursor=pointer]:
+                          - /url: /LiveApl/DownloadAnswerKey?liveAplId=7
+                          - generic [ref=f16e497]: 
+                      - listitem [ref=f16e498]:
+                        - link "" [ref=f16e499] [cursor=pointer]:
+                          - /url: /LiveAplResults/Announce?liveAplId=7
+                          - generic [ref=f16e500]: 
+                      - listitem [ref=f16e501] [cursor=pointer]:
+                        - link "" [ref=f16e502]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e503]: 
+            - status [ref=f16e504]: Showing 1 to 10 of 14 entries
+            - generic [ref=f16e505]:
+              - generic [ref=f16e506]: Previous
+              - generic [ref=f16e507]:
+                - generic [ref=f16e508] [cursor=pointer]: "1"
+                - generic [ref=f16e509] [cursor=pointer]: "2"
+              - generic [ref=f16e510] [cursor=pointer]: Next
+      - contentinfo [ref=f16e511]:
+        - paragraph [ref=f16e515]:
+          - text: Copyright
+          - generic [ref=f16e516]: "2026"
+          - text: © Jeshwar Teaching
+  - img

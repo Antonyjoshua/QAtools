@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spot the Bug Quiz — Antony Joshua S</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="game-page-nav">
+    <a href="index.html#games" class="game-back-link">← Back to Portfolio</a>
+    <span class="nav-logo">AJ<span class="accent">.</span></span>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span class="theme-icon">☀️</span>
+    </button>
+  </nav>
+
+  <div class="game-page-body">
+    <section id="spot-the-bug">
+      <div class="container">
+        <h2 class="section-title">Spot the <span class="accent">Bug</span></h2>
+        <p class="stb-intro">5 real-world QA scenarios. Can you identify what's wrong?</p>
+
+        <div class="stb-wrap">
+          <div class="stb-progress-bar"><div class="stb-progress-fill" id="stbFill"></div></div>
+          <p class="stb-progress-label" id="stbProgressLabel">Question 1 of 5</p>
+
+          <div class="stb-card" id="stbCard">
+            <div class="stb-question" id="stbQuestion"></div>
+            <pre class="stb-code" id="stbCode"></pre>
+            <div class="stb-options" id="stbOptions"></div>
+            <p class="stb-feedback" id="stbFeedback"></p>
+          </div>
+
+          <div class="stb-result" id="stbResult" style="display:none">
+            <p class="stb-result-score"><span class="accent" id="stbFinalScore"></span> / 5 correct</p>
+            <p class="stb-result-rank" id="stbResultRank"></p>
+            <div class="stb-result-breakdown" id="stbBreakdown"></div>
+            <button class="btn btn-primary" id="stbRestartBtn">Try Again</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="theme.js"></script>
+  <script src="jarvis.js"></script>
+  <script>
+    const questions = [
+      {
+        q: "Q1 — What's the bug in this JavaScript function?",
+        code:
+`function addNumbers(a, b) {
+  return a - b;
+}
+// Test: addNumbers(5, 3)
+// Expected: 8  |  Got: 2`,
+        options: [
+          'Missing semicolon at end of return statement',
+          'Wrong operator: "-" should be "+"',
+          'Function name is misleading',
+          'Parameters a and b should be strings'
+        ],
+        answer: 1,
+        explanation: 'The function subtracts instead of adds. A classic arithmetic operator typo — easy to miss in code review.'
+      },
+      {
+        q: 'Q2 — What security/QA defect does this HTML form have?',
+        code:
+`<form>
+  <input type="text" placeholder="Username">
+  <input type="text" placeholder="Password">
+  <button type="submit">Login</button>
+</form>`,
+        options: [
+          'Missing "action" attribute on the form',
+          'Password field uses type="text" — exposes password in plain text',
+          'Button needs an onClick event handler',
+          'Inputs are missing "name" attributes'
+        ],
+        answer: 1,
+        explanation: 'The password input uses type="text" so the password is visible as the user types. It must be type="password".'
+      },
+      {
+        q: 'Q3 — Which API response behaviour is a defect?',
+        code:
+`// Creating a new user
+POST /api/users
+Body: { "name": "Antony", "email": "antony@test.com" }
+
+// Server responds with:
+HTTP 200 OK
+{ "id": 42, "name": "Antony" }`,
+        options: [
+          'Response should not include the user object',
+          'POST should be changed to PUT',
+          'Status code should be 201 Created, not 200 OK',
+          'Email field is missing from the response'
+        ],
+        answer: 2,
+        explanation: 'RFC 7231 says a POST that creates a resource must return 201 Created. Returning 200 is semantically wrong and breaks REST clients that check status codes.'
+      },
+      {
+        q: "Q4 — What's the bug in this loop?",
+        code:
+`const items = ['Home', 'About', 'Projects', 'Contact'];
+
+for (let i = 0; i <= items.length; i++) {
+  console.log(items[i]);
+}
+// Output: Home About Projects Contact undefined`,
+        options: [
+          'Wrong variable name inside the loop',
+          'Array items should use const not let',
+          'Loop condition uses "<=" instead of "<" — off-by-one error',
+          'Missing break statement at the end'
+        ],
+        answer: 2,
+        explanation: 'Using "<=" goes one index past the last element. items[4] is undefined. The condition should be i < items.length.'
+      },
+      {
+        q: 'Q5 — Identify the UI/UX defect in this scenario:',
+        code:
+`Account Settings page:
+
+[ Save Changes ]  [ Delete Account ]
+
+Both buttons have identical styling.
+"Delete Account" executes immediately
+on click — no confirmation dialog.`,
+        options: [
+          'Save Changes button is in the wrong position',
+          'No confirmation dialog before a destructive, irreversible action',
+          'Buttons should have icons to look better',
+          'Font size is too small for accessibility'
+        ],
+        answer: 1,
+        explanation: 'Destructive actions (delete, clear all, overwrite) must always ask for confirmation. No dialog = accidental data loss, a critical UX defect.'
+      }
+    ];
+
+    let current = 0, score = 0;
+    const answers = [];
+
+    const fillEl     = document.getElementById('stbFill');
+    const labelEl    = document.getElementById('stbProgressLabel');
+    const questionEl = document.getElementById('stbQuestion');
+    const codeEl     = document.getElementById('stbCode');
+    const optionsEl  = document.getElementById('stbOptions');
+    const feedbackEl = document.getElementById('stbFeedback');
+    const cardEl     = document.getElementById('stbCard');
+    const resultEl   = document.getElementById('stbResult');
+
+    function showQuestion(index) {
+      const q = questions[index];
+      fillEl.style.width = (index / questions.length * 100) + '%';
+      labelEl.textContent = 'Question ' + (index + 1) + ' of ' + questions.length;
+      questionEl.textContent = q.q;
+      if (q.code) { codeEl.textContent = q.code; codeEl.classList.add('show'); }
+      else { codeEl.classList.remove('show'); }
+      feedbackEl.textContent = '';
+      optionsEl.innerHTML = '';
+      q.options.forEach((opt, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'stb-option';
+        btn.textContent = opt;
+        btn.addEventListener('click', () => pickAnswer(i, btn, q));
+        optionsEl.appendChild(btn);
+      });
+    }
+
+    function pickAnswer(chosen, btn, q) {
+      optionsEl.querySelectorAll('.stb-option').forEach(b => { b.disabled = true; });
+      const correct = chosen === q.answer;
+      btn.classList.add(correct ? 'correct' : 'wrong');
+      if (!correct) optionsEl.querySelectorAll('.stb-option')[q.answer].classList.add('correct');
+      feedbackEl.textContent = (correct ? '✓ ' : '✗ ') + q.explanation;
+      answers.push({ q: q.q.replace(/^Q\d+ — /, ''), correct });
+      if (correct) score++;
+      setTimeout(() => {
+        current++;
+        if (current < questions.length) showQuestion(current);
+        else showResult();
+      }, 1600);
+    }
+
+    function showResult() {
+      fillEl.style.width = '100%';
+      cardEl.style.display = 'none';
+      resultEl.style.display = 'block';
+      document.getElementById('stbFinalScore').textContent = score;
+      const ranks = [
+        [5, '🏆 Perfect score! You think like a QA expert.'],
+        [4, '⭐ Excellent — strong bug detection skills!'],
+        [3, '✓ Good — solid QA fundamentals.'],
+        [2, '📖 Not bad — keep sharpening your skills.'],
+        [0, '🐛 Keep practicing — QA takes experience!']
+      ];
+      document.getElementById('stbResultRank').textContent = ranks.find(([min]) => score >= min)[1];
+      document.getElementById('stbBreakdown').innerHTML = answers.map(a =>
+        `<div class="stb-breakdown-item">
+          <span class="stb-breakdown-icon">${a.correct ? '✅' : '❌'}</span>
+          <span>${a.q}</span>
+        </div>`
+      ).join('');
+    }
+
+    function restart() {
+      current = 0; score = 0; answers.length = 0;
+      fillEl.style.width = '0%';
+      labelEl.textContent = 'Question 1 of 5';
+      resultEl.style.display = 'none';
+      cardEl.style.display = 'block';
+      showQuestion(0);
+    }
+
+    document.getElementById('stbRestartBtn').addEventListener('click', restart);
+    showQuestion(0);
+  </script>
+</body>
+</html>

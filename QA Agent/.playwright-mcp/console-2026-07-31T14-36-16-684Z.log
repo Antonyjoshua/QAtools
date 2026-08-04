@@ -1,0 +1,24 @@
+[      92ms] ReferenceError: jQuery is not defined
+    at https://jt-frontend.scopethinkers.com/lib/jquery-validation/dist/jquery.validate.min.js:4:151
+    at https://jt-frontend.scopethinkers.com/lib/jquery-validation/dist/jquery.validate.min.js:4:159
+[      93ms] ReferenceError: jQuery is not defined
+    at https://jt-frontend.scopethinkers.com/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js:8:201
+    at https://jt-frontend.scopethinkers.com/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js:8:240
+[     141ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://jt-frontend.scopethinkers.com/Account/Register:0
+[     141ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://jt-frontend.scopethinkers.com/Account/Register:0
+[   38864ms] ReferenceError: jQuery is not defined
+    at https://jt-frontend.scopethinkers.com/lib/jquery-validation/dist/jquery.validate.min.js:4:151
+    at https://jt-frontend.scopethinkers.com/lib/jquery-validation/dist/jquery.validate.min.js:4:159
+[   38865ms] ReferenceError: jQuery is not defined
+    at https://jt-frontend.scopethinkers.com/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js:8:201
+    at https://jt-frontend.scopethinkers.com/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js:8:240
+[   38889ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://jt-frontend.scopethinkers.com/Account/Register:0
+[   38889ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://jt-frontend.scopethinkers.com/Account/Register:0
+[   52316ms] ReferenceError: jQuery is not defined
+    at https://jt-frontend.scopethinkers.com/lib/jquery-validation/dist/jquery.validate.min.js:4:151
+    at https://jt-frontend.scopethinkers.com/lib/jquery-validation/dist/jquery.validate.min.js:4:159
+[   52317ms] ReferenceError: jQuery is not defined
+    at https://jt-frontend.scopethinkers.com/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js:8:201
+    at https://jt-frontend.scopethinkers.com/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js:8:240
+[   74058ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-api.scopethinkers.com//Topics/Images/5a62e0f4-41c3-4e45-977e-a326acfc8332.png:0
+[   74059ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jt-api.scopethinkers.com//Topics/Images/b1f05018-83a0-403c-85fb-b882f4cbff61.png:0

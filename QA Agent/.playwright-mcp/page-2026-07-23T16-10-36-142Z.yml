@@ -1,0 +1,310 @@
+- generic [ref=f17e1]:
+  - generic [ref=f17e7]:
+    - generic [ref=f17e8]:
+      - generic [ref=f17e9]:
+        - heading "Dashboard" [level=4] [ref=f17e10]
+        - navigation [ref=f17e11]:
+          - list [ref=f17e12]:
+            - listitem [ref=f17e13]:
+              - link [ref=f17e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f17e15]
+            - listitem [ref=f17e18]: / Index
+      - generic [ref=f17e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f17e22]:
+          - text: 
+          - listitem [ref=f17e23] [cursor=pointer]:
+            - generic [ref=f17e25]:
+              - generic [ref=f17e26]: superadmin@gmail.com
+              - paragraph [ref=f17e27]:
+                - text: SuperAdmin
+                - generic [ref=f17e28]: 
+    - generic [ref=f17e29]:
+      - generic [ref=f17e31]:
+        - generic [ref=f17e32]:
+          - link [ref=f17e33] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f17e35] [cursor=pointer]
+        - navigation [ref=f17e37]:
+          - list [ref=f17e39]:
+            - generic [ref=f17e44]:
+              - text: 
+              - listitem [ref=f17e45]:
+                - heading "Applications" [level=6] [ref=f17e47]
+              - listitem [ref=f17e48]:
+                - link "Dashboard" [ref=f17e49] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f17e50]
+                  - generic [ref=f17e52]: Dashboard
+                  - text: 
+              - listitem [ref=f17e53]:
+                - link "Enrollment " [ref=f17e54] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e55]
+                  - generic [ref=f17e57]: Enrollment
+                  - generic [ref=f17e59]: 
+              - listitem [ref=f17e60]:
+                - link "Website Settings " [ref=f17e61] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e62]
+                  - generic [ref=f17e64]: Website Settings
+                  - generic [ref=f17e66]: 
+              - listitem [ref=f17e67]:
+                - link "Membership " [ref=f17e68] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e69]
+                  - generic [ref=f17e71]: Membership
+                  - generic [ref=f17e73]: 
+              - listitem [ref=f17e74]:
+                - link "IVR " [ref=f17e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e76]
+                  - generic [ref=f17e78]: IVR
+                  - generic [ref=f17e80]: 
+              - listitem [ref=f17e81]:
+                - link "Course " [ref=f17e82] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e83]
+                  - generic [ref=f17e85]: Course
+                  - generic [ref=f17e87]: 
+              - listitem [ref=f17e88]:
+                - link " Self Host " [ref=f17e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f17e90]: 
+                  - generic [ref=f17e91]: Self Host
+                  - generic [ref=f17e93]: 
+              - listitem [ref=f17e94]:
+                - link "Assessment " [ref=f17e95] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e96]
+                  - generic [ref=f17e98]: Assessment
+                  - generic [ref=f17e100]: 
+              - listitem [ref=f17e101]:
+                - link "Student Activity " [ref=f17e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e103]
+                  - generic [ref=f17e105]: Student Activity
+                  - generic [ref=f17e107]: 
+              - listitem [ref=f17e108]:
+                - link "APL " [ref=f17e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e110]
+                  - generic [ref=f17e112]: APL
+                  - generic [ref=f17e114]: 
+              - listitem [ref=f17e115]:
+                - link "Email Draft " [ref=f17e116] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e117]
+                  - generic [ref=f17e119]: Email Draft
+                  - generic [ref=f17e121]: 
+              - listitem [ref=f17e122]:
+                - link "Admin " [ref=f17e123] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e124]
+                  - generic [ref=f17e126]: Admin
+                  - generic [ref=f17e128]: 
+              - listitem [ref=f17e129]:
+                - link "GST Report " [ref=f17e130] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e131]
+                  - generic [ref=f17e133]: GST Report
+                  - generic [ref=f17e135]: 
+              - listitem [ref=f17e136]:
+                - link "general icon General " [ref=f17e137] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f17e138]
+                  - generic [ref=f17e139]: General
+                  - generic [ref=f17e141]: 
+              - listitem [ref=f17e142]:
+                - link "Leaderboard" [ref=f17e143] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f17e144]
+                  - generic [ref=f17e146]: Leaderboard
+                  - text: 
+              - listitem [ref=f17e147]:
+                - heading "E-Commerce" [level=6] [ref=f17e149]
+              - listitem [ref=f17e150]:
+                - link "Dashboard" [ref=f17e151] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f17e152]
+                  - generic [ref=f17e154]: Dashboard
+                  - text: 
+              - listitem [ref=f17e155]:
+                - link "product icon Product " [ref=f17e156] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f17e157]
+                  - generic [ref=f17e158]: Product
+                  - generic [ref=f17e160]: 
+              - listitem [ref=f17e161]:
+                - link "Ebooks " [ref=f17e162] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e163]
+                  - generic [ref=f17e165]: Ebooks
+                  - generic [ref=f17e167]: 
+              - listitem [ref=f17e168]:
+                - link "Order " [ref=f17e169] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e170]
+                  - generic [ref=f17e172]: Order
+                  - generic [ref=f17e174]: 
+              - listitem [ref=f17e175]:
+                - link "Customer" [ref=f17e176] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f17e177]
+                  - generic [ref=f17e179]: Customer
+                  - text: 
+              - listitem [ref=f17e180]:
+                - link "Dashboards " [ref=f17e181] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e182]
+                  - generic [ref=f17e184]: Dashboards
+                  - generic [ref=f17e186]: 
+              - listitem [ref=f17e187]:
+                - link "Reports " [ref=f17e188] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e189]
+                  - generic [ref=f17e191]: Reports
+                  - generic [ref=f17e193]: 
+                - list [ref=f17e194]:
+                  - listitem [ref=f17e195]:
+                    - link "Purchase Report" [ref=f17e196] [cursor=pointer]:
+                      - /url: /Admin/Books/Reports/Purchase
+                  - listitem [ref=f17e197]:
+                    - link "Sales Report" [ref=f17e198] [cursor=pointer]:
+                      - /url: /Admin/Books/Reports/Sales
+                  - listitem [ref=f17e199]:
+                    - link "Inventory Report" [ref=f17e200] [cursor=pointer]:
+                      - /url: /Admin/Books/Reports/Inventory
+                  - listitem [ref=f17e201]:
+                    - link "Combo Report" [ref=f17e202] [cursor=pointer]:
+                      - /url: /Admin/Books/Reports/Combo
+              - listitem [ref=f17e203]:
+                - link "Manual Purchase" [ref=f17e204] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f17e205]
+                  - generic [ref=f17e207]: Manual Purchase
+              - listitem [ref=f17e208]:
+                - heading "Payments" [level=6] [ref=f17e210]
+              - listitem [ref=f17e211]:
+                - link "Transactions " [ref=f17e212] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f17e213]
+                  - generic [ref=f17e215]: Transactions
+                  - generic [ref=f17e217]: 
+              - listitem [ref=f17e218]:
+                - heading "Notifcations" [level=6] [ref=f17e220]
+              - listitem [ref=f17e221]:
+                - link "notify-ico Notifications " [ref=f17e222] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f17e223]
+                  - generic [ref=f17e224]: Notifications
+                  - generic [ref=f17e226]: 
+              - listitem [ref=f17e227]:
+                - heading "Job Management" [level=6] [ref=f17e229]
+              - listitem [ref=f17e230]:
+                - link "notify-ico Jobs " [ref=f17e231] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f17e232]
+                  - generic [ref=f17e233]: Jobs
+                  - generic [ref=f17e235]: 
+      - main [ref=f17e237]:
+        - generic [ref=f17e241]:
+          - generic [ref=f17e242]:
+            - heading "Inventory Report" [level=5] [ref=f17e243]
+            - button " Export Excel" [ref=f17e244] [cursor=pointer]:
+              - generic [ref=f17e245]: 
+              - text: Export Excel
+          - generic [ref=f17e246]:
+            - generic [ref=f17e248]:
+              - generic [ref=f17e249]:
+                - generic [ref=f17e250]: From Date
+                - textbox [ref=f17e251] [cursor=pointer]
+              - generic [ref=f17e252]:
+                - generic [ref=f17e253]: To Date
+                - textbox [ref=f17e254] [cursor=pointer]
+              - generic [ref=f17e255]:
+                - generic [ref=f17e256]: Product Title
+                - textbox "Search product..." [ref=f17e257] [cursor=pointer]
+              - generic [ref=f17e258]:
+                - generic [ref=f17e259]: Product Type
+                - combobox [ref=f17e260] [cursor=pointer]:
+                  - option "All Types" [selected]
+                  - option "Books"
+                  - option "Product Type"
+                  - option "Stationary"
+                  - option "New Book"
+                  - option "New books"
+                  - option "Books no 01"
+                  - option "Miscellaneous"
+                  - option "JT special store"
+                  - option "Multiple/Combo"
+                  - option "Combo"
+                  - option "New Book"
+                  - option "New product"
+              - generic [ref=f17e261]:
+                - generic [ref=f17e262]: Transaction Type
+                - combobox [ref=f17e263] [cursor=pointer]:
+                  - option "All" [selected]
+                  - option "IN"
+                  - option "OUT"
+                  - option "ADJUSTMENT"
+              - generic [ref=f17e264]:
+                - generic [ref=f17e265]: Customer
+                - textbox "Search customer..." [ref=f17e266] [cursor=pointer]
+              - generic [ref=f17e267]:
+                - button "Apply" [ref=f17e268] [cursor=pointer]
+                - button "Clear" [ref=f17e269] [cursor=pointer]
+            - generic [ref=f17e270]:
+              - generic [ref=f17e271]:
+                - generic [ref=f17e272]:
+                  - generic [ref=f17e273]: Total Stock IN
+                  - heading "—" [level=3] [ref=f17e274] [cursor=pointer]
+                - generic [ref=f17e276]: 
+              - generic [ref=f17e277]:
+                - generic [ref=f17e278]:
+                  - generic [ref=f17e279]: Total Stock OUT
+                  - heading "—" [level=3] [ref=f17e280] [cursor=pointer]
+                - generic [ref=f17e282]: 
+              - generic [ref=f17e283]:
+                - generic [ref=f17e284]:
+                  - generic [ref=f17e285]: Current Total Stock
+                  - heading "—" [level=3] [ref=f17e286] [cursor=pointer]
+                - generic [ref=f17e288]: 
+              - generic [ref=f17e289]:
+                - generic [ref=f17e290]:
+                  - generic [ref=f17e291]: Low / Out of Stock
+                  - heading "—" [level=3] [ref=f17e292] [cursor=pointer]
+                - generic [ref=f17e294]: 
+            - tablist [ref=f17e295]:
+              - tab "Transaction Detail" [selected] [ref=f17e296] [cursor=pointer]
+              - tab "Product Summary" [ref=f17e297] [cursor=pointer]
+            - tabpanel "Transaction Detail" [ref=f17e299]:
+              - generic [ref=f17e301]:
+                - grid [ref=f17e304]:
+                  - rowgroup [ref=f17e305]:
+                    - 'row "Date  Product  Type  Txn Type  Qty Changed  Stock After  Customer  Order #  Reason " [ref=f17e306]':
+                      - columnheader "Date " [ref=f17e307] [cursor=pointer]
+                      - columnheader "Product " [ref=f17e308] [cursor=pointer]
+                      - columnheader "Type " [ref=f17e309] [cursor=pointer]
+                      - columnheader "Txn Type " [ref=f17e310] [cursor=pointer]
+                      - columnheader "Qty Changed " [ref=f17e311] [cursor=pointer]
+                      - columnheader "Stock After " [ref=f17e312] [cursor=pointer]
+                      - columnheader "Customer " [ref=f17e313] [cursor=pointer]
+                      - 'columnheader "Order # " [ref=f17e314] [cursor=pointer]'
+                      - columnheader "Reason " [ref=f17e315] [cursor=pointer]
+                  - rowgroup
+                - status [ref=f17e316]
+      - contentinfo [ref=f17e317]:
+        - paragraph [ref=f17e321]:
+          - text: Copyright
+          - generic [ref=f17e322]: "2026"
+          - text: © Jeshwar Teaching
+  - img

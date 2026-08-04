@@ -1,0 +1,228 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - generic [ref=f8e4]:
+        - heading "Dashboard" [level=4] [ref=f8e5]
+        - navigation [ref=f8e6]:
+          - list [ref=f8e7]:
+            - listitem [ref=f8e8]:
+              - link [ref=f8e9] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f8e10]
+            - listitem [ref=f8e13]: / Index
+      - generic [ref=f8e15]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f8e17]:
+          - listitem [ref=f8e18]:
+            - generic [ref=f8e20] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f8e21]:
+      - generic [ref=f8e23]:
+        - text: 
+        - link [ref=f8e25] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f8e26]:
+          - list [ref=f8e28]:
+            - generic [ref=f8e33]:
+              - text: 
+              - listitem [ref=f8e34]:
+                - link [ref=f8e35] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f8e36]
+                  - text: 
+              - listitem [ref=f8e38]:
+                - link [ref=f8e39] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e40]
+                  - text: 
+              - listitem [ref=f8e42]:
+                - link [ref=f8e43] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e44]
+                  - text: 
+              - listitem [ref=f8e46]:
+                - link [ref=f8e47] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e48]
+                  - text: 
+              - listitem [ref=f8e50]:
+                - link [ref=f8e51] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e52]
+                  - text: 
+              - listitem [ref=f8e54]:
+                - link [ref=f8e55] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e56]
+                  - text: 
+              - listitem [ref=f8e58]:
+                - link "" [ref=f8e59] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f8e60]: 
+                  - text: 
+              - listitem [ref=f8e61]:
+                - link [ref=f8e62] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e63]
+                  - text: 
+              - listitem [ref=f8e65]:
+                - link [ref=f8e66] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e67]
+                  - text: 
+              - listitem [ref=f8e69]:
+                - link [ref=f8e70] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e71]
+                  - text: 
+              - listitem [ref=f8e73]:
+                - link [ref=f8e74] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e75]
+                  - text: 
+              - listitem [ref=f8e77]:
+                - link [ref=f8e78] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e79]
+                  - text: 
+              - listitem [ref=f8e81]:
+                - link [ref=f8e82] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e83]
+                  - text: 
+              - listitem [ref=f8e85]:
+                - link "general icon" [ref=f8e86] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f8e87]
+                  - text: 
+              - listitem [ref=f8e88]:
+                - link [ref=f8e89] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f8e90]
+                  - text: 
+              - listitem [ref=f8e92]:
+                - link [ref=f8e93] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f8e94]
+                  - text: 
+              - listitem [ref=f8e96]:
+                - link "product icon" [ref=f8e97] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f8e98]
+                  - text: 
+              - listitem [ref=f8e99]:
+                - link [ref=f8e100] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e101]
+                  - text: 
+              - listitem [ref=f8e103]:
+                - link [ref=f8e104] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e105]
+                  - text: 
+              - listitem [ref=f8e107]:
+                - link [ref=f8e108] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f8e109]
+                  - text: 
+              - listitem [ref=f8e111]:
+                - link [ref=f8e112] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e113]
+                  - text: 
+              - listitem [ref=f8e115]:
+                - link [ref=f8e116] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e117]
+                  - text: 
+              - listitem [ref=f8e119]:
+                - link [ref=f8e120] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f8e121]
+              - listitem [ref=f8e123]:
+                - link [ref=f8e124] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f8e125]
+                  - text: 
+              - listitem [ref=f8e127]:
+                - link "notify-ico" [ref=f8e128] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f8e129]
+                  - text: 
+              - listitem [ref=f8e130]:
+                - link "notify-ico" [ref=f8e131] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f8e132]
+                  - text: 
+      - main [ref=f8e134]:
+        - generic [ref=f8e135]:
+          - navigation "breadcrumb" [ref=f8e138]:
+            - list [ref=f8e139]:
+              - listitem [ref=f8e140]:
+                - link "Live APL" [ref=f8e141] [cursor=pointer]:
+                  - /url: /LiveApl/Index
+              - listitem [ref=f8e142]: / QATEST_APL_2026-07-28 — Questions
+          - generic [ref=f8e145]:
+            - generic [ref=f8e146]:
+              - generic [ref=f8e147]:
+                - heading "QATEST_APL_2026-07-28" [level=5] [ref=f8e148]
+                - generic [ref=f8e149]:
+                  - generic [ref=f8e150]: "0"
+                  - text: questions added
+              - generic [ref=f8e151]:
+                - link " Back" [ref=f8e152] [cursor=pointer]:
+                  - /url: /LiveApl/Index
+                  - generic [ref=f8e153]: 
+                  - text: Back
+                - button " Delete Selected" [disabled]:
+                  - generic: 
+                  - text: Delete Selected
+                - link " AI Generate" [ref=f8e154] [cursor=pointer]:
+                  - /url: /LiveApl/AiGenerate?liveAplId=62
+                  - generic [ref=f8e155]: 
+                  - text: AI Generate
+                - button " Add Question" [ref=f8e156] [cursor=pointer]:
+                  - generic [ref=f8e157]: 
+                  - text: Add Question
+            - generic [ref=f8e160]:
+              - generic [ref=f8e162]:
+                - text: Show
+                - combobox "Show entries" [ref=f8e163] [cursor=pointer]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: entries
+              - generic [ref=f8e165]:
+                - text: "Search:"
+                - searchbox "Search:" [ref=f8e166] [cursor=pointer]
+              - grid [ref=f8e167]:
+                - rowgroup [ref=f8e168]:
+                  - row "Question (Tamil) Question (English) Coins Status Actions" [ref=f8e169]:
+                    - columnheader [ref=f8e170]:
+                      - checkbox [ref=f8e171] [cursor=pointer]
+                    - columnheader "Question (Tamil)" [ref=f8e172]
+                    - columnheader "Question (English)" [ref=f8e173]
+                    - columnheader "Coins" [ref=f8e174]
+                    - columnheader "Status" [ref=f8e175]
+                    - columnheader "Actions" [ref=f8e176]
+                - rowgroup [ref=f8e177]:
+                  - row "No questions yet. Add your first question or use AI Generate." [ref=f8e178]:
+                    - gridcell "No questions yet. Add your first question or use AI Generate." [ref=f8e179]
+              - status [ref=f8e180]: Showing 0 to 0 of 0 entries
+              - generic [ref=f8e181]:
+                - generic [ref=f8e182]: Previous
+                - generic [ref=f8e183]: Next
+        - text:  
+      - contentinfo [ref=f8e184]:
+        - paragraph [ref=f8e188]:
+          - text: Copyright
+          - generic [ref=f8e189]: "2026"
+          - text: © Jeshwar Teaching
+  - img

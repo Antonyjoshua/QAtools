@@ -1,0 +1,84 @@
+- generic [ref=f9e1]:
+  - generic [ref=f9e4]:
+    - heading [level=2] [ref=f9e8]: Never Give Up is more important than Success!
+    - generic [ref=f9e10]:
+      - img [ref=f9e11]
+      - generic [ref=f9e12]:
+        - heading [level=2] [ref=f9e13]: Create An Account
+        - paragraph [ref=f9e14]:
+          - text: Already have an account?
+          - link [ref=f9e15] [cursor=pointer]:
+            - /url: /
+            - text: Login
+        - generic [ref=f9e16]:
+          - generic [ref=f9e17]:
+            - generic [ref=f9e18]:
+              - generic [ref=f9e19]: First Name *
+              - textbox [ref=f9e20]:
+                - /placeholder: Enter your first name
+            - generic [ref=f9e21]:
+              - generic [ref=f9e22]: Last Name *
+              - textbox [ref=f9e23]:
+                - /placeholder: Enter your last name
+          - generic [ref=f9e24]:
+            - generic [ref=f9e25]:
+              - generic [ref=f9e26]: Username *
+              - textbox [ref=f9e27]:
+                - /placeholder: Enter your username
+              - paragraph [ref=f9e28]: e.g., rajesh, rajesh1995 (3-20 chars, letters, numbers)
+            - generic [ref=f9e29]:
+              - generic [ref=f9e30]: Email Address *
+              - textbox [ref=f9e31]:
+                - /placeholder: Enter your email
+          - generic [ref=f9e32]:
+            - generic [ref=f9e33]:
+              - generic [ref=f9e34]: Phone Number *
+              - textbox [ref=f9e35]:
+                - /placeholder: Enter your phone number
+            - generic [ref=f9e36]:
+              - generic [ref=f9e37]: Date of Birth(Optional)
+              - textbox [ref=f9e38]
+          - generic [ref=f9e39]:
+            - generic [ref=f9e40]:
+              - generic [ref=f9e41]: Password *
+              - textbox [ref=f9e42]:
+                - /placeholder: Enter your password
+              - paragraph [ref=f9e43]: e.g.,Rajesh@123 (min 8 chars with uppercase, lowercase, number & special char)
+            - generic [ref=f9e44]:
+              - generic [ref=f9e45]: Confirm Password *
+              - textbox [ref=f9e46]:
+                - /placeholder: Confirm your password
+          - generic [ref=f9e47]:
+            - generic [ref=f9e48]:
+              - generic [ref=f9e49]: City
+              - textbox [ref=f9e50]:
+                - /placeholder: Enter your City
+            - generic [ref=f9e51]:
+              - generic [ref=f9e52]: Gender
+              - generic [ref=f9e53]:
+                - generic [ref=f9e54]:
+                  - radio [ref=f9e55]
+                  - generic [ref=f9e56] [cursor=pointer]: Male
+                - generic [ref=f9e57]:
+                  - radio [ref=f9e58]
+                  - generic [ref=f9e59] [cursor=pointer]: Female
+                - generic [ref=f9e60]:
+                  - radio [ref=f9e61]
+                  - generic [ref=f9e62] [cursor=pointer]: Others
+          - generic [ref=f9e63]:
+            - checkbox [ref=f9e64] [cursor=pointer]
+            - generic [ref=f9e65] [cursor=pointer]:
+              - text: By clicking Create account, I agree that I have read and accepted the
+              - link [ref=f9e66]:
+                - /url: javascript:void(0)
+                - text: Terms of Use
+              - text: and
+              - link [ref=f9e67]:
+                - /url: javascript:void(0)
+                - text: Privacy Policy
+          - button [ref=f9e68] [cursor=pointer]: Create Account
+  - dialog "Success!" [ref=f9e70]:
+    - heading "Success!" [level=2] [ref=f9e78]
+    - generic [ref=f9e79]: User registered successfully
+    - text: "!"
+    - button "Go to Login" [active] [ref=f9e81] [cursor=pointer]

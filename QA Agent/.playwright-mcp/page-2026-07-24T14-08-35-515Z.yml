@@ -1,0 +1,223 @@
+- generic [ref=f15e1]:
+  - generic [ref=f15e7]:
+    - generic [ref=f15e8]:
+      - generic [ref=f15e9]:
+        - heading "Dashboard" [level=4] [ref=f15e10]
+        - navigation [ref=f15e11]:
+          - list [ref=f15e12]:
+            - listitem [ref=f15e13]:
+              - link [ref=f15e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f15e15]
+            - listitem [ref=f15e18]: / Index
+      - generic [ref=f15e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f15e22]:
+          - listitem [ref=f15e23]:
+            - generic [ref=f15e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f15e26]:
+      - generic [ref=f15e28]:
+        - text: 
+        - link [ref=f15e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f15e31]:
+          - list [ref=f15e33]:
+            - generic [ref=f15e38]:
+              - text: 
+              - listitem [ref=f15e39]:
+                - link [ref=f15e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f15e41]
+                  - text: 
+              - listitem [ref=f15e43]:
+                - link [ref=f15e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e45]
+                  - text: 
+              - listitem [ref=f15e47]:
+                - link [ref=f15e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e49]
+                  - text: 
+              - listitem [ref=f15e51]:
+                - link [ref=f15e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e53]
+                  - text: 
+              - listitem [ref=f15e55]:
+                - link [ref=f15e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e57]
+                  - text: 
+              - listitem [ref=f15e59]:
+                - link [ref=f15e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e61]
+                  - text: 
+              - listitem [ref=f15e63]:
+                - link "" [ref=f15e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f15e65]: 
+                  - text: 
+              - listitem [ref=f15e66]:
+                - link [ref=f15e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e68]
+                  - text: 
+              - listitem [ref=f15e70]:
+                - link [ref=f15e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e72]
+                  - text: 
+              - listitem [ref=f15e74]:
+                - link [ref=f15e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e76]
+                  - text: 
+              - listitem [ref=f15e78]:
+                - link [ref=f15e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e80]
+                  - text: 
+              - listitem [ref=f15e82]:
+                - link [ref=f15e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e84]
+                  - text: 
+              - listitem [ref=f15e86]:
+                - link [ref=f15e87] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e88]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f15e90]:
+                - link "general icon" [ref=f15e91] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f15e92]
+                  - text: 
+              - listitem [ref=f15e93]:
+                - link [ref=f15e94] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f15e95]
+                  - text: 
+              - listitem [ref=f15e97]:
+                - link [ref=f15e98] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f15e99]
+                  - text: 
+              - listitem [ref=f15e101]:
+                - link "product icon" [ref=f15e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f15e103]
+                  - text: 
+              - listitem [ref=f15e104]:
+                - link [ref=f15e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e106]
+                  - text: 
+              - listitem [ref=f15e108]:
+                - link [ref=f15e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e110]
+                  - text: 
+              - listitem [ref=f15e112]:
+                - link [ref=f15e113] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f15e114]
+                  - text: 
+              - listitem [ref=f15e116]:
+                - link [ref=f15e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e118]
+                  - text: 
+              - listitem [ref=f15e120]:
+                - link [ref=f15e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e122]
+                  - text: 
+              - listitem [ref=f15e124]:
+                - link [ref=f15e125] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f15e126]
+              - listitem [ref=f15e128]:
+                - link [ref=f15e129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f15e130]
+                  - text: 
+              - listitem [ref=f15e132]:
+                - link "notify-ico" [ref=f15e133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f15e134]
+                  - text: 
+              - listitem [ref=f15e135]:
+                - link "notify-ico" [ref=f15e136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f15e137]
+                  - text: 
+      - main [ref=f15e139]:
+        - generic [ref=f15e143]:
+          - generic [ref=f15e144]:
+            - heading "Ebook Purchase Gst Report" [level=5] [ref=f15e145]
+            - button " Export Excel" [ref=f15e146] [cursor=pointer]:
+              - generic [ref=f15e147]: 
+              - text: Export Excel
+          - generic [ref=f15e148]:
+            - generic [ref=f15e150]:
+              - generic [ref=f15e151]:
+                - generic [ref=f15e152]: From Date
+                - textbox [ref=f15e153] [cursor=pointer]
+              - generic [ref=f15e154]:
+                - generic [ref=f15e155]: To Date
+                - textbox [ref=f15e156] [cursor=pointer]
+              - generic [ref=f15e157]:
+                - generic [ref=f15e158]: Student
+                - textbox "Search student..." [ref=f15e159] [cursor=pointer]
+              - generic [ref=f15e160]:
+                - generic [ref=f15e161]: Ebook
+                - textbox "Search ebook..." [ref=f15e162] [cursor=pointer]
+              - generic [ref=f15e163]:
+                - button "Apply" [ref=f15e164] [cursor=pointer]
+                - button "Clear" [ref=f15e165] [cursor=pointer]
+            - generic [ref=f15e166]:
+              - generic [ref=f15e167]:
+                - generic [ref=f15e168]:
+                  - generic [ref=f15e169]: Total Purchases
+                  - heading "—" [level=3] [ref=f15e170] [cursor=pointer]
+                - generic [ref=f15e172]: 
+              - generic [ref=f15e173]:
+                - generic [ref=f15e174]:
+                  - generic [ref=f15e175]: GST Payable
+                  - heading "—" [level=3] [ref=f15e176] [cursor=pointer]
+                - generic [ref=f15e178]: 
+              - generic [ref=f15e179]:
+                - generic [ref=f15e180]:
+                  - generic [ref=f15e181]: Total Amount
+                  - heading "—" [level=3] [ref=f15e182] [cursor=pointer]
+                - generic [ref=f15e184]: 
+            - grid [ref=f15e189]:
+              - rowgroup [ref=f15e190]:
+                - row "Purchase Date Student Ebook Price (Before GST) GST% GST Amount Total" [ref=f15e191]:
+                  - columnheader "Purchase Date" [ref=f15e192] [cursor=pointer]
+                  - columnheader "Student" [ref=f15e193] [cursor=pointer]
+                  - columnheader "Ebook" [ref=f15e194] [cursor=pointer]
+                  - columnheader "Price (Before GST)" [ref=f15e195] [cursor=pointer]
+                  - columnheader "GST%" [ref=f15e196] [cursor=pointer]
+                  - columnheader "GST Amount" [ref=f15e197] [cursor=pointer]
+                  - columnheader "Total" [ref=f15e198] [cursor=pointer]
+              - rowgroup
+      - contentinfo [ref=f15e199]:
+        - paragraph [ref=f15e203]:
+          - text: Copyright
+          - generic [ref=f15e204]: "2026"
+          - text: © Jeshwar Teaching
+  - img

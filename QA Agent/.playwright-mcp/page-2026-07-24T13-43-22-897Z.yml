@@ -1,0 +1,438 @@
+- generic [ref=f16e1]:
+  - generic [ref=f16e7]:
+    - generic [ref=f16e8]:
+      - generic [ref=f16e9]:
+        - heading "Ebook" [level=4] [ref=f16e10]
+        - navigation [ref=f16e11]:
+          - list [ref=f16e12]:
+            - listitem [ref=f16e13]:
+              - link [ref=f16e14] [cursor=pointer]:
+                - /url: /Ebook/Index
+                - img [ref=f16e15]
+            - listitem [ref=f16e18]: / Ebooks
+      - generic [ref=f16e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f16e22]:
+          - text: 
+          - listitem [ref=f16e23] [cursor=pointer]:
+            - generic [ref=f16e25]:
+              - generic [ref=f16e26]: superadmin@gmail.com
+              - paragraph [ref=f16e27]:
+                - text: SuperAdmin
+                - generic [ref=f16e28]: 
+    - generic [ref=f16e29]:
+      - generic [ref=f16e31]:
+        - generic [ref=f16e32]:
+          - link [ref=f16e33] [cursor=pointer]:
+            - /url: /Dashboard/Index
+          - text: 
+          - img [ref=f16e35] [cursor=pointer]
+        - navigation [ref=f16e37]:
+          - list [ref=f16e39]:
+            - generic [ref=f16e44]:
+              - text: 
+              - listitem [ref=f16e45]:
+                - heading "Applications" [level=6] [ref=f16e47]
+              - listitem [ref=f16e48]:
+                - link "Dashboard" [ref=f16e49] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f16e50]
+                  - generic [ref=f16e52]: Dashboard
+                  - text: 
+              - listitem [ref=f16e53]:
+                - link "Enrollment " [ref=f16e54] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e55]
+                  - generic [ref=f16e57]: Enrollment
+                  - generic [ref=f16e59]: 
+              - listitem [ref=f16e60]:
+                - link "Website Settings " [ref=f16e61] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e62]
+                  - generic [ref=f16e64]: Website Settings
+                  - generic [ref=f16e66]: 
+              - listitem [ref=f16e67]:
+                - link "Membership " [ref=f16e68] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e69]
+                  - generic [ref=f16e71]: Membership
+                  - generic [ref=f16e73]: 
+              - listitem [ref=f16e74]:
+                - link "IVR " [ref=f16e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e76]
+                  - generic [ref=f16e78]: IVR
+                  - generic [ref=f16e80]: 
+              - listitem [ref=f16e81]:
+                - link "Course " [ref=f16e82] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e83]
+                  - generic [ref=f16e85]: Course
+                  - generic [ref=f16e87]: 
+              - listitem [ref=f16e88]:
+                - link " Self Host " [ref=f16e89] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f16e90]: 
+                  - generic [ref=f16e91]: Self Host
+                  - generic [ref=f16e93]: 
+              - listitem [ref=f16e94]:
+                - link "Assessment " [ref=f16e95] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e96]
+                  - generic [ref=f16e98]: Assessment
+                  - generic [ref=f16e100]: 
+              - listitem [ref=f16e101]:
+                - link "Student Activity " [ref=f16e102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e103]
+                  - generic [ref=f16e105]: Student Activity
+                  - generic [ref=f16e107]: 
+              - listitem [ref=f16e108]:
+                - link "APL " [ref=f16e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e110]
+                  - generic [ref=f16e112]: APL
+                  - generic [ref=f16e114]: 
+              - listitem [ref=f16e115]:
+                - link "Email Draft " [ref=f16e116] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e117]
+                  - generic [ref=f16e119]: Email Draft
+                  - generic [ref=f16e121]: 
+              - listitem [ref=f16e122]:
+                - link "Admin " [ref=f16e123] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e124]
+                  - generic [ref=f16e126]: Admin
+                  - generic [ref=f16e128]: 
+              - listitem [ref=f16e129]:
+                - link "GST Report " [ref=f16e130] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e131]
+                  - generic [ref=f16e133]: GST Report
+                  - generic [ref=f16e135]: 
+              - listitem [ref=f16e136]:
+                - link "general icon General " [ref=f16e137] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f16e138]
+                  - generic [ref=f16e139]: General
+                  - generic [ref=f16e141]: 
+              - listitem [ref=f16e142]:
+                - link "Leaderboard" [ref=f16e143] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f16e144]
+                  - generic [ref=f16e146]: Leaderboard
+                  - text: 
+              - listitem [ref=f16e147]:
+                - heading "E-Commerce" [level=6] [ref=f16e149]
+              - listitem [ref=f16e150]:
+                - link "Dashboard" [ref=f16e151] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f16e152]
+                  - generic [ref=f16e154]: Dashboard
+                  - text: 
+              - listitem [ref=f16e155]:
+                - link "product icon Product " [ref=f16e156] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f16e157]
+                  - generic [ref=f16e158]: Product
+                  - generic [ref=f16e160]: 
+              - listitem [ref=f16e161]:
+                - link "Ebooks " [ref=f16e162] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e163]
+                  - generic [ref=f16e165]: Ebooks
+                  - generic [ref=f16e167]: 
+                - list [ref=f16e168]:
+                  - listitem [ref=f16e169]:
+                    - link "Ebooks" [ref=f16e170] [cursor=pointer]:
+                      - /url: /Ebook/Index
+                  - listitem [ref=f16e171]:
+                    - link "Ebook Purchase Info" [ref=f16e172] [cursor=pointer]:
+                      - /url: /Ebook/PurchaseInfo
+                  - listitem [ref=f16e173]:
+                    - link "Ebook Ratings" [ref=f16e174] [cursor=pointer]:
+                      - /url: /EbookRating/Index
+                  - listitem [ref=f16e175]:
+                    - link "Admin Ebook Ratings" [ref=f16e176] [cursor=pointer]:
+                      - /url: /AdminEbookRating/Index
+              - listitem [ref=f16e177]:
+                - link "Order " [ref=f16e178] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e179]
+                  - generic [ref=f16e181]: Order
+                  - generic [ref=f16e183]: 
+              - listitem [ref=f16e184]:
+                - link "Customer" [ref=f16e185] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f16e186]
+                  - generic [ref=f16e188]: Customer
+                  - text: 
+              - listitem [ref=f16e189]:
+                - link "Dashboards " [ref=f16e190] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e191]
+                  - generic [ref=f16e193]: Dashboards
+                  - generic [ref=f16e195]: 
+              - listitem [ref=f16e196]:
+                - link "Reports " [ref=f16e197] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e198]
+                  - generic [ref=f16e200]: Reports
+                  - generic [ref=f16e202]: 
+              - listitem [ref=f16e203]:
+                - link "Manual Purchase" [ref=f16e204] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f16e205]
+                  - generic [ref=f16e207]: Manual Purchase
+              - listitem [ref=f16e208]:
+                - heading "Payments" [level=6] [ref=f16e210]
+              - listitem [ref=f16e211]:
+                - link "Transactions " [ref=f16e212] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f16e213]
+                  - generic [ref=f16e215]: Transactions
+                  - generic [ref=f16e217]: 
+              - listitem [ref=f16e218]:
+                - heading "Notifcations" [level=6] [ref=f16e220]
+              - listitem [ref=f16e221]:
+                - link "notify-ico Notifications " [ref=f16e222] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f16e223]
+                  - generic [ref=f16e224]: Notifications
+                  - generic [ref=f16e226]: 
+              - listitem [ref=f16e227]:
+                - heading "Job Management" [level=6] [ref=f16e229]
+              - listitem [ref=f16e230]:
+                - link "notify-ico Jobs " [ref=f16e231] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f16e232]
+                  - generic [ref=f16e233]: Jobs
+                  - generic [ref=f16e235]: 
+      - main [ref=f16e237]:
+        - generic [ref=f16e239]:
+          - link "Create Ebook" [ref=f16e241] [cursor=pointer]:
+            - /url: /Ebook/Create
+          - generic [ref=f16e244]:
+            - generic [ref=f16e246]:
+              - text: Show
+              - combobox "Show entries" [ref=f16e247] [cursor=pointer]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: entries
+            - generic [ref=f16e249]:
+              - text: "Search:"
+              - searchbox "Search:" [ref=f16e250] [cursor=pointer]
+            - grid [ref=f16e251]:
+              - rowgroup [ref=f16e252]:
+                - 'row "Title: activate to sort column descending Author: activate to sort column ascending ISBN: activate to sort column ascending Publisher: activate to sort column ascending Price: activate to sort column ascending GST %: activate to sort column ascending Status: activate to sort column ascending Actions" [ref=f16e253]':
+                  - 'columnheader "Title: activate to sort column descending" [ref=f16e254] [cursor=pointer]': ↑ Title ↓
+                  - 'columnheader "Author: activate to sort column ascending" [ref=f16e255] [cursor=pointer]': ↑ Author ↓
+                  - 'columnheader "ISBN: activate to sort column ascending" [ref=f16e256] [cursor=pointer]': ↑ ISBN ↓
+                  - 'columnheader "Publisher: activate to sort column ascending" [ref=f16e257] [cursor=pointer]': ↑ Publisher ↓
+                  - 'columnheader "Price: activate to sort column ascending" [ref=f16e258] [cursor=pointer]': ↑ Price ↓
+                  - 'columnheader "GST %: activate to sort column ascending" [ref=f16e259] [cursor=pointer]': ↑ GST % ↓
+                  - 'columnheader "Status: activate to sort column ascending" [ref=f16e260] [cursor=pointer]': ↑ Status ↓
+                  - columnheader "Actions" [ref=f16e261]
+              - rowgroup [ref=f16e262]:
+                - row "SAmple Hashwath ₹500.00 10.00 Active  " [ref=f16e263]:
+                  - gridcell "SAmple" [ref=f16e264]
+                  - gridcell "Hashwath" [ref=f16e265]
+                  - gridcell [ref=f16e266]
+                  - gridcell [ref=f16e267]
+                  - gridcell "₹500.00" [ref=f16e268]
+                  - gridcell "10.00" [ref=f16e269]
+                  - gridcell "Active" [ref=f16e270]
+                  - gridcell " " [ref=f16e271]:
+                    - list [ref=f16e272]:
+                      - listitem [ref=f16e273] [cursor=pointer]:
+                        - link "" [ref=f16e274]:
+                          - /url: /Ebook/Edit/9
+                          - generic [ref=f16e275]: 
+                      - listitem [ref=f16e276] [cursor=pointer]:
+                        - link "" [ref=f16e277]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e278]: 
+                - row "SAmple Unit 1 Tamil ₹11.00 10.00 Active  " [ref=f16e279]:
+                  - gridcell "SAmple Unit 1 Tamil" [ref=f16e280]
+                  - gridcell [ref=f16e281]
+                  - gridcell [ref=f16e282]
+                  - gridcell [ref=f16e283]
+                  - gridcell "₹11.00" [ref=f16e284]
+                  - gridcell "10.00" [ref=f16e285]
+                  - gridcell "Active" [ref=f16e286]
+                  - gridcell " " [ref=f16e287]:
+                    - list [ref=f16e288]:
+                      - listitem [ref=f16e289] [cursor=pointer]:
+                        - link "" [ref=f16e290]:
+                          - /url: /Ebook/Edit/10
+                          - generic [ref=f16e291]: 
+                      - listitem [ref=f16e292] [cursor=pointer]:
+                        - link "" [ref=f16e293]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e294]: 
+                - row "State_Legislative_Council_Answer_Key_2 ₹110.00 10.00 Active  " [ref=f16e295]:
+                  - gridcell "State_Legislative_Council_Answer_Key_2" [ref=f16e296]
+                  - gridcell [ref=f16e297]
+                  - gridcell [ref=f16e298]
+                  - gridcell [ref=f16e299]
+                  - gridcell "₹110.00" [ref=f16e300]
+                  - gridcell "10.00" [ref=f16e301]
+                  - gridcell "Active" [ref=f16e302]
+                  - gridcell " " [ref=f16e303]:
+                    - list [ref=f16e304]:
+                      - listitem [ref=f16e305] [cursor=pointer]:
+                        - link "" [ref=f16e306]:
+                          - /url: /Ebook/Edit/11
+                          - generic [ref=f16e307]: 
+                      - listitem [ref=f16e308] [cursor=pointer]:
+                        - link "" [ref=f16e309]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e310]: 
+                - row "TNPSC Hashwath 1234 Hashwath ₹550.00 10.00 Active  " [ref=f16e311]:
+                  - gridcell "TNPSC" [ref=f16e312]
+                  - gridcell "Hashwath" [ref=f16e313]
+                  - gridcell "1234" [ref=f16e314]
+                  - gridcell "Hashwath" [ref=f16e315]
+                  - gridcell "₹550.00" [ref=f16e316]
+                  - gridcell "10.00" [ref=f16e317]
+                  - gridcell "Active" [ref=f16e318]
+                  - gridcell " " [ref=f16e319]:
+                    - list [ref=f16e320]:
+                      - listitem [ref=f16e321] [cursor=pointer]:
+                        - link "" [ref=f16e322]:
+                          - /url: /Ebook/Edit/1
+                          - generic [ref=f16e323]: 
+                      - listitem [ref=f16e324] [cursor=pointer]:
+                        - link "" [ref=f16e325]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e326]: 
+                - row "TNPSC 220726 Unit 1 Hashwath ₹110.00 10.00 Active  " [ref=f16e327]:
+                  - gridcell "TNPSC 220726 Unit 1" [ref=f16e328]
+                  - gridcell "Hashwath" [ref=f16e329]
+                  - gridcell [ref=f16e330]
+                  - gridcell [ref=f16e331]
+                  - gridcell "₹110.00" [ref=f16e332]
+                  - gridcell "10.00" [ref=f16e333]
+                  - gridcell "Active" [ref=f16e334]
+                  - gridcell " " [ref=f16e335]:
+                    - list [ref=f16e336]:
+                      - listitem [ref=f16e337] [cursor=pointer]:
+                        - link "" [ref=f16e338]:
+                          - /url: /Ebook/Edit/8
+                          - generic [ref=f16e339]: 
+                      - listitem [ref=f16e340] [cursor=pointer]:
+                        - link "" [ref=f16e341]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e342]: 
+                - row "TNPSc Bilungual Hashwath 1234 Hashwath ₹110.00 10.00 Active  " [ref=f16e343]:
+                  - gridcell "TNPSc Bilungual" [ref=f16e344]
+                  - gridcell "Hashwath" [ref=f16e345]
+                  - gridcell "1234" [ref=f16e346]
+                  - gridcell "Hashwath" [ref=f16e347]
+                  - gridcell "₹110.00" [ref=f16e348]
+                  - gridcell "10.00" [ref=f16e349]
+                  - gridcell "Active" [ref=f16e350]
+                  - gridcell " " [ref=f16e351]:
+                    - list [ref=f16e352]:
+                      - listitem [ref=f16e353] [cursor=pointer]:
+                        - link "" [ref=f16e354]:
+                          - /url: /Ebook/Edit/2
+                          - generic [ref=f16e355]: 
+                      - listitem [ref=f16e356] [cursor=pointer]:
+                        - link "" [ref=f16e357]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e358]: 
+                - row "TNPSC Group 1 Hashwath 1234 Hashwath ₹1,100.00 10.00 Active  " [ref=f16e359]:
+                  - gridcell "TNPSC Group 1" [ref=f16e360]
+                  - gridcell "Hashwath" [ref=f16e361]
+                  - gridcell "1234" [ref=f16e362]
+                  - gridcell "Hashwath" [ref=f16e363]
+                  - gridcell "₹1,100.00" [ref=f16e364]
+                  - gridcell "10.00" [ref=f16e365]
+                  - gridcell "Active" [ref=f16e366]
+                  - gridcell " " [ref=f16e367]:
+                    - list [ref=f16e368]:
+                      - listitem [ref=f16e369] [cursor=pointer]:
+                        - link "" [ref=f16e370]:
+                          - /url: /Ebook/Edit/3
+                          - generic [ref=f16e371]: 
+                      - listitem [ref=f16e372] [cursor=pointer]:
+                        - link "" [ref=f16e373]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e374]: 
+                - row "TNPSC Group 2 Hashwath 123456 Hashwath ₹550.00 10.00 Active  " [ref=f16e375]:
+                  - gridcell "TNPSC Group 2" [ref=f16e376]
+                  - gridcell "Hashwath" [ref=f16e377]
+                  - gridcell "123456" [ref=f16e378]
+                  - gridcell "Hashwath" [ref=f16e379]
+                  - gridcell "₹550.00" [ref=f16e380]
+                  - gridcell "10.00" [ref=f16e381]
+                  - gridcell "Active" [ref=f16e382]
+                  - gridcell " " [ref=f16e383]:
+                    - list [ref=f16e384]:
+                      - listitem [ref=f16e385] [cursor=pointer]:
+                        - link "" [ref=f16e386]:
+                          - /url: /Ebook/Edit/4
+                          - generic [ref=f16e387]: 
+                      - listitem [ref=f16e388] [cursor=pointer]:
+                        - link "" [ref=f16e389]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e390]: 
+                - row "TNPSC Group 3 Hashwath 123456 Hashwath ₹110.00 10.00 Active  " [ref=f16e391]:
+                  - gridcell "TNPSC Group 3" [ref=f16e392]
+                  - gridcell "Hashwath" [ref=f16e393]
+                  - gridcell "123456" [ref=f16e394]
+                  - gridcell "Hashwath" [ref=f16e395]
+                  - gridcell "₹110.00" [ref=f16e396]
+                  - gridcell "10.00" [ref=f16e397]
+                  - gridcell "Active" [ref=f16e398]
+                  - gridcell " " [ref=f16e399]:
+                    - list [ref=f16e400]:
+                      - listitem [ref=f16e401] [cursor=pointer]:
+                        - link "" [ref=f16e402]:
+                          - /url: /Ebook/Edit/5
+                          - generic [ref=f16e403]: 
+                      - listitem [ref=f16e404] [cursor=pointer]:
+                        - link "" [ref=f16e405]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e406]: 
+                - row "TNPSC Group 4 Hashwath 123456 Hashwath ₹550.00 10.00 Active  " [ref=f16e407]:
+                  - gridcell "TNPSC Group 4" [ref=f16e408]
+                  - gridcell "Hashwath" [ref=f16e409]
+                  - gridcell "123456" [ref=f16e410]
+                  - gridcell "Hashwath" [ref=f16e411]
+                  - gridcell "₹550.00" [ref=f16e412]
+                  - gridcell "10.00" [ref=f16e413]
+                  - gridcell "Active" [ref=f16e414]
+                  - gridcell " " [ref=f16e415]:
+                    - list [ref=f16e416]:
+                      - listitem [ref=f16e417] [cursor=pointer]:
+                        - link "" [ref=f16e418]:
+                          - /url: /Ebook/Edit/6
+                          - generic [ref=f16e419]: 
+                      - listitem [ref=f16e420] [cursor=pointer]:
+                        - link "" [ref=f16e421]:
+                          - /url: javascript:void(0);
+                          - generic [ref=f16e422]: 
+            - status [ref=f16e423]: Showing 1 to 10 of 12 entries
+            - generic [ref=f16e424]:
+              - generic [ref=f16e425]: Previous
+              - generic [ref=f16e426]:
+                - generic [ref=f16e427] [cursor=pointer]: "1"
+                - generic [ref=f16e428] [cursor=pointer]: "2"
+              - generic [ref=f16e429] [cursor=pointer]: Next
+      - contentinfo [ref=f16e430]:
+        - paragraph [ref=f16e434]:
+          - text: Copyright
+          - generic [ref=f16e435]: "2026"
+          - text: © Jeshwar Teaching
+  - img

@@ -1,0 +1,299 @@
+- generic [ref=f10e1]:
+  - generic [ref=f10e7]:
+    - generic [ref=f10e8]:
+      - generic [ref=f10e9]:
+        - heading "Dashboard" [level=4] [ref=f10e10]
+        - navigation [ref=f10e11]:
+          - list [ref=f10e12]:
+            - listitem [ref=f10e13]:
+              - link [ref=f10e14] [cursor=pointer]:
+                - /url: /Dashboard/Index
+                - img [ref=f10e15]
+            - listitem [ref=f10e18]: / Index
+      - generic [ref=f10e20]:
+        - generic:
+          - generic:
+            - text: 
+            - generic:
+              - generic:
+                - textbox "Search .." [active]
+                - img
+        - list [ref=f10e22]:
+          - listitem [ref=f10e23]:
+            - generic [ref=f10e25] [cursor=pointer]: 
+          - text: 
+    - generic [ref=f10e26]:
+      - generic [ref=f10e28]:
+        - text: 
+        - link [ref=f10e30] [cursor=pointer]:
+          - /url: /Dashboard/Index
+        - navigation [ref=f10e31]:
+          - list [ref=f10e33]:
+            - generic [ref=f10e38]:
+              - text: 
+              - listitem [ref=f10e39]:
+                - link [ref=f10e40] [cursor=pointer]:
+                  - /url: /Dashboard/Index
+                  - img [ref=f10e41]
+                  - text: 
+              - listitem [ref=f10e43]:
+                - link [ref=f10e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e45]
+                  - text: 
+              - listitem [ref=f10e47]:
+                - link [ref=f10e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e49]
+                  - text: 
+              - listitem [ref=f10e51]:
+                - link [ref=f10e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e53]
+                  - text: 
+              - listitem [ref=f10e55]:
+                - link [ref=f10e56] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e57]
+                  - text: 
+              - listitem [ref=f10e59]:
+                - link [ref=f10e60] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e61]
+                  - text: 
+              - listitem [ref=f10e63]:
+                - link "" [ref=f10e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=f10e65]: 
+                  - text: 
+              - listitem [ref=f10e66]:
+                - link [ref=f10e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e68]
+                  - text: 
+              - listitem [ref=f10e70]:
+                - link [ref=f10e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e72]
+                  - text: 
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+              - listitem [ref=f10e74]:
+                - link [ref=f10e75] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e76]
+                  - text: 
+              - listitem [ref=f10e78]:
+                - link [ref=f10e79] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e80]
+                  - text: 
+              - listitem [ref=f10e82]:
+                - link "general icon" [ref=f10e83] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "general icon" [ref=f10e84]
+                  - text: 
+              - listitem [ref=f10e85]:
+                - link [ref=f10e86] [cursor=pointer]:
+                  - /url: /Leaderboard/Index
+                  - img [ref=f10e87]
+                  - text: 
+              - listitem [ref=f10e89]:
+                - link [ref=f10e90] [cursor=pointer]:
+                  - /url: /Ecommerce/Index
+                  - img [ref=f10e91]
+                  - text: 
+              - listitem [ref=f10e93]:
+                - link "product icon" [ref=f10e94] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "product icon" [ref=f10e95]
+                  - text: 
+              - listitem [ref=f10e96]:
+                - link [ref=f10e97] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e98]
+                  - text: 
+              - listitem [ref=f10e100]:
+                - link [ref=f10e101] [cursor=pointer]:
+                  - /url: /Customer/CustomerDetails
+                  - img [ref=f10e102]
+                  - text: 
+              - listitem [ref=f10e104]:
+                - link [ref=f10e105] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e106]
+                  - text: 
+              - listitem [ref=f10e108]:
+                - link [ref=f10e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e110]
+                  - text: 
+              - listitem [ref=f10e112]:
+                - link [ref=f10e113] [cursor=pointer]:
+                  - /url: /Admin/Books/ManualPurchase/Index
+                  - img [ref=f10e114]
+              - listitem [ref=f10e116]:
+                - link [ref=f10e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=f10e118]
+                  - text: 
+              - listitem [ref=f10e120]:
+                - link "notify-ico" [ref=f10e121] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f10e122]
+                  - text: 
+              - listitem [ref=f10e123]:
+                - link "notify-ico" [ref=f10e124] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "notify-ico" [ref=f10e125]
+                  - text: 
+      - main [ref=f10e127]:
+        - generic [ref=f10e129]:
+          - generic [ref=f10e130]:
+            - heading "Student Activity Overview" [level=5] [ref=f10e131]
+            - combobox [ref=f10e132] [cursor=pointer]:
+              - option "Daily" [selected]
+              - option "Monthly"
+          - generic [ref=f10e133]:
+            - generic [ref=f10e135]:
+              - generic [ref=f10e136]:
+                - generic [ref=f10e137]: From Date
+                - textbox [ref=f10e138] [cursor=pointer]: 2026-07-14
+              - generic [ref=f10e139]:
+                - generic [ref=f10e140]: To Date
+                - textbox [ref=f10e141] [cursor=pointer]: 2026-06-15
+              - generic [ref=f10e142]:
+                - generic [ref=f10e143]: Course
+                - combobox [ref=f10e144] [cursor=pointer]:
+                  - option "All Courses" [selected]
+                  - option "12TH ECONOMICS"
+                  - option "Aptitude & Mental Ability"
+                  - option "Assessment course 01"
+                  - option "Assessment Free Course"
+                  - option "Automation Testing"
+                  - option "Bank course"
+                  - option "Banking course"
+                  - option "Blob course"
+                  - option "Free course 2"
+                  - option "Group 1 course"
+                  - option "Group 2 course"
+                  - option "Group 2A"
+                  - option "Group 3 course"
+                  - option "Group 4 Course"
+                  - option "Group 5 course"
+                  - option "Group 6 course"
+                  - option "Group A course"
+                  - option "GST Exclu"
+                  - option "GST exclu multi"
+                  - option "GST Inclu"
+                  - option "GST Multil inclu"
+                  - option "GST TEst"
+                  - option "Indian Railways- Batch 1,2,3,4- Tnpsc-இந்தியாவின் முக்கியமான மாநிலம்- Tamil nadu-வின் முக்கியமான மாநிலம்- Tamil nadu- வின் முக்கியமான மாநிலம்- Tamil nadu-வின் முக்கியமான மாநிலம்- Tamil nadu"
+                  - option "JT Batch-2026 Course"
+                  - option "JT Phase 3"
+                  - option "Jt Release Course"
+                  - option "JtCourse"
+                  - option "Jtcourse 2"
+                  - option "Kingdom - 2026"
+                  - option "Multiplecardtypefolder"
+                  - option "MultipleFolderType"
+                  - option "Paid membership"
+                  - option "Political Polity"
+                  - option "Pongal Special Course"
+                  - option "Post office exam- Tamil nadu 2026"
+                  - option "QA Test Course"
+                  - option "Railway course"
+                  - option "Railway course 2"
+                  - option "Railway course 3"
+                  - option "SelfHost Course"
+                  - option "Silver membership"
+                  - option "Singlecourse"
+                  - option "Singlefoldercourse"
+                  - option "Social"
+                  - option "Software Testing"
+                  - option "Software Testing Course"
+                  - option "Tamil Course"
+                  - option "tEST"
+                  - option "Test0025"
+                  - option "TNPSC Foundation Course"
+                  - option "TNPSC Group 4 Complete Preparation Course 2026"
+                  - option "TNPSC Group 4 Mastery Program 2026 – Complete Exam Preparation"
+                  - option "TNPSC GROUP-4 FOLDER"
+                  - option "TNPSC_Group1new 008"
+                  - option "TNPSC-G1"
+                  - option "TNPSC-G2"
+                  - option "TNUSRB Police Constable"
+              - generic [ref=f10e145]:
+                - generic [ref=f10e146]: Topic
+                - combobox [ref=f10e147] [cursor=pointer]:
+                  - option "All Topics" [selected]
+                  - option "TNPSC Foundation Course/ஒன்றியம், மாநிலம் மற்றும் யூனியன் பிரதேசங்கள்"
+                  - option "இடைக்கால இந்தியா"
+                  - option "இதயம் மூலம் உடல் முழுவதும் இரத்தத்தை செலுத்துகிறது."
+                  - option "ஒரு செயலை (வினையை) உணர்த்தும் சொல் வினைச்சொல் எனப்படும்."
+                  - option "சமூக அறிவியல் தேர்விற்கான முழுமையான பாடப்பிரிவுகள்"
+                  - option "சொற்றொடர்கள்"
+                  - option "தனிமனித ஒழுக்கம், நேர்மை மற்றும் நற்பண்புகளை உணர்த்த உவமைக் கதைகள் பயன்படுகின்றன"
+                  - option "பரப்பு & கன அளவு"
+                  - option "மனித உடல் topic no 01"
+                  - option "மூளை மற்றும் நரம்புகள் உடலின் செயல்பாடுகளைக் கட்டுப்படுத்துகின்றன"
+              - generic [ref=f10e148]:
+                - generic [ref=f10e149]: Regular ≥ (days)
+                - spinbutton [ref=f10e150] [cursor=pointer]: "3"
+              - generic [ref=f10e151]:
+                - button "Apply" [ref=f10e152] [cursor=pointer]
+                - button "Clear" [ref=f10e153] [cursor=pointer]
+            - generic [ref=f10e154]: 🎬 Video Watching
+            - generic [ref=f10e155]:
+              - generic [ref=f10e158]:
+                - paragraph [ref=f10e159]: Enrolled Students
+                - generic [ref=f10e160]: "2173"
+              - generic [ref=f10e163]:
+                - paragraph [ref=f10e164]: Watching Videos
+                - generic [ref=f10e165]: "0"
+              - generic [ref=f10e168]:
+                - paragraph [ref=f10e169]: Regular Watchers
+                - generic [ref=f10e170]: "0"
+              - generic [ref=f10e173]:
+                - paragraph [ref=f10e174]: Total Watch Hours
+                - generic [ref=f10e175]: "0"
+            - img [ref=f10e302]:
+              - generic [ref=f10e307]: Active Video Students
+              - generic [ref=f10e309]:
+                - generic "5" [ref=f10e310]
+                - generic "4" [ref=f10e311]
+                - generic "3" [ref=f10e312]
+                - generic "2" [ref=f10e313]
+                - generic "1" [ref=f10e314]
+                - generic "0" [ref=f10e315]
+            - generic [ref=f10e194]: 📝 Assessment Attendance
+            - generic [ref=f10e195]:
+              - generic [ref=f10e198]:
+                - paragraph [ref=f10e199]: Enrolled Students
+                - generic [ref=f10e200]: "2173"
+              - generic [ref=f10e203]:
+                - paragraph [ref=f10e204]: Attending Assessments
+                - generic [ref=f10e205]: "0"
+              - generic [ref=f10e208]:
+                - paragraph [ref=f10e209]: Regular Attendees
+                - generic [ref=f10e210]: "0"
+              - generic [ref=f10e213]:
+                - paragraph [ref=f10e214]: Total Submissions
+                - generic [ref=f10e215]: "0"
+            - img [ref=f10e317]:
+              - generic [ref=f10e322]: Assessment Attendees
+              - generic [ref=f10e324]:
+                - generic "5" [ref=f10e325]
+                - generic "4" [ref=f10e326]
+                - generic "3" [ref=f10e327]
+                - generic "2" [ref=f10e328]
+                - generic "1" [ref=f10e329]
+                - generic "0" [ref=f10e330]
+      - contentinfo [ref=f10e234]:
+        - paragraph [ref=f10e238]:
+          - text: Copyright
+          - generic [ref=f10e239]: "2026"
+          - text: © Jeshwar Teaching
+  - img

@@ -1,0 +1,230 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - generic [ref=f5e5]:
+        - generic [ref=f5e6]:
+          - link "Logo" [ref=f5e7] [cursor=pointer]:
+            - /url: /Dashboard/Index
+            - img "Logo" [ref=f5e8]
+          - text: 
+        - list [ref=f5e9]:
+          - listitem [ref=f5e10]:
+            - link " Dashboard" [ref=f5e11] [cursor=pointer]:
+              - /url: /Dashboard/Index
+              - generic [ref=f5e12]: 
+              - text: Dashboard
+          - listitem [ref=f5e13]:
+            - link " Batches" [ref=f5e14] [cursor=pointer]:
+              - /url: /Batches/Index
+              - generic [ref=f5e15]: 
+              - text: Batches
+          - listitem [ref=f5e16]:
+            - link " My Courses" [ref=f5e17] [cursor=pointer]:
+              - /url: /Course/Index
+              - generic [ref=f5e18]: 
+              - text: My Courses
+          - listitem [ref=f5e19]:
+            - link " Wishlist" [ref=f5e20] [cursor=pointer]:
+              - /url: /Wishlist/Index
+              - generic [ref=f5e21]: 
+              - text: Wishlist
+          - listitem [ref=f5e22]:
+            - link " Audiobook" [ref=f5e23] [cursor=pointer]:
+              - /url: /Podcast/Index
+              - generic [ref=f5e24]: 
+              - text: Audiobook
+          - listitem [ref=f5e25]:
+            - link " Resources" [ref=f5e26] [cursor=pointer]:
+              - /url: /Resources/Index
+              - generic [ref=f5e27]: 
+              - text: Resources
+          - listitem [ref=f5e28]:
+            - link " Current Affairs" [ref=f5e29] [cursor=pointer]:
+              - /url: /CurrentAffairs/Index
+              - generic [ref=f5e30]: 
+              - text: Current Affairs
+          - listitem [ref=f5e31]:
+            - link " Test" [ref=f5e32] [cursor=pointer]:
+              - /url: /Assessment/Batches
+              - generic [ref=f5e33]: 
+              - text: Test
+          - listitem [ref=f5e34]:
+            - link " Settings" [ref=f5e35] [cursor=pointer]:
+              - /url: /Settings/Index
+              - generic [ref=f5e36]: 
+              - text: Settings
+          - listitem [ref=f5e37]:
+            - link " Leaderboard" [ref=f5e38] [cursor=pointer]:
+              - /url: /Leaderboard/Index
+              - generic [ref=f5e39]: 
+              - text: Leaderboard
+          - listitem [ref=f5e40]:
+            - link " Notification" [ref=f5e41] [cursor=pointer]:
+              - /url: /Notification/Notifications
+              - generic [ref=f5e42]: 
+              - text: Notification
+          - listitem [ref=f5e43]:
+            - button " Logout" [ref=f5e45] [cursor=pointer]:
+              - generic [ref=f5e46]: 
+              - text: Logout
+      - generic [ref=f5e48]:
+        - banner [ref=f5e49]:
+          - text: 
+          - generic [ref=f5e50]:
+            - generic [ref=f5e51]:
+              - generic [ref=f5e52]: 
+              - textbox "Search Course" [ref=f5e53]
+              - text: 
+            - link "" [ref=f5e55] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=f5e57]: 
+            - link "Profile deepa070712" [ref=f5e59] [cursor=pointer]:
+              - /url: "#"
+              - img "Profile" [ref=f5e60]
+              - generic [ref=f5e61]: deepa070712
+        - generic [ref=f5e67]:
+          - generic [ref=f5e68]:
+            - img "TNPSC Foundation Course" [ref=f5e69]
+            - generic [ref=f5e71]:
+              - heading "TNPSC Foundation Course" [level=5] [ref=f5e72]
+              - generic [ref=f5e73]:
+                - generic [ref=f5e74] [cursor=pointer]: Demo-01
+                - generic [ref=f5e75] [cursor=pointer]: 200 Hours
+                - generic [ref=f5e76] [cursor=pointer]: JtCourse
+              - generic [ref=f5e77]:
+                - paragraph [ref=f5e78]: "Choose a Subscription Plan:"
+                - generic [ref=f5e79]:
+                  - generic [ref=f5e80] [cursor=pointer]:
+                    - radio "Basic plan 3 Month(s) ₹1000.00" [checked]
+                    - generic [ref=f5e83]:
+                      - generic [ref=f5e84]: Basic plan
+                      - generic [ref=f5e85]: 3 Month(s)
+                      - generic [ref=f5e86]: ₹1000.00
+                  - generic [ref=f5e87] [cursor=pointer]:
+                    - radio "Pro plan 6 Month(s) ₹2000.00"
+                    - generic [ref=f5e90]:
+                      - generic [ref=f5e91]: Pro plan
+                      - generic [ref=f5e92]: 6 Month(s)
+                      - generic [ref=f5e93]: ₹2000.00
+                  - generic [ref=f5e94] [cursor=pointer]:
+                    - radio "Premium plan 9 Month(s) ₹3000.00"
+                    - generic [ref=f5e97]:
+                      - generic [ref=f5e98]: Premium plan
+                      - generic [ref=f5e99]: 9 Month(s)
+                      - generic [ref=f5e100]: ₹3000.00
+                  - button "Enroll Join Now" [ref=f5e102] [cursor=pointer]:
+                    - img "Enroll" [ref=f5e103]
+                    - text: Join Now
+          - generic [ref=f5e105]:
+            - heading "Course Overview" [level=4] [ref=f5e106]
+            - generic [ref=f5e107]:
+              - paragraph [ref=f5e108]:
+                - strong [ref=f5e109]: TNPSC அடிப்படை பயிற்சி வகுப்பு
+                - text: என்பது TNPSC குரூப் 1, 2, 2A மற்றும் 4 தேர்வுகளை இலக்காகக் கொண்டு முழுமையான மற்றும் கட்டமைக்கப்பட்ட பயிற்சித் திட்டமாகும். இந்தப் பயிற்சி வகுப்பு, தொடக்கநிலை மற்றும் இடைநிலை மாணவர்களுக்காகச் சிறப்பாக வடிவமைக்கப்பட்டுள்ளது.
+              - paragraph [ref=f5e110]: இதில், பொதுத்திறன், எண்ணியல், மொழித் திறன் (தமிழ்/ஆங்கிலம்) ஆகியவை முழுமையாகக் கற்பிக்கப்படுகின்றன. தமிழக வரலாறு, பண்பாடு, சமூக அமைப்பு மற்றும் நிர்வாக மேம்பாடுகள் ஆகியவற்றிற்கு சிறப்பு முக்கியத்துவம் அளிக்கப்படுகிறது.
+              - paragraph [ref=f5e111]:
+                - strong [ref=f5e112]: "சிறப்பம்சங்கள்:"
+              - paragraph [ref=f5e113]:
+                - strong [ref=f5e114]: பயிற்சி காலம்
+                - text: – 12 மாதங்களுக்கு மேல், வாரத்தில் 6 நாட்கள் வகுப்புகள்
+                - strong [ref=f5e115]: மொத்த வகுப்புகள்
+                - text: – 230+ கட்டமைக்கப்பட்ட நேரடி வகுப்புகள்
+                - strong [ref=f5e116]: மொழி
+                - text: – இருமொழி (தமிழ் & ஆங்கிலம்) - தமிழ் வழிக் கற்றலுக்கு முக்கியத்துவம்
+                - strong [ref=f5e117]: ஆன்லைன் அணுகல்
+                - text: – 24/7 பதிவு செய்யப்பட்ட வகுப்புகள் (மீண்டும் பார்க்க வசதி)
+                - strong [ref=f5e118]: பயிற்சி தேர்வுகள்
+                - text: – 75+ ஆன்லைன் பயிற்சித் தேர்வுகள் (குரூப் 1 & 2)
+                - strong [ref=f5e119]: வழிகாட்டுதல்
+                - text: – தனிப்பட்ட மாணவர் கவனிப்பு, ஐயம்தீர்ப்பு வகுப்புகள், முன்னேற்றக் கண்காணிப்பு
+            - generic [ref=f5e120]:
+              - heading "Course Duration:" [level=6] [ref=f5e121]
+              - paragraph [ref=f5e122]:
+                - generic [ref=f5e123]: 
+                - text: Jul 10, 2026 – Jan 23, 2027
+              - paragraph [ref=f5e124]:
+                - generic [ref=f5e125]: 
+                - text: 200 hours of content
+    - contentinfo [ref=f5e126]:
+      - generic [ref=f5e127]:
+        - paragraph [ref=f5e129]: © 2026 Jeshwar Teaching Learning. All rights reserved.
+        - generic [ref=f5e130]:
+          - link "About Us" [ref=f5e131] [cursor=pointer]:
+            - /url: /Content/AboutUs
+          - link "Privacy Policy" [ref=f5e132] [cursor=pointer]:
+            - /url: /Content/PrivacyPolicy
+          - link "Terms & Conditions" [ref=f5e133] [cursor=pointer]:
+            - /url: /Content/TermsCondition
+          - link "Refund Policy" [ref=f5e134] [cursor=pointer]:
+            - /url: /Content/RefundPolicy
+  - generic [ref=f5e135]:
+    - generic [ref=f5e137]: Test Mode
+    - iframe [active] [ref=f5e138]:
+      - generic [active] [ref=f6e1]:
+        - generic:
+          - img
+          - img:
+            - generic: Secured By
+        - generic [ref=f6e3]:
+          - generic [ref=f6e4]:
+            - generic [ref=f6e7]:
+              - generic [ref=f6e8]: J
+              - generic "JT Learning Portal" [ref=f6e10]
+            - generic [ref=f6e13]:
+              - generic [ref=f6e17]:
+                - generic [ref=f6e19]: Price Summary
+                - generic:
+                  - generic:
+                    - heading [level=3]
+              - button "Using as +91 98765 43212" [ref=f6e29] [cursor=pointer]:
+                - img [ref=f6e31]
+                - generic [ref=f6e34]: Using as +91 98765 43212
+                - img [ref=f6e36]
+          - generic [ref=f6e47]:
+            - generic [ref=f6e48]:
+              - generic [ref=f6e49]: Payment Options
+              - generic [ref=f6e50]:
+                - button "Show more options" [ref=f6e51] [cursor=pointer]:
+                  - img [ref=f6e53]
+                - button "Close Checkout" [ref=f6e55] [cursor=pointer]:
+                  - img [ref=f6e57]
+            - separator [ref=f6e59]
+            - generic [ref=f6e65]:
+              - generic [ref=f6e66]:
+                - generic [ref=f6e67] [cursor=pointer]:
+                  - radio "Cards VISA MC RUPAY MAES"
+                  - generic [ref=f6e69]:
+                    - generic [ref=f6e72]: Cards
+                    - generic [ref=f6e84]:
+                      - img "VISA" [ref=f6e86]
+                      - img "MC" [ref=f6e88]
+                      - img "RUPAY" [ref=f6e90]
+                      - img "MAES" [ref=f6e92]
+                - generic [ref=f6e93] [cursor=pointer]:
+                  - radio "Netbanking BARB_R CNRB PUNB_R UTBI"
+                  - generic [ref=f6e95]:
+                    - generic [ref=f6e98]: Netbanking
+                    - generic [ref=f6e110]:
+                      - img "BARB_R" [ref=f6e112]
+                      - img "CNRB" [ref=f6e114]
+                      - img "PUNB_R" [ref=f6e116]
+                      - img "UTBI" [ref=f6e118]
+                - generic [ref=f6e119] [cursor=pointer]:
+                  - radio "Wallet mobikwik airtelmoney olamoney"
+                  - generic [ref=f6e121]:
+                    - generic [ref=f6e124]: Wallet
+                    - generic [ref=f6e136]:
+                      - img "mobikwik" [ref=f6e138]
+                      - img "airtelmoney" [ref=f6e140]
+                      - img "olamoney" [ref=f6e142]
+                - generic [ref=f6e143] [cursor=pointer]:
+                  - radio "Pay Later lazypay icic hdfc epaylater"
+                  - generic [ref=f6e145]:
+                    - generic [ref=f6e148]: Pay Later
+                    - generic [ref=f6e160]:
+                      - img "lazypay" [ref=f6e162]
+                      - img "icic" [ref=f6e164]
+                      - img "hdfc" [ref=f6e166]
+                      - img "epaylater" [ref=f6e168]
+              - button "More options" [ref=f6e172] [cursor=pointer]:
+                - generic [ref=f6e174]: More options
