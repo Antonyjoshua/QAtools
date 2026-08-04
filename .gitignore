@@ -37,3 +37,6 @@ Thumbs.db
 
 # Vendored external repo (not our code)
 QA Agent/playwright-mcp/
+
+# Contains real credentials locally; tracked history only has scrubbed placeholders
+QA Agent/.mcp.json
