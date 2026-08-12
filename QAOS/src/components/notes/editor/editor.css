@@ -1,0 +1,180 @@
+.qanotes-prose {
+  outline: none;
+  min-height: 200px;
+}
+
+.qanotes-prose > * + * {
+  margin-top: 0.75em;
+}
+
+.qanotes-prose h1 {
+  font-size: 1.8em;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-top: 1.4em;
+}
+.qanotes-prose h2 {
+  font-size: 1.4em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 1.2em;
+}
+.qanotes-prose h3 {
+  font-size: 1.15em;
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+.qanotes-prose ul,
+.qanotes-prose ol {
+  padding-left: 1.5em;
+}
+.qanotes-prose ul {
+  list-style: disc;
+}
+.qanotes-prose ol {
+  list-style: decimal;
+}
+.qanotes-prose li p {
+  margin: 0;
+}
+
+.qanotes-prose ul[data-type="taskList"] {
+  list-style: none;
+  padding-left: 0;
+}
+.qanotes-prose ul[data-type="taskList"] li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+.qanotes-prose ul[data-type="taskList"] li > label {
+  margin-top: 0.28em;
+  user-select: none;
+}
+.qanotes-prose ul[data-type="taskList"] li > div {
+  flex: 1;
+}
+.qanotes-prose ul[data-type="taskList"] input[type="checkbox"] {
+  accent-color: var(--primary);
+  width: 15px;
+  height: 15px;
+}
+
+.qanotes-prose blockquote {
+  border-left: 3px solid var(--primary);
+  padding-left: 1em;
+  color: var(--muted-foreground);
+  font-style: italic;
+}
+
+.qanotes-prose hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1.5em 0;
+}
+
+.qanotes-prose a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.qanotes-prose code {
+  background: var(--muted);
+  border-radius: 4px;
+  padding: 0.15em 0.4em;
+  font-size: 0.85em;
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+.qanotes-prose pre {
+  background: color-mix(in oklch, var(--foreground) 5%, var(--card));
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1em 1.2em;
+  overflow-x: auto;
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 0.85em;
+  line-height: 1.6;
+}
+.qanotes-prose pre code {
+  background: none;
+  padding: 0;
+  font-size: 1em;
+}
+
+.qanotes-prose mark {
+  background: color-mix(in oklch, var(--warning) 40%, transparent);
+  border-radius: 3px;
+  padding: 0 0.1em;
+}
+
+.qanotes-prose table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+.qanotes-prose th,
+.qanotes-prose td {
+  border: 1px solid var(--border);
+  padding: 0.5em 0.7em;
+  text-align: left;
+  vertical-align: top;
+}
+.qanotes-prose th {
+  background: var(--muted);
+  font-weight: 600;
+}
+.qanotes-prose .selectedCell {
+  background: color-mix(in oklch, var(--primary) 12%, transparent);
+}
+
+.qanotes-prose p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: var(--muted-foreground);
+  pointer-events: none;
+  height: 0;
+}
+
+/* highlight.js token colors (aligned to theme accent hues) */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-section,
+.hljs-link {
+  color: var(--chart-1);
+}
+.hljs-string,
+.hljs-title,
+.hljs-name,
+.hljs-type,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: var(--chart-2);
+}
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  color: var(--muted-foreground);
+}
+.hljs-number,
+.hljs-regexp,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-params {
+  color: var(--chart-3);
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: bold;
+}

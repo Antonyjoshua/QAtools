@@ -1,0 +1,192 @@
+import type { SkillDefinition } from "@/lib/solo/types";
+
+/** XP required to advance a skill FROM `level` TO `level + 1`. */
+export function skillXpToNextLevel(level: number): number {
+  return 50 + (level - 1) * 40;
+}
+
+export const SKILLS: SkillDefinition[] = [
+  {
+    id: "manual-testing",
+    name: "Manual Testing",
+    category: "technical",
+    icon: "🧪",
+    description: "Core exploratory and scripted testing craftsmanship.",
+    unlocks: [
+      { id: "mt-1", label: "Test Case Design", requiredLevel: 2 },
+      { id: "mt-2", label: "Exploratory Testing", requiredLevel: 5 },
+      { id: "mt-3", label: "Regression Mastery", requiredLevel: 8 },
+      { id: "mt-4", label: "Edge Case Hunter", requiredLevel: 12 },
+    ],
+  },
+  {
+    id: "automation",
+    name: "Automation",
+    category: "technical",
+    icon: "🤖",
+    description: "Building reliable, maintainable automated test suites.",
+    unlocks: [
+      { id: "au-1", label: "Playwright Beginner", requiredLevel: 2 },
+      { id: "au-2", label: "Selenium Intermediate", requiredLevel: 5 },
+      { id: "au-3", label: "Framework Design", requiredLevel: 8 },
+      { id: "au-4", label: "CI/CD Automation", requiredLevel: 12 },
+      { id: "au-5", label: "Advanced Reporting", requiredLevel: 16 },
+    ],
+  },
+  {
+    id: "api-testing",
+    name: "API Testing",
+    category: "technical",
+    icon: "🔌",
+    description: "Validating REST/GraphQL contracts and responses.",
+    unlocks: [
+      { id: "ap-1", label: "REST Fundamentals", requiredLevel: 2 },
+      { id: "ap-2", label: "Postman Power User", requiredLevel: 5 },
+      { id: "ap-3", label: "Contract Testing", requiredLevel: 8 },
+      { id: "ap-4", label: "GraphQL Testing", requiredLevel: 12 },
+    ],
+  },
+  {
+    id: "sql",
+    name: "SQL",
+    category: "technical",
+    icon: "🗄️",
+    description: "Querying and validating data with confidence.",
+    unlocks: [
+      { id: "sq-1", label: "Basic Queries", requiredLevel: 2 },
+      { id: "sq-2", label: "Joins & Aggregates", requiredLevel: 5 },
+      { id: "sq-3", label: "Query Optimization", requiredLevel: 8 },
+      { id: "sq-4", label: "Data Validation Scripts", requiredLevel: 12 },
+    ],
+  },
+  {
+    id: "performance-testing",
+    name: "Performance Testing",
+    category: "technical",
+    icon: "⚡",
+    description: "Load, stress, and scalability testing.",
+    unlocks: [
+      { id: "pf-1", label: "Load Testing Basics", requiredLevel: 2 },
+      { id: "pf-2", label: "Stress Testing", requiredLevel: 5 },
+      { id: "pf-3", label: "Bottleneck Analysis", requiredLevel: 8 },
+      { id: "pf-4", label: "Scalability Modeling", requiredLevel: 12 },
+    ],
+  },
+  {
+    id: "security-testing",
+    name: "Security Testing",
+    category: "technical",
+    icon: "🛡️",
+    description: "Finding vulnerabilities before attackers do.",
+    unlocks: [
+      { id: "se-1", label: "OWASP Fundamentals", requiredLevel: 2 },
+      { id: "se-2", label: "Vulnerability Scanning", requiredLevel: 5 },
+      { id: "se-3", label: "Penetration Basics", requiredLevel: 8 },
+      { id: "se-4", label: "Threat Modeling", requiredLevel: 12 },
+    ],
+  },
+  {
+    id: "playwright",
+    name: "Playwright",
+    category: "technical",
+    icon: "🎭",
+    description: "Modern end-to-end browser automation.",
+    unlocks: [
+      { id: "pw-1", label: "First Script", requiredLevel: 2 },
+      { id: "pw-2", label: "Page Object Model", requiredLevel: 5 },
+      { id: "pw-3", label: "Parallel Execution", requiredLevel: 8 },
+      { id: "pw-4", label: "Visual Regression", requiredLevel: 12 },
+    ],
+  },
+  {
+    id: "selenium",
+    name: "Selenium",
+    category: "technical",
+    icon: "🌐",
+    description: "Cross-browser WebDriver automation.",
+    unlocks: [
+      { id: "sl-1", label: "WebDriver Basics", requiredLevel: 2 },
+      { id: "sl-2", label: "Cross-Browser Testing", requiredLevel: 5 },
+      { id: "sl-3", label: "Grid & Parallelization", requiredLevel: 8 },
+      { id: "sl-4", label: "Custom Framework", requiredLevel: 12 },
+    ],
+  },
+  {
+    id: "cypress",
+    name: "Cypress",
+    category: "technical",
+    icon: "🌲",
+    description: "Fast, developer-friendly front-end testing.",
+    unlocks: [
+      { id: "cy-1", label: "First Test", requiredLevel: 2 },
+      { id: "cy-2", label: "Custom Commands", requiredLevel: 5 },
+      { id: "cy-3", label: "Network Stubbing", requiredLevel: 8 },
+      { id: "cy-4", label: "Component Testing", requiredLevel: 12 },
+    ],
+  },
+  {
+    id: "jmeter",
+    name: "JMeter",
+    category: "technical",
+    icon: "📊",
+    description: "Load-testing and performance benchmarking.",
+    unlocks: [
+      { id: "jm-1", label: "Thread Groups 101", requiredLevel: 2 },
+      { id: "jm-2", label: "Listeners & Reports", requiredLevel: 5 },
+      { id: "jm-3", label: "Distributed Testing", requiredLevel: 8 },
+      { id: "jm-4", label: "CI Integration", requiredLevel: 12 },
+    ],
+  },
+  {
+    id: "agile",
+    name: "Agile",
+    category: "soft",
+    icon: "🔄",
+    description: "Working effectively within Agile/Scrum teams.",
+    unlocks: [
+      { id: "ag-1", label: "Sprint Ceremonies", requiredLevel: 2 },
+      { id: "ag-2", label: "Story Estimation", requiredLevel: 5 },
+      { id: "ag-3", label: "Backlog Refinement", requiredLevel: 8 },
+      { id: "ag-4", label: "Scrum Facilitation", requiredLevel: 12 },
+    ],
+  },
+  {
+    id: "communication",
+    name: "Communication",
+    category: "soft",
+    icon: "💬",
+    description: "Clear bug reports, updates, and cross-team sync.",
+    unlocks: [
+      { id: "co-1", label: "Clear Bug Writing", requiredLevel: 2 },
+      { id: "co-2", label: "Stakeholder Updates", requiredLevel: 5 },
+      { id: "co-3", label: "Cross-Team Sync", requiredLevel: 8 },
+      { id: "co-4", label: "Executive Reporting", requiredLevel: 12 },
+    ],
+  },
+  {
+    id: "leadership",
+    name: "Leadership",
+    category: "soft",
+    icon: "🧭",
+    description: "Mentoring, delegating, and driving quality culture.",
+    unlocks: [
+      { id: "le-1", label: "Mentoring Basics", requiredLevel: 2 },
+      { id: "le-2", label: "Task Delegation", requiredLevel: 5 },
+      { id: "le-3", label: "Team Retrospectives", requiredLevel: 8 },
+      { id: "le-4", label: "Strategic Planning", requiredLevel: 12 },
+    ],
+  },
+  {
+    id: "problem-solving",
+    name: "Problem Solving",
+    category: "soft",
+    icon: "🧩",
+    description: "Root-causing, debugging, and systems thinking.",
+    unlocks: [
+      { id: "ps-1", label: "Root Cause Analysis", requiredLevel: 2 },
+      { id: "ps-2", label: "Debugging Mastery", requiredLevel: 5 },
+      { id: "ps-3", label: "Systems Thinking", requiredLevel: 8 },
+      { id: "ps-4", label: "Innovation Mindset", requiredLevel: 12 },
+    ],
+  },
+];

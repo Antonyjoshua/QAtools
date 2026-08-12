@@ -1,0 +1,42 @@
+/* highlight.js token colors, aligned to the app's theme accent hues (see notes/editor/editor.css
+   for the same mapping) — kept local to the Learn module so it loads wherever this component is
+   used, regardless of Next.js's per-route CSS splitting. */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-section,
+.hljs-link {
+  color: var(--chart-1);
+}
+.hljs-string,
+.hljs-title,
+.hljs-name,
+.hljs-type,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: var(--chart-2);
+}
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  color: var(--muted-foreground);
+}
+.hljs-number,
+.hljs-regexp,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-params {
+  color: var(--chart-3);
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: bold;
+}

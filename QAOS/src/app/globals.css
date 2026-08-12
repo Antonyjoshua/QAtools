@@ -1,0 +1,380 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@keyframes qaos-ripple {
+  from {
+    opacity: 0.5;
+    transform: scale(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-chart-6: var(--chart-6);
+  --color-chart-7: var(--chart-7);
+  --color-chart-8: var(--chart-8);
+  --color-status-good: var(--status-good);
+  --color-status-warning: var(--status-warning);
+  --color-status-serious: var(--status-serious);
+  --color-status-critical: var(--status-critical);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  --background: oklch(0.995 0.002 285);
+  --foreground: oklch(0.17 0.01 285);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.17 0.01 285);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.17 0.01 285);
+  --primary: oklch(0.585 0.19 269);
+  --primary-foreground: oklch(0.99 0.005 269);
+  --secondary: oklch(0.965 0.004 285);
+  --secondary-foreground: oklch(0.22 0.01 285);
+  --muted: oklch(0.965 0.004 285);
+  --muted-foreground: oklch(0.5 0.015 285);
+  --accent: oklch(0.955 0.02 269);
+  --accent-foreground: oklch(0.35 0.15 269);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.91 0.006 285);
+  --input: oklch(0.91 0.006 285);
+  --ring: oklch(0.585 0.19 269);
+  --success: oklch(0.65 0.16 152);
+  --warning: oklch(0.75 0.16 75);
+  --chart-1: #2a78d6;
+  --chart-2: #eb6834;
+  --chart-3: #1baf7a;
+  --chart-4: #eda100;
+  --chart-5: #e87ba4;
+  --chart-6: #008300;
+  --chart-7: #4a3aa7;
+  --chart-8: #e34948;
+  --status-good: #0ca30c;
+  --status-warning: #fab219;
+  --status-serious: #ec835a;
+  --status-critical: #d03b3b;
+  --radius: 0.55rem;
+  --sidebar: oklch(0.98 0.003 285);
+  --sidebar-foreground: oklch(0.17 0.01 285);
+  --sidebar-primary: oklch(0.585 0.19 269);
+  --sidebar-primary-foreground: oklch(0.99 0.005 269);
+  --sidebar-accent: oklch(0.955 0.02 269);
+  --sidebar-accent-foreground: oklch(0.35 0.15 269);
+  --sidebar-border: oklch(0.91 0.006 285);
+  --sidebar-ring: oklch(0.585 0.19 269);
+  --surface-glass: oklch(1 0 0 / 0.6);
+  --surface-glass-border: oklch(0.17 0.01 285 / 0.08);
+  --page-gradient: radial-gradient(
+      ellipse 80% 50% at 50% -10%,
+      oklch(0.585 0.19 269 / 0.1),
+      transparent
+    ),
+    radial-gradient(ellipse 60% 40% at 90% 10%, oklch(0.7 0.15 320 / 0.06), transparent);
+}
+
+.dark {
+  --background: oklch(0.135 0.006 285);
+  --foreground: oklch(0.96 0.003 285);
+  --card: oklch(0.17 0.007 285);
+  --card-foreground: oklch(0.96 0.003 285);
+  --popover: oklch(0.18 0.007 285);
+  --popover-foreground: oklch(0.96 0.003 285);
+  --primary: oklch(0.68 0.18 269);
+  --primary-foreground: oklch(0.14 0.02 269);
+  --secondary: oklch(0.22 0.008 285);
+  --secondary-foreground: oklch(0.94 0.003 285);
+  --muted: oklch(0.21 0.008 285);
+  --muted-foreground: oklch(0.635 0.014 285);
+  --accent: oklch(0.26 0.03 269);
+  --accent-foreground: oklch(0.85 0.06 269);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 9%);
+  --input: oklch(1 0 0 / 12%);
+  --ring: oklch(0.68 0.18 269);
+  --success: oklch(0.72 0.17 152);
+  --warning: oklch(0.8 0.17 75);
+  --chart-1: #3987e5;
+  --chart-2: #d95926;
+  --chart-3: #199e70;
+  --chart-4: #c98500;
+  --chart-5: #d55181;
+  --chart-6: #1fae1f;
+  --chart-7: #9085e9;
+  --chart-8: #e66767;
+  --status-good: #0ca30c;
+  --status-warning: #fab219;
+  --status-serious: #ec835a;
+  --status-critical: #d03b3b;
+  --sidebar: oklch(0.14 0.006 285);
+  --sidebar-foreground: oklch(0.96 0.003 285);
+  --sidebar-primary: oklch(0.68 0.18 269);
+  --sidebar-primary-foreground: oklch(0.14 0.02 269);
+  --sidebar-accent: oklch(0.26 0.03 269);
+  --sidebar-accent-foreground: oklch(0.85 0.06 269);
+  --sidebar-border: oklch(1 0 0 / 9%);
+  --sidebar-ring: oklch(0.68 0.18 269);
+  --surface-glass: oklch(0.2 0.008 285 / 0.55);
+  --surface-glass-border: oklch(1 0 0 / 0.08);
+  --page-gradient: radial-gradient(
+      ellipse 80% 50% at 50% -10%,
+      oklch(0.68 0.18 269 / 0.18),
+      transparent
+    ),
+    radial-gradient(ellipse 60% 40% at 90% 10%, oklch(0.6 0.18 320 / 0.12), transparent);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans scroll-smooth;
+  }
+  ::selection {
+    @apply bg-primary/25;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: var(--border);
+    border-radius: 999px;
+  }
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, color-mix(in oklch, var(--border) 55%, transparent) 1px, transparent 1px),
+      linear-gradient(to bottom, color-mix(in oklch, var(--border) 55%, transparent) 1px, transparent 1px);
+    background-size: 34px 34px;
+  }
+  .glass-panel {
+    background: var(--surface-glass);
+    border: 1px solid var(--surface-glass-border);
+    backdrop-filter: blur(20px) saturate(160%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%);
+  }
+  .glass-card {
+    background: var(--surface-glass);
+    border: 1px solid var(--surface-glass-border);
+    backdrop-filter: blur(16px) saturate(160%);
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+  .glass-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px -20px oklch(0.17 0.01 285 / 0.35);
+    border-color: var(--primary);
+  }
+  .gradient-text {
+    background: linear-gradient(120deg, oklch(0.585 0.19 269), oklch(0.68 0.18 300));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .dark .gradient-text {
+    background: linear-gradient(120deg, oklch(0.72 0.17 269), oklch(0.78 0.16 310));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+  .print-only {
+    display: none;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Solo Leveling module — scoped design tokens.
+ * This module ships its own hand-rolled Radix UI kit (components/solo/ui/*)
+ * with a distinct neon/glow aesthetic. Its token names (--background,
+ * --foreground, --border, --muted-foreground, --accent, --panel, --glow, ...)
+ * intentionally reuse names from the shared token system above, so they are
+ * scoped under .solo-scope rather than :root — CSS custom properties resolve
+ * to the nearest ancestor definition, so anything inside .solo-scope (incl.
+ * standard bg-background/text-foreground/border-border Tailwind utilities,
+ * via the shared @theme inline mapping) picks up these values automatically,
+ * while the rest of QuanGrade is completely unaffected.
+ * --------------------------------------------------------------------------- */
+.solo-scope {
+  --background: #05070d;
+  --foreground: #e6f1ff;
+  --panel: rgba(255, 255, 255, 0.045);
+  --panel-solid: #0b0f19;
+  --muted-foreground: #8b93a7;
+  --border: rgba(255, 255, 255, 0.1);
+  --accent: #22d3ee;
+  --accent-soft: #083344;
+  --glow: rgba(34, 211, 238, 0.45);
+
+  background:
+    radial-gradient(circle at 12% -10%, var(--accent-soft) 0%, transparent 42%),
+    radial-gradient(circle at 105% 15%, rgba(139, 92, 246, 0.08) 0%, transparent 40%),
+    var(--background);
+  color: var(--foreground);
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+:root:not(.dark) .solo-scope {
+  --background: #f4f6fb;
+  --foreground: #0f172a;
+  --panel: rgba(15, 23, 42, 0.035);
+  --panel-solid: #ffffff;
+  --muted-foreground: #5b6472;
+  --border: rgba(15, 23, 42, 0.08);
+
+  /* --accent-soft is a near-black solid tuned for the dark-mode glow — using
+   * it directly in the corner gradient below paints a dark blob on light
+   * backgrounds, so light mode gets its own subtle, accent-derived wash. */
+  background:
+    radial-gradient(circle at 12% -10%, color-mix(in srgb, var(--accent) 10%, transparent) 0%, transparent 42%),
+    radial-gradient(circle at 105% 15%, color-mix(in srgb, var(--accent) 6%, transparent) 0%, transparent 40%),
+    var(--background);
+}
+
+[data-accent="cyber-hunter"] .solo-scope { --accent: #22d3ee; --accent-soft: #083344; --glow: rgba(34, 211, 238, 0.45); }
+[data-accent="dark-neon"] .solo-scope { --accent: #ec4899; --accent-soft: #3b0764; --glow: rgba(236, 72, 153, 0.45); }
+[data-accent="minimal"] .solo-scope { --accent: #64748b; --accent-soft: #1e293b; --glow: rgba(100, 116, 139, 0.35); }
+[data-accent="glass-ui"] .solo-scope { --accent: #94a3b8; --accent-soft: #0f172a; --glow: rgba(148, 163, 184, 0.35); }
+[data-accent="purple-matrix"] .solo-scope { --accent: #a855f7; --accent-soft: #2e1065; --glow: rgba(168, 85, 247, 0.45); }
+[data-accent="blue-tech"] .solo-scope { --accent: #3b82f6; --accent-soft: #172554; --glow: rgba(59, 130, 246, 0.45); }
+[data-accent="gold-elite"] .solo-scope { --accent: #eab308; --accent-soft: #422006; --glow: rgba(234, 179, 8, 0.45); }
+[data-accent="solo-hunter"] .solo-scope { --accent: #8b5cf6; --accent-soft: #020617; --glow: rgba(139, 92, 246, 0.55); }
+
+.solo-scope * {
+  border-color: var(--border);
+}
+
+.solo-scope ::selection {
+  background: var(--accent);
+  color: #000;
+}
+
+.solo-scope ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.solo-scope ::-webkit-scrollbar-track {
+  background: transparent;
+}
+.solo-scope ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+}
+.solo-scope ::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+@keyframes solo-glow-pulse {
+  0%, 100% { box-shadow: 0 0 8px var(--glow); }
+  50% { box-shadow: 0 0 26px var(--glow); }
+}
+.solo-scope .animate-glow-pulse {
+  animation: solo-glow-pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes solo-shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+.solo-scope .animate-shimmer {
+  animation: solo-shimmer 2.2s ease-in-out infinite;
+}
+
+@keyframes solo-float-y {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-4px); }
+}
+.solo-scope .animate-float {
+  animation: solo-float-y 3.5s ease-in-out infinite;
+}
+
+.solo-scope .text-glow {
+  text-shadow: 0 0 12px var(--glow);
+}
+
+.solo-scope .grid-bg {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
