@@ -27,7 +27,7 @@ export function OptionsForm({ options, values, onChange }: OptionsFormProps) {
             {opt.type === "select" && (
               <Select value={String(value)} onValueChange={(v) => v !== null && onChange(opt.key, v)}>
                 <SelectTrigger id={opt.key} className="w-full">
-                  <SelectValue />
+                  <SelectValue>{(v: string) => opt.options?.find((o) => o.value === v)?.label ?? v}</SelectValue>
                 </SelectTrigger>
                 <SelectContent>
                   {opt.options?.map((o) => (

@@ -118,7 +118,7 @@ export function MeetingPlanner() {
           <Label className="text-xs text-muted-foreground">Working hours from</Label>
           <Select value={String(workingHoursStart)} onValueChange={(v) => setWorkingHours(Number(v), workingHoursEnd)}>
             <SelectTrigger className="w-28">
-              <SelectValue />
+              <SelectValue>{(v: string) => hourLabel(Number(v))}</SelectValue>
             </SelectTrigger>
             <SelectContent positionerClassName="z-[110]">
               {HOURS.map((h) => (
@@ -133,7 +133,7 @@ export function MeetingPlanner() {
           <Label className="text-xs text-muted-foreground">to</Label>
           <Select value={String(workingHoursEnd)} onValueChange={(v) => setWorkingHours(workingHoursStart, Number(v))}>
             <SelectTrigger className="w-28">
-              <SelectValue />
+              <SelectValue>{(v: string) => (Number(v) === 24 ? "12 AM" : hourLabel(Number(v)))}</SelectValue>
             </SelectTrigger>
             <SelectContent positionerClassName="z-[110]">
               {[...HOURS, 24].map((h) => (

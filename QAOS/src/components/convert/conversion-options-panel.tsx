@@ -3,9 +3,11 @@ import { SpreadsheetPdfOptionsForm } from "./options/spreadsheet-pdf-options-for
 import { PdfOperationOptionsForm } from "./options/pdf-operation-options-form";
 import { PdfToImageOptionsForm } from "./options/pdf-to-image-options-form";
 import { JsonModeOptionsForm } from "./options/json-mode-options-form";
+import { OcrOptionsForm } from "./options/ocr-options-form";
 
 const IMAGE_FORMATS = new Set(["jpg", "png", "webp", "bmp", "gif", "svg"]);
 const IMAGE_OUTPUTS = new Set(["jpg", "png", "webp", "ico", "svg"]);
+const OCR_INPUT_FORMATS = new Set(["jpg", "png", "webp", "bmp", "gif"]);
 const SPREADSHEET_FORMATS = new Set(["xlsx", "xls", "csv", "ods"]);
 
 /** Renders only the options relevant to the given (input, output) pair — never a generic
@@ -16,13 +18,18 @@ export function ConversionOptionsPanel({
   options,
   onChange,
   fileCount,
+  previewFile,
 }: {
   inputFormat: string;
   outputFormat: string;
   options: Record<string, unknown>;
   onChange: (options: Record<string, unknown>) => void;
   fileCount: number;
+  previewFile?: File;
 }) {
+  if (OCR_INPUT_FORMATS.has(inputFormat) && outputFormat === "txt") {
+    return <OcrOptionsForm options={options} onChange={onChange} previewFile={previewFile} />;
+  }
   if (IMAGE_FORMATS.has(inputFormat) && IMAGE_OUTPUTS.has(outputFormat)) {
     return <ImageOptionsForm outputFormat={outputFormat} options={options} onChange={onChange} />;
   }

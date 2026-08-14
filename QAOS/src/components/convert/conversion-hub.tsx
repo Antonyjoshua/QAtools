@@ -172,7 +172,14 @@ export function ConversionHub({ initialFormatPair }: { initialFormatPair?: { fro
             )}
           </div>
 
-          <ConversionOptionsPanel inputFormat={inputFormat} outputFormat={outputFormat} options={options} onChange={setOptions} fileCount={detectedFiles.length} />
+          <ConversionOptionsPanel
+            inputFormat={inputFormat}
+            outputFormat={outputFormat}
+            options={options}
+            onChange={setOptions}
+            fileCount={detectedFiles.length}
+            previewFile={detectedFiles[0]?.file}
+          />
 
           <Button className="mt-4 w-full gap-1.5" disabled={converting} onClick={() => void handleConvert()}>
             <Wand2 className="size-4" />

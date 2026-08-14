@@ -3,7 +3,7 @@
 import * as React from "react";
 import { EyeOff } from "lucide-react";
 
-const PREVIEWABLE_TEXT_FORMATS = new Set(["txt", "json", "xml", "yaml", "html", "md", "csv"]);
+export const PREVIEWABLE_TEXT_FORMATS = new Set(["txt", "json", "xml", "yaml", "html", "md", "csv"]);
 const PREVIEWABLE_IMAGE_FORMATS = new Set(["jpg", "png", "webp", "gif", "bmp", "svg", "ico"]);
 
 function CsvTablePreview({ text }: { text: string }) {

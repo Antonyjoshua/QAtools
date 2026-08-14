@@ -100,7 +100,7 @@ export function BugsListPage({
             }}
           >
             <SelectTrigger className="h-8 w-40 text-xs">
-              <SelectValue placeholder="Project" />
+              <SelectValue>{(v: string) => (v === "all" ? "All Projects" : ((projects ?? []).find((p) => p.id === v)?.name ?? v))}</SelectValue>
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">All Projects</SelectItem>
@@ -113,7 +113,7 @@ export function BugsListPage({
           </Select>
           <Select value={moduleId} onValueChange={(v) => v && setModuleId(v)}>
             <SelectTrigger className="h-8 w-36 text-xs">
-              <SelectValue placeholder="Module" />
+              <SelectValue>{(v: string) => (v === "all" ? "All Modules" : (modulesForProject.find((m) => m.id === v)?.name ?? v))}</SelectValue>
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">All Modules</SelectItem>
@@ -126,7 +126,7 @@ export function BugsListPage({
           </Select>
           <Select value={status} onValueChange={(v) => v && setStatus(v)}>
             <SelectTrigger className="h-8 w-32 text-xs">
-              <SelectValue placeholder="Status" />
+              <SelectValue>{(v: string) => (v === "all" ? "All Statuses" : v)}</SelectValue>
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">All Statuses</SelectItem>
@@ -139,7 +139,7 @@ export function BugsListPage({
           </Select>
           <Select value={severity} onValueChange={(v) => v && setSeverity(v)}>
             <SelectTrigger className="h-8 w-32 text-xs">
-              <SelectValue placeholder="Severity" />
+              <SelectValue>{(v: string) => (v === "all" ? "All Severities" : v)}</SelectValue>
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">All Severities</SelectItem>
@@ -152,7 +152,7 @@ export function BugsListPage({
           </Select>
           <Select value={priority} onValueChange={(v) => v && setPriority(v)}>
             <SelectTrigger className="h-8 w-28 text-xs">
-              <SelectValue placeholder="Priority" />
+              <SelectValue>{(v: string) => (v === "all" ? "All Priorities" : v)}</SelectValue>
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">All Priorities</SelectItem>

@@ -6,11 +6,21 @@ import { archiveManifest } from "../adapters/archive-adapter";
 import { spreadsheetManifest } from "../adapters/spreadsheet-adapter";
 import { pdfManifest } from "../adapters/pdf-adapter";
 import { documentManifest } from "../adapters/document-adapter";
+import { ocrManifest } from "../adapters/ocr-adapter";
 
 // Manifests are plain data (id + supported pairs + a dynamic `load()`) — importing them here is
-// cheap. The heavy libraries (pdf-lib, mammoth, pdfjs, xlsx, jszip, ...) only get pulled into the
-// bundle when `manifest.load()` actually runs, i.e. when a matching conversion is requested.
-export const ADAPTER_MANIFESTS: AdapterManifest[] = [imageManifest, textDataManifest, archiveManifest, spreadsheetManifest, pdfManifest, documentManifest];
+// cheap. The heavy libraries (pdf-lib, mammoth, pdfjs, xlsx, jszip, tesseract.js, ...) only get
+// pulled into the bundle when `manifest.load()` actually runs, i.e. when a matching conversion is
+// requested.
+export const ADAPTER_MANIFESTS: AdapterManifest[] = [
+  imageManifest,
+  textDataManifest,
+  archiveManifest,
+  spreadsheetManifest,
+  pdfManifest,
+  documentManifest,
+  ocrManifest,
+];
 
 function pairMatches(pair: ConversionPair, from: string, to: string): boolean {
   return (pair.from === from || pair.from === "*") && pair.to === to;

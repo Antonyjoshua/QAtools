@@ -61,7 +61,9 @@ export function FieldInput({
       ) : field.kind === "select" ? (
         <Select value={value} onValueChange={(v) => v !== null && onChange(v)}>
           <SelectTrigger id={field.id} className="w-full" aria-invalid={showError}>
-            <SelectValue placeholder={field.placeholder} />
+            <SelectValue placeholder={field.placeholder}>
+              {(v: string) => field.options?.find((opt) => opt.value === v)?.label ?? v}
+            </SelectValue>
           </SelectTrigger>
           <SelectContent>
             {field.options?.map((opt) => (

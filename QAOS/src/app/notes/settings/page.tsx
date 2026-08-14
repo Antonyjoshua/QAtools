@@ -27,6 +27,9 @@ const SHORTCUTS: [string, string][] = [
   ["Esc", "Exit reading mode"],
 ];
 
+const FONT_SIZE_LABEL: Record<FontSize, string> = { sm: "Small", md: "Medium", lg: "Large", xl: "Extra Large" };
+const FONT_FAMILY_LABEL: Record<FontFamily, string> = { sans: "Sans-serif", serif: "Serif", mono: "Monospace" };
+
 function SettingsSection({ title, description, children }: { title: string; description?: string; children: React.ReactNode }) {
   return (
     <div className="rounded-xl border border-border bg-card p-5">
@@ -96,7 +99,7 @@ export default function SettingsPage() {
                 <label className="mb-1.5 block text-xs font-medium text-muted-foreground">Font size</label>
                 <Select value={fontSize} onValueChange={(v) => v && setFontSize(v as FontSize)}>
                   <SelectTrigger className="w-full">
-                    <SelectValue />
+                    <SelectValue>{(v: FontSize) => FONT_SIZE_LABEL[v] ?? v}</SelectValue>
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="sm">Small</SelectItem>
@@ -110,7 +113,7 @@ export default function SettingsPage() {
                 <label className="mb-1.5 block text-xs font-medium text-muted-foreground">Font family</label>
                 <Select value={fontFamily} onValueChange={(v) => v && setFontFamily(v as FontFamily)}>
                   <SelectTrigger className="w-full">
-                    <SelectValue />
+                    <SelectValue>{(v: FontFamily) => FONT_FAMILY_LABEL[v] ?? v}</SelectValue>
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="sans">Sans-serif</SelectItem>

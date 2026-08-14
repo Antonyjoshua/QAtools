@@ -64,7 +64,11 @@ export function QrBarcodeStudioClient() {
           <Label className="text-xs text-muted-foreground">Code type</Label>
           <Select value={type} onValueChange={(v) => v !== null && setType(v as CodeType)}>
             <SelectTrigger className="w-full">
-              <SelectValue />
+              <SelectValue>
+                {(v: CodeType) =>
+                  ({ qr: "QR Code", code128: "Barcode — Code 128 (any text)", ean13: "Barcode — EAN-13 (numeric)" })[v] ?? v
+                }
+              </SelectValue>
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="qr">QR Code</SelectItem>

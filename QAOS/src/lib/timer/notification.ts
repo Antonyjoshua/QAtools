@@ -8,17 +8,36 @@ function getAudioContext(): AudioContext | null {
   return sharedAudioContext;
 }
 
-/** Synthesizes a short two-tone chime — no audio asset required. */
-export function playChime(volume = 0.5): void {
+export type ChimeVariant = "work" | "break" | "longBreak";
+
+/** Distinct tone patterns per session type, so you can tell which one finished by ear alone. */
+const CHIME_TONES: Record<ChimeVariant, { freq: number; start: number; duration: number }[]> = {
+  // Work session done, break starting — bright ascending two-tone.
+  work: [
+    { freq: 880, start: 0, duration: 0.16 },
+    { freq: 1174.66, start: 0.14, duration: 0.22 },
+  ],
+  // Break over, back to work — softer descending two-tone.
+  break: [
+    { freq: 659.25, start: 0, duration: 0.16 },
+    { freq: 523.25, start: 0.14, duration: 0.24 },
+  ],
+  // Full cycle done — fuller three-tone ascending fanfare.
+  longBreak: [
+    { freq: 523.25, start: 0, duration: 0.14 },
+    { freq: 659.25, start: 0.12, duration: 0.14 },
+    { freq: 783.99, start: 0.24, duration: 0.3 },
+  ],
+};
+
+/** Synthesizes a short chime — no audio asset required. Each session type has its own tone pattern. */
+export function playChime(volume = 0.5, variant: ChimeVariant = "work"): void {
   const ctx = getAudioContext();
   if (!ctx) return;
   if (ctx.state === "suspended") void ctx.resume();
 
   const now = ctx.currentTime;
-  const tones = [
-    { freq: 880, start: 0, duration: 0.16 },
-    { freq: 1174.66, start: 0.14, duration: 0.22 },
-  ];
+  const tones = CHIME_TONES[variant];
 
   for (const tone of tones) {
     const oscillator = ctx.createOscillator();

@@ -101,7 +101,7 @@ export function ImageStudioClient() {
           <Label className="text-xs text-muted-foreground">Preset</Label>
           <Select value={preset} onValueChange={(v) => v !== null && setPreset(v)}>
             <SelectTrigger className="w-full">
-              <SelectValue />
+              <SelectValue>{(v: string) => PRESETS.find((p) => p.value === v)?.label ?? v}</SelectValue>
             </SelectTrigger>
             <SelectContent>
               {PRESETS.map((p) => (
@@ -151,7 +151,7 @@ export function ImageStudioClient() {
           <Label className="text-xs text-muted-foreground">Format</Label>
           <Select value={format} onValueChange={(v) => v !== null && setFormat(v as "png" | "jpeg")}>
             <SelectTrigger className="w-full">
-              <SelectValue />
+              <SelectValue>{(v: "png" | "jpeg") => (v === "png" ? "PNG" : "JPEG")}</SelectValue>
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="png">PNG</SelectItem>

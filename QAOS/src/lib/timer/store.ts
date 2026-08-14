@@ -286,7 +286,7 @@ export const useQuickTimerStore = create<QuickTimerState>()(
           });
         }
 
-        if (s.settings.notificationSoundEnabled) playChime(s.settings.volume);
+        if (s.settings.notificationSoundEnabled) playChime(s.settings.volume, finishedPhase);
         if (s.settings.desktopNotifications) {
           showDesktopNotification(
             finishedPhase === "work" ? "Pomodoro complete" : "Break complete",

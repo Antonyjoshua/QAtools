@@ -4,7 +4,7 @@ import * as React from "react";
 import Link from "next/link";
 import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import { ExternalLink, History, Hourglass, RotateCcw, Search, Trash2, X } from "lucide-react";
+import { ExternalLink, History, Hourglass, Pin, PinOff, RotateCcw, Search, Trash2, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -20,8 +20,10 @@ const PANEL_WIDTH = 400;
 
 export function QuickDurationConverter() {
   const isOpen = useQuickDurationStore((s) => s.isOpen);
+  const isPinned = useQuickDurationStore((s) => s.isPinned);
   const close = useQuickDurationStore((s) => s.close);
   const toggleOpen = useQuickDurationStore((s) => s.toggleOpen);
+  const togglePinned = useQuickDurationStore((s) => s.togglePinned);
 
   const history = useDurationHistoryStore((s) => s.history);
   const pushEntry = useDurationHistoryStore((s) => s.pushEntry);
@@ -70,11 +72,34 @@ export function QuickDurationConverter() {
     }
   }, [quickInput, pushEntry]);
 
+  const isPinnedRef = React.useRef(isPinned);
+  React.useEffect(() => {
+    isPinnedRef.current = isPinned;
+  });
+
+  const dragConstraints = React.useMemo(
+    () =>
+      position
+        ? {
+            left: 8 - position.left,
+            right: Math.max(8, window.innerWidth - PANEL_WIDTH - 8) - position.left,
+            top: 8 - position.top,
+            bottom: Math.max(8, window.innerHeight - 160) - position.top,
+          }
+        : undefined,
+    [position]
+  );
+
   React.useEffect(() => {
     if (!isOpen) return;
     function onPointerDown(e: PointerEvent) {
+      if (isPinnedRef.current) return;
       const target = e.target as Node;
       if (panelRef.current?.contains(target) || triggerRef.current?.contains(target)) return;
+      // Select/Popover dropdowns portal to document.body as siblings of panelRef, not
+      // descendants, so `contains()` above can't see clicks inside them — check for their
+      // content wrapper explicitly instead of treating the click as "outside".
+      if (target instanceof HTMLElement && target.closest('[data-slot="popover-content"], [data-slot="select-content"]')) return;
       close();
     }
     function onKeyDown(e: KeyboardEvent) {
@@ -117,11 +142,20 @@ export function QuickDurationConverter() {
 
   const panelBody = (
     <>
-      <div className="flex items-center gap-2 px-4 pt-3.5 pb-2.5">
+      <div className="flex items-center gap-2 px-4 pt-3.5 pb-2.5 cursor-grab active:cursor-grabbing">
         <div className="flex size-6 shrink-0 items-center justify-center rounded-md bg-gradient-to-br from-primary to-[#8B5CF6] text-white">
           <Hourglass className="size-3.5" />
         </div>
         <p className="flex-1 text-sm font-semibold">Duration Converter</p>
+        <Button
+          variant="ghost"
+          size="icon"
+          className={cn("size-7", isPinned && "text-primary")}
+          aria-label={isPinned ? "Unpin" : "Pin"}
+          onClick={togglePinned}
+        >
+          {isPinned ? <Pin className="size-3.5 fill-current" /> : <PinOff className="size-3.5" />}
+        </Button>
         <Button variant="ghost" size="icon" className="size-7" aria-label="Close" onClick={close}>
           <X className="size-3.5" />
         </Button>
@@ -237,13 +271,17 @@ export function QuickDurationConverter() {
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                     className="fixed inset-0 z-[95] bg-black/40 backdrop-blur-[2px]"
-                    onClick={close}
+                    onClick={() => !isPinned && close()}
                   />
                 )}
 
                 {isDesktop && position && (
                   <motion.div
                     ref={panelRef}
+                    drag
+                    dragMomentum={false}
+                    dragConstraints={dragConstraints}
+                    dragElastic={0}
                     initial={{ opacity: 0, scale: 0.94, y: -8 }}
                     animate={{ opacity: 1, scale: 1, y: 0 }}
                     exit={{ opacity: 0, scale: 0.96, y: -6 }}

@@ -369,7 +369,7 @@ export function BugDetailPage({ bugId }: { bugId: string }) {
                     <Label className="text-xs text-muted-foreground">Project</Label>
                     <Select value={bug.projectId ?? "none"} onValueChange={(v) => v && handleField("projectId", v === "none" ? null : v)}>
                       <SelectTrigger className="h-8 w-full">
-                        <SelectValue />
+                        <SelectValue>{(v: string) => (v === "none" ? "No project" : ((projects ?? []).find((p) => p.id === v)?.name ?? v))}</SelectValue>
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="none">No project</SelectItem>
@@ -385,7 +385,7 @@ export function BugDetailPage({ bugId }: { bugId: string }) {
                     <Label className="text-xs text-muted-foreground">Module</Label>
                     <Select value={bug.moduleId ?? "none"} onValueChange={(v) => v && handleField("moduleId", v === "none" ? null : v)}>
                       <SelectTrigger className="h-8 w-full">
-                        <SelectValue />
+                        <SelectValue>{(v: string) => (v === "none" ? "No module" : (projectModules.find((m) => m.id === v)?.name ?? v))}</SelectValue>
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="none">No module</SelectItem>
@@ -401,7 +401,7 @@ export function BugDetailPage({ bugId }: { bugId: string }) {
                     <Label className="text-xs text-muted-foreground">Feature</Label>
                     <Select value={bug.featureId ?? "none"} onValueChange={(v) => v && handleField("featureId", v === "none" ? null : v)}>
                       <SelectTrigger className="h-8 w-full">
-                        <SelectValue />
+                        <SelectValue>{(v: string) => (v === "none" ? "No feature" : (moduleFeatures.find((f) => f.id === v)?.name ?? v))}</SelectValue>
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="none">No feature</SelectItem>

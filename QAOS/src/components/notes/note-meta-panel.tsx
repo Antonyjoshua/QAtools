@@ -22,6 +22,12 @@ export function NoteMetaPanel({ note }: { note: Note }) {
 
   const tops = (categories ?? []).filter((c) => c.parentId === null);
 
+  const categoryNameById = React.useMemo(() => {
+    const map = new Map<string, string>();
+    for (const c of categories ?? []) map.set(c.id, c.name);
+    return map;
+  }, [categories]);
+
   function addTag(tag: string) {
     const t = tag.trim();
     if (!t || note.tags.includes(t)) return;
@@ -49,7 +55,7 @@ export function NoteMetaPanel({ note }: { note: Note }) {
           onValueChange={(v) => v !== null && updateNote(note.id, { categoryId: v === "none" ? null : v })}
         >
           <SelectTrigger className="w-full">
-            <SelectValue />
+            <SelectValue>{(v: string) => (v === "none" ? "No category" : (categoryNameById.get(v) ?? v))}</SelectValue>
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="none">No category</SelectItem>

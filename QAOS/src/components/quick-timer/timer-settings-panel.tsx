@@ -1,12 +1,19 @@
 "use client";
 
 import * as React from "react";
-import { Volume2, VolumeX, BellRing } from "lucide-react";
+import { Volume2, VolumeX, BellRing, Play } from "lucide-react";
 import { useQuickTimerStore } from "@/lib/timer/store";
-import { requestNotificationPermission } from "@/lib/timer/notification";
+import { requestNotificationPermission, playChime, type ChimeVariant } from "@/lib/timer/notification";
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
+import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+
+const CHIME_PREVIEWS: { variant: ChimeVariant; label: string }[] = [
+  { variant: "work", label: "Work done" },
+  { variant: "break", label: "Break done" },
+  { variant: "longBreak", label: "Long break done" },
+];
 
 function SettingRow({ label, description, children }: { label: string; description?: string; children: React.ReactNode }) {
   return (
@@ -54,6 +61,27 @@ export function TimerSettingsPanel() {
           aria-label="Notification volume"
         />
       </div>
+
+      {settings.notificationSoundEnabled && (
+        <SettingRow label="Preview sounds" description="Each Pomodoro session has its own chime">
+          <div className="flex gap-1.5">
+            {CHIME_PREVIEWS.map((p) => (
+              <Button
+                key={p.variant}
+                type="button"
+                variant="outline"
+                size="sm"
+                className="h-7 gap-1 text-xs"
+                title={`Preview: ${p.label}`}
+                onClick={() => playChime(settings.volume, p.variant)}
+              >
+                <Play className="size-3" />
+                {p.label}
+              </Button>
+            ))}
+          </div>
+        </SettingRow>
+      )}
 
       <SettingRow label="Desktop notifications" description="Show a system notification on completion">
         <Switch checked={settings.desktopNotifications} onCheckedChange={(v) => void handleDesktopNotificationsToggle(Boolean(v))} />

@@ -1,10 +1,10 @@
 "use client";
 
 import * as React from "react";
-import { CheckCircle2, XCircle, Loader2, Download, Eye, EyeOff, Trash2 } from "lucide-react";
+import { CheckCircle2, XCircle, Loader2, Download, Eye, EyeOff, Copy, Check, Trash2 } from "lucide-react";
 import { downloadOutput } from "@/lib/convert/services/conversion-service";
 import { formatFileSize } from "@/lib/convert/services/format-detection";
-import { FilePreview } from "./file-preview";
+import { FilePreview, PREVIEWABLE_TEXT_FORMATS } from "./file-preview";
 import { Button } from "@/components/ui/button";
 import type { ConversionProgressEvent, ConversionResult } from "@/lib/convert/core/types";
 
@@ -17,7 +17,15 @@ export interface ConversionJobState {
 
 export function JobRow({ job, onRemove }: { job: ConversionJobState; onRemove?: () => void }) {
   const [previewOpen, setPreviewOpen] = React.useState(false);
+  const [copied, setCopied] = React.useState(false);
   const primaryOutput = job.result?.outputs[0];
+
+  async function handleCopy() {
+    if (!primaryOutput) return;
+    await navigator.clipboard.writeText(await primaryOutput.blob.text());
+    setCopied(true);
+    setTimeout(() => setCopied(false), 1500);
+  }
 
   return (
     <div className="rounded-xl border border-border bg-card">
@@ -52,6 +60,11 @@ export function JobRow({ job, onRemove }: { job: ConversionJobState; onRemove?: 
               <Button variant="ghost" size="icon" className="size-8" onClick={() => setPreviewOpen((o) => !o)} aria-label="Preview">
                 {previewOpen ? <EyeOff className="size-4" /> : <Eye className="size-4" />}
               </Button>
+              {PREVIEWABLE_TEXT_FORMATS.has(primaryOutput.format) && (
+                <Button variant="ghost" size="icon" className="size-8" onClick={() => void handleCopy()} aria-label="Copy text">
+                  {copied ? <Check className="size-4 text-success" /> : <Copy className="size-4" />}
+                </Button>
+              )}
               <Button
                 variant="ghost"
                 size="icon"

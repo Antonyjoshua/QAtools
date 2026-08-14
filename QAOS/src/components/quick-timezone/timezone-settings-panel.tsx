@@ -38,7 +38,7 @@ export function TimezoneSettingsPanel() {
       <SettingRow label="Date format">
         <Select value={settings.dateFormat} onValueChange={(v) => updateSettings({ dateFormat: v as DateFormat })}>
           <SelectTrigger className="w-36">
-            <SelectValue />
+            <SelectValue>{(v: DateFormat) => DATE_FORMATS.find((f) => f.value === v)?.label ?? v}</SelectValue>
           </SelectTrigger>
           <SelectContent positionerClassName="z-[110]">
             {DATE_FORMATS.map((f) => (
@@ -53,7 +53,7 @@ export function TimezoneSettingsPanel() {
       <SettingRow label="First day of week">
         <Select value={String(settings.firstDayOfWeek)} onValueChange={(v) => updateSettings({ firstDayOfWeek: Number(v) as 0 | 1 })}>
           <SelectTrigger className="w-32">
-            <SelectValue />
+            <SelectValue>{(v: string) => (v === "0" ? "Sunday" : "Monday")}</SelectValue>
           </SelectTrigger>
           <SelectContent positionerClassName="z-[110]">
             <SelectItem value="0">Sunday</SelectItem>
