@@ -7,6 +7,7 @@ import { CATEGORIES } from "@/lib/generator/categories";
 import { ALL_GENERATORS } from "@/lib/generator/registry";
 import { CategoryCard } from "@/components/generator/category-card";
 import { GeneratorCard } from "@/components/generator/generator-card";
+import { DomainEntryCard } from "@/components/generator/domains/domain-entry-card";
 
 export function DashboardExplorer() {
   const [query, setQuery] = React.useState("");
@@ -62,12 +63,19 @@ export function DashboardExplorer() {
           </div>
         </div>
       ) : (
-        <div>
-          <h2 className="mb-4 text-sm font-medium uppercase tracking-wider text-muted-foreground">Browse by category</h2>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {CATEGORIES.map((c) => (
-              <CategoryCard key={c.id} category={c} count={counts.get(c.id) ?? 0} />
-            ))}
+        <div className="flex flex-col gap-8">
+          <div>
+            <h2 className="mb-4 text-sm font-medium uppercase tracking-wider text-muted-foreground">Or generate by real-world domain</h2>
+            <DomainEntryCard />
+          </div>
+
+          <div>
+            <h2 className="mb-4 text-sm font-medium uppercase tracking-wider text-muted-foreground">Browse by category</h2>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {CATEGORIES.map((c) => (
+                <CategoryCard key={c.id} category={c} count={counts.get(c.id) ?? 0} />
+              ))}
+            </div>
           </div>
         </div>
       )}

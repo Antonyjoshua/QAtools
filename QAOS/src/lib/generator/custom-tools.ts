@@ -34,4 +34,12 @@ export const CUSTOM_TOOLS: CustomTool[] = [
     href: "/generator/tools/regex-tester",
     icon: "Regex",
   },
+  {
+    slug: "dummy-file-generator",
+    name: "Dummy File Generator",
+    category: "files",
+    description: "Generate a real, downloadable file at an exact size and format — for testing upload size limits and format validation.",
+    href: "/generator/tools/dummy-file-generator",
+    icon: "FileUp",
+  },
 ];

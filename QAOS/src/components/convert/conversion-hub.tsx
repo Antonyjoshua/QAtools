@@ -140,7 +140,7 @@ export function ConversionHub({ initialFormatPair }: { initialFormatPair?: { fro
     <div className="flex flex-col gap-5">
       <div className="flex flex-col gap-2">
         {detectedFiles.map((d, i) => (
-          <DetectedFileCard key={`${d.file.name}-${i}`} detected={d} onRemove={detectedFiles.length > 1 ? () => removeFile(i) : undefined} />
+          <DetectedFileCard key={`${d.file.name}-${i}`} detected={d} onRemove={() => removeFile(i)} />
         ))}
       </div>
 

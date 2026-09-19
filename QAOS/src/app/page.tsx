@@ -140,7 +140,7 @@ export default function HomePage() {
           <LogoMark className="size-8" />
           <h1 className="font-[family-name:var(--font-plex-mono)] text-2xl font-bold tracking-tight">QuanGrade</h1>
         </div>
-        <p className="mt-3 text-base font-semibold">Every QA tool. One system.</p>
+        <p className="mt-3 text-base font-semibold">Quantify Quality. Grade Your Skills.</p>
         <p className="mt-1 text-sm text-muted-foreground">
           Notes, calculators, test data generation, bug reports and skill tracking in one place.
         </p>

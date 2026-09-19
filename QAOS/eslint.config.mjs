@@ -20,8 +20,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
-    // Vendored, minified third-party file copied into public/ — not first-party source.
+    // Vendored, minified third-party files copied into public/ — not first-party source.
     "public/pdf.worker.min.mjs",
+    "public/tesseract/**",
   ]),
 ]);
 

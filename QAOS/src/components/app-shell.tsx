@@ -49,6 +49,10 @@ import {
   Bookmark,
   BellRing,
   ShieldCheck,
+  Gamepad2,
+  ShoppingBag,
+  MousePointerClick,
+  Globe,
 } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { GlobalCommand } from "@/components/global-command";
@@ -58,6 +62,7 @@ import { QuickTimezone } from "@/components/quick-timezone/quick-timezone";
 import { QuickConvertPopup } from "@/components/convert/quick-convert-popup";
 import { QuickDurationConverter } from "@/components/duration/quick-duration-converter";
 import { QuickJobSearch } from "@/components/jobs/quick-job-search";
+import { HelpChatWidget } from "@/components/help/help-chat-widget";
 import { LogoMark } from "@/components/logo-mark";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -106,6 +111,7 @@ const modules: ModuleSection[] = [
     icon: Sparkles,
     items: [
       { href: "/generator", label: "Dashboard", icon: LayoutGrid },
+      { href: "/generator/domain", label: "Domain-wise Generator", icon: Globe },
       { href: "/generator/favorites", label: "Favorites", icon: Star },
       { href: "/generator/history", label: "History", icon: HistoryIcon },
       { href: "/generator/templates", label: "Templates", icon: LayoutTemplate },
@@ -151,6 +157,7 @@ const modules: ModuleSection[] = [
       { href: "/resume", label: "Dashboard", icon: LayoutGrid },
       { href: "/resume/templates", label: "Templates", icon: LayoutTemplate },
       { href: "/resume/new", label: "New Resume", icon: Plus },
+      { href: "/resume/portfolio", label: "Portfolio", icon: Globe },
     ],
   },
   {
@@ -210,6 +217,22 @@ const modules: ModuleSection[] = [
       { href: "/journey/calendar", label: "Calendar", icon: CalendarDays },
       { href: "/journey/leaderboard", label: "Leaderboard", icon: Users },
       { href: "/journey/settings", label: "Settings", icon: Settings },
+    ],
+  },
+  {
+    id: "playground",
+    label: "Playground",
+    href: "/playground",
+    icon: Gamepad2,
+    items: [
+      { href: "/playground", label: "Dashboard", icon: LayoutGrid },
+      { href: "/playground/bug-hunter", label: "Bug Hunter", icon: Bug },
+      { href: "/playground/testcase-lab", label: "Test Case Lab", icon: FlaskConical },
+      { href: "/playground/execution", label: "Test Execution", icon: PlayCircle },
+      { href: "/playground/manual-testing", label: "Manual Testing", icon: ClipboardList },
+      { href: "/playground/shop", label: "Brightbasket", icon: ShoppingBag },
+      { href: "/playground/automation", label: "Automation Playground", icon: MousePointerClick },
+      { href: "/playground/admin", label: "Admin", icon: ShieldCheck },
     ],
   },
 ];
@@ -293,8 +316,22 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
   );
 }
 
+// Playground popup/iframe target content — meant to render standalone in a tiny window or
+// embedded frame, so it deliberately skips the app chrome (sidebar/header) rather than cramming
+// it into the space.
+const BARE_ROUTES = ["/playground/window-target", "/playground/frame-inner", "/playground/frame-outer"];
+
+// A portfolio's public preview — the full standalone site (fixed nav, full-bleed sections), so it
+// also skips the app chrome. The id is dynamic, so this needs its own pattern rather than a literal.
+const BARE_ROUTE_PATTERNS = [/^\/resume\/portfolio\/[^/]+\/preview$/];
+
 export function AppShell({ children }: { children: React.ReactNode }) {
   const [mobileOpen, setMobileOpen] = React.useState(false);
+  const pathname = usePathname();
+
+  if (BARE_ROUTES.some((p) => pathname === p || pathname.startsWith(p + "/")) || BARE_ROUTE_PATTERNS.some((r) => r.test(pathname))) {
+    return <>{children}</>;
+  }
 
   return (
     <div className="flex min-h-screen w-full">
@@ -336,6 +373,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         </header>
         <main className="flex-1 bg-grid">{children}</main>
       </div>
+      <HelpChatWidget />
     </div>
   );
 }

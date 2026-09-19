@@ -24,7 +24,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "QuanGrade — Every QA tool. One system.",
+  title: "QuanGrade — Quantify Quality. Grade Your Skills.",
   description:
     "One workspace for QA notes, calculators, test data generation, bug reports and skill tracking — built for QA engineers, testers and automation teams.",
 };

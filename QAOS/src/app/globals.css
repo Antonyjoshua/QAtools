@@ -1,3 +1,11 @@
+/* Portfolio module fonts — must come before @import "tailwindcss" below: once that import is
+   resolved it inlines thousands of lines of generated utility CSS in-place, so any @import that
+   comes after it in source order ends up after real CSS rules in the bundled output, which the
+   "@import must precede all rules" spec constraint then rejects at build time. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
@@ -59,6 +67,8 @@
   --color-card: var(--card);
   --color-success: var(--success);
   --color-warning: var(--warning);
+  --color-xp: var(--xp);
+  --color-xp-foreground: var(--xp-foreground);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -101,6 +111,8 @@
   --status-warning: #fab219;
   --status-serious: #ec835a;
   --status-critical: #d03b3b;
+  --xp: oklch(0.75 0.16 80);
+  --xp-foreground: oklch(0.2 0.05 80);
   --radius: 0.55rem;
   --sidebar: oklch(0.98 0.003 285);
   --sidebar-foreground: oklch(0.17 0.01 285);
@@ -153,6 +165,8 @@
   --status-warning: #fab219;
   --status-serious: #ec835a;
   --status-critical: #d03b3b;
+  --xp: oklch(0.82 0.18 85);
+  --xp-foreground: oklch(0.16 0.04 85);
   --sidebar: oklch(0.14 0.006 285);
   --sidebar-foreground: oklch(0.96 0.003 285);
   --sidebar-primary: oklch(0.68 0.18 269);
@@ -377,4 +391,693 @@
     linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
   background-size: 32px 32px;
+}
+
+/* ---------------------------------------------------------------------------
+ * Portfolio module — ported template design systems.
+ * Each portfolio-N site had its own bespoke color/font system; rather than
+ * fight Tailwind's shared theme, each is scoped under its own class the same
+ * way .solo-scope isolates the Solo Leveling module above — CSS custom
+ * properties resolve to the nearest ancestor definition, so QuanGrade's own
+ * tokens are completely unaffected outside these wrappers.
+ * --------------------------------------------------------------------------- */
+
+/* ─── ai-dashboard (from portfolio-2) — "futuristic AI dashboard" ─────────── */
+.portfolio-ai-dashboard-scope {
+  --bg: #030711;
+  --card-bg: rgba(15, 23, 42, 0.68);
+  --card-bg-strong: rgba(15, 23, 42, 0.92);
+  --card-border: rgba(148, 163, 184, 0.08);
+  --t1: #7c3aed;
+  --t1-rgb: 124, 58, 237;
+  --t2: #06b6d4;
+  --t2-rgb: 6, 182, 212;
+  --t3: #a855f7;
+  --text: #f8fafc;
+  --muted: #94a3b8;
+  --glow1: rgba(124, 58, 237, 0.4);
+  --glow2: rgba(6, 182, 212, 0.4);
+
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.55s ease, color 0.35s ease;
+}
+
+.portfolio-ai-dashboard-scope .font-display {
+  font-family: "Space Grotesk", sans-serif;
+}
+.portfolio-ai-dashboard-scope .font-mono-jb {
+  font-family: "JetBrains Mono", monospace;
+}
+.portfolio-ai-dashboard-scope .gradient-text {
+  background: linear-gradient(135deg, var(--t3) 0%, var(--t1) 40%, var(--t2) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.portfolio-ai-dashboard-scope .gradient-text-cyan {
+  background: linear-gradient(135deg, var(--t2) 0%, var(--t1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.portfolio-ai-dashboard-scope .glass {
+  background: var(--card-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--card-border);
+}
+.portfolio-ai-dashboard-scope .glass-strong {
+  background: var(--card-bg-strong);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border: 1px solid rgba(var(--t1-rgb), 0.2);
+}
+.portfolio-ai-dashboard-scope .glow-violet {
+  box-shadow: 0 0 40px var(--glow1);
+}
+.portfolio-ai-dashboard-scope .glow-cyan {
+  box-shadow: 0 0 40px var(--glow2);
+}
+.portfolio-ai-dashboard-scope .grid-overlay {
+  background-image:
+    linear-gradient(rgba(var(--t1-rgb), 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(var(--t1-rgb), 0.04) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+.portfolio-ai-dashboard-scope .tech-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.65rem;
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  background: rgba(var(--t1-rgb), 0.12);
+  border: 1px solid rgba(var(--t1-rgb), 0.25);
+  color: var(--t3);
+  font-family: "JetBrains Mono", monospace;
+  white-space: nowrap;
+}
+.portfolio-ai-dashboard-scope .text-violet-light {
+  color: var(--t3);
+}
+.portfolio-ai-dashboard-scope .section-pad {
+  padding: 7rem 0;
+}
+@media (max-width: 768px) {
+  .portfolio-ai-dashboard-scope .section-pad {
+    padding: 5rem 0;
+  }
+}
+.portfolio-ai-dashboard-scope .form-group {
+  position: relative;
+}
+.portfolio-ai-dashboard-scope .form-group input,
+.portfolio-ai-dashboard-scope .form-group textarea {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  color: var(--text);
+  width: 100%;
+  padding: 1.2rem 1rem 0.6rem;
+  border-radius: 0.75rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: "Inter", sans-serif;
+  font-size: 0.95rem;
+}
+.portfolio-ai-dashboard-scope .form-group input:focus,
+.portfolio-ai-dashboard-scope .form-group textarea:focus {
+  outline: none;
+  border-color: var(--t1);
+  box-shadow: 0 0 0 3px rgba(var(--t1-rgb), 0.15);
+}
+.portfolio-ai-dashboard-scope .form-group label {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  pointer-events: none;
+}
+.portfolio-ai-dashboard-scope .form-group textarea ~ label {
+  top: 1.2rem;
+  transform: none;
+}
+.portfolio-ai-dashboard-scope .form-group input:focus ~ label,
+.portfolio-ai-dashboard-scope .form-group input:not(:placeholder-shown) ~ label,
+.portfolio-ai-dashboard-scope .form-group textarea:focus ~ label,
+.portfolio-ai-dashboard-scope .form-group textarea:not(:placeholder-shown) ~ label {
+  top: 0.4rem;
+  font-size: 0.72rem;
+  color: var(--t1);
+  transform: none;
+}
+.portfolio-ai-dashboard-scope .form-group input::placeholder,
+.portfolio-ai-dashboard-scope .form-group textarea::placeholder {
+  opacity: 0;
+}
+
+@keyframes portfolio-ai-float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+@keyframes portfolio-ai-glow-pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+.portfolio-ai-dashboard-scope .animate-float {
+  animation: portfolio-ai-float 6s ease-in-out infinite;
+}
+.portfolio-ai-dashboard-scope .animate-glow-pulse {
+  animation: portfolio-ai-glow-pulse 2s ease-in-out infinite;
+}
+
+/* ─── cyber-hud (from portfolio-4) — "cyberpunk mission control" ──────────── */
+.portfolio-cyber-hud-scope {
+  --bg: #050514;
+  --navy: #0a0a2e;
+  --cyan: #00d4ff;
+  --cyan-dim: rgba(0, 212, 255, 0.12);
+  --cyan-glow: rgba(0, 212, 255, 0.3);
+  --purple: #7c3aed;
+  --purple-dim: rgba(124, 58, 237, 0.12);
+  --purple-light: #a855f7;
+  --neon: #00ff88;
+  --pink: #ff2d78;
+  --text: #e2e8f0;
+  --muted: #8892b0;
+  --glass: rgba(255, 255, 255, 0.04);
+  --glass-strong: rgba(255, 255, 255, 0.07);
+  --border: rgba(255, 255, 255, 0.08);
+  --border-cyan: rgba(0, 212, 255, 0.25);
+
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.55s ease, color 0.35s ease;
+}
+.portfolio-cyber-hud-scope a {
+  text-decoration: none;
+  color: inherit;
+}
+.portfolio-cyber-hud-scope ::-webkit-scrollbar {
+  width: 4px;
+}
+.portfolio-cyber-hud-scope ::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+.portfolio-cyber-hud-scope ::-webkit-scrollbar-thumb {
+  background: var(--cyan);
+  border-radius: 2px;
+}
+.portfolio-cyber-hud-scope .font-display {
+  font-family: "Exo 2", sans-serif;
+}
+.portfolio-cyber-hud-scope .font-mono-jb {
+  font-family: "JetBrains Mono", monospace;
+}
+.portfolio-cyber-hud-scope .glass {
+  background: var(--glass);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.portfolio-cyber-hud-scope .glass-strong {
+  background: var(--glass-strong);
+  border: 1px solid var(--border-cyan);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+.portfolio-cyber-hud-scope .gradient-text {
+  background: linear-gradient(135deg, var(--cyan) 0%, var(--purple-light) 50%, var(--cyan) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 200% 200%;
+  animation: portfolio-cyber-gradient-shift 4s ease infinite;
+}
+.portfolio-cyber-hud-scope .gradient-text-warm {
+  background: linear-gradient(135deg, #ff2d78, #7c3aed, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+@keyframes portfolio-cyber-gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+.portfolio-cyber-hud-scope .section-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--cyan);
+  margin-bottom: 1rem;
+}
+.portfolio-cyber-hud-scope .section-tag::before {
+  content: "";
+  width: 24px;
+  height: 1px;
+  background: var(--cyan);
+}
+.portfolio-cyber-hud-scope .section-title {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+.portfolio-cyber-hud-scope .grid-overlay {
+  background-image:
+    linear-gradient(rgba(0, 212, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 212, 255, 0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+.portfolio-cyber-hud-scope .scan-container {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-cyber-hud-scope .scan-container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+  animation: portfolio-cyber-scan 3s linear infinite;
+  opacity: 0.6;
+  pointer-events: none;
+}
+@keyframes portfolio-cyber-scan {
+  0% { top: -2px; }
+  100% { top: 100%; }
+}
+.portfolio-cyber-hud-scope .hologram {
+  animation: portfolio-cyber-hologram 6s ease-in-out infinite;
+}
+@keyframes portfolio-cyber-hologram {
+  0%, 89%, 100% { opacity: 1; filter: none; }
+  90% { opacity: 0.2; filter: hue-rotate(90deg); }
+  91% { opacity: 1; }
+  93% { opacity: 0.4; }
+  94% { opacity: 1; }
+}
+.portfolio-cyber-hud-scope .tilt-card {
+  transform-style: preserve-3d;
+  transition: transform 0.05s linear;
+}
+.portfolio-cyber-hud-scope .terminal-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.2em;
+  background: var(--cyan);
+  margin-left: 2px;
+  vertical-align: middle;
+  animation: portfolio-cyber-blink 1s step-end infinite;
+}
+@keyframes portfolio-cyber-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.portfolio-cyber-hud-scope .card-shimmer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.portfolio-cyber-hud-scope .card-shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, transparent 40%, rgba(255, 255, 255, 0.04) 50%, transparent 60%);
+  background-size: 200% 200%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.portfolio-cyber-hud-scope .group:hover .card-shimmer::after {
+  opacity: 1;
+  animation: portfolio-cyber-shimmer 1.5s ease infinite;
+}
+@keyframes portfolio-cyber-shimmer {
+  0% { background-position: -200% -200%; }
+  100% { background-position: 200% 200%; }
+}
+
+/* ─── bug-mascot (from portfolio-1) — "dark violet QA bug mascot" ─────────── */
+.portfolio-bug-mascot-scope {
+  --accent-rgb: 108, 99, 255;
+  --bg: #0a0a0f;
+  --bg2: #111118;
+  --bg3: #18181f;
+  --border: #252530;
+  --accent: #6c63ff;
+  --accent2: #a78bfa;
+  --text: #e2e2f0;
+  --text-muted: #8888aa;
+  --text-dim: #55556a;
+  --card-bg: #13131c;
+  --radius: 12px;
+
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.4s ease, color 0.3s ease;
+}
+.portfolio-bug-mascot-scope[data-theme="light"] {
+  --bg: #f4f4ff;
+  --bg2: #eaeaf8;
+  --bg3: #e0e0f5;
+  --border: #c8c8e8;
+  --text: #0e0e26;
+  --text-muted: #2a2a45;
+  --text-dim: #555572;
+  --accent2: #5b3fc8;
+  --card-bg: #ffffff;
+}
+.portfolio-bug-mascot-scope a {
+  color: var(--accent2);
+  text-decoration: none;
+}
+.portfolio-bug-mascot-scope a:hover {
+  color: var(--accent);
+}
+.portfolio-bug-mascot-scope .font-mono-jb {
+  font-family: "JetBrains Mono", monospace;
+}
+.portfolio-bug-mascot-scope .accent {
+  color: var(--accent);
+}
+.portfolio-bug-mascot-scope .card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.2s, transform 0.2s;
+}
+.portfolio-bug-mascot-scope .card:hover {
+  border-color: var(--accent);
+}
+.portfolio-bug-mascot-scope .tag,
+.portfolio-bug-mascot-scope .chip {
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: rgba(108, 99, 255, 0.12);
+  border: 1px solid rgba(108, 99, 255, 0.25);
+  color: var(--accent2);
+  font-family: "JetBrains Mono", monospace;
+}
+.portfolio-bug-mascot-scope .section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.portfolio-bug-mascot-scope .section-title::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+  max-width: 320px;
+}
+.portfolio-bug-mascot-scope .stat-num {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+  font-family: "JetBrains Mono", monospace;
+}
+.portfolio-bug-mascot-scope .stat-label {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.portfolio-bug-mascot-scope .timeline-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--bg);
+  box-shadow: 0 0 0 2px var(--accent);
+  flex-shrink: 0;
+}
+.portfolio-bug-mascot-scope .timeline-dot.active {
+  background: #22c55e;
+  box-shadow: 0 0 0 2px #22c55e, 0 0 12px rgba(34, 197, 94, 0.5);
+  animation: portfolio-bug-pulse-dot 2s ease-in-out infinite;
+}
+@keyframes portfolio-bug-pulse-dot {
+  0%, 100% { box-shadow: 0 0 0 2px #22c55e, 0 0 8px rgba(34, 197, 94, 0.4); }
+  50% { box-shadow: 0 0 0 2px #22c55e, 0 0 16px rgba(34, 197, 94, 0.7); }
+}
+.portfolio-bug-mascot-scope .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.portfolio-bug-mascot-scope .btn-primary {
+  background: var(--accent);
+  color: #fff;
+  border: 2px solid var(--accent);
+}
+.portfolio-bug-mascot-scope .btn-primary:hover {
+  background: #5a52e0;
+  border-color: #5a52e0;
+  transform: translateY(-2px);
+}
+.portfolio-bug-mascot-scope .btn-outline {
+  background: transparent;
+  color: var(--accent2);
+  border: 2px solid var(--border);
+}
+.portfolio-bug-mascot-scope .btn-outline:hover {
+  border-color: var(--accent2);
+  transform: translateY(-2px);
+}
+.portfolio-bug-mascot-scope .btn-download {
+  background: transparent;
+  color: var(--text-muted);
+  border: 2px solid var(--border);
+}
+.portfolio-bug-mascot-scope .btn-download:hover {
+  border-color: var(--accent);
+  color: var(--text);
+  transform: translateY(-2px);
+}
+.portfolio-bug-mascot-scope .hero-bug-svg .bp {
+  cursor: default;
+  transition: filter 0.18s;
+}
+.portfolio-bug-mascot-scope .hero-bug-svg .bp:hover {
+  filter: drop-shadow(0 0 10px rgba(var(--accent-rgb), 0.85)) drop-shadow(0 0 26px rgba(var(--accent-rgb), 0.4));
+}
+.portfolio-bug-mascot-scope .hero-bug-svg .bp:hover .bp-stroke {
+  stroke: var(--accent2);
+}
+.portfolio-bug-mascot-scope .hero-bug-svg .bp:hover .bp-fill {
+  fill: rgba(var(--accent-rgb), 0.22);
+}
+.portfolio-bug-mascot-scope .hero-bug-svg .bp:hover .bp-dot {
+  fill: var(--accent2);
+}
+@keyframes portfolio-bug-breathe { 0%, 100% { opacity: 0.65; } 50% { opacity: 1; } }
+@keyframes portfolio-bug-core { 0%, 100% { opacity: 0.28; } 50% { opacity: 0.85; } }
+@keyframes portfolio-bug-sting { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+.portfolio-bug-mascot-scope .bh-breathe { animation: portfolio-bug-breathe 2.2s ease-in-out infinite; }
+.portfolio-bug-mascot-scope .bh-breathe2 { animation: portfolio-bug-breathe 2.2s ease-in-out infinite 1.1s; }
+.portfolio-bug-mascot-scope .bh-core { animation: portfolio-bug-core 2.8s ease-in-out infinite; }
+.portfolio-bug-mascot-scope .bh-sting { animation: portfolio-bug-sting 1.8s ease-in-out infinite; }
+@keyframes portfolio-bug-float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-14px) rotate(8deg); }
+}
+.portfolio-bug-mascot-scope .bg-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 1.5;
+  opacity: 0.09;
+  animation: portfolio-bug-float 9s ease-in-out infinite;
+}
+
+/* ─── sports-fire (from portfolio-3) — "orange fire" ───────────────────────── */
+.portfolio-sports-fire-scope {
+  --orange: #ff6200;
+  --orange-light: #ff8542;
+  --amber: #ffb800;
+  --fire: #ff3300;
+  --dark: #080808;
+  --dark-alt: #0d0d0d;
+  --card: #111111;
+  --border: rgba(255, 98, 0, 0.12);
+  --border-hover: rgba(255, 98, 0, 0.4);
+  --text: #ffffff;
+  --muted: #888888;
+  --font-display: "Bebas Neue", "Arial Black", sans-serif;
+
+  background-color: var(--dark);
+  color: var(--text);
+  font-family: "Inter", "Arial", sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.4s ease, color 0.3s ease;
+}
+.portfolio-sports-fire-scope a {
+  text-decoration: none;
+  color: inherit;
+}
+.portfolio-sports-fire-scope .font-display {
+  font-family: var(--font-display);
+}
+.portfolio-sports-fire-scope .section-dark {
+  background: var(--dark-alt);
+}
+.portfolio-sports-fire-scope .section-tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 0.75rem;
+}
+.portfolio-sports-fire-scope .section-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 6vw, 4rem);
+  letter-spacing: 3px;
+  line-height: 1;
+}
+.portfolio-sports-fire-scope .card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.portfolio-sports-fire-scope .card:hover {
+  border-color: var(--border-hover);
+}
+.portfolio-sports-fire-scope .tag {
+  display: inline-block;
+  padding: 0.26rem 0.75rem;
+  background: rgba(255, 98, 0, 0.07);
+  border: 1px solid rgba(255, 98, 0, 0.14);
+  border-radius: 100px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--orange-light);
+}
+.portfolio-sports-fire-scope .badge-current {
+  padding: 0.2rem 0.75rem;
+  background: rgba(255, 98, 0, 0.12);
+  border: 1px solid rgba(255, 98, 0, 0.28);
+  border-radius: 100px;
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+.portfolio-sports-fire-scope .timeline-dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--orange);
+  box-shadow: 0 0 0 3px rgba(255, 98, 0, 0.18), 0 0 14px rgba(255, 98, 0, 0.6);
+  flex-shrink: 0;
+}
+.portfolio-sports-fire-scope .timeline-dot.current {
+  background: var(--amber);
+  box-shadow: 0 0 0 3px rgba(255, 184, 0, 0.2), 0 0 16px rgba(255, 184, 0, 0.7);
+}
+.portfolio-sports-fire-scope .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.9rem 1.9rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  letter-spacing: 2px;
+  border-radius: 12px;
+  border: none;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+.portfolio-sports-fire-scope .btn-primary {
+  background: var(--orange);
+  color: #fff;
+}
+.portfolio-sports-fire-scope .btn-primary:hover {
+  background: var(--orange-light);
+  box-shadow: 0 0 32px rgba(255, 98, 0, 0.55);
+  transform: translateY(-2px);
+}
+.portfolio-sports-fire-scope .btn-outline {
+  background: transparent;
+  color: var(--text);
+  border: 1.5px solid rgba(255, 255, 255, 0.18);
+}
+.portfolio-sports-fire-scope .btn-outline:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+  transform: translateY(-2px);
+}
+.portfolio-sports-fire-scope .form-input {
+  width: 100%;
+  padding: 0.9rem 1.2rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.portfolio-sports-fire-scope .form-input:focus {
+  outline: none;
+  border-color: var(--orange);
+}
+.portfolio-sports-fire-scope .carousel-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.portfolio-sports-fire-scope .carousel-dot.active {
+  background: var(--orange);
+}
+.portfolio-sports-fire-scope .carousel-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.portfolio-sports-fire-scope .carousel-btn:hover:not(:disabled) {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+.portfolio-sports-fire-scope .carousel-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
 }

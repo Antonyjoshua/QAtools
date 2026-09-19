@@ -1,0 +1,120 @@
+import type { DomainCategoryDef } from "../types";
+
+const COURSE_NAMES = ["Mathematics", "Physics", "Chemistry", "Biology", "Computer Science", "English Literature", "History", "Economics", "Business Studies", "Art"];
+const DEPARTMENTS = ["Science", "Arts", "Commerce", "Engineering", "Management"];
+
+export const EDUCATION_CATEGORIES: DomainCategoryDef[] = [
+  {
+    id: "student-data",
+    domainId: "education",
+    name: "Student Data",
+    description: "Student profiles with grade/year and contact details.",
+    icon: "User",
+    fields: [
+      { key: "studentId", label: "Student ID", type: "id", required: true },
+      { key: "fullName", label: "Full Name", type: "fullName", required: true },
+      { key: "email", label: "Email", type: "email", required: false },
+      { key: "dateOfBirth", label: "Date of Birth", type: "dateOfBirth", required: false },
+      { key: "grade", label: "Grade / Year", type: "enum", required: false, enumValues: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "Undergraduate", "Postgraduate"] },
+    ],
+  },
+  {
+    id: "course-data",
+    domainId: "education",
+    name: "Course Data",
+    description: "Course catalog with instructor, credits, and department.",
+    icon: "GraduationCap",
+    fields: [
+      { key: "courseId", label: "Course ID", type: "id", required: true },
+      { key: "courseName", label: "Course Name", type: "enum", required: true, enumValues: COURSE_NAMES },
+      { key: "instructor", label: "Instructor", type: "fullName", required: false },
+      { key: "credits", label: "Credits", type: "quantity", required: false },
+      { key: "department", label: "Department", type: "enum", required: false, enumValues: DEPARTMENTS },
+    ],
+  },
+  {
+    id: "enrollment-data",
+    domainId: "education",
+    name: "Enrollment Data",
+    description: "Student-to-course enrollment records.",
+    icon: "ClipboardCheck",
+    fields: [
+      { key: "enrollmentId", label: "Enrollment ID", type: "id", required: true },
+      { key: "studentName", label: "Student Name", type: "fullName", required: true },
+      { key: "courseName", label: "Course Name", type: "enum", required: true, enumValues: COURSE_NAMES },
+      { key: "enrollmentDate", label: "Enrollment Date", type: "date", required: false },
+      { key: "status", label: "Status", type: "enum", required: false, enumValues: ["Enrolled", "Waitlisted", "Dropped", "Completed"] },
+    ],
+  },
+  {
+    id: "grade-data",
+    domainId: "education",
+    name: "Grade Data",
+    description: "Per-course marks and letter grade.",
+    icon: "FileCheck2",
+    fields: [
+      { key: "gradeId", label: "Grade ID", type: "id", required: true },
+      { key: "studentName", label: "Student Name", type: "fullName", required: true },
+      { key: "courseName", label: "Course Name", type: "enum", required: false, enumValues: COURSE_NAMES },
+      { key: "marks", label: "Marks (%)", type: "percentage", required: true },
+      { key: "grade", label: "Letter Grade", type: "enum", required: false, enumValues: ["A+", "A", "B+", "B", "C+", "C", "D", "F"] },
+    ],
+  },
+  {
+    id: "fee-data",
+    domainId: "education",
+    name: "Fee Data",
+    description: "Student fee charges and payment status.",
+    icon: "Receipt",
+    fields: [
+      { key: "feeId", label: "Fee ID", type: "id", required: true },
+      { key: "studentName", label: "Student Name", type: "fullName", required: true },
+      { key: "feeType", label: "Fee Type", type: "enum", required: false, enumValues: ["Tuition", "Hostel", "Library", "Lab", "Exam", "Transport"] },
+      { key: "amount", label: "Amount", type: "amount", required: true },
+      { key: "status", label: "Status", type: "paymentStatus", required: false },
+    ],
+  },
+  {
+    id: "faculty-data",
+    domainId: "education",
+    name: "Faculty Data",
+    description: "Faculty directory with department and designation.",
+    icon: "UserCheck",
+    fields: [
+      { key: "facultyId", label: "Faculty ID", type: "id", required: true },
+      { key: "fullName", label: "Full Name", type: "fullName", required: true },
+      { key: "department", label: "Department", type: "enum", required: false, enumValues: DEPARTMENTS },
+      { key: "designation", label: "Designation", type: "enum", required: false, enumValues: ["Professor", "Associate Professor", "Assistant Professor", "Lecturer"] },
+      { key: "yearsExperience", label: "Years of Experience", type: "quantity", required: false },
+    ],
+  },
+  {
+    id: "attendance-data",
+    domainId: "education",
+    name: "Attendance Data",
+    description: "Daily attendance records per course.",
+    icon: "CalendarDays",
+    fields: [
+      { key: "attendanceId", label: "Attendance ID", type: "id", required: true },
+      { key: "studentName", label: "Student Name", type: "fullName", required: true },
+      { key: "courseName", label: "Course Name", type: "enum", required: false, enumValues: COURSE_NAMES },
+      { key: "date", label: "Date", type: "date", required: true },
+      { key: "status", label: "Status", type: "enum", required: false, enumValues: ["Present", "Absent", "Late", "Excused"] },
+    ],
+  },
+  {
+    id: "library-data",
+    domainId: "education",
+    name: "Library Data",
+    description: "Book issue/return records.",
+    icon: "FileText",
+    fields: [
+      { key: "bookId", label: "Book ID", type: "id", required: true },
+      { key: "title", label: "Title", type: "text", required: false },
+      { key: "borrowerName", label: "Borrower Name", type: "fullName", required: false },
+      { key: "issueDate", label: "Issue Date", type: "date", required: false },
+      { key: "returnDate", label: "Return Date", type: "date", required: false },
+      { key: "status", label: "Status", type: "enum", required: false, enumValues: ["Issued", "Returned", "Overdue", "Reserved"] },
+    ],
+  },
+];
