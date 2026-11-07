@@ -129,6 +129,7 @@ export default function TestCaseDetailPage({ params }: { params: Promise<{ id: s
               notes: testCase.notes,
             }}
             onSubmit={handleSubmit}
+            projectId={testCase.projectId}
           />
         </TabsContent>
         <TabsContent value="steps" className="pt-4">

@@ -1,5 +1,6 @@
 import { db } from "../db";
 import { uid } from "../id";
+import { deleteTestCaseArtifacts } from "./reference-cleanup";
 import type { Folder } from "../types";
 
 export interface FolderNode extends Folder {
@@ -33,18 +34,22 @@ export async function reorderFolders(updates: { id: string; order: number; paren
 export async function deleteFolder(id: string): Promise<void> {
   const all = await db.folders.toArray();
   const toDelete = collectDescendantIds(all, id);
-  await db.transaction("rw", [db.folders, db.suites, db.testCases, db.steps], async () => {
-    await db.folders.bulkDelete(toDelete);
-    const suites = await db.suites.where("folderId").anyOf(toDelete).toArray();
-    const suiteIds = suites.map((s) => s.id);
-    await db.suites.where("folderId").anyOf(toDelete).delete();
-    if (suiteIds.length) {
-      const cases = await db.testCases.where("suiteId").anyOf(suiteIds).toArray();
-      const caseIds = cases.map((c) => c.id);
-      await db.testCases.where("suiteId").anyOf(suiteIds).delete();
-      if (caseIds.length) await db.steps.where("testCaseId").anyOf(caseIds).delete();
+  await db.transaction(
+    "rw",
+    [db.folders, db.suites, db.testCases, db.steps, db.comments, db.history, db.executionResults, db.testPlans, db.executions, db.attachments],
+    async () => {
+      await db.folders.bulkDelete(toDelete);
+      const suites = await db.suites.where("folderId").anyOf(toDelete).toArray();
+      const suiteIds = suites.map((s) => s.id);
+      await db.suites.where("folderId").anyOf(toDelete).delete();
+      if (suiteIds.length) {
+        const cases = await db.testCases.where("suiteId").anyOf(suiteIds).toArray();
+        const caseIds = cases.map((c) => c.id);
+        await db.testCases.where("suiteId").anyOf(suiteIds).delete();
+        await deleteTestCaseArtifacts(caseIds);
+      }
     }
-  });
+  );
 }
 
 function collectDescendantIds(all: Folder[], rootId: string): string[] {

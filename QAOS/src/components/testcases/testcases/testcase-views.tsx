@@ -1,10 +1,12 @@
 "use client";
 
 import * as React from "react";
+import { useLiveQuery } from "dexie-react-hooks";
 import { Table2, KanbanSquare, ListChecks, Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
-import type { TestCase, TestCaseView } from "@/lib/testcases/types";
+import { db } from "@/lib/testcases/db";
+import type { TestCase, TestCaseView, Requirement } from "@/lib/testcases/types";
 import { useTestCaseFilters, applyTestCaseFilters, deriveFacets } from "@/lib/testcases/hooks/use-filters";
 import { useTestManagementShortcuts } from "@/lib/testcases/hooks/use-shortcuts";
 import { FiltersPanel } from "@/components/testcases/shared/filters-panel";
@@ -13,6 +15,8 @@ import { TestCaseKanban } from "./testcase-kanban";
 import { TestCaseChecklist } from "./testcase-checklist";
 import { ExportMenu } from "./export-menu";
 import { ImportDialog } from "./import-dialog";
+
+const EMPTY_REQUIREMENTS: Requirement[] = [];
 
 const VIEW_TABS: { id: TestCaseView; label: string; icon: React.ComponentType<{ className?: string }> }[] = [
   { id: "table", label: "Table", icon: Table2 },
@@ -23,8 +27,13 @@ const VIEW_TABS: { id: TestCaseView; label: string; icon: React.ComponentType<{ 
 export function TestCaseViews({ testCases, projectId, suiteId }: { testCases: TestCase[]; projectId: string; suiteId: string }) {
   const [view, setView] = React.useState<TestCaseView>("table");
   const { filters, setSearch, toggle, clear, activeCount } = useTestCaseFilters();
+  const requirements = useLiveQuery(() => db.requirements.where("projectId").equals(projectId).toArray(), [projectId]) ?? EMPTY_REQUIREMENTS;
+  const requirementCodeById = React.useMemo(() => new Map(requirements.map((r) => [r.id, r.requirementId])), [requirements]);
   const facets = React.useMemo(() => deriveFacets(testCases), [testCases]);
-  const filtered = React.useMemo(() => applyTestCaseFilters(testCases, filters), [testCases, filters]);
+  const filtered = React.useMemo(
+    () => applyTestCaseFilters(testCases, filters, requirementCodeById),
+    [testCases, filters, requirementCodeById]
+  );
   const searchRef = React.useRef<HTMLInputElement>(null);
 
   useTestManagementShortcuts({ onSearch: () => searchRef.current?.focus() });
@@ -61,7 +70,7 @@ export function TestCaseViews({ testCases, projectId, suiteId }: { testCases: Te
           </div>
           <FiltersPanel facets={facets} filters={filters} onToggle={toggle} onClear={clear} activeCount={activeCount} />
           <ImportDialog projectId={projectId} suiteId={suiteId} />
-          <ExportMenu testCases={filtered} />
+          <ExportMenu testCases={filtered} requirementCodeById={requirementCodeById} />
         </div>
       </div>
 

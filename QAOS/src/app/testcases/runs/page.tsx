@@ -13,11 +13,17 @@ import { cn } from "@/lib/utils";
 export default function RunsPage() {
   const [view, setView] = React.useState<"list" | "calendar">("list");
   const [projectFilter, setProjectFilter] = React.useState<string>("all");
+  const [planFilter, setPlanFilter] = React.useState<string>("all");
 
   const projects = useLiveQuery(() => db.projects.toArray(), []) ?? [];
+  const testPlans = useLiveQuery(() => db.testPlans.toArray(), []) ?? [];
   const executions = useLiveQuery(() => db.executions.orderBy("createdAt").reverse().toArray(), []) ?? [];
 
-  const filtered = projectFilter === "all" ? executions : executions.filter((e) => e.projectId === projectFilter);
+  const filtered = executions
+    .filter((e) => projectFilter === "all" || e.projectId === projectFilter)
+    .filter((e) => planFilter === "all" || e.testPlanId === planFilter);
+
+  const planOptions = projectFilter === "all" ? testPlans : testPlans.filter((p) => p.projectId === projectFilter);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
@@ -54,21 +60,44 @@ export default function RunsPage() {
             Calendar
           </button>
         </div>
-        {projects.length > 0 && (
-          <Select value={projectFilter} onValueChange={(v) => setProjectFilter(String(v))}>
-            <SelectTrigger className="w-48">
-              <SelectValue>{(v: string) => (v === "all" || !v ? "All projects" : (projects.find((p) => p.id === v)?.name ?? v))}</SelectValue>
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">All projects</SelectItem>
-              {projects.map((p) => (
-                <SelectItem key={p.id} value={p.id}>
-                  {p.name}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        )}
+        <div className="flex flex-wrap items-center gap-2">
+          {projects.length > 0 && (
+            <Select
+              value={projectFilter}
+              onValueChange={(v) => {
+                setProjectFilter(String(v));
+                setPlanFilter("all");
+              }}
+            >
+              <SelectTrigger className="w-48">
+                <SelectValue>{(v: string) => (v === "all" || !v ? "All projects" : (projects.find((p) => p.id === v)?.name ?? v))}</SelectValue>
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All projects</SelectItem>
+                {projects.map((p) => (
+                  <SelectItem key={p.id} value={p.id}>
+                    {p.name}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          )}
+          {planOptions.length > 0 && (
+            <Select value={planFilter} onValueChange={(v) => setPlanFilter(String(v))}>
+              <SelectTrigger className="w-48">
+                <SelectValue>{(v: string) => (v === "all" || !v ? "All test plans" : (planOptions.find((p) => p.id === v)?.name ?? v))}</SelectValue>
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All test plans</SelectItem>
+                {planOptions.map((p) => (
+                  <SelectItem key={p.id} value={p.id}>
+                    {p.name}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          )}
+        </div>
       </div>
 
       {view === "list" ? <RunList executions={filtered} projects={projects} /> : <RunCalendar executions={filtered} />}

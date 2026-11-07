@@ -48,6 +48,18 @@ class BugForgeDB extends Dexie {
     this.version(2).stores({
       bugs: "id, displayId, projectId, moduleId, status, severity, priority, createdAt, updatedAt, *labels, linkedTestCaseId",
     });
+    // v3: index linkedRequirementId so bugs can also be manually linked directly to a Requirement.
+    this.version(3).stores({
+      bugs: "id, displayId, projectId, moduleId, status, severity, priority, createdAt, updatedAt, *labels, linkedTestCaseId, linkedRequirementId",
+    });
+    // v4: index featureId so deleting a feature can unlink its bugs.
+    this.version(4).stores({
+      bugs: "id, displayId, projectId, moduleId, featureId, status, severity, priority, createdAt, updatedAt, *labels, linkedTestCaseId, linkedRequirementId",
+    });
+    // v5: index linkedExploratorySessionId so a session can look up the bugs it filed.
+    this.version(5).stores({
+      bugs: "id, displayId, projectId, moduleId, featureId, status, severity, priority, createdAt, updatedAt, *labels, linkedTestCaseId, linkedRequirementId, linkedExploratorySessionId",
+    });
   }
 }
 

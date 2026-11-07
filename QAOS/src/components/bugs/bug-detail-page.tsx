@@ -28,6 +28,10 @@ import { BugExportMenu } from "@/components/bugs/bug-export-menu";
 import { BugVersionHistoryDialog } from "@/components/bugs/bug-version-history";
 import { BugComments } from "@/components/bugs/bug-comments";
 import { LinkedTestCaseCard } from "@/components/bugs/linked-test-case-card";
+import { LinkedRequirementCard } from "@/components/bugs/linked-requirement-card";
+import { LinkedExploratorySessionCard } from "@/components/bugs/linked-exploratory-session-card";
+import { LinkPickerDialog, type LinkPickerMode } from "@/components/bugs/link-picker-dialog";
+import type { TestCase, Requirement } from "@/lib/testcases/types";
 import { PrintableBugView } from "@/components/bugs/printable-bug-view";
 import { StatusBadge } from "@/components/bugs/status-badges";
 import { Button } from "@/components/ui/button";
@@ -83,6 +87,7 @@ export function BugDetailPage({ bugId }: { bugId: string }) {
   const [title, setTitle] = React.useState("");
   const [saveState, setSaveState] = React.useState<"idle" | "saving" | "saved">("idle");
   const [versionOpen, setVersionOpen] = React.useState(false);
+  const [linkPickerMode, setLinkPickerMode] = React.useState<LinkPickerMode | null>(null);
   const [duplicates, setDuplicates] = React.useState<Awaited<ReturnType<typeof findSimilarBugs>>>([]);
   const pendingPatchRef = React.useRef<Record<string, unknown>>({});
   const saveTimerRef = React.useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
@@ -279,12 +284,63 @@ export function BugDetailPage({ bugId }: { bugId: string }) {
             <Tabs defaultValue="details">
               <TabsList>
                 <TabsTrigger value="details">Details</TabsTrigger>
-                <TabsTrigger value="environment">Basic Info & Environment</TabsTrigger>
+                <TabsTrigger value="environment">Environment</TabsTrigger>
                 <TabsTrigger value="attachments">Attachments</TabsTrigger>
                 <TabsTrigger value="comments">Comments</TabsTrigger>
               </TabsList>
 
               <TabsContent value="details" className="flex flex-col gap-5">
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+                  <div className="flex flex-col gap-1.5">
+                    <Label className="text-xs text-muted-foreground">Project</Label>
+                    <Select value={bug.projectId ?? "none"} onValueChange={(v) => v && handleField("projectId", v === "none" ? null : v)}>
+                      <SelectTrigger className="h-8 w-full">
+                        <SelectValue>{(v: string) => (v === "none" ? "No project" : ((projects ?? []).find((p) => p.id === v)?.name ?? v))}</SelectValue>
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="none">No project</SelectItem>
+                        {(projects ?? []).map((p) => (
+                          <SelectItem key={p.id} value={p.id}>
+                            {p.name}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                  <div className="flex flex-col gap-1.5">
+                    <Label className="text-xs text-muted-foreground">Module</Label>
+                    <Select value={bug.moduleId ?? "none"} onValueChange={(v) => v && handleField("moduleId", v === "none" ? null : v)}>
+                      <SelectTrigger className="h-8 w-full">
+                        <SelectValue>{(v: string) => (v === "none" ? "No module" : (projectModules.find((m) => m.id === v)?.name ?? v))}</SelectValue>
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="none">No module</SelectItem>
+                        {projectModules.map((m) => (
+                          <SelectItem key={m.id} value={m.id}>
+                            {m.name}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                  <div className="flex flex-col gap-1.5">
+                    <Label className="text-xs text-muted-foreground">Feature</Label>
+                    <Select value={bug.featureId ?? "none"} onValueChange={(v) => v && handleField("featureId", v === "none" ? null : v)}>
+                      <SelectTrigger className="h-8 w-full">
+                        <SelectValue>{(v: string) => (v === "none" ? "No feature" : (moduleFeatures.find((f) => f.id === v)?.name ?? v))}</SelectValue>
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="none">No feature</SelectItem>
+                        {moduleFeatures.map((f) => (
+                          <SelectItem key={f.id} value={f.id}>
+                            {f.name}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                </div>
+
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                   <div className="flex flex-col gap-1.5">
                     <Label className="text-xs text-muted-foreground">Severity</Label>
@@ -296,7 +352,7 @@ export function BugDetailPage({ bugId }: { bugId: string }) {
                   </div>
                   <div className="flex flex-col gap-1.5">
                     <Label className="text-xs text-muted-foreground">Category</Label>
-                    <Select value={bug.category ?? undefined} onValueChange={(v) => v && handleField("category", v as BugCategory)}>
+                    <Select value={bug.category ?? ""} onValueChange={(v) => v && handleField("category", v as BugCategory)}>
                       <SelectTrigger className="h-8 w-full">
                         <SelectValue placeholder="Select category" />
                       </SelectTrigger>
@@ -364,57 +420,6 @@ export function BugDetailPage({ bugId }: { bugId: string }) {
               </TabsContent>
 
               <TabsContent value="environment" className="flex flex-col gap-5">
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-                  <div className="flex flex-col gap-1.5">
-                    <Label className="text-xs text-muted-foreground">Project</Label>
-                    <Select value={bug.projectId ?? "none"} onValueChange={(v) => v && handleField("projectId", v === "none" ? null : v)}>
-                      <SelectTrigger className="h-8 w-full">
-                        <SelectValue>{(v: string) => (v === "none" ? "No project" : ((projects ?? []).find((p) => p.id === v)?.name ?? v))}</SelectValue>
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="none">No project</SelectItem>
-                        {(projects ?? []).map((p) => (
-                          <SelectItem key={p.id} value={p.id}>
-                            {p.name}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-                  <div className="flex flex-col gap-1.5">
-                    <Label className="text-xs text-muted-foreground">Module</Label>
-                    <Select value={bug.moduleId ?? "none"} onValueChange={(v) => v && handleField("moduleId", v === "none" ? null : v)}>
-                      <SelectTrigger className="h-8 w-full">
-                        <SelectValue>{(v: string) => (v === "none" ? "No module" : (projectModules.find((m) => m.id === v)?.name ?? v))}</SelectValue>
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="none">No module</SelectItem>
-                        {projectModules.map((m) => (
-                          <SelectItem key={m.id} value={m.id}>
-                            {m.name}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-                  <div className="flex flex-col gap-1.5">
-                    <Label className="text-xs text-muted-foreground">Feature</Label>
-                    <Select value={bug.featureId ?? "none"} onValueChange={(v) => v && handleField("featureId", v === "none" ? null : v)}>
-                      <SelectTrigger className="h-8 w-full">
-                        <SelectValue>{(v: string) => (v === "none" ? "No feature" : (moduleFeatures.find((f) => f.id === v)?.name ?? v))}</SelectValue>
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="none">No feature</SelectItem>
-                        {moduleFeatures.map((f) => (
-                          <SelectItem key={f.id} value={f.id}>
-                            {f.name}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-                </div>
-
                 <div className="flex flex-col gap-1.5">
                   <Label className="text-xs text-muted-foreground">Reporter</Label>
                   <Input value={bug.reporter} onChange={(e) => handleField("reporter", e.target.value)} className="h-8 max-w-xs" />
@@ -452,7 +457,20 @@ export function BugDetailPage({ bugId }: { bugId: string }) {
             <div className="rounded-xl border border-border bg-card p-4">
               {checklist && <QaChecklist checklist={checklist} />}
             </div>
-            {bug.linkedTestCaseId && <LinkedTestCaseCard testCaseId={bug.linkedTestCaseId} displayId={bug.linkedTestCaseDisplayId} />}
+            <LinkedTestCaseCard
+              bugId={bug.id}
+              testCaseId={bug.linkedTestCaseId}
+              displayId={bug.linkedTestCaseDisplayId}
+              linkedExecutionId={bug.linkedExecutionId}
+              onRequestLink={() => setLinkPickerMode("testcase")}
+            />
+            <LinkedRequirementCard
+              bugId={bug.id}
+              requirementId={bug.linkedRequirementId}
+              requirementCode={bug.linkedRequirementCode}
+              onRequestLink={() => setLinkPickerMode("requirement")}
+            />
+            <LinkedExploratorySessionCard sessionId={bug.linkedExploratorySessionId} charterTitle={bug.linkedExploratorySessionCharter} />
             <div className="rounded-xl border border-border bg-card p-4 text-xs text-muted-foreground">
               <p className="mb-1 font-medium text-foreground">Context</p>
               <p>Project: {project?.name ?? "—"}</p>
@@ -466,6 +484,15 @@ export function BugDetailPage({ bugId }: { bugId: string }) {
       <PrintableBugView bug={bug} projectName={project?.name ?? ""} moduleName={module_?.name ?? ""} featureName={feature?.name ?? ""} />
 
       <BugVersionHistoryDialog bugId={bug.id} open={versionOpen} onOpenChange={setVersionOpen} />
+      <LinkPickerDialog
+        mode={linkPickerMode}
+        onOpenChange={(v) => { if (!v) setLinkPickerMode(null); }}
+        scopeProjectId={project?.linkedTestProjectId}
+        onSelectTestCase={(tc: TestCase) =>
+          void updateBug(bug.id, { linkedTestCaseId: tc.id, linkedTestCaseDisplayId: tc.displayId, linkedExecutionId: null, linkedExecutionResultId: null })
+        }
+        onSelectRequirement={(r: Requirement) => void updateBug(bug.id, { linkedRequirementId: r.id, linkedRequirementCode: r.requirementId })}
+      />
     </div>
   );
 }

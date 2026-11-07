@@ -5,6 +5,7 @@ import { useLiveQuery } from "dexie-react-hooks";
 import { Check, X, ShieldAlert, SkipForward } from "lucide-react";
 import { db } from "@/lib/testcases/db";
 import { createExecution, recordResult } from "@/lib/testcases/repo/execution-repo";
+import { getOrCreateAdHocTestPlan } from "@/lib/testcases/repo/test-plans-repo";
 import { useTestManagementSettings } from "@/lib/testcases/settings-store";
 import { cn } from "@/lib/utils";
 import type { TestCase, ExecutionResult, ExecutionResultStatus } from "@/lib/testcases/types";
@@ -30,8 +31,10 @@ export function TestCaseChecklist({ testCases, suiteId }: { testCases: TestCase[
         return;
       }
       if (!testCases.length) return;
+      const plan = await getOrCreateAdHocTestPlan(testCases[0].projectId);
       const execution = await createExecution({
         projectId: testCases[0].projectId,
+        testPlanId: plan.id,
         name: `Quick Checklist — ${suiteId}`,
         description: "Ad-hoc quick execution from the checklist view.",
         testCaseIds: testCases.map((tc) => tc.id),

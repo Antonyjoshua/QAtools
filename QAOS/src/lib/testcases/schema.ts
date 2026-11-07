@@ -17,7 +17,7 @@ export const testCaseFormSchema = z.object({
   type: z.enum(TEST_TYPES),
   status: z.enum(TEST_CASE_STATUSES),
 
-  requirementId: z.string().max(60),
+  requirementId: z.string().min(1, "Requirement is required").max(60),
   sprint: z.string().max(60),
   releaseVersion: z.string().max(60),
   environment: z.string().max(60),

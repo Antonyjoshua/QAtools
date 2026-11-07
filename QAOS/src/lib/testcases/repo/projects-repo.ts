@@ -1,5 +1,6 @@
 import { db } from "../db";
 import { uid } from "../id";
+import { deleteTestCaseArtifacts } from "./reference-cleanup";
 import type { Project } from "../types";
 
 export async function createProject(name: string, description = ""): Promise<Project> {
@@ -25,23 +26,36 @@ export async function deleteProject(id: string): Promise<void> {
 
   await db.transaction(
     "rw",
-    [db.projects, db.folders, db.suites, db.testCases, db.steps, db.executions, db.executionResults, db.comments, db.history, db.requirements, db.tags],
+    [
+      db.projects,
+      db.folders,
+      db.suites,
+      db.testCases,
+      db.steps,
+      db.executions,
+      db.executionResults,
+      db.comments,
+      db.history,
+      db.requirements,
+      db.tags,
+      db.testPlans,
+      db.attachments,
+    ],
     async () => {
       await db.projects.delete(id);
       await db.folders.where("projectId").equals(id).delete();
       await db.suites.where("projectId").equals(id).delete();
       await db.testCases.where("projectId").equals(id).delete();
-      if (testCaseIds.length) {
-        await db.steps.where("testCaseId").anyOf(testCaseIds).delete();
-        await db.comments.where("testCaseId").anyOf(testCaseIds).delete();
-        await db.history.where("entityId").anyOf(testCaseIds).delete();
-      }
+      await deleteTestCaseArtifacts(testCaseIds);
+
       const executions = await db.executions.where("projectId").equals(id).toArray();
       const executionIds = executions.map((e) => e.id);
       await db.executions.where("projectId").equals(id).delete();
       if (executionIds.length) {
         await db.executionResults.where("executionId").anyOf(executionIds).delete();
       }
+
+      await db.testPlans.where("projectId").equals(id).delete();
       await db.requirements.where("projectId").equals(id).delete();
       await db.tags.where("projectId").equals(id).delete();
     }

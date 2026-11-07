@@ -3,7 +3,7 @@
 import * as React from "react";
 import { useRouter } from "next/navigation";
 import { useLiveQuery } from "dexie-react-hooks";
-import { Search, LayoutGrid, StickyNote, Calculator as CalculatorIcon, Sparkles, Bug, Swords, ClipboardList, FileText, GraduationCap, BookOpen, Map as MapIcon, RefreshCw, ArrowRight, Briefcase } from "lucide-react";
+import { Search, LayoutGrid, StickyNote, Calculator as CalculatorIcon, Sparkles, Bug, Swords, ClipboardList, FileText, GraduationCap, BookOpen, Map as MapIcon, RefreshCw, ArrowRight, Briefcase, GitBranch, ListTree, ClipboardCheck, Webhook, Radar } from "lucide-react";
 import {
   CommandDialog,
   CommandEmpty,
@@ -38,6 +38,11 @@ const goTo = [
   { href: "/generator", label: "Test Data Generator", icon: Sparkles },
   { href: "/bugs", label: "Bug Reports", icon: Bug },
   { href: "/testcases", label: "Test Management", icon: ClipboardList },
+  { href: "/testcases/requirements", label: "Requirements", icon: ListTree },
+  { href: "/testcases/plans", label: "Test Plans", icon: ClipboardCheck },
+  { href: "/testcases/traceability", label: "Traceability & Coverage", icon: GitBranch },
+  { href: "/api-console", label: "API Console", icon: Webhook },
+  { href: "/exploratory", label: "Exploratory Testing", icon: Radar },
   { href: "/resume", label: "Resume Builder", icon: FileText },
   { href: "/learn", label: "Learn", icon: GraduationCap },
   { href: "/convert", label: "File Converter", icon: RefreshCw },
@@ -123,6 +128,7 @@ export function GlobalCommand() {
 
   const testCases = useLiveQuery(() => testcasesDb.testCases.toArray(), []);
   const testCaseSuites = useLiveQuery(() => testcasesDb.suites.toArray(), []);
+  const testCaseRequirements = useLiveQuery(() => testcasesDb.requirements.toArray(), []);
 
   const testCaseSuiteNameById = React.useMemo(() => {
     const map = new Map<string, string>();
@@ -130,18 +136,31 @@ export function GlobalCommand() {
     return map;
   }, [testCaseSuites]);
 
+  const requirementCodeById = React.useMemo(() => {
+    const map = new Map<string, string>();
+    (testCaseRequirements ?? []).forEach((r) => map.set(r.id, r.requirementId));
+    return map;
+  }, [testCaseRequirements]);
+
   const testCaseResults = React.useMemo(() => {
     if (!testCases || !query.trim()) return [];
     const q = query.trim().toLowerCase();
     return testCases
       .filter((tc) => {
-        const haystack = [tc.displayId, tc.title, tc.requirementId, tc.author, testCaseSuiteNameById.get(tc.suiteId) ?? "", ...tc.tags]
+        const haystack = [
+          tc.displayId,
+          tc.title,
+          requirementCodeById.get(tc.requirementId) ?? "",
+          tc.author,
+          testCaseSuiteNameById.get(tc.suiteId) ?? "",
+          ...tc.tags,
+        ]
           .join(" ")
           .toLowerCase();
         return haystack.includes(q);
       })
       .slice(0, RESULT_LIMIT);
-  }, [testCases, testCaseSuiteNameById, query]);
+  }, [testCases, testCaseSuiteNameById, requirementCodeById, query]);
 
   const resumes = useLiveQuery(() => resumeDb.resumes.toArray(), []);
 

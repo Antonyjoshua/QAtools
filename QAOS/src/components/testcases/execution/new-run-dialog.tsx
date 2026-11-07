@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLiveQuery } from "dexie-react-hooks";
 import { Plus } from "lucide-react";
@@ -10,14 +11,27 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Checkbox } from "@/components/ui/checkbox";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog";
-import type { Project, Suite, TestCase } from "@/lib/testcases/types";
+import { TestCasePicker } from "@/components/testcases/plans/test-case-picker";
+import type { Project, Suite, TestCase, TestPlan } from "@/lib/testcases/types";
 
-export function NewRunDialog({ projects, defaultProjectId }: { projects: Project[]; defaultProjectId?: string }) {
+const EMPTY_TEST_PLANS: TestPlan[] = [];
+const EMPTY_SUITES: Suite[] = [];
+const EMPTY_TEST_CASES: TestCase[] = [];
+
+export function NewRunDialog({
+  projects,
+  defaultProjectId,
+  defaultTestPlanId,
+}: {
+  projects: Project[];
+  defaultProjectId?: string;
+  defaultTestPlanId?: string;
+}) {
   const [open, setOpen] = React.useState(false);
   const [projectId, setProjectId] = React.useState(defaultProjectId ?? "");
+  const [testPlanId, setTestPlanId] = React.useState(defaultTestPlanId ?? "");
   const [name, setName] = React.useState("");
   const [description, setDescription] = React.useState("");
   const [environment, setEnvironment] = React.useState("");
@@ -26,12 +40,33 @@ export function NewRunDialog({ projects, defaultProjectId }: { projects: Project
   const [selectedIds, setSelectedIds] = React.useState<Set<string>>(new Set());
   const [busy, setBusy] = React.useState(false);
   const router = useRouter();
+  const planLocked = Boolean(defaultTestPlanId);
 
+  const testPlans =
+    useLiveQuery(() => (projectId ? db.testPlans.where("projectId").equals(projectId).toArray() : Promise.resolve<TestPlan[]>([])), [projectId]) ??
+    EMPTY_TEST_PLANS;
   const suites =
-    useLiveQuery(() => (projectId ? db.suites.where("projectId").equals(projectId).toArray() : Promise.resolve<Suite[]>([])), [projectId]) ?? [];
-  const testCases =
+    useLiveQuery(() => (projectId ? db.suites.where("projectId").equals(projectId).toArray() : Promise.resolve<Suite[]>([])), [projectId]) ?? EMPTY_SUITES;
+  const allTestCases =
     useLiveQuery(() => (projectId ? db.testCases.where("projectId").equals(projectId).toArray() : Promise.resolve<TestCase[]>([])), [projectId]) ??
-    [];
+    EMPTY_TEST_CASES;
+
+  const plan = testPlans.find((p) => p.id === testPlanId);
+  const planCaseIds = React.useMemo(() => new Set(plan?.testCaseIds ?? []), [plan]);
+  const testCases = React.useMemo(() => allTestCases.filter((tc) => planCaseIds.has(tc.id)), [allTestCases, planCaseIds]);
+
+  // Default to every test case in the plan being selected once the plan is known.
+  // Depending on plan?.id (not just testPlanId) matters when the dialog opens
+  // pre-locked to a plan: testPlanId is already set at mount, but the live-query
+  // lookup of `plan` itself resolves a tick later — without this, the effect
+  // fires once while `plan` is still undefined and never re-fires once it loads.
+  React.useEffect(() => {
+    if (plan) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- reset the selection whenever the chosen plan changes (or first resolves)
+      setSelectedIds(new Set(plan.testCaseIds));
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [testPlanId, plan?.id]);
 
   function toggleCase(id: string) {
     setSelectedIds((prev) => {
@@ -61,14 +96,16 @@ export function NewRunDialog({ projects, defaultProjectId }: { projects: Project
     setBuild("");
     setScheduledFor("");
     setSelectedIds(new Set());
+    if (!planLocked) setTestPlanId("");
   }
 
   async function handleCreate() {
-    if (!name.trim() || !projectId || selectedIds.size === 0) return;
+    if (!name.trim() || !projectId || !testPlanId || selectedIds.size === 0) return;
     setBusy(true);
     try {
       const execution = await createExecution({
         projectId,
+        testPlanId,
         name: name.trim(),
         description: description.trim(),
         environment: environment.trim(),
@@ -89,7 +126,10 @@ export function NewRunDialog({ projects, defaultProjectId }: { projects: Project
       open={open}
       onOpenChange={(v) => {
         setOpen(v);
-        if (v && !projectId && defaultProjectId) setProjectId(defaultProjectId);
+        if (v) {
+          if (!projectId && defaultProjectId) setProjectId(defaultProjectId);
+          if (!testPlanId && defaultTestPlanId) setTestPlanId(defaultTestPlanId);
+        }
         if (!v) reset();
       }}
     >
@@ -106,8 +146,10 @@ export function NewRunDialog({ projects, defaultProjectId }: { projects: Project
             <Label>Project</Label>
             <Select
               value={projectId}
+              disabled={planLocked}
               onValueChange={(v) => {
                 setProjectId(String(v));
+                setTestPlanId("");
                 setSelectedIds(new Set());
               }}
             >
@@ -125,6 +167,34 @@ export function NewRunDialog({ projects, defaultProjectId }: { projects: Project
               </SelectContent>
             </Select>
           </div>
+
+          {projectId && (
+            <div className="flex flex-col gap-1.5">
+              <Label>Test Plan</Label>
+              <Select value={testPlanId} disabled={planLocked} onValueChange={(v) => setTestPlanId(String(v))}>
+                <SelectTrigger className="w-full">
+                  <SelectValue placeholder="Choose a test plan">{(v: string) => testPlans.find((p) => p.id === v)?.name ?? "Choose a test plan"}</SelectValue>
+                </SelectTrigger>
+                <SelectContent>
+                  {testPlans.map((p) => (
+                    <SelectItem key={p.id} value={p.id}>
+                      {p.name}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+              {testPlans.length === 0 && (
+                <p className="text-xs text-muted-foreground">
+                  No test plans in this project yet —{" "}
+                  <Link href="/testcases/plans" target="_blank" className="underline hover:text-foreground">
+                    create one
+                  </Link>{" "}
+                  (opens in a new tab, so this form isn&rsquo;t lost — it&rsquo;ll show up here once created).
+                </p>
+              )}
+            </div>
+          )}
+
           <div className="flex flex-col gap-1.5">
             <Label htmlFor="run-name">Name</Label>
             <Input id="run-name" value={name} onChange={(e) => setName(e.target.value)} placeholder="e.g. Regression Sprint 15" autoFocus />
@@ -148,38 +218,20 @@ export function NewRunDialog({ projects, defaultProjectId }: { projects: Project
             </div>
           </div>
 
-          {projectId && (
+          {testPlanId && (
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center justify-between">
                 <Label>Test cases</Label>
                 <span className="text-xs text-muted-foreground">{selectedIds.size} selected</span>
               </div>
-              <div className="flex max-h-56 flex-col gap-2 overflow-y-auto rounded-lg border border-border p-2">
-                {suites.length === 0 && <p className="px-1 py-4 text-center text-xs text-muted-foreground">No suites in this project yet.</p>}
-                {suites.map((suite) => {
-                  const casesInSuite = testCases.filter((tc) => tc.suiteId === suite.id);
-                  if (casesInSuite.length === 0) return null;
-                  const allSelected = casesInSuite.every((tc) => selectedIds.has(tc.id));
-                  return (
-                    <div key={suite.id} className="flex flex-col gap-1">
-                      <label className="flex items-center gap-2 rounded px-1.5 py-1 text-sm font-medium hover:bg-accent/50">
-                        <Checkbox checked={allSelected} onCheckedChange={() => toggleSuite(casesInSuite.map((c) => c.id))} />
-                        {suite.name}
-                        <span className="text-xs font-normal text-muted-foreground">({casesInSuite.length})</span>
-                      </label>
-                      <div className="ml-5 flex flex-col gap-0.5">
-                        {casesInSuite.map((tc) => (
-                          <label key={tc.id} className="flex items-center gap-2 rounded px-1.5 py-0.5 text-xs hover:bg-accent/50">
-                            <Checkbox checked={selectedIds.has(tc.id)} onCheckedChange={() => toggleCase(tc.id)} />
-                            <span className="font-mono text-muted-foreground">{tc.displayId}</span>
-                            <span className="truncate">{tc.title}</span>
-                          </label>
-                        ))}
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
+              <TestCasePicker
+                testCases={testCases}
+                suites={suites}
+                selectedIds={selectedIds}
+                onToggleCase={toggleCase}
+                onToggleSuite={toggleSuite}
+                emptyLabel="This test plan has no test cases yet — add some from the plan's page first."
+              />
             </div>
           )}
         </div>
@@ -187,7 +239,7 @@ export function NewRunDialog({ projects, defaultProjectId }: { projects: Project
           <Button variant="outline" onClick={() => setOpen(false)}>
             Cancel
           </Button>
-          <Button onClick={handleCreate} disabled={!name.trim() || !projectId || selectedIds.size === 0 || busy}>
+          <Button onClick={handleCreate} disabled={!name.trim() || !projectId || !testPlanId || selectedIds.size === 0 || busy}>
             Create run
           </Button>
         </DialogFooter>

@@ -4,6 +4,7 @@ import type { Execution, ExecutionResult, ExecutionResultStatus, ExecutionStats 
 
 export async function createExecution(input: {
   projectId: string;
+  testPlanId: string;
   name: string;
   description?: string;
   environment?: string;
@@ -14,6 +15,7 @@ export async function createExecution(input: {
   const execution: Execution = {
     id: uid(),
     projectId: input.projectId,
+    testPlanId: input.testPlanId,
     name: input.name,
     description: input.description ?? "",
     status: "Planned",
@@ -57,9 +59,12 @@ export async function completeExecution(id: string): Promise<void> {
 }
 
 export async function deleteExecution(id: string): Promise<void> {
-  await db.transaction("rw", [db.executions, db.executionResults], async () => {
+  await db.transaction("rw", [db.executions, db.executionResults, db.attachments], async () => {
+    const results = await db.executionResults.where("executionId").equals(id).toArray();
     await db.executions.delete(id);
     await db.executionResults.where("executionId").equals(id).delete();
+    const resultIds = results.map((r) => r.id);
+    if (resultIds.length) await db.attachments.where("parentId").anyOf(resultIds).delete();
   });
 }
 

@@ -4,12 +4,13 @@ import type { TestCase } from "../types";
 import { PRIORITIES, SEVERITIES, TEST_TYPES, TEST_CASE_STATUSES, AUTOMATION_STATUSES } from "../types";
 import type { ReportData } from "./reports";
 import { createTestCase, type NewTestCaseInput } from "../repo/testcases-repo";
+import { listRequirements, createRequirement } from "../repo/requirements-repo";
 
 // ---------------------------------------------------------------------------
 // Export
 // ---------------------------------------------------------------------------
 
-function testCaseToRow(tc: TestCase): Row {
+function testCaseToRow(tc: TestCase, requirementCodeById?: Map<string, string>): Row {
   return {
     "Test Case ID": tc.displayId,
     Title: tc.title,
@@ -20,7 +21,7 @@ function testCaseToRow(tc: TestCase): Row {
     Severity: tc.severity,
     Type: tc.type,
     Status: tc.status,
-    "Requirement ID": tc.requirementId,
+    "Requirement ID": requirementCodeById?.get(tc.requirementId) ?? "",
     Sprint: tc.sprint,
     Release: tc.releaseVersion,
     Environment: tc.environment,
@@ -38,8 +39,13 @@ function testCaseToRow(tc: TestCase): Row {
 
 export type ExportFileFormat = "csv" | "excel" | "json" | "pdf";
 
-export function exportTestCases(testCases: TestCase[], format: ExportFileFormat, baseName = "test-cases") {
-  const rows = testCases.map(testCaseToRow);
+export function exportTestCases(
+  testCases: TestCase[],
+  format: ExportFileFormat,
+  baseName = "test-cases",
+  requirementCodeById?: Map<string, string>
+) {
+  const rows = testCases.map((tc) => testCaseToRow(tc, requirementCodeById));
   const stamp = baseName.replace(/[^a-z0-9-_]+/gi, "-");
   switch (format) {
     case "csv":
@@ -161,6 +167,11 @@ export async function importTestCasesFromFile(
   const records = await parseFile(file);
   const results: ImportRowResult[] = [];
 
+  // "Requirement ID" columns in an import file carry a human-readable code (e.g. "REQ-101"),
+  // but TestCase.requirementId is a real foreign key to Requirement.id — resolve (or create)
+  // a Requirement per code, caching lookups so the same code isn't created twice in one import.
+  const requirementIdByCode = new Map<string, string>((await listRequirements(projectId)).map((r) => [r.requirementId, r.id]));
+
   for (let i = 0; i < records.length; i++) {
     const record = records[i];
     const title = field(record, "title", "test case", "name");
@@ -168,7 +179,19 @@ export async function importTestCasesFromFile(
       results.push({ row: i + 2, title: "(untitled)", ok: false, error: "Missing title" });
       continue;
     }
+    const requirementCode = field(record, "requirement id", "requirementid");
+    if (!requirementCode) {
+      results.push({ row: i + 2, title, ok: false, error: "Missing Requirement ID — every test case must link to a requirement" });
+      continue;
+    }
     try {
+      let requirementId = requirementIdByCode.get(requirementCode);
+      if (!requirementId) {
+        const created = await createRequirement(projectId, requirementCode, requirementCode);
+        requirementIdByCode.set(requirementCode, created.id);
+        requirementId = created.id;
+      }
+
       const input: NewTestCaseInput = {
         projectId,
         suiteId,
@@ -181,7 +204,7 @@ export async function importTestCasesFromFile(
         severity: coerce(field(record, "severity"), SEVERITIES, "Major"),
         type: coerce(field(record, "type"), TEST_TYPES, "Functional"),
         status: coerce(field(record, "status"), TEST_CASE_STATUSES, "Draft"),
-        requirementId: field(record, "requirement id", "requirementid"),
+        requirementId,
         sprint: field(record, "sprint"),
         releaseVersion: field(record, "release", "release version"),
         environment: field(record, "environment"),

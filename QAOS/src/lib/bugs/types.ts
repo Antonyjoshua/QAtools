@@ -54,6 +54,10 @@ export interface Project {
   description: string;
   isFavorite: boolean;
   createdAt: number;
+  // Soft link into the Test Management module (separate Dexie database) — lets the bug
+  // linking dialogs default to this project's test cases/requirements instead of every
+  // project in Test Management, since the two modules' Project ids are unrelated spaces.
+  linkedTestProjectId: string | null;
 }
 
 export interface Module {
@@ -156,6 +160,12 @@ export interface BugReport {
   linkedTestCaseDisplayId: string | null;
   linkedExecutionId: string | null;
   linkedExecutionResultId: string | null;
+  linkedRequirementId: string | null;
+  linkedRequirementCode: string | null;
+  // Soft link into the Exploratory Testing module (separate Dexie database) — a bug filed
+  // from a session note during an exploratory session.
+  linkedExploratorySessionId: string | null;
+  linkedExploratorySessionCharter: string | null;
 }
 
 export interface Comment {

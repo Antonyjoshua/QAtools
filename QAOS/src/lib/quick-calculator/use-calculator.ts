@@ -28,6 +28,7 @@ import {
   pressMemoryRecall,
   pressMemoryAdd,
   pressMemorySubtract,
+  setRawExpression,
 } from "./calculator-engine";
 
 export function useCalculator() {
@@ -77,6 +78,7 @@ export function useCalculator() {
       toggleSign: () => dispatch((s) => pressToggleSign(s, settings.angleUnit)),
       percent: () => dispatch((s) => pressPercent(s, settings.angleUnit)),
       backspace: () => dispatch((s) => pressBackspace(s, settings.angleUnit)),
+      setExpression: (raw: string) => dispatch((s) => setRawExpression(s, raw, settings.angleUnit)),
       clearAll: () => dispatch(pressClearAll),
       memoryClear: () => dispatch(pressMemoryClear),
       memoryRecall: () => dispatch((s) => pressMemoryRecall(s, settings.angleUnit)),

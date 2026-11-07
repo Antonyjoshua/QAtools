@@ -1,4 +1,4 @@
-import { evaluateExpression, MathEvalError, type AngleUnit } from "./math";
+import { evaluateExpression, sanitizeExpressionInput, MathEvalError, type AngleUnit } from "./math";
 
 export interface EngineState {
   /** The raw expression as typed/tapped, e.g. "56×5+90" or "sin(30)+√(16)". */
@@ -74,6 +74,14 @@ function findTrailingOperand(expr: string): { before: string; operand: string } 
 function withNewExpression(state: EngineState, expression: string, angleUnit: AngleUnit): EngineState {
   const { preview, error } = recomputePreview(expression, angleUnit);
   return { ...state, expression, preview, error, committedResult: null };
+}
+
+/** Sets the whole expression directly — used by the editable display for free typing and
+ * paste, as opposed to the digit-by-digit press* functions below used by the keypad. Runs the
+ * text through sanitizeExpressionInput first so arbitrary letters/prose can't end up in the
+ * expression; recomputePreview then swallows whatever's still invalid (e.g. "5+") silently. */
+export function setRawExpression(state: EngineState, expression: string, angleUnit: AngleUnit): EngineState {
+  return withNewExpression(state, sanitizeExpressionInput(expression), angleUnit);
 }
 
 export function pressDigit(state: EngineState, digit: string, angleUnit: AngleUnit): EngineState {

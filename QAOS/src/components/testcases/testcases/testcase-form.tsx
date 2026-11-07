@@ -3,12 +3,15 @@
 import * as React from "react";
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { X } from "lucide-react";
+import { useLiveQuery } from "dexie-react-hooks";
+import { X, Plus } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { db } from "@/lib/testcases/db";
+import { NewRequirementDialog } from "@/components/testcases/requirements/new-requirement-dialog";
 import { testCaseFormSchema, type TestCaseFormValues } from "@/lib/testcases/schema";
 import {
   PRIORITIES,
@@ -19,8 +22,10 @@ import {
   BROWSERS,
   OS_LIST,
   DEVICE_TYPES,
+  type Requirement,
 } from "@/lib/testcases/types";
 import { cn } from "@/lib/utils";
+
 
 function Field({ label, htmlFor, className, children }: { label: string; htmlFor?: string; className?: string; children: React.ReactNode }) {
   return (
@@ -62,11 +67,13 @@ export function TestCaseForm({
   onSubmit,
   submitLabel = "Save",
   formId,
+  projectId,
 }: {
   defaultValues: TestCaseFormValues;
   onSubmit: (values: TestCaseFormValues) => void | Promise<void>;
   submitLabel?: string;
   formId: string;
+  projectId?: string;
 }) {
   const {
     register,
@@ -81,7 +88,14 @@ export function TestCaseForm({
   });
 
   const [tagDraft, setTagDraft] = React.useState("");
+  const [newRequirementOpen, setNewRequirementOpen] = React.useState(false);
   const tags = watch("tags");
+
+  const requirements =
+    useLiveQuery(
+      () => (projectId ? db.requirements.where("projectId").equals(projectId).sortBy("requirementId") : Promise.resolve<Requirement[]>([])),
+      [projectId]
+    ) ?? [];
 
   function addTag() {
     const value = tagDraft.trim();
@@ -134,8 +148,37 @@ export function TestCaseForm({
       </Section>
 
       <Section title="Planning">
-        <Field label="Requirement ID" htmlFor="requirementId">
-          <Input id="requirementId" {...register("requirementId")} placeholder="e.g. REQ-101" />
+        <Field label="Requirement" htmlFor="requirementId">
+          <div className="flex items-center gap-2">
+            <Controller
+              control={control}
+              name="requirementId"
+              render={({ field }) => (
+                <Select value={field.value || ""} onValueChange={(v) => v !== null && field.onChange(v)}>
+                  <SelectTrigger id="requirementId" className="w-full" aria-invalid={Boolean(errors.requirementId)}>
+                    <SelectValue placeholder="Choose a requirement">
+                      {(v: string) => {
+                        const match = requirements.find((r) => r.id === v);
+                        return match ? `${match.requirementId} — ${match.title}` : "Choose a requirement";
+                      }}
+                    </SelectValue>
+                  </SelectTrigger>
+                  <SelectContent>
+                    {requirements.map((r) => (
+                      <SelectItem key={r.id} value={r.id}>
+                        {r.requirementId} — {r.title}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              )}
+            />
+            <Button type="button" variant="outline" size="sm" className="shrink-0 gap-1" onClick={() => setNewRequirementOpen(true)} disabled={!projectId}>
+              <Plus className="size-3.5" />
+              New
+            </Button>
+          </div>
+          {errors.requirementId && <p className="text-xs text-destructive">{errors.requirementId.message}</p>}
         </Field>
         <Field label="Sprint" htmlFor="sprint">
           <Input id="sprint" {...register("sprint")} placeholder="e.g. Sprint 14" />
@@ -223,6 +266,16 @@ export function TestCaseForm({
       <Button type="submit" className="sr-only" disabled={isSubmitting}>
         {submitLabel}
       </Button>
+
+      {projectId && (
+        <NewRequirementDialog
+          projectId={projectId}
+          open={newRequirementOpen}
+          onOpenChange={setNewRequirementOpen}
+          hideTrigger
+          onSaved={(r) => setValue("requirementId", r.id)}
+        />
+      )}
     </form>
   );
 }

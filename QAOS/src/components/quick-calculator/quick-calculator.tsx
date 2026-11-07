@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { createPortal } from "react-dom";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion, useDragControls } from "framer-motion";
 import {
   Calculator as CalculatorIcon,
   History as HistoryIcon,
@@ -62,6 +62,7 @@ export function QuickCalculator() {
 
   const triggerRef = React.useRef<HTMLButtonElement>(null);
   const panelRef = React.useRef<HTMLDivElement>(null);
+  const dragControls = useDragControls();
 
   // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time mount guard for portal + SSR safety
   React.useEffect(() => setMounted(true), []);
@@ -199,7 +200,10 @@ export function QuickCalculator() {
 
   const panelBody = (
     <>
-      <div className="flex items-center gap-2 px-4 pt-3.5 pb-2.5 cursor-grab active:cursor-grabbing">
+      <div
+        className="flex items-center gap-2 px-4 pt-3.5 pb-2.5 cursor-grab active:cursor-grabbing"
+        onPointerDown={(e) => dragControls.start(e)}
+      >
         <div className="flex size-6 shrink-0 items-center justify-center rounded-md bg-gradient-to-br from-primary to-[#8B5CF6] text-white">
           <CalculatorIcon className="size-3.5" />
         </div>
@@ -301,6 +305,8 @@ export function QuickCalculator() {
                   <motion.div
                     ref={panelRef}
                     drag
+                    dragListener={false}
+                    dragControls={dragControls}
                     dragMomentum={false}
                     dragConstraints={dragConstraints}
                     dragElastic={0}

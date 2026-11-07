@@ -23,6 +23,9 @@ export type ExecutionResultStatus = (typeof EXECUTION_RESULT_STATUSES)[number];
 export const RUN_STATUSES = ["Planned", "In Progress", "Completed", "Aborted"] as const;
 export type RunStatus = (typeof RUN_STATUSES)[number];
 
+export const TEST_PLAN_STATUSES = ["Draft", "Active", "Completed", "Archived"] as const;
+export type TestPlanStatus = (typeof TEST_PLAN_STATUSES)[number];
+
 export const STEP_STATUSES = ["Not Executed", "Pass", "Fail", "Blocked", "Skipped"] as const;
 export type StepStatus = (typeof STEP_STATUSES)[number];
 
@@ -123,6 +126,7 @@ export interface TestCase {
 export interface Execution {
   id: string;
   projectId: string;
+  testPlanId: string;
   name: string;
   description: string;
   status: RunStatus;
@@ -133,6 +137,22 @@ export interface Execution {
   startedAt: number | null;
   completedAt: number | null;
   scheduledFor: number | null;
+}
+
+export interface TestPlan {
+  id: string;
+  projectId: string;
+  name: string;
+  objective: string;
+  targetRelease: string;
+  environment: string;
+  owner: string;
+  startDate: number | null;
+  endDate: number | null;
+  status: TestPlanStatus;
+  testCaseIds: string[];
+  createdAt: number;
+  updatedAt: number;
 }
 
 export interface ExecutionResult {

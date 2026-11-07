@@ -1,8 +1,9 @@
 "use client";
 
-import { Star, Layers } from "lucide-react";
+import type { MouseEvent } from "react";
+import { Star, Layers, Trash2 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { toggleSuiteFavorite } from "@/lib/testcases/repo/suites-repo";
+import { toggleSuiteFavorite, deleteSuite } from "@/lib/testcases/repo/suites-repo";
 import type { Suite } from "@/lib/testcases/types";
 
 export function SuiteList({
@@ -10,12 +11,26 @@ export function SuiteList({
   selectedSuiteId,
   onSelect,
   caseCountBySuite,
+  onDeleted,
 }: {
   suites: Suite[];
   selectedSuiteId: string | null;
   onSelect: (suiteId: string) => void;
   caseCountBySuite: Map<string, number>;
+  onDeleted?: (suiteId: string) => void;
 }) {
+  async function handleDelete(e: MouseEvent, suite: Suite) {
+    e.stopPropagation();
+    const count = caseCountBySuite.get(suite.id) ?? 0;
+    const message =
+      count > 0
+        ? `Delete "${suite.name}" and its ${count} test case${count === 1 ? "" : "s"}? This cannot be undone.`
+        : `Delete "${suite.name}"?`;
+    if (!window.confirm(message)) return;
+    await deleteSuite(suite.id);
+    onDeleted?.(suite.id);
+  }
+
   if (suites.length === 0) {
     return (
       <div className="flex flex-col items-center gap-2 rounded-xl border border-dashed border-border py-10 text-center">
@@ -46,16 +61,26 @@ export function SuiteList({
         >
           <div className="flex items-start justify-between gap-2">
             <p className="text-sm font-medium">{suite.name}</p>
-            <button
-              type="button"
-              onClick={(e) => {
-                e.stopPropagation();
-                void toggleSuiteFavorite(suite.id);
-              }}
-              aria-label={suite.isFavorite ? "Remove favorite" : "Add favorite"}
-            >
-              <Star className={cn("size-3.5", suite.isFavorite ? "fill-yellow-400 text-yellow-500" : "text-muted-foreground/50")} />
-            </button>
+            <div className="flex items-center gap-1.5">
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  void toggleSuiteFavorite(suite.id);
+                }}
+                aria-label={suite.isFavorite ? "Remove favorite" : "Add favorite"}
+              >
+                <Star className={cn("size-3.5", suite.isFavorite ? "fill-yellow-400 text-yellow-500" : "text-muted-foreground/50")} />
+              </button>
+              <button
+                type="button"
+                onClick={(e) => handleDelete(e, suite)}
+                aria-label={`Delete ${suite.name}`}
+                className="text-muted-foreground/50 hover:text-destructive"
+              >
+                <Trash2 className="size-3.5" />
+              </button>
+            </div>
           </div>
           {suite.description && <p className="line-clamp-2 text-xs text-muted-foreground">{suite.description}</p>}
           <p className="mt-auto text-[11px] text-muted-foreground">{caseCountBySuite.get(suite.id) ?? 0} test cases</p>

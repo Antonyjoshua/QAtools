@@ -19,6 +19,9 @@ import {
   PlusCircle,
   Pencil,
   RotateCcw,
+  GitBranch,
+  ListTree,
+  ClipboardCheck,
 } from "lucide-react";
 import { db } from "@/lib/testcases/db";
 import { computeStats } from "@/lib/testcases/repo/execution-repo";
@@ -154,9 +157,42 @@ export default function TestManagementHomePage() {
               className="h-auto justify-start gap-2 py-2.5"
               nativeButton={false}
               render={
+                <Link href="/testcases/requirements">
+                  <ListTree className="size-4" />
+                  Requirements
+                </Link>
+              }
+            />
+            <Button
+              variant="outline"
+              className="h-auto justify-start gap-2 py-2.5"
+              nativeButton={false}
+              render={
+                <Link href="/testcases/plans">
+                  <ClipboardCheck className="size-4" />
+                  Test Plans
+                </Link>
+              }
+            />
+            <Button
+              variant="outline"
+              className="h-auto justify-start gap-2 py-2.5"
+              nativeButton={false}
+              render={
                 <Link href="/testcases/runs">
                   <PlayCircle className="size-4" />
                   Test Runs
+                </Link>
+              }
+            />
+            <Button
+              variant="outline"
+              className="h-auto justify-start gap-2 py-2.5"
+              nativeButton={false}
+              render={
+                <Link href="/testcases/runs">
+                  <CalendarCheck2 className="size-4" />
+                  Calendar
                 </Link>
               }
             />
@@ -176,9 +212,9 @@ export default function TestManagementHomePage() {
               className="h-auto justify-start gap-2 py-2.5"
               nativeButton={false}
               render={
-                <Link href="/testcases/runs">
-                  <CalendarCheck2 className="size-4" />
-                  Calendar
+                <Link href="/testcases/traceability">
+                  <GitBranch className="size-4" />
+                  Traceability
                 </Link>
               }
             />

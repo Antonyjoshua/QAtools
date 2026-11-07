@@ -5,6 +5,7 @@ import { useLiveQuery } from "dexie-react-hooks";
 import { Plus, Trash2, Pencil, Check, X, Building2 } from "lucide-react";
 import { db } from "@/lib/bugs/db";
 import { uid } from "@/lib/bugs/id";
+import { deleteProject, deleteModule, deleteFeature, countProjectBugs, countModuleBugs, countFeatureBugs } from "@/lib/bugs/projects-repo";
 import type { Module, Feature, BuildVersion, TestEnvironment } from "@/lib/bugs/types";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -49,6 +50,7 @@ function EditableRow({
   active?: boolean;
   onSelect?: () => void;
   onRename: (name: string) => void;
+  /** Callers do their own window.confirm (often after an async count lookup) before deleting. */
   onDelete: () => void;
 }) {
   const [editing, setEditing] = React.useState(false);
@@ -146,7 +148,13 @@ export default function AdminPage() {
                 onSelect={() => setSelectedProjectId(p.id)}
                 onRename={(name) => db.projects.update(p.id, { name })}
                 onDelete={async () => {
-                  await db.projects.delete(p.id);
+                  const bugCount = await countProjectBugs(p.id);
+                  const message =
+                    bugCount > 0
+                      ? `Delete "${p.name}" and its ${bugCount} bug report${bugCount === 1 ? "" : "s"}, plus its modules/features/builds/environments? This cannot be undone.`
+                      : `Delete "${p.name}"?`;
+                  if (!window.confirm(message)) return;
+                  await deleteProject(p.id);
                   if (selectedProjectId === p.id) setSelectedProjectId(null);
                   toast.success("Project deleted");
                 }}
@@ -158,7 +166,7 @@ export default function AdminPage() {
               placeholder="New project name"
               onAdd={async (name) => {
                 const id = uid();
-                await db.projects.add({ id, name, description: "", isFavorite: false, createdAt: Date.now() });
+                await db.projects.add({ id, name, description: "", isFavorite: false, createdAt: Date.now(), linkedTestProjectId: null });
                 setSelectedProjectId(id);
               }}
             />
@@ -196,7 +204,13 @@ export default function AdminPage() {
                           onSelect={() => setSelectedModuleId(m.id)}
                           onRename={(name) => db.modules.update(m.id, { name })}
                           onDelete={async () => {
-                            await db.modules.delete(m.id);
+                            const bugCount = await countModuleBugs(m.id);
+                            const message =
+                              bugCount > 0
+                                ? `Delete "${m.name}"? ${bugCount} bug report${bugCount === 1 ? "" : "s"} tagged with it will be unlinked, not deleted.`
+                                : `Delete "${m.name}"?`;
+                            if (!window.confirm(message)) return;
+                            await deleteModule(m.id);
                             if (selectedModuleId === m.id) setSelectedModuleId(null);
                           }}
                         />
@@ -227,7 +241,15 @@ export default function AdminPage() {
                               id={f.id}
                               name={f.name}
                               onRename={(name) => db.features.update(f.id, { name })}
-                              onDelete={() => db.features.delete(f.id)}
+                              onDelete={async () => {
+                                const bugCount = await countFeatureBugs(f.id);
+                                const message =
+                                  bugCount > 0
+                                    ? `Delete "${f.name}"? ${bugCount} bug report${bugCount === 1 ? "" : "s"} tagged with it will be unlinked, not deleted.`
+                                    : `Delete "${f.name}"?`;
+                                if (!window.confirm(message)) return;
+                                await deleteFeature(f.id);
+                              }}
                             />
                           ))}
                         </div>

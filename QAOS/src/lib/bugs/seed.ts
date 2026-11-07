@@ -111,6 +111,7 @@ async function runSeed(): Promise<void> {
       description: "Sample project seeded to show BugForge's structure — rename or delete anytime.",
       isFavorite: true,
       createdAt: Date.now(),
+      linkedTestProjectId: null,
     };
     await db.projects.add(project);
 

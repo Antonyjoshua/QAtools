@@ -34,6 +34,7 @@ const CATEGORY_MAP: Partial<Record<TestCase["type"], BugReport["category"]>> = {
 
 export async function createBugFromTestCase(testCase: TestCase, execution: Execution, result: ExecutionResult, reporter: string): Promise<BugReport> {
   const steps = await db.steps.where("testCaseId").equals(testCase.id).sortBy("order");
+  const requirement = testCase.requirementId ? await db.requirements.get(testCase.requirementId) : undefined;
 
   const input: CreateBugInput = {
     title: `Failed: ${testCase.title}`,
@@ -53,6 +54,8 @@ export async function createBugFromTestCase(testCase: TestCase, execution: Execu
     linkedTestCaseDisplayId: testCase.displayId,
     linkedExecutionId: execution.id,
     linkedExecutionResultId: result.id,
+    linkedRequirementId: requirement?.id ?? null,
+    linkedRequirementCode: requirement?.requirementId ?? null,
   };
 
   return createBug(input);

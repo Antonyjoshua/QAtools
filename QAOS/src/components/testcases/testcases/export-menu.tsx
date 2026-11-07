@@ -13,7 +13,15 @@ const FORMATS: { id: ExportFileFormat; label: string }[] = [
   { id: "json", label: "JSON" },
 ];
 
-export function ExportMenu({ testCases, baseName = "test-cases" }: { testCases: TestCase[]; baseName?: string }) {
+export function ExportMenu({
+  testCases,
+  baseName = "test-cases",
+  requirementCodeById,
+}: {
+  testCases: TestCase[];
+  baseName?: string;
+  requirementCodeById?: Map<string, string>;
+}) {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger
@@ -26,7 +34,7 @@ export function ExportMenu({ testCases, baseName = "test-cases" }: { testCases: 
       />
       <DropdownMenuContent align="end">
         {FORMATS.map((f) => (
-          <DropdownMenuItem key={f.id} onClick={() => exportTestCases(testCases, f.id, baseName)}>
+          <DropdownMenuItem key={f.id} onClick={() => exportTestCases(testCases, f.id, baseName, requirementCodeById)}>
             {f.label}
           </DropdownMenuItem>
         ))}

@@ -1,5 +1,6 @@
 import { db } from "../db";
 import { uid, formatDisplayId } from "../id";
+import { deleteTestCaseArtifacts } from "./reference-cleanup";
 import type { TestCase } from "../types";
 
 export type NewTestCaseInput = Omit<
@@ -89,13 +90,14 @@ export async function duplicateTestCase(id: string, changedBy: string): Promise<
 }
 
 export async function deleteTestCase(id: string): Promise<void> {
-  await db.transaction("rw", [db.testCases, db.steps, db.comments, db.history, db.executionResults], async () => {
-    await db.testCases.delete(id);
-    await db.steps.where("testCaseId").equals(id).delete();
-    await db.comments.where("testCaseId").equals(id).delete();
-    await db.history.where("entityId").equals(id).delete();
-    await db.executionResults.where("testCaseId").equals(id).delete();
-  });
+  await db.transaction(
+    "rw",
+    [db.testCases, db.steps, db.comments, db.history, db.executionResults, db.testPlans, db.executions, db.attachments],
+    async () => {
+      await db.testCases.delete(id);
+      await deleteTestCaseArtifacts([id]);
+    }
+  );
 }
 
 export async function bulkUpdateTestCases(ids: string[], patch: Partial<TestCase>, changedBy: string): Promise<void> {
@@ -120,11 +122,12 @@ export async function bulkUpdateTestCases(ids: string[], patch: Partial<TestCase
 }
 
 export async function bulkDeleteTestCases(ids: string[]): Promise<void> {
-  await db.transaction("rw", [db.testCases, db.steps, db.comments, db.history, db.executionResults], async () => {
-    await db.testCases.bulkDelete(ids);
-    await db.steps.where("testCaseId").anyOf(ids).delete();
-    await db.comments.where("testCaseId").anyOf(ids).delete();
-    await db.history.where("entityId").anyOf(ids).delete();
-    await db.executionResults.where("testCaseId").anyOf(ids).delete();
-  });
+  await db.transaction(
+    "rw",
+    [db.testCases, db.steps, db.comments, db.history, db.executionResults, db.testPlans, db.executions, db.attachments],
+    async () => {
+      await db.testCases.bulkDelete(ids);
+      await deleteTestCaseArtifacts(ids);
+    }
+  );
 }

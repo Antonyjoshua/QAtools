@@ -11,16 +11,32 @@ import { ExportBar } from "@/components/generator/export-bar";
 import { DataTable } from "@/components/generator/data-view/data-table";
 import { getDomain } from "@/lib/generator/domains/domains";
 import { generateDomainRecords, defaultConfig } from "@/lib/generator/domains/engine";
-import type { DomainCategoryDef, DomainGenConfig } from "@/lib/generator/domains/types";
+import type { DomainCategoryDef, DomainGenConfig, FieldSchema } from "@/lib/generator/domains/types";
 
 export function DomainGeneratorRunner({ category }: { category: DomainCategoryDef }) {
   const domain = getDomain(category.domainId);
   const [config, setConfig] = React.useState<DomainGenConfig>(() => defaultConfig(category));
+  const [customFields, setCustomFields] = React.useState<FieldSchema[]>([]);
   const [rows, setRows] = React.useState<Record<string, unknown>[] | null>(null);
   const [loading, setLoading] = React.useState(false);
 
+  const effectiveCategory = React.useMemo(
+    () => ({ ...category, fields: [...category.fields, ...customFields] }),
+    [category, customFields]
+  );
+
   function handleConfigChange(patch: Partial<DomainGenConfig>) {
     setConfig((prev) => ({ ...prev, ...patch }));
+  }
+
+  function handleAddCustomField(field: FieldSchema) {
+    setCustomFields((prev) => [...prev, field]);
+    setConfig((prev) => ({ ...prev, selectedFieldKeys: [...prev.selectedFieldKeys, field.key] }));
+  }
+
+  function handleRemoveCustomField(key: string) {
+    setCustomFields((prev) => prev.filter((f) => f.key !== key));
+    setConfig((prev) => ({ ...prev, selectedFieldKeys: prev.selectedFieldKeys.filter((k) => k !== key) }));
   }
 
   function runGenerate() {
@@ -28,7 +44,7 @@ export function DomainGeneratorRunner({ category }: { category: DomainCategoryDe
     window.requestAnimationFrame(() => {
       setTimeout(() => {
         try {
-          setRows(generateDomainRecords(category, config));
+          setRows(generateDomainRecords(effectiveCategory, config));
         } catch {
           toast.error("Generation failed — check your configuration");
         } finally {
@@ -42,7 +58,7 @@ export function DomainGeneratorRunner({ category }: { category: DomainCategoryDe
     setRows(null);
   }
 
-  const columns = category.fields.filter((f) => f.required || config.selectedFieldKeys.includes(f.key)).map((f) => f.key);
+  const columns = effectiveCategory.fields.filter((f) => config.selectedFieldKeys.includes(f.key)).map((f) => f.key);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
@@ -76,10 +92,17 @@ export function DomainGeneratorRunner({ category }: { category: DomainCategoryDe
       </div>
 
       <div className="mb-6 flex flex-col gap-4 rounded-xl border border-border bg-card p-4">
-        <DomainGeneratorConfig category={category} config={config} onChange={handleConfigChange} />
+        <DomainGeneratorConfig
+          category={category}
+          customFields={customFields}
+          config={config}
+          onChange={handleConfigChange}
+          onAddCustomField={handleAddCustomField}
+          onRemoveCustomField={handleRemoveCustomField}
+        />
 
         <div className="flex flex-wrap items-center gap-3 border-t border-border pt-4">
-          <Button onClick={runGenerate} disabled={loading} className="gap-1.5">
+          <Button onClick={runGenerate} disabled={loading || config.selectedFieldKeys.length === 0} className="gap-1.5">
             <RefreshCw className={loading ? "size-3.5 animate-spin" : "size-3.5"} />
             {loading ? "Generating…" : rows ? "Regenerate" : "Generate"}
           </Button>

@@ -4,10 +4,13 @@ import * as React from "react";
 import { use } from "react";
 import { useRouter } from "next/navigation";
 import { useLiveQuery } from "dexie-react-hooks";
-import { ArrowLeft, Plus } from "lucide-react";
+import { ArrowLeft, Plus, Trash2 } from "lucide-react";
 import Link from "next/link";
+import { toast } from "sonner";
 import { db } from "@/lib/testcases/db";
+import { deleteProject } from "@/lib/testcases/repo/projects-repo";
 import { FolderTree } from "@/components/testcases/folders/folder-tree";
+import { NewFolderDialog } from "@/components/testcases/folders/new-folder-dialog";
 import { NewSuiteDialog } from "@/components/testcases/suites/new-suite-dialog";
 import { SuiteList } from "@/components/testcases/suites/suite-list";
 import { TestCaseViews } from "@/components/testcases/testcases/testcase-views";
@@ -37,6 +40,21 @@ export default function ProjectWorkspacePage({ params }: { params: Promise<{ pro
     setLastProjectId(projectId);
   }, [projectId, setLastProjectId]);
 
+  async function handleDeleteProject() {
+    const requirementCount = await db.requirements.where("projectId").equals(projectId).count();
+    const testPlanCount = await db.testPlans.where("projectId").equals(projectId).count();
+    const parts = [
+      `${suites.length} suite${suites.length === 1 ? "" : "s"}`,
+      `${testCases.length} test case${testCases.length === 1 ? "" : "s"}`,
+      `${requirementCount} requirement${requirementCount === 1 ? "" : "s"}`,
+      `${testPlanCount} test plan${testPlanCount === 1 ? "" : "s"}`,
+    ];
+    if (!window.confirm(`Delete "${project?.name}" and everything under it — ${parts.join(", ")}, plus all execution runs? This cannot be undone.`)) return;
+    await deleteProject(projectId);
+    toast.success("Project deleted");
+    router.push("/testcases/projects");
+  }
+
   const activeFolderId = selectedFolderId ?? folders[0]?.id ?? null;
 
   const suiteCountByFolder = React.useMemo(() => {
@@ -65,16 +83,25 @@ export default function ProjectWorkspacePage({ params }: { params: Promise<{ pro
 
   return (
     <div className="flex min-h-[calc(100vh-56px)] flex-col">
-      <div className="border-b border-border px-4 py-3 sm:px-6 lg:px-8">
-        <Link href="/testcases/projects" className="inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground">
-          <ArrowLeft className="size-3.5" />
-          All projects
-        </Link>
-        <h1 className="mt-1 text-xl font-semibold tracking-tight">{project.name}</h1>
+      <div className="flex items-start justify-between gap-4 border-b border-border px-4 py-3 sm:px-6 lg:px-8">
+        <div>
+          <Link href="/testcases/projects" className="inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground">
+            <ArrowLeft className="size-3.5" />
+            All projects
+          </Link>
+          <h1 className="mt-1 text-xl font-semibold tracking-tight">{project.name}</h1>
+        </div>
+        <Button variant="ghost" size="sm" className="gap-1.5 text-muted-foreground hover:text-destructive" onClick={handleDeleteProject}>
+          <Trash2 className="size-3.5" />
+          Delete project
+        </Button>
       </div>
 
       <div className="grid flex-1 grid-cols-1 md:grid-cols-[240px_1fr]">
         <aside className="border-b border-border p-3 md:border-r md:border-b-0">
+          <div className="mb-2">
+            <NewFolderDialog projectId={projectId} onCreated={(id) => setSelectedFolderId(id)} />
+          </div>
           <FolderTree
             folders={folders}
             selectedFolderId={activeFolderId}
@@ -94,7 +121,15 @@ export default function ProjectWorkspacePage({ params }: { params: Promise<{ pro
                 <h2 className="text-sm font-semibold text-muted-foreground">Suites</h2>
                 <NewSuiteDialog projectId={projectId} folderId={activeFolderId} disabled={!activeFolderId} />
               </div>
-              <SuiteList suites={suitesInFolder} selectedSuiteId={selectedSuiteId} onSelect={setSelectedSuiteId} caseCountBySuite={caseCountBySuite} />
+              <SuiteList
+                suites={suitesInFolder}
+                selectedSuiteId={selectedSuiteId}
+                onSelect={setSelectedSuiteId}
+                caseCountBySuite={caseCountBySuite}
+                onDeleted={(id) => {
+                  if (selectedSuiteId === id) setSelectedSuiteId(null);
+                }}
+              />
             </>
           ) : (
             <>

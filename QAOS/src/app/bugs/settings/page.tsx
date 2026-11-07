@@ -6,6 +6,7 @@ import { useSettingsStore } from "@/lib/bugs/settings-store";
 import { ROLES, type UserRole } from "@/lib/bugs/types";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
@@ -44,13 +45,17 @@ export default function SettingsPage() {
         <SettingsSection title="Profile" description="Used as the default reporter and comment author.">
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <label className="mb-1.5 block text-xs font-medium text-muted-foreground">Display Name</label>
-              <Input value={currentUser} onChange={(e) => setCurrentUser(e.target.value)} />
+              <Label htmlFor="settings-display-name" className="mb-1.5 block text-xs font-medium text-muted-foreground">
+                Display Name
+              </Label>
+              <Input id="settings-display-name" value={currentUser} onChange={(e) => setCurrentUser(e.target.value)} />
             </div>
             <div>
-              <label className="mb-1.5 block text-xs font-medium text-muted-foreground">Role</label>
+              <Label htmlFor="settings-role" className="mb-1.5 block text-xs font-medium text-muted-foreground">
+                Role
+              </Label>
               <Select value={currentRole} onValueChange={(v) => v && setCurrentRole(v as UserRole)}>
-                <SelectTrigger className="w-full">
+                <SelectTrigger id="settings-role" className="w-full">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>

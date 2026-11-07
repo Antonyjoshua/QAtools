@@ -3,7 +3,7 @@
 import * as React from "react";
 import Link from "next/link";
 import { useLiveQuery } from "dexie-react-hooks";
-import { ArrowRight, StickyNote, Calculator, Sparkles, Clock, Bug, Swords } from "lucide-react";
+import { ArrowRight, StickyNote, Calculator, Sparkles, Clock, Bug, Swords, ClipboardList, Webhook, Radar } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { LogoMark } from "@/components/logo-mark";
@@ -14,6 +14,9 @@ import { useHistoryStore as useCalculatorHistoryStore } from "@/lib/calculator/s
 import { ALL_GENERATORS } from "@/lib/generator/registry";
 import { useAppStore as useGeneratorStore } from "@/lib/generator/store";
 import { db as bugsDb } from "@/lib/bugs/db";
+import { db as testcasesDb } from "@/lib/testcases/db";
+import { db as apiConsoleDb } from "@/lib/api-console/db";
+import { db as exploratoryDb } from "@/lib/exploratory/db";
 import { useAppStore as useSoloStore } from "@/lib/solo/store/useAppStore";
 import { getLevelInfo } from "@/lib/solo/services/level";
 
@@ -36,6 +39,9 @@ export default function HomePage() {
   const calculatorHistory = useCalculatorHistoryStore((s) => s.entries);
   const generatorHistory = useGeneratorStore((s) => s.history);
   const bugs = useLiveQuery(() => bugsDb.bugs.toArray(), []);
+  const testCasesCount = useLiveQuery(() => testcasesDb.testCases.count(), []);
+  const savedRequestsCount = useLiveQuery(() => apiConsoleDb.requests.count(), []);
+  const sessionsCount = useLiveQuery(() => exploratoryDb.sessions.count(), []);
   const soloXp = useSoloStore((s) => s.xp.total);
 
   const notesCount = notes?.length ?? 0;
@@ -76,12 +82,36 @@ export default function HomePage() {
       accent: "bg-chart-3/15 text-chart-3",
     },
     {
+      href: "/testcases",
+      title: "Test Management",
+      description: "Requirements, test plans, test cases and execution runs — with full traceability and coverage reporting.",
+      count: mounted ? `${testCasesCount ?? 0} test case${(testCasesCount ?? 0) === 1 ? "" : "s"}` : undefined,
+      icon: ClipboardList,
+      accent: "bg-chart-6/15 text-chart-6",
+    },
+    {
       href: "/bugs",
       title: "Bug Reports",
       description: "Structured bug reports with attachments, reusable steps, labels and export history.",
       count: mounted ? `${bugsCount} bug report${bugsCount === 1 ? "" : "s"}` : undefined,
       icon: Bug,
       accent: "bg-chart-4/15 text-chart-4",
+    },
+    {
+      href: "/api-console",
+      title: "API Console",
+      description: "A lightweight REST client — build, send, and assert on requests, with saved collections and environments.",
+      count: mounted ? `${savedRequestsCount ?? 0} saved request${(savedRequestsCount ?? 0) === 1 ? "" : "s"}` : undefined,
+      icon: Webhook,
+      accent: "bg-chart-7/15 text-chart-7",
+    },
+    {
+      href: "/exploratory",
+      title: "Exploratory Testing",
+      description: "Charter-driven, session-based exploratory testing with a timer and a running notes/bugs-found log.",
+      count: mounted ? `${sessionsCount ?? 0} session${(sessionsCount ?? 0) === 1 ? "" : "s"}` : undefined,
+      icon: Radar,
+      accent: "bg-chart-8/15 text-chart-8",
     },
     {
       href: "/journey",

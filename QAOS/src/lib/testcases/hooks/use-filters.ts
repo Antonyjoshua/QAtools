@@ -35,11 +35,12 @@ export function useTestCaseFilters() {
   return { filters, setFilters, toggle, setSearch, clear, activeCount };
 }
 
-export function applyTestCaseFilters(testCases: TestCase[], filters: TestCaseFilters): TestCase[] {
+export function applyTestCaseFilters(testCases: TestCase[], filters: TestCaseFilters, requirementCodeById?: Map<string, string>): TestCase[] {
   const q = filters.search.trim().toLowerCase();
   return testCases.filter((tc) => {
     if (q) {
-      const haystack = `${tc.displayId} ${tc.title} ${tc.requirementId} ${tc.tags.join(" ")}`.toLowerCase();
+      const requirementCode = requirementCodeById?.get(tc.requirementId) ?? "";
+      const haystack = `${tc.displayId} ${tc.title} ${requirementCode} ${tc.tags.join(" ")}`.toLowerCase();
       if (!haystack.includes(q)) return false;
     }
     if (filters.status.length && !filters.status.includes(tc.status)) return false;

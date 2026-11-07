@@ -30,6 +30,26 @@ async function runSeed(): Promise<void> {
   const jobCount = await db.jobs.count();
   if (jobCount > 0) return;
 
+  await db.transaction("rw", [db.companies, db.sources, db.jobs, db.reviewQueue, db.syncRuns, db.profile], async () => {
+    await seedTables();
+  });
+}
+
+async function seedTables(): Promise<void> {
+  // A previous seeding attempt may have been interrupted mid-way (e.g. the
+  // page navigated away right after companies committed but before jobs
+  // did), leaving these tables partially populated with the same fixed ids
+  // this function is about to re-insert. Clear them first so this retry
+  // can never collide with that leftover state.
+  await Promise.all([
+    db.companies.clear(),
+    db.sources.clear(),
+    db.jobs.clear(),
+    db.reviewQueue.clear(),
+    db.syncRuns.clear(),
+    db.profile.clear(),
+  ]);
+
   const companies: Company[] = SEED_COMPANIES.map((c) => ({
     id: c.id,
     name: c.name,

@@ -7,6 +7,7 @@ import { addStep } from "./steps-repo";
 import { createExecution, recordResult } from "./execution-repo";
 import { ensureTagsExist } from "./tags-repo";
 import { createRequirement } from "./requirements-repo";
+import { createTestPlan, setPlanTestCases } from "./test-plans-repo";
 
 let seedPromise: Promise<void> | null = null;
 
@@ -24,8 +25,9 @@ async function doSeed(): Promise<void> {
     "Web and mobile storefront — checkout, orders, and account management."
   );
   await ensureTagsExist(project.id, ["regression", "smoke", "critical-path", "payments"]);
-  await createRequirement(project.id, "REQ-101", "Users can sign in with email and password");
-  await createRequirement(project.id, "REQ-142", "Checkout supports saved payment methods");
+  const reqLogin = await createRequirement(project.id, "REQ-101", "Users can sign in with email and password");
+  const reqCheckout = await createRequirement(project.id, "REQ-142", "Checkout supports saved payment methods");
+  const reqOrders = await createRequirement(project.id, "REQ-150", "Orders API returns accurate order data");
 
   const auth = await createFolder(project.id, "Authentication");
   const login = await createFolder(project.id, "Login", auth.id);
@@ -93,7 +95,7 @@ async function doSeed(): Promise<void> {
       priority: "Critical",
       severity: "Blocker",
       type: "Smoke",
-      requirementId: "REQ-101",
+      requirementId: reqLogin.id,
       tags: ["smoke", "critical-path"],
       preconditions: "User account exists and is active.",
       testData: "email: qa@example.com / password: Test1234!",
@@ -114,7 +116,7 @@ async function doSeed(): Promise<void> {
       priority: "High",
       severity: "Major",
       type: "Smoke",
-      requirementId: "REQ-101",
+      requirementId: reqLogin.id,
       tags: ["smoke"],
     },
     [
@@ -134,6 +136,7 @@ async function doSeed(): Promise<void> {
       severity: "Minor",
       type: "Regression",
       status: "Approved",
+      requirementId: reqLogin.id,
       tags: ["regression"],
     },
     [
@@ -151,7 +154,7 @@ async function doSeed(): Promise<void> {
       priority: "Critical",
       severity: "Blocker",
       type: "Functional",
-      requirementId: "REQ-142",
+      requirementId: reqCheckout.id,
       tags: ["critical-path", "payments"],
       automationStatus: "Automated",
       automationScriptLink: "https://ci.example.com/jobs/checkout-saved-payment",
@@ -173,6 +176,7 @@ async function doSeed(): Promise<void> {
       severity: "Major",
       type: "Functional",
       status: "In Review",
+      requirementId: reqCheckout.id,
       tags: ["payments"],
     },
     [
@@ -191,6 +195,7 @@ async function doSeed(): Promise<void> {
       severity: "Major",
       type: "API",
       status: "Approved",
+      requirementId: reqOrders.id,
       automationStatus: "Automated",
       tags: ["regression"],
     },
@@ -210,14 +215,26 @@ async function doSeed(): Promise<void> {
       severity: "Major",
       type: "API",
       status: "Draft",
+      requirementId: reqOrders.id,
       tags: [],
     },
     [{ action: "Send POST /orders/{id}/cancel for a pending order", expectedResult: "Order status becomes Cancelled and a webhook fires" }]
   );
 
-  // A run in progress with a couple of results recorded, so the execution dashboard has real data.
+  // A Test Plan with a run in progress and a couple of results recorded, so the plan/run pages have real data.
+  const plan = await createTestPlan({
+    projectId: project.id,
+    name: "Sprint 14 Regression Plan",
+    objective: "Verify critical login and checkout paths ahead of the 1.0.5 release.",
+    targetRelease: "1.0.5",
+    environment: "Staging",
+    owner: author,
+    status: "Active",
+  });
+  await setPlanTestCases(plan.id, [c1.id, c2.id, c4.id]);
   const run = await createExecution({
     projectId: project.id,
+    testPlanId: plan.id,
     name: "Regression Sprint 14",
     description: "Full regression pass ahead of the 1.0.5 release.",
     environment: "Staging",

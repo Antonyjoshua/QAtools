@@ -13,7 +13,7 @@ function pickRowScenario(config: DomainGenConfig): "valid" | "invalid" | "bounda
 }
 
 export function generateDomainRecords(category: DomainCategoryDef, config: DomainGenConfig): Record<string, unknown>[] {
-  const fields = category.fields.filter((f) => f.required || config.selectedFieldKeys.includes(f.key));
+  const fields = category.fields.filter((f) => config.selectedFieldKeys.includes(f.key));
   const count = Math.max(1, Math.min(100000, Math.floor(config.count) || 1));
   const rows: Record<string, unknown>[] = [];
 
@@ -62,7 +62,7 @@ export function generateDomainRecords(category: DomainCategoryDef, config: Domai
 export function defaultConfig(category: DomainCategoryDef, locale = "IN"): DomainGenConfig {
   return {
     count: 25,
-    selectedFieldKeys: category.fields.filter((f) => !f.required).map((f) => f.key),
+    selectedFieldKeys: category.fields.map((f) => f.key),
     scenario: "valid",
     includeDuplicates: false,
     includeNulls: false,

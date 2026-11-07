@@ -53,6 +53,11 @@ import {
   ShoppingBag,
   MousePointerClick,
   Globe,
+  ListTree,
+  GitBranch,
+  ClipboardCheck,
+  Webhook,
+  Radar,
 } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { GlobalCommand } from "@/components/global-command";
@@ -127,8 +132,11 @@ const modules: ModuleSection[] = [
     items: [
       { href: "/testcases", label: "Dashboard", icon: LayoutGrid },
       { href: "/testcases/projects", label: "Projects", icon: FolderTree },
+      { href: "/testcases/requirements", label: "Requirements", icon: ListTree },
+      { href: "/testcases/plans", label: "Test Plans", icon: ClipboardCheck },
       { href: "/testcases/runs", label: "Test Runs", icon: PlayCircle },
       { href: "/testcases/reports", label: "Reports", icon: FileBarChart2 },
+      { href: "/testcases/traceability", label: "Traceability & Coverage", icon: GitBranch },
     ],
   },
   {
@@ -147,6 +155,20 @@ const modules: ModuleSection[] = [
       { href: "/bugs/admin", label: "Projects & Modules", icon: FolderKanban },
       { href: "/bugs/settings", label: "Settings", icon: Settings },
     ],
+  },
+  {
+    id: "api-console",
+    label: "API Console",
+    href: "/api-console",
+    icon: Webhook,
+    items: [{ href: "/api-console", label: "Workspace", icon: Webhook }],
+  },
+  {
+    id: "exploratory",
+    label: "Exploratory Testing",
+    href: "/exploratory",
+    icon: Radar,
+    items: [{ href: "/exploratory", label: "Charters", icon: Radar }],
   },
   {
     id: "resume",

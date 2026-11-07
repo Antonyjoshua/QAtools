@@ -1,5 +1,6 @@
 import { db } from "../db";
 import { uid } from "../id";
+import { deleteTestCaseArtifacts } from "./reference-cleanup";
 import type { Suite } from "../types";
 
 export async function createSuite(projectId: string, folderId: string, name: string, description = ""): Promise<Suite> {
@@ -37,11 +38,15 @@ export async function reorderSuites(updates: { id: string; order: number; folder
 }
 
 export async function deleteSuite(id: string): Promise<void> {
-  await db.transaction("rw", [db.suites, db.testCases, db.steps], async () => {
-    await db.suites.delete(id);
-    const cases = await db.testCases.where("suiteId").equals(id).toArray();
-    const caseIds = cases.map((c) => c.id);
-    await db.testCases.where("suiteId").equals(id).delete();
-    if (caseIds.length) await db.steps.where("testCaseId").anyOf(caseIds).delete();
-  });
+  await db.transaction(
+    "rw",
+    [db.suites, db.testCases, db.steps, db.comments, db.history, db.executionResults, db.testPlans, db.executions, db.attachments],
+    async () => {
+      await db.suites.delete(id);
+      const cases = await db.testCases.where("suiteId").equals(id).toArray();
+      const caseIds = cases.map((c) => c.id);
+      await db.testCases.where("suiteId").equals(id).delete();
+      await deleteTestCaseArtifacts(caseIds);
+    }
+  );
 }

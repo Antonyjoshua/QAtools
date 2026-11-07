@@ -345,3 +345,31 @@ export function evaluateExpression(expr: string, angleUnit: AngleUnit): number {
   if (!Number.isFinite(value)) throw new MathEvalError(Number.isNaN(value) ? "Invalid calculation" : "Result is too large");
   return value;
 }
+
+const VALID_WORDS: readonly string[] = [...FUNCTION_NAMES, ...NAMED_OPERATORS, "e"];
+
+/** Filters free-typed/pasted text down to characters `tokenize` can actually consume, so the
+ * editable expression field can't fill up with arbitrary prose. Letters only survive as part of
+ * a run that's a case-insensitive prefix of a real function/operator name (e.g. "s", "si", "sin"
+ * on the way to typing "sin(", or "n", "nP" on the way to "nPr") — anything else (random words,
+ * stray consonants) is dropped character by character as it's typed or pasted. */
+export function sanitizeExpressionInput(raw: string): string {
+  let out = "";
+  let word = "";
+  for (const ch of raw) {
+    if (/[a-zA-Z]/.test(ch)) {
+      const candidate = (word + ch).toLowerCase();
+      const isValidPrefix = VALID_WORDS.some((w) => w.toLowerCase().startsWith(candidate));
+      if (isValidPrefix) {
+        word += ch;
+        out += ch;
+      }
+      // else: drop this letter; `word` (and what's already in `out`) is left as-is so a
+      // following valid letter can still continue the same in-progress word.
+    } else {
+      word = "";
+      out += ch;
+    }
+  }
+  return out;
+}

@@ -105,7 +105,14 @@ async function dedupeExisting(): Promise<{ project: Project; moduleByName: Map<s
 
   let project: Project;
   if (quangradeProjects.length === 0) {
-    project = { id: uid(), name: QUANGRADE_PROJECT_NAME, description: "The QuanGrade application itself.", isFavorite: true, createdAt: Date.now() };
+    project = {
+      id: uid(),
+      name: QUANGRADE_PROJECT_NAME,
+      description: "The QuanGrade application itself.",
+      isFavorite: true,
+      createdAt: Date.now(),
+      linkedTestProjectId: null,
+    };
     await db.projects.add(project);
   } else {
     project = quangradeProjects[0];

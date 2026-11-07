@@ -25,6 +25,10 @@ export interface CreateBugInput {
   linkedTestCaseDisplayId?: string | null;
   linkedExecutionId?: string | null;
   linkedExecutionResultId?: string | null;
+  linkedRequirementId?: string | null;
+  linkedRequirementCode?: string | null;
+  linkedExploratorySessionId?: string | null;
+  linkedExploratorySessionCharter?: string | null;
 }
 
 async function nextDisplayId(): Promise<string> {
@@ -78,6 +82,10 @@ export async function createBug(input: CreateBugInput = {}): Promise<BugReport> 
     linkedTestCaseDisplayId: input.linkedTestCaseDisplayId ?? null,
     linkedExecutionId: input.linkedExecutionId ?? null,
     linkedExecutionResultId: input.linkedExecutionResultId ?? null,
+    linkedRequirementId: input.linkedRequirementId ?? null,
+    linkedRequirementCode: input.linkedRequirementCode ?? null,
+    linkedExploratorySessionId: input.linkedExploratorySessionId ?? null,
+    linkedExploratorySessionCharter: input.linkedExploratorySessionCharter ?? null,
   };
   await db.bugs.add(bug);
   return bug;
@@ -85,6 +93,14 @@ export async function createBug(input: CreateBugInput = {}): Promise<BugReport> 
 
 export async function getBugsForTestCase(testCaseId: string): Promise<BugReport[]> {
   return db.bugs.where("linkedTestCaseId").equals(testCaseId).sortBy("createdAt");
+}
+
+export async function getBugsForSession(sessionId: string): Promise<BugReport[]> {
+  return db.bugs.where("linkedExploratorySessionId").equals(sessionId).sortBy("createdAt");
+}
+
+export async function getBugsForRequirement(requirementId: string): Promise<BugReport[]> {
+  return db.bugs.where("linkedRequirementId").equals(requirementId).sortBy("createdAt");
 }
 
 const FIELD_LABELS: Record<string, string> = {

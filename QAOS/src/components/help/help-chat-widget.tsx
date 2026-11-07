@@ -294,8 +294,10 @@ export function HelpChatWidget() {
           <>
             {/* Invisible viewport-sized bounds so both the collapsed bubble and the open panel can
                 be dragged anywhere on screen without manual position math — framer-motion measures
-                this container's rect directly. */}
-            {isDesktop && <div ref={dragBoundsRef} className="pointer-events-none fixed inset-4 z-[99]" />}
+                this container's rect directly. Always mounted (not gated on isDesktop) so the ref
+                is guaranteed to be attached before either draggable below reads it — dragging itself
+                is still separately disabled on mobile via `drag={isDesktop}`. */}
+            <div ref={dragBoundsRef} className="pointer-events-none fixed inset-4 z-[99]" />
 
             <motion.div
               drag={isDesktop}

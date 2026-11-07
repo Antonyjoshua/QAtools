@@ -12,6 +12,7 @@ import type {
   HistoryEntry,
   Requirement,
   Tag,
+  TestPlan,
 } from "./types";
 
 class TestManagementDB extends Dexie {
@@ -27,6 +28,7 @@ class TestManagementDB extends Dexie {
   history!: EntityTable<HistoryEntry, "id">;
   requirements!: EntityTable<Requirement, "id">;
   tags!: EntityTable<Tag, "id">;
+  testPlans!: EntityTable<TestPlan, "id">;
 
   constructor() {
     super("qaos-testcases-db");
@@ -43,6 +45,12 @@ class TestManagementDB extends Dexie {
       history: "id, entityType, entityId, changedAt",
       requirements: "id, projectId, requirementId",
       tags: "id, projectId, name",
+    });
+    this.version(2).stores({
+      testPlans: "id, projectId, status, createdAt",
+      executions: "id, projectId, testPlanId, status, createdAt, scheduledFor",
+      testCases:
+        "id, displayId, projectId, suiteId, status, priority, severity, type, automationStatus, sprint, module, requirementId, createdAt, updatedAt, *tags",
     });
   }
 }

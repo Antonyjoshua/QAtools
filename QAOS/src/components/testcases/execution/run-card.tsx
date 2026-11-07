@@ -12,6 +12,7 @@ import type { Execution } from "@/lib/testcases/types";
 
 export function RunCard({ execution, projectName }: { execution: Execution; projectName?: string }) {
   const results = useLiveQuery(() => db.executionResults.where("executionId").equals(execution.id).toArray(), [execution.id]) ?? [];
+  const plan = useLiveQuery(() => (execution.testPlanId ? db.testPlans.get(execution.testPlanId) : undefined), [execution.testPlanId]);
   const stats = computeStats(results);
 
   return (
@@ -25,7 +26,10 @@ export function RunCard({ execution, projectName }: { execution: Execution; proj
             <RunStatusBadge value={execution.status} />
           </div>
           <CardTitle className="mt-2 line-clamp-1">{execution.name}</CardTitle>
-          {projectName && <p className="text-xs text-muted-foreground">{projectName}</p>}
+          <div className="flex flex-wrap items-center gap-x-2 text-xs text-muted-foreground">
+            {projectName && <span>{projectName}</span>}
+            {plan && <span>· Plan: {plan.name}</span>}
+          </div>
         </CardHeader>
         <CardContent className="flex flex-col gap-2">
           <StackedProgress stats={stats} />

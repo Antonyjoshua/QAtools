@@ -66,7 +66,7 @@ export default function NewTestCasePage() {
     return (
       <div className="mx-auto max-w-lg px-4 py-16 text-center">
         <p className="text-sm text-muted-foreground">Choose a suite from a project before creating a test case.</p>
-        <Button className="mt-4" render={<Link href="/testcases/projects">Go to projects</Link>} />
+        <Button className="mt-4" nativeButton={false} render={<Link href="/testcases/projects">Go to projects</Link>} />
       </div>
     );
   }
@@ -85,7 +85,7 @@ export default function NewTestCasePage() {
           Create test case
         </Button>
       </div>
-      <TestCaseForm formId={formId} defaultValues={DEFAULTS} onSubmit={handleSubmit} submitLabel="Create" />
+      <TestCaseForm formId={formId} defaultValues={DEFAULTS} onSubmit={handleSubmit} submitLabel="Create" projectId={projectId} />
     </div>
   );
 }
